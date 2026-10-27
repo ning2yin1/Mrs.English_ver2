@@ -1,4 +1,5 @@
 import { defineConfig } from "@playwright/test";
+import {existsSync} from "node:fs";
 export default defineConfig({
   testDir: "./tests/e2e",
   timeout: 90000,
@@ -8,7 +9,7 @@ export default defineConfig({
     viewport: { width: 844, height: 390 },
     browserName: "chromium",
     launchOptions: {
-      executablePath: process.env.CI ? undefined : "/usr/bin/chromium",
+      executablePath: process.env.CI || !existsSync("/usr/bin/chromium") ? undefined : "/usr/bin/chromium",
       args: ["--no-sandbox"],
     },
     trace: "retain-on-failure",

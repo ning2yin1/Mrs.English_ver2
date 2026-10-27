@@ -36,10 +36,15 @@ jobs:
       - run: npm run test:e2e
   deploy:
     needs: check
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && vars.CLOUDFLARE_PROJECT != ''
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
-      name: personal-production
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -53,9 +58,11 @@ jobs:
         working-directory: app
         env:
           SITE_PASSPHRASE: ${{ secrets.SITE_PASSPHRASE }}
-      - name: Publish only encrypted material to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
+      - uses: actions/configure-pages@v5
+      - name: Upload only the encrypted application
+        uses: actions/upload-pages-artifact@v3
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy app/sealed --project-name=${{ vars.CLOUDFLARE_PROJECT }} --branch=main
+          path: app/sealed
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

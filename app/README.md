@@ -42,30 +42,25 @@ npm run verify:data
 
 **公開ホストへ送るのは `app/sealed/` だけです。`app/dist/`、リポジトリ全体、元写真ディレクトリを公開しないでください。**
 
-`scripts/seal.mjs` はアプリ本体と全写真・教材をファイルごとにgzip圧縮し、PBKDF2-SHA256（600,000回）とAES-256-GCMで暗号化します。合言葉はブラウザーから送信せず、端末内のService Workerで復号します。配信ホストに置くのは解除画面と暗号文だけです。Cloudflare Pagesの1ファイル上限に余裕を持たせるため、暗号文は8MiB以下に分割します。端末では最大4ファイルずつ検証・保存し、全素材を巨大なJSON文字列に展開しません。初回解除後、検証済みのファイルを端末内にキャッシュします。
+`scripts/seal.mjs` はアプリ本体と全写真・教材をファイルごとにgzip圧縮し、PBKDF2-SHA256（600,000回）とAES-256-GCMで暗号化します。合言葉はブラウザーから送信せず、端末内のService Workerで復号します。配信ホストに置くのは解除画面と暗号文だけです。配信ファイルの肥大化を避けるため、暗号文は8MiB以下に分割します。端末では最大4ファイルずつ検証・保存し、全素材を巨大なJSON文字列に展開しません。初回解除後、検証済みのファイルを端末内にキャッシュします。
 
 これは合言葉を知る人向けの配信です。サーバー側の本人認証・個別の失効管理ではありません。URLだけでは写真を取り出せませんが、暗号文は取得できるため、パスワードマネージャーで生成した**32文字以上の推測困難な合言葉**を推奨します。合言葉・解除済み端末・バックアップは他人と共有しないでください。設定で「この端末の配信をロック」すると復号キャッシュだけを削除し、セーブは保持します。既に解除した端末から素材を回収する仕組みではありません。
 
 GitHubリポジトリ自体がPublicであれば、そこにある元キットは別途閲覧可能です。この作業ではリポジトリの公開範囲を変更していません。GitHub APIへ接続できなかったため、公開範囲の確認は未完了です。
 
-### Cloudflare Pages無料枠と自動公開
+### GitHub Pagesで公開・自動更新
 
-Cloudflareのアカウント・プロジェクト・APIトークンがまだこの環境には提供されていないため、公開URLはまだ発行していません。次の設定後、main更新 → テスト → 暗号化 → 公開が自動で行われます。
+このリポジトリのSettings → Pagesから公開できます。GitHub Pagesの「Source」は **GitHub Actions** にしてください。「Deploy from a branch」でソースコードを直接公開する構成ではありません。
 
-1. Cloudflare Dashboard → Workers & Pages → Pages → **Direct Upload** のプロジェクトを作成。任意のプロジェクト名、production branchは `main`。平文のファイルをアップロードする必要はありません。Git連携方式ではなくDirect Upload方式を選びます。
-2. CloudflareのAPI tokenを、対象アカウントの **Account / Cloudflare Pages / Edit** のみに制限して発行し、Account IDを確認。
-3. GitHubのこのリポジトリ → Settings → Secrets and variables → Actions に、次を設定。
+1. [GitHubのActions Secret設定](https://github.com/ning2yin1/Mrs.English_ver2/settings/secrets/actions)を開き、**New repository secret** を押す。
+2. Nameに `SITE_PASSPHRASE`、Secretに自分だけの長い合言葉を入力して保存。16文字以上（32文字以上を推奨）。合言葉はチャットやソースコードに書かない。
+3. [Settings → Pages](https://github.com/ning2yin1/Mrs.English_ver2/settings/pages)のSourceを **GitHub Actions** に変更。
+4. [Actions](https://github.com/ning2yin1/Mrs.English_ver2/actions/workflows/app.yml)で **Test and privately publish Mrs. English** → **Run workflow** → branch `main` → **Run workflow**。
+5. 実行結果が緑になるまで待つ。デプロイの `github-pages` に表示されるHTTPS URLを開く。標準設定での公開先は `https://ning2yin1.github.io/Mrs.English_ver2/`（公開成功前は404になります）。
 
-| 種類 | 名前 | 内容 |
-|---|---|---|
-| Secret | `CLOUDFLARE_API_TOKEN` | 上記APIトークン |
-| Secret | `CLOUDFLARE_ACCOUNT_ID` | 対象Account ID |
-| Secret | `SITE_PASSPHRASE` | 自分だけの合言葉。16文字未満・空白だけはビルド拒否 |
-| Variable | `CLOUDFLARE_PROJECT` | 作成したPagesプロジェクト名 |
+以後はmainへのpushで教材QA・単体・ビルド・ブラウザーテストを実行し、合格後に暗号化してGitHub Pagesへ自動公開します。合言葉が未登録なら安全のためビルドが失敗し、平文公開には切り替えません。Cloudflareのアカウント・APIトークンは不要です。
 
-4. Actions → **Test and privately publish Mrs. English** → **Run workflow** → `main`。成功するとCloudflare Pagesの画面にHTTPSのproduction URLが表示されます。以後はmainへのpushで自動公開されます。
-
-`.github/workflows/app.yml` はPRとmainの教材QA・単体・ビルド・E2Eを実行します。公開用変数が未設定の間はデプロイだけをスキップします。PRからは公開せず、合言葉が未設定なら平文公開に切り替えず失敗します。写真入りスクリーンショットや平文ビルドをActions artifactとして公開する処理もありません。サービスのプラン・利用条件は設定時に確認してください。有料契約やリポジトリ公開範囲の変更は不要な構成ですが、それらを求められた場合は操作を進めないでください。
+公開ホストには `app/sealed/` の解除画面と暗号文のみを送ります。写真入りスクリーンショット・トレース・平文の `app/dist/` は公開artifactに含めません。GitHub Pages標準のネットワーク公開範囲はpublicですが、素材の閲覧には端末内での合言葉による解除が必要です。「Visibility」のEnterprise無料体験を申し込む必要はありません。
 
 公開後は、未解除ブラウザーから元写真パスが404であること、合言葉解除、タイトル画像、初回10枚、10問プレイ、オフライン再起動をproduction URLで再確認してください。ローカルの同じ配信方式では検証済みですが、実際の公開サービス上の確認は未実施です。
 

@@ -9,9 +9,11 @@ const mime = {
 };
 createServer(async (req, res) => {
   try {
-    const pathname = decodeURIComponent(
+    let pathname = decodeURIComponent(
       new URL(req.url, "http://localhost").pathname,
     );
+    if (pathname.startsWith("/Mrs.English_ver2/"))
+      pathname = pathname.slice("/Mrs.English_ver2".length);
     const p = path.resolve(
       "sealed",
       "." + (pathname === "/" ? "/index.html" : pathname),

@@ -106,3 +106,41 @@ test("private deployment protects assets, unlocks offline app, and locks again w
     ).status(),
   ).toBe(404);
 });
+
+test("GitHub Pages repository subpath supports unlocking, assets and offline restart", async ({
+  page,
+  context,
+  request,
+}) => {
+  const base = "http://127.0.0.1:4174/Mrs.English_ver2/";
+  await page.goto(base);
+  await page.getByLabel("合言葉", { exact: true }).fill(passphrase);
+  await page.getByRole("button", { name: "解除してはじめる" }).click();
+  await expect(page.getByRole("button", { name: /TAP TO START/ })).toBeVisible({
+    timeout: 60000,
+  });
+  expect(
+    await page.evaluate(async () => {
+      const r = await fetch(
+        new URL(
+          "assets/original/assets/photos/backgrounds/TOP.jpg",
+          document.baseURI,
+        ),
+      );
+      return { status: r.status, type: r.headers.get("Content-Type") };
+    }),
+  ).toEqual({ status: 200, type: "image/jpeg" });
+  expect(
+    (
+      await request.get(
+        base + "assets/original/assets/photos/backgrounds/TOP.jpg",
+      )
+    ).status(),
+  ).toBe(404);
+  await context.setOffline(true);
+  await page.reload();
+  await page.getByRole("button", { name: /TAP TO START/ }).click();
+  await expect(
+    page.getByRole("textbox", { name: "ニックネーム", exact: true }),
+  ).toBeVisible();
+});

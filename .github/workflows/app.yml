@@ -1,4 +1,4 @@
-name: Test and privately publish Mrs. English
+name: Test and publish Mrs. English
 on:
   push:
     branches: [main]
@@ -54,15 +54,13 @@ jobs:
           cache-dependency-path: app/package-lock.json
       - run: npm ci
         working-directory: app
-      - run: npm run build && node scripts/seal.mjs
+      - run: npm run build
         working-directory: app
-        env:
-          SITE_PASSPHRASE: ${{ secrets.SITE_PASSPHRASE }}
       - uses: actions/configure-pages@v5
-      - name: Upload only the encrypted application
+      - name: Upload the application
         uses: actions/upload-pages-artifact@v3
         with:
-          path: app/sealed
+          path: app/dist
       - name: Publish to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

@@ -5,6 +5,5 @@ app/test-results/
 app/playwright-report/
 *.tsbuildinfo
 __pycache__/
-app/sealed/
 app/.env*
 .DS_Store

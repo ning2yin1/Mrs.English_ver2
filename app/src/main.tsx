@@ -164,7 +164,6 @@ function App() {
       matchMedia("(orientation: portrait)").matches,
     ),
     [period, setPeriod] = useState<"daily" | "weekly">("daily"),
-    [privateHost, setPrivateHost] = useState(false),
     [resultPlaying, setResultPlaying] = useState(false);
   const stateRef = useRef<State | null>(null),
     locked = useRef(false),
@@ -274,10 +273,6 @@ function App() {
       if (e.data.type === "cache-progress")
         setOffline(`オフライン準備 ${e.data.done}/${e.data.total}`);
       if (e.data.type === "cache-ready") setOffline("✓ オフライン準備完了");
-      if (e.data.type === "private-host") setPrivateHost(true);
-      if (e.data.type === "cache-update")
-        setOffline("新版があります：更新時は合言葉で再解除");
-      if (e.data.type === "locked") location.assign("./?unlock=1");
     });
     navigator.serviceWorker
       .register(new URL("sw.js", document.baseURI), { scope: "./" })
@@ -2008,20 +2003,6 @@ function App() {
           >
             端末保存の保持を要求
           </button>
-          {privateHost && (
-            <div className="actions">
-              <button onClick={() => location.assign("./?unlock=1")}>
-                配信の合言葉・更新を開く
-              </button>
-              <button
-                onClick={() =>
-                  navigator.serviceWorker.controller?.postMessage("lock")
-                }
-              >
-                この端末の配信をロック
-              </button>
-            </div>
-          )}
           <p>
             {offline}{" "}
             <button

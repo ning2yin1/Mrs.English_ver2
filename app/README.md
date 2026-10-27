@@ -38,39 +38,25 @@ npm run verify:data
 
 バックアップは破損検出用SHA-256付きです。署名・不正対策ではなく、端末だけで使う個人セーブです。古いバックアップの復元は、その時点への巻戻しになります。
 
-## 個人用の公開
+## GitHub Pagesで公開・自動更新
 
-**公開ホストへ送るのは `app/sealed/` だけです。`app/dist/`、リポジトリ全体、元写真ディレクトリを公開しないでください。**
+公開URLを開くと、そのままタイトル画面が表示されます。合言葉・ログイン・Secretsの登録は不要です。写真・教材も公開ファイルとして取得できる構成です。リポジトリの公開範囲自体は変更しません。
 
-`scripts/seal.mjs` はアプリ本体と全写真・教材をファイルごとにgzip圧縮し、PBKDF2-SHA256（600,000回）とAES-256-GCMで暗号化します。合言葉はブラウザーから送信せず、端末内のService Workerで復号します。配信ホストに置くのは解除画面と暗号文だけです。配信ファイルの肥大化を避けるため、暗号文は8MiB以下に分割します。端末では最大4ファイルずつ検証・保存し、全素材を巨大なJSON文字列に展開しません。初回解除後、検証済みのファイルを端末内にキャッシュします。
+1. [Settings → Pages](https://github.com/ning2yin1/Mrs.English_ver2/settings/pages)のSourceを **GitHub Actions** に変更。
+2. [Actions](https://github.com/ning2yin1/Mrs.English_ver2/actions/workflows/app.yml)で **Test and publish Mrs. English** → **Run workflow** → branch `main` → **Run workflow**。mainへのpushでも自動実行します。
+3. 実行結果が緑になるまで待つ。公開先は `https://ning2yin1.github.io/Mrs.English_ver2/`（公開成功前は404になります）。
 
-これは合言葉を知る人向けの配信です。サーバー側の本人認証・個別の失効管理ではありません。URLだけでは写真を取り出せませんが、暗号文は取得できるため、パスワードマネージャーで生成した**32文字以上の推測困難な合言葉**を推奨します。合言葉・解除済み端末・バックアップは他人と共有しないでください。設定で「この端末の配信をロック」すると復号キャッシュだけを削除し、セーブは保持します。既に解除した端末から素材を回収する仕組みではありません。
+教材QA・単体・ビルド・ブラウザーテストが合格すると、`app/dist/` のアプリと配信用素材をGitHub Pagesへ自動公開します。元の制作キット全体やテスト用のバックアップ・トレースは公開artifactに含めません。Enterpriseの申込みは不要です。
 
-GitHubリポジトリ自体がPublicであれば、そこにある元キットは別途閲覧可能です。この作業ではリポジトリの公開範囲を変更していません。GitHub APIへ接続できなかったため、公開範囲の確認は未完了です。
-
-### GitHub Pagesで公開・自動更新
-
-このリポジトリのSettings → Pagesから公開できます。GitHub Pagesの「Source」は **GitHub Actions** にしてください。「Deploy from a branch」でソースコードを直接公開する構成ではありません。
-
-1. [GitHubのActions Secret設定](https://github.com/ning2yin1/Mrs.English_ver2/settings/secrets/actions)を開き、**New repository secret** を押す。
-2. Nameに `SITE_PASSPHRASE`、Secretに自分だけの長い合言葉を入力して保存。16文字以上（32文字以上を推奨）。合言葉はチャットやソースコードに書かない。
-3. [Settings → Pages](https://github.com/ning2yin1/Mrs.English_ver2/settings/pages)のSourceを **GitHub Actions** に変更。
-4. [Actions](https://github.com/ning2yin1/Mrs.English_ver2/actions/workflows/app.yml)で **Test and privately publish Mrs. English** → **Run workflow** → branch `main` → **Run workflow**。
-5. 実行結果が緑になるまで待つ。デプロイの `github-pages` に表示されるHTTPS URLを開く。標準設定での公開先は `https://ning2yin1.github.io/Mrs.English_ver2/`（公開成功前は404になります）。
-
-以後はmainへのpushで教材QA・単体・ビルド・ブラウザーテストを実行し、合格後に暗号化してGitHub Pagesへ自動公開します。合言葉が未登録なら安全のためビルドが失敗し、平文公開には切り替えません。Cloudflareのアカウント・APIトークンは不要です。
-
-公開ホストには `app/sealed/` の解除画面と暗号文のみを送ります。写真入りスクリーンショット・トレース・平文の `app/dist/` は公開artifactに含めません。GitHub Pages標準のネットワーク公開範囲はpublicですが、素材の閲覧には端末内での合言葉による解除が必要です。「Visibility」のEnterprise無料体験を申し込む必要はありません。
-
-公開後は、未解除ブラウザーから元写真パスが404であること、合言葉解除、タイトル画像、初回10枚、10問プレイ、オフライン再起動をproduction URLで再確認してください。ローカルの同じ配信方式では検証済みですが、実際の公開サービス上の確認は未実施です。
+公開後は、タイトル表示・写真の読み込み・初回10枚・10問プレイ・オフライン再起動を実際のURLで確認してください。ローカルの同じ配信方式では検証済みですが、実際の公開サービス上の確認は未実施です。
 
 ### iPhoneの使い方
 
-1. HTTPSのproduction URLを**Safari**で開き、合言葉を入力。初回は約25MBの配信を受信し、素材の検証・端末への保存が終わるまで待ちます。
+1. HTTPSのproduction URLを**Safari**で開きます。タイトル画面からすぐに始められます。オフライン利用する場合は、初回の素材保存が完了するまで待ちます。
 2. iPhoneの回転ロックを解除して横向きにします。縦向き時は案内を表示し学習を停止します。OSの横向き固定成功には依存しません。
 3. ニックネーム → 推し → 背景 → 無料10枚を開封 → ホーム。
 4. START → 文法01 / EASY → 開始 → 10問。結果のRP・星、レビューと音声を確認してください。
 5. Safariの共有ボタン → **ホーム画面に追加** → 追加。以後はそのアイコンから起動できます。Safariタブとは保存領域の扱いが異なることがあるため、追加後も確認してください。
 6. 設定で「オフライン準備完了」を確認後、通信を切って再起動。音声がない場合も文字による学習と保存は継続できます。
 
-最新のSafari（暗号化配信はDecompressionStreamをサポートするiOS 16.4以降）を前提としています。英語読み上げは端末TTSで、録音音声600本ではありません。ローカル英語voiceの導入・機内モードでの再生、Safari/ホーム画面追加での音声開始、切欠きとホームバー、文字拡大、容量不足時の挙動はiPhone実機での確認が必要です。端末のデータ消去でセーブが失われるため、定期的にバックアップしてください。
+最新のSafariを推奨します。英語読み上げは端末TTSで、録音音声600本ではありません。ローカル英語voiceの導入・機内モードでの再生、Safari/ホーム画面追加での音声開始、切欠きとホームバー、文字拡大、容量不足時の挙動はiPhone実機での確認が必要です。端末のデータ消去でセーブが失われるため、定期的にバックアップしてください。

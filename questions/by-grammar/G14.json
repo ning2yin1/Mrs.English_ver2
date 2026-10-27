@@ -1,0 +1,2373 @@
+{
+  "grammarId": "G14",
+  "examples": [
+    {
+      "id": "G14-E01",
+      "grammarId": "G14",
+      "grammarNameJa": "which・whoseと選択疑問文",
+      "english": "Which song do you like better?",
+      "translationJa": "あなたはどちらの曲のほうが好きですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Which",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+      },
+      "sentenceExplanationJa": "「Which song do you like better?」は「あなたはどちらの曲のほうが好きですか。」という意味です。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。 この文の対象部分は「Which」。まとまりは Which → song → do you → like → better? の順です。",
+      "glossary": [
+        {
+          "expression": "Which",
+          "lemma": "which",
+          "meaningJa": "どちら・どの／関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "like",
+          "lemma": "like",
+          "meaningJa": "好きである",
+          "kind": "word"
+        },
+        {
+          "expression": "better",
+          "lemma": "better",
+          "meaningJa": "よりよい（goodの比較級）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ song do you like better?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Which"
+        },
+        "options": [
+          {
+            "id": "G14-E01-C3",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E01-C2",
+            "text": "Whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Whose」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E01-C4",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E01-C1",
+            "text": "Which",
+            "isCorrect": true,
+            "explanationJa": "正解。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+          }
+        ],
+        "correctOptionId": "G14-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G14-E01-B01",
+            "text": "Which",
+            "role": "required"
+          },
+          {
+            "id": "G14-E01-B02",
+            "text": "song",
+            "role": "required"
+          },
+          {
+            "id": "G14-E01-B03",
+            "text": "do you",
+            "role": "required"
+          },
+          {
+            "id": "G14-E01-B04",
+            "text": "like",
+            "role": "required"
+          },
+          {
+            "id": "G14-E01-B05",
+            "text": "better?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G14-E01-B01",
+          "G14-E01-B02",
+          "G14-E01-B03",
+          "G14-E01-B04",
+          "G14-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E01-B01",
+            "G14-E01-B02",
+            "G14-E01-B03",
+            "G14-E01-B04",
+            "G14-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G14-E01-B01",
+            "text": "Which",
+            "role": "required"
+          },
+          {
+            "id": "G14-E01-B02",
+            "text": "song",
+            "role": "required"
+          },
+          {
+            "id": "G14-E01-B03",
+            "text": "do you",
+            "role": "required"
+          },
+          {
+            "id": "G14-E01-B04",
+            "text": "like",
+            "role": "required"
+          },
+          {
+            "id": "G14-E01-B05",
+            "text": "better?",
+            "role": "required"
+          },
+          {
+            "id": "G14-E01-D01",
+            "text": "Whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E01-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E01-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G14-E01-D01",
+            "text": "Whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E01-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E01-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G14-E01-B01",
+          "G14-E01-B02",
+          "G14-E01-B03",
+          "G14-E01-B04",
+          "G14-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E01-B01",
+            "G14-E01-B02",
+            "G14-E01-B03",
+            "G14-E01-B04",
+            "G14-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G14-E01-AUDIO",
+        "text": "Which song do you like better?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G14-E02",
+      "grammarId": "G14",
+      "grammarNameJa": "which・whoseと選択疑問文",
+      "english": "Whose ticket is this?",
+      "translationJa": "これは誰のチケットですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Whose",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+      },
+      "sentenceExplanationJa": "「Whose ticket is this?」は「これは誰のチケットですか。」という意味です。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。 この文の対象部分は「Whose」。まとまりは Whose → ticket → is → this? の順です。",
+      "glossary": [
+        {
+          "expression": "Whose",
+          "lemma": "whose",
+          "meaningJa": "誰の・～のものの",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ ticket is this?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Whose"
+        },
+        "options": [
+          {
+            "id": "G14-E02-C2",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E02-C3",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E02-C4",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E02-C1",
+            "text": "Whose",
+            "isCorrect": true,
+            "explanationJa": "正解。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+          }
+        ],
+        "correctOptionId": "G14-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G14-E02-B01",
+            "text": "Whose",
+            "role": "required"
+          },
+          {
+            "id": "G14-E02-B02",
+            "text": "ticket",
+            "role": "required"
+          },
+          {
+            "id": "G14-E02-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G14-E02-B04",
+            "text": "this?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G14-E02-B01",
+          "G14-E02-B02",
+          "G14-E02-B03",
+          "G14-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E02-B01",
+            "G14-E02-B02",
+            "G14-E02-B03",
+            "G14-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G14-E02-B01",
+            "text": "Whose",
+            "role": "required"
+          },
+          {
+            "id": "G14-E02-B02",
+            "text": "ticket",
+            "role": "required"
+          },
+          {
+            "id": "G14-E02-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G14-E02-B04",
+            "text": "this?",
+            "role": "required"
+          },
+          {
+            "id": "G14-E02-D01",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E02-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E02-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G14-E02-D01",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E02-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E02-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G14-E02-B01",
+          "G14-E02-B02",
+          "G14-E02-B03",
+          "G14-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E02-B01",
+            "G14-E02-B02",
+            "G14-E02-B03",
+            "G14-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G14-E02-AUDIO",
+        "text": "Whose ticket is this?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G14-E03",
+      "grammarId": "G14",
+      "grammarNameJa": "which・whoseと選択疑問文",
+      "english": "Which bag is yours?",
+      "translationJa": "どちらのバッグがあなたのものですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Which",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+      },
+      "sentenceExplanationJa": "「Which bag is yours?」は「どちらのバッグがあなたのものですか。」という意味です。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。 この文の対象部分は「Which」。まとまりは Which → bag → is → yours? の順です。",
+      "glossary": [
+        {
+          "expression": "Which",
+          "lemma": "which",
+          "meaningJa": "どちら・どの／関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "yours",
+          "lemma": "yours",
+          "meaningJa": "あなたのもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ bag is yours?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Which"
+        },
+        "options": [
+          {
+            "id": "G14-E03-C1",
+            "text": "Which",
+            "isCorrect": true,
+            "explanationJa": "正解。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+          },
+          {
+            "id": "G14-E03-C2",
+            "text": "Whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Whose」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E03-C3",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E03-C4",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G14-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G14-E03-B01",
+            "text": "Which",
+            "role": "required"
+          },
+          {
+            "id": "G14-E03-B02",
+            "text": "bag",
+            "role": "required"
+          },
+          {
+            "id": "G14-E03-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G14-E03-B04",
+            "text": "yours?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G14-E03-B01",
+          "G14-E03-B02",
+          "G14-E03-B03",
+          "G14-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E03-B01",
+            "G14-E03-B02",
+            "G14-E03-B03",
+            "G14-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G14-E03-B01",
+            "text": "Which",
+            "role": "required"
+          },
+          {
+            "id": "G14-E03-B02",
+            "text": "bag",
+            "role": "required"
+          },
+          {
+            "id": "G14-E03-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G14-E03-B04",
+            "text": "yours?",
+            "role": "required"
+          },
+          {
+            "id": "G14-E03-D01",
+            "text": "Whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E03-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E03-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G14-E03-D01",
+            "text": "Whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E03-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E03-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G14-E03-B01",
+          "G14-E03-B02",
+          "G14-E03-B03",
+          "G14-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E03-B01",
+            "G14-E03-B02",
+            "G14-E03-B03",
+            "G14-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G14-E03-AUDIO",
+        "text": "Which bag is yours?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G14-E04",
+      "grammarId": "G14",
+      "grammarNameJa": "which・whoseと選択疑問文",
+      "english": "Whose towel is on the chair?",
+      "translationJa": "椅子の上にあるのは誰のタオルですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Whose",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+      },
+      "sentenceExplanationJa": "「Whose towel is on the chair?」は「椅子の上にあるのは誰のタオルですか。」という意味です。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。 この文の対象部分は「Whose」。まとまりは Whose → towel → is → on the chair? の順です。",
+      "glossary": [
+        {
+          "expression": "Whose",
+          "lemma": "whose",
+          "meaningJa": "誰の・～のものの",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "chair",
+          "lemma": "chair",
+          "meaningJa": "椅子",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ towel is on the chair?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Whose"
+        },
+        "options": [
+          {
+            "id": "G14-E04-C4",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E04-C3",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E04-C2",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E04-C1",
+            "text": "Whose",
+            "isCorrect": true,
+            "explanationJa": "正解。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+          }
+        ],
+        "correctOptionId": "G14-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G14-E04-B01",
+            "text": "Whose",
+            "role": "required"
+          },
+          {
+            "id": "G14-E04-B02",
+            "text": "towel",
+            "role": "required"
+          },
+          {
+            "id": "G14-E04-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G14-E04-B04",
+            "text": "on the chair?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G14-E04-B01",
+          "G14-E04-B02",
+          "G14-E04-B03",
+          "G14-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E04-B01",
+            "G14-E04-B02",
+            "G14-E04-B03",
+            "G14-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G14-E04-B01",
+            "text": "Whose",
+            "role": "required"
+          },
+          {
+            "id": "G14-E04-B02",
+            "text": "towel",
+            "role": "required"
+          },
+          {
+            "id": "G14-E04-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G14-E04-B04",
+            "text": "on the chair?",
+            "role": "required"
+          },
+          {
+            "id": "G14-E04-D01",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E04-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E04-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G14-E04-D01",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E04-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E04-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G14-E04-B01",
+          "G14-E04-B02",
+          "G14-E04-B03",
+          "G14-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E04-B01",
+            "G14-E04-B02",
+            "G14-E04-B03",
+            "G14-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G14-E04-AUDIO",
+        "text": "Whose towel is on the chair?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G14-E05",
+      "grammarId": "G14",
+      "grammarNameJa": "which・whoseと選択疑問文",
+      "english": "Which do you want, tea or water?",
+      "translationJa": "あなたはお茶と水のどちらが欲しいですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Which",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+      },
+      "sentenceExplanationJa": "「Which do you want, tea or water?」は「あなたはお茶と水のどちらが欲しいですか。」という意味です。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。 この文の対象部分は「Which」。まとまりは Which → do you → want, → tea or water? の順です。",
+      "glossary": [
+        {
+          "expression": "Which",
+          "lemma": "which",
+          "meaningJa": "どちら・どの／関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "want",
+          "lemma": "want",
+          "meaningJa": "欲しい・～したい",
+          "kind": "word"
+        },
+        {
+          "expression": "tea",
+          "lemma": "tea",
+          "meaningJa": "お茶",
+          "kind": "word"
+        },
+        {
+          "expression": "or",
+          "lemma": "or",
+          "meaningJa": "または",
+          "kind": "word"
+        },
+        {
+          "expression": "water",
+          "lemma": "water",
+          "meaningJa": "水",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ do you want, tea or water?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Which"
+        },
+        "options": [
+          {
+            "id": "G14-E05-C3",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E05-C1",
+            "text": "Which",
+            "isCorrect": true,
+            "explanationJa": "正解。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+          },
+          {
+            "id": "G14-E05-C4",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E05-C2",
+            "text": "Whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Whose」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G14-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G14-E05-B01",
+            "text": "Which",
+            "role": "required"
+          },
+          {
+            "id": "G14-E05-B02",
+            "text": "do you",
+            "role": "required"
+          },
+          {
+            "id": "G14-E05-B03",
+            "text": "want,",
+            "role": "required"
+          },
+          {
+            "id": "G14-E05-B04",
+            "text": "tea or water?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G14-E05-B01",
+          "G14-E05-B02",
+          "G14-E05-B03",
+          "G14-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E05-B01",
+            "G14-E05-B02",
+            "G14-E05-B03",
+            "G14-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G14-E05-B01",
+            "text": "Which",
+            "role": "required"
+          },
+          {
+            "id": "G14-E05-B02",
+            "text": "do you",
+            "role": "required"
+          },
+          {
+            "id": "G14-E05-B03",
+            "text": "want,",
+            "role": "required"
+          },
+          {
+            "id": "G14-E05-B04",
+            "text": "tea or water?",
+            "role": "required"
+          },
+          {
+            "id": "G14-E05-D01",
+            "text": "Whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E05-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E05-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G14-E05-D01",
+            "text": "Whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E05-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E05-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G14-E05-B01",
+          "G14-E05-B02",
+          "G14-E05-B03",
+          "G14-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E05-B01",
+            "G14-E05-B02",
+            "G14-E05-B03",
+            "G14-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G14-E05-AUDIO",
+        "text": "Which do you want, tea or water?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G14-E06",
+      "grammarId": "G14",
+      "grammarNameJa": "which・whoseと選択疑問文",
+      "english": "Whose phone is ringing?",
+      "translationJa": "誰の携帯電話が鳴っていますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Whose",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+      },
+      "sentenceExplanationJa": "「Whose phone is ringing?」は「誰の携帯電話が鳴っていますか。」という意味です。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。 この文の対象部分は「Whose」。まとまりは Whose → phone → is → ringing? の順です。",
+      "glossary": [
+        {
+          "expression": "Whose",
+          "lemma": "whose",
+          "meaningJa": "誰の・～のものの",
+          "kind": "word"
+        },
+        {
+          "expression": "phone",
+          "lemma": "phone",
+          "meaningJa": "携帯電話・電話",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ringing",
+          "lemma": "ring",
+          "meaningJa": "鳴る（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ phone is ringing?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Whose"
+        },
+        "options": [
+          {
+            "id": "G14-E06-C2",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E06-C3",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E06-C4",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E06-C1",
+            "text": "Whose",
+            "isCorrect": true,
+            "explanationJa": "正解。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+          }
+        ],
+        "correctOptionId": "G14-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G14-E06-B01",
+            "text": "Whose",
+            "role": "required"
+          },
+          {
+            "id": "G14-E06-B02",
+            "text": "phone",
+            "role": "required"
+          },
+          {
+            "id": "G14-E06-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G14-E06-B04",
+            "text": "ringing?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G14-E06-B01",
+          "G14-E06-B02",
+          "G14-E06-B03",
+          "G14-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E06-B01",
+            "G14-E06-B02",
+            "G14-E06-B03",
+            "G14-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G14-E06-B01",
+            "text": "Whose",
+            "role": "required"
+          },
+          {
+            "id": "G14-E06-B02",
+            "text": "phone",
+            "role": "required"
+          },
+          {
+            "id": "G14-E06-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G14-E06-B04",
+            "text": "ringing?",
+            "role": "required"
+          },
+          {
+            "id": "G14-E06-D01",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E06-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E06-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G14-E06-D01",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E06-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E06-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G14-E06-B01",
+          "G14-E06-B02",
+          "G14-E06-B03",
+          "G14-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E06-B01",
+            "G14-E06-B02",
+            "G14-E06-B03",
+            "G14-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G14-E06-AUDIO",
+        "text": "Whose phone is ringing?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G14-E07",
+      "grammarId": "G14",
+      "grammarNameJa": "which・whoseと選択疑問文",
+      "english": "Which train goes to the hall?",
+      "translationJa": "どちらの電車が会場へ行きますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Which",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+      },
+      "sentenceExplanationJa": "「Which train goes to the hall?」は「どちらの電車が会場へ行きますか。」という意味です。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。 この文の対象部分は「Which」。まとまりは Which → train → goes → to the hall? の順です。",
+      "glossary": [
+        {
+          "expression": "Which",
+          "lemma": "which",
+          "meaningJa": "どちら・どの／関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "train",
+          "lemma": "train",
+          "meaningJa": "電車",
+          "kind": "word"
+        },
+        {
+          "expression": "goes",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ train goes to the hall?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Which"
+        },
+        "options": [
+          {
+            "id": "G14-E07-C3",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E07-C2",
+            "text": "Whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Whose」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E07-C1",
+            "text": "Which",
+            "isCorrect": true,
+            "explanationJa": "正解。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+          },
+          {
+            "id": "G14-E07-C4",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G14-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G14-E07-B01",
+            "text": "Which",
+            "role": "required"
+          },
+          {
+            "id": "G14-E07-B02",
+            "text": "train",
+            "role": "required"
+          },
+          {
+            "id": "G14-E07-B03",
+            "text": "goes",
+            "role": "required"
+          },
+          {
+            "id": "G14-E07-B04",
+            "text": "to the hall?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G14-E07-B01",
+          "G14-E07-B02",
+          "G14-E07-B03",
+          "G14-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E07-B01",
+            "G14-E07-B02",
+            "G14-E07-B03",
+            "G14-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G14-E07-B01",
+            "text": "Which",
+            "role": "required"
+          },
+          {
+            "id": "G14-E07-B02",
+            "text": "train",
+            "role": "required"
+          },
+          {
+            "id": "G14-E07-B03",
+            "text": "goes",
+            "role": "required"
+          },
+          {
+            "id": "G14-E07-B04",
+            "text": "to the hall?",
+            "role": "required"
+          },
+          {
+            "id": "G14-E07-D01",
+            "text": "Whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E07-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E07-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G14-E07-D01",
+            "text": "Whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E07-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E07-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G14-E07-B01",
+          "G14-E07-B02",
+          "G14-E07-B03",
+          "G14-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E07-B01",
+            "G14-E07-B02",
+            "G14-E07-B03",
+            "G14-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G14-E07-AUDIO",
+        "text": "Which train goes to the hall?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G14-E08",
+      "grammarId": "G14",
+      "grammarNameJa": "which・whoseと選択疑問文",
+      "english": "Whose guitar is that?",
+      "translationJa": "あれは誰のギターですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Whose",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+      },
+      "sentenceExplanationJa": "「Whose guitar is that?」は「あれは誰のギターですか。」という意味です。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。 この文の対象部分は「Whose」。まとまりは Whose → guitar → is → that? の順です。",
+      "glossary": [
+        {
+          "expression": "Whose",
+          "lemma": "whose",
+          "meaningJa": "誰の・～のものの",
+          "kind": "word"
+        },
+        {
+          "expression": "guitar",
+          "lemma": "guitar",
+          "meaningJa": "ギター",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ guitar is that?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Whose"
+        },
+        "options": [
+          {
+            "id": "G14-E08-C4",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E08-C3",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E08-C2",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E08-C1",
+            "text": "Whose",
+            "isCorrect": true,
+            "explanationJa": "正解。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+          }
+        ],
+        "correctOptionId": "G14-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G14-E08-B01",
+            "text": "Whose",
+            "role": "required"
+          },
+          {
+            "id": "G14-E08-B02",
+            "text": "guitar",
+            "role": "required"
+          },
+          {
+            "id": "G14-E08-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G14-E08-B04",
+            "text": "that?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G14-E08-B01",
+          "G14-E08-B02",
+          "G14-E08-B03",
+          "G14-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E08-B01",
+            "G14-E08-B02",
+            "G14-E08-B03",
+            "G14-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G14-E08-B01",
+            "text": "Whose",
+            "role": "required"
+          },
+          {
+            "id": "G14-E08-B02",
+            "text": "guitar",
+            "role": "required"
+          },
+          {
+            "id": "G14-E08-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G14-E08-B04",
+            "text": "that?",
+            "role": "required"
+          },
+          {
+            "id": "G14-E08-D01",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E08-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E08-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G14-E08-D01",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E08-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E08-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G14-E08-B01",
+          "G14-E08-B02",
+          "G14-E08-B03",
+          "G14-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E08-B01",
+            "G14-E08-B02",
+            "G14-E08-B03",
+            "G14-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G14-E08-AUDIO",
+        "text": "Whose guitar is that?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G14-E09",
+      "grammarId": "G14",
+      "grammarNameJa": "which・whoseと選択疑問文",
+      "english": "Which is your seat, A or B?",
+      "translationJa": "あなたの席はAとBのどちらですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Which",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+      },
+      "sentenceExplanationJa": "「Which is your seat, A or B?」は「あなたの席はAとBのどちらですか。」という意味です。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。 この文の対象部分は「Which」。まとまりは Which → is → your seat, → A or B? の順です。",
+      "glossary": [
+        {
+          "expression": "Which",
+          "lemma": "which",
+          "meaningJa": "どちら・どの／関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "seat",
+          "lemma": "seat",
+          "meaningJa": "席",
+          "kind": "word"
+        },
+        {
+          "expression": "A",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "or",
+          "lemma": "or",
+          "meaningJa": "または",
+          "kind": "word"
+        },
+        {
+          "expression": "B",
+          "lemma": "b",
+          "meaningJa": "B（選択肢の記号）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ is your seat, A or B?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Which"
+        },
+        "options": [
+          {
+            "id": "G14-E09-C4",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E09-C1",
+            "text": "Which",
+            "isCorrect": true,
+            "explanationJa": "正解。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+          },
+          {
+            "id": "G14-E09-C2",
+            "text": "Whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Whose」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E09-C3",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Which」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G14-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G14-E09-B01",
+            "text": "Which",
+            "role": "required"
+          },
+          {
+            "id": "G14-E09-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G14-E09-B03",
+            "text": "your seat,",
+            "role": "required"
+          },
+          {
+            "id": "G14-E09-B04",
+            "text": "A or B?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G14-E09-B01",
+          "G14-E09-B02",
+          "G14-E09-B03",
+          "G14-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E09-B01",
+            "G14-E09-B02",
+            "G14-E09-B03",
+            "G14-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G14-E09-B01",
+            "text": "Which",
+            "role": "required"
+          },
+          {
+            "id": "G14-E09-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G14-E09-B03",
+            "text": "your seat,",
+            "role": "required"
+          },
+          {
+            "id": "G14-E09-B04",
+            "text": "A or B?",
+            "role": "required"
+          },
+          {
+            "id": "G14-E09-D01",
+            "text": "Whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E09-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E09-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G14-E09-D01",
+            "text": "Whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E09-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E09-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          },
+          {
+            "id": "G14-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Which」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G14-E09-B01",
+          "G14-E09-B02",
+          "G14-E09-B03",
+          "G14-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E09-B01",
+            "G14-E09-B02",
+            "G14-E09-B03",
+            "G14-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G14-E09-AUDIO",
+        "text": "Which is your seat, A or B?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G14-E10",
+      "grammarId": "G14",
+      "grammarNameJa": "which・whoseと選択疑問文",
+      "english": "Whose name is on this card?",
+      "translationJa": "このカードにあるのは誰の名前ですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Whose",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+      },
+      "sentenceExplanationJa": "「Whose name is on this card?」は「このカードにあるのは誰の名前ですか。」という意味です。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。 この文の対象部分は「Whose」。まとまりは Whose → name → is → on this card? の順です。",
+      "glossary": [
+        {
+          "expression": "Whose",
+          "lemma": "whose",
+          "meaningJa": "誰の・～のものの",
+          "kind": "word"
+        },
+        {
+          "expression": "name",
+          "lemma": "name",
+          "meaningJa": "名前",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "card",
+          "lemma": "card",
+          "meaningJa": "カード",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ name is on this card?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Whose"
+        },
+        "options": [
+          {
+            "id": "G14-E10-C2",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E10-C4",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E10-C3",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Whose」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G14-E10-C1",
+            "text": "Whose",
+            "isCorrect": true,
+            "explanationJa": "正解。whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。"
+          }
+        ],
+        "correctOptionId": "G14-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G14-E10-B01",
+            "text": "Whose",
+            "role": "required"
+          },
+          {
+            "id": "G14-E10-B02",
+            "text": "name",
+            "role": "required"
+          },
+          {
+            "id": "G14-E10-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G14-E10-B04",
+            "text": "on this card?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G14-E10-B01",
+          "G14-E10-B02",
+          "G14-E10-B03",
+          "G14-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E10-B01",
+            "G14-E10-B02",
+            "G14-E10-B03",
+            "G14-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G14-E10-B01",
+            "text": "Whose",
+            "role": "required"
+          },
+          {
+            "id": "G14-E10-B02",
+            "text": "name",
+            "role": "required"
+          },
+          {
+            "id": "G14-E10-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G14-E10-B04",
+            "text": "on this card?",
+            "role": "required"
+          },
+          {
+            "id": "G14-E10-D01",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E10-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E10-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G14-E10-D01",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E10-D02",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E10-D03",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          },
+          {
+            "id": "G14-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Whose」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G14-E10-B01",
+          "G14-E10-B02",
+          "G14-E10-B03",
+          "G14-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G14-E10-B01",
+            "G14-E10-B02",
+            "G14-E10-B03",
+            "G14-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G14-E10-AUDIO",
+        "text": "Whose name is on this card?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

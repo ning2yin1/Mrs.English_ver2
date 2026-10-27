@@ -1,0 +1,2523 @@
+{
+  "grammarId": "G52",
+  "examples": [
+    {
+      "id": "G52-E01",
+      "grammarId": "G52",
+      "grammarNameJa": "現在完了・経験",
+      "english": "I have seen this band twice.",
+      "translationJa": "私はこのバンドを2回見たことがあります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 2,
+        "endExclusive": 6,
+        "explanationJa": "have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+      },
+      "sentenceExplanationJa": "「I have seen this band twice.」は「私はこのバンドを2回見たことがあります。」という意味です。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。 この文の対象部分は「have」。まとまりは I → have → seen → this band → twice. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "seen",
+          "lemma": "see",
+          "meaningJa": "見る・見える（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "band",
+          "lemma": "band",
+          "meaningJa": "バンド",
+          "kind": "word"
+        },
+        {
+          "expression": "twice",
+          "lemma": "twice",
+          "meaningJa": "2回",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ seen this band twice.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 6,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G52-E01-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E01-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+          },
+          {
+            "id": "G52-E01-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E01-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G52-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G52-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G52-E01-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G52-E01-B03",
+            "text": "seen",
+            "role": "required"
+          },
+          {
+            "id": "G52-E01-B04",
+            "text": "this band",
+            "role": "required"
+          },
+          {
+            "id": "G52-E01-B05",
+            "text": "twice.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G52-E01-B01",
+          "G52-E01-B02",
+          "G52-E01-B03",
+          "G52-E01-B04",
+          "G52-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E01-B01",
+            "G52-E01-B02",
+            "G52-E01-B03",
+            "G52-E01-B04",
+            "G52-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G52-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G52-E01-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G52-E01-B03",
+            "text": "seen",
+            "role": "required"
+          },
+          {
+            "id": "G52-E01-B04",
+            "text": "this band",
+            "role": "required"
+          },
+          {
+            "id": "G52-E01-B05",
+            "text": "twice.",
+            "role": "required"
+          },
+          {
+            "id": "G52-E01-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E01-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E01-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G52-E01-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E01-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E01-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G52-E01-B01",
+          "G52-E01-B02",
+          "G52-E01-B03",
+          "G52-E01-B04",
+          "G52-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E01-B01",
+            "G52-E01-B02",
+            "G52-E01-B03",
+            "G52-E01-B04",
+            "G52-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G52-E01-AUDIO",
+        "text": "I have seen this band twice.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G52-E02",
+      "grammarId": "G52",
+      "grammarNameJa": "現在完了・経験",
+      "english": "She has visited this hall before.",
+      "translationJa": "彼女は以前この会場を訪れたことがあります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has",
+        "start": 4,
+        "endExclusive": 7,
+        "explanationJa": "have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+      },
+      "sentenceExplanationJa": "「She has visited this hall before.」は「彼女は以前この会場を訪れたことがあります。」という意味です。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。 この文の対象部分は「has」。まとまりは She → has → visited → this hall → before. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "visited",
+          "lemma": "visit",
+          "meaningJa": "訪れる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        },
+        {
+          "expression": "before",
+          "lemma": "before",
+          "meaningJa": "～の前に・以前",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ visited this hall before.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 7,
+          "answer": "has"
+        },
+        "options": [
+          {
+            "id": "G52-E02-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E02-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E02-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E02-C1",
+            "text": "has",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+          }
+        ],
+        "correctOptionId": "G52-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G52-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G52-E02-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G52-E02-B03",
+            "text": "visited",
+            "role": "required"
+          },
+          {
+            "id": "G52-E02-B04",
+            "text": "this hall",
+            "role": "required"
+          },
+          {
+            "id": "G52-E02-B05",
+            "text": "before.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G52-E02-B01",
+          "G52-E02-B02",
+          "G52-E02-B03",
+          "G52-E02-B04",
+          "G52-E02-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E02-B01",
+            "G52-E02-B02",
+            "G52-E02-B03",
+            "G52-E02-B04",
+            "G52-E02-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G52-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G52-E02-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G52-E02-B03",
+            "text": "visited",
+            "role": "required"
+          },
+          {
+            "id": "G52-E02-B04",
+            "text": "this hall",
+            "role": "required"
+          },
+          {
+            "id": "G52-E02-B05",
+            "text": "before.",
+            "role": "required"
+          },
+          {
+            "id": "G52-E02-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E02-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E02-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G52-E02-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E02-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E02-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G52-E02-B01",
+          "G52-E02-B02",
+          "G52-E02-B03",
+          "G52-E02-B04",
+          "G52-E02-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E02-B01",
+            "G52-E02-B02",
+            "G52-E02-B03",
+            "G52-E02-B04",
+            "G52-E02-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G52-E02-AUDIO",
+        "text": "She has visited this hall before.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G52-E03",
+      "grammarId": "G52",
+      "grammarNameJa": "現在完了・経験",
+      "english": "We have never missed a concert.",
+      "translationJa": "私たちはコンサートを一度も見逃したことがありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+      },
+      "sentenceExplanationJa": "「We have never missed a concert.」は「私たちはコンサートを一度も見逃したことがありません。」という意味です。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。 この文の対象部分は「have」。まとまりは We → have → never missed → a concert. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "never",
+          "lemma": "never",
+          "meaningJa": "一度も～ない",
+          "kind": "word"
+        },
+        {
+          "expression": "missed",
+          "lemma": "miss",
+          "meaningJa": "乗り遅れる・見逃す（過去形・過去分詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ never missed a concert.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G52-E03-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E03-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E03-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E03-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+          }
+        ],
+        "correctOptionId": "G52-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G52-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G52-E03-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G52-E03-B03",
+            "text": "never missed",
+            "role": "required"
+          },
+          {
+            "id": "G52-E03-B04",
+            "text": "a concert.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G52-E03-B01",
+          "G52-E03-B02",
+          "G52-E03-B03",
+          "G52-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E03-B01",
+            "G52-E03-B02",
+            "G52-E03-B03",
+            "G52-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G52-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G52-E03-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G52-E03-B03",
+            "text": "never missed",
+            "role": "required"
+          },
+          {
+            "id": "G52-E03-B04",
+            "text": "a concert.",
+            "role": "required"
+          },
+          {
+            "id": "G52-E03-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E03-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E03-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G52-E03-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E03-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E03-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G52-E03-B01",
+          "G52-E03-B02",
+          "G52-E03-B03",
+          "G52-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E03-B01",
+            "G52-E03-B02",
+            "G52-E03-B03",
+            "G52-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G52-E03-AUDIO",
+        "text": "We have never missed a concert.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G52-E04",
+      "grammarId": "G52",
+      "grammarNameJa": "現在完了・経験",
+      "english": "He has never sung on a stage.",
+      "translationJa": "彼はステージで歌ったことがありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has",
+        "start": 3,
+        "endExclusive": 6,
+        "explanationJa": "have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+      },
+      "sentenceExplanationJa": "「He has never sung on a stage.」は「彼はステージで歌ったことがありません。」という意味です。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。 この文の対象部分は「has」。まとまりは He → has → never sung → on a stage. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "never",
+          "lemma": "never",
+          "meaningJa": "一度も～ない",
+          "kind": "word"
+        },
+        {
+          "expression": "sung",
+          "lemma": "sing",
+          "meaningJa": "歌う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "stage",
+          "lemma": "stage",
+          "meaningJa": "ステージ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ never sung on a stage.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 6,
+          "answer": "has"
+        },
+        "options": [
+          {
+            "id": "G52-E04-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E04-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E04-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E04-C1",
+            "text": "has",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+          }
+        ],
+        "correctOptionId": "G52-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G52-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G52-E04-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G52-E04-B03",
+            "text": "never sung",
+            "role": "required"
+          },
+          {
+            "id": "G52-E04-B04",
+            "text": "on a stage.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G52-E04-B01",
+          "G52-E04-B02",
+          "G52-E04-B03",
+          "G52-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E04-B01",
+            "G52-E04-B02",
+            "G52-E04-B03",
+            "G52-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G52-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G52-E04-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G52-E04-B03",
+            "text": "never sung",
+            "role": "required"
+          },
+          {
+            "id": "G52-E04-B04",
+            "text": "on a stage.",
+            "role": "required"
+          },
+          {
+            "id": "G52-E04-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E04-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E04-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G52-E04-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E04-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E04-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G52-E04-B01",
+          "G52-E04-B02",
+          "G52-E04-B03",
+          "G52-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E04-B01",
+            "G52-E04-B02",
+            "G52-E04-B03",
+            "G52-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G52-E04-AUDIO",
+        "text": "He has never sung on a stage.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G52-E05",
+      "grammarId": "G52",
+      "grammarNameJa": "現在完了・経験",
+      "english": "I have been to Osaka three times.",
+      "translationJa": "私は大阪へ3回行ったことがあります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 2,
+        "endExclusive": 6,
+        "explanationJa": "have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+      },
+      "sentenceExplanationJa": "「I have been to Osaka three times.」は「私は大阪へ3回行ったことがあります。」という意味です。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。 この文の対象部分は「have」。まとまりは I → have → been → to Osaka → three times. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "Osaka",
+          "lemma": "osaka",
+          "meaningJa": "大阪",
+          "kind": "word"
+        },
+        {
+          "expression": "three",
+          "lemma": "three",
+          "meaningJa": "3",
+          "kind": "word"
+        },
+        {
+          "expression": "times",
+          "lemma": "time",
+          "meaningJa": "時間・時・回数（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ been to Osaka three times.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 6,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G52-E05-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E05-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+          },
+          {
+            "id": "G52-E05-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E05-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G52-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G52-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G52-E05-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G52-E05-B03",
+            "text": "been",
+            "role": "required"
+          },
+          {
+            "id": "G52-E05-B04",
+            "text": "to Osaka",
+            "role": "required"
+          },
+          {
+            "id": "G52-E05-B05",
+            "text": "three times.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G52-E05-B01",
+          "G52-E05-B02",
+          "G52-E05-B03",
+          "G52-E05-B04",
+          "G52-E05-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E05-B01",
+            "G52-E05-B02",
+            "G52-E05-B03",
+            "G52-E05-B04",
+            "G52-E05-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G52-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G52-E05-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G52-E05-B03",
+            "text": "been",
+            "role": "required"
+          },
+          {
+            "id": "G52-E05-B04",
+            "text": "to Osaka",
+            "role": "required"
+          },
+          {
+            "id": "G52-E05-B05",
+            "text": "three times.",
+            "role": "required"
+          },
+          {
+            "id": "G52-E05-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E05-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E05-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G52-E05-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E05-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E05-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G52-E05-B01",
+          "G52-E05-B02",
+          "G52-E05-B03",
+          "G52-E05-B04",
+          "G52-E05-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E05-B01",
+            "G52-E05-B02",
+            "G52-E05-B03",
+            "G52-E05-B04",
+            "G52-E05-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G52-E05-AUDIO",
+        "text": "I have been to Osaka three times.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G52-E06",
+      "grammarId": "G52",
+      "grammarNameJa": "現在完了・経験",
+      "english": "My sister has met that singer once.",
+      "translationJa": "姉はその歌手に一度会ったことがあります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has",
+        "start": 10,
+        "endExclusive": 13,
+        "explanationJa": "have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+      },
+      "sentenceExplanationJa": "「My sister has met that singer once.」は「姉はその歌手に一度会ったことがあります。」という意味です。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。 この文の対象部分は「has」。まとまりは My sister → has → met → that singer → once. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "sister",
+          "lemma": "sister",
+          "meaningJa": "姉・妹",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "met",
+          "lemma": "meet",
+          "meaningJa": "会う・集まる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "singer",
+          "lemma": "singer",
+          "meaningJa": "歌手",
+          "kind": "word"
+        },
+        {
+          "expression": "once",
+          "lemma": "once",
+          "meaningJa": "一度",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My sister ___ met that singer once.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 13,
+          "answer": "has"
+        },
+        "options": [
+          {
+            "id": "G52-E06-C1",
+            "text": "has",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+          },
+          {
+            "id": "G52-E06-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E06-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E06-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G52-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G52-E06-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G52-E06-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G52-E06-B03",
+            "text": "met",
+            "role": "required"
+          },
+          {
+            "id": "G52-E06-B04",
+            "text": "that singer",
+            "role": "required"
+          },
+          {
+            "id": "G52-E06-B05",
+            "text": "once.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G52-E06-B01",
+          "G52-E06-B02",
+          "G52-E06-B03",
+          "G52-E06-B04",
+          "G52-E06-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E06-B01",
+            "G52-E06-B02",
+            "G52-E06-B03",
+            "G52-E06-B04",
+            "G52-E06-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G52-E06-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G52-E06-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G52-E06-B03",
+            "text": "met",
+            "role": "required"
+          },
+          {
+            "id": "G52-E06-B04",
+            "text": "that singer",
+            "role": "required"
+          },
+          {
+            "id": "G52-E06-B05",
+            "text": "once.",
+            "role": "required"
+          },
+          {
+            "id": "G52-E06-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E06-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E06-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G52-E06-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E06-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E06-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G52-E06-B01",
+          "G52-E06-B02",
+          "G52-E06-B03",
+          "G52-E06-B04",
+          "G52-E06-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E06-B01",
+            "G52-E06-B02",
+            "G52-E06-B03",
+            "G52-E06-B04",
+            "G52-E06-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G52-E06-AUDIO",
+        "text": "My sister has met that singer once.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G52-E07",
+      "grammarId": "G52",
+      "grammarNameJa": "現在完了・経験",
+      "english": "They have played this song many times.",
+      "translationJa": "彼らはこの曲を何度も演奏したことがあります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 5,
+        "endExclusive": 9,
+        "explanationJa": "have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+      },
+      "sentenceExplanationJa": "「They have played this song many times.」は「彼らはこの曲を何度も演奏したことがあります。」という意味です。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。 この文の対象部分は「have」。まとまりは They → have → played → this song → many times. の順です。",
+      "glossary": [
+        {
+          "expression": "They",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "played",
+          "lemma": "play",
+          "meaningJa": "演奏する・遊ぶ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "many",
+          "lemma": "many",
+          "meaningJa": "たくさんの（可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "times",
+          "lemma": "time",
+          "meaningJa": "時間・時・回数（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "They ___ played this song many times.",
+        "blank": {
+          "start": 5,
+          "endExclusive": 9,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G52-E07-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E07-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E07-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E07-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+          }
+        ],
+        "correctOptionId": "G52-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G52-E07-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G52-E07-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G52-E07-B03",
+            "text": "played",
+            "role": "required"
+          },
+          {
+            "id": "G52-E07-B04",
+            "text": "this song",
+            "role": "required"
+          },
+          {
+            "id": "G52-E07-B05",
+            "text": "many times.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G52-E07-B01",
+          "G52-E07-B02",
+          "G52-E07-B03",
+          "G52-E07-B04",
+          "G52-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E07-B01",
+            "G52-E07-B02",
+            "G52-E07-B03",
+            "G52-E07-B04",
+            "G52-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G52-E07-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G52-E07-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G52-E07-B03",
+            "text": "played",
+            "role": "required"
+          },
+          {
+            "id": "G52-E07-B04",
+            "text": "this song",
+            "role": "required"
+          },
+          {
+            "id": "G52-E07-B05",
+            "text": "many times.",
+            "role": "required"
+          },
+          {
+            "id": "G52-E07-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E07-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E07-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G52-E07-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E07-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E07-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G52-E07-B01",
+          "G52-E07-B02",
+          "G52-E07-B03",
+          "G52-E07-B04",
+          "G52-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E07-B01",
+            "G52-E07-B02",
+            "G52-E07-B03",
+            "G52-E07-B04",
+            "G52-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G52-E07-AUDIO",
+        "text": "They have played this song many times.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G52-E08",
+      "grammarId": "G52",
+      "grammarNameJa": "現在完了・経験",
+      "english": "I have never won a ticket.",
+      "translationJa": "私はチケットの抽選に一度も当たったことがありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 2,
+        "endExclusive": 6,
+        "explanationJa": "have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+      },
+      "sentenceExplanationJa": "「I have never won a ticket.」は「私はチケットの抽選に一度も当たったことがありません。」という意味です。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。 この文の対象部分は「have」。まとまりは I → have → never won → a ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "never",
+          "lemma": "never",
+          "meaningJa": "一度も～ない",
+          "kind": "word"
+        },
+        {
+          "expression": "won",
+          "lemma": "win",
+          "meaningJa": "勝つ・抽選に当たる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ never won a ticket.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 6,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G52-E08-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+          },
+          {
+            "id": "G52-E08-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E08-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E08-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G52-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G52-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G52-E08-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G52-E08-B03",
+            "text": "never won",
+            "role": "required"
+          },
+          {
+            "id": "G52-E08-B04",
+            "text": "a ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G52-E08-B01",
+          "G52-E08-B02",
+          "G52-E08-B03",
+          "G52-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E08-B01",
+            "G52-E08-B02",
+            "G52-E08-B03",
+            "G52-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G52-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G52-E08-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G52-E08-B03",
+            "text": "never won",
+            "role": "required"
+          },
+          {
+            "id": "G52-E08-B04",
+            "text": "a ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G52-E08-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E08-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E08-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G52-E08-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E08-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E08-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G52-E08-B01",
+          "G52-E08-B02",
+          "G52-E08-B03",
+          "G52-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E08-B01",
+            "G52-E08-B02",
+            "G52-E08-B03",
+            "G52-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G52-E08-AUDIO",
+        "text": "I have never won a ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G52-E09",
+      "grammarId": "G52",
+      "grammarNameJa": "現在完了・経験",
+      "english": "He has tried this app before.",
+      "translationJa": "彼は以前このアプリを使ってみたことがあります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has",
+        "start": 3,
+        "endExclusive": 6,
+        "explanationJa": "have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+      },
+      "sentenceExplanationJa": "「He has tried this app before.」は「彼は以前このアプリを使ってみたことがあります。」という意味です。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。 この文の対象部分は「has」。まとまりは He → has → tried → this app → before. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "tried",
+          "lemma": "try",
+          "meaningJa": "試す（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "app",
+          "lemma": "app",
+          "meaningJa": "アプリ",
+          "kind": "word"
+        },
+        {
+          "expression": "before",
+          "lemma": "before",
+          "meaningJa": "～の前に・以前",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ tried this app before.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 6,
+          "answer": "has"
+        },
+        "options": [
+          {
+            "id": "G52-E09-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E09-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E09-C1",
+            "text": "has",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+          },
+          {
+            "id": "G52-E09-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G52-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G52-E09-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G52-E09-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G52-E09-B03",
+            "text": "tried",
+            "role": "required"
+          },
+          {
+            "id": "G52-E09-B04",
+            "text": "this app",
+            "role": "required"
+          },
+          {
+            "id": "G52-E09-B05",
+            "text": "before.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G52-E09-B01",
+          "G52-E09-B02",
+          "G52-E09-B03",
+          "G52-E09-B04",
+          "G52-E09-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E09-B01",
+            "G52-E09-B02",
+            "G52-E09-B03",
+            "G52-E09-B04",
+            "G52-E09-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G52-E09-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G52-E09-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G52-E09-B03",
+            "text": "tried",
+            "role": "required"
+          },
+          {
+            "id": "G52-E09-B04",
+            "text": "this app",
+            "role": "required"
+          },
+          {
+            "id": "G52-E09-B05",
+            "text": "before.",
+            "role": "required"
+          },
+          {
+            "id": "G52-E09-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E09-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E09-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G52-E09-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E09-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E09-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G52-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G52-E09-B01",
+          "G52-E09-B02",
+          "G52-E09-B03",
+          "G52-E09-B04",
+          "G52-E09-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E09-B01",
+            "G52-E09-B02",
+            "G52-E09-B03",
+            "G52-E09-B04",
+            "G52-E09-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G52-E09-AUDIO",
+        "text": "He has tried this app before.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G52-E10",
+      "grammarId": "G52",
+      "grammarNameJa": "現在完了・経験",
+      "english": "We have heard that story many times.",
+      "translationJa": "私たちはその話を何度も聞いたことがあります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+      },
+      "sentenceExplanationJa": "「We have heard that story many times.」は「私たちはその話を何度も聞いたことがあります。」という意味です。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。 この文の対象部分は「have」。まとまりは We → have → heard → that story → many times. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "heard",
+          "lemma": "hear",
+          "meaningJa": "聞こえる・聞く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "story",
+          "lemma": "story",
+          "meaningJa": "話・物語",
+          "kind": "word"
+        },
+        {
+          "expression": "many",
+          "lemma": "many",
+          "meaningJa": "たくさんの（可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "times",
+          "lemma": "time",
+          "meaningJa": "時間・時・回数（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ heard that story many times.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G52-E10-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。"
+          },
+          {
+            "id": "G52-E10-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E10-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G52-E10-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G52-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G52-E10-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G52-E10-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G52-E10-B03",
+            "text": "heard",
+            "role": "required"
+          },
+          {
+            "id": "G52-E10-B04",
+            "text": "that story",
+            "role": "required"
+          },
+          {
+            "id": "G52-E10-B05",
+            "text": "many times.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G52-E10-B01",
+          "G52-E10-B02",
+          "G52-E10-B03",
+          "G52-E10-B04",
+          "G52-E10-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E10-B01",
+            "G52-E10-B02",
+            "G52-E10-B03",
+            "G52-E10-B04",
+            "G52-E10-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G52-E10-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G52-E10-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G52-E10-B03",
+            "text": "heard",
+            "role": "required"
+          },
+          {
+            "id": "G52-E10-B04",
+            "text": "that story",
+            "role": "required"
+          },
+          {
+            "id": "G52-E10-B05",
+            "text": "many times.",
+            "role": "required"
+          },
+          {
+            "id": "G52-E10-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E10-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E10-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G52-E10-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E10-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E10-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G52-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G52-E10-B01",
+          "G52-E10-B02",
+          "G52-E10-B03",
+          "G52-E10-B04",
+          "G52-E10-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G52-E10-B01",
+            "G52-E10-B02",
+            "G52-E10-B03",
+            "G52-E10-B04",
+            "G52-E10-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G52-E10-AUDIO",
+        "text": "We have heard that story many times.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

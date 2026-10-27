@@ -1,0 +1,2387 @@
+{
+  "grammarId": "G19",
+  "examples": [
+    {
+      "id": "G19-E01",
+      "grammarId": "G19",
+      "grammarNameJa": "canの能力・可能",
+      "english": "I can play the guitar.",
+      "translationJa": "私はギターを弾けます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "can",
+        "start": 2,
+        "endExclusive": 5,
+        "explanationJa": "canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+      },
+      "sentenceExplanationJa": "「I can play the guitar.」は「私はギターを弾けます。」という意味です。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。 この文の対象部分は「can」。まとまりは I → can → play → the guitar. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "play",
+          "lemma": "play",
+          "meaningJa": "演奏する・遊ぶ",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "guitar",
+          "lemma": "guitar",
+          "meaningJa": "ギター",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ play the guitar.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 5,
+          "answer": "can"
+        },
+        "options": [
+          {
+            "id": "G19-E01-C4",
+            "text": "can have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E01-C3",
+            "text": "can be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E01-C1",
+            "text": "can",
+            "isCorrect": true,
+            "explanationJa": "正解。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+          },
+          {
+            "id": "G19-E01-C2",
+            "text": "can to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G19-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G19-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G19-E01-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E01-B03",
+            "text": "play",
+            "role": "required"
+          },
+          {
+            "id": "G19-E01-B04",
+            "text": "the guitar.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G19-E01-B01",
+          "G19-E01-B02",
+          "G19-E01-B03",
+          "G19-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E01-B01",
+            "G19-E01-B02",
+            "G19-E01-B03",
+            "G19-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G19-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G19-E01-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E01-B03",
+            "text": "play",
+            "role": "required"
+          },
+          {
+            "id": "G19-E01-B04",
+            "text": "the guitar.",
+            "role": "required"
+          },
+          {
+            "id": "G19-E01-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E01-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E01-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G19-E01-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E01-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E01-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G19-E01-B01",
+          "G19-E01-B02",
+          "G19-E01-B03",
+          "G19-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E01-B01",
+            "G19-E01-B02",
+            "G19-E01-B03",
+            "G19-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G19-E01-AUDIO",
+        "text": "I can play the guitar.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G19-E02",
+      "grammarId": "G19",
+      "grammarNameJa": "canの能力・可能",
+      "english": "She can sing this song.",
+      "translationJa": "彼女はこの曲を歌えます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "can",
+        "start": 4,
+        "endExclusive": 7,
+        "explanationJa": "canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+      },
+      "sentenceExplanationJa": "「She can sing this song.」は「彼女はこの曲を歌えます。」という意味です。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。 この文の対象部分は「can」。まとまりは She → can → sing → this song. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "sing",
+          "lemma": "sing",
+          "meaningJa": "歌う",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ sing this song.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 7,
+          "answer": "can"
+        },
+        "options": [
+          {
+            "id": "G19-E02-C2",
+            "text": "can to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E02-C4",
+            "text": "can have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E02-C1",
+            "text": "can",
+            "isCorrect": true,
+            "explanationJa": "正解。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+          },
+          {
+            "id": "G19-E02-C3",
+            "text": "can be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G19-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G19-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G19-E02-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E02-B03",
+            "text": "sing",
+            "role": "required"
+          },
+          {
+            "id": "G19-E02-B04",
+            "text": "this song.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G19-E02-B01",
+          "G19-E02-B02",
+          "G19-E02-B03",
+          "G19-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E02-B01",
+            "G19-E02-B02",
+            "G19-E02-B03",
+            "G19-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G19-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G19-E02-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E02-B03",
+            "text": "sing",
+            "role": "required"
+          },
+          {
+            "id": "G19-E02-B04",
+            "text": "this song.",
+            "role": "required"
+          },
+          {
+            "id": "G19-E02-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E02-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E02-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G19-E02-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E02-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E02-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G19-E02-B01",
+          "G19-E02-B02",
+          "G19-E02-B03",
+          "G19-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E02-B01",
+            "G19-E02-B02",
+            "G19-E02-B03",
+            "G19-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G19-E02-AUDIO",
+        "text": "She can sing this song.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G19-E03",
+      "grammarId": "G19",
+      "grammarNameJa": "canの能力・可能",
+      "english": "We can see the stage from here.",
+      "translationJa": "私たちはここからステージが見えます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "can",
+        "start": 3,
+        "endExclusive": 6,
+        "explanationJa": "canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+      },
+      "sentenceExplanationJa": "「We can see the stage from here.」は「私たちはここからステージが見えます。」という意味です。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。 この文の対象部分は「can」。まとまりは We → can → see → the stage → from here. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "see",
+          "lemma": "see",
+          "meaningJa": "見る・見える",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "stage",
+          "lemma": "stage",
+          "meaningJa": "ステージ",
+          "kind": "word"
+        },
+        {
+          "expression": "from",
+          "lemma": "from",
+          "meaningJa": "～から",
+          "kind": "word"
+        },
+        {
+          "expression": "here",
+          "lemma": "here",
+          "meaningJa": "ここに・ここで",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ see the stage from here.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 6,
+          "answer": "can"
+        },
+        "options": [
+          {
+            "id": "G19-E03-C3",
+            "text": "can be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E03-C2",
+            "text": "can to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E03-C1",
+            "text": "can",
+            "isCorrect": true,
+            "explanationJa": "正解。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+          },
+          {
+            "id": "G19-E03-C4",
+            "text": "can have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can have」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G19-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G19-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G19-E03-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E03-B03",
+            "text": "see",
+            "role": "required"
+          },
+          {
+            "id": "G19-E03-B04",
+            "text": "the stage",
+            "role": "required"
+          },
+          {
+            "id": "G19-E03-B05",
+            "text": "from here.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G19-E03-B01",
+          "G19-E03-B02",
+          "G19-E03-B03",
+          "G19-E03-B04",
+          "G19-E03-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E03-B01",
+            "G19-E03-B02",
+            "G19-E03-B03",
+            "G19-E03-B04",
+            "G19-E03-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G19-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G19-E03-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E03-B03",
+            "text": "see",
+            "role": "required"
+          },
+          {
+            "id": "G19-E03-B04",
+            "text": "the stage",
+            "role": "required"
+          },
+          {
+            "id": "G19-E03-B05",
+            "text": "from here.",
+            "role": "required"
+          },
+          {
+            "id": "G19-E03-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E03-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E03-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G19-E03-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E03-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E03-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G19-E03-B01",
+          "G19-E03-B02",
+          "G19-E03-B03",
+          "G19-E03-B04",
+          "G19-E03-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E03-B01",
+            "G19-E03-B02",
+            "G19-E03-B03",
+            "G19-E03-B04",
+            "G19-E03-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G19-E03-AUDIO",
+        "text": "We can see the stage from here.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G19-E04",
+      "grammarId": "G19",
+      "grammarNameJa": "canの能力・可能",
+      "english": "He can read music.",
+      "translationJa": "彼は楽譜を読めます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "can",
+        "start": 3,
+        "endExclusive": 6,
+        "explanationJa": "canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+      },
+      "sentenceExplanationJa": "「He can read music.」は「彼は楽譜を読めます。」という意味です。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。 この文の対象部分は「can」。まとまりは He → can → read → music. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "read",
+          "lemma": "read",
+          "meaningJa": "読む",
+          "kind": "word"
+        },
+        {
+          "expression": "music",
+          "lemma": "music",
+          "meaningJa": "音楽・楽譜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ read music.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 6,
+          "answer": "can"
+        },
+        "options": [
+          {
+            "id": "G19-E04-C4",
+            "text": "can have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E04-C2",
+            "text": "can to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E04-C3",
+            "text": "can be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E04-C1",
+            "text": "can",
+            "isCorrect": true,
+            "explanationJa": "正解。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+          }
+        ],
+        "correctOptionId": "G19-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G19-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G19-E04-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E04-B03",
+            "text": "read",
+            "role": "required"
+          },
+          {
+            "id": "G19-E04-B04",
+            "text": "music.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G19-E04-B01",
+          "G19-E04-B02",
+          "G19-E04-B03",
+          "G19-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E04-B01",
+            "G19-E04-B02",
+            "G19-E04-B03",
+            "G19-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G19-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G19-E04-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E04-B03",
+            "text": "read",
+            "role": "required"
+          },
+          {
+            "id": "G19-E04-B04",
+            "text": "music.",
+            "role": "required"
+          },
+          {
+            "id": "G19-E04-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E04-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E04-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G19-E04-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E04-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E04-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G19-E04-B01",
+          "G19-E04-B02",
+          "G19-E04-B03",
+          "G19-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E04-B01",
+            "G19-E04-B02",
+            "G19-E04-B03",
+            "G19-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G19-E04-AUDIO",
+        "text": "He can read music.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G19-E05",
+      "grammarId": "G19",
+      "grammarNameJa": "canの能力・可能",
+      "english": "You can use my headphones.",
+      "translationJa": "あなたは私のヘッドホンを使えます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "can",
+        "start": 4,
+        "endExclusive": 7,
+        "explanationJa": "canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+      },
+      "sentenceExplanationJa": "「You can use my headphones.」は「あなたは私のヘッドホンを使えます。」という意味です。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。 この文の対象部分は「can」。まとまりは You → can → use → my headphones. の順です。",
+      "glossary": [
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "use",
+          "lemma": "use",
+          "meaningJa": "使う",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "headphones",
+          "lemma": "headphones",
+          "meaningJa": "ヘッドホン",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You ___ use my headphones.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 7,
+          "answer": "can"
+        },
+        "options": [
+          {
+            "id": "G19-E05-C4",
+            "text": "can have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E05-C1",
+            "text": "can",
+            "isCorrect": true,
+            "explanationJa": "正解。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+          },
+          {
+            "id": "G19-E05-C2",
+            "text": "can to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E05-C3",
+            "text": "can be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G19-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G19-E05-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G19-E05-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E05-B03",
+            "text": "use",
+            "role": "required"
+          },
+          {
+            "id": "G19-E05-B04",
+            "text": "my headphones.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G19-E05-B01",
+          "G19-E05-B02",
+          "G19-E05-B03",
+          "G19-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E05-B01",
+            "G19-E05-B02",
+            "G19-E05-B03",
+            "G19-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G19-E05-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G19-E05-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E05-B03",
+            "text": "use",
+            "role": "required"
+          },
+          {
+            "id": "G19-E05-B04",
+            "text": "my headphones.",
+            "role": "required"
+          },
+          {
+            "id": "G19-E05-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E05-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E05-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G19-E05-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E05-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E05-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G19-E05-B01",
+          "G19-E05-B02",
+          "G19-E05-B03",
+          "G19-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E05-B01",
+            "G19-E05-B02",
+            "G19-E05-B03",
+            "G19-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G19-E05-AUDIO",
+        "text": "You can use my headphones.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G19-E06",
+      "grammarId": "G19",
+      "grammarNameJa": "canの能力・可能",
+      "english": "I cannot remember all the words.",
+      "translationJa": "私は歌詞の言葉を全部覚えられません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "cannot",
+        "start": 2,
+        "endExclusive": 8,
+        "explanationJa": "canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+      },
+      "sentenceExplanationJa": "「I cannot remember all the words.」は「私は歌詞の言葉を全部覚えられません。」という意味です。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。 この文の対象部分は「cannot」。まとまりは I → cannot → remember → all the words. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "cannot",
+          "lemma": "cannot",
+          "meaningJa": "～できない",
+          "kind": "word"
+        },
+        {
+          "expression": "remember",
+          "lemma": "remember",
+          "meaningJa": "覚えている",
+          "kind": "word"
+        },
+        {
+          "expression": "all",
+          "lemma": "all",
+          "meaningJa": "すべての・全部",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "words",
+          "lemma": "word",
+          "meaningJa": "単語・言葉（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ remember all the words.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 8,
+          "answer": "cannot"
+        },
+        "options": [
+          {
+            "id": "G19-E06-C2",
+            "text": "can",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「cannot」を使います。「can」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E06-C3",
+            "text": "cannot to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「cannot」を使います。「cannot to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E06-C4",
+            "text": "cannot be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「cannot」を使います。「cannot be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E06-C1",
+            "text": "cannot",
+            "isCorrect": true,
+            "explanationJa": "正解。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+          }
+        ],
+        "correctOptionId": "G19-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G19-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G19-E06-B02",
+            "text": "cannot",
+            "role": "required"
+          },
+          {
+            "id": "G19-E06-B03",
+            "text": "remember",
+            "role": "required"
+          },
+          {
+            "id": "G19-E06-B04",
+            "text": "all the words.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G19-E06-B01",
+          "G19-E06-B02",
+          "G19-E06-B03",
+          "G19-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E06-B01",
+            "G19-E06-B02",
+            "G19-E06-B03",
+            "G19-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G19-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G19-E06-B02",
+            "text": "cannot",
+            "role": "required"
+          },
+          {
+            "id": "G19-E06-B03",
+            "text": "remember",
+            "role": "required"
+          },
+          {
+            "id": "G19-E06-B04",
+            "text": "all the words.",
+            "role": "required"
+          },
+          {
+            "id": "G19-E06-D01",
+            "text": "can",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cannot」と比較してください。"
+          },
+          {
+            "id": "G19-E06-D02",
+            "text": "cannot to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cannot」と比較してください。"
+          },
+          {
+            "id": "G19-E06-D03",
+            "text": "cannot be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cannot」と比較してください。"
+          },
+          {
+            "id": "G19-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cannot」と比較してください。"
+          },
+          {
+            "id": "G19-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cannot」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G19-E06-D01",
+            "text": "can",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cannot」と比較してください。"
+          },
+          {
+            "id": "G19-E06-D02",
+            "text": "cannot to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cannot」と比較してください。"
+          },
+          {
+            "id": "G19-E06-D03",
+            "text": "cannot be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cannot」と比較してください。"
+          },
+          {
+            "id": "G19-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cannot」と比較してください。"
+          },
+          {
+            "id": "G19-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cannot」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G19-E06-B01",
+          "G19-E06-B02",
+          "G19-E06-B03",
+          "G19-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E06-B01",
+            "G19-E06-B02",
+            "G19-E06-B03",
+            "G19-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G19-E06-AUDIO",
+        "text": "I cannot remember all the words.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G19-E07",
+      "grammarId": "G19",
+      "grammarNameJa": "canの能力・可能",
+      "english": "Can they dance very well?",
+      "translationJa": "彼らはとても上手に踊れますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Can",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+      },
+      "sentenceExplanationJa": "「Can they dance very well?」は「彼らはとても上手に踊れますか。」という意味です。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。 この文の対象部分は「Can」。まとまりは Can → they → dance → very well? の順です。",
+      "glossary": [
+        {
+          "expression": "Can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "they",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "dance",
+          "lemma": "dance",
+          "meaningJa": "踊る",
+          "kind": "word"
+        },
+        {
+          "expression": "very",
+          "lemma": "very",
+          "meaningJa": "とても",
+          "kind": "word"
+        },
+        {
+          "expression": "well",
+          "lemma": "well",
+          "meaningJa": "上手に・よく",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ they dance very well?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "Can"
+        },
+        "options": [
+          {
+            "id": "G19-E07-C4",
+            "text": "Can have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Can」を使います。「Can have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E07-C3",
+            "text": "Can be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Can」を使います。「Can be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E07-C1",
+            "text": "Can",
+            "isCorrect": true,
+            "explanationJa": "正解。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+          },
+          {
+            "id": "G19-E07-C2",
+            "text": "Can to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Can」を使います。「Can to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G19-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G19-E07-B01",
+            "text": "Can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E07-B02",
+            "text": "they",
+            "role": "required"
+          },
+          {
+            "id": "G19-E07-B03",
+            "text": "dance",
+            "role": "required"
+          },
+          {
+            "id": "G19-E07-B04",
+            "text": "very well?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G19-E07-B01",
+          "G19-E07-B02",
+          "G19-E07-B03",
+          "G19-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E07-B01",
+            "G19-E07-B02",
+            "G19-E07-B03",
+            "G19-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G19-E07-B01",
+            "text": "Can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E07-B02",
+            "text": "they",
+            "role": "required"
+          },
+          {
+            "id": "G19-E07-B03",
+            "text": "dance",
+            "role": "required"
+          },
+          {
+            "id": "G19-E07-B04",
+            "text": "very well?",
+            "role": "required"
+          },
+          {
+            "id": "G19-E07-D01",
+            "text": "Can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Can」と比較してください。"
+          },
+          {
+            "id": "G19-E07-D02",
+            "text": "Can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Can」と比較してください。"
+          },
+          {
+            "id": "G19-E07-D03",
+            "text": "Can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Can」と比較してください。"
+          },
+          {
+            "id": "G19-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Can」と比較してください。"
+          },
+          {
+            "id": "G19-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Can」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G19-E07-D01",
+            "text": "Can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Can」と比較してください。"
+          },
+          {
+            "id": "G19-E07-D02",
+            "text": "Can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Can」と比較してください。"
+          },
+          {
+            "id": "G19-E07-D03",
+            "text": "Can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Can」と比較してください。"
+          },
+          {
+            "id": "G19-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Can」と比較してください。"
+          },
+          {
+            "id": "G19-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Can」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G19-E07-B01",
+          "G19-E07-B02",
+          "G19-E07-B03",
+          "G19-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E07-B01",
+            "G19-E07-B02",
+            "G19-E07-B03",
+            "G19-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G19-E07-AUDIO",
+        "text": "Can they dance very well?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G19-E08",
+      "grammarId": "G19",
+      "grammarNameJa": "canの能力・可能",
+      "english": "My sister can draw beautiful pictures.",
+      "translationJa": "私の姉は美しい絵を描けます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "can",
+        "start": 10,
+        "endExclusive": 13,
+        "explanationJa": "canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+      },
+      "sentenceExplanationJa": "「My sister can draw beautiful pictures.」は「私の姉は美しい絵を描けます。」という意味です。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。 この文の対象部分は「can」。まとまりは My sister → can → draw → beautiful pictures. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "sister",
+          "lemma": "sister",
+          "meaningJa": "姉・妹",
+          "kind": "word"
+        },
+        {
+          "expression": "can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "draw",
+          "lemma": "draw",
+          "meaningJa": "描く",
+          "kind": "word"
+        },
+        {
+          "expression": "beautiful",
+          "lemma": "beautiful",
+          "meaningJa": "美しい",
+          "kind": "word"
+        },
+        {
+          "expression": "pictures",
+          "lemma": "picture",
+          "meaningJa": "写真・絵（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My sister ___ draw beautiful pictures.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 13,
+          "answer": "can"
+        },
+        "options": [
+          {
+            "id": "G19-E08-C1",
+            "text": "can",
+            "isCorrect": true,
+            "explanationJa": "正解。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+          },
+          {
+            "id": "G19-E08-C2",
+            "text": "can to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E08-C3",
+            "text": "can be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E08-C4",
+            "text": "can have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can have」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G19-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G19-E08-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G19-E08-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E08-B03",
+            "text": "draw",
+            "role": "required"
+          },
+          {
+            "id": "G19-E08-B04",
+            "text": "beautiful pictures.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G19-E08-B01",
+          "G19-E08-B02",
+          "G19-E08-B03",
+          "G19-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E08-B01",
+            "G19-E08-B02",
+            "G19-E08-B03",
+            "G19-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G19-E08-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G19-E08-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E08-B03",
+            "text": "draw",
+            "role": "required"
+          },
+          {
+            "id": "G19-E08-B04",
+            "text": "beautiful pictures.",
+            "role": "required"
+          },
+          {
+            "id": "G19-E08-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E08-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E08-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G19-E08-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E08-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E08-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G19-E08-B01",
+          "G19-E08-B02",
+          "G19-E08-B03",
+          "G19-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E08-B01",
+            "G19-E08-B02",
+            "G19-E08-B03",
+            "G19-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G19-E08-AUDIO",
+        "text": "My sister can draw beautiful pictures.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G19-E09",
+      "grammarId": "G19",
+      "grammarNameJa": "canの能力・可能",
+      "english": "We can buy tickets online.",
+      "translationJa": "私たちはオンラインでチケットを買えます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "can",
+        "start": 3,
+        "endExclusive": 6,
+        "explanationJa": "canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+      },
+      "sentenceExplanationJa": "「We can buy tickets online.」は「私たちはオンラインでチケットを買えます。」という意味です。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。 この文の対象部分は「can」。まとまりは We → can → buy → tickets → online. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "buy",
+          "lemma": "buy",
+          "meaningJa": "買う",
+          "kind": "word"
+        },
+        {
+          "expression": "tickets",
+          "lemma": "ticket",
+          "meaningJa": "チケット（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "online",
+          "lemma": "online",
+          "meaningJa": "オンラインで",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ buy tickets online.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 6,
+          "answer": "can"
+        },
+        "options": [
+          {
+            "id": "G19-E09-C1",
+            "text": "can",
+            "isCorrect": true,
+            "explanationJa": "正解。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+          },
+          {
+            "id": "G19-E09-C3",
+            "text": "can be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E09-C4",
+            "text": "can have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E09-C2",
+            "text": "can to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G19-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G19-E09-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G19-E09-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E09-B03",
+            "text": "buy",
+            "role": "required"
+          },
+          {
+            "id": "G19-E09-B04",
+            "text": "tickets",
+            "role": "required"
+          },
+          {
+            "id": "G19-E09-B05",
+            "text": "online.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G19-E09-B01",
+          "G19-E09-B02",
+          "G19-E09-B03",
+          "G19-E09-B04",
+          "G19-E09-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E09-B01",
+            "G19-E09-B02",
+            "G19-E09-B03",
+            "G19-E09-B04",
+            "G19-E09-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G19-E09-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G19-E09-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E09-B03",
+            "text": "buy",
+            "role": "required"
+          },
+          {
+            "id": "G19-E09-B04",
+            "text": "tickets",
+            "role": "required"
+          },
+          {
+            "id": "G19-E09-B05",
+            "text": "online.",
+            "role": "required"
+          },
+          {
+            "id": "G19-E09-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E09-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E09-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G19-E09-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E09-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E09-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G19-E09-B01",
+          "G19-E09-B02",
+          "G19-E09-B03",
+          "G19-E09-B04",
+          "G19-E09-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E09-B01",
+            "G19-E09-B02",
+            "G19-E09-B03",
+            "G19-E09-B04",
+            "G19-E09-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G19-E09-AUDIO",
+        "text": "We can buy tickets online.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G19-E10",
+      "grammarId": "G19",
+      "grammarNameJa": "canの能力・可能",
+      "english": "This app can help young fans.",
+      "translationJa": "このアプリは若いファンの役に立てます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "can",
+        "start": 9,
+        "endExclusive": 12,
+        "explanationJa": "canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+      },
+      "sentenceExplanationJa": "「This app can help young fans.」は「このアプリは若いファンの役に立てます。」という意味です。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。 この文の対象部分は「can」。まとまりは This app → can → help → young fans. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "app",
+          "lemma": "app",
+          "meaningJa": "アプリ",
+          "kind": "word"
+        },
+        {
+          "expression": "can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "help",
+          "lemma": "help",
+          "meaningJa": "助ける・手伝う",
+          "kind": "word"
+        },
+        {
+          "expression": "young",
+          "lemma": "young",
+          "meaningJa": "若い",
+          "kind": "word"
+        },
+        {
+          "expression": "fans",
+          "lemma": "fan",
+          "meaningJa": "ファン（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This app ___ help young fans.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 12,
+          "answer": "can"
+        },
+        "options": [
+          {
+            "id": "G19-E10-C3",
+            "text": "can be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E10-C2",
+            "text": "can to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G19-E10-C1",
+            "text": "can",
+            "isCorrect": true,
+            "explanationJa": "正解。canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。"
+          },
+          {
+            "id": "G19-E10-C4",
+            "text": "can have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「can」を使います。「can have」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G19-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G19-E10-B01",
+            "text": "This app",
+            "role": "required"
+          },
+          {
+            "id": "G19-E10-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E10-B03",
+            "text": "help",
+            "role": "required"
+          },
+          {
+            "id": "G19-E10-B04",
+            "text": "young fans.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G19-E10-B01",
+          "G19-E10-B02",
+          "G19-E10-B03",
+          "G19-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E10-B01",
+            "G19-E10-B02",
+            "G19-E10-B03",
+            "G19-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G19-E10-B01",
+            "text": "This app",
+            "role": "required"
+          },
+          {
+            "id": "G19-E10-B02",
+            "text": "can",
+            "role": "required"
+          },
+          {
+            "id": "G19-E10-B03",
+            "text": "help",
+            "role": "required"
+          },
+          {
+            "id": "G19-E10-B04",
+            "text": "young fans.",
+            "role": "required"
+          },
+          {
+            "id": "G19-E10-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E10-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E10-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G19-E10-D01",
+            "text": "can to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E10-D02",
+            "text": "can be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E10-D03",
+            "text": "can have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          },
+          {
+            "id": "G19-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「can」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G19-E10-B01",
+          "G19-E10-B02",
+          "G19-E10-B03",
+          "G19-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G19-E10-B01",
+            "G19-E10-B02",
+            "G19-E10-B03",
+            "G19-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G19-E10-AUDIO",
+        "text": "This app can help young fans.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

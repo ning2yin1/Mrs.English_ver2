@@ -1,0 +1,2462 @@
+{
+  "grammarId": "G29",
+  "examples": [
+    {
+      "id": "G29-E01",
+      "grammarId": "G29",
+      "grammarNameJa": "must・have to・禁止と不要",
+      "english": "You must keep your ticket.",
+      "translationJa": "あなたはチケットを保管しなければなりません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "must",
+        "start": 4,
+        "endExclusive": 8,
+        "explanationJa": "must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+      },
+      "sentenceExplanationJa": "「You must keep your ticket.」は「あなたはチケットを保管しなければなりません。」という意味です。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。 この文の対象部分は「must」。まとまりは You → must → keep → your ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "must",
+          "lemma": "must",
+          "meaningJa": "～しなければならない",
+          "kind": "word"
+        },
+        {
+          "expression": "keep",
+          "lemma": "keep",
+          "meaningJa": "保つ・保管する",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You ___ keep your ticket.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 8,
+          "answer": "must"
+        },
+        "options": [
+          {
+            "id": "G29-E01-C2",
+            "text": "must to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「must」を使います。「must to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E01-C4",
+            "text": "must have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「must」を使います。「must have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E01-C1",
+            "text": "must",
+            "isCorrect": true,
+            "explanationJa": "正解。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+          },
+          {
+            "id": "G29-E01-C3",
+            "text": "must be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「must」を使います。「must be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G29-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G29-E01-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G29-E01-B02",
+            "text": "must",
+            "role": "required"
+          },
+          {
+            "id": "G29-E01-B03",
+            "text": "keep",
+            "role": "required"
+          },
+          {
+            "id": "G29-E01-B04",
+            "text": "your ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G29-E01-B01",
+          "G29-E01-B02",
+          "G29-E01-B03",
+          "G29-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E01-B01",
+            "G29-E01-B02",
+            "G29-E01-B03",
+            "G29-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G29-E01-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G29-E01-B02",
+            "text": "must",
+            "role": "required"
+          },
+          {
+            "id": "G29-E01-B03",
+            "text": "keep",
+            "role": "required"
+          },
+          {
+            "id": "G29-E01-B04",
+            "text": "your ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G29-E01-D01",
+            "text": "must to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E01-D02",
+            "text": "must be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E01-D03",
+            "text": "must have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G29-E01-D01",
+            "text": "must to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E01-D02",
+            "text": "must be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E01-D03",
+            "text": "must have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G29-E01-B01",
+          "G29-E01-B02",
+          "G29-E01-B03",
+          "G29-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E01-B01",
+            "G29-E01-B02",
+            "G29-E01-B03",
+            "G29-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G29-E01-AUDIO",
+        "text": "You must keep your ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G29-E02",
+      "grammarId": "G29",
+      "grammarNameJa": "must・have to・禁止と不要",
+      "english": "We have to leave now.",
+      "translationJa": "私たちは今出発しなければなりません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have to",
+        "start": 3,
+        "endExclusive": 10,
+        "explanationJa": "must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+      },
+      "sentenceExplanationJa": "「We have to leave now.」は「私たちは今出発しなければなりません。」という意味です。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。 この文の対象部分は「have to」。まとまりは We → have to → leave → now. の順です。",
+      "glossary": [
+        {
+          "expression": "have to",
+          "meaningJa": "～しなければならない",
+          "kind": "phrase"
+        },
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "leave",
+          "lemma": "leave",
+          "meaningJa": "出発する・～のままにしておく",
+          "kind": "word"
+        },
+        {
+          "expression": "now",
+          "lemma": "now",
+          "meaningJa": "今",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ leave now.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 10,
+          "answer": "have to"
+        },
+        "options": [
+          {
+            "id": "G29-E02-C3",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have to」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E02-C1",
+            "text": "have to",
+            "isCorrect": true,
+            "explanationJa": "正解。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+          },
+          {
+            "id": "G29-E02-C4",
+            "text": "having to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have to」を使います。「having to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E02-C2",
+            "text": "has to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have to」を使います。「has to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G29-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G29-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G29-E02-B02",
+            "text": "have to",
+            "role": "required"
+          },
+          {
+            "id": "G29-E02-B03",
+            "text": "leave",
+            "role": "required"
+          },
+          {
+            "id": "G29-E02-B04",
+            "text": "now.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G29-E02-B01",
+          "G29-E02-B02",
+          "G29-E02-B03",
+          "G29-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E02-B01",
+            "G29-E02-B02",
+            "G29-E02-B03",
+            "G29-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G29-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G29-E02-B02",
+            "text": "have to",
+            "role": "required"
+          },
+          {
+            "id": "G29-E02-B03",
+            "text": "leave",
+            "role": "required"
+          },
+          {
+            "id": "G29-E02-B04",
+            "text": "now.",
+            "role": "required"
+          },
+          {
+            "id": "G29-E02-D01",
+            "text": "has to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E02-D02",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E02-D03",
+            "text": "having to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G29-E02-D01",
+            "text": "has to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E02-D02",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E02-D03",
+            "text": "having to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G29-E02-B01",
+          "G29-E02-B02",
+          "G29-E02-B03",
+          "G29-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E02-B01",
+            "G29-E02-B02",
+            "G29-E02-B03",
+            "G29-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G29-E02-AUDIO",
+        "text": "We have to leave now.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G29-E03",
+      "grammarId": "G29",
+      "grammarNameJa": "must・have to・禁止と不要",
+      "english": "You must not take photos here.",
+      "translationJa": "ここでは写真を撮ってはいけません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "must not",
+        "start": 4,
+        "endExclusive": 12,
+        "explanationJa": "must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+      },
+      "sentenceExplanationJa": "「You must not take photos here.」は「ここでは写真を撮ってはいけません。」という意味です。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。 この文の対象部分は「must not」。まとまりは You → must not → take photos → here. の順です。",
+      "glossary": [
+        {
+          "expression": "must not",
+          "meaningJa": "～してはいけない",
+          "kind": "phrase"
+        },
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "must",
+          "lemma": "must",
+          "meaningJa": "～しなければならない",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "take",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る",
+          "kind": "word"
+        },
+        {
+          "expression": "photos",
+          "lemma": "photo",
+          "meaningJa": "写真（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "here",
+          "lemma": "here",
+          "meaningJa": "ここに・ここで",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You ___ take photos here.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 12,
+          "answer": "must not"
+        },
+        "options": [
+          {
+            "id": "G29-E03-C3",
+            "text": "must not be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「must not」を使います。「must not be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E03-C4",
+            "text": "must not have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「must not」を使います。「must not have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E03-C1",
+            "text": "must not",
+            "isCorrect": true,
+            "explanationJa": "正解。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+          },
+          {
+            "id": "G29-E03-C2",
+            "text": "must not to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「must not」を使います。「must not to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G29-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G29-E03-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G29-E03-B02",
+            "text": "must not",
+            "role": "required"
+          },
+          {
+            "id": "G29-E03-B03",
+            "text": "take photos",
+            "role": "required"
+          },
+          {
+            "id": "G29-E03-B04",
+            "text": "here.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G29-E03-B01",
+          "G29-E03-B02",
+          "G29-E03-B03",
+          "G29-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E03-B01",
+            "G29-E03-B02",
+            "G29-E03-B03",
+            "G29-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G29-E03-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G29-E03-B02",
+            "text": "must not",
+            "role": "required"
+          },
+          {
+            "id": "G29-E03-B03",
+            "text": "take photos",
+            "role": "required"
+          },
+          {
+            "id": "G29-E03-B04",
+            "text": "here.",
+            "role": "required"
+          },
+          {
+            "id": "G29-E03-D01",
+            "text": "must not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E03-D02",
+            "text": "must not be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E03-D03",
+            "text": "must not have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G29-E03-D01",
+            "text": "must not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E03-D02",
+            "text": "must not be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E03-D03",
+            "text": "must not have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G29-E03-B01",
+          "G29-E03-B02",
+          "G29-E03-B03",
+          "G29-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E03-B01",
+            "G29-E03-B02",
+            "G29-E03-B03",
+            "G29-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G29-E03-AUDIO",
+        "text": "You must not take photos here.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G29-E04",
+      "grammarId": "G29",
+      "grammarNameJa": "must・have to・禁止と不要",
+      "english": "I do not have to work tomorrow.",
+      "translationJa": "私は明日働く必要がありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "do not have to",
+        "start": 2,
+        "endExclusive": 16,
+        "explanationJa": "must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+      },
+      "sentenceExplanationJa": "「I do not have to work tomorrow.」は「私は明日働く必要がありません。」という意味です。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。 この文の対象部分は「do not have to」。まとまりは I → do not have to → work → tomorrow. の順です。",
+      "glossary": [
+        {
+          "expression": "have to",
+          "meaningJa": "～しなければならない",
+          "kind": "phrase"
+        },
+        {
+          "expression": "do not have to",
+          "meaningJa": "～する必要がない",
+          "kind": "phrase"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "work",
+          "lemma": "work",
+          "meaningJa": "働く・動く",
+          "kind": "word"
+        },
+        {
+          "expression": "tomorrow",
+          "lemma": "tomorrow",
+          "meaningJa": "明日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ work tomorrow.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 16,
+          "answer": "do not have to"
+        },
+        "options": [
+          {
+            "id": "G29-E04-C4",
+            "text": "do not to have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not have to」を使います。「do not to have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E04-C3",
+            "text": "do not has to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not have to」を使います。「do not has to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E04-C2",
+            "text": "does not have to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not have to」を使います。「does not have to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E04-C1",
+            "text": "do not have to",
+            "isCorrect": true,
+            "explanationJa": "正解。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+          }
+        ],
+        "correctOptionId": "G29-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G29-E04-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G29-E04-B02",
+            "text": "do not have to",
+            "role": "required"
+          },
+          {
+            "id": "G29-E04-B03",
+            "text": "work",
+            "role": "required"
+          },
+          {
+            "id": "G29-E04-B04",
+            "text": "tomorrow.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G29-E04-B01",
+          "G29-E04-B02",
+          "G29-E04-B03",
+          "G29-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E04-B01",
+            "G29-E04-B02",
+            "G29-E04-B03",
+            "G29-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G29-E04-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G29-E04-B02",
+            "text": "do not have to",
+            "role": "required"
+          },
+          {
+            "id": "G29-E04-B03",
+            "text": "work",
+            "role": "required"
+          },
+          {
+            "id": "G29-E04-B04",
+            "text": "tomorrow.",
+            "role": "required"
+          },
+          {
+            "id": "G29-E04-D01",
+            "text": "does not have to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E04-D02",
+            "text": "do not has to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E04-D03",
+            "text": "do not to have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G29-E04-D01",
+            "text": "does not have to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E04-D02",
+            "text": "do not has to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E04-D03",
+            "text": "do not to have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G29-E04-B01",
+          "G29-E04-B02",
+          "G29-E04-B03",
+          "G29-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E04-B01",
+            "G29-E04-B02",
+            "G29-E04-B03",
+            "G29-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G29-E04-AUDIO",
+        "text": "I do not have to work tomorrow.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G29-E05",
+      "grammarId": "G29",
+      "grammarNameJa": "must・have to・禁止と不要",
+      "english": "She has to catch the last train.",
+      "translationJa": "彼女は終電に乗らなければなりません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has to",
+        "start": 4,
+        "endExclusive": 10,
+        "explanationJa": "must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+      },
+      "sentenceExplanationJa": "「She has to catch the last train.」は「彼女は終電に乗らなければなりません。」という意味です。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。 この文の対象部分は「has to」。まとまりは She → has to → catch → the last train. の順です。",
+      "glossary": [
+        {
+          "expression": "last train",
+          "meaningJa": "終電",
+          "kind": "phrase"
+        },
+        {
+          "expression": "has to",
+          "meaningJa": "～しなければならない",
+          "kind": "phrase"
+        },
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "catch",
+          "lemma": "catch",
+          "meaningJa": "つかまえる・乗り物に間に合う",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "train",
+          "lemma": "train",
+          "meaningJa": "電車",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ catch the last train.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 10,
+          "answer": "has to"
+        },
+        "options": [
+          {
+            "id": "G29-E05-C1",
+            "text": "has to",
+            "isCorrect": true,
+            "explanationJa": "正解。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+          },
+          {
+            "id": "G29-E05-C4",
+            "text": "haves to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has to」を使います。「haves to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E05-C2",
+            "text": "have to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has to」を使います。「have to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E05-C3",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has to」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G29-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G29-E05-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G29-E05-B02",
+            "text": "has to",
+            "role": "required"
+          },
+          {
+            "id": "G29-E05-B03",
+            "text": "catch",
+            "role": "required"
+          },
+          {
+            "id": "G29-E05-B04",
+            "text": "the last train.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G29-E05-B01",
+          "G29-E05-B02",
+          "G29-E05-B03",
+          "G29-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E05-B01",
+            "G29-E05-B02",
+            "G29-E05-B03",
+            "G29-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G29-E05-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G29-E05-B02",
+            "text": "has to",
+            "role": "required"
+          },
+          {
+            "id": "G29-E05-B03",
+            "text": "catch",
+            "role": "required"
+          },
+          {
+            "id": "G29-E05-B04",
+            "text": "the last train.",
+            "role": "required"
+          },
+          {
+            "id": "G29-E05-D01",
+            "text": "have to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E05-D02",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E05-D03",
+            "text": "haves to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G29-E05-D01",
+            "text": "have to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E05-D02",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E05-D03",
+            "text": "haves to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G29-E05-B01",
+          "G29-E05-B02",
+          "G29-E05-B03",
+          "G29-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E05-B01",
+            "G29-E05-B02",
+            "G29-E05-B03",
+            "G29-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G29-E05-AUDIO",
+        "text": "She has to catch the last train.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G29-E06",
+      "grammarId": "G29",
+      "grammarNameJa": "must・have to・禁止と不要",
+      "english": "We must follow the rules.",
+      "translationJa": "私たちはルールを守らなければなりません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "must",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+      },
+      "sentenceExplanationJa": "「We must follow the rules.」は「私たちはルールを守らなければなりません。」という意味です。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。 この文の対象部分は「must」。まとまりは We → must → follow → the rules. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "must",
+          "lemma": "must",
+          "meaningJa": "～しなければならない",
+          "kind": "word"
+        },
+        {
+          "expression": "follow",
+          "lemma": "follow",
+          "meaningJa": "従う",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "rules",
+          "lemma": "rule",
+          "meaningJa": "ルール（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ follow the rules.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "must"
+        },
+        "options": [
+          {
+            "id": "G29-E06-C2",
+            "text": "must to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「must」を使います。「must to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E06-C1",
+            "text": "must",
+            "isCorrect": true,
+            "explanationJa": "正解。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+          },
+          {
+            "id": "G29-E06-C4",
+            "text": "must have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「must」を使います。「must have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E06-C3",
+            "text": "must be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「must」を使います。「must be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G29-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G29-E06-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G29-E06-B02",
+            "text": "must",
+            "role": "required"
+          },
+          {
+            "id": "G29-E06-B03",
+            "text": "follow",
+            "role": "required"
+          },
+          {
+            "id": "G29-E06-B04",
+            "text": "the rules.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G29-E06-B01",
+          "G29-E06-B02",
+          "G29-E06-B03",
+          "G29-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E06-B01",
+            "G29-E06-B02",
+            "G29-E06-B03",
+            "G29-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G29-E06-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G29-E06-B02",
+            "text": "must",
+            "role": "required"
+          },
+          {
+            "id": "G29-E06-B03",
+            "text": "follow",
+            "role": "required"
+          },
+          {
+            "id": "G29-E06-B04",
+            "text": "the rules.",
+            "role": "required"
+          },
+          {
+            "id": "G29-E06-D01",
+            "text": "must to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E06-D02",
+            "text": "must be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E06-D03",
+            "text": "must have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G29-E06-D01",
+            "text": "must to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E06-D02",
+            "text": "must be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E06-D03",
+            "text": "must have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          },
+          {
+            "id": "G29-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G29-E06-B01",
+          "G29-E06-B02",
+          "G29-E06-B03",
+          "G29-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E06-B01",
+            "G29-E06-B02",
+            "G29-E06-B03",
+            "G29-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G29-E06-AUDIO",
+        "text": "We must follow the rules.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G29-E07",
+      "grammarId": "G29",
+      "grammarNameJa": "must・have to・禁止と不要",
+      "english": "You do not have to bring a towel.",
+      "translationJa": "あなたはタオルを持ってくる必要がありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "do not have to",
+        "start": 4,
+        "endExclusive": 18,
+        "explanationJa": "must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+      },
+      "sentenceExplanationJa": "「You do not have to bring a towel.」は「あなたはタオルを持ってくる必要がありません。」という意味です。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。 この文の対象部分は「do not have to」。まとまりは You → do not have to → bring → a towel. の順です。",
+      "glossary": [
+        {
+          "expression": "have to",
+          "meaningJa": "～しなければならない",
+          "kind": "phrase"
+        },
+        {
+          "expression": "do not have to",
+          "meaningJa": "～する必要がない",
+          "kind": "phrase"
+        },
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "bring",
+          "lemma": "bring",
+          "meaningJa": "持ってくる",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You ___ bring a towel.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 18,
+          "answer": "do not have to"
+        },
+        "options": [
+          {
+            "id": "G29-E07-C4",
+            "text": "do not to have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not have to」を使います。「do not to have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E07-C1",
+            "text": "do not have to",
+            "isCorrect": true,
+            "explanationJa": "正解。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+          },
+          {
+            "id": "G29-E07-C3",
+            "text": "do not has to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not have to」を使います。「do not has to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E07-C2",
+            "text": "does not have to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not have to」を使います。「does not have to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G29-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G29-E07-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G29-E07-B02",
+            "text": "do not have to",
+            "role": "required"
+          },
+          {
+            "id": "G29-E07-B03",
+            "text": "bring",
+            "role": "required"
+          },
+          {
+            "id": "G29-E07-B04",
+            "text": "a towel.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G29-E07-B01",
+          "G29-E07-B02",
+          "G29-E07-B03",
+          "G29-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E07-B01",
+            "G29-E07-B02",
+            "G29-E07-B03",
+            "G29-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G29-E07-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G29-E07-B02",
+            "text": "do not have to",
+            "role": "required"
+          },
+          {
+            "id": "G29-E07-B03",
+            "text": "bring",
+            "role": "required"
+          },
+          {
+            "id": "G29-E07-B04",
+            "text": "a towel.",
+            "role": "required"
+          },
+          {
+            "id": "G29-E07-D01",
+            "text": "does not have to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E07-D02",
+            "text": "do not has to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E07-D03",
+            "text": "do not to have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G29-E07-D01",
+            "text": "does not have to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E07-D02",
+            "text": "do not has to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E07-D03",
+            "text": "do not to have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          },
+          {
+            "id": "G29-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not have to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G29-E07-B01",
+          "G29-E07-B02",
+          "G29-E07-B03",
+          "G29-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E07-B01",
+            "G29-E07-B02",
+            "G29-E07-B03",
+            "G29-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G29-E07-AUDIO",
+        "text": "You do not have to bring a towel.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G29-E08",
+      "grammarId": "G29",
+      "grammarNameJa": "must・have to・禁止と不要",
+      "english": "He has to study before the concert.",
+      "translationJa": "彼はコンサート前に勉強しなければなりません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has to",
+        "start": 3,
+        "endExclusive": 9,
+        "explanationJa": "must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+      },
+      "sentenceExplanationJa": "「He has to study before the concert.」は「彼はコンサート前に勉強しなければなりません。」という意味です。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。 この文の対象部分は「has to」。まとまりは He → has to → study → before the concert. の順です。",
+      "glossary": [
+        {
+          "expression": "has to",
+          "meaningJa": "～しなければならない",
+          "kind": "phrase"
+        },
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "study",
+          "lemma": "study",
+          "meaningJa": "勉強する",
+          "kind": "word"
+        },
+        {
+          "expression": "before",
+          "lemma": "before",
+          "meaningJa": "～の前に・以前",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ study before the concert.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 9,
+          "answer": "has to"
+        },
+        "options": [
+          {
+            "id": "G29-E08-C3",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has to」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E08-C1",
+            "text": "has to",
+            "isCorrect": true,
+            "explanationJa": "正解。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+          },
+          {
+            "id": "G29-E08-C4",
+            "text": "haves to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has to」を使います。「haves to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E08-C2",
+            "text": "have to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has to」を使います。「have to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G29-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G29-E08-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G29-E08-B02",
+            "text": "has to",
+            "role": "required"
+          },
+          {
+            "id": "G29-E08-B03",
+            "text": "study",
+            "role": "required"
+          },
+          {
+            "id": "G29-E08-B04",
+            "text": "before the concert.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G29-E08-B01",
+          "G29-E08-B02",
+          "G29-E08-B03",
+          "G29-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E08-B01",
+            "G29-E08-B02",
+            "G29-E08-B03",
+            "G29-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G29-E08-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G29-E08-B02",
+            "text": "has to",
+            "role": "required"
+          },
+          {
+            "id": "G29-E08-B03",
+            "text": "study",
+            "role": "required"
+          },
+          {
+            "id": "G29-E08-B04",
+            "text": "before the concert.",
+            "role": "required"
+          },
+          {
+            "id": "G29-E08-D01",
+            "text": "have to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E08-D02",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E08-D03",
+            "text": "haves to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G29-E08-D01",
+            "text": "have to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E08-D02",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E08-D03",
+            "text": "haves to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          },
+          {
+            "id": "G29-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G29-E08-B01",
+          "G29-E08-B02",
+          "G29-E08-B03",
+          "G29-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E08-B01",
+            "G29-E08-B02",
+            "G29-E08-B03",
+            "G29-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G29-E08-AUDIO",
+        "text": "He has to study before the concert.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G29-E09",
+      "grammarId": "G29",
+      "grammarNameJa": "must・have to・禁止と不要",
+      "english": "We must not block the door.",
+      "translationJa": "私たちはドアをふさいではいけません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "must not",
+        "start": 3,
+        "endExclusive": 11,
+        "explanationJa": "must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+      },
+      "sentenceExplanationJa": "「We must not block the door.」は「私たちはドアをふさいではいけません。」という意味です。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。 この文の対象部分は「must not」。まとまりは We → must not → block → the door. の順です。",
+      "glossary": [
+        {
+          "expression": "must not",
+          "meaningJa": "～してはいけない",
+          "kind": "phrase"
+        },
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "must",
+          "lemma": "must",
+          "meaningJa": "～しなければならない",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "block",
+          "lemma": "block",
+          "meaningJa": "ふさぐ",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "door",
+          "lemma": "door",
+          "meaningJa": "ドア",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ block the door.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 11,
+          "answer": "must not"
+        },
+        "options": [
+          {
+            "id": "G29-E09-C1",
+            "text": "must not",
+            "isCorrect": true,
+            "explanationJa": "正解。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+          },
+          {
+            "id": "G29-E09-C4",
+            "text": "must not have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「must not」を使います。「must not have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E09-C2",
+            "text": "must not to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「must not」を使います。「must not to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E09-C3",
+            "text": "must not be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「must not」を使います。「must not be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G29-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G29-E09-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G29-E09-B02",
+            "text": "must not",
+            "role": "required"
+          },
+          {
+            "id": "G29-E09-B03",
+            "text": "block",
+            "role": "required"
+          },
+          {
+            "id": "G29-E09-B04",
+            "text": "the door.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G29-E09-B01",
+          "G29-E09-B02",
+          "G29-E09-B03",
+          "G29-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E09-B01",
+            "G29-E09-B02",
+            "G29-E09-B03",
+            "G29-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G29-E09-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G29-E09-B02",
+            "text": "must not",
+            "role": "required"
+          },
+          {
+            "id": "G29-E09-B03",
+            "text": "block",
+            "role": "required"
+          },
+          {
+            "id": "G29-E09-B04",
+            "text": "the door.",
+            "role": "required"
+          },
+          {
+            "id": "G29-E09-D01",
+            "text": "must not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E09-D02",
+            "text": "must not be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E09-D03",
+            "text": "must not have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G29-E09-D01",
+            "text": "must not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E09-D02",
+            "text": "must not be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E09-D03",
+            "text": "must not have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          },
+          {
+            "id": "G29-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「must not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G29-E09-B01",
+          "G29-E09-B02",
+          "G29-E09-B03",
+          "G29-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E09-B01",
+            "G29-E09-B02",
+            "G29-E09-B03",
+            "G29-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G29-E09-AUDIO",
+        "text": "We must not block the door.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G29-E10",
+      "grammarId": "G29",
+      "grammarNameJa": "must・have to・禁止と不要",
+      "english": "I have to charge my phone.",
+      "translationJa": "私は携帯電話を充電しなければなりません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have to",
+        "start": 2,
+        "endExclusive": 9,
+        "explanationJa": "must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+      },
+      "sentenceExplanationJa": "「I have to charge my phone.」は「私は携帯電話を充電しなければなりません。」という意味です。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。 この文の対象部分は「have to」。まとまりは I → have to → charge → my phone. の順です。",
+      "glossary": [
+        {
+          "expression": "have to",
+          "meaningJa": "～しなければならない",
+          "kind": "phrase"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "charge",
+          "lemma": "charge",
+          "meaningJa": "充電する",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "phone",
+          "lemma": "phone",
+          "meaningJa": "携帯電話・電話",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ charge my phone.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 9,
+          "answer": "have to"
+        },
+        "options": [
+          {
+            "id": "G29-E10-C2",
+            "text": "has to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have to」を使います。「has to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E10-C1",
+            "text": "have to",
+            "isCorrect": true,
+            "explanationJa": "正解。must・have toは義務。must notは禁止、do not have toは必要がないことを表す。"
+          },
+          {
+            "id": "G29-E10-C4",
+            "text": "having to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have to」を使います。「having to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G29-E10-C3",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have to」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G29-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G29-E10-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G29-E10-B02",
+            "text": "have to",
+            "role": "required"
+          },
+          {
+            "id": "G29-E10-B03",
+            "text": "charge",
+            "role": "required"
+          },
+          {
+            "id": "G29-E10-B04",
+            "text": "my phone.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G29-E10-B01",
+          "G29-E10-B02",
+          "G29-E10-B03",
+          "G29-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E10-B01",
+            "G29-E10-B02",
+            "G29-E10-B03",
+            "G29-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G29-E10-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G29-E10-B02",
+            "text": "have to",
+            "role": "required"
+          },
+          {
+            "id": "G29-E10-B03",
+            "text": "charge",
+            "role": "required"
+          },
+          {
+            "id": "G29-E10-B04",
+            "text": "my phone.",
+            "role": "required"
+          },
+          {
+            "id": "G29-E10-D01",
+            "text": "has to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E10-D02",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E10-D03",
+            "text": "having to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G29-E10-D01",
+            "text": "has to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E10-D02",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E10-D03",
+            "text": "having to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          },
+          {
+            "id": "G29-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G29-E10-B01",
+          "G29-E10-B02",
+          "G29-E10-B03",
+          "G29-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G29-E10-B01",
+            "G29-E10-B02",
+            "G29-E10-B03",
+            "G29-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G29-E10-AUDIO",
+        "text": "I have to charge my phone.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

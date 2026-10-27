@@ -1,0 +1,11 @@
+{
+  "prompt": "Edit the supplied result SCREEN. Preserve landscape layout, typography, score 6300+1800, card bonus10%, TOTAL8910, 9/10 and two lit stars. Correct earned RP to exact '+440', NOT740 (90 correct-answer RP +50 completion +300 first two-star reward). Replace left team with THREE DISTINCT member cards, one each from supplied photos: Motoki, Hiroto, Ryoka. All are silver C rank with small Lv.10, giving10% average team bonus. No three copies of same member. Keep Japanese text 獲得RP and other buttons. No new currencies. Clean high fidelity full-screen image.",
+  "refs": [
+    "Mrs-English-Production-Kit\\assets\\new\\landscape-mockups\\08-results.png",
+    "asset-review\\img-085.jpg",
+    "asset-review\\img-058.jpg",
+    "asset-review\\img-113.jpg"
+  ],
+  "source": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-434d833d-1f2d-4964-b286-6f31e847ef1e.png",
+  "output": "assets/new/landscape-mockups/08-results.png"
+}

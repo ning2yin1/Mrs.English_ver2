@@ -1,0 +1,2375 @@
+{
+  "grammarId": "G37",
+  "examples": [
+    {
+      "id": "G37-E01",
+      "grammarId": "G37",
+      "grammarNameJa": "動名詞",
+      "english": "I enjoy listening to music.",
+      "translationJa": "私は音楽を聴くことを楽しんでいます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "listening",
+        "start": 8,
+        "endExclusive": 17,
+        "explanationJa": "動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+      },
+      "sentenceExplanationJa": "「I enjoy listening to music.」は「私は音楽を聴くことを楽しんでいます。」という意味です。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。 この文の対象部分は「listening」。まとまりは I → enjoy → listening → to music. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "enjoy",
+          "lemma": "enjoy",
+          "meaningJa": "楽しむ",
+          "kind": "word"
+        },
+        {
+          "expression": "listening",
+          "lemma": "listen",
+          "meaningJa": "耳を傾けて聴く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "music",
+          "lemma": "music",
+          "meaningJa": "音楽・楽譜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I enjoy ___ to music.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 17,
+          "answer": "listening"
+        },
+        "options": [
+          {
+            "id": "G37-E01-C4",
+            "text": "listened",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「listening」を使います。「listened」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E01-C2",
+            "text": "listen",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「listening」を使います。「listen」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E01-C1",
+            "text": "listening",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+          },
+          {
+            "id": "G37-E01-C3",
+            "text": "listens",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「listening」を使います。「listens」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G37-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G37-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G37-E01-B02",
+            "text": "enjoy",
+            "role": "required"
+          },
+          {
+            "id": "G37-E01-B03",
+            "text": "listening",
+            "role": "required"
+          },
+          {
+            "id": "G37-E01-B04",
+            "text": "to music.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G37-E01-B01",
+          "G37-E01-B02",
+          "G37-E01-B03",
+          "G37-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E01-B01",
+            "G37-E01-B02",
+            "G37-E01-B03",
+            "G37-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G37-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G37-E01-B02",
+            "text": "enjoy",
+            "role": "required"
+          },
+          {
+            "id": "G37-E01-B03",
+            "text": "listening",
+            "role": "required"
+          },
+          {
+            "id": "G37-E01-B04",
+            "text": "to music.",
+            "role": "required"
+          },
+          {
+            "id": "G37-E01-D01",
+            "text": "listen",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listening」と比較してください。"
+          },
+          {
+            "id": "G37-E01-D02",
+            "text": "listens",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listening」と比較してください。"
+          },
+          {
+            "id": "G37-E01-D03",
+            "text": "listened",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listening」と比較してください。"
+          },
+          {
+            "id": "G37-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listening」と比較してください。"
+          },
+          {
+            "id": "G37-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listening」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G37-E01-D01",
+            "text": "listen",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listening」と比較してください。"
+          },
+          {
+            "id": "G37-E01-D02",
+            "text": "listens",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listening」と比較してください。"
+          },
+          {
+            "id": "G37-E01-D03",
+            "text": "listened",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listening」と比較してください。"
+          },
+          {
+            "id": "G37-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listening」と比較してください。"
+          },
+          {
+            "id": "G37-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listening」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G37-E01-B01",
+          "G37-E01-B02",
+          "G37-E01-B03",
+          "G37-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E01-B01",
+            "G37-E01-B02",
+            "G37-E01-B03",
+            "G37-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G37-E01-AUDIO",
+        "text": "I enjoy listening to music.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G37-E02",
+      "grammarId": "G37",
+      "grammarNameJa": "動名詞",
+      "english": "She finished writing her message.",
+      "translationJa": "彼女はメッセージを書き終えました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "writing",
+        "start": 13,
+        "endExclusive": 20,
+        "explanationJa": "動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+      },
+      "sentenceExplanationJa": "「She finished writing her message.」は「彼女はメッセージを書き終えました。」という意味です。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。 この文の対象部分は「writing」。まとまりは She → finished → writing → her message. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "finished",
+          "lemma": "finish",
+          "meaningJa": "終える（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "writing",
+          "lemma": "write",
+          "meaningJa": "書く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "her",
+          "lemma": "her",
+          "meaningJa": "彼女を・彼女に・彼女の",
+          "kind": "word"
+        },
+        {
+          "expression": "message",
+          "lemma": "message",
+          "meaningJa": "メッセージ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She finished ___ her message.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 20,
+          "answer": "writing"
+        },
+        "options": [
+          {
+            "id": "G37-E02-C4",
+            "text": "wrote",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「writing」を使います。「wrote」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E02-C3",
+            "text": "writes",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「writing」を使います。「writes」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E02-C1",
+            "text": "writing",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+          },
+          {
+            "id": "G37-E02-C2",
+            "text": "write",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「writing」を使います。「write」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G37-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G37-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G37-E02-B02",
+            "text": "finished",
+            "role": "required"
+          },
+          {
+            "id": "G37-E02-B03",
+            "text": "writing",
+            "role": "required"
+          },
+          {
+            "id": "G37-E02-B04",
+            "text": "her message.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G37-E02-B01",
+          "G37-E02-B02",
+          "G37-E02-B03",
+          "G37-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E02-B01",
+            "G37-E02-B02",
+            "G37-E02-B03",
+            "G37-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G37-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G37-E02-B02",
+            "text": "finished",
+            "role": "required"
+          },
+          {
+            "id": "G37-E02-B03",
+            "text": "writing",
+            "role": "required"
+          },
+          {
+            "id": "G37-E02-B04",
+            "text": "her message.",
+            "role": "required"
+          },
+          {
+            "id": "G37-E02-D01",
+            "text": "write",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「writing」と比較してください。"
+          },
+          {
+            "id": "G37-E02-D02",
+            "text": "writes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「writing」と比較してください。"
+          },
+          {
+            "id": "G37-E02-D03",
+            "text": "wrote",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「writing」と比較してください。"
+          },
+          {
+            "id": "G37-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「writing」と比較してください。"
+          },
+          {
+            "id": "G37-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「writing」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G37-E02-D01",
+            "text": "write",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「writing」と比較してください。"
+          },
+          {
+            "id": "G37-E02-D02",
+            "text": "writes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「writing」と比較してください。"
+          },
+          {
+            "id": "G37-E02-D03",
+            "text": "wrote",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「writing」と比較してください。"
+          },
+          {
+            "id": "G37-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「writing」と比較してください。"
+          },
+          {
+            "id": "G37-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「writing」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G37-E02-B01",
+          "G37-E02-B02",
+          "G37-E02-B03",
+          "G37-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E02-B01",
+            "G37-E02-B02",
+            "G37-E02-B03",
+            "G37-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G37-E02-AUDIO",
+        "text": "She finished writing her message.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G37-E03",
+      "grammarId": "G37",
+      "grammarNameJa": "動名詞",
+      "english": "We practice singing every day.",
+      "translationJa": "私たちは毎日歌う練習をします。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "singing",
+        "start": 12,
+        "endExclusive": 19,
+        "explanationJa": "動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+      },
+      "sentenceExplanationJa": "「We practice singing every day.」は「私たちは毎日歌う練習をします。」という意味です。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。 この文の対象部分は「singing」。まとまりは We → practice → singing → every day. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "practice",
+          "lemma": "practice",
+          "meaningJa": "練習する・練習",
+          "kind": "word"
+        },
+        {
+          "expression": "singing",
+          "lemma": "sing",
+          "meaningJa": "歌う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "every",
+          "lemma": "every",
+          "meaningJa": "毎～・すべての",
+          "kind": "word"
+        },
+        {
+          "expression": "day",
+          "lemma": "day",
+          "meaningJa": "日・一日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We practice ___ every day.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 19,
+          "answer": "singing"
+        },
+        "options": [
+          {
+            "id": "G37-E03-C2",
+            "text": "sing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「singing」を使います。「sing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E03-C1",
+            "text": "singing",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+          },
+          {
+            "id": "G37-E03-C4",
+            "text": "sang",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「singing」を使います。「sang」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E03-C3",
+            "text": "sings",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「singing」を使います。「sings」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G37-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G37-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G37-E03-B02",
+            "text": "practice",
+            "role": "required"
+          },
+          {
+            "id": "G37-E03-B03",
+            "text": "singing",
+            "role": "required"
+          },
+          {
+            "id": "G37-E03-B04",
+            "text": "every day.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G37-E03-B01",
+          "G37-E03-B02",
+          "G37-E03-B03",
+          "G37-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E03-B01",
+            "G37-E03-B02",
+            "G37-E03-B03",
+            "G37-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G37-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G37-E03-B02",
+            "text": "practice",
+            "role": "required"
+          },
+          {
+            "id": "G37-E03-B03",
+            "text": "singing",
+            "role": "required"
+          },
+          {
+            "id": "G37-E03-B04",
+            "text": "every day.",
+            "role": "required"
+          },
+          {
+            "id": "G37-E03-D01",
+            "text": "sing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G37-E03-D02",
+            "text": "sings",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G37-E03-D03",
+            "text": "sang",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G37-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G37-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G37-E03-D01",
+            "text": "sing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G37-E03-D02",
+            "text": "sings",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G37-E03-D03",
+            "text": "sang",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G37-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G37-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G37-E03-B01",
+          "G37-E03-B02",
+          "G37-E03-B03",
+          "G37-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E03-B01",
+            "G37-E03-B02",
+            "G37-E03-B03",
+            "G37-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G37-E03-AUDIO",
+        "text": "We practice singing every day.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G37-E04",
+      "grammarId": "G37",
+      "grammarNameJa": "動名詞",
+      "english": "He is good at playing the piano.",
+      "translationJa": "彼はピアノを弾くのが得意です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "playing",
+        "start": 14,
+        "endExclusive": 21,
+        "explanationJa": "動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+      },
+      "sentenceExplanationJa": "「He is good at playing the piano.」は「彼はピアノを弾くのが得意です。」という意味です。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。 この文の対象部分は「playing」。まとまりは He → is good at → playing → the piano. の順です。",
+      "glossary": [
+        {
+          "expression": "good at",
+          "meaningJa": "～が得意な",
+          "kind": "phrase"
+        },
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "good",
+          "lemma": "good",
+          "meaningJa": "よい",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "playing",
+          "lemma": "play",
+          "meaningJa": "演奏する・遊ぶ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "piano",
+          "lemma": "piano",
+          "meaningJa": "ピアノ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He is good at ___ the piano.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 21,
+          "answer": "playing"
+        },
+        "options": [
+          {
+            "id": "G37-E04-C1",
+            "text": "playing",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+          },
+          {
+            "id": "G37-E04-C4",
+            "text": "played",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「playing」を使います。「played」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E04-C2",
+            "text": "play",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「playing」を使います。「play」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E04-C3",
+            "text": "plays",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「playing」を使います。「plays」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G37-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G37-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G37-E04-B02",
+            "text": "is good at",
+            "role": "required"
+          },
+          {
+            "id": "G37-E04-B03",
+            "text": "playing",
+            "role": "required"
+          },
+          {
+            "id": "G37-E04-B04",
+            "text": "the piano.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G37-E04-B01",
+          "G37-E04-B02",
+          "G37-E04-B03",
+          "G37-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E04-B01",
+            "G37-E04-B02",
+            "G37-E04-B03",
+            "G37-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G37-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G37-E04-B02",
+            "text": "is good at",
+            "role": "required"
+          },
+          {
+            "id": "G37-E04-B03",
+            "text": "playing",
+            "role": "required"
+          },
+          {
+            "id": "G37-E04-B04",
+            "text": "the piano.",
+            "role": "required"
+          },
+          {
+            "id": "G37-E04-D01",
+            "text": "play",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G37-E04-D02",
+            "text": "plays",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G37-E04-D03",
+            "text": "played",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G37-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G37-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G37-E04-D01",
+            "text": "play",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G37-E04-D02",
+            "text": "plays",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G37-E04-D03",
+            "text": "played",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G37-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G37-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G37-E04-B01",
+          "G37-E04-B02",
+          "G37-E04-B03",
+          "G37-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E04-B01",
+            "G37-E04-B02",
+            "G37-E04-B03",
+            "G37-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G37-E04-AUDIO",
+        "text": "He is good at playing the piano.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G37-E05",
+      "grammarId": "G37",
+      "grammarNameJa": "動名詞",
+      "english": "Thank you for helping me.",
+      "translationJa": "私を手伝ってくれてありがとう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "helping",
+        "start": 14,
+        "endExclusive": 21,
+        "explanationJa": "動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+      },
+      "sentenceExplanationJa": "「Thank you for helping me.」は「私を手伝ってくれてありがとう。」という意味です。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。 この文の対象部分は「helping」。まとまりは Thank you → for → helping → me. の順です。",
+      "glossary": [
+        {
+          "expression": "Thank",
+          "lemma": "thank",
+          "meaningJa": "感謝する",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "helping",
+          "lemma": "help",
+          "meaningJa": "助ける・手伝う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Thank you for ___ me.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 21,
+          "answer": "helping"
+        },
+        "options": [
+          {
+            "id": "G37-E05-C3",
+            "text": "helps",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「helping」を使います。「helps」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E05-C2",
+            "text": "help",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「helping」を使います。「help」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E05-C1",
+            "text": "helping",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+          },
+          {
+            "id": "G37-E05-C4",
+            "text": "helped",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「helping」を使います。「helped」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G37-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G37-E05-B01",
+            "text": "Thank you",
+            "role": "required"
+          },
+          {
+            "id": "G37-E05-B02",
+            "text": "for",
+            "role": "required"
+          },
+          {
+            "id": "G37-E05-B03",
+            "text": "helping",
+            "role": "required"
+          },
+          {
+            "id": "G37-E05-B04",
+            "text": "me.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G37-E05-B01",
+          "G37-E05-B02",
+          "G37-E05-B03",
+          "G37-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E05-B01",
+            "G37-E05-B02",
+            "G37-E05-B03",
+            "G37-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G37-E05-B01",
+            "text": "Thank you",
+            "role": "required"
+          },
+          {
+            "id": "G37-E05-B02",
+            "text": "for",
+            "role": "required"
+          },
+          {
+            "id": "G37-E05-B03",
+            "text": "helping",
+            "role": "required"
+          },
+          {
+            "id": "G37-E05-B04",
+            "text": "me.",
+            "role": "required"
+          },
+          {
+            "id": "G37-E05-D01",
+            "text": "help",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「helping」と比較してください。"
+          },
+          {
+            "id": "G37-E05-D02",
+            "text": "helps",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「helping」と比較してください。"
+          },
+          {
+            "id": "G37-E05-D03",
+            "text": "helped",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「helping」と比較してください。"
+          },
+          {
+            "id": "G37-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「helping」と比較してください。"
+          },
+          {
+            "id": "G37-E05-D05",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「helping」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G37-E05-D01",
+            "text": "help",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「helping」と比較してください。"
+          },
+          {
+            "id": "G37-E05-D02",
+            "text": "helps",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「helping」と比較してください。"
+          },
+          {
+            "id": "G37-E05-D03",
+            "text": "helped",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「helping」と比較してください。"
+          },
+          {
+            "id": "G37-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「helping」と比較してください。"
+          },
+          {
+            "id": "G37-E05-D05",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「helping」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G37-E05-B01",
+          "G37-E05-B02",
+          "G37-E05-B03",
+          "G37-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E05-B01",
+            "G37-E05-B02",
+            "G37-E05-B03",
+            "G37-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G37-E05-AUDIO",
+        "text": "Thank you for helping me.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G37-E06",
+      "grammarId": "G37",
+      "grammarNameJa": "動名詞",
+      "english": "I am interested in learning English.",
+      "translationJa": "私は英語を学ぶことに興味があります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "learning",
+        "start": 19,
+        "endExclusive": 27,
+        "explanationJa": "動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+      },
+      "sentenceExplanationJa": "「I am interested in learning English.」は「私は英語を学ぶことに興味があります。」という意味です。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。 この文の対象部分は「learning」。まとまりは I → am interested in → learning → English. の順です。",
+      "glossary": [
+        {
+          "expression": "interested in",
+          "meaningJa": "～に興味がある",
+          "kind": "phrase"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "am",
+          "lemma": "am",
+          "meaningJa": "～です・いる（Iに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "interested",
+          "lemma": "interested",
+          "meaningJa": "興味がある",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "learning",
+          "lemma": "learn",
+          "meaningJa": "学ぶ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "English",
+          "lemma": "english",
+          "meaningJa": "英語",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I am interested in ___ English.",
+        "blank": {
+          "start": 19,
+          "endExclusive": 27,
+          "answer": "learning"
+        },
+        "options": [
+          {
+            "id": "G37-E06-C4",
+            "text": "learned",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「learning」を使います。「learned」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E06-C1",
+            "text": "learning",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+          },
+          {
+            "id": "G37-E06-C3",
+            "text": "learns",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「learning」を使います。「learns」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E06-C2",
+            "text": "learn",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「learning」を使います。「learn」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G37-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G37-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G37-E06-B02",
+            "text": "am interested in",
+            "role": "required"
+          },
+          {
+            "id": "G37-E06-B03",
+            "text": "learning",
+            "role": "required"
+          },
+          {
+            "id": "G37-E06-B04",
+            "text": "English.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G37-E06-B01",
+          "G37-E06-B02",
+          "G37-E06-B03",
+          "G37-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E06-B01",
+            "G37-E06-B02",
+            "G37-E06-B03",
+            "G37-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G37-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G37-E06-B02",
+            "text": "am interested in",
+            "role": "required"
+          },
+          {
+            "id": "G37-E06-B03",
+            "text": "learning",
+            "role": "required"
+          },
+          {
+            "id": "G37-E06-B04",
+            "text": "English.",
+            "role": "required"
+          },
+          {
+            "id": "G37-E06-D01",
+            "text": "learn",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「learning」と比較してください。"
+          },
+          {
+            "id": "G37-E06-D02",
+            "text": "learns",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「learning」と比較してください。"
+          },
+          {
+            "id": "G37-E06-D03",
+            "text": "learned",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「learning」と比較してください。"
+          },
+          {
+            "id": "G37-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「learning」と比較してください。"
+          },
+          {
+            "id": "G37-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「learning」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G37-E06-D01",
+            "text": "learn",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「learning」と比較してください。"
+          },
+          {
+            "id": "G37-E06-D02",
+            "text": "learns",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「learning」と比較してください。"
+          },
+          {
+            "id": "G37-E06-D03",
+            "text": "learned",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「learning」と比較してください。"
+          },
+          {
+            "id": "G37-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「learning」と比較してください。"
+          },
+          {
+            "id": "G37-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「learning」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G37-E06-B01",
+          "G37-E06-B02",
+          "G37-E06-B03",
+          "G37-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E06-B01",
+            "G37-E06-B02",
+            "G37-E06-B03",
+            "G37-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G37-E06-AUDIO",
+        "text": "I am interested in learning English.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G37-E07",
+      "grammarId": "G37",
+      "grammarNameJa": "動名詞",
+      "english": "She stopped talking during the song.",
+      "translationJa": "彼女は曲の間、話すのをやめました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "talking",
+        "start": 12,
+        "endExclusive": 19,
+        "explanationJa": "動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+      },
+      "sentenceExplanationJa": "「She stopped talking during the song.」は「彼女は曲の間、話すのをやめました。」という意味です。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。 この文の対象部分は「talking」。まとまりは She → stopped → talking → during the song. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "stopped",
+          "lemma": "stop",
+          "meaningJa": "止まる・やめる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "talking",
+          "lemma": "talk",
+          "meaningJa": "話す（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "during",
+          "lemma": "during",
+          "meaningJa": "～の間に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She stopped ___ during the song.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 19,
+          "answer": "talking"
+        },
+        "options": [
+          {
+            "id": "G37-E07-C1",
+            "text": "talking",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+          },
+          {
+            "id": "G37-E07-C3",
+            "text": "talks",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「talking」を使います。「talks」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E07-C4",
+            "text": "talked",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「talking」を使います。「talked」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E07-C2",
+            "text": "talk",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「talking」を使います。「talk」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G37-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G37-E07-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G37-E07-B02",
+            "text": "stopped",
+            "role": "required"
+          },
+          {
+            "id": "G37-E07-B03",
+            "text": "talking",
+            "role": "required"
+          },
+          {
+            "id": "G37-E07-B04",
+            "text": "during the song.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G37-E07-B01",
+          "G37-E07-B02",
+          "G37-E07-B03",
+          "G37-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E07-B01",
+            "G37-E07-B02",
+            "G37-E07-B03",
+            "G37-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G37-E07-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G37-E07-B02",
+            "text": "stopped",
+            "role": "required"
+          },
+          {
+            "id": "G37-E07-B03",
+            "text": "talking",
+            "role": "required"
+          },
+          {
+            "id": "G37-E07-B04",
+            "text": "during the song.",
+            "role": "required"
+          },
+          {
+            "id": "G37-E07-D01",
+            "text": "talk",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「talking」と比較してください。"
+          },
+          {
+            "id": "G37-E07-D02",
+            "text": "talks",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「talking」と比較してください。"
+          },
+          {
+            "id": "G37-E07-D03",
+            "text": "talked",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「talking」と比較してください。"
+          },
+          {
+            "id": "G37-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「talking」と比較してください。"
+          },
+          {
+            "id": "G37-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「talking」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G37-E07-D01",
+            "text": "talk",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「talking」と比較してください。"
+          },
+          {
+            "id": "G37-E07-D02",
+            "text": "talks",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「talking」と比較してください。"
+          },
+          {
+            "id": "G37-E07-D03",
+            "text": "talked",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「talking」と比較してください。"
+          },
+          {
+            "id": "G37-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「talking」と比較してください。"
+          },
+          {
+            "id": "G37-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「talking」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G37-E07-B01",
+          "G37-E07-B02",
+          "G37-E07-B03",
+          "G37-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E07-B01",
+            "G37-E07-B02",
+            "G37-E07-B03",
+            "G37-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G37-E07-AUDIO",
+        "text": "She stopped talking during the song.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G37-E08",
+      "grammarId": "G37",
+      "grammarNameJa": "動名詞",
+      "english": "We enjoy watching music videos.",
+      "translationJa": "私たちはミュージックビデオを見ることを楽しみます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "watching",
+        "start": 9,
+        "endExclusive": 17,
+        "explanationJa": "動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+      },
+      "sentenceExplanationJa": "「We enjoy watching music videos.」は「私たちはミュージックビデオを見ることを楽しみます。」という意味です。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。 この文の対象部分は「watching」。まとまりは We → enjoy → watching → music videos. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "enjoy",
+          "lemma": "enjoy",
+          "meaningJa": "楽しむ",
+          "kind": "word"
+        },
+        {
+          "expression": "watching",
+          "lemma": "watch",
+          "meaningJa": "見る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "music",
+          "lemma": "music",
+          "meaningJa": "音楽・楽譜",
+          "kind": "word"
+        },
+        {
+          "expression": "videos",
+          "lemma": "video",
+          "meaningJa": "動画（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We enjoy ___ music videos.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 17,
+          "answer": "watching"
+        },
+        "options": [
+          {
+            "id": "G37-E08-C3",
+            "text": "watches",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「watching」を使います。「watches」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E08-C4",
+            "text": "watched",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「watching」を使います。「watched」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E08-C2",
+            "text": "watch",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「watching」を使います。「watch」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E08-C1",
+            "text": "watching",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+          }
+        ],
+        "correctOptionId": "G37-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G37-E08-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G37-E08-B02",
+            "text": "enjoy",
+            "role": "required"
+          },
+          {
+            "id": "G37-E08-B03",
+            "text": "watching",
+            "role": "required"
+          },
+          {
+            "id": "G37-E08-B04",
+            "text": "music videos.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G37-E08-B01",
+          "G37-E08-B02",
+          "G37-E08-B03",
+          "G37-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E08-B01",
+            "G37-E08-B02",
+            "G37-E08-B03",
+            "G37-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G37-E08-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G37-E08-B02",
+            "text": "enjoy",
+            "role": "required"
+          },
+          {
+            "id": "G37-E08-B03",
+            "text": "watching",
+            "role": "required"
+          },
+          {
+            "id": "G37-E08-B04",
+            "text": "music videos.",
+            "role": "required"
+          },
+          {
+            "id": "G37-E08-D01",
+            "text": "watch",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watching」と比較してください。"
+          },
+          {
+            "id": "G37-E08-D02",
+            "text": "watches",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watching」と比較してください。"
+          },
+          {
+            "id": "G37-E08-D03",
+            "text": "watched",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watching」と比較してください。"
+          },
+          {
+            "id": "G37-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watching」と比較してください。"
+          },
+          {
+            "id": "G37-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watching」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G37-E08-D01",
+            "text": "watch",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watching」と比較してください。"
+          },
+          {
+            "id": "G37-E08-D02",
+            "text": "watches",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watching」と比較してください。"
+          },
+          {
+            "id": "G37-E08-D03",
+            "text": "watched",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watching」と比較してください。"
+          },
+          {
+            "id": "G37-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watching」と比較してください。"
+          },
+          {
+            "id": "G37-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watching」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G37-E08-B01",
+          "G37-E08-B02",
+          "G37-E08-B03",
+          "G37-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E08-B01",
+            "G37-E08-B02",
+            "G37-E08-B03",
+            "G37-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G37-E08-AUDIO",
+        "text": "We enjoy watching music videos.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G37-E09",
+      "grammarId": "G37",
+      "grammarNameJa": "動名詞",
+      "english": "He left without taking his bag.",
+      "translationJa": "彼はバッグを持たずに出発しました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "taking",
+        "start": 16,
+        "endExclusive": 22,
+        "explanationJa": "動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+      },
+      "sentenceExplanationJa": "「He left without taking his bag.」は「彼はバッグを持たずに出発しました。」という意味です。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。 この文の対象部分は「taking」。まとまりは He → left without → taking → his bag. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "left",
+          "lemma": "leave",
+          "meaningJa": "出発する・～のままにしておく（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "without",
+          "lemma": "without",
+          "meaningJa": "～なしで",
+          "kind": "word"
+        },
+        {
+          "expression": "taking",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "his",
+          "lemma": "his",
+          "meaningJa": "彼の・彼のもの",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He left without ___ his bag.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 22,
+          "answer": "taking"
+        },
+        "options": [
+          {
+            "id": "G37-E09-C3",
+            "text": "takes",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「taking」を使います。「takes」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E09-C1",
+            "text": "taking",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+          },
+          {
+            "id": "G37-E09-C4",
+            "text": "took",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「taking」を使います。「took」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E09-C2",
+            "text": "take",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「taking」を使います。「take」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G37-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G37-E09-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G37-E09-B02",
+            "text": "left without",
+            "role": "required"
+          },
+          {
+            "id": "G37-E09-B03",
+            "text": "taking",
+            "role": "required"
+          },
+          {
+            "id": "G37-E09-B04",
+            "text": "his bag.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G37-E09-B01",
+          "G37-E09-B02",
+          "G37-E09-B03",
+          "G37-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E09-B01",
+            "G37-E09-B02",
+            "G37-E09-B03",
+            "G37-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G37-E09-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G37-E09-B02",
+            "text": "left without",
+            "role": "required"
+          },
+          {
+            "id": "G37-E09-B03",
+            "text": "taking",
+            "role": "required"
+          },
+          {
+            "id": "G37-E09-B04",
+            "text": "his bag.",
+            "role": "required"
+          },
+          {
+            "id": "G37-E09-D01",
+            "text": "take",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taking」と比較してください。"
+          },
+          {
+            "id": "G37-E09-D02",
+            "text": "takes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taking」と比較してください。"
+          },
+          {
+            "id": "G37-E09-D03",
+            "text": "took",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taking」と比較してください。"
+          },
+          {
+            "id": "G37-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taking」と比較してください。"
+          },
+          {
+            "id": "G37-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taking」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G37-E09-D01",
+            "text": "take",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taking」と比較してください。"
+          },
+          {
+            "id": "G37-E09-D02",
+            "text": "takes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taking」と比較してください。"
+          },
+          {
+            "id": "G37-E09-D03",
+            "text": "took",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taking」と比較してください。"
+          },
+          {
+            "id": "G37-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taking」と比較してください。"
+          },
+          {
+            "id": "G37-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taking」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G37-E09-B01",
+          "G37-E09-B02",
+          "G37-E09-B03",
+          "G37-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E09-B01",
+            "G37-E09-B02",
+            "G37-E09-B03",
+            "G37-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G37-E09-AUDIO",
+        "text": "He left without taking his bag.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G37-E10",
+      "grammarId": "G37",
+      "grammarNameJa": "動名詞",
+      "english": "My hobby is collecting cards.",
+      "translationJa": "私の趣味はカードを集めることです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "collecting",
+        "start": 12,
+        "endExclusive": 22,
+        "explanationJa": "動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+      },
+      "sentenceExplanationJa": "「My hobby is collecting cards.」は「私の趣味はカードを集めることです。」という意味です。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。 この文の対象部分は「collecting」。まとまりは My hobby → is → collecting → cards. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "hobby",
+          "lemma": "hobby",
+          "meaningJa": "趣味",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "collecting",
+          "lemma": "collect",
+          "meaningJa": "集める（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "cards",
+          "lemma": "card",
+          "meaningJa": "カード（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My hobby is ___ cards.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 22,
+          "answer": "collecting"
+        },
+        "options": [
+          {
+            "id": "G37-E10-C1",
+            "text": "collecting",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。"
+          },
+          {
+            "id": "G37-E10-C2",
+            "text": "collect",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「collecting」を使います。「collect」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E10-C4",
+            "text": "collected",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「collecting」を使います。「collected」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G37-E10-C3",
+            "text": "collects",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「collecting」を使います。「collects」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G37-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G37-E10-B01",
+            "text": "My hobby",
+            "role": "required"
+          },
+          {
+            "id": "G37-E10-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G37-E10-B03",
+            "text": "collecting",
+            "role": "required"
+          },
+          {
+            "id": "G37-E10-B04",
+            "text": "cards.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G37-E10-B01",
+          "G37-E10-B02",
+          "G37-E10-B03",
+          "G37-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E10-B01",
+            "G37-E10-B02",
+            "G37-E10-B03",
+            "G37-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G37-E10-B01",
+            "text": "My hobby",
+            "role": "required"
+          },
+          {
+            "id": "G37-E10-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G37-E10-B03",
+            "text": "collecting",
+            "role": "required"
+          },
+          {
+            "id": "G37-E10-B04",
+            "text": "cards.",
+            "role": "required"
+          },
+          {
+            "id": "G37-E10-D01",
+            "text": "collect",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「collecting」と比較してください。"
+          },
+          {
+            "id": "G37-E10-D02",
+            "text": "collects",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「collecting」と比較してください。"
+          },
+          {
+            "id": "G37-E10-D03",
+            "text": "collected",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「collecting」と比較してください。"
+          },
+          {
+            "id": "G37-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「collecting」と比較してください。"
+          },
+          {
+            "id": "G37-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「collecting」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G37-E10-D01",
+            "text": "collect",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「collecting」と比較してください。"
+          },
+          {
+            "id": "G37-E10-D02",
+            "text": "collects",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「collecting」と比較してください。"
+          },
+          {
+            "id": "G37-E10-D03",
+            "text": "collected",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「collecting」と比較してください。"
+          },
+          {
+            "id": "G37-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「collecting」と比較してください。"
+          },
+          {
+            "id": "G37-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「collecting」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G37-E10-B01",
+          "G37-E10-B02",
+          "G37-E10-B03",
+          "G37-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G37-E10-B01",
+            "G37-E10-B02",
+            "G37-E10-B03",
+            "G37-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G37-E10-AUDIO",
+        "text": "My hobby is collecting cards.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

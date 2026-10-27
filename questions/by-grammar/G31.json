@@ -1,0 +1,2399 @@
+{
+  "grammarId": "G31",
+  "examples": [
+    {
+      "id": "G31-E01",
+      "grammarId": "G31",
+      "grammarNameJa": "比較級",
+      "english": "This bag is bigger than mine.",
+      "translationJa": "このバッグは私のものより大きいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "bigger",
+        "start": 12,
+        "endExclusive": 18,
+        "explanationJa": "二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+      },
+      "sentenceExplanationJa": "「This bag is bigger than mine.」は「このバッグは私のものより大きいです。」という意味です。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。 この文の対象部分は「bigger」。まとまりは This bag → is → bigger → than mine. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "bigger",
+          "lemma": "big",
+          "meaningJa": "大きい（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "than",
+          "lemma": "than",
+          "meaningJa": "～より",
+          "kind": "word"
+        },
+        {
+          "expression": "mine",
+          "lemma": "mine",
+          "meaningJa": "私のもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This bag is ___ than mine.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 18,
+          "answer": "bigger"
+        },
+        "options": [
+          {
+            "id": "G31-E01-C4",
+            "text": "more big",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「bigger」を使います。「more big」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E01-C2",
+            "text": "big",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「bigger」を使います。「big」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E01-C1",
+            "text": "bigger",
+            "isCorrect": true,
+            "explanationJa": "正解。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+          },
+          {
+            "id": "G31-E01-C3",
+            "text": "biggest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「bigger」を使います。「biggest」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G31-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G31-E01-B01",
+            "text": "This bag",
+            "role": "required"
+          },
+          {
+            "id": "G31-E01-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E01-B03",
+            "text": "bigger",
+            "role": "required"
+          },
+          {
+            "id": "G31-E01-B04",
+            "text": "than mine.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G31-E01-B01",
+          "G31-E01-B02",
+          "G31-E01-B03",
+          "G31-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E01-B01",
+            "G31-E01-B02",
+            "G31-E01-B03",
+            "G31-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G31-E01-B01",
+            "text": "This bag",
+            "role": "required"
+          },
+          {
+            "id": "G31-E01-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E01-B03",
+            "text": "bigger",
+            "role": "required"
+          },
+          {
+            "id": "G31-E01-B04",
+            "text": "than mine.",
+            "role": "required"
+          },
+          {
+            "id": "G31-E01-D01",
+            "text": "big",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bigger」と比較してください。"
+          },
+          {
+            "id": "G31-E01-D02",
+            "text": "biggest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bigger」と比較してください。"
+          },
+          {
+            "id": "G31-E01-D03",
+            "text": "more big",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bigger」と比較してください。"
+          },
+          {
+            "id": "G31-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bigger」と比較してください。"
+          },
+          {
+            "id": "G31-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bigger」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G31-E01-D01",
+            "text": "big",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bigger」と比較してください。"
+          },
+          {
+            "id": "G31-E01-D02",
+            "text": "biggest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bigger」と比較してください。"
+          },
+          {
+            "id": "G31-E01-D03",
+            "text": "more big",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bigger」と比較してください。"
+          },
+          {
+            "id": "G31-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bigger」と比較してください。"
+          },
+          {
+            "id": "G31-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bigger」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G31-E01-B01",
+          "G31-E01-B02",
+          "G31-E01-B03",
+          "G31-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E01-B01",
+            "G31-E01-B02",
+            "G31-E01-B03",
+            "G31-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G31-E01-AUDIO",
+        "text": "This bag is bigger than mine.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G31-E02",
+      "grammarId": "G31",
+      "grammarNameJa": "比較級",
+      "english": "This ticket is cheaper than that one.",
+      "translationJa": "このチケットはあれより安いです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "cheaper",
+        "start": 15,
+        "endExclusive": 22,
+        "explanationJa": "二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+      },
+      "sentenceExplanationJa": "「This ticket is cheaper than that one.」は「このチケットはあれより安いです。」という意味です。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。 この文の対象部分は「cheaper」。まとまりは This ticket → is → cheaper → than that one. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "cheaper",
+          "lemma": "cheap",
+          "meaningJa": "安い（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "than",
+          "lemma": "than",
+          "meaningJa": "～より",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "one",
+          "lemma": "one",
+          "meaningJa": "1つ・1人／前の名詞の代わり",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This ticket is ___ than that one.",
+        "blank": {
+          "start": 15,
+          "endExclusive": 22,
+          "answer": "cheaper"
+        },
+        "options": [
+          {
+            "id": "G31-E02-C3",
+            "text": "cheapest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「cheaper」を使います。「cheapest」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E02-C1",
+            "text": "cheaper",
+            "isCorrect": true,
+            "explanationJa": "正解。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+          },
+          {
+            "id": "G31-E02-C4",
+            "text": "cheaply",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「cheaper」を使います。「cheaply」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E02-C2",
+            "text": "cheap",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「cheaper」を使います。「cheap」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G31-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G31-E02-B01",
+            "text": "This ticket",
+            "role": "required"
+          },
+          {
+            "id": "G31-E02-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E02-B03",
+            "text": "cheaper",
+            "role": "required"
+          },
+          {
+            "id": "G31-E02-B04",
+            "text": "than that one.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G31-E02-B01",
+          "G31-E02-B02",
+          "G31-E02-B03",
+          "G31-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E02-B01",
+            "G31-E02-B02",
+            "G31-E02-B03",
+            "G31-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G31-E02-B01",
+            "text": "This ticket",
+            "role": "required"
+          },
+          {
+            "id": "G31-E02-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E02-B03",
+            "text": "cheaper",
+            "role": "required"
+          },
+          {
+            "id": "G31-E02-B04",
+            "text": "than that one.",
+            "role": "required"
+          },
+          {
+            "id": "G31-E02-D01",
+            "text": "cheap",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheaper」と比較してください。"
+          },
+          {
+            "id": "G31-E02-D02",
+            "text": "cheapest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheaper」と比較してください。"
+          },
+          {
+            "id": "G31-E02-D03",
+            "text": "cheaply",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheaper」と比較してください。"
+          },
+          {
+            "id": "G31-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheaper」と比較してください。"
+          },
+          {
+            "id": "G31-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheaper」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G31-E02-D01",
+            "text": "cheap",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheaper」と比較してください。"
+          },
+          {
+            "id": "G31-E02-D02",
+            "text": "cheapest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheaper」と比較してください。"
+          },
+          {
+            "id": "G31-E02-D03",
+            "text": "cheaply",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheaper」と比較してください。"
+          },
+          {
+            "id": "G31-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheaper」と比較してください。"
+          },
+          {
+            "id": "G31-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheaper」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G31-E02-B01",
+          "G31-E02-B02",
+          "G31-E02-B03",
+          "G31-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E02-B01",
+            "G31-E02-B02",
+            "G31-E02-B03",
+            "G31-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G31-E02-AUDIO",
+        "text": "This ticket is cheaper than that one.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G31-E03",
+      "grammarId": "G31",
+      "grammarNameJa": "比較級",
+      "english": "My sister is taller than me.",
+      "translationJa": "私の姉は私より背が高いです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "taller",
+        "start": 13,
+        "endExclusive": 19,
+        "explanationJa": "二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+      },
+      "sentenceExplanationJa": "「My sister is taller than me.」は「私の姉は私より背が高いです。」という意味です。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。 この文の対象部分は「taller」。まとまりは My sister → is → taller → than me. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "sister",
+          "lemma": "sister",
+          "meaningJa": "姉・妹",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "taller",
+          "lemma": "tall",
+          "meaningJa": "背が高い（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "than",
+          "lemma": "than",
+          "meaningJa": "～より",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My sister is ___ than me.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 19,
+          "answer": "taller"
+        },
+        "options": [
+          {
+            "id": "G31-E03-C2",
+            "text": "tall",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「taller」を使います。「tall」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E03-C1",
+            "text": "taller",
+            "isCorrect": true,
+            "explanationJa": "正解。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+          },
+          {
+            "id": "G31-E03-C3",
+            "text": "tallest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「taller」を使います。「tallest」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E03-C4",
+            "text": "more tall",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「taller」を使います。「more tall」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G31-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G31-E03-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G31-E03-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E03-B03",
+            "text": "taller",
+            "role": "required"
+          },
+          {
+            "id": "G31-E03-B04",
+            "text": "than me.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G31-E03-B01",
+          "G31-E03-B02",
+          "G31-E03-B03",
+          "G31-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E03-B01",
+            "G31-E03-B02",
+            "G31-E03-B03",
+            "G31-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G31-E03-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G31-E03-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E03-B03",
+            "text": "taller",
+            "role": "required"
+          },
+          {
+            "id": "G31-E03-B04",
+            "text": "than me.",
+            "role": "required"
+          },
+          {
+            "id": "G31-E03-D01",
+            "text": "tall",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taller」と比較してください。"
+          },
+          {
+            "id": "G31-E03-D02",
+            "text": "tallest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taller」と比較してください。"
+          },
+          {
+            "id": "G31-E03-D03",
+            "text": "more tall",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taller」と比較してください。"
+          },
+          {
+            "id": "G31-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taller」と比較してください。"
+          },
+          {
+            "id": "G31-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taller」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G31-E03-D01",
+            "text": "tall",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taller」と比較してください。"
+          },
+          {
+            "id": "G31-E03-D02",
+            "text": "tallest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taller」と比較してください。"
+          },
+          {
+            "id": "G31-E03-D03",
+            "text": "more tall",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taller」と比較してください。"
+          },
+          {
+            "id": "G31-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taller」と比較してください。"
+          },
+          {
+            "id": "G31-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taller」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G31-E03-B01",
+          "G31-E03-B02",
+          "G31-E03-B03",
+          "G31-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E03-B01",
+            "G31-E03-B02",
+            "G31-E03-B03",
+            "G31-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G31-E03-AUDIO",
+        "text": "My sister is taller than me.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G31-E04",
+      "grammarId": "G31",
+      "grammarNameJa": "比較級",
+      "english": "This song is longer than that song.",
+      "translationJa": "この曲はあの曲より長いです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "longer",
+        "start": 13,
+        "endExclusive": 19,
+        "explanationJa": "二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+      },
+      "sentenceExplanationJa": "「This song is longer than that song.」は「この曲はあの曲より長いです。」という意味です。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。 この文の対象部分は「longer」。まとまりは This song → is → longer → than that song. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "longer",
+          "lemma": "long",
+          "meaningJa": "長い（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "than",
+          "lemma": "than",
+          "meaningJa": "～より",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This song is ___ than that song.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 19,
+          "answer": "longer"
+        },
+        "options": [
+          {
+            "id": "G31-E04-C1",
+            "text": "longer",
+            "isCorrect": true,
+            "explanationJa": "正解。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+          },
+          {
+            "id": "G31-E04-C3",
+            "text": "longest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「longer」を使います。「longest」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E04-C2",
+            "text": "long",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「longer」を使います。「long」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E04-C4",
+            "text": "more long",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「longer」を使います。「more long」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G31-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G31-E04-B01",
+            "text": "This song",
+            "role": "required"
+          },
+          {
+            "id": "G31-E04-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E04-B03",
+            "text": "longer",
+            "role": "required"
+          },
+          {
+            "id": "G31-E04-B04",
+            "text": "than that song.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G31-E04-B01",
+          "G31-E04-B02",
+          "G31-E04-B03",
+          "G31-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E04-B01",
+            "G31-E04-B02",
+            "G31-E04-B03",
+            "G31-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G31-E04-B01",
+            "text": "This song",
+            "role": "required"
+          },
+          {
+            "id": "G31-E04-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E04-B03",
+            "text": "longer",
+            "role": "required"
+          },
+          {
+            "id": "G31-E04-B04",
+            "text": "than that song.",
+            "role": "required"
+          },
+          {
+            "id": "G31-E04-D01",
+            "text": "long",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longer」と比較してください。"
+          },
+          {
+            "id": "G31-E04-D02",
+            "text": "longest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longer」と比較してください。"
+          },
+          {
+            "id": "G31-E04-D03",
+            "text": "more long",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longer」と比較してください。"
+          },
+          {
+            "id": "G31-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longer」と比較してください。"
+          },
+          {
+            "id": "G31-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longer」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G31-E04-D01",
+            "text": "long",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longer」と比較してください。"
+          },
+          {
+            "id": "G31-E04-D02",
+            "text": "longest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longer」と比較してください。"
+          },
+          {
+            "id": "G31-E04-D03",
+            "text": "more long",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longer」と比較してください。"
+          },
+          {
+            "id": "G31-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longer」と比較してください。"
+          },
+          {
+            "id": "G31-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longer」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G31-E04-B01",
+          "G31-E04-B02",
+          "G31-E04-B03",
+          "G31-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E04-B01",
+            "G31-E04-B02",
+            "G31-E04-B03",
+            "G31-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G31-E04-AUDIO",
+        "text": "This song is longer than that song.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G31-E05",
+      "grammarId": "G31",
+      "grammarNameJa": "比較級",
+      "english": "Today is hotter than yesterday.",
+      "translationJa": "今日は昨日より暑いです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "hotter",
+        "start": 9,
+        "endExclusive": 15,
+        "explanationJa": "二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+      },
+      "sentenceExplanationJa": "「Today is hotter than yesterday.」は「今日は昨日より暑いです。」という意味です。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。 この文の対象部分は「hotter」。まとまりは Today is → hotter → than yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "Today",
+          "lemma": "today",
+          "meaningJa": "今日",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hotter",
+          "lemma": "hot",
+          "meaningJa": "暑い（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "than",
+          "lemma": "than",
+          "meaningJa": "～より",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Today is ___ than yesterday.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 15,
+          "answer": "hotter"
+        },
+        "options": [
+          {
+            "id": "G31-E05-C1",
+            "text": "hotter",
+            "isCorrect": true,
+            "explanationJa": "正解。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+          },
+          {
+            "id": "G31-E05-C4",
+            "text": "more hot",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「hotter」を使います。「more hot」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E05-C2",
+            "text": "hot",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「hotter」を使います。「hot」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E05-C3",
+            "text": "hottest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「hotter」を使います。「hottest」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G31-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G31-E05-B01",
+            "text": "Today is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E05-B02",
+            "text": "hotter",
+            "role": "required"
+          },
+          {
+            "id": "G31-E05-B03",
+            "text": "than yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G31-E05-B01",
+          "G31-E05-B02",
+          "G31-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E05-B01",
+            "G31-E05-B02",
+            "G31-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G31-E05-B01",
+            "text": "Today is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E05-B02",
+            "text": "hotter",
+            "role": "required"
+          },
+          {
+            "id": "G31-E05-B03",
+            "text": "than yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G31-E05-D01",
+            "text": "hot",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hotter」と比較してください。"
+          },
+          {
+            "id": "G31-E05-D02",
+            "text": "hottest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hotter」と比較してください。"
+          },
+          {
+            "id": "G31-E05-D03",
+            "text": "more hot",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hotter」と比較してください。"
+          },
+          {
+            "id": "G31-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hotter」と比較してください。"
+          },
+          {
+            "id": "G31-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hotter」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G31-E05-D01",
+            "text": "hot",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hotter」と比較してください。"
+          },
+          {
+            "id": "G31-E05-D02",
+            "text": "hottest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hotter」と比較してください。"
+          },
+          {
+            "id": "G31-E05-D03",
+            "text": "more hot",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hotter」と比較してください。"
+          },
+          {
+            "id": "G31-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hotter」と比較してください。"
+          },
+          {
+            "id": "G31-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hotter」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G31-E05-B01",
+          "G31-E05-B02",
+          "G31-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E05-B01",
+            "G31-E05-B02",
+            "G31-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G31-E05-AUDIO",
+        "text": "Today is hotter than yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G31-E06",
+      "grammarId": "G31",
+      "grammarNameJa": "比較級",
+      "english": "This seat is better than my old seat.",
+      "translationJa": "この席は以前の私の席よりよいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "better",
+        "start": 13,
+        "endExclusive": 19,
+        "explanationJa": "二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+      },
+      "sentenceExplanationJa": "「This seat is better than my old seat.」は「この席は以前の私の席よりよいです。」という意味です。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。 この文の対象部分は「better」。まとまりは This seat → is → better → than my old seat. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "seat",
+          "lemma": "seat",
+          "meaningJa": "席",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "better",
+          "lemma": "better",
+          "meaningJa": "よりよい（goodの比較級）",
+          "kind": "word"
+        },
+        {
+          "expression": "than",
+          "lemma": "than",
+          "meaningJa": "～より",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "old",
+          "lemma": "old",
+          "meaningJa": "古い・年齢が～の",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This seat is ___ than my old seat.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 19,
+          "answer": "better"
+        },
+        "options": [
+          {
+            "id": "G31-E06-C1",
+            "text": "better",
+            "isCorrect": true,
+            "explanationJa": "正解。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+          },
+          {
+            "id": "G31-E06-C2",
+            "text": "good",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「better」を使います。「good」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E06-C4",
+            "text": "well",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「better」を使います。「well」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E06-C3",
+            "text": "best",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「better」を使います。「best」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G31-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G31-E06-B01",
+            "text": "This seat",
+            "role": "required"
+          },
+          {
+            "id": "G31-E06-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E06-B03",
+            "text": "better",
+            "role": "required"
+          },
+          {
+            "id": "G31-E06-B04",
+            "text": "than my old seat.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G31-E06-B01",
+          "G31-E06-B02",
+          "G31-E06-B03",
+          "G31-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E06-B01",
+            "G31-E06-B02",
+            "G31-E06-B03",
+            "G31-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G31-E06-B01",
+            "text": "This seat",
+            "role": "required"
+          },
+          {
+            "id": "G31-E06-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E06-B03",
+            "text": "better",
+            "role": "required"
+          },
+          {
+            "id": "G31-E06-B04",
+            "text": "than my old seat.",
+            "role": "required"
+          },
+          {
+            "id": "G31-E06-D01",
+            "text": "good",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「better」と比較してください。"
+          },
+          {
+            "id": "G31-E06-D02",
+            "text": "best",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「better」と比較してください。"
+          },
+          {
+            "id": "G31-E06-D03",
+            "text": "well",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「better」と比較してください。"
+          },
+          {
+            "id": "G31-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「better」と比較してください。"
+          },
+          {
+            "id": "G31-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「better」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G31-E06-D01",
+            "text": "good",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「better」と比較してください。"
+          },
+          {
+            "id": "G31-E06-D02",
+            "text": "best",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「better」と比較してください。"
+          },
+          {
+            "id": "G31-E06-D03",
+            "text": "well",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「better」と比較してください。"
+          },
+          {
+            "id": "G31-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「better」と比較してください。"
+          },
+          {
+            "id": "G31-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「better」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G31-E06-B01",
+          "G31-E06-B02",
+          "G31-E06-B03",
+          "G31-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E06-B01",
+            "G31-E06-B02",
+            "G31-E06-B03",
+            "G31-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G31-E06-AUDIO",
+        "text": "This seat is better than my old seat.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G31-E07",
+      "grammarId": "G31",
+      "grammarNameJa": "比較級",
+      "english": "The hall is farther than the shop.",
+      "translationJa": "会場は店より遠いです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "farther",
+        "start": 12,
+        "endExclusive": 19,
+        "explanationJa": "二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+      },
+      "sentenceExplanationJa": "「The hall is farther than the shop.」は「会場は店より遠いです。」という意味です。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。 この文の対象部分は「farther」。まとまりは The hall → is → farther → than the shop. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "farther",
+          "lemma": "farther",
+          "meaningJa": "より遠い",
+          "kind": "word"
+        },
+        {
+          "expression": "than",
+          "lemma": "than",
+          "meaningJa": "～より",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "shop",
+          "lemma": "shop",
+          "meaningJa": "店",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The hall is ___ than the shop.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 19,
+          "answer": "farther"
+        },
+        "options": [
+          {
+            "id": "G31-E07-C2",
+            "text": "far",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「farther」を使います。「far」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E07-C1",
+            "text": "farther",
+            "isCorrect": true,
+            "explanationJa": "正解。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+          },
+          {
+            "id": "G31-E07-C3",
+            "text": "farthest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「farther」を使います。「farthest」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E07-C4",
+            "text": "more far",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「farther」を使います。「more far」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G31-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G31-E07-B01",
+            "text": "The hall",
+            "role": "required"
+          },
+          {
+            "id": "G31-E07-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E07-B03",
+            "text": "farther",
+            "role": "required"
+          },
+          {
+            "id": "G31-E07-B04",
+            "text": "than the shop.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G31-E07-B01",
+          "G31-E07-B02",
+          "G31-E07-B03",
+          "G31-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E07-B01",
+            "G31-E07-B02",
+            "G31-E07-B03",
+            "G31-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G31-E07-B01",
+            "text": "The hall",
+            "role": "required"
+          },
+          {
+            "id": "G31-E07-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E07-B03",
+            "text": "farther",
+            "role": "required"
+          },
+          {
+            "id": "G31-E07-B04",
+            "text": "than the shop.",
+            "role": "required"
+          },
+          {
+            "id": "G31-E07-D01",
+            "text": "far",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「farther」と比較してください。"
+          },
+          {
+            "id": "G31-E07-D02",
+            "text": "farthest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「farther」と比較してください。"
+          },
+          {
+            "id": "G31-E07-D03",
+            "text": "more far",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「farther」と比較してください。"
+          },
+          {
+            "id": "G31-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「farther」と比較してください。"
+          },
+          {
+            "id": "G31-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「farther」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G31-E07-D01",
+            "text": "far",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「farther」と比較してください。"
+          },
+          {
+            "id": "G31-E07-D02",
+            "text": "farthest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「farther」と比較してください。"
+          },
+          {
+            "id": "G31-E07-D03",
+            "text": "more far",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「farther」と比較してください。"
+          },
+          {
+            "id": "G31-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「farther」と比較してください。"
+          },
+          {
+            "id": "G31-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「farther」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G31-E07-B01",
+          "G31-E07-B02",
+          "G31-E07-B03",
+          "G31-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E07-B01",
+            "G31-E07-B02",
+            "G31-E07-B03",
+            "G31-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G31-E07-AUDIO",
+        "text": "The hall is farther than the shop.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G31-E08",
+      "grammarId": "G31",
+      "grammarNameJa": "比較級",
+      "english": "This towel is softer than that towel.",
+      "translationJa": "このタオルはあのタオルより柔らかいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "softer",
+        "start": 14,
+        "endExclusive": 20,
+        "explanationJa": "二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+      },
+      "sentenceExplanationJa": "「This towel is softer than that towel.」は「このタオルはあのタオルより柔らかいです。」という意味です。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。 この文の対象部分は「softer」。まとまりは This towel → is → softer → than that towel. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "softer",
+          "lemma": "soft",
+          "meaningJa": "柔らかい（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "than",
+          "lemma": "than",
+          "meaningJa": "～より",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This towel is ___ than that towel.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 20,
+          "answer": "softer"
+        },
+        "options": [
+          {
+            "id": "G31-E08-C1",
+            "text": "softer",
+            "isCorrect": true,
+            "explanationJa": "正解。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+          },
+          {
+            "id": "G31-E08-C4",
+            "text": "softly",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「softer」を使います。「softly」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E08-C2",
+            "text": "soft",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「softer」を使います。「soft」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E08-C3",
+            "text": "softest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「softer」を使います。「softest」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G31-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G31-E08-B01",
+            "text": "This towel",
+            "role": "required"
+          },
+          {
+            "id": "G31-E08-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E08-B03",
+            "text": "softer",
+            "role": "required"
+          },
+          {
+            "id": "G31-E08-B04",
+            "text": "than that towel.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G31-E08-B01",
+          "G31-E08-B02",
+          "G31-E08-B03",
+          "G31-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E08-B01",
+            "G31-E08-B02",
+            "G31-E08-B03",
+            "G31-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G31-E08-B01",
+            "text": "This towel",
+            "role": "required"
+          },
+          {
+            "id": "G31-E08-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E08-B03",
+            "text": "softer",
+            "role": "required"
+          },
+          {
+            "id": "G31-E08-B04",
+            "text": "than that towel.",
+            "role": "required"
+          },
+          {
+            "id": "G31-E08-D01",
+            "text": "soft",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「softer」と比較してください。"
+          },
+          {
+            "id": "G31-E08-D02",
+            "text": "softest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「softer」と比較してください。"
+          },
+          {
+            "id": "G31-E08-D03",
+            "text": "softly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「softer」と比較してください。"
+          },
+          {
+            "id": "G31-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「softer」と比較してください。"
+          },
+          {
+            "id": "G31-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「softer」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G31-E08-D01",
+            "text": "soft",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「softer」と比較してください。"
+          },
+          {
+            "id": "G31-E08-D02",
+            "text": "softest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「softer」と比較してください。"
+          },
+          {
+            "id": "G31-E08-D03",
+            "text": "softly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「softer」と比較してください。"
+          },
+          {
+            "id": "G31-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「softer」と比較してください。"
+          },
+          {
+            "id": "G31-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「softer」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G31-E08-B01",
+          "G31-E08-B02",
+          "G31-E08-B03",
+          "G31-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E08-B01",
+            "G31-E08-B02",
+            "G31-E08-B03",
+            "G31-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G31-E08-AUDIO",
+        "text": "This towel is softer than that towel.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G31-E09",
+      "grammarId": "G31",
+      "grammarNameJa": "比較級",
+      "english": "This book is more interesting than that book.",
+      "translationJa": "この本はあの本よりおもしろいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "more interesting",
+        "start": 13,
+        "endExclusive": 29,
+        "explanationJa": "二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+      },
+      "sentenceExplanationJa": "「This book is more interesting than that book.」は「この本はあの本よりおもしろいです。」という意味です。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。 この文の対象部分は「more interesting」。まとまりは This book → is → more interesting → than that book. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "book",
+          "lemma": "book",
+          "meaningJa": "本",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "more",
+          "lemma": "more",
+          "meaningJa": "もっと・より多くの",
+          "kind": "word"
+        },
+        {
+          "expression": "interesting",
+          "lemma": "interesting",
+          "meaningJa": "おもしろい",
+          "kind": "word"
+        },
+        {
+          "expression": "than",
+          "lemma": "than",
+          "meaningJa": "～より",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This book is ___ than that book.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 29,
+          "answer": "more interesting"
+        },
+        "options": [
+          {
+            "id": "G31-E09-C3",
+            "text": "most interesting",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「more interesting」を使います。「most interesting」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E09-C1",
+            "text": "more interesting",
+            "isCorrect": true,
+            "explanationJa": "正解。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+          },
+          {
+            "id": "G31-E09-C4",
+            "text": "interestingly",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「more interesting」を使います。「interestingly」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E09-C2",
+            "text": "interesting",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「more interesting」を使います。「interesting」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G31-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G31-E09-B01",
+            "text": "This book",
+            "role": "required"
+          },
+          {
+            "id": "G31-E09-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E09-B03",
+            "text": "more interesting",
+            "role": "required"
+          },
+          {
+            "id": "G31-E09-B04",
+            "text": "than that book.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G31-E09-B01",
+          "G31-E09-B02",
+          "G31-E09-B03",
+          "G31-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E09-B01",
+            "G31-E09-B02",
+            "G31-E09-B03",
+            "G31-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G31-E09-B01",
+            "text": "This book",
+            "role": "required"
+          },
+          {
+            "id": "G31-E09-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E09-B03",
+            "text": "more interesting",
+            "role": "required"
+          },
+          {
+            "id": "G31-E09-B04",
+            "text": "than that book.",
+            "role": "required"
+          },
+          {
+            "id": "G31-E09-D01",
+            "text": "interesting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「more interesting」と比較してください。"
+          },
+          {
+            "id": "G31-E09-D02",
+            "text": "most interesting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「more interesting」と比較してください。"
+          },
+          {
+            "id": "G31-E09-D03",
+            "text": "interestingly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「more interesting」と比較してください。"
+          },
+          {
+            "id": "G31-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「more interesting」と比較してください。"
+          },
+          {
+            "id": "G31-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「more interesting」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G31-E09-D01",
+            "text": "interesting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「more interesting」と比較してください。"
+          },
+          {
+            "id": "G31-E09-D02",
+            "text": "most interesting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「more interesting」と比較してください。"
+          },
+          {
+            "id": "G31-E09-D03",
+            "text": "interestingly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「more interesting」と比較してください。"
+          },
+          {
+            "id": "G31-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「more interesting」と比較してください。"
+          },
+          {
+            "id": "G31-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「more interesting」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G31-E09-B01",
+          "G31-E09-B02",
+          "G31-E09-B03",
+          "G31-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E09-B01",
+            "G31-E09-B02",
+            "G31-E09-B03",
+            "G31-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G31-E09-AUDIO",
+        "text": "This book is more interesting than that book.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G31-E10",
+      "grammarId": "G31",
+      "grammarNameJa": "比較級",
+      "english": "My bag is heavier than yours.",
+      "translationJa": "私のバッグはあなたのものより重いです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "heavier",
+        "start": 10,
+        "endExclusive": 17,
+        "explanationJa": "二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+      },
+      "sentenceExplanationJa": "「My bag is heavier than yours.」は「私のバッグはあなたのものより重いです。」という意味です。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。 この文の対象部分は「heavier」。まとまりは My bag → is → heavier → than yours. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "heavier",
+          "lemma": "heavy",
+          "meaningJa": "重い（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "than",
+          "lemma": "than",
+          "meaningJa": "～より",
+          "kind": "word"
+        },
+        {
+          "expression": "yours",
+          "lemma": "yours",
+          "meaningJa": "あなたのもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My bag is ___ than yours.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 17,
+          "answer": "heavier"
+        },
+        "options": [
+          {
+            "id": "G31-E10-C3",
+            "text": "heaviest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「heavier」を使います。「heaviest」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E10-C2",
+            "text": "heavy",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「heavier」を使います。「heavy」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E10-C4",
+            "text": "heavily",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「heavier」を使います。「heavily」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G31-E10-C1",
+            "text": "heavier",
+            "isCorrect": true,
+            "explanationJa": "正解。二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。"
+          }
+        ],
+        "correctOptionId": "G31-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G31-E10-B01",
+            "text": "My bag",
+            "role": "required"
+          },
+          {
+            "id": "G31-E10-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E10-B03",
+            "text": "heavier",
+            "role": "required"
+          },
+          {
+            "id": "G31-E10-B04",
+            "text": "than yours.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G31-E10-B01",
+          "G31-E10-B02",
+          "G31-E10-B03",
+          "G31-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E10-B01",
+            "G31-E10-B02",
+            "G31-E10-B03",
+            "G31-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G31-E10-B01",
+            "text": "My bag",
+            "role": "required"
+          },
+          {
+            "id": "G31-E10-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G31-E10-B03",
+            "text": "heavier",
+            "role": "required"
+          },
+          {
+            "id": "G31-E10-B04",
+            "text": "than yours.",
+            "role": "required"
+          },
+          {
+            "id": "G31-E10-D01",
+            "text": "heavy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavier」と比較してください。"
+          },
+          {
+            "id": "G31-E10-D02",
+            "text": "heaviest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavier」と比較してください。"
+          },
+          {
+            "id": "G31-E10-D03",
+            "text": "heavily",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavier」と比較してください。"
+          },
+          {
+            "id": "G31-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavier」と比較してください。"
+          },
+          {
+            "id": "G31-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavier」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G31-E10-D01",
+            "text": "heavy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavier」と比較してください。"
+          },
+          {
+            "id": "G31-E10-D02",
+            "text": "heaviest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavier」と比較してください。"
+          },
+          {
+            "id": "G31-E10-D03",
+            "text": "heavily",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavier」と比較してください。"
+          },
+          {
+            "id": "G31-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavier」と比較してください。"
+          },
+          {
+            "id": "G31-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavier」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G31-E10-B01",
+          "G31-E10-B02",
+          "G31-E10-B03",
+          "G31-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G31-E10-B01",
+            "G31-E10-B02",
+            "G31-E10-B03",
+            "G31-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G31-E10-AUDIO",
+        "text": "My bag is heavier than yours.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

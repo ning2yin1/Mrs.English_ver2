@@ -1,0 +1,8 @@
+{
+  "prompt": "Create one transparent sprite sheet of FIVE text-only result wordmarks, vertically stacked with large transparent gutters. Exact words in reading order SUPER PERFECT / GOOD / MISS / TIME UP / LEVEL UP. Style match supplied CLEARED: narrow tall condensed bold uppercase italic, pale icy cyan-white fill with small hard dark navy lower-right shadow, thin dark edge. SUPER PERFECT and LEVEL UP subtle gold fill, GOOD cyan-white, MISS hot pink, TIME UP white-pink. No stars, boxes, banners, sparks, gradients outside letters, no extra text. Crisp spelling. Transparent background. Landscape sheet or square with all five readable.",
+  "refs": [
+    "ui-wordmarks-v4\\01-reference-cleared\\cleared.png"
+  ],
+  "source": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-fdae38ad-5ecc-4970-8435-96072b075440.png",
+  "output": "assets/new/judgment-wordmarks.png"
+}

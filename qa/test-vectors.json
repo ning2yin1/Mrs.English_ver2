@@ -1,0 +1,158 @@
+{
+  "score": [
+    [
+      true,
+      0,
+      10,
+      1000,
+      "SUPER PERFECT"
+    ],
+    [
+      true,
+      2,
+      10,
+      940,
+      "SUPER PERFECT"
+    ],
+    [
+      true,
+      2.001,
+      10,
+      940,
+      "PERFECT"
+    ],
+    [
+      true,
+      6,
+      10,
+      820,
+      "PERFECT"
+    ],
+    [
+      true,
+      6.001,
+      10,
+      820,
+      "GOOD"
+    ],
+    [
+      true,
+      10,
+      10,
+      700,
+      "GOOD"
+    ],
+    [
+      true,
+      50,
+      10,
+      700,
+      "GOOD"
+    ],
+    [
+      false,
+      0,
+      10,
+      0,
+      "MISS"
+    ]
+  ],
+  "starCorrectCounts": [
+    {
+      "correct": 0,
+      "stars": 0
+    },
+    {
+      "correct": 1,
+      "stars": 0
+    },
+    {
+      "correct": 2,
+      "stars": 0
+    },
+    {
+      "correct": 3,
+      "stars": 0
+    },
+    {
+      "correct": 4,
+      "stars": 0
+    },
+    {
+      "correct": 5,
+      "stars": 0
+    },
+    {
+      "correct": 6,
+      "stars": 1
+    },
+    {
+      "correct": 7,
+      "stars": 1
+    },
+    {
+      "correct": 8,
+      "stars": 2
+    },
+    {
+      "correct": 9,
+      "stars": 2
+    },
+    {
+      "correct": 10,
+      "stars": 3
+    }
+  ],
+  "starRewardMatrix": [
+    {
+      "previous": 0,
+      "new": 0,
+      "difference": 0
+    },
+    {
+      "previous": 0,
+      "new": 1,
+      "difference": 100
+    },
+    {
+      "previous": 0,
+      "new": 2,
+      "difference": 300
+    },
+    {
+      "previous": 0,
+      "new": 3,
+      "difference": 600
+    },
+    {
+      "previous": 1,
+      "new": 1,
+      "difference": 0
+    },
+    {
+      "previous": 1,
+      "new": 2,
+      "difference": 200
+    },
+    {
+      "previous": 1,
+      "new": 3,
+      "difference": 500
+    },
+    {
+      "previous": 2,
+      "new": 2,
+      "difference": 0
+    },
+    {
+      "previous": 2,
+      "new": 3,
+      "difference": 300
+    },
+    {
+      "previous": 3,
+      "new": 3,
+      "difference": 0
+    }
+  ]
+}

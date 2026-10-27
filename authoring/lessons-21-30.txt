@@ -1,0 +1,110 @@
+@21|現在進行形|1|be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。|am~is~are~be
+I/[am]/listening/to music/now.|私は今音楽を聴いています。
+She/[is]/waiting/at the gate.|彼女は入場口で待っています。
+We/[are]/watching/a live stream.|私たちは生配信を見ています。
+He/[is]/playing/the piano/now.|彼は今ピアノを弾いています。
+The fans/[are]/waving/their towels.|ファンたちはタオルを振っています。
+I/[am]/looking for/my ticket.|私はチケットを探しています。
+You/[are]/singing/too loudly.|あなたは大きすぎる声で歌っています。
+My phone/[is]/ringing/again.|私の携帯電話がまた鳴っています。
+They/[are]/selling/T-shirts/outside.|彼らは外でTシャツを売っています。
+My sister/[is]/taking/a photo.|私の姉は写真を撮っています。
+@22|be動詞の過去形|1|過去の状態をwas・wereで表す。Iと単数はwas、youと複数はwere。|was~were~is~are
+I/[was]/very happy/yesterday.|私は昨日とてもうれしかったです。
+The seats/[were]/near the stage/last night.|昨夜の席はステージの近くでした。
+She/[was]/late/this morning.|彼女は今朝遅刻しました。
+We/[were]/tired/after the show.|公演後、私たちは疲れていました。
+The concert/[was]/amazing/last night.|昨夜のコンサートはすばらしかったです。
+You/[were]/quiet/yesterday.|あなたは昨日静かでした。
+My bag/[was]/heavy/that day.|その日、私のバッグは重かったです。
+The shops/[were]/closed/last Sunday.|先週の日曜日、その店々は閉まっていました。
+He/[was]/a student/two years ago.|彼は2年前学生でした。
+The tickets/[were]/expensive/last year.|昨年、チケットは高かったです。
+@23|一般動詞の過去形・規則動詞|1|規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。|PAST
+I/[watched]/a music video/yesterday.|私は昨日ミュージックビデオを見ました。
+We/[walked]/to the hall/last night.|私たちは昨夜会場まで歩きました。
+She/[practiced]/the piano/yesterday.|彼女は昨日ピアノを練習しました。
+He/[called]/me/after the show.|彼は公演後に私に電話しました。
+I/[saved]/money/last month.|私は先月お金を貯めました。
+They/[danced]/at the party/last night.|彼らは昨夜パーティーで踊りました。
+We/[waited]/for an hour/yesterday.|私たちは昨日1時間待ちました。
+I/[opened]/the card pack/this morning.|私は今朝カードパックを開けました。
+She/[studied]/English/last night.|彼女は昨夜英語を勉強しました。
+We/[enjoyed]/the concert/yesterday.|私たちは昨日コンサートを楽しみました。
+@24|一般動詞の過去形・不規則動詞|1|go→went、buy→boughtなど、edを使わない過去形を確認する。|PAST
+I/[bought]/a green towel/yesterday.|私は昨日緑のタオルを買いました。
+We/[went]/to a concert/last Sunday.|私たちは先週の日曜日にコンサートへ行きました。
+She/[saw]/a rainbow/after the show.|彼女は公演後に虹を見ました。
+He/[lost]/his ticket/yesterday.|彼は昨日チケットをなくしました。
+I/[found]/my phone/this morning.|私は今朝携帯電話を見つけました。
+They/[sang]/together/last night.|彼らは昨夜一緒に歌いました。
+We/[took]/a photo/yesterday.|私たちは昨日写真を撮りました。
+I/[met]/another fan/last week.|私は先週別のファンに会いました。
+My friend/[gave]/me a card/yesterday.|私の友達は昨日私にカードをくれました。
+I/[ate]/dinner/after the concert.|私はコンサート後に夕食を食べました。
+@25|一般動詞の過去の否定・疑問文|1|did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。|AUTO
+I/[did not]/win/a ticket/yesterday.|私は昨日チケットの抽選に当たりませんでした。
+[Did]/you/enjoy/the concert/last night?|あなたは昨夜コンサートを楽しみましたか。
+She/[did not]/bring/her towel/that day.|彼女はその日タオルを持ってきませんでした。
+[Did]/he/call/you/yesterday?|彼は昨日あなたに電話しましたか。
+We/[did not]/miss/the last train/last night.|私たちは昨夜終電に乗り遅れませんでした。
+[Did]/they/play/your favorite song/yesterday?|彼らは昨日あなたの好きな曲を演奏しましたか。
+I/[did not]/buy/any goods/last week.|私は先週グッズを何も買いませんでした。
+[Did]/you/find/your ticket/this morning?|あなたは今朝チケットを見つけましたか。
+He/[did not]/know/the answer/yesterday.|彼は昨日答えを知りませんでした。
+[Did]/she/take/a photo/last night?|彼女は昨夜写真を撮りましたか。
+@26|過去進行形|2|was・were＋ing形で過去のある時点で進行していた動作を表す。|was~were~is~are
+I/[was]/listening/to music/at eight last night.|私は昨夜8時に音楽を聴いていました。
+We/[were]/waiting/at the gate/then.|私たちはその時入場口で待っていました。
+She/[was]/sleeping/on the train/then.|彼女はその時電車で眠っていました。
+They/[were]/singing/when I arrived.|私が着いた時、彼らは歌っていました。
+He/[was]/looking for/his seat/then.|彼はその時自分の席を探していました。
+I/[was]/saving/money/at that time.|私はその頃お金を貯めていました。
+My friends/[were]/talking/about the show/then.|友達はその時公演について話していました。
+You/[were]/taking/a photo/when I called.|私が電話した時、あなたは写真を撮っていました。
+The rain/[was]/falling/when we left.|私たちが出発した時、雨が降っていました。
+We/[were]/practicing/at six yesterday.|私たちは昨日6時に練習していました。
+@27|be going toによる未来|2|be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。|am~is~are~be
+I/[am]/going to buy/a ticket/tomorrow.|私は明日チケットを買う予定です。
+She/[is]/going to join/the fan club.|彼女はファンクラブに入る予定です。
+We/[are]/going to meet/at the station.|私たちは駅で会う予定です。
+He/[is]/going to practice/after dinner.|彼は夕食後に練習する予定です。
+They/[are]/going to watch/a live stream.|彼らは生配信を見る予定です。
+I/[am]/going to wear/my green shirt.|私は緑のシャツを着る予定です。
+My sister/[is]/going to bring/a camera.|私の姉はカメラを持ってくる予定です。
+We/[are]/going to leave/early.|私たちは早めに出発する予定です。
+You/[are]/going to love/this song.|あなたはこの曲をきっと気に入るでしょう。
+The shop/[is]/going to open/next week.|その店は来週開店する予定です。
+@28|willによる未来・意志|2|will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。|will~will to~will be~will have
+I/[will]/call you/tonight.|私は今夜あなたに電話します。
+We/[will]/see you/at the hall.|私たちは会場であなたに会うでしょう。
+She/[will]/be happy/to hear this.|彼女はこれを聞いて喜ぶでしょう。
+I/[will]/help you/with your bag.|私はあなたのバッグを持つのを手伝います。
+The show/[will]/start/soon.|公演はもうすぐ始まるでしょう。
+He/[will]/send you/the photo.|彼はあなたにその写真を送るでしょう。
+They/[will]/remember/this day.|彼らはこの日を覚えているでしょう。
+I/[will]/save/more money.|私はもっとお金を貯めます。
+It/[will]/rain/tomorrow.|明日は雨が降るでしょう。
+We/[will]/come back/next year.|私たちは来年また来ます。
+@29|must・have to・禁止と不要|2|must・have toは義務。must notは禁止、do not have toは必要がないことを表す。|AUTO
+You/[must]/keep/your ticket.|あなたはチケットを保管しなければなりません。
+We/[have to]/leave/now.|私たちは今出発しなければなりません。
+You/[must not]/take photos/here.|ここでは写真を撮ってはいけません。
+I/[do not have to]/work/tomorrow.|私は明日働く必要がありません。
+She/[has to]/catch/the last train.|彼女は終電に乗らなければなりません。
+We/[must]/follow/the rules.|私たちはルールを守らなければなりません。
+You/[do not have to]/bring/a towel.|あなたはタオルを持ってくる必要がありません。
+He/[has to]/study/before the concert.|彼はコンサート前に勉強しなければなりません。
+We/[must not]/block/the door.|私たちはドアをふさいではいけません。
+I/[have to]/charge/my phone.|私は携帯電話を充電しなければなりません。
+@30|should・mayと丁寧な依頼|2|shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。|AUTO
+You/[should]/drink/some water.|あなたは水を少し飲んだほうがよいです。
+I/[may]/go/to the concert.|私はコンサートに行くかもしれません。
+[Could you]/show me/the way?|道を教えていただけますか。
+[Would you]/open/the window?|窓を開けていただけますか。
+We/[should]/leave/early.|私たちは早めに出発したほうがよいです。
+You/[may]/use/this seat.|あなたはこの席を使ってもよいです。
+He/[should]/take/a break.|彼は休憩したほうがよいです。
+It/[may]/snow/tonight.|今夜は雪が降るかもしれません。
+[Could you]/take/our photo?|私たちの写真を撮っていただけますか。
+You/[should]/check/your ticket/again.|あなたはもう一度チケットを確認したほうがよいです。

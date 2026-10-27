@@ -1,0 +1,2353 @@
+{
+  "grammarId": "G10",
+  "examples": [
+    {
+      "id": "G10-E01",
+      "grammarId": "G10",
+      "grammarNameJa": "一般動詞の疑問文",
+      "english": "Do you like this band?",
+      "translationJa": "あなたはこのバンドが好きですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Do",
+        "start": 0,
+        "endExclusive": 2,
+        "explanationJa": "Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+      },
+      "sentenceExplanationJa": "「Do you like this band?」は「あなたはこのバンドが好きですか。」という意味です。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。 この文の対象部分は「Do」。まとまりは Do → you → like → this band? の順です。",
+      "glossary": [
+        {
+          "expression": "Do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "like",
+          "lemma": "like",
+          "meaningJa": "好きである",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "band",
+          "lemma": "band",
+          "meaningJa": "バンド",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ you like this band?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 2,
+          "answer": "Do"
+        },
+        "options": [
+          {
+            "id": "G10-E01-C2",
+            "text": "Does",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Does」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E01-C1",
+            "text": "Do",
+            "isCorrect": true,
+            "explanationJa": "正解。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+          },
+          {
+            "id": "G10-E01-C4",
+            "text": "Are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E01-C3",
+            "text": "Is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G10-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G10-E01-B01",
+            "text": "Do",
+            "role": "required"
+          },
+          {
+            "id": "G10-E01-B02",
+            "text": "you",
+            "role": "required"
+          },
+          {
+            "id": "G10-E01-B03",
+            "text": "like",
+            "role": "required"
+          },
+          {
+            "id": "G10-E01-B04",
+            "text": "this band?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G10-E01-B01",
+          "G10-E01-B02",
+          "G10-E01-B03",
+          "G10-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E01-B01",
+            "G10-E01-B02",
+            "G10-E01-B03",
+            "G10-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G10-E01-B01",
+            "text": "Do",
+            "role": "required"
+          },
+          {
+            "id": "G10-E01-B02",
+            "text": "you",
+            "role": "required"
+          },
+          {
+            "id": "G10-E01-B03",
+            "text": "like",
+            "role": "required"
+          },
+          {
+            "id": "G10-E01-B04",
+            "text": "this band?",
+            "role": "required"
+          },
+          {
+            "id": "G10-E01-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E01-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E01-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E01-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E01-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G10-E01-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E01-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E01-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E01-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E01-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G10-E01-B01",
+          "G10-E01-B02",
+          "G10-E01-B03",
+          "G10-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E01-B01",
+            "G10-E01-B02",
+            "G10-E01-B03",
+            "G10-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G10-E01-AUDIO",
+        "text": "Do you like this band?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G10-E02",
+      "grammarId": "G10",
+      "grammarNameJa": "一般動詞の疑問文",
+      "english": "Does your sister have a ticket?",
+      "translationJa": "あなたの姉はチケットを持っていますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Does",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+      },
+      "sentenceExplanationJa": "「Does your sister have a ticket?」は「あなたの姉はチケットを持っていますか。」という意味です。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。 この文の対象部分は「Does」。まとまりは Does → your sister → have → a ticket? の順です。",
+      "glossary": [
+        {
+          "expression": "Does",
+          "lemma": "does",
+          "meaningJa": "三人称単数現在のdo",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "sister",
+          "lemma": "sister",
+          "meaningJa": "姉・妹",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ your sister have a ticket?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "Does"
+        },
+        "options": [
+          {
+            "id": "G10-E02-C4",
+            "text": "Are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E02-C2",
+            "text": "Do",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Do」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E02-C3",
+            "text": "Is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E02-C1",
+            "text": "Does",
+            "isCorrect": true,
+            "explanationJa": "正解。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+          }
+        ],
+        "correctOptionId": "G10-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G10-E02-B01",
+            "text": "Does",
+            "role": "required"
+          },
+          {
+            "id": "G10-E02-B02",
+            "text": "your sister",
+            "role": "required"
+          },
+          {
+            "id": "G10-E02-B03",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G10-E02-B04",
+            "text": "a ticket?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G10-E02-B01",
+          "G10-E02-B02",
+          "G10-E02-B03",
+          "G10-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E02-B01",
+            "G10-E02-B02",
+            "G10-E02-B03",
+            "G10-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G10-E02-B01",
+            "text": "Does",
+            "role": "required"
+          },
+          {
+            "id": "G10-E02-B02",
+            "text": "your sister",
+            "role": "required"
+          },
+          {
+            "id": "G10-E02-B03",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G10-E02-B04",
+            "text": "a ticket?",
+            "role": "required"
+          },
+          {
+            "id": "G10-E02-D01",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E02-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E02-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E02-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E02-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G10-E02-D01",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E02-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E02-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E02-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E02-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G10-E02-B01",
+          "G10-E02-B02",
+          "G10-E02-B03",
+          "G10-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E02-B01",
+            "G10-E02-B02",
+            "G10-E02-B03",
+            "G10-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G10-E02-AUDIO",
+        "text": "Does your sister have a ticket?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G10-E03",
+      "grammarId": "G10",
+      "grammarNameJa": "一般動詞の疑問文",
+      "english": "Do they practice here?",
+      "translationJa": "彼らはここで練習しますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Do",
+        "start": 0,
+        "endExclusive": 2,
+        "explanationJa": "Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+      },
+      "sentenceExplanationJa": "「Do they practice here?」は「彼らはここで練習しますか。」という意味です。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。 この文の対象部分は「Do」。まとまりは Do → they → practice → here? の順です。",
+      "glossary": [
+        {
+          "expression": "Do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "they",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "practice",
+          "lemma": "practice",
+          "meaningJa": "練習する・練習",
+          "kind": "word"
+        },
+        {
+          "expression": "here",
+          "lemma": "here",
+          "meaningJa": "ここに・ここで",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ they practice here?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 2,
+          "answer": "Do"
+        },
+        "options": [
+          {
+            "id": "G10-E03-C3",
+            "text": "Is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E03-C4",
+            "text": "Are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E03-C1",
+            "text": "Do",
+            "isCorrect": true,
+            "explanationJa": "正解。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+          },
+          {
+            "id": "G10-E03-C2",
+            "text": "Does",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Does」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G10-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G10-E03-B01",
+            "text": "Do",
+            "role": "required"
+          },
+          {
+            "id": "G10-E03-B02",
+            "text": "they",
+            "role": "required"
+          },
+          {
+            "id": "G10-E03-B03",
+            "text": "practice",
+            "role": "required"
+          },
+          {
+            "id": "G10-E03-B04",
+            "text": "here?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G10-E03-B01",
+          "G10-E03-B02",
+          "G10-E03-B03",
+          "G10-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E03-B01",
+            "G10-E03-B02",
+            "G10-E03-B03",
+            "G10-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G10-E03-B01",
+            "text": "Do",
+            "role": "required"
+          },
+          {
+            "id": "G10-E03-B02",
+            "text": "they",
+            "role": "required"
+          },
+          {
+            "id": "G10-E03-B03",
+            "text": "practice",
+            "role": "required"
+          },
+          {
+            "id": "G10-E03-B04",
+            "text": "here?",
+            "role": "required"
+          },
+          {
+            "id": "G10-E03-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E03-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E03-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E03-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E03-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G10-E03-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E03-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E03-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E03-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E03-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G10-E03-B01",
+          "G10-E03-B02",
+          "G10-E03-B03",
+          "G10-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E03-B01",
+            "G10-E03-B02",
+            "G10-E03-B03",
+            "G10-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G10-E03-AUDIO",
+        "text": "Do they practice here?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G10-E04",
+      "grammarId": "G10",
+      "grammarNameJa": "一般動詞の疑問文",
+      "english": "Does this bus stop at the hall?",
+      "translationJa": "このバスは会場に止まりますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Does",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+      },
+      "sentenceExplanationJa": "「Does this bus stop at the hall?」は「このバスは会場に止まりますか。」という意味です。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。 この文の対象部分は「Does」。まとまりは Does → this bus → stop → at the hall? の順です。",
+      "glossary": [
+        {
+          "expression": "Does",
+          "lemma": "does",
+          "meaningJa": "三人称単数現在のdo",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "bus",
+          "lemma": "bus",
+          "meaningJa": "バス",
+          "kind": "word"
+        },
+        {
+          "expression": "stop",
+          "lemma": "stop",
+          "meaningJa": "止まる・やめる",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ this bus stop at the hall?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "Does"
+        },
+        "options": [
+          {
+            "id": "G10-E04-C1",
+            "text": "Does",
+            "isCorrect": true,
+            "explanationJa": "正解。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+          },
+          {
+            "id": "G10-E04-C4",
+            "text": "Are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E04-C2",
+            "text": "Do",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Do」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E04-C3",
+            "text": "Is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G10-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G10-E04-B01",
+            "text": "Does",
+            "role": "required"
+          },
+          {
+            "id": "G10-E04-B02",
+            "text": "this bus",
+            "role": "required"
+          },
+          {
+            "id": "G10-E04-B03",
+            "text": "stop",
+            "role": "required"
+          },
+          {
+            "id": "G10-E04-B04",
+            "text": "at the hall?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G10-E04-B01",
+          "G10-E04-B02",
+          "G10-E04-B03",
+          "G10-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E04-B01",
+            "G10-E04-B02",
+            "G10-E04-B03",
+            "G10-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G10-E04-B01",
+            "text": "Does",
+            "role": "required"
+          },
+          {
+            "id": "G10-E04-B02",
+            "text": "this bus",
+            "role": "required"
+          },
+          {
+            "id": "G10-E04-B03",
+            "text": "stop",
+            "role": "required"
+          },
+          {
+            "id": "G10-E04-B04",
+            "text": "at the hall?",
+            "role": "required"
+          },
+          {
+            "id": "G10-E04-D01",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E04-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E04-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E04-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E04-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G10-E04-D01",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E04-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E04-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E04-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E04-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G10-E04-B01",
+          "G10-E04-B02",
+          "G10-E04-B03",
+          "G10-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E04-B01",
+            "G10-E04-B02",
+            "G10-E04-B03",
+            "G10-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G10-E04-AUDIO",
+        "text": "Does this bus stop at the hall?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G10-E05",
+      "grammarId": "G10",
+      "grammarNameJa": "一般動詞の疑問文",
+      "english": "Do we need a map?",
+      "translationJa": "私たちは地図が必要ですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Do",
+        "start": 0,
+        "endExclusive": 2,
+        "explanationJa": "Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+      },
+      "sentenceExplanationJa": "「Do we need a map?」は「私たちは地図が必要ですか。」という意味です。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。 この文の対象部分は「Do」。まとまりは Do → we → need → a map? の順です。",
+      "glossary": [
+        {
+          "expression": "Do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "we",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "need",
+          "lemma": "need",
+          "meaningJa": "必要とする",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "map",
+          "lemma": "map",
+          "meaningJa": "地図",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ we need a map?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 2,
+          "answer": "Do"
+        },
+        "options": [
+          {
+            "id": "G10-E05-C4",
+            "text": "Are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E05-C2",
+            "text": "Does",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Does」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E05-C3",
+            "text": "Is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E05-C1",
+            "text": "Do",
+            "isCorrect": true,
+            "explanationJa": "正解。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+          }
+        ],
+        "correctOptionId": "G10-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G10-E05-B01",
+            "text": "Do",
+            "role": "required"
+          },
+          {
+            "id": "G10-E05-B02",
+            "text": "we",
+            "role": "required"
+          },
+          {
+            "id": "G10-E05-B03",
+            "text": "need",
+            "role": "required"
+          },
+          {
+            "id": "G10-E05-B04",
+            "text": "a map?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G10-E05-B01",
+          "G10-E05-B02",
+          "G10-E05-B03",
+          "G10-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E05-B01",
+            "G10-E05-B02",
+            "G10-E05-B03",
+            "G10-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G10-E05-B01",
+            "text": "Do",
+            "role": "required"
+          },
+          {
+            "id": "G10-E05-B02",
+            "text": "we",
+            "role": "required"
+          },
+          {
+            "id": "G10-E05-B03",
+            "text": "need",
+            "role": "required"
+          },
+          {
+            "id": "G10-E05-B04",
+            "text": "a map?",
+            "role": "required"
+          },
+          {
+            "id": "G10-E05-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E05-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E05-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E05-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E05-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G10-E05-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E05-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E05-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E05-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E05-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G10-E05-B01",
+          "G10-E05-B02",
+          "G10-E05-B03",
+          "G10-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E05-B01",
+            "G10-E05-B02",
+            "G10-E05-B03",
+            "G10-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G10-E05-AUDIO",
+        "text": "Do we need a map?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G10-E06",
+      "grammarId": "G10",
+      "grammarNameJa": "一般動詞の疑問文",
+      "english": "Does he sing in English?",
+      "translationJa": "彼は英語で歌いますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Does",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+      },
+      "sentenceExplanationJa": "「Does he sing in English?」は「彼は英語で歌いますか。」という意味です。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。 この文の対象部分は「Does」。まとまりは Does → he → sing → in English? の順です。",
+      "glossary": [
+        {
+          "expression": "Does",
+          "lemma": "does",
+          "meaningJa": "三人称単数現在のdo",
+          "kind": "word"
+        },
+        {
+          "expression": "he",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "sing",
+          "lemma": "sing",
+          "meaningJa": "歌う",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "English",
+          "lemma": "english",
+          "meaningJa": "英語",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ he sing in English?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "Does"
+        },
+        "options": [
+          {
+            "id": "G10-E06-C4",
+            "text": "Are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E06-C3",
+            "text": "Is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E06-C2",
+            "text": "Do",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Do」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E06-C1",
+            "text": "Does",
+            "isCorrect": true,
+            "explanationJa": "正解。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+          }
+        ],
+        "correctOptionId": "G10-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G10-E06-B01",
+            "text": "Does",
+            "role": "required"
+          },
+          {
+            "id": "G10-E06-B02",
+            "text": "he",
+            "role": "required"
+          },
+          {
+            "id": "G10-E06-B03",
+            "text": "sing",
+            "role": "required"
+          },
+          {
+            "id": "G10-E06-B04",
+            "text": "in English?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G10-E06-B01",
+          "G10-E06-B02",
+          "G10-E06-B03",
+          "G10-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E06-B01",
+            "G10-E06-B02",
+            "G10-E06-B03",
+            "G10-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G10-E06-B01",
+            "text": "Does",
+            "role": "required"
+          },
+          {
+            "id": "G10-E06-B02",
+            "text": "he",
+            "role": "required"
+          },
+          {
+            "id": "G10-E06-B03",
+            "text": "sing",
+            "role": "required"
+          },
+          {
+            "id": "G10-E06-B04",
+            "text": "in English?",
+            "role": "required"
+          },
+          {
+            "id": "G10-E06-D01",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E06-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E06-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E06-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E06-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G10-E06-D01",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E06-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E06-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E06-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E06-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G10-E06-B01",
+          "G10-E06-B02",
+          "G10-E06-B03",
+          "G10-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E06-B01",
+            "G10-E06-B02",
+            "G10-E06-B03",
+            "G10-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G10-E06-AUDIO",
+        "text": "Does he sing in English?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G10-E07",
+      "grammarId": "G10",
+      "grammarNameJa": "一般動詞の疑問文",
+      "english": "Do your friends collect cards?",
+      "translationJa": "あなたの友達はカードを集めていますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Do",
+        "start": 0,
+        "endExclusive": 2,
+        "explanationJa": "Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+      },
+      "sentenceExplanationJa": "「Do your friends collect cards?」は「あなたの友達はカードを集めていますか。」という意味です。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。 この文の対象部分は「Do」。まとまりは Do → your friends → collect → cards? の順です。",
+      "glossary": [
+        {
+          "expression": "Do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "friends",
+          "lemma": "friend",
+          "meaningJa": "友達（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "collect",
+          "lemma": "collect",
+          "meaningJa": "集める",
+          "kind": "word"
+        },
+        {
+          "expression": "cards",
+          "lemma": "card",
+          "meaningJa": "カード（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ your friends collect cards?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 2,
+          "answer": "Do"
+        },
+        "options": [
+          {
+            "id": "G10-E07-C1",
+            "text": "Do",
+            "isCorrect": true,
+            "explanationJa": "正解。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+          },
+          {
+            "id": "G10-E07-C2",
+            "text": "Does",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Does」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E07-C3",
+            "text": "Is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E07-C4",
+            "text": "Are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Are」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G10-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G10-E07-B01",
+            "text": "Do",
+            "role": "required"
+          },
+          {
+            "id": "G10-E07-B02",
+            "text": "your friends",
+            "role": "required"
+          },
+          {
+            "id": "G10-E07-B03",
+            "text": "collect",
+            "role": "required"
+          },
+          {
+            "id": "G10-E07-B04",
+            "text": "cards?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G10-E07-B01",
+          "G10-E07-B02",
+          "G10-E07-B03",
+          "G10-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E07-B01",
+            "G10-E07-B02",
+            "G10-E07-B03",
+            "G10-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G10-E07-B01",
+            "text": "Do",
+            "role": "required"
+          },
+          {
+            "id": "G10-E07-B02",
+            "text": "your friends",
+            "role": "required"
+          },
+          {
+            "id": "G10-E07-B03",
+            "text": "collect",
+            "role": "required"
+          },
+          {
+            "id": "G10-E07-B04",
+            "text": "cards?",
+            "role": "required"
+          },
+          {
+            "id": "G10-E07-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E07-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E07-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E07-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E07-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G10-E07-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E07-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E07-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E07-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E07-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G10-E07-B01",
+          "G10-E07-B02",
+          "G10-E07-B03",
+          "G10-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E07-B01",
+            "G10-E07-B02",
+            "G10-E07-B03",
+            "G10-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G10-E07-AUDIO",
+        "text": "Do your friends collect cards?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G10-E08",
+      "grammarId": "G10",
+      "grammarNameJa": "一般動詞の疑問文",
+      "english": "Does the shop open at ten?",
+      "translationJa": "その店は10時に開きますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Does",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+      },
+      "sentenceExplanationJa": "「Does the shop open at ten?」は「その店は10時に開きますか。」という意味です。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。 この文の対象部分は「Does」。まとまりは Does → the shop → open → at ten? の順です。",
+      "glossary": [
+        {
+          "expression": "Does",
+          "lemma": "does",
+          "meaningJa": "三人称単数現在のdo",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "shop",
+          "lemma": "shop",
+          "meaningJa": "店",
+          "kind": "word"
+        },
+        {
+          "expression": "open",
+          "lemma": "open",
+          "meaningJa": "開いている・開ける",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "ten",
+          "lemma": "ten",
+          "meaningJa": "10・10時",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ the shop open at ten?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "Does"
+        },
+        "options": [
+          {
+            "id": "G10-E08-C3",
+            "text": "Is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E08-C4",
+            "text": "Are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E08-C1",
+            "text": "Does",
+            "isCorrect": true,
+            "explanationJa": "正解。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+          },
+          {
+            "id": "G10-E08-C2",
+            "text": "Do",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Do」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G10-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G10-E08-B01",
+            "text": "Does",
+            "role": "required"
+          },
+          {
+            "id": "G10-E08-B02",
+            "text": "the shop",
+            "role": "required"
+          },
+          {
+            "id": "G10-E08-B03",
+            "text": "open",
+            "role": "required"
+          },
+          {
+            "id": "G10-E08-B04",
+            "text": "at ten?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G10-E08-B01",
+          "G10-E08-B02",
+          "G10-E08-B03",
+          "G10-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E08-B01",
+            "G10-E08-B02",
+            "G10-E08-B03",
+            "G10-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G10-E08-B01",
+            "text": "Does",
+            "role": "required"
+          },
+          {
+            "id": "G10-E08-B02",
+            "text": "the shop",
+            "role": "required"
+          },
+          {
+            "id": "G10-E08-B03",
+            "text": "open",
+            "role": "required"
+          },
+          {
+            "id": "G10-E08-B04",
+            "text": "at ten?",
+            "role": "required"
+          },
+          {
+            "id": "G10-E08-D01",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E08-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E08-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E08-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E08-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G10-E08-D01",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E08-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E08-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E08-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E08-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G10-E08-B01",
+          "G10-E08-B02",
+          "G10-E08-B03",
+          "G10-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E08-B01",
+            "G10-E08-B02",
+            "G10-E08-B03",
+            "G10-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G10-E08-AUDIO",
+        "text": "Does the shop open at ten?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G10-E09",
+      "grammarId": "G10",
+      "grammarNameJa": "一般動詞の疑問文",
+      "english": "Do you remember this melody?",
+      "translationJa": "あなたはこのメロディーを覚えていますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Do",
+        "start": 0,
+        "endExclusive": 2,
+        "explanationJa": "Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+      },
+      "sentenceExplanationJa": "「Do you remember this melody?」は「あなたはこのメロディーを覚えていますか。」という意味です。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。 この文の対象部分は「Do」。まとまりは Do → you → remember → this melody? の順です。",
+      "glossary": [
+        {
+          "expression": "Do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "remember",
+          "lemma": "remember",
+          "meaningJa": "覚えている",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "melody",
+          "lemma": "melody",
+          "meaningJa": "メロディー",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ you remember this melody?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 2,
+          "answer": "Do"
+        },
+        "options": [
+          {
+            "id": "G10-E09-C3",
+            "text": "Is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E09-C1",
+            "text": "Do",
+            "isCorrect": true,
+            "explanationJa": "正解。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+          },
+          {
+            "id": "G10-E09-C4",
+            "text": "Are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E09-C2",
+            "text": "Does",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do」を使います。「Does」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G10-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G10-E09-B01",
+            "text": "Do",
+            "role": "required"
+          },
+          {
+            "id": "G10-E09-B02",
+            "text": "you",
+            "role": "required"
+          },
+          {
+            "id": "G10-E09-B03",
+            "text": "remember",
+            "role": "required"
+          },
+          {
+            "id": "G10-E09-B04",
+            "text": "this melody?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G10-E09-B01",
+          "G10-E09-B02",
+          "G10-E09-B03",
+          "G10-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E09-B01",
+            "G10-E09-B02",
+            "G10-E09-B03",
+            "G10-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G10-E09-B01",
+            "text": "Do",
+            "role": "required"
+          },
+          {
+            "id": "G10-E09-B02",
+            "text": "you",
+            "role": "required"
+          },
+          {
+            "id": "G10-E09-B03",
+            "text": "remember",
+            "role": "required"
+          },
+          {
+            "id": "G10-E09-B04",
+            "text": "this melody?",
+            "role": "required"
+          },
+          {
+            "id": "G10-E09-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E09-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E09-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E09-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E09-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G10-E09-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E09-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E09-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E09-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          },
+          {
+            "id": "G10-E09-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G10-E09-B01",
+          "G10-E09-B02",
+          "G10-E09-B03",
+          "G10-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E09-B01",
+            "G10-E09-B02",
+            "G10-E09-B03",
+            "G10-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G10-E09-AUDIO",
+        "text": "Do you remember this melody?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G10-E10",
+      "grammarId": "G10",
+      "grammarNameJa": "一般動詞の疑問文",
+      "english": "Does your phone work here?",
+      "translationJa": "あなたの携帯電話はここで使えますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Does",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+      },
+      "sentenceExplanationJa": "「Does your phone work here?」は「あなたの携帯電話はここで使えますか。」という意味です。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。 この文の対象部分は「Does」。まとまりは Does → your phone → work → here? の順です。",
+      "glossary": [
+        {
+          "expression": "Does",
+          "lemma": "does",
+          "meaningJa": "三人称単数現在のdo",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "phone",
+          "lemma": "phone",
+          "meaningJa": "携帯電話・電話",
+          "kind": "word"
+        },
+        {
+          "expression": "work",
+          "lemma": "work",
+          "meaningJa": "働く・動く",
+          "kind": "word"
+        },
+        {
+          "expression": "here",
+          "lemma": "here",
+          "meaningJa": "ここに・ここで",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ your phone work here?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "Does"
+        },
+        "options": [
+          {
+            "id": "G10-E10-C2",
+            "text": "Do",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Do」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E10-C4",
+            "text": "Are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E10-C3",
+            "text": "Is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Does」を使います。「Is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G10-E10-C1",
+            "text": "Does",
+            "isCorrect": true,
+            "explanationJa": "正解。Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。"
+          }
+        ],
+        "correctOptionId": "G10-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G10-E10-B01",
+            "text": "Does",
+            "role": "required"
+          },
+          {
+            "id": "G10-E10-B02",
+            "text": "your phone",
+            "role": "required"
+          },
+          {
+            "id": "G10-E10-B03",
+            "text": "work",
+            "role": "required"
+          },
+          {
+            "id": "G10-E10-B04",
+            "text": "here?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G10-E10-B01",
+          "G10-E10-B02",
+          "G10-E10-B03",
+          "G10-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E10-B01",
+            "G10-E10-B02",
+            "G10-E10-B03",
+            "G10-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G10-E10-B01",
+            "text": "Does",
+            "role": "required"
+          },
+          {
+            "id": "G10-E10-B02",
+            "text": "your phone",
+            "role": "required"
+          },
+          {
+            "id": "G10-E10-B03",
+            "text": "work",
+            "role": "required"
+          },
+          {
+            "id": "G10-E10-B04",
+            "text": "here?",
+            "role": "required"
+          },
+          {
+            "id": "G10-E10-D01",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E10-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E10-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E10-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E10-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G10-E10-D01",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E10-D02",
+            "text": "Is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E10-D03",
+            "text": "Are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E10-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          },
+          {
+            "id": "G10-E10-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Does」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G10-E10-B01",
+          "G10-E10-B02",
+          "G10-E10-B03",
+          "G10-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G10-E10-B01",
+            "G10-E10-B02",
+            "G10-E10-B03",
+            "G10-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G10-E10-AUDIO",
+        "text": "Does your phone work here?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2465 @@
+{
+  "grammarId": "G47",
+  "examples": [
+    {
+      "id": "G47-E01",
+      "grammarId": "G47",
+      "grammarNameJa": "want・ask・tell＋人＋to",
+      "english": "I want you to listen to this song.",
+      "translationJa": "私はあなたにこの曲を聴いてほしいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to listen",
+        "start": 11,
+        "endExclusive": 20,
+        "explanationJa": "want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+      },
+      "sentenceExplanationJa": "「I want you to listen to this song.」は「私はあなたにこの曲を聴いてほしいです。」という意味です。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。 この文の対象部分は「to listen」。まとまりは I want → you → to listen → to this song. の順です。",
+      "glossary": [
+        {
+          "expression": "listen to",
+          "meaningJa": "～を聴く",
+          "kind": "phrase"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "want",
+          "lemma": "want",
+          "meaningJa": "欲しい・～したい",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "listen",
+          "lemma": "listen",
+          "meaningJa": "耳を傾けて聴く",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I want you ___ to this song.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 20,
+          "answer": "to listen"
+        },
+        "options": [
+          {
+            "id": "G47-E01-C3",
+            "text": "to listens",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to listen」を使います。「to listens」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E01-C2",
+            "text": "listening",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to listen」を使います。「listening」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E01-C4",
+            "text": "listen",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to listen」を使います。「listen」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E01-C1",
+            "text": "to listen",
+            "isCorrect": true,
+            "explanationJa": "正解。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+          }
+        ],
+        "correctOptionId": "G47-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G47-E01-B01",
+            "text": "I want",
+            "role": "required"
+          },
+          {
+            "id": "G47-E01-B02",
+            "text": "you",
+            "role": "required"
+          },
+          {
+            "id": "G47-E01-B03",
+            "text": "to listen",
+            "role": "required"
+          },
+          {
+            "id": "G47-E01-B04",
+            "text": "to this song.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G47-E01-B01",
+          "G47-E01-B02",
+          "G47-E01-B03",
+          "G47-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E01-B01",
+            "G47-E01-B02",
+            "G47-E01-B03",
+            "G47-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G47-E01-B01",
+            "text": "I want",
+            "role": "required"
+          },
+          {
+            "id": "G47-E01-B02",
+            "text": "you",
+            "role": "required"
+          },
+          {
+            "id": "G47-E01-B03",
+            "text": "to listen",
+            "role": "required"
+          },
+          {
+            "id": "G47-E01-B04",
+            "text": "to this song.",
+            "role": "required"
+          },
+          {
+            "id": "G47-E01-D01",
+            "text": "listening",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to listen」と比較してください。"
+          },
+          {
+            "id": "G47-E01-D02",
+            "text": "to listens",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to listen」と比較してください。"
+          },
+          {
+            "id": "G47-E01-D03",
+            "text": "listen",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to listen」と比較してください。"
+          },
+          {
+            "id": "G47-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to listen」と比較してください。"
+          },
+          {
+            "id": "G47-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to listen」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G47-E01-D01",
+            "text": "listening",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to listen」と比較してください。"
+          },
+          {
+            "id": "G47-E01-D02",
+            "text": "to listens",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to listen」と比較してください。"
+          },
+          {
+            "id": "G47-E01-D03",
+            "text": "listen",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to listen」と比較してください。"
+          },
+          {
+            "id": "G47-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to listen」と比較してください。"
+          },
+          {
+            "id": "G47-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to listen」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G47-E01-B01",
+          "G47-E01-B02",
+          "G47-E01-B03",
+          "G47-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E01-B01",
+            "G47-E01-B02",
+            "G47-E01-B03",
+            "G47-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G47-E01-AUDIO",
+        "text": "I want you to listen to this song.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G47-E02",
+      "grammarId": "G47",
+      "grammarNameJa": "want・ask・tell＋人＋to",
+      "english": "She asked me to wait outside.",
+      "translationJa": "彼女は私に外で待つよう頼みました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to wait",
+        "start": 13,
+        "endExclusive": 20,
+        "explanationJa": "want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+      },
+      "sentenceExplanationJa": "「She asked me to wait outside.」は「彼女は私に外で待つよう頼みました。」という意味です。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。 この文の対象部分は「to wait」。まとまりは She asked → me → to wait → outside. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "asked",
+          "lemma": "ask",
+          "meaningJa": "尋ねる・頼む（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "wait",
+          "lemma": "wait",
+          "meaningJa": "待つ",
+          "kind": "word"
+        },
+        {
+          "expression": "outside",
+          "lemma": "outside",
+          "meaningJa": "外で・外に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She asked me ___ outside.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 20,
+          "answer": "to wait"
+        },
+        "options": [
+          {
+            "id": "G47-E02-C4",
+            "text": "wait",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to wait」を使います。「wait」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E02-C3",
+            "text": "to waits",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to wait」を使います。「to waits」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E02-C1",
+            "text": "to wait",
+            "isCorrect": true,
+            "explanationJa": "正解。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+          },
+          {
+            "id": "G47-E02-C2",
+            "text": "waiting",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to wait」を使います。「waiting」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G47-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G47-E02-B01",
+            "text": "She asked",
+            "role": "required"
+          },
+          {
+            "id": "G47-E02-B02",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G47-E02-B03",
+            "text": "to wait",
+            "role": "required"
+          },
+          {
+            "id": "G47-E02-B04",
+            "text": "outside.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G47-E02-B01",
+          "G47-E02-B02",
+          "G47-E02-B03",
+          "G47-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E02-B01",
+            "G47-E02-B02",
+            "G47-E02-B03",
+            "G47-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G47-E02-B01",
+            "text": "She asked",
+            "role": "required"
+          },
+          {
+            "id": "G47-E02-B02",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G47-E02-B03",
+            "text": "to wait",
+            "role": "required"
+          },
+          {
+            "id": "G47-E02-B04",
+            "text": "outside.",
+            "role": "required"
+          },
+          {
+            "id": "G47-E02-D01",
+            "text": "waiting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wait」と比較してください。"
+          },
+          {
+            "id": "G47-E02-D02",
+            "text": "to waits",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wait」と比較してください。"
+          },
+          {
+            "id": "G47-E02-D03",
+            "text": "wait",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wait」と比較してください。"
+          },
+          {
+            "id": "G47-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wait」と比較してください。"
+          },
+          {
+            "id": "G47-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wait」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G47-E02-D01",
+            "text": "waiting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wait」と比較してください。"
+          },
+          {
+            "id": "G47-E02-D02",
+            "text": "to waits",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wait」と比較してください。"
+          },
+          {
+            "id": "G47-E02-D03",
+            "text": "wait",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wait」と比較してください。"
+          },
+          {
+            "id": "G47-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wait」と比較してください。"
+          },
+          {
+            "id": "G47-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wait」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G47-E02-B01",
+          "G47-E02-B02",
+          "G47-E02-B03",
+          "G47-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E02-B01",
+            "G47-E02-B02",
+            "G47-E02-B03",
+            "G47-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G47-E02-AUDIO",
+        "text": "She asked me to wait outside.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G47-E03",
+      "grammarId": "G47",
+      "grammarNameJa": "want・ask・tell＋人＋to",
+      "english": "The guide told us to stand here.",
+      "translationJa": "案内係は私たちにここに立つよう言いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to stand",
+        "start": 18,
+        "endExclusive": 26,
+        "explanationJa": "want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+      },
+      "sentenceExplanationJa": "「The guide told us to stand here.」は「案内係は私たちにここに立つよう言いました。」という意味です。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。 この文の対象部分は「to stand」。まとまりは The guide told → us → to stand → here. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "guide",
+          "lemma": "guide",
+          "meaningJa": "案内係・案内する",
+          "kind": "word"
+        },
+        {
+          "expression": "told",
+          "lemma": "tell",
+          "meaningJa": "伝える・言う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "stand",
+          "lemma": "stand",
+          "meaningJa": "立つ",
+          "kind": "word"
+        },
+        {
+          "expression": "here",
+          "lemma": "here",
+          "meaningJa": "ここに・ここで",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The guide told us ___ here.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 26,
+          "answer": "to stand"
+        },
+        "options": [
+          {
+            "id": "G47-E03-C2",
+            "text": "standing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to stand」を使います。「standing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E03-C3",
+            "text": "to stands",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to stand」を使います。「to stands」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E03-C1",
+            "text": "to stand",
+            "isCorrect": true,
+            "explanationJa": "正解。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+          },
+          {
+            "id": "G47-E03-C4",
+            "text": "stand",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to stand」を使います。「stand」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G47-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G47-E03-B01",
+            "text": "The guide told",
+            "role": "required"
+          },
+          {
+            "id": "G47-E03-B02",
+            "text": "us",
+            "role": "required"
+          },
+          {
+            "id": "G47-E03-B03",
+            "text": "to stand",
+            "role": "required"
+          },
+          {
+            "id": "G47-E03-B04",
+            "text": "here.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G47-E03-B01",
+          "G47-E03-B02",
+          "G47-E03-B03",
+          "G47-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E03-B01",
+            "G47-E03-B02",
+            "G47-E03-B03",
+            "G47-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G47-E03-B01",
+            "text": "The guide told",
+            "role": "required"
+          },
+          {
+            "id": "G47-E03-B02",
+            "text": "us",
+            "role": "required"
+          },
+          {
+            "id": "G47-E03-B03",
+            "text": "to stand",
+            "role": "required"
+          },
+          {
+            "id": "G47-E03-B04",
+            "text": "here.",
+            "role": "required"
+          },
+          {
+            "id": "G47-E03-D01",
+            "text": "standing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to stand」と比較してください。"
+          },
+          {
+            "id": "G47-E03-D02",
+            "text": "to stands",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to stand」と比較してください。"
+          },
+          {
+            "id": "G47-E03-D03",
+            "text": "stand",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to stand」と比較してください。"
+          },
+          {
+            "id": "G47-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to stand」と比較してください。"
+          },
+          {
+            "id": "G47-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to stand」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G47-E03-D01",
+            "text": "standing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to stand」と比較してください。"
+          },
+          {
+            "id": "G47-E03-D02",
+            "text": "to stands",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to stand」と比較してください。"
+          },
+          {
+            "id": "G47-E03-D03",
+            "text": "stand",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to stand」と比較してください。"
+          },
+          {
+            "id": "G47-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to stand」と比較してください。"
+          },
+          {
+            "id": "G47-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to stand」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G47-E03-B01",
+          "G47-E03-B02",
+          "G47-E03-B03",
+          "G47-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E03-B01",
+            "G47-E03-B02",
+            "G47-E03-B03",
+            "G47-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G47-E03-AUDIO",
+        "text": "The guide told us to stand here.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G47-E04",
+      "grammarId": "G47",
+      "grammarNameJa": "want・ask・tell＋人＋to",
+      "english": "I want my brother to come with us.",
+      "translationJa": "私は弟に一緒に来てほしいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to come",
+        "start": 18,
+        "endExclusive": 25,
+        "explanationJa": "want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+      },
+      "sentenceExplanationJa": "「I want my brother to come with us.」は「私は弟に一緒に来てほしいです。」という意味です。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。 この文の対象部分は「to come」。まとまりは I want → my brother → to come → with us. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "want",
+          "lemma": "want",
+          "meaningJa": "欲しい・～したい",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "brother",
+          "lemma": "brother",
+          "meaningJa": "兄・弟",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "come",
+          "lemma": "come",
+          "meaningJa": "来る",
+          "kind": "word"
+        },
+        {
+          "expression": "with",
+          "lemma": "with",
+          "meaningJa": "～と一緒に・～で",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I want my brother ___ with us.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 25,
+          "answer": "to come"
+        },
+        "options": [
+          {
+            "id": "G47-E04-C3",
+            "text": "to comes",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to come」を使います。「to comes」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E04-C4",
+            "text": "come",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to come」を使います。「come」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E04-C1",
+            "text": "to come",
+            "isCorrect": true,
+            "explanationJa": "正解。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+          },
+          {
+            "id": "G47-E04-C2",
+            "text": "coming",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to come」を使います。「coming」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G47-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G47-E04-B01",
+            "text": "I want",
+            "role": "required"
+          },
+          {
+            "id": "G47-E04-B02",
+            "text": "my brother",
+            "role": "required"
+          },
+          {
+            "id": "G47-E04-B03",
+            "text": "to come",
+            "role": "required"
+          },
+          {
+            "id": "G47-E04-B04",
+            "text": "with us.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G47-E04-B01",
+          "G47-E04-B02",
+          "G47-E04-B03",
+          "G47-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E04-B01",
+            "G47-E04-B02",
+            "G47-E04-B03",
+            "G47-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G47-E04-B01",
+            "text": "I want",
+            "role": "required"
+          },
+          {
+            "id": "G47-E04-B02",
+            "text": "my brother",
+            "role": "required"
+          },
+          {
+            "id": "G47-E04-B03",
+            "text": "to come",
+            "role": "required"
+          },
+          {
+            "id": "G47-E04-B04",
+            "text": "with us.",
+            "role": "required"
+          },
+          {
+            "id": "G47-E04-D01",
+            "text": "coming",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to come」と比較してください。"
+          },
+          {
+            "id": "G47-E04-D02",
+            "text": "to comes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to come」と比較してください。"
+          },
+          {
+            "id": "G47-E04-D03",
+            "text": "come",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to come」と比較してください。"
+          },
+          {
+            "id": "G47-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to come」と比較してください。"
+          },
+          {
+            "id": "G47-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to come」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G47-E04-D01",
+            "text": "coming",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to come」と比較してください。"
+          },
+          {
+            "id": "G47-E04-D02",
+            "text": "to comes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to come」と比較してください。"
+          },
+          {
+            "id": "G47-E04-D03",
+            "text": "come",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to come」と比較してください。"
+          },
+          {
+            "id": "G47-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to come」と比較してください。"
+          },
+          {
+            "id": "G47-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to come」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G47-E04-B01",
+          "G47-E04-B02",
+          "G47-E04-B03",
+          "G47-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E04-B01",
+            "G47-E04-B02",
+            "G47-E04-B03",
+            "G47-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G47-E04-AUDIO",
+        "text": "I want my brother to come with us.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G47-E05",
+      "grammarId": "G47",
+      "grammarNameJa": "want・ask・tell＋人＋to",
+      "english": "He asked me to take a photo.",
+      "translationJa": "彼は私に写真を撮るよう頼みました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to take",
+        "start": 12,
+        "endExclusive": 19,
+        "explanationJa": "want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+      },
+      "sentenceExplanationJa": "「He asked me to take a photo.」は「彼は私に写真を撮るよう頼みました。」という意味です。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。 この文の対象部分は「to take」。まとまりは He asked → me → to take → a photo. の順です。",
+      "glossary": [
+        {
+          "expression": "take a photo",
+          "meaningJa": "写真を撮る",
+          "kind": "phrase"
+        },
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "asked",
+          "lemma": "ask",
+          "meaningJa": "尋ねる・頼む（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "take",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "photo",
+          "lemma": "photo",
+          "meaningJa": "写真",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He asked me ___ a photo.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 19,
+          "answer": "to take"
+        },
+        "options": [
+          {
+            "id": "G47-E05-C1",
+            "text": "to take",
+            "isCorrect": true,
+            "explanationJa": "正解。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+          },
+          {
+            "id": "G47-E05-C3",
+            "text": "to takes",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to take」を使います。「to takes」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E05-C4",
+            "text": "take",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to take」を使います。「take」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E05-C2",
+            "text": "taking",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to take」を使います。「taking」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G47-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G47-E05-B01",
+            "text": "He asked",
+            "role": "required"
+          },
+          {
+            "id": "G47-E05-B02",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G47-E05-B03",
+            "text": "to take",
+            "role": "required"
+          },
+          {
+            "id": "G47-E05-B04",
+            "text": "a photo.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G47-E05-B01",
+          "G47-E05-B02",
+          "G47-E05-B03",
+          "G47-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E05-B01",
+            "G47-E05-B02",
+            "G47-E05-B03",
+            "G47-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G47-E05-B01",
+            "text": "He asked",
+            "role": "required"
+          },
+          {
+            "id": "G47-E05-B02",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G47-E05-B03",
+            "text": "to take",
+            "role": "required"
+          },
+          {
+            "id": "G47-E05-B04",
+            "text": "a photo.",
+            "role": "required"
+          },
+          {
+            "id": "G47-E05-D01",
+            "text": "taking",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to take」と比較してください。"
+          },
+          {
+            "id": "G47-E05-D02",
+            "text": "to takes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to take」と比較してください。"
+          },
+          {
+            "id": "G47-E05-D03",
+            "text": "take",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to take」と比較してください。"
+          },
+          {
+            "id": "G47-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to take」と比較してください。"
+          },
+          {
+            "id": "G47-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to take」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G47-E05-D01",
+            "text": "taking",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to take」と比較してください。"
+          },
+          {
+            "id": "G47-E05-D02",
+            "text": "to takes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to take」と比較してください。"
+          },
+          {
+            "id": "G47-E05-D03",
+            "text": "take",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to take」と比較してください。"
+          },
+          {
+            "id": "G47-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to take」と比較してください。"
+          },
+          {
+            "id": "G47-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to take」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G47-E05-B01",
+          "G47-E05-B02",
+          "G47-E05-B03",
+          "G47-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E05-B01",
+            "G47-E05-B02",
+            "G47-E05-B03",
+            "G47-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G47-E05-AUDIO",
+        "text": "He asked me to take a photo.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G47-E06",
+      "grammarId": "G47",
+      "grammarNameJa": "want・ask・tell＋人＋to",
+      "english": "My mother told me to study first.",
+      "translationJa": "母は私に先に勉強するよう言いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to study",
+        "start": 18,
+        "endExclusive": 26,
+        "explanationJa": "want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+      },
+      "sentenceExplanationJa": "「My mother told me to study first.」は「母は私に先に勉強するよう言いました。」という意味です。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。 この文の対象部分は「to study」。まとまりは My mother told → me → to study → first. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "mother",
+          "lemma": "mother",
+          "meaningJa": "母",
+          "kind": "word"
+        },
+        {
+          "expression": "told",
+          "lemma": "tell",
+          "meaningJa": "伝える・言う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "study",
+          "lemma": "study",
+          "meaningJa": "勉強する",
+          "kind": "word"
+        },
+        {
+          "expression": "first",
+          "lemma": "first",
+          "meaningJa": "最初に・初めて",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My mother told me ___ first.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 26,
+          "answer": "to study"
+        },
+        "options": [
+          {
+            "id": "G47-E06-C3",
+            "text": "to studies",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to study」を使います。「to studies」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E06-C1",
+            "text": "to study",
+            "isCorrect": true,
+            "explanationJa": "正解。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+          },
+          {
+            "id": "G47-E06-C4",
+            "text": "study",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to study」を使います。「study」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E06-C2",
+            "text": "studying",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to study」を使います。「studying」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G47-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G47-E06-B01",
+            "text": "My mother told",
+            "role": "required"
+          },
+          {
+            "id": "G47-E06-B02",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G47-E06-B03",
+            "text": "to study",
+            "role": "required"
+          },
+          {
+            "id": "G47-E06-B04",
+            "text": "first.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G47-E06-B01",
+          "G47-E06-B02",
+          "G47-E06-B03",
+          "G47-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E06-B01",
+            "G47-E06-B02",
+            "G47-E06-B03",
+            "G47-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G47-E06-B01",
+            "text": "My mother told",
+            "role": "required"
+          },
+          {
+            "id": "G47-E06-B02",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G47-E06-B03",
+            "text": "to study",
+            "role": "required"
+          },
+          {
+            "id": "G47-E06-B04",
+            "text": "first.",
+            "role": "required"
+          },
+          {
+            "id": "G47-E06-D01",
+            "text": "studying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G47-E06-D02",
+            "text": "to studies",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G47-E06-D03",
+            "text": "study",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G47-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G47-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G47-E06-D01",
+            "text": "studying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G47-E06-D02",
+            "text": "to studies",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G47-E06-D03",
+            "text": "study",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G47-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G47-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G47-E06-B01",
+          "G47-E06-B02",
+          "G47-E06-B03",
+          "G47-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E06-B01",
+            "G47-E06-B02",
+            "G47-E06-B03",
+            "G47-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G47-E06-AUDIO",
+        "text": "My mother told me to study first.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G47-E07",
+      "grammarId": "G47",
+      "grammarNameJa": "want・ask・tell＋人＋to",
+      "english": "We want everyone to enjoy the show.",
+      "translationJa": "私たちは全員に公演を楽しんでほしいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to enjoy",
+        "start": 17,
+        "endExclusive": 25,
+        "explanationJa": "want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+      },
+      "sentenceExplanationJa": "「We want everyone to enjoy the show.」は「私たちは全員に公演を楽しんでほしいです。」という意味です。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。 この文の対象部分は「to enjoy」。まとまりは We want → everyone → to enjoy → the show. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "want",
+          "lemma": "want",
+          "meaningJa": "欲しい・～したい",
+          "kind": "word"
+        },
+        {
+          "expression": "everyone",
+          "lemma": "everyone",
+          "meaningJa": "みんな・全員",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "enjoy",
+          "lemma": "enjoy",
+          "meaningJa": "楽しむ",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We want everyone ___ the show.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 25,
+          "answer": "to enjoy"
+        },
+        "options": [
+          {
+            "id": "G47-E07-C2",
+            "text": "enjoying",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to enjoy」を使います。「enjoying」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E07-C3",
+            "text": "to enjoys",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to enjoy」を使います。「to enjoys」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E07-C4",
+            "text": "enjoy",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to enjoy」を使います。「enjoy」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E07-C1",
+            "text": "to enjoy",
+            "isCorrect": true,
+            "explanationJa": "正解。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+          }
+        ],
+        "correctOptionId": "G47-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G47-E07-B01",
+            "text": "We want",
+            "role": "required"
+          },
+          {
+            "id": "G47-E07-B02",
+            "text": "everyone",
+            "role": "required"
+          },
+          {
+            "id": "G47-E07-B03",
+            "text": "to enjoy",
+            "role": "required"
+          },
+          {
+            "id": "G47-E07-B04",
+            "text": "the show.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G47-E07-B01",
+          "G47-E07-B02",
+          "G47-E07-B03",
+          "G47-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E07-B01",
+            "G47-E07-B02",
+            "G47-E07-B03",
+            "G47-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G47-E07-B01",
+            "text": "We want",
+            "role": "required"
+          },
+          {
+            "id": "G47-E07-B02",
+            "text": "everyone",
+            "role": "required"
+          },
+          {
+            "id": "G47-E07-B03",
+            "text": "to enjoy",
+            "role": "required"
+          },
+          {
+            "id": "G47-E07-B04",
+            "text": "the show.",
+            "role": "required"
+          },
+          {
+            "id": "G47-E07-D01",
+            "text": "enjoying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to enjoy」と比較してください。"
+          },
+          {
+            "id": "G47-E07-D02",
+            "text": "to enjoys",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to enjoy」と比較してください。"
+          },
+          {
+            "id": "G47-E07-D03",
+            "text": "enjoy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to enjoy」と比較してください。"
+          },
+          {
+            "id": "G47-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to enjoy」と比較してください。"
+          },
+          {
+            "id": "G47-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to enjoy」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G47-E07-D01",
+            "text": "enjoying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to enjoy」と比較してください。"
+          },
+          {
+            "id": "G47-E07-D02",
+            "text": "to enjoys",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to enjoy」と比較してください。"
+          },
+          {
+            "id": "G47-E07-D03",
+            "text": "enjoy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to enjoy」と比較してください。"
+          },
+          {
+            "id": "G47-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to enjoy」と比較してください。"
+          },
+          {
+            "id": "G47-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to enjoy」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G47-E07-B01",
+          "G47-E07-B02",
+          "G47-E07-B03",
+          "G47-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E07-B01",
+            "G47-E07-B02",
+            "G47-E07-B03",
+            "G47-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G47-E07-AUDIO",
+        "text": "We want everyone to enjoy the show.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G47-E08",
+      "grammarId": "G47",
+      "grammarNameJa": "want・ask・tell＋人＋to",
+      "english": "She asked him to carry her bag.",
+      "translationJa": "彼女は彼にバッグを運ぶよう頼みました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to carry",
+        "start": 14,
+        "endExclusive": 22,
+        "explanationJa": "want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+      },
+      "sentenceExplanationJa": "「She asked him to carry her bag.」は「彼女は彼にバッグを運ぶよう頼みました。」という意味です。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。 この文の対象部分は「to carry」。まとまりは She asked → him → to carry → her bag. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "asked",
+          "lemma": "ask",
+          "meaningJa": "尋ねる・頼む（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "him",
+          "lemma": "him",
+          "meaningJa": "彼を・彼に",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "carry",
+          "lemma": "carry",
+          "meaningJa": "運ぶ・持ち歩く",
+          "kind": "word"
+        },
+        {
+          "expression": "her",
+          "lemma": "her",
+          "meaningJa": "彼女を・彼女に・彼女の",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She asked him ___ her bag.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 22,
+          "answer": "to carry"
+        },
+        "options": [
+          {
+            "id": "G47-E08-C2",
+            "text": "carrying",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to carry」を使います。「carrying」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E08-C3",
+            "text": "to carries",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to carry」を使います。「to carries」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E08-C1",
+            "text": "to carry",
+            "isCorrect": true,
+            "explanationJa": "正解。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+          },
+          {
+            "id": "G47-E08-C4",
+            "text": "carry",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to carry」を使います。「carry」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G47-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G47-E08-B01",
+            "text": "She asked",
+            "role": "required"
+          },
+          {
+            "id": "G47-E08-B02",
+            "text": "him",
+            "role": "required"
+          },
+          {
+            "id": "G47-E08-B03",
+            "text": "to carry",
+            "role": "required"
+          },
+          {
+            "id": "G47-E08-B04",
+            "text": "her bag.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G47-E08-B01",
+          "G47-E08-B02",
+          "G47-E08-B03",
+          "G47-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E08-B01",
+            "G47-E08-B02",
+            "G47-E08-B03",
+            "G47-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G47-E08-B01",
+            "text": "She asked",
+            "role": "required"
+          },
+          {
+            "id": "G47-E08-B02",
+            "text": "him",
+            "role": "required"
+          },
+          {
+            "id": "G47-E08-B03",
+            "text": "to carry",
+            "role": "required"
+          },
+          {
+            "id": "G47-E08-B04",
+            "text": "her bag.",
+            "role": "required"
+          },
+          {
+            "id": "G47-E08-D01",
+            "text": "carrying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to carry」と比較してください。"
+          },
+          {
+            "id": "G47-E08-D02",
+            "text": "to carries",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to carry」と比較してください。"
+          },
+          {
+            "id": "G47-E08-D03",
+            "text": "carry",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to carry」と比較してください。"
+          },
+          {
+            "id": "G47-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to carry」と比較してください。"
+          },
+          {
+            "id": "G47-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to carry」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G47-E08-D01",
+            "text": "carrying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to carry」と比較してください。"
+          },
+          {
+            "id": "G47-E08-D02",
+            "text": "to carries",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to carry」と比較してください。"
+          },
+          {
+            "id": "G47-E08-D03",
+            "text": "carry",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to carry」と比較してください。"
+          },
+          {
+            "id": "G47-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to carry」と比較してください。"
+          },
+          {
+            "id": "G47-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to carry」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G47-E08-B01",
+          "G47-E08-B02",
+          "G47-E08-B03",
+          "G47-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E08-B01",
+            "G47-E08-B02",
+            "G47-E08-B03",
+            "G47-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G47-E08-AUDIO",
+        "text": "She asked him to carry her bag.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G47-E09",
+      "grammarId": "G47",
+      "grammarNameJa": "want・ask・tell＋人＋to",
+      "english": "The teacher told us to be quiet.",
+      "translationJa": "先生は私たちに静かにするよう言いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to be",
+        "start": 20,
+        "endExclusive": 25,
+        "explanationJa": "want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+      },
+      "sentenceExplanationJa": "「The teacher told us to be quiet.」は「先生は私たちに静かにするよう言いました。」という意味です。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。 この文の対象部分は「to be」。まとまりは The teacher told → us → to be → quiet. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "teacher",
+          "lemma": "teacher",
+          "meaningJa": "先生",
+          "kind": "word"
+        },
+        {
+          "expression": "told",
+          "lemma": "tell",
+          "meaningJa": "伝える・言う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "be",
+          "lemma": "be",
+          "meaningJa": "～である・いる（原形）",
+          "kind": "word"
+        },
+        {
+          "expression": "quiet",
+          "lemma": "quiet",
+          "meaningJa": "静かな",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The teacher told us ___ quiet.",
+        "blank": {
+          "start": 20,
+          "endExclusive": 25,
+          "answer": "to be"
+        },
+        "options": [
+          {
+            "id": "G47-E09-C2",
+            "text": "being",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to be」を使います。「being」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E09-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to be」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E09-C1",
+            "text": "to be",
+            "isCorrect": true,
+            "explanationJa": "正解。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+          },
+          {
+            "id": "G47-E09-C3",
+            "text": "to is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to be」を使います。「to is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G47-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G47-E09-B01",
+            "text": "The teacher told",
+            "role": "required"
+          },
+          {
+            "id": "G47-E09-B02",
+            "text": "us",
+            "role": "required"
+          },
+          {
+            "id": "G47-E09-B03",
+            "text": "to be",
+            "role": "required"
+          },
+          {
+            "id": "G47-E09-B04",
+            "text": "quiet.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G47-E09-B01",
+          "G47-E09-B02",
+          "G47-E09-B03",
+          "G47-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E09-B01",
+            "G47-E09-B02",
+            "G47-E09-B03",
+            "G47-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G47-E09-B01",
+            "text": "The teacher told",
+            "role": "required"
+          },
+          {
+            "id": "G47-E09-B02",
+            "text": "us",
+            "role": "required"
+          },
+          {
+            "id": "G47-E09-B03",
+            "text": "to be",
+            "role": "required"
+          },
+          {
+            "id": "G47-E09-B04",
+            "text": "quiet.",
+            "role": "required"
+          },
+          {
+            "id": "G47-E09-D01",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to be」と比較してください。"
+          },
+          {
+            "id": "G47-E09-D02",
+            "text": "to is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to be」と比較してください。"
+          },
+          {
+            "id": "G47-E09-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to be」と比較してください。"
+          },
+          {
+            "id": "G47-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to be」と比較してください。"
+          },
+          {
+            "id": "G47-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to be」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G47-E09-D01",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to be」と比較してください。"
+          },
+          {
+            "id": "G47-E09-D02",
+            "text": "to is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to be」と比較してください。"
+          },
+          {
+            "id": "G47-E09-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to be」と比較してください。"
+          },
+          {
+            "id": "G47-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to be」と比較してください。"
+          },
+          {
+            "id": "G47-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to be」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G47-E09-B01",
+          "G47-E09-B02",
+          "G47-E09-B03",
+          "G47-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E09-B01",
+            "G47-E09-B02",
+            "G47-E09-B03",
+            "G47-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G47-E09-AUDIO",
+        "text": "The teacher told us to be quiet.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G47-E10",
+      "grammarId": "G47",
+      "grammarNameJa": "want・ask・tell＋人＋to",
+      "english": "I want you to remember this day.",
+      "translationJa": "私はあなたにこの日を覚えていてほしいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to remember",
+        "start": 11,
+        "endExclusive": 22,
+        "explanationJa": "want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+      },
+      "sentenceExplanationJa": "「I want you to remember this day.」は「私はあなたにこの日を覚えていてほしいです。」という意味です。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。 この文の対象部分は「to remember」。まとまりは I want → you → to remember → this day. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "want",
+          "lemma": "want",
+          "meaningJa": "欲しい・～したい",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "remember",
+          "lemma": "remember",
+          "meaningJa": "覚えている",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "day",
+          "lemma": "day",
+          "meaningJa": "日・一日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I want you ___ this day.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 22,
+          "answer": "to remember"
+        },
+        "options": [
+          {
+            "id": "G47-E10-C2",
+            "text": "remembering",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to remember」を使います。「remembering」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E10-C3",
+            "text": "to remembers",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to remember」を使います。「to remembers」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G47-E10-C1",
+            "text": "to remember",
+            "isCorrect": true,
+            "explanationJa": "正解。want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。"
+          },
+          {
+            "id": "G47-E10-C4",
+            "text": "remember",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to remember」を使います。「remember」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G47-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G47-E10-B01",
+            "text": "I want",
+            "role": "required"
+          },
+          {
+            "id": "G47-E10-B02",
+            "text": "you",
+            "role": "required"
+          },
+          {
+            "id": "G47-E10-B03",
+            "text": "to remember",
+            "role": "required"
+          },
+          {
+            "id": "G47-E10-B04",
+            "text": "this day.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G47-E10-B01",
+          "G47-E10-B02",
+          "G47-E10-B03",
+          "G47-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E10-B01",
+            "G47-E10-B02",
+            "G47-E10-B03",
+            "G47-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G47-E10-B01",
+            "text": "I want",
+            "role": "required"
+          },
+          {
+            "id": "G47-E10-B02",
+            "text": "you",
+            "role": "required"
+          },
+          {
+            "id": "G47-E10-B03",
+            "text": "to remember",
+            "role": "required"
+          },
+          {
+            "id": "G47-E10-B04",
+            "text": "this day.",
+            "role": "required"
+          },
+          {
+            "id": "G47-E10-D01",
+            "text": "remembering",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to remember」と比較してください。"
+          },
+          {
+            "id": "G47-E10-D02",
+            "text": "to remembers",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to remember」と比較してください。"
+          },
+          {
+            "id": "G47-E10-D03",
+            "text": "remember",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to remember」と比較してください。"
+          },
+          {
+            "id": "G47-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to remember」と比較してください。"
+          },
+          {
+            "id": "G47-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to remember」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G47-E10-D01",
+            "text": "remembering",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to remember」と比較してください。"
+          },
+          {
+            "id": "G47-E10-D02",
+            "text": "to remembers",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to remember」と比較してください。"
+          },
+          {
+            "id": "G47-E10-D03",
+            "text": "remember",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to remember」と比較してください。"
+          },
+          {
+            "id": "G47-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to remember」と比較してください。"
+          },
+          {
+            "id": "G47-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to remember」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G47-E10-B01",
+          "G47-E10-B02",
+          "G47-E10-B03",
+          "G47-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G47-E10-B01",
+            "G47-E10-B02",
+            "G47-E10-B03",
+            "G47-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G47-E10-AUDIO",
+        "text": "I want you to remember this day.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

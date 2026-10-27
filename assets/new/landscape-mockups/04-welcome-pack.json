@@ -1,0 +1,12 @@
+{
+  "key": "04-welcome-pack",
+  "prompt": "Use case: ui-mockup. ONE complete LANDSCAPE iPhone game screen, 2.16:1 aspect, 1844x853 or 2532x1170. Mrs. English English learning game, Japanese language. Match original SUPERSTAR style/layout: flat royal blue panels, thin cyan edge and magenta offset, 45 degree clipped corners, pale cyan horizontal scanline headers. Full screen, NO phone frame or presentation board. Use references as UI STYLE and supplied band photo identity references. NO stamina or energy or headphone counters, NO diamonds; UNLIMITED play. Japanese primary. When header present: avatar サンタ / 推し 大森元貴 / Lv.1 / 連続1日 / 1,200 RP / menu. When nav requested: five equal bottom tabs カード / 図鑑 / ミッション / ショップ / START. Leave safe areas at both sides. No invented celebrity facts. Sample layout only. INITIAL FREE PACK. Cyan-striped blue modal WELCOME BONUS. Text 初回特典！カード10枚パックをプレゼント！. Large green card back in center and restrained gold-white sparkle. Bottom 開封する. No price or RP consumption. Three small empty card outlines hint 10枚. Cosmic backdrop.",
+  "refs": [
+    "reference\\IMG_0761.PNG",
+    "asset-review\\img-009.png",
+    "asset-review\\img-000.png"
+  ],
+  "source": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-55cdc475-608a-4f1d-94cc-79b949675a58.png",
+  "orientation": "landscape",
+  "purpose": "nonbinding visual concept; docs control rules"
+}

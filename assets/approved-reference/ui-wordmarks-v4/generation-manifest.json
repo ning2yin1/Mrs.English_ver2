@@ -1,0 +1,35 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "reference/IMG_0780.PNG",
+  "transparent_background": true,
+  "items": [
+    {
+      "key": "cleared",
+      "text": "CLEARED",
+      "prompt": "Use case: ui-mockup. Generate a text-only raster wordmark UI asset. Reference image is a STYLE REFERENCE: specifically inspect and match the CLEARED word in the lower right results column, NOT other screen elements. Tall narrow condensed bold uppercase italic athletic sans, steep straight sides, compact tight letter spacing, pale icy cyan-white fill with very subtle cyan shading, fine dark navy outline and small hard dark navy lower-right offset shadow. Faithful understated flat 2D rhythm-game result typography. No frame, no banner, no stars, no sparkles, no neon glow, no thick extruded 3D, no photos, no other UI. Sharp clean letters, exact spelling. Generous clear transparent margins on all sides. Text should dominate canvas in one horizontal line; letters remain tall and condensed, not stretched wide. Exact text, and ONLY text: \"CLEARED\". Single centered horizontal wordmark, high resolution, transparent background.",
+      "file": "01-reference-cleared/cleared.png",
+      "source": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-bfc09d3c-6621-4593-818c-c2a0d27b83cf.png"
+    },
+    {
+      "key": "perfect",
+      "text": "PERFECT",
+      "prompt": "Use case: ui-mockup. Generate a text-only raster wordmark UI asset. Reference image is a STYLE REFERENCE: specifically inspect and match the CLEARED word in the lower right results column, NOT other screen elements. Tall narrow condensed bold uppercase italic athletic sans, steep straight sides, compact tight letter spacing, pale icy cyan-white fill with very subtle cyan shading, fine dark navy outline and small hard dark navy lower-right offset shadow. Faithful understated flat 2D rhythm-game result typography. No frame, no banner, no stars, no sparkles, no neon glow, no thick extruded 3D, no photos, no other UI. Sharp clean letters, exact spelling. Generous clear transparent margins on all sides. Text should dominate canvas in one horizontal line; letters remain tall and condensed, not stretched wide. Exact text, and ONLY text: \"PERFECT\". Single centered horizontal wordmark, high resolution, transparent background.",
+      "file": "02-study-candidates/perfect.png",
+      "source": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-3e783de9-b7a9-4e70-93cd-777f3f40c5bf.png"
+    },
+    {
+      "key": "new-record",
+      "text": "NEW RECORD",
+      "prompt": "Use case: ui-mockup. Generate a text-only raster wordmark UI asset. Reference image is a STYLE REFERENCE: specifically inspect and match the CLEARED word in the lower right results column, NOT other screen elements. Tall narrow condensed bold uppercase italic athletic sans, steep straight sides, compact tight letter spacing, pale icy cyan-white fill with very subtle cyan shading, fine dark navy outline and small hard dark navy lower-right offset shadow. Faithful understated flat 2D rhythm-game result typography. No frame, no banner, no stars, no sparkles, no neon glow, no thick extruded 3D, no photos, no other UI. Sharp clean letters, exact spelling. Generous clear transparent margins on all sides. Text should dominate canvas in one horizontal line; letters remain tall and condensed, not stretched wide. Exact text, and ONLY text: \"NEW RECORD\". Single centered horizontal wordmark, keep a clear word space, high resolution, transparent background.",
+      "file": "02-study-candidates/new-record.png",
+      "source": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-a03bb4b4-f94f-457d-b8d4-731763b8e0a4.png"
+    },
+    {
+      "key": "try-again",
+      "text": "TRY AGAIN",
+      "prompt": "Use case: ui-mockup. Generate a text-only raster wordmark UI asset. Reference image is a STYLE REFERENCE: specifically inspect and match the CLEARED word in the lower right results column, NOT other screen elements. Tall narrow condensed bold uppercase italic athletic sans, steep straight sides, compact tight letter spacing, pale icy cyan-white fill with very subtle cyan shading, fine dark navy outline and small hard dark navy lower-right offset shadow. Faithful understated flat 2D rhythm-game result typography. No frame, no banner, no stars, no sparkles, no neon glow, no thick extruded 3D, no photos, no other UI. Sharp clean letters, exact spelling. Generous clear transparent margins on all sides. Text should dominate canvas in one horizontal line; letters remain tall and condensed, not stretched wide. Exact text, and ONLY text: \"TRY AGAIN\". Single centered horizontal wordmark, keep a clear word space, high resolution, transparent background.",
+      "file": "02-study-candidates/try-again.png",
+      "source": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-0da2c72f-2f15-46cd-aaec-9d41241340e9.png"
+    }
+  ]
+}

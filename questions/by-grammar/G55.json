@@ -1,0 +1,2600 @@
+{
+  "grammarId": "G55",
+  "examples": [
+    {
+      "id": "G55-E01",
+      "grammarId": "G55",
+      "grammarNameJa": "現在完了進行形",
+      "english": "I have been waiting for an hour.",
+      "translationJa": "私は1時間ずっと待っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 2,
+        "endExclusive": 6,
+        "explanationJa": "have・has been＋ing形で過去から今まで続いている動作を表す。"
+      },
+      "sentenceExplanationJa": "「I have been waiting for an hour.」は「私は1時間ずっと待っています。」という意味です。have・has been＋ing形で過去から今まで続いている動作を表す。 この文の対象部分は「have」。まとまりは I → have → been waiting → for an hour. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "waiting",
+          "lemma": "wait",
+          "meaningJa": "待つ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "an",
+          "lemma": "an",
+          "meaningJa": "1つの（母音で始まる音の前の不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hour",
+          "lemma": "hour",
+          "meaningJa": "1時間",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ been waiting for an hour.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 6,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G55-E01-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E01-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has been＋ing形で過去から今まで続いている動作を表す。"
+          },
+          {
+            "id": "G55-E01-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E01-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G55-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G55-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G55-E01-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G55-E01-B03",
+            "text": "been waiting",
+            "role": "required"
+          },
+          {
+            "id": "G55-E01-B04",
+            "text": "for an hour.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G55-E01-B01",
+          "G55-E01-B02",
+          "G55-E01-B03",
+          "G55-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E01-B01",
+            "G55-E01-B02",
+            "G55-E01-B03",
+            "G55-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G55-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G55-E01-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G55-E01-B03",
+            "text": "been waiting",
+            "role": "required"
+          },
+          {
+            "id": "G55-E01-B04",
+            "text": "for an hour.",
+            "role": "required"
+          },
+          {
+            "id": "G55-E01-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E01-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E01-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G55-E01-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E01-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E01-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G55-E01-B01",
+          "G55-E01-B02",
+          "G55-E01-B03",
+          "G55-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E01-B01",
+            "G55-E01-B02",
+            "G55-E01-B03",
+            "G55-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G55-E01-AUDIO",
+        "text": "I have been waiting for an hour.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G55-E02",
+      "grammarId": "G55",
+      "grammarNameJa": "現在完了進行形",
+      "english": "She has been practicing since morning.",
+      "translationJa": "彼女は朝からずっと練習しています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has",
+        "start": 4,
+        "endExclusive": 7,
+        "explanationJa": "have・has been＋ing形で過去から今まで続いている動作を表す。"
+      },
+      "sentenceExplanationJa": "「She has been practicing since morning.」は「彼女は朝からずっと練習しています。」という意味です。have・has been＋ing形で過去から今まで続いている動作を表す。 この文の対象部分は「has」。まとまりは She → has → been practicing → since morning. の順です。",
+      "glossary": [
+        {
+          "expression": "since morning",
+          "meaningJa": "朝から",
+          "kind": "phrase"
+        },
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "practicing",
+          "lemma": "practice",
+          "meaningJa": "練習する・練習（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "since",
+          "lemma": "since",
+          "meaningJa": "～以来",
+          "kind": "word"
+        },
+        {
+          "expression": "morning",
+          "lemma": "morning",
+          "meaningJa": "朝・午前",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ been practicing since morning.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 7,
+          "answer": "has"
+        },
+        "options": [
+          {
+            "id": "G55-E02-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E02-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E02-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E02-C1",
+            "text": "has",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has been＋ing形で過去から今まで続いている動作を表す。"
+          }
+        ],
+        "correctOptionId": "G55-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G55-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G55-E02-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G55-E02-B03",
+            "text": "been practicing",
+            "role": "required"
+          },
+          {
+            "id": "G55-E02-B04",
+            "text": "since morning.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G55-E02-B01",
+          "G55-E02-B02",
+          "G55-E02-B03",
+          "G55-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E02-B01",
+            "G55-E02-B02",
+            "G55-E02-B03",
+            "G55-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G55-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G55-E02-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G55-E02-B03",
+            "text": "been practicing",
+            "role": "required"
+          },
+          {
+            "id": "G55-E02-B04",
+            "text": "since morning.",
+            "role": "required"
+          },
+          {
+            "id": "G55-E02-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E02-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E02-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G55-E02-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E02-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E02-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G55-E02-B01",
+          "G55-E02-B02",
+          "G55-E02-B03",
+          "G55-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E02-B01",
+            "G55-E02-B02",
+            "G55-E02-B03",
+            "G55-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G55-E02-AUDIO",
+        "text": "She has been practicing since morning.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G55-E03",
+      "grammarId": "G55",
+      "grammarNameJa": "現在完了進行形",
+      "english": "We have been saving money for three months.",
+      "translationJa": "私たちは3か月間ずっとお金を貯めています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "have・has been＋ing形で過去から今まで続いている動作を表す。"
+      },
+      "sentenceExplanationJa": "「We have been saving money for three months.」は「私たちは3か月間ずっとお金を貯めています。」という意味です。have・has been＋ing形で過去から今まで続いている動作を表す。 この文の対象部分は「have」。まとまりは We → have → been saving money → for three months. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "saving",
+          "lemma": "save",
+          "meaningJa": "貯める・保存する（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "money",
+          "lemma": "money",
+          "meaningJa": "お金",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "three",
+          "lemma": "three",
+          "meaningJa": "3",
+          "kind": "word"
+        },
+        {
+          "expression": "months",
+          "lemma": "month",
+          "meaningJa": "月・1か月（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ been saving money for three months.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G55-E03-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E03-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has been＋ing形で過去から今まで続いている動作を表す。"
+          },
+          {
+            "id": "G55-E03-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E03-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G55-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G55-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G55-E03-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G55-E03-B03",
+            "text": "been saving money",
+            "role": "required"
+          },
+          {
+            "id": "G55-E03-B04",
+            "text": "for three months.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G55-E03-B01",
+          "G55-E03-B02",
+          "G55-E03-B03",
+          "G55-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E03-B01",
+            "G55-E03-B02",
+            "G55-E03-B03",
+            "G55-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G55-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G55-E03-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G55-E03-B03",
+            "text": "been saving money",
+            "role": "required"
+          },
+          {
+            "id": "G55-E03-B04",
+            "text": "for three months.",
+            "role": "required"
+          },
+          {
+            "id": "G55-E03-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E03-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E03-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G55-E03-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E03-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E03-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G55-E03-B01",
+          "G55-E03-B02",
+          "G55-E03-B03",
+          "G55-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E03-B01",
+            "G55-E03-B02",
+            "G55-E03-B03",
+            "G55-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G55-E03-AUDIO",
+        "text": "We have been saving money for three months.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G55-E04",
+      "grammarId": "G55",
+      "grammarNameJa": "現在完了進行形",
+      "english": "He has been looking for his ticket since noon.",
+      "translationJa": "彼は正午からずっとチケットを探しています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has",
+        "start": 3,
+        "endExclusive": 6,
+        "explanationJa": "have・has been＋ing形で過去から今まで続いている動作を表す。"
+      },
+      "sentenceExplanationJa": "「He has been looking for his ticket since noon.」は「彼は正午からずっとチケットを探しています。」という意味です。have・has been＋ing形で過去から今まで続いている動作を表す。 この文の対象部分は「has」。まとまりは He → has → been looking for → his ticket → since noon. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "looking",
+          "lemma": "look",
+          "meaningJa": "見る・～に見える（ing形）",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "his",
+          "lemma": "his",
+          "meaningJa": "彼の・彼のもの",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "since",
+          "lemma": "since",
+          "meaningJa": "～以来",
+          "kind": "word"
+        },
+        {
+          "expression": "noon",
+          "lemma": "noon",
+          "meaningJa": "正午",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ been looking for his ticket since noon.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 6,
+          "answer": "has"
+        },
+        "options": [
+          {
+            "id": "G55-E04-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E04-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E04-C1",
+            "text": "has",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has been＋ing形で過去から今まで続いている動作を表す。"
+          },
+          {
+            "id": "G55-E04-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G55-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G55-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G55-E04-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G55-E04-B03",
+            "text": "been looking for",
+            "role": "required"
+          },
+          {
+            "id": "G55-E04-B04",
+            "text": "his ticket",
+            "role": "required"
+          },
+          {
+            "id": "G55-E04-B05",
+            "text": "since noon.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G55-E04-B01",
+          "G55-E04-B02",
+          "G55-E04-B03",
+          "G55-E04-B04",
+          "G55-E04-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E04-B01",
+            "G55-E04-B02",
+            "G55-E04-B03",
+            "G55-E04-B04",
+            "G55-E04-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G55-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G55-E04-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G55-E04-B03",
+            "text": "been looking for",
+            "role": "required"
+          },
+          {
+            "id": "G55-E04-B04",
+            "text": "his ticket",
+            "role": "required"
+          },
+          {
+            "id": "G55-E04-B05",
+            "text": "since noon.",
+            "role": "required"
+          },
+          {
+            "id": "G55-E04-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E04-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E04-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G55-E04-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E04-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E04-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G55-E04-B01",
+          "G55-E04-B02",
+          "G55-E04-B03",
+          "G55-E04-B04",
+          "G55-E04-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E04-B01",
+            "G55-E04-B02",
+            "G55-E04-B03",
+            "G55-E04-B04",
+            "G55-E04-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G55-E04-AUDIO",
+        "text": "He has been looking for his ticket since noon.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G55-E05",
+      "grammarId": "G55",
+      "grammarNameJa": "現在完了進行形",
+      "english": "They have been talking about the concert for an hour.",
+      "translationJa": "彼らは1時間ずっとコンサートの話をしています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 5,
+        "endExclusive": 9,
+        "explanationJa": "have・has been＋ing形で過去から今まで続いている動作を表す。"
+      },
+      "sentenceExplanationJa": "「They have been talking about the concert for an hour.」は「彼らは1時間ずっとコンサートの話をしています。」という意味です。have・has been＋ing形で過去から今まで続いている動作を表す。 この文の対象部分は「have」。まとまりは They → have → been talking → about the concert → for an hour. の順です。",
+      "glossary": [
+        {
+          "expression": "They",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "talking",
+          "lemma": "talk",
+          "meaningJa": "話す（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "about",
+          "lemma": "about",
+          "meaningJa": "～について",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "an",
+          "lemma": "an",
+          "meaningJa": "1つの（母音で始まる音の前の不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hour",
+          "lemma": "hour",
+          "meaningJa": "1時間",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "They ___ been talking about the concert for an hour.",
+        "blank": {
+          "start": 5,
+          "endExclusive": 9,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G55-E05-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has been＋ing形で過去から今まで続いている動作を表す。"
+          },
+          {
+            "id": "G55-E05-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E05-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E05-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G55-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G55-E05-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G55-E05-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G55-E05-B03",
+            "text": "been talking",
+            "role": "required"
+          },
+          {
+            "id": "G55-E05-B04",
+            "text": "about the concert",
+            "role": "required"
+          },
+          {
+            "id": "G55-E05-B05",
+            "text": "for an hour.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G55-E05-B01",
+          "G55-E05-B02",
+          "G55-E05-B03",
+          "G55-E05-B04",
+          "G55-E05-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E05-B01",
+            "G55-E05-B02",
+            "G55-E05-B03",
+            "G55-E05-B04",
+            "G55-E05-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G55-E05-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G55-E05-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G55-E05-B03",
+            "text": "been talking",
+            "role": "required"
+          },
+          {
+            "id": "G55-E05-B04",
+            "text": "about the concert",
+            "role": "required"
+          },
+          {
+            "id": "G55-E05-B05",
+            "text": "for an hour.",
+            "role": "required"
+          },
+          {
+            "id": "G55-E05-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E05-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E05-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G55-E05-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E05-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E05-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G55-E05-B01",
+          "G55-E05-B02",
+          "G55-E05-B03",
+          "G55-E05-B04",
+          "G55-E05-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E05-B01",
+            "G55-E05-B02",
+            "G55-E05-B03",
+            "G55-E05-B04",
+            "G55-E05-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G55-E05-AUDIO",
+        "text": "They have been talking about the concert for an hour.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G55-E06",
+      "grammarId": "G55",
+      "grammarNameJa": "現在完了進行形",
+      "english": "I have been studying English since April.",
+      "translationJa": "私は4月からずっと英語を勉強しています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 2,
+        "endExclusive": 6,
+        "explanationJa": "have・has been＋ing形で過去から今まで続いている動作を表す。"
+      },
+      "sentenceExplanationJa": "「I have been studying English since April.」は「私は4月からずっと英語を勉強しています。」という意味です。have・has been＋ing形で過去から今まで続いている動作を表す。 この文の対象部分は「have」。まとまりは I → have → been studying English → since April. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "studying",
+          "lemma": "study",
+          "meaningJa": "勉強する（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "English",
+          "lemma": "english",
+          "meaningJa": "英語",
+          "kind": "word"
+        },
+        {
+          "expression": "since",
+          "lemma": "since",
+          "meaningJa": "～以来",
+          "kind": "word"
+        },
+        {
+          "expression": "April",
+          "lemma": "april",
+          "meaningJa": "4月",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ been studying English since April.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 6,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G55-E06-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E06-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has been＋ing形で過去から今まで続いている動作を表す。"
+          },
+          {
+            "id": "G55-E06-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E06-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G55-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G55-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G55-E06-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G55-E06-B03",
+            "text": "been studying English",
+            "role": "required"
+          },
+          {
+            "id": "G55-E06-B04",
+            "text": "since April.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G55-E06-B01",
+          "G55-E06-B02",
+          "G55-E06-B03",
+          "G55-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E06-B01",
+            "G55-E06-B02",
+            "G55-E06-B03",
+            "G55-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G55-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G55-E06-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G55-E06-B03",
+            "text": "been studying English",
+            "role": "required"
+          },
+          {
+            "id": "G55-E06-B04",
+            "text": "since April.",
+            "role": "required"
+          },
+          {
+            "id": "G55-E06-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E06-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E06-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G55-E06-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E06-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E06-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G55-E06-B01",
+          "G55-E06-B02",
+          "G55-E06-B03",
+          "G55-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E06-B01",
+            "G55-E06-B02",
+            "G55-E06-B03",
+            "G55-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G55-E06-AUDIO",
+        "text": "I have been studying English since April.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G55-E07",
+      "grammarId": "G55",
+      "grammarNameJa": "現在完了進行形",
+      "english": "My sister has been listening to this album all morning.",
+      "translationJa": "姉は午前中ずっとこのアルバムを聴いています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has",
+        "start": 10,
+        "endExclusive": 13,
+        "explanationJa": "have・has been＋ing形で過去から今まで続いている動作を表す。"
+      },
+      "sentenceExplanationJa": "「My sister has been listening to this album all morning.」は「姉は午前中ずっとこのアルバムを聴いています。」という意味です。have・has been＋ing形で過去から今まで続いている動作を表す。 この文の対象部分は「has」。まとまりは My sister → has → been listening → to this album → all morning. の順です。",
+      "glossary": [
+        {
+          "expression": "all morning",
+          "meaningJa": "午前中ずっと",
+          "kind": "phrase"
+        },
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "sister",
+          "lemma": "sister",
+          "meaningJa": "姉・妹",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "listening",
+          "lemma": "listen",
+          "meaningJa": "耳を傾けて聴く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "album",
+          "lemma": "album",
+          "meaningJa": "アルバム",
+          "kind": "word"
+        },
+        {
+          "expression": "all",
+          "lemma": "all",
+          "meaningJa": "すべての・全部",
+          "kind": "word"
+        },
+        {
+          "expression": "morning",
+          "lemma": "morning",
+          "meaningJa": "朝・午前",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My sister ___ been listening to this album all morning.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 13,
+          "answer": "has"
+        },
+        "options": [
+          {
+            "id": "G55-E07-C1",
+            "text": "has",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has been＋ing形で過去から今まで続いている動作を表す。"
+          },
+          {
+            "id": "G55-E07-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E07-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E07-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G55-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G55-E07-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G55-E07-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G55-E07-B03",
+            "text": "been listening",
+            "role": "required"
+          },
+          {
+            "id": "G55-E07-B04",
+            "text": "to this album",
+            "role": "required"
+          },
+          {
+            "id": "G55-E07-B05",
+            "text": "all morning.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G55-E07-B01",
+          "G55-E07-B02",
+          "G55-E07-B03",
+          "G55-E07-B04",
+          "G55-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E07-B01",
+            "G55-E07-B02",
+            "G55-E07-B03",
+            "G55-E07-B04",
+            "G55-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G55-E07-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G55-E07-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G55-E07-B03",
+            "text": "been listening",
+            "role": "required"
+          },
+          {
+            "id": "G55-E07-B04",
+            "text": "to this album",
+            "role": "required"
+          },
+          {
+            "id": "G55-E07-B05",
+            "text": "all morning.",
+            "role": "required"
+          },
+          {
+            "id": "G55-E07-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E07-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E07-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G55-E07-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E07-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E07-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G55-E07-B01",
+          "G55-E07-B02",
+          "G55-E07-B03",
+          "G55-E07-B04",
+          "G55-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E07-B01",
+            "G55-E07-B02",
+            "G55-E07-B03",
+            "G55-E07-B04",
+            "G55-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G55-E07-AUDIO",
+        "text": "My sister has been listening to this album all morning.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G55-E08",
+      "grammarId": "G55",
+      "grammarNameJa": "現在完了進行形",
+      "english": "We have been standing in this line since eight.",
+      "translationJa": "私たちは8時からずっとこの列に並んでいます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "have・has been＋ing形で過去から今まで続いている動作を表す。"
+      },
+      "sentenceExplanationJa": "「We have been standing in this line since eight.」は「私たちは8時からずっとこの列に並んでいます。」という意味です。have・has been＋ing形で過去から今まで続いている動作を表す。 この文の対象部分は「have」。まとまりは We → have → been standing → in this line → since eight. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "standing",
+          "lemma": "stand",
+          "meaningJa": "立つ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "line",
+          "lemma": "line",
+          "meaningJa": "列・行列",
+          "kind": "word"
+        },
+        {
+          "expression": "since",
+          "lemma": "since",
+          "meaningJa": "～以来",
+          "kind": "word"
+        },
+        {
+          "expression": "eight",
+          "lemma": "eight",
+          "meaningJa": "8・8時",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ been standing in this line since eight.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G55-E08-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E08-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E08-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E08-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has been＋ing形で過去から今まで続いている動作を表す。"
+          }
+        ],
+        "correctOptionId": "G55-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G55-E08-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G55-E08-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G55-E08-B03",
+            "text": "been standing",
+            "role": "required"
+          },
+          {
+            "id": "G55-E08-B04",
+            "text": "in this line",
+            "role": "required"
+          },
+          {
+            "id": "G55-E08-B05",
+            "text": "since eight.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G55-E08-B01",
+          "G55-E08-B02",
+          "G55-E08-B03",
+          "G55-E08-B04",
+          "G55-E08-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E08-B01",
+            "G55-E08-B02",
+            "G55-E08-B03",
+            "G55-E08-B04",
+            "G55-E08-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G55-E08-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G55-E08-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G55-E08-B03",
+            "text": "been standing",
+            "role": "required"
+          },
+          {
+            "id": "G55-E08-B04",
+            "text": "in this line",
+            "role": "required"
+          },
+          {
+            "id": "G55-E08-B05",
+            "text": "since eight.",
+            "role": "required"
+          },
+          {
+            "id": "G55-E08-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E08-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E08-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G55-E08-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E08-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E08-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G55-E08-B01",
+          "G55-E08-B02",
+          "G55-E08-B03",
+          "G55-E08-B04",
+          "G55-E08-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E08-B01",
+            "G55-E08-B02",
+            "G55-E08-B03",
+            "G55-E08-B04",
+            "G55-E08-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G55-E08-AUDIO",
+        "text": "We have been standing in this line since eight.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G55-E09",
+      "grammarId": "G55",
+      "grammarNameJa": "現在完了進行形",
+      "english": "It has been raining since last night.",
+      "translationJa": "昨夜からずっと雨が降っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has",
+        "start": 3,
+        "endExclusive": 6,
+        "explanationJa": "have・has been＋ing形で過去から今まで続いている動作を表す。"
+      },
+      "sentenceExplanationJa": "「It has been raining since last night.」は「昨夜からずっと雨が降っています。」という意味です。have・has been＋ing形で過去から今まで続いている動作を表す。 この文の対象部分は「has」。まとまりは It → has → been raining → since last night. の順です。",
+      "glossary": [
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "raining",
+          "lemma": "rain",
+          "meaningJa": "雨・雨が降る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "since",
+          "lemma": "since",
+          "meaningJa": "～以来",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "night",
+          "lemma": "night",
+          "meaningJa": "夜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It ___ been raining since last night.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 6,
+          "answer": "has"
+        },
+        "options": [
+          {
+            "id": "G55-E09-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E09-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E09-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E09-C1",
+            "text": "has",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has been＋ing形で過去から今まで続いている動作を表す。"
+          }
+        ],
+        "correctOptionId": "G55-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G55-E09-B01",
+            "text": "It",
+            "role": "required"
+          },
+          {
+            "id": "G55-E09-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G55-E09-B03",
+            "text": "been raining",
+            "role": "required"
+          },
+          {
+            "id": "G55-E09-B04",
+            "text": "since last night.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G55-E09-B01",
+          "G55-E09-B02",
+          "G55-E09-B03",
+          "G55-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E09-B01",
+            "G55-E09-B02",
+            "G55-E09-B03",
+            "G55-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G55-E09-B01",
+            "text": "It",
+            "role": "required"
+          },
+          {
+            "id": "G55-E09-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G55-E09-B03",
+            "text": "been raining",
+            "role": "required"
+          },
+          {
+            "id": "G55-E09-B04",
+            "text": "since last night.",
+            "role": "required"
+          },
+          {
+            "id": "G55-E09-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E09-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E09-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G55-E09-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E09-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E09-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G55-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G55-E09-B01",
+          "G55-E09-B02",
+          "G55-E09-B03",
+          "G55-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E09-B01",
+            "G55-E09-B02",
+            "G55-E09-B03",
+            "G55-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G55-E09-AUDIO",
+        "text": "It has been raining since last night.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G55-E10",
+      "grammarId": "G55",
+      "grammarNameJa": "現在完了進行形",
+      "english": "You have been working too hard lately.",
+      "translationJa": "あなたは最近ずっと働きすぎています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 4,
+        "endExclusive": 8,
+        "explanationJa": "have・has been＋ing形で過去から今まで続いている動作を表す。"
+      },
+      "sentenceExplanationJa": "「You have been working too hard lately.」は「あなたは最近ずっと働きすぎています。」という意味です。have・has been＋ing形で過去から今まで続いている動作を表す。 この文の対象部分は「have」。まとまりは You → have → been working → too hard → lately. の順です。",
+      "glossary": [
+        {
+          "expression": "too hard",
+          "meaningJa": "一生懸命すぎるほどに",
+          "kind": "phrase"
+        },
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "working",
+          "lemma": "work",
+          "meaningJa": "働く・動く（ing形）",
+          "kind": "word"
+        },
+        {
+          "expression": "too",
+          "lemma": "too",
+          "meaningJa": "～も・～すぎる",
+          "kind": "word"
+        },
+        {
+          "expression": "hard",
+          "lemma": "hard",
+          "meaningJa": "難しい・一生懸命に",
+          "kind": "word"
+        },
+        {
+          "expression": "lately",
+          "lemma": "lately",
+          "meaningJa": "最近",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You ___ been working too hard lately.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 8,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G55-E10-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E10-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has been＋ing形で過去から今まで続いている動作を表す。"
+          },
+          {
+            "id": "G55-E10-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G55-E10-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G55-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G55-E10-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G55-E10-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G55-E10-B03",
+            "text": "been working",
+            "role": "required"
+          },
+          {
+            "id": "G55-E10-B04",
+            "text": "too hard",
+            "role": "required"
+          },
+          {
+            "id": "G55-E10-B05",
+            "text": "lately.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G55-E10-B01",
+          "G55-E10-B02",
+          "G55-E10-B03",
+          "G55-E10-B04",
+          "G55-E10-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E10-B01",
+            "G55-E10-B02",
+            "G55-E10-B03",
+            "G55-E10-B04",
+            "G55-E10-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G55-E10-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G55-E10-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G55-E10-B03",
+            "text": "been working",
+            "role": "required"
+          },
+          {
+            "id": "G55-E10-B04",
+            "text": "too hard",
+            "role": "required"
+          },
+          {
+            "id": "G55-E10-B05",
+            "text": "lately.",
+            "role": "required"
+          },
+          {
+            "id": "G55-E10-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E10-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E10-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G55-E10-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E10-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E10-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G55-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G55-E10-B01",
+          "G55-E10-B02",
+          "G55-E10-B03",
+          "G55-E10-B04",
+          "G55-E10-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G55-E10-B01",
+            "G55-E10-B02",
+            "G55-E10-B03",
+            "G55-E10-B04",
+            "G55-E10-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G55-E10-AUDIO",
+        "text": "You have been working too hard lately.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

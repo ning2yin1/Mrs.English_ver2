@@ -1,0 +1,2408 @@
+{
+  "grammarId": "G34",
+  "examples": [
+    {
+      "id": "G34-E01",
+      "grammarId": "G34",
+      "grammarNameJa": "不定詞・名詞的用法",
+      "english": "I want to sing this song.",
+      "translationJa": "私はこの曲を歌いたいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to sing",
+        "start": 7,
+        "endExclusive": 14,
+        "explanationJa": "to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+      },
+      "sentenceExplanationJa": "「I want to sing this song.」は「私はこの曲を歌いたいです。」という意味です。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。 この文の対象部分は「to sing」。まとまりは I → want → to sing → this song. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "want",
+          "lemma": "want",
+          "meaningJa": "欲しい・～したい",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "sing",
+          "lemma": "sing",
+          "meaningJa": "歌う",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I want ___ this song.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 14,
+          "answer": "to sing"
+        },
+        "options": [
+          {
+            "id": "G34-E01-C1",
+            "text": "to sing",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+          },
+          {
+            "id": "G34-E01-C2",
+            "text": "singing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to sing」を使います。「singing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E01-C3",
+            "text": "to sings",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to sing」を使います。「to sings」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E01-C4",
+            "text": "sing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to sing」を使います。「sing」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G34-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G34-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G34-E01-B02",
+            "text": "want",
+            "role": "required"
+          },
+          {
+            "id": "G34-E01-B03",
+            "text": "to sing",
+            "role": "required"
+          },
+          {
+            "id": "G34-E01-B04",
+            "text": "this song.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G34-E01-B01",
+          "G34-E01-B02",
+          "G34-E01-B03",
+          "G34-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E01-B01",
+            "G34-E01-B02",
+            "G34-E01-B03",
+            "G34-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G34-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G34-E01-B02",
+            "text": "want",
+            "role": "required"
+          },
+          {
+            "id": "G34-E01-B03",
+            "text": "to sing",
+            "role": "required"
+          },
+          {
+            "id": "G34-E01-B04",
+            "text": "this song.",
+            "role": "required"
+          },
+          {
+            "id": "G34-E01-D01",
+            "text": "singing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to sing」と比較してください。"
+          },
+          {
+            "id": "G34-E01-D02",
+            "text": "to sings",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to sing」と比較してください。"
+          },
+          {
+            "id": "G34-E01-D03",
+            "text": "sing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to sing」と比較してください。"
+          },
+          {
+            "id": "G34-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to sing」と比較してください。"
+          },
+          {
+            "id": "G34-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to sing」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G34-E01-D01",
+            "text": "singing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to sing」と比較してください。"
+          },
+          {
+            "id": "G34-E01-D02",
+            "text": "to sings",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to sing」と比較してください。"
+          },
+          {
+            "id": "G34-E01-D03",
+            "text": "sing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to sing」と比較してください。"
+          },
+          {
+            "id": "G34-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to sing」と比較してください。"
+          },
+          {
+            "id": "G34-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to sing」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G34-E01-B01",
+          "G34-E01-B02",
+          "G34-E01-B03",
+          "G34-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E01-B01",
+            "G34-E01-B02",
+            "G34-E01-B03",
+            "G34-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G34-E01-AUDIO",
+        "text": "I want to sing this song.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G34-E02",
+      "grammarId": "G34",
+      "grammarNameJa": "不定詞・名詞的用法",
+      "english": "She hopes to get a ticket.",
+      "translationJa": "彼女はチケットを手に入れることを願っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to get",
+        "start": 10,
+        "endExclusive": 16,
+        "explanationJa": "to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+      },
+      "sentenceExplanationJa": "「She hopes to get a ticket.」は「彼女はチケットを手に入れることを願っています。」という意味です。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。 この文の対象部分は「to get」。まとまりは She → hopes → to get → a ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "hopes",
+          "lemma": "hope",
+          "meaningJa": "願う・望む（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "get",
+          "lemma": "get",
+          "meaningJa": "得る・着く・～になる",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She hopes ___ a ticket.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 16,
+          "answer": "to get"
+        },
+        "options": [
+          {
+            "id": "G34-E02-C3",
+            "text": "to gets",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to get」を使います。「to gets」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E02-C2",
+            "text": "getting",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to get」を使います。「getting」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E02-C4",
+            "text": "get",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to get」を使います。「get」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E02-C1",
+            "text": "to get",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+          }
+        ],
+        "correctOptionId": "G34-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G34-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G34-E02-B02",
+            "text": "hopes",
+            "role": "required"
+          },
+          {
+            "id": "G34-E02-B03",
+            "text": "to get",
+            "role": "required"
+          },
+          {
+            "id": "G34-E02-B04",
+            "text": "a ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G34-E02-B01",
+          "G34-E02-B02",
+          "G34-E02-B03",
+          "G34-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E02-B01",
+            "G34-E02-B02",
+            "G34-E02-B03",
+            "G34-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G34-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G34-E02-B02",
+            "text": "hopes",
+            "role": "required"
+          },
+          {
+            "id": "G34-E02-B03",
+            "text": "to get",
+            "role": "required"
+          },
+          {
+            "id": "G34-E02-B04",
+            "text": "a ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G34-E02-D01",
+            "text": "getting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G34-E02-D02",
+            "text": "to gets",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G34-E02-D03",
+            "text": "get",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G34-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G34-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G34-E02-D01",
+            "text": "getting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G34-E02-D02",
+            "text": "to gets",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G34-E02-D03",
+            "text": "get",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G34-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G34-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G34-E02-B01",
+          "G34-E02-B02",
+          "G34-E02-B03",
+          "G34-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E02-B01",
+            "G34-E02-B02",
+            "G34-E02-B03",
+            "G34-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G34-E02-AUDIO",
+        "text": "She hopes to get a ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G34-E03",
+      "grammarId": "G34",
+      "grammarNameJa": "不定詞・名詞的用法",
+      "english": "We decided to leave early.",
+      "translationJa": "私たちは早めに出発することに決めました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to leave",
+        "start": 11,
+        "endExclusive": 19,
+        "explanationJa": "to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+      },
+      "sentenceExplanationJa": "「We decided to leave early.」は「私たちは早めに出発することに決めました。」という意味です。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。 この文の対象部分は「to leave」。まとまりは We → decided → to leave → early. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "decided",
+          "lemma": "decide",
+          "meaningJa": "決める（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "leave",
+          "lemma": "leave",
+          "meaningJa": "出発する・～のままにしておく",
+          "kind": "word"
+        },
+        {
+          "expression": "early",
+          "lemma": "early",
+          "meaningJa": "早い・早く",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We decided ___ early.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 19,
+          "answer": "to leave"
+        },
+        "options": [
+          {
+            "id": "G34-E03-C2",
+            "text": "leaving",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to leave」を使います。「leaving」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E03-C3",
+            "text": "to leaves",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to leave」を使います。「to leaves」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E03-C4",
+            "text": "leave",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to leave」を使います。「leave」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E03-C1",
+            "text": "to leave",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+          }
+        ],
+        "correctOptionId": "G34-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G34-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G34-E03-B02",
+            "text": "decided",
+            "role": "required"
+          },
+          {
+            "id": "G34-E03-B03",
+            "text": "to leave",
+            "role": "required"
+          },
+          {
+            "id": "G34-E03-B04",
+            "text": "early.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G34-E03-B01",
+          "G34-E03-B02",
+          "G34-E03-B03",
+          "G34-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E03-B01",
+            "G34-E03-B02",
+            "G34-E03-B03",
+            "G34-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G34-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G34-E03-B02",
+            "text": "decided",
+            "role": "required"
+          },
+          {
+            "id": "G34-E03-B03",
+            "text": "to leave",
+            "role": "required"
+          },
+          {
+            "id": "G34-E03-B04",
+            "text": "early.",
+            "role": "required"
+          },
+          {
+            "id": "G34-E03-D01",
+            "text": "leaving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to leave」と比較してください。"
+          },
+          {
+            "id": "G34-E03-D02",
+            "text": "to leaves",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to leave」と比較してください。"
+          },
+          {
+            "id": "G34-E03-D03",
+            "text": "leave",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to leave」と比較してください。"
+          },
+          {
+            "id": "G34-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to leave」と比較してください。"
+          },
+          {
+            "id": "G34-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to leave」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G34-E03-D01",
+            "text": "leaving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to leave」と比較してください。"
+          },
+          {
+            "id": "G34-E03-D02",
+            "text": "to leaves",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to leave」と比較してください。"
+          },
+          {
+            "id": "G34-E03-D03",
+            "text": "leave",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to leave」と比較してください。"
+          },
+          {
+            "id": "G34-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to leave」と比較してください。"
+          },
+          {
+            "id": "G34-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to leave」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G34-E03-B01",
+          "G34-E03-B02",
+          "G34-E03-B03",
+          "G34-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E03-B01",
+            "G34-E03-B02",
+            "G34-E03-B03",
+            "G34-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G34-E03-AUDIO",
+        "text": "We decided to leave early.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G34-E04",
+      "grammarId": "G34",
+      "grammarNameJa": "不定詞・名詞的用法",
+      "english": "He needs to charge his phone.",
+      "translationJa": "彼は携帯電話を充電する必要があります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to charge",
+        "start": 9,
+        "endExclusive": 18,
+        "explanationJa": "to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+      },
+      "sentenceExplanationJa": "「He needs to charge his phone.」は「彼は携帯電話を充電する必要があります。」という意味です。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。 この文の対象部分は「to charge」。まとまりは He → needs → to charge → his phone. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "needs",
+          "lemma": "need",
+          "meaningJa": "必要とする（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "charge",
+          "lemma": "charge",
+          "meaningJa": "充電する",
+          "kind": "word"
+        },
+        {
+          "expression": "his",
+          "lemma": "his",
+          "meaningJa": "彼の・彼のもの",
+          "kind": "word"
+        },
+        {
+          "expression": "phone",
+          "lemma": "phone",
+          "meaningJa": "携帯電話・電話",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He needs ___ his phone.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 18,
+          "answer": "to charge"
+        },
+        "options": [
+          {
+            "id": "G34-E04-C2",
+            "text": "charging",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to charge」を使います。「charging」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E04-C1",
+            "text": "to charge",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+          },
+          {
+            "id": "G34-E04-C3",
+            "text": "to charges",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to charge」を使います。「to charges」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E04-C4",
+            "text": "charge",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to charge」を使います。「charge」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G34-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G34-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G34-E04-B02",
+            "text": "needs",
+            "role": "required"
+          },
+          {
+            "id": "G34-E04-B03",
+            "text": "to charge",
+            "role": "required"
+          },
+          {
+            "id": "G34-E04-B04",
+            "text": "his phone.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G34-E04-B01",
+          "G34-E04-B02",
+          "G34-E04-B03",
+          "G34-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E04-B01",
+            "G34-E04-B02",
+            "G34-E04-B03",
+            "G34-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G34-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G34-E04-B02",
+            "text": "needs",
+            "role": "required"
+          },
+          {
+            "id": "G34-E04-B03",
+            "text": "to charge",
+            "role": "required"
+          },
+          {
+            "id": "G34-E04-B04",
+            "text": "his phone.",
+            "role": "required"
+          },
+          {
+            "id": "G34-E04-D01",
+            "text": "charging",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to charge」と比較してください。"
+          },
+          {
+            "id": "G34-E04-D02",
+            "text": "to charges",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to charge」と比較してください。"
+          },
+          {
+            "id": "G34-E04-D03",
+            "text": "charge",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to charge」と比較してください。"
+          },
+          {
+            "id": "G34-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to charge」と比較してください。"
+          },
+          {
+            "id": "G34-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to charge」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G34-E04-D01",
+            "text": "charging",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to charge」と比較してください。"
+          },
+          {
+            "id": "G34-E04-D02",
+            "text": "to charges",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to charge」と比較してください。"
+          },
+          {
+            "id": "G34-E04-D03",
+            "text": "charge",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to charge」と比較してください。"
+          },
+          {
+            "id": "G34-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to charge」と比較してください。"
+          },
+          {
+            "id": "G34-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to charge」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G34-E04-B01",
+          "G34-E04-B02",
+          "G34-E04-B03",
+          "G34-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E04-B01",
+            "G34-E04-B02",
+            "G34-E04-B03",
+            "G34-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G34-E04-AUDIO",
+        "text": "He needs to charge his phone.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G34-E05",
+      "grammarId": "G34",
+      "grammarNameJa": "不定詞・名詞的用法",
+      "english": "I want to learn English.",
+      "translationJa": "私は英語を学びたいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to learn",
+        "start": 7,
+        "endExclusive": 15,
+        "explanationJa": "to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+      },
+      "sentenceExplanationJa": "「I want to learn English.」は「私は英語を学びたいです。」という意味です。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。 この文の対象部分は「to learn」。まとまりは I → want → to learn → English. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "want",
+          "lemma": "want",
+          "meaningJa": "欲しい・～したい",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "learn",
+          "lemma": "learn",
+          "meaningJa": "学ぶ",
+          "kind": "word"
+        },
+        {
+          "expression": "English",
+          "lemma": "english",
+          "meaningJa": "英語",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I want ___ English.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 15,
+          "answer": "to learn"
+        },
+        "options": [
+          {
+            "id": "G34-E05-C1",
+            "text": "to learn",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+          },
+          {
+            "id": "G34-E05-C4",
+            "text": "learn",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to learn」を使います。「learn」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E05-C3",
+            "text": "to learns",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to learn」を使います。「to learns」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E05-C2",
+            "text": "learning",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to learn」を使います。「learning」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G34-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G34-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G34-E05-B02",
+            "text": "want",
+            "role": "required"
+          },
+          {
+            "id": "G34-E05-B03",
+            "text": "to learn",
+            "role": "required"
+          },
+          {
+            "id": "G34-E05-B04",
+            "text": "English.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G34-E05-B01",
+          "G34-E05-B02",
+          "G34-E05-B03",
+          "G34-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E05-B01",
+            "G34-E05-B02",
+            "G34-E05-B03",
+            "G34-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G34-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G34-E05-B02",
+            "text": "want",
+            "role": "required"
+          },
+          {
+            "id": "G34-E05-B03",
+            "text": "to learn",
+            "role": "required"
+          },
+          {
+            "id": "G34-E05-B04",
+            "text": "English.",
+            "role": "required"
+          },
+          {
+            "id": "G34-E05-D01",
+            "text": "learning",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to learn」と比較してください。"
+          },
+          {
+            "id": "G34-E05-D02",
+            "text": "to learns",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to learn」と比較してください。"
+          },
+          {
+            "id": "G34-E05-D03",
+            "text": "learn",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to learn」と比較してください。"
+          },
+          {
+            "id": "G34-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to learn」と比較してください。"
+          },
+          {
+            "id": "G34-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to learn」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G34-E05-D01",
+            "text": "learning",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to learn」と比較してください。"
+          },
+          {
+            "id": "G34-E05-D02",
+            "text": "to learns",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to learn」と比較してください。"
+          },
+          {
+            "id": "G34-E05-D03",
+            "text": "learn",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to learn」と比較してください。"
+          },
+          {
+            "id": "G34-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to learn」と比較してください。"
+          },
+          {
+            "id": "G34-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to learn」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G34-E05-B01",
+          "G34-E05-B02",
+          "G34-E05-B03",
+          "G34-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E05-B01",
+            "G34-E05-B02",
+            "G34-E05-B03",
+            "G34-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G34-E05-AUDIO",
+        "text": "I want to learn English.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G34-E06",
+      "grammarId": "G34",
+      "grammarNameJa": "不定詞・名詞的用法",
+      "english": "They plan to practice tomorrow.",
+      "translationJa": "彼らは明日練習する予定です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to practice",
+        "start": 10,
+        "endExclusive": 21,
+        "explanationJa": "to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+      },
+      "sentenceExplanationJa": "「They plan to practice tomorrow.」は「彼らは明日練習する予定です。」という意味です。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。 この文の対象部分は「to practice」。まとまりは They → plan → to practice → tomorrow. の順です。",
+      "glossary": [
+        {
+          "expression": "They",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "plan",
+          "lemma": "plan",
+          "meaningJa": "計画する",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "practice",
+          "lemma": "practice",
+          "meaningJa": "練習する・練習",
+          "kind": "word"
+        },
+        {
+          "expression": "tomorrow",
+          "lemma": "tomorrow",
+          "meaningJa": "明日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "They plan ___ tomorrow.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 21,
+          "answer": "to practice"
+        },
+        "options": [
+          {
+            "id": "G34-E06-C1",
+            "text": "to practice",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+          },
+          {
+            "id": "G34-E06-C3",
+            "text": "to practices",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to practice」を使います。「to practices」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E06-C2",
+            "text": "practicing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to practice」を使います。「practicing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E06-C4",
+            "text": "practice",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to practice」を使います。「practice」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G34-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G34-E06-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G34-E06-B02",
+            "text": "plan",
+            "role": "required"
+          },
+          {
+            "id": "G34-E06-B03",
+            "text": "to practice",
+            "role": "required"
+          },
+          {
+            "id": "G34-E06-B04",
+            "text": "tomorrow.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G34-E06-B01",
+          "G34-E06-B02",
+          "G34-E06-B03",
+          "G34-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E06-B01",
+            "G34-E06-B02",
+            "G34-E06-B03",
+            "G34-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G34-E06-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G34-E06-B02",
+            "text": "plan",
+            "role": "required"
+          },
+          {
+            "id": "G34-E06-B03",
+            "text": "to practice",
+            "role": "required"
+          },
+          {
+            "id": "G34-E06-B04",
+            "text": "tomorrow.",
+            "role": "required"
+          },
+          {
+            "id": "G34-E06-D01",
+            "text": "practicing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G34-E06-D02",
+            "text": "to practices",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G34-E06-D03",
+            "text": "practice",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G34-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G34-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G34-E06-D01",
+            "text": "practicing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G34-E06-D02",
+            "text": "to practices",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G34-E06-D03",
+            "text": "practice",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G34-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G34-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G34-E06-B01",
+          "G34-E06-B02",
+          "G34-E06-B03",
+          "G34-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E06-B01",
+            "G34-E06-B02",
+            "G34-E06-B03",
+            "G34-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G34-E06-AUDIO",
+        "text": "They plan to practice tomorrow.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G34-E07",
+      "grammarId": "G34",
+      "grammarNameJa": "不定詞・名詞的用法",
+      "english": "I hope to see the band someday.",
+      "translationJa": "私はいつかそのバンドを見ることを願っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to see",
+        "start": 7,
+        "endExclusive": 13,
+        "explanationJa": "to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+      },
+      "sentenceExplanationJa": "「I hope to see the band someday.」は「私はいつかそのバンドを見ることを願っています。」という意味です。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。 この文の対象部分は「to see」。まとまりは I → hope → to see → the band → someday. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "hope",
+          "lemma": "hope",
+          "meaningJa": "願う・望む",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "see",
+          "lemma": "see",
+          "meaningJa": "見る・見える",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "band",
+          "lemma": "band",
+          "meaningJa": "バンド",
+          "kind": "word"
+        },
+        {
+          "expression": "someday",
+          "lemma": "someday",
+          "meaningJa": "いつか",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I hope ___ the band someday.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 13,
+          "answer": "to see"
+        },
+        "options": [
+          {
+            "id": "G34-E07-C1",
+            "text": "to see",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+          },
+          {
+            "id": "G34-E07-C3",
+            "text": "to sees",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to see」を使います。「to sees」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E07-C2",
+            "text": "seeing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to see」を使います。「seeing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E07-C4",
+            "text": "see",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to see」を使います。「see」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G34-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G34-E07-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G34-E07-B02",
+            "text": "hope",
+            "role": "required"
+          },
+          {
+            "id": "G34-E07-B03",
+            "text": "to see",
+            "role": "required"
+          },
+          {
+            "id": "G34-E07-B04",
+            "text": "the band",
+            "role": "required"
+          },
+          {
+            "id": "G34-E07-B05",
+            "text": "someday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G34-E07-B01",
+          "G34-E07-B02",
+          "G34-E07-B03",
+          "G34-E07-B04",
+          "G34-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E07-B01",
+            "G34-E07-B02",
+            "G34-E07-B03",
+            "G34-E07-B04",
+            "G34-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G34-E07-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G34-E07-B02",
+            "text": "hope",
+            "role": "required"
+          },
+          {
+            "id": "G34-E07-B03",
+            "text": "to see",
+            "role": "required"
+          },
+          {
+            "id": "G34-E07-B04",
+            "text": "the band",
+            "role": "required"
+          },
+          {
+            "id": "G34-E07-B05",
+            "text": "someday.",
+            "role": "required"
+          },
+          {
+            "id": "G34-E07-D01",
+            "text": "seeing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G34-E07-D02",
+            "text": "to sees",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G34-E07-D03",
+            "text": "see",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G34-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G34-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G34-E07-D01",
+            "text": "seeing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G34-E07-D02",
+            "text": "to sees",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G34-E07-D03",
+            "text": "see",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G34-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G34-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G34-E07-B01",
+          "G34-E07-B02",
+          "G34-E07-B03",
+          "G34-E07-B04",
+          "G34-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E07-B01",
+            "G34-E07-B02",
+            "G34-E07-B03",
+            "G34-E07-B04",
+            "G34-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G34-E07-AUDIO",
+        "text": "I hope to see the band someday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G34-E08",
+      "grammarId": "G34",
+      "grammarNameJa": "不定詞・名詞的用法",
+      "english": "She decided to join the fan club.",
+      "translationJa": "彼女はファンクラブに入ることに決めました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to join",
+        "start": 12,
+        "endExclusive": 19,
+        "explanationJa": "to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+      },
+      "sentenceExplanationJa": "「She decided to join the fan club.」は「彼女はファンクラブに入ることに決めました。」という意味です。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。 この文の対象部分は「to join」。まとまりは She → decided → to join → the fan club. の順です。",
+      "glossary": [
+        {
+          "expression": "fan club",
+          "meaningJa": "ファンクラブ",
+          "kind": "phrase"
+        },
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "decided",
+          "lemma": "decide",
+          "meaningJa": "決める（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "join",
+          "lemma": "join",
+          "meaningJa": "参加する・加入する",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "fan",
+          "lemma": "fan",
+          "meaningJa": "ファン",
+          "kind": "word"
+        },
+        {
+          "expression": "club",
+          "lemma": "club",
+          "meaningJa": "クラブ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She decided ___ the fan club.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 19,
+          "answer": "to join"
+        },
+        "options": [
+          {
+            "id": "G34-E08-C3",
+            "text": "to joins",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to join」を使います。「to joins」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E08-C2",
+            "text": "joining",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to join」を使います。「joining」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E08-C1",
+            "text": "to join",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+          },
+          {
+            "id": "G34-E08-C4",
+            "text": "join",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to join」を使います。「join」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G34-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G34-E08-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G34-E08-B02",
+            "text": "decided",
+            "role": "required"
+          },
+          {
+            "id": "G34-E08-B03",
+            "text": "to join",
+            "role": "required"
+          },
+          {
+            "id": "G34-E08-B04",
+            "text": "the fan club.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G34-E08-B01",
+          "G34-E08-B02",
+          "G34-E08-B03",
+          "G34-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E08-B01",
+            "G34-E08-B02",
+            "G34-E08-B03",
+            "G34-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G34-E08-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G34-E08-B02",
+            "text": "decided",
+            "role": "required"
+          },
+          {
+            "id": "G34-E08-B03",
+            "text": "to join",
+            "role": "required"
+          },
+          {
+            "id": "G34-E08-B04",
+            "text": "the fan club.",
+            "role": "required"
+          },
+          {
+            "id": "G34-E08-D01",
+            "text": "joining",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to join」と比較してください。"
+          },
+          {
+            "id": "G34-E08-D02",
+            "text": "to joins",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to join」と比較してください。"
+          },
+          {
+            "id": "G34-E08-D03",
+            "text": "join",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to join」と比較してください。"
+          },
+          {
+            "id": "G34-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to join」と比較してください。"
+          },
+          {
+            "id": "G34-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to join」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G34-E08-D01",
+            "text": "joining",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to join」と比較してください。"
+          },
+          {
+            "id": "G34-E08-D02",
+            "text": "to joins",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to join」と比較してください。"
+          },
+          {
+            "id": "G34-E08-D03",
+            "text": "join",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to join」と比較してください。"
+          },
+          {
+            "id": "G34-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to join」と比較してください。"
+          },
+          {
+            "id": "G34-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to join」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G34-E08-B01",
+          "G34-E08-B02",
+          "G34-E08-B03",
+          "G34-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E08-B01",
+            "G34-E08-B02",
+            "G34-E08-B03",
+            "G34-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G34-E08-AUDIO",
+        "text": "She decided to join the fan club.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G34-E09",
+      "grammarId": "G34",
+      "grammarNameJa": "不定詞・名詞的用法",
+      "english": "We want to share this news.",
+      "translationJa": "私たちはこの知らせを共有したいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to share",
+        "start": 8,
+        "endExclusive": 16,
+        "explanationJa": "to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+      },
+      "sentenceExplanationJa": "「We want to share this news.」は「私たちはこの知らせを共有したいです。」という意味です。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。 この文の対象部分は「to share」。まとまりは We → want → to share → this news. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "want",
+          "lemma": "want",
+          "meaningJa": "欲しい・～したい",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "share",
+          "lemma": "share",
+          "meaningJa": "共有する",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "news",
+          "lemma": "news",
+          "meaningJa": "知らせ・ニュース",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We want ___ this news.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 16,
+          "answer": "to share"
+        },
+        "options": [
+          {
+            "id": "G34-E09-C3",
+            "text": "to shares",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to share」を使います。「to shares」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E09-C2",
+            "text": "sharing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to share」を使います。「sharing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E09-C4",
+            "text": "share",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to share」を使います。「share」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E09-C1",
+            "text": "to share",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+          }
+        ],
+        "correctOptionId": "G34-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G34-E09-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G34-E09-B02",
+            "text": "want",
+            "role": "required"
+          },
+          {
+            "id": "G34-E09-B03",
+            "text": "to share",
+            "role": "required"
+          },
+          {
+            "id": "G34-E09-B04",
+            "text": "this news.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G34-E09-B01",
+          "G34-E09-B02",
+          "G34-E09-B03",
+          "G34-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E09-B01",
+            "G34-E09-B02",
+            "G34-E09-B03",
+            "G34-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G34-E09-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G34-E09-B02",
+            "text": "want",
+            "role": "required"
+          },
+          {
+            "id": "G34-E09-B03",
+            "text": "to share",
+            "role": "required"
+          },
+          {
+            "id": "G34-E09-B04",
+            "text": "this news.",
+            "role": "required"
+          },
+          {
+            "id": "G34-E09-D01",
+            "text": "sharing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to share」と比較してください。"
+          },
+          {
+            "id": "G34-E09-D02",
+            "text": "to shares",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to share」と比較してください。"
+          },
+          {
+            "id": "G34-E09-D03",
+            "text": "share",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to share」と比較してください。"
+          },
+          {
+            "id": "G34-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to share」と比較してください。"
+          },
+          {
+            "id": "G34-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to share」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G34-E09-D01",
+            "text": "sharing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to share」と比較してください。"
+          },
+          {
+            "id": "G34-E09-D02",
+            "text": "to shares",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to share」と比較してください。"
+          },
+          {
+            "id": "G34-E09-D03",
+            "text": "share",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to share」と比較してください。"
+          },
+          {
+            "id": "G34-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to share」と比較してください。"
+          },
+          {
+            "id": "G34-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to share」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G34-E09-B01",
+          "G34-E09-B02",
+          "G34-E09-B03",
+          "G34-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E09-B01",
+            "G34-E09-B02",
+            "G34-E09-B03",
+            "G34-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G34-E09-AUDIO",
+        "text": "We want to share this news.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G34-E10",
+      "grammarId": "G34",
+      "grammarNameJa": "不定詞・名詞的用法",
+      "english": "My brother needs to study tonight.",
+      "translationJa": "私の弟は今夜勉強する必要があります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to study",
+        "start": 17,
+        "endExclusive": 25,
+        "explanationJa": "to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+      },
+      "sentenceExplanationJa": "「My brother needs to study tonight.」は「私の弟は今夜勉強する必要があります。」という意味です。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。 この文の対象部分は「to study」。まとまりは My brother → needs → to study → tonight. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "brother",
+          "lemma": "brother",
+          "meaningJa": "兄・弟",
+          "kind": "word"
+        },
+        {
+          "expression": "needs",
+          "lemma": "need",
+          "meaningJa": "必要とする（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "study",
+          "lemma": "study",
+          "meaningJa": "勉強する",
+          "kind": "word"
+        },
+        {
+          "expression": "tonight",
+          "lemma": "tonight",
+          "meaningJa": "今夜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My brother needs ___ tonight.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 25,
+          "answer": "to study"
+        },
+        "options": [
+          {
+            "id": "G34-E10-C4",
+            "text": "study",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to study」を使います。「study」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E10-C2",
+            "text": "studying",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to study」を使います。「studying」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E10-C3",
+            "text": "to studies",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to study」を使います。「to studies」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G34-E10-C1",
+            "text": "to study",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。"
+          }
+        ],
+        "correctOptionId": "G34-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G34-E10-B01",
+            "text": "My brother",
+            "role": "required"
+          },
+          {
+            "id": "G34-E10-B02",
+            "text": "needs",
+            "role": "required"
+          },
+          {
+            "id": "G34-E10-B03",
+            "text": "to study",
+            "role": "required"
+          },
+          {
+            "id": "G34-E10-B04",
+            "text": "tonight.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G34-E10-B01",
+          "G34-E10-B02",
+          "G34-E10-B03",
+          "G34-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E10-B01",
+            "G34-E10-B02",
+            "G34-E10-B03",
+            "G34-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G34-E10-B01",
+            "text": "My brother",
+            "role": "required"
+          },
+          {
+            "id": "G34-E10-B02",
+            "text": "needs",
+            "role": "required"
+          },
+          {
+            "id": "G34-E10-B03",
+            "text": "to study",
+            "role": "required"
+          },
+          {
+            "id": "G34-E10-B04",
+            "text": "tonight.",
+            "role": "required"
+          },
+          {
+            "id": "G34-E10-D01",
+            "text": "studying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G34-E10-D02",
+            "text": "to studies",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G34-E10-D03",
+            "text": "study",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G34-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G34-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G34-E10-D01",
+            "text": "studying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G34-E10-D02",
+            "text": "to studies",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G34-E10-D03",
+            "text": "study",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G34-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          },
+          {
+            "id": "G34-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to study」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G34-E10-B01",
+          "G34-E10-B02",
+          "G34-E10-B03",
+          "G34-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G34-E10-B01",
+            "G34-E10-B02",
+            "G34-E10-B03",
+            "G34-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G34-E10-AUDIO",
+        "text": "My brother needs to study tonight.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

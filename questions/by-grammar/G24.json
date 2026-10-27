@@ -1,0 +1,2395 @@
+{
+  "grammarId": "G24",
+  "examples": [
+    {
+      "id": "G24-E01",
+      "grammarId": "G24",
+      "grammarNameJa": "一般動詞の過去形・不規則動詞",
+      "english": "I bought a green towel yesterday.",
+      "translationJa": "私は昨日緑のタオルを買いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "bought",
+        "start": 2,
+        "endExclusive": 8,
+        "explanationJa": "go→went、buy→boughtなど、edを使わない過去形を確認する。"
+      },
+      "sentenceExplanationJa": "「I bought a green towel yesterday.」は「私は昨日緑のタオルを買いました。」という意味です。go→went、buy→boughtなど、edを使わない過去形を確認する。 この文の対象部分は「bought」。まとまりは I → bought → a green towel → yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "bought",
+          "lemma": "buy",
+          "meaningJa": "買う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "green",
+          "lemma": "green",
+          "meaningJa": "緑・緑色の",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ a green towel yesterday.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 8,
+          "answer": "bought"
+        },
+        "options": [
+          {
+            "id": "G24-E01-C3",
+            "text": "buys",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「bought」を使います。「buys」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E01-C2",
+            "text": "buy",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「bought」を使います。「buy」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E01-C1",
+            "text": "bought",
+            "isCorrect": true,
+            "explanationJa": "正解。go→went、buy→boughtなど、edを使わない過去形を確認する。"
+          },
+          {
+            "id": "G24-E01-C4",
+            "text": "buying",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「bought」を使います。「buying」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G24-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G24-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G24-E01-B02",
+            "text": "bought",
+            "role": "required"
+          },
+          {
+            "id": "G24-E01-B03",
+            "text": "a green towel",
+            "role": "required"
+          },
+          {
+            "id": "G24-E01-B04",
+            "text": "yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G24-E01-B01",
+          "G24-E01-B02",
+          "G24-E01-B03",
+          "G24-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E01-B01",
+            "G24-E01-B02",
+            "G24-E01-B03",
+            "G24-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G24-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G24-E01-B02",
+            "text": "bought",
+            "role": "required"
+          },
+          {
+            "id": "G24-E01-B03",
+            "text": "a green towel",
+            "role": "required"
+          },
+          {
+            "id": "G24-E01-B04",
+            "text": "yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G24-E01-D01",
+            "text": "buy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bought」と比較してください。"
+          },
+          {
+            "id": "G24-E01-D02",
+            "text": "buys",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bought」と比較してください。"
+          },
+          {
+            "id": "G24-E01-D03",
+            "text": "buying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bought」と比較してください。"
+          },
+          {
+            "id": "G24-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bought」と比較してください。"
+          },
+          {
+            "id": "G24-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bought」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G24-E01-D01",
+            "text": "buy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bought」と比較してください。"
+          },
+          {
+            "id": "G24-E01-D02",
+            "text": "buys",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bought」と比較してください。"
+          },
+          {
+            "id": "G24-E01-D03",
+            "text": "buying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bought」と比較してください。"
+          },
+          {
+            "id": "G24-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bought」と比較してください。"
+          },
+          {
+            "id": "G24-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bought」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G24-E01-B01",
+          "G24-E01-B02",
+          "G24-E01-B03",
+          "G24-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E01-B01",
+            "G24-E01-B02",
+            "G24-E01-B03",
+            "G24-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G24-E01-AUDIO",
+        "text": "I bought a green towel yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G24-E02",
+      "grammarId": "G24",
+      "grammarNameJa": "一般動詞の過去形・不規則動詞",
+      "english": "We went to a concert last Sunday.",
+      "translationJa": "私たちは先週の日曜日にコンサートへ行きました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "went",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "go→went、buy→boughtなど、edを使わない過去形を確認する。"
+      },
+      "sentenceExplanationJa": "「We went to a concert last Sunday.」は「私たちは先週の日曜日にコンサートへ行きました。」という意味です。go→went、buy→boughtなど、edを使わない過去形を確認する。 この文の対象部分は「went」。まとまりは We → went → to a concert → last Sunday. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "went",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "Sunday",
+          "lemma": "sunday",
+          "meaningJa": "日曜日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ to a concert last Sunday.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "went"
+        },
+        "options": [
+          {
+            "id": "G24-E02-C3",
+            "text": "goes",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「went」を使います。「goes」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E02-C1",
+            "text": "went",
+            "isCorrect": true,
+            "explanationJa": "正解。go→went、buy→boughtなど、edを使わない過去形を確認する。"
+          },
+          {
+            "id": "G24-E02-C2",
+            "text": "go",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「went」を使います。「go」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E02-C4",
+            "text": "going",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「went」を使います。「going」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G24-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G24-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G24-E02-B02",
+            "text": "went",
+            "role": "required"
+          },
+          {
+            "id": "G24-E02-B03",
+            "text": "to a concert",
+            "role": "required"
+          },
+          {
+            "id": "G24-E02-B04",
+            "text": "last Sunday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G24-E02-B01",
+          "G24-E02-B02",
+          "G24-E02-B03",
+          "G24-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E02-B01",
+            "G24-E02-B02",
+            "G24-E02-B03",
+            "G24-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G24-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G24-E02-B02",
+            "text": "went",
+            "role": "required"
+          },
+          {
+            "id": "G24-E02-B03",
+            "text": "to a concert",
+            "role": "required"
+          },
+          {
+            "id": "G24-E02-B04",
+            "text": "last Sunday.",
+            "role": "required"
+          },
+          {
+            "id": "G24-E02-D01",
+            "text": "go",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「went」と比較してください。"
+          },
+          {
+            "id": "G24-E02-D02",
+            "text": "goes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「went」と比較してください。"
+          },
+          {
+            "id": "G24-E02-D03",
+            "text": "going",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「went」と比較してください。"
+          },
+          {
+            "id": "G24-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「went」と比較してください。"
+          },
+          {
+            "id": "G24-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「went」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G24-E02-D01",
+            "text": "go",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「went」と比較してください。"
+          },
+          {
+            "id": "G24-E02-D02",
+            "text": "goes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「went」と比較してください。"
+          },
+          {
+            "id": "G24-E02-D03",
+            "text": "going",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「went」と比較してください。"
+          },
+          {
+            "id": "G24-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「went」と比較してください。"
+          },
+          {
+            "id": "G24-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「went」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G24-E02-B01",
+          "G24-E02-B02",
+          "G24-E02-B03",
+          "G24-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E02-B01",
+            "G24-E02-B02",
+            "G24-E02-B03",
+            "G24-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G24-E02-AUDIO",
+        "text": "We went to a concert last Sunday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G24-E03",
+      "grammarId": "G24",
+      "grammarNameJa": "一般動詞の過去形・不規則動詞",
+      "english": "She saw a rainbow after the show.",
+      "translationJa": "彼女は公演後に虹を見ました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "saw",
+        "start": 4,
+        "endExclusive": 7,
+        "explanationJa": "go→went、buy→boughtなど、edを使わない過去形を確認する。"
+      },
+      "sentenceExplanationJa": "「She saw a rainbow after the show.」は「彼女は公演後に虹を見ました。」という意味です。go→went、buy→boughtなど、edを使わない過去形を確認する。 この文の対象部分は「saw」。まとまりは She → saw → a rainbow → after the show. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "saw",
+          "lemma": "see",
+          "meaningJa": "見る・見える（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "rainbow",
+          "lemma": "rainbow",
+          "meaningJa": "虹",
+          "kind": "word"
+        },
+        {
+          "expression": "after",
+          "lemma": "after",
+          "meaningJa": "～の後に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ a rainbow after the show.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 7,
+          "answer": "saw"
+        },
+        "options": [
+          {
+            "id": "G24-E03-C2",
+            "text": "see",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「saw」を使います。「see」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E03-C1",
+            "text": "saw",
+            "isCorrect": true,
+            "explanationJa": "正解。go→went、buy→boughtなど、edを使わない過去形を確認する。"
+          },
+          {
+            "id": "G24-E03-C3",
+            "text": "sees",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「saw」を使います。「sees」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E03-C4",
+            "text": "seeing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「saw」を使います。「seeing」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G24-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G24-E03-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G24-E03-B02",
+            "text": "saw",
+            "role": "required"
+          },
+          {
+            "id": "G24-E03-B03",
+            "text": "a rainbow",
+            "role": "required"
+          },
+          {
+            "id": "G24-E03-B04",
+            "text": "after the show.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G24-E03-B01",
+          "G24-E03-B02",
+          "G24-E03-B03",
+          "G24-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E03-B01",
+            "G24-E03-B02",
+            "G24-E03-B03",
+            "G24-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G24-E03-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G24-E03-B02",
+            "text": "saw",
+            "role": "required"
+          },
+          {
+            "id": "G24-E03-B03",
+            "text": "a rainbow",
+            "role": "required"
+          },
+          {
+            "id": "G24-E03-B04",
+            "text": "after the show.",
+            "role": "required"
+          },
+          {
+            "id": "G24-E03-D01",
+            "text": "see",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saw」と比較してください。"
+          },
+          {
+            "id": "G24-E03-D02",
+            "text": "sees",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saw」と比較してください。"
+          },
+          {
+            "id": "G24-E03-D03",
+            "text": "seeing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saw」と比較してください。"
+          },
+          {
+            "id": "G24-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saw」と比較してください。"
+          },
+          {
+            "id": "G24-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saw」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G24-E03-D01",
+            "text": "see",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saw」と比較してください。"
+          },
+          {
+            "id": "G24-E03-D02",
+            "text": "sees",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saw」と比較してください。"
+          },
+          {
+            "id": "G24-E03-D03",
+            "text": "seeing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saw」と比較してください。"
+          },
+          {
+            "id": "G24-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saw」と比較してください。"
+          },
+          {
+            "id": "G24-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saw」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G24-E03-B01",
+          "G24-E03-B02",
+          "G24-E03-B03",
+          "G24-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E03-B01",
+            "G24-E03-B02",
+            "G24-E03-B03",
+            "G24-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G24-E03-AUDIO",
+        "text": "She saw a rainbow after the show.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G24-E04",
+      "grammarId": "G24",
+      "grammarNameJa": "一般動詞の過去形・不規則動詞",
+      "english": "He lost his ticket yesterday.",
+      "translationJa": "彼は昨日チケットをなくしました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "lost",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "go→went、buy→boughtなど、edを使わない過去形を確認する。"
+      },
+      "sentenceExplanationJa": "「He lost his ticket yesterday.」は「彼は昨日チケットをなくしました。」という意味です。go→went、buy→boughtなど、edを使わない過去形を確認する。 この文の対象部分は「lost」。まとまりは He → lost → his ticket → yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "lost",
+          "lemma": "lose",
+          "meaningJa": "失う・なくす（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "his",
+          "lemma": "his",
+          "meaningJa": "彼の・彼のもの",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ his ticket yesterday.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "lost"
+        },
+        "options": [
+          {
+            "id": "G24-E04-C3",
+            "text": "loses",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「lost」を使います。「loses」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E04-C2",
+            "text": "lose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「lost」を使います。「lose」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E04-C1",
+            "text": "lost",
+            "isCorrect": true,
+            "explanationJa": "正解。go→went、buy→boughtなど、edを使わない過去形を確認する。"
+          },
+          {
+            "id": "G24-E04-C4",
+            "text": "losing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「lost」を使います。「losing」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G24-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G24-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G24-E04-B02",
+            "text": "lost",
+            "role": "required"
+          },
+          {
+            "id": "G24-E04-B03",
+            "text": "his ticket",
+            "role": "required"
+          },
+          {
+            "id": "G24-E04-B04",
+            "text": "yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G24-E04-B01",
+          "G24-E04-B02",
+          "G24-E04-B03",
+          "G24-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E04-B01",
+            "G24-E04-B02",
+            "G24-E04-B03",
+            "G24-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G24-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G24-E04-B02",
+            "text": "lost",
+            "role": "required"
+          },
+          {
+            "id": "G24-E04-B03",
+            "text": "his ticket",
+            "role": "required"
+          },
+          {
+            "id": "G24-E04-B04",
+            "text": "yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G24-E04-D01",
+            "text": "lose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「lost」と比較してください。"
+          },
+          {
+            "id": "G24-E04-D02",
+            "text": "loses",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「lost」と比較してください。"
+          },
+          {
+            "id": "G24-E04-D03",
+            "text": "losing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「lost」と比較してください。"
+          },
+          {
+            "id": "G24-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「lost」と比較してください。"
+          },
+          {
+            "id": "G24-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「lost」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G24-E04-D01",
+            "text": "lose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「lost」と比較してください。"
+          },
+          {
+            "id": "G24-E04-D02",
+            "text": "loses",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「lost」と比較してください。"
+          },
+          {
+            "id": "G24-E04-D03",
+            "text": "losing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「lost」と比較してください。"
+          },
+          {
+            "id": "G24-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「lost」と比較してください。"
+          },
+          {
+            "id": "G24-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「lost」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G24-E04-B01",
+          "G24-E04-B02",
+          "G24-E04-B03",
+          "G24-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E04-B01",
+            "G24-E04-B02",
+            "G24-E04-B03",
+            "G24-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G24-E04-AUDIO",
+        "text": "He lost his ticket yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G24-E05",
+      "grammarId": "G24",
+      "grammarNameJa": "一般動詞の過去形・不規則動詞",
+      "english": "I found my phone this morning.",
+      "translationJa": "私は今朝携帯電話を見つけました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "found",
+        "start": 2,
+        "endExclusive": 7,
+        "explanationJa": "go→went、buy→boughtなど、edを使わない過去形を確認する。"
+      },
+      "sentenceExplanationJa": "「I found my phone this morning.」は「私は今朝携帯電話を見つけました。」という意味です。go→went、buy→boughtなど、edを使わない過去形を確認する。 この文の対象部分は「found」。まとまりは I → found → my phone → this morning. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "found",
+          "lemma": "find",
+          "meaningJa": "見つける（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "phone",
+          "lemma": "phone",
+          "meaningJa": "携帯電話・電話",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "morning",
+          "lemma": "morning",
+          "meaningJa": "朝・午前",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ my phone this morning.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 7,
+          "answer": "found"
+        },
+        "options": [
+          {
+            "id": "G24-E05-C1",
+            "text": "found",
+            "isCorrect": true,
+            "explanationJa": "正解。go→went、buy→boughtなど、edを使わない過去形を確認する。"
+          },
+          {
+            "id": "G24-E05-C3",
+            "text": "finds",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「found」を使います。「finds」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E05-C2",
+            "text": "find",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「found」を使います。「find」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E05-C4",
+            "text": "finding",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「found」を使います。「finding」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G24-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G24-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G24-E05-B02",
+            "text": "found",
+            "role": "required"
+          },
+          {
+            "id": "G24-E05-B03",
+            "text": "my phone",
+            "role": "required"
+          },
+          {
+            "id": "G24-E05-B04",
+            "text": "this morning.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G24-E05-B01",
+          "G24-E05-B02",
+          "G24-E05-B03",
+          "G24-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E05-B01",
+            "G24-E05-B02",
+            "G24-E05-B03",
+            "G24-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G24-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G24-E05-B02",
+            "text": "found",
+            "role": "required"
+          },
+          {
+            "id": "G24-E05-B03",
+            "text": "my phone",
+            "role": "required"
+          },
+          {
+            "id": "G24-E05-B04",
+            "text": "this morning.",
+            "role": "required"
+          },
+          {
+            "id": "G24-E05-D01",
+            "text": "find",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G24-E05-D02",
+            "text": "finds",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G24-E05-D03",
+            "text": "finding",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G24-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G24-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G24-E05-D01",
+            "text": "find",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G24-E05-D02",
+            "text": "finds",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G24-E05-D03",
+            "text": "finding",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G24-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G24-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G24-E05-B01",
+          "G24-E05-B02",
+          "G24-E05-B03",
+          "G24-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E05-B01",
+            "G24-E05-B02",
+            "G24-E05-B03",
+            "G24-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G24-E05-AUDIO",
+        "text": "I found my phone this morning.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G24-E06",
+      "grammarId": "G24",
+      "grammarNameJa": "一般動詞の過去形・不規則動詞",
+      "english": "They sang together last night.",
+      "translationJa": "彼らは昨夜一緒に歌いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "sang",
+        "start": 5,
+        "endExclusive": 9,
+        "explanationJa": "go→went、buy→boughtなど、edを使わない過去形を確認する。"
+      },
+      "sentenceExplanationJa": "「They sang together last night.」は「彼らは昨夜一緒に歌いました。」という意味です。go→went、buy→boughtなど、edを使わない過去形を確認する。 この文の対象部分は「sang」。まとまりは They → sang → together → last night. の順です。",
+      "glossary": [
+        {
+          "expression": "They",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "sang",
+          "lemma": "sing",
+          "meaningJa": "歌う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "together",
+          "lemma": "together",
+          "meaningJa": "一緒に",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "night",
+          "lemma": "night",
+          "meaningJa": "夜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "They ___ together last night.",
+        "blank": {
+          "start": 5,
+          "endExclusive": 9,
+          "answer": "sang"
+        },
+        "options": [
+          {
+            "id": "G24-E06-C4",
+            "text": "singing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sang」を使います。「singing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E06-C1",
+            "text": "sang",
+            "isCorrect": true,
+            "explanationJa": "正解。go→went、buy→boughtなど、edを使わない過去形を確認する。"
+          },
+          {
+            "id": "G24-E06-C3",
+            "text": "sings",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sang」を使います。「sings」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E06-C2",
+            "text": "sing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sang」を使います。「sing」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G24-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G24-E06-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G24-E06-B02",
+            "text": "sang",
+            "role": "required"
+          },
+          {
+            "id": "G24-E06-B03",
+            "text": "together",
+            "role": "required"
+          },
+          {
+            "id": "G24-E06-B04",
+            "text": "last night.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G24-E06-B01",
+          "G24-E06-B02",
+          "G24-E06-B03",
+          "G24-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E06-B01",
+            "G24-E06-B02",
+            "G24-E06-B03",
+            "G24-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G24-E06-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G24-E06-B02",
+            "text": "sang",
+            "role": "required"
+          },
+          {
+            "id": "G24-E06-B03",
+            "text": "together",
+            "role": "required"
+          },
+          {
+            "id": "G24-E06-B04",
+            "text": "last night.",
+            "role": "required"
+          },
+          {
+            "id": "G24-E06-D01",
+            "text": "sing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sang」と比較してください。"
+          },
+          {
+            "id": "G24-E06-D02",
+            "text": "sings",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sang」と比較してください。"
+          },
+          {
+            "id": "G24-E06-D03",
+            "text": "singing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sang」と比較してください。"
+          },
+          {
+            "id": "G24-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sang」と比較してください。"
+          },
+          {
+            "id": "G24-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sang」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G24-E06-D01",
+            "text": "sing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sang」と比較してください。"
+          },
+          {
+            "id": "G24-E06-D02",
+            "text": "sings",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sang」と比較してください。"
+          },
+          {
+            "id": "G24-E06-D03",
+            "text": "singing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sang」と比較してください。"
+          },
+          {
+            "id": "G24-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sang」と比較してください。"
+          },
+          {
+            "id": "G24-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sang」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G24-E06-B01",
+          "G24-E06-B02",
+          "G24-E06-B03",
+          "G24-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E06-B01",
+            "G24-E06-B02",
+            "G24-E06-B03",
+            "G24-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G24-E06-AUDIO",
+        "text": "They sang together last night.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G24-E07",
+      "grammarId": "G24",
+      "grammarNameJa": "一般動詞の過去形・不規則動詞",
+      "english": "We took a photo yesterday.",
+      "translationJa": "私たちは昨日写真を撮りました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "took",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "go→went、buy→boughtなど、edを使わない過去形を確認する。"
+      },
+      "sentenceExplanationJa": "「We took a photo yesterday.」は「私たちは昨日写真を撮りました。」という意味です。go→went、buy→boughtなど、edを使わない過去形を確認する。 この文の対象部分は「took」。まとまりは We → took → a photo → yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "took",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "photo",
+          "lemma": "photo",
+          "meaningJa": "写真",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ a photo yesterday.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "took"
+        },
+        "options": [
+          {
+            "id": "G24-E07-C4",
+            "text": "taking",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「took」を使います。「taking」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E07-C2",
+            "text": "take",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「took」を使います。「take」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E07-C3",
+            "text": "takes",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「took」を使います。「takes」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E07-C1",
+            "text": "took",
+            "isCorrect": true,
+            "explanationJa": "正解。go→went、buy→boughtなど、edを使わない過去形を確認する。"
+          }
+        ],
+        "correctOptionId": "G24-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G24-E07-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G24-E07-B02",
+            "text": "took",
+            "role": "required"
+          },
+          {
+            "id": "G24-E07-B03",
+            "text": "a photo",
+            "role": "required"
+          },
+          {
+            "id": "G24-E07-B04",
+            "text": "yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G24-E07-B01",
+          "G24-E07-B02",
+          "G24-E07-B03",
+          "G24-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E07-B01",
+            "G24-E07-B02",
+            "G24-E07-B03",
+            "G24-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G24-E07-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G24-E07-B02",
+            "text": "took",
+            "role": "required"
+          },
+          {
+            "id": "G24-E07-B03",
+            "text": "a photo",
+            "role": "required"
+          },
+          {
+            "id": "G24-E07-B04",
+            "text": "yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G24-E07-D01",
+            "text": "take",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「took」と比較してください。"
+          },
+          {
+            "id": "G24-E07-D02",
+            "text": "takes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「took」と比較してください。"
+          },
+          {
+            "id": "G24-E07-D03",
+            "text": "taking",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「took」と比較してください。"
+          },
+          {
+            "id": "G24-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「took」と比較してください。"
+          },
+          {
+            "id": "G24-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「took」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G24-E07-D01",
+            "text": "take",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「took」と比較してください。"
+          },
+          {
+            "id": "G24-E07-D02",
+            "text": "takes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「took」と比較してください。"
+          },
+          {
+            "id": "G24-E07-D03",
+            "text": "taking",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「took」と比較してください。"
+          },
+          {
+            "id": "G24-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「took」と比較してください。"
+          },
+          {
+            "id": "G24-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「took」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G24-E07-B01",
+          "G24-E07-B02",
+          "G24-E07-B03",
+          "G24-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E07-B01",
+            "G24-E07-B02",
+            "G24-E07-B03",
+            "G24-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G24-E07-AUDIO",
+        "text": "We took a photo yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G24-E08",
+      "grammarId": "G24",
+      "grammarNameJa": "一般動詞の過去形・不規則動詞",
+      "english": "I met another fan last week.",
+      "translationJa": "私は先週別のファンに会いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "met",
+        "start": 2,
+        "endExclusive": 5,
+        "explanationJa": "go→went、buy→boughtなど、edを使わない過去形を確認する。"
+      },
+      "sentenceExplanationJa": "「I met another fan last week.」は「私は先週別のファンに会いました。」という意味です。go→went、buy→boughtなど、edを使わない過去形を確認する。 この文の対象部分は「met」。まとまりは I → met → another fan → last week. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "met",
+          "lemma": "meet",
+          "meaningJa": "会う・集まる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "another",
+          "lemma": "another",
+          "meaningJa": "別の・もう一つの",
+          "kind": "word"
+        },
+        {
+          "expression": "fan",
+          "lemma": "fan",
+          "meaningJa": "ファン",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "week",
+          "lemma": "week",
+          "meaningJa": "週・1週間",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ another fan last week.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 5,
+          "answer": "met"
+        },
+        "options": [
+          {
+            "id": "G24-E08-C2",
+            "text": "meet",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「met」を使います。「meet」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E08-C4",
+            "text": "meeting",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「met」を使います。「meeting」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E08-C1",
+            "text": "met",
+            "isCorrect": true,
+            "explanationJa": "正解。go→went、buy→boughtなど、edを使わない過去形を確認する。"
+          },
+          {
+            "id": "G24-E08-C3",
+            "text": "meets",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「met」を使います。「meets」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G24-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G24-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G24-E08-B02",
+            "text": "met",
+            "role": "required"
+          },
+          {
+            "id": "G24-E08-B03",
+            "text": "another fan",
+            "role": "required"
+          },
+          {
+            "id": "G24-E08-B04",
+            "text": "last week.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G24-E08-B01",
+          "G24-E08-B02",
+          "G24-E08-B03",
+          "G24-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E08-B01",
+            "G24-E08-B02",
+            "G24-E08-B03",
+            "G24-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G24-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G24-E08-B02",
+            "text": "met",
+            "role": "required"
+          },
+          {
+            "id": "G24-E08-B03",
+            "text": "another fan",
+            "role": "required"
+          },
+          {
+            "id": "G24-E08-B04",
+            "text": "last week.",
+            "role": "required"
+          },
+          {
+            "id": "G24-E08-D01",
+            "text": "meet",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「met」と比較してください。"
+          },
+          {
+            "id": "G24-E08-D02",
+            "text": "meets",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「met」と比較してください。"
+          },
+          {
+            "id": "G24-E08-D03",
+            "text": "meeting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「met」と比較してください。"
+          },
+          {
+            "id": "G24-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「met」と比較してください。"
+          },
+          {
+            "id": "G24-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「met」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G24-E08-D01",
+            "text": "meet",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「met」と比較してください。"
+          },
+          {
+            "id": "G24-E08-D02",
+            "text": "meets",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「met」と比較してください。"
+          },
+          {
+            "id": "G24-E08-D03",
+            "text": "meeting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「met」と比較してください。"
+          },
+          {
+            "id": "G24-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「met」と比較してください。"
+          },
+          {
+            "id": "G24-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「met」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G24-E08-B01",
+          "G24-E08-B02",
+          "G24-E08-B03",
+          "G24-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E08-B01",
+            "G24-E08-B02",
+            "G24-E08-B03",
+            "G24-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G24-E08-AUDIO",
+        "text": "I met another fan last week.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G24-E09",
+      "grammarId": "G24",
+      "grammarNameJa": "一般動詞の過去形・不規則動詞",
+      "english": "My friend gave me a card yesterday.",
+      "translationJa": "私の友達は昨日私にカードをくれました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "gave",
+        "start": 10,
+        "endExclusive": 14,
+        "explanationJa": "go→went、buy→boughtなど、edを使わない過去形を確認する。"
+      },
+      "sentenceExplanationJa": "「My friend gave me a card yesterday.」は「私の友達は昨日私にカードをくれました。」という意味です。go→went、buy→boughtなど、edを使わない過去形を確認する。 この文の対象部分は「gave」。まとまりは My friend → gave → me a card → yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "friend",
+          "lemma": "friend",
+          "meaningJa": "友達",
+          "kind": "word"
+        },
+        {
+          "expression": "gave",
+          "lemma": "give",
+          "meaningJa": "与える・くれる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "card",
+          "lemma": "card",
+          "meaningJa": "カード",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My friend ___ me a card yesterday.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 14,
+          "answer": "gave"
+        },
+        "options": [
+          {
+            "id": "G24-E09-C1",
+            "text": "gave",
+            "isCorrect": true,
+            "explanationJa": "正解。go→went、buy→boughtなど、edを使わない過去形を確認する。"
+          },
+          {
+            "id": "G24-E09-C3",
+            "text": "gives",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「gave」を使います。「gives」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E09-C2",
+            "text": "give",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「gave」を使います。「give」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E09-C4",
+            "text": "giving",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「gave」を使います。「giving」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G24-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G24-E09-B01",
+            "text": "My friend",
+            "role": "required"
+          },
+          {
+            "id": "G24-E09-B02",
+            "text": "gave",
+            "role": "required"
+          },
+          {
+            "id": "G24-E09-B03",
+            "text": "me a card",
+            "role": "required"
+          },
+          {
+            "id": "G24-E09-B04",
+            "text": "yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G24-E09-B01",
+          "G24-E09-B02",
+          "G24-E09-B03",
+          "G24-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E09-B01",
+            "G24-E09-B02",
+            "G24-E09-B03",
+            "G24-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G24-E09-B01",
+            "text": "My friend",
+            "role": "required"
+          },
+          {
+            "id": "G24-E09-B02",
+            "text": "gave",
+            "role": "required"
+          },
+          {
+            "id": "G24-E09-B03",
+            "text": "me a card",
+            "role": "required"
+          },
+          {
+            "id": "G24-E09-B04",
+            "text": "yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G24-E09-D01",
+            "text": "give",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「gave」と比較してください。"
+          },
+          {
+            "id": "G24-E09-D02",
+            "text": "gives",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「gave」と比較してください。"
+          },
+          {
+            "id": "G24-E09-D03",
+            "text": "giving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「gave」と比較してください。"
+          },
+          {
+            "id": "G24-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「gave」と比較してください。"
+          },
+          {
+            "id": "G24-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「gave」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G24-E09-D01",
+            "text": "give",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「gave」と比較してください。"
+          },
+          {
+            "id": "G24-E09-D02",
+            "text": "gives",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「gave」と比較してください。"
+          },
+          {
+            "id": "G24-E09-D03",
+            "text": "giving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「gave」と比較してください。"
+          },
+          {
+            "id": "G24-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「gave」と比較してください。"
+          },
+          {
+            "id": "G24-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「gave」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G24-E09-B01",
+          "G24-E09-B02",
+          "G24-E09-B03",
+          "G24-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E09-B01",
+            "G24-E09-B02",
+            "G24-E09-B03",
+            "G24-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G24-E09-AUDIO",
+        "text": "My friend gave me a card yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G24-E10",
+      "grammarId": "G24",
+      "grammarNameJa": "一般動詞の過去形・不規則動詞",
+      "english": "I ate dinner after the concert.",
+      "translationJa": "私はコンサート後に夕食を食べました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "ate",
+        "start": 2,
+        "endExclusive": 5,
+        "explanationJa": "go→went、buy→boughtなど、edを使わない過去形を確認する。"
+      },
+      "sentenceExplanationJa": "「I ate dinner after the concert.」は「私はコンサート後に夕食を食べました。」という意味です。go→went、buy→boughtなど、edを使わない過去形を確認する。 この文の対象部分は「ate」。まとまりは I → ate → dinner → after the concert. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "ate",
+          "lemma": "eat",
+          "meaningJa": "食べる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "dinner",
+          "lemma": "dinner",
+          "meaningJa": "夕食",
+          "kind": "word"
+        },
+        {
+          "expression": "after",
+          "lemma": "after",
+          "meaningJa": "～の後に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ dinner after the concert.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 5,
+          "answer": "ate"
+        },
+        "options": [
+          {
+            "id": "G24-E10-C4",
+            "text": "eating",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「ate」を使います。「eating」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E10-C1",
+            "text": "ate",
+            "isCorrect": true,
+            "explanationJa": "正解。go→went、buy→boughtなど、edを使わない過去形を確認する。"
+          },
+          {
+            "id": "G24-E10-C2",
+            "text": "eat",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「ate」を使います。「eat」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G24-E10-C3",
+            "text": "eats",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「ate」を使います。「eats」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G24-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G24-E10-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G24-E10-B02",
+            "text": "ate",
+            "role": "required"
+          },
+          {
+            "id": "G24-E10-B03",
+            "text": "dinner",
+            "role": "required"
+          },
+          {
+            "id": "G24-E10-B04",
+            "text": "after the concert.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G24-E10-B01",
+          "G24-E10-B02",
+          "G24-E10-B03",
+          "G24-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E10-B01",
+            "G24-E10-B02",
+            "G24-E10-B03",
+            "G24-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G24-E10-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G24-E10-B02",
+            "text": "ate",
+            "role": "required"
+          },
+          {
+            "id": "G24-E10-B03",
+            "text": "dinner",
+            "role": "required"
+          },
+          {
+            "id": "G24-E10-B04",
+            "text": "after the concert.",
+            "role": "required"
+          },
+          {
+            "id": "G24-E10-D01",
+            "text": "eat",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ate」と比較してください。"
+          },
+          {
+            "id": "G24-E10-D02",
+            "text": "eats",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ate」と比較してください。"
+          },
+          {
+            "id": "G24-E10-D03",
+            "text": "eating",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ate」と比較してください。"
+          },
+          {
+            "id": "G24-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ate」と比較してください。"
+          },
+          {
+            "id": "G24-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ate」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G24-E10-D01",
+            "text": "eat",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ate」と比較してください。"
+          },
+          {
+            "id": "G24-E10-D02",
+            "text": "eats",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ate」と比較してください。"
+          },
+          {
+            "id": "G24-E10-D03",
+            "text": "eating",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ate」と比較してください。"
+          },
+          {
+            "id": "G24-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ate」と比較してください。"
+          },
+          {
+            "id": "G24-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ate」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G24-E10-B01",
+          "G24-E10-B02",
+          "G24-E10-B03",
+          "G24-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G24-E10-B01",
+            "G24-E10-B02",
+            "G24-E10-B03",
+            "G24-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G24-E10-AUDIO",
+        "text": "I ate dinner after the concert.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2353 @@
+{
+  "grammarId": "G38",
+  "examples": [
+    {
+      "id": "G38-E01",
+      "grammarId": "G38",
+      "grammarNameJa": "授与動詞・SVOO",
+      "english": "She gave me a card.",
+      "translationJa": "彼女は私にカードをくれました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "me",
+        "start": 9,
+        "endExclusive": 11,
+        "explanationJa": "give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+      },
+      "sentenceExplanationJa": "「She gave me a card.」は「彼女は私にカードをくれました。」という意味です。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。 この文の対象部分は「me」。まとまりは She → gave → me → a card. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "gave",
+          "lemma": "give",
+          "meaningJa": "与える・くれる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "card",
+          "lemma": "card",
+          "meaningJa": "カード",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She gave ___ a card.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 11,
+          "answer": "me"
+        },
+        "options": [
+          {
+            "id": "G38-E01-C1",
+            "text": "me",
+            "isCorrect": true,
+            "explanationJa": "正解。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+          },
+          {
+            "id": "G38-E01-C2",
+            "text": "I",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「I」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E01-C4",
+            "text": "mine",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「mine」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E01-C3",
+            "text": "my",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「my」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G38-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G38-E01-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G38-E01-B02",
+            "text": "gave",
+            "role": "required"
+          },
+          {
+            "id": "G38-E01-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G38-E01-B04",
+            "text": "a card.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G38-E01-B01",
+          "G38-E01-B02",
+          "G38-E01-B03",
+          "G38-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E01-B01",
+            "G38-E01-B02",
+            "G38-E01-B03",
+            "G38-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G38-E01-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G38-E01-B02",
+            "text": "gave",
+            "role": "required"
+          },
+          {
+            "id": "G38-E01-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G38-E01-B04",
+            "text": "a card.",
+            "role": "required"
+          },
+          {
+            "id": "G38-E01-D01",
+            "text": "I",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E01-D02",
+            "text": "my",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E01-D03",
+            "text": "mine",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G38-E01-D01",
+            "text": "I",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E01-D02",
+            "text": "my",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E01-D03",
+            "text": "mine",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G38-E01-B01",
+          "G38-E01-B02",
+          "G38-E01-B03",
+          "G38-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E01-B01",
+            "G38-E01-B02",
+            "G38-E01-B03",
+            "G38-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G38-E01-AUDIO",
+        "text": "She gave me a card.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G38-E02",
+      "grammarId": "G38",
+      "grammarNameJa": "授与動詞・SVOO",
+      "english": "I showed him my ticket.",
+      "translationJa": "私は彼にチケットを見せました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "him",
+        "start": 9,
+        "endExclusive": 12,
+        "explanationJa": "give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+      },
+      "sentenceExplanationJa": "「I showed him my ticket.」は「私は彼にチケットを見せました。」という意味です。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。 この文の対象部分は「him」。まとまりは I → showed → him → my ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "showed",
+          "lemma": "show",
+          "meaningJa": "公演・見せる（過去形・過去分詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "him",
+          "lemma": "him",
+          "meaningJa": "彼を・彼に",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I showed ___ my ticket.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 12,
+          "answer": "him"
+        },
+        "options": [
+          {
+            "id": "G38-E02-C2",
+            "text": "he",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「him」を使います。「he」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E02-C4",
+            "text": "himself",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「him」を使います。「himself」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E02-C1",
+            "text": "him",
+            "isCorrect": true,
+            "explanationJa": "正解。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+          },
+          {
+            "id": "G38-E02-C3",
+            "text": "his",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「him」を使います。「his」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G38-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G38-E02-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G38-E02-B02",
+            "text": "showed",
+            "role": "required"
+          },
+          {
+            "id": "G38-E02-B03",
+            "text": "him",
+            "role": "required"
+          },
+          {
+            "id": "G38-E02-B04",
+            "text": "my ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G38-E02-B01",
+          "G38-E02-B02",
+          "G38-E02-B03",
+          "G38-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E02-B01",
+            "G38-E02-B02",
+            "G38-E02-B03",
+            "G38-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G38-E02-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G38-E02-B02",
+            "text": "showed",
+            "role": "required"
+          },
+          {
+            "id": "G38-E02-B03",
+            "text": "him",
+            "role": "required"
+          },
+          {
+            "id": "G38-E02-B04",
+            "text": "my ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G38-E02-D01",
+            "text": "he",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E02-D02",
+            "text": "his",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E02-D03",
+            "text": "himself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G38-E02-D01",
+            "text": "he",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E02-D02",
+            "text": "his",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E02-D03",
+            "text": "himself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G38-E02-B01",
+          "G38-E02-B02",
+          "G38-E02-B03",
+          "G38-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E02-B01",
+            "G38-E02-B02",
+            "G38-E02-B03",
+            "G38-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G38-E02-AUDIO",
+        "text": "I showed him my ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G38-E03",
+      "grammarId": "G38",
+      "grammarNameJa": "授与動詞・SVOO",
+      "english": "He sent us a photo.",
+      "translationJa": "彼は私たちに写真を送りました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "us",
+        "start": 8,
+        "endExclusive": 10,
+        "explanationJa": "give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+      },
+      "sentenceExplanationJa": "「He sent us a photo.」は「彼は私たちに写真を送りました。」という意味です。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。 この文の対象部分は「us」。まとまりは He → sent → us → a photo. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "sent",
+          "lemma": "send",
+          "meaningJa": "送る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "photo",
+          "lemma": "photo",
+          "meaningJa": "写真",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He sent ___ a photo.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 10,
+          "answer": "us"
+        },
+        "options": [
+          {
+            "id": "G38-E03-C2",
+            "text": "we",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「us」を使います。「we」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E03-C3",
+            "text": "our",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「us」を使います。「our」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E03-C1",
+            "text": "us",
+            "isCorrect": true,
+            "explanationJa": "正解。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+          },
+          {
+            "id": "G38-E03-C4",
+            "text": "ours",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「us」を使います。「ours」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G38-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G38-E03-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G38-E03-B02",
+            "text": "sent",
+            "role": "required"
+          },
+          {
+            "id": "G38-E03-B03",
+            "text": "us",
+            "role": "required"
+          },
+          {
+            "id": "G38-E03-B04",
+            "text": "a photo.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G38-E03-B01",
+          "G38-E03-B02",
+          "G38-E03-B03",
+          "G38-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E03-B01",
+            "G38-E03-B02",
+            "G38-E03-B03",
+            "G38-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G38-E03-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G38-E03-B02",
+            "text": "sent",
+            "role": "required"
+          },
+          {
+            "id": "G38-E03-B03",
+            "text": "us",
+            "role": "required"
+          },
+          {
+            "id": "G38-E03-B04",
+            "text": "a photo.",
+            "role": "required"
+          },
+          {
+            "id": "G38-E03-D01",
+            "text": "we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E03-D02",
+            "text": "our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E03-D03",
+            "text": "ours",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G38-E03-D01",
+            "text": "we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E03-D02",
+            "text": "our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E03-D03",
+            "text": "ours",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G38-E03-B01",
+          "G38-E03-B02",
+          "G38-E03-B03",
+          "G38-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E03-B01",
+            "G38-E03-B02",
+            "G38-E03-B03",
+            "G38-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G38-E03-AUDIO",
+        "text": "He sent us a photo.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G38-E04",
+      "grammarId": "G38",
+      "grammarNameJa": "授与動詞・SVOO",
+      "english": "We told her the news.",
+      "translationJa": "私たちは彼女にその知らせを伝えました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "her",
+        "start": 8,
+        "endExclusive": 11,
+        "explanationJa": "give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+      },
+      "sentenceExplanationJa": "「We told her the news.」は「私たちは彼女にその知らせを伝えました。」という意味です。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。 この文の対象部分は「her」。まとまりは We → told → her → the news. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "told",
+          "lemma": "tell",
+          "meaningJa": "伝える・言う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "her",
+          "lemma": "her",
+          "meaningJa": "彼女を・彼女に・彼女の",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "news",
+          "lemma": "news",
+          "meaningJa": "知らせ・ニュース",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We told ___ the news.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 11,
+          "answer": "her"
+        },
+        "options": [
+          {
+            "id": "G38-E04-C2",
+            "text": "she",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「her」を使います。「she」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E04-C3",
+            "text": "hers",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「her」を使います。「hers」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E04-C1",
+            "text": "her",
+            "isCorrect": true,
+            "explanationJa": "正解。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+          },
+          {
+            "id": "G38-E04-C4",
+            "text": "herself",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「her」を使います。「herself」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G38-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G38-E04-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G38-E04-B02",
+            "text": "told",
+            "role": "required"
+          },
+          {
+            "id": "G38-E04-B03",
+            "text": "her",
+            "role": "required"
+          },
+          {
+            "id": "G38-E04-B04",
+            "text": "the news.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G38-E04-B01",
+          "G38-E04-B02",
+          "G38-E04-B03",
+          "G38-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E04-B01",
+            "G38-E04-B02",
+            "G38-E04-B03",
+            "G38-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G38-E04-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G38-E04-B02",
+            "text": "told",
+            "role": "required"
+          },
+          {
+            "id": "G38-E04-B03",
+            "text": "her",
+            "role": "required"
+          },
+          {
+            "id": "G38-E04-B04",
+            "text": "the news.",
+            "role": "required"
+          },
+          {
+            "id": "G38-E04-D01",
+            "text": "she",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E04-D02",
+            "text": "hers",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E04-D03",
+            "text": "herself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G38-E04-D01",
+            "text": "she",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E04-D02",
+            "text": "hers",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E04-D03",
+            "text": "herself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G38-E04-B01",
+          "G38-E04-B02",
+          "G38-E04-B03",
+          "G38-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E04-B01",
+            "G38-E04-B02",
+            "G38-E04-B03",
+            "G38-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G38-E04-AUDIO",
+        "text": "We told her the news.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G38-E05",
+      "grammarId": "G38",
+      "grammarNameJa": "授与動詞・SVOO",
+      "english": "My sister bought me a towel.",
+      "translationJa": "私の姉は私にタオルを買ってくれました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "me",
+        "start": 17,
+        "endExclusive": 19,
+        "explanationJa": "give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+      },
+      "sentenceExplanationJa": "「My sister bought me a towel.」は「私の姉は私にタオルを買ってくれました。」という意味です。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。 この文の対象部分は「me」。まとまりは My sister → bought → me → a towel. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "sister",
+          "lemma": "sister",
+          "meaningJa": "姉・妹",
+          "kind": "word"
+        },
+        {
+          "expression": "bought",
+          "lemma": "buy",
+          "meaningJa": "買う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My sister bought ___ a towel.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 19,
+          "answer": "me"
+        },
+        "options": [
+          {
+            "id": "G38-E05-C3",
+            "text": "my",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「my」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E05-C4",
+            "text": "mine",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「mine」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E05-C2",
+            "text": "I",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「I」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E05-C1",
+            "text": "me",
+            "isCorrect": true,
+            "explanationJa": "正解。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+          }
+        ],
+        "correctOptionId": "G38-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G38-E05-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G38-E05-B02",
+            "text": "bought",
+            "role": "required"
+          },
+          {
+            "id": "G38-E05-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G38-E05-B04",
+            "text": "a towel.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G38-E05-B01",
+          "G38-E05-B02",
+          "G38-E05-B03",
+          "G38-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E05-B01",
+            "G38-E05-B02",
+            "G38-E05-B03",
+            "G38-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G38-E05-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G38-E05-B02",
+            "text": "bought",
+            "role": "required"
+          },
+          {
+            "id": "G38-E05-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G38-E05-B04",
+            "text": "a towel.",
+            "role": "required"
+          },
+          {
+            "id": "G38-E05-D01",
+            "text": "I",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E05-D02",
+            "text": "my",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E05-D03",
+            "text": "mine",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G38-E05-D01",
+            "text": "I",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E05-D02",
+            "text": "my",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E05-D03",
+            "text": "mine",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G38-E05-B01",
+          "G38-E05-B02",
+          "G38-E05-B03",
+          "G38-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E05-B01",
+            "G38-E05-B02",
+            "G38-E05-B03",
+            "G38-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G38-E05-AUDIO",
+        "text": "My sister bought me a towel.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G38-E06",
+      "grammarId": "G38",
+      "grammarNameJa": "授与動詞・SVOO",
+      "english": "Please teach us this song.",
+      "translationJa": "私たちにこの曲を教えてください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "us",
+        "start": 13,
+        "endExclusive": 15,
+        "explanationJa": "give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+      },
+      "sentenceExplanationJa": "「Please teach us this song.」は「私たちにこの曲を教えてください。」という意味です。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。 この文の対象部分は「us」。まとまりは Please → teach → us → this song. の順です。",
+      "glossary": [
+        {
+          "expression": "Please",
+          "lemma": "please",
+          "meaningJa": "どうぞ・～してください",
+          "kind": "word"
+        },
+        {
+          "expression": "teach",
+          "lemma": "teach",
+          "meaningJa": "教える",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Please teach ___ this song.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 15,
+          "answer": "us"
+        },
+        "options": [
+          {
+            "id": "G38-E06-C4",
+            "text": "ours",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「us」を使います。「ours」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E06-C2",
+            "text": "we",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「us」を使います。「we」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E06-C3",
+            "text": "our",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「us」を使います。「our」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E06-C1",
+            "text": "us",
+            "isCorrect": true,
+            "explanationJa": "正解。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+          }
+        ],
+        "correctOptionId": "G38-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G38-E06-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G38-E06-B02",
+            "text": "teach",
+            "role": "required"
+          },
+          {
+            "id": "G38-E06-B03",
+            "text": "us",
+            "role": "required"
+          },
+          {
+            "id": "G38-E06-B04",
+            "text": "this song.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G38-E06-B01",
+          "G38-E06-B02",
+          "G38-E06-B03",
+          "G38-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E06-B01",
+            "G38-E06-B02",
+            "G38-E06-B03",
+            "G38-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G38-E06-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G38-E06-B02",
+            "text": "teach",
+            "role": "required"
+          },
+          {
+            "id": "G38-E06-B03",
+            "text": "us",
+            "role": "required"
+          },
+          {
+            "id": "G38-E06-B04",
+            "text": "this song.",
+            "role": "required"
+          },
+          {
+            "id": "G38-E06-D01",
+            "text": "we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E06-D02",
+            "text": "our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E06-D03",
+            "text": "ours",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G38-E06-D01",
+            "text": "we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E06-D02",
+            "text": "our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E06-D03",
+            "text": "ours",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G38-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G38-E06-B01",
+          "G38-E06-B02",
+          "G38-E06-B03",
+          "G38-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E06-B01",
+            "G38-E06-B02",
+            "G38-E06-B03",
+            "G38-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G38-E06-AUDIO",
+        "text": "Please teach us this song.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G38-E07",
+      "grammarId": "G38",
+      "grammarNameJa": "授与動詞・SVOO",
+      "english": "I made her a small gift.",
+      "translationJa": "私は彼女に小さなプレゼントを作りました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "her",
+        "start": 7,
+        "endExclusive": 10,
+        "explanationJa": "give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+      },
+      "sentenceExplanationJa": "「I made her a small gift.」は「私は彼女に小さなプレゼントを作りました。」という意味です。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。 この文の対象部分は「her」。まとまりは I → made → her → a small gift. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "made",
+          "lemma": "make",
+          "meaningJa": "作る・～にさせる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "her",
+          "lemma": "her",
+          "meaningJa": "彼女を・彼女に・彼女の",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "small",
+          "lemma": "small",
+          "meaningJa": "小さい",
+          "kind": "word"
+        },
+        {
+          "expression": "gift",
+          "lemma": "gift",
+          "meaningJa": "プレゼント",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I made ___ a small gift.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 10,
+          "answer": "her"
+        },
+        "options": [
+          {
+            "id": "G38-E07-C1",
+            "text": "her",
+            "isCorrect": true,
+            "explanationJa": "正解。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+          },
+          {
+            "id": "G38-E07-C4",
+            "text": "herself",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「her」を使います。「herself」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E07-C2",
+            "text": "she",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「her」を使います。「she」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E07-C3",
+            "text": "hers",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「her」を使います。「hers」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G38-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G38-E07-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G38-E07-B02",
+            "text": "made",
+            "role": "required"
+          },
+          {
+            "id": "G38-E07-B03",
+            "text": "her",
+            "role": "required"
+          },
+          {
+            "id": "G38-E07-B04",
+            "text": "a small gift.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G38-E07-B01",
+          "G38-E07-B02",
+          "G38-E07-B03",
+          "G38-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E07-B01",
+            "G38-E07-B02",
+            "G38-E07-B03",
+            "G38-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G38-E07-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G38-E07-B02",
+            "text": "made",
+            "role": "required"
+          },
+          {
+            "id": "G38-E07-B03",
+            "text": "her",
+            "role": "required"
+          },
+          {
+            "id": "G38-E07-B04",
+            "text": "a small gift.",
+            "role": "required"
+          },
+          {
+            "id": "G38-E07-D01",
+            "text": "she",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E07-D02",
+            "text": "hers",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E07-D03",
+            "text": "herself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G38-E07-D01",
+            "text": "she",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E07-D02",
+            "text": "hers",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E07-D03",
+            "text": "herself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G38-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G38-E07-B01",
+          "G38-E07-B02",
+          "G38-E07-B03",
+          "G38-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E07-B01",
+            "G38-E07-B02",
+            "G38-E07-B03",
+            "G38-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G38-E07-AUDIO",
+        "text": "I made her a small gift.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G38-E08",
+      "grammarId": "G38",
+      "grammarNameJa": "授与動詞・SVOO",
+      "english": "He lent me his headphones.",
+      "translationJa": "彼は私にヘッドホンを貸してくれました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "me",
+        "start": 8,
+        "endExclusive": 10,
+        "explanationJa": "give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+      },
+      "sentenceExplanationJa": "「He lent me his headphones.」は「彼は私にヘッドホンを貸してくれました。」という意味です。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。 この文の対象部分は「me」。まとまりは He → lent → me → his headphones. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "lent",
+          "lemma": "lend",
+          "meaningJa": "貸す（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "his",
+          "lemma": "his",
+          "meaningJa": "彼の・彼のもの",
+          "kind": "word"
+        },
+        {
+          "expression": "headphones",
+          "lemma": "headphones",
+          "meaningJa": "ヘッドホン",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He lent ___ his headphones.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 10,
+          "answer": "me"
+        },
+        "options": [
+          {
+            "id": "G38-E08-C3",
+            "text": "my",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「my」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E08-C4",
+            "text": "mine",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「mine」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E08-C2",
+            "text": "I",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「I」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E08-C1",
+            "text": "me",
+            "isCorrect": true,
+            "explanationJa": "正解。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+          }
+        ],
+        "correctOptionId": "G38-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G38-E08-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G38-E08-B02",
+            "text": "lent",
+            "role": "required"
+          },
+          {
+            "id": "G38-E08-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G38-E08-B04",
+            "text": "his headphones.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G38-E08-B01",
+          "G38-E08-B02",
+          "G38-E08-B03",
+          "G38-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E08-B01",
+            "G38-E08-B02",
+            "G38-E08-B03",
+            "G38-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G38-E08-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G38-E08-B02",
+            "text": "lent",
+            "role": "required"
+          },
+          {
+            "id": "G38-E08-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G38-E08-B04",
+            "text": "his headphones.",
+            "role": "required"
+          },
+          {
+            "id": "G38-E08-D01",
+            "text": "I",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E08-D02",
+            "text": "my",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E08-D03",
+            "text": "mine",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G38-E08-D01",
+            "text": "I",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E08-D02",
+            "text": "my",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E08-D03",
+            "text": "mine",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G38-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G38-E08-B01",
+          "G38-E08-B02",
+          "G38-E08-B03",
+          "G38-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E08-B01",
+            "G38-E08-B02",
+            "G38-E08-B03",
+            "G38-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G38-E08-AUDIO",
+        "text": "He lent me his headphones.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G38-E09",
+      "grammarId": "G38",
+      "grammarNameJa": "授与動詞・SVOO",
+      "english": "She asked him a question.",
+      "translationJa": "彼女は彼に質問をしました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "him",
+        "start": 10,
+        "endExclusive": 13,
+        "explanationJa": "give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+      },
+      "sentenceExplanationJa": "「She asked him a question.」は「彼女は彼に質問をしました。」という意味です。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。 この文の対象部分は「him」。まとまりは She → asked → him → a question. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "asked",
+          "lemma": "ask",
+          "meaningJa": "尋ねる・頼む（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "him",
+          "lemma": "him",
+          "meaningJa": "彼を・彼に",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "question",
+          "lemma": "question",
+          "meaningJa": "質問・問題",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She asked ___ a question.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 13,
+          "answer": "him"
+        },
+        "options": [
+          {
+            "id": "G38-E09-C3",
+            "text": "his",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「him」を使います。「his」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E09-C4",
+            "text": "himself",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「him」を使います。「himself」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E09-C1",
+            "text": "him",
+            "isCorrect": true,
+            "explanationJa": "正解。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+          },
+          {
+            "id": "G38-E09-C2",
+            "text": "he",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「him」を使います。「he」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G38-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G38-E09-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G38-E09-B02",
+            "text": "asked",
+            "role": "required"
+          },
+          {
+            "id": "G38-E09-B03",
+            "text": "him",
+            "role": "required"
+          },
+          {
+            "id": "G38-E09-B04",
+            "text": "a question.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G38-E09-B01",
+          "G38-E09-B02",
+          "G38-E09-B03",
+          "G38-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E09-B01",
+            "G38-E09-B02",
+            "G38-E09-B03",
+            "G38-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G38-E09-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G38-E09-B02",
+            "text": "asked",
+            "role": "required"
+          },
+          {
+            "id": "G38-E09-B03",
+            "text": "him",
+            "role": "required"
+          },
+          {
+            "id": "G38-E09-B04",
+            "text": "a question.",
+            "role": "required"
+          },
+          {
+            "id": "G38-E09-D01",
+            "text": "he",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E09-D02",
+            "text": "his",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E09-D03",
+            "text": "himself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G38-E09-D01",
+            "text": "he",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E09-D02",
+            "text": "his",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E09-D03",
+            "text": "himself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G38-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G38-E09-B01",
+          "G38-E09-B02",
+          "G38-E09-B03",
+          "G38-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E09-B01",
+            "G38-E09-B02",
+            "G38-E09-B03",
+            "G38-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G38-E09-AUDIO",
+        "text": "She asked him a question.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G38-E10",
+      "grammarId": "G38",
+      "grammarNameJa": "授与動詞・SVOO",
+      "english": "The guide showed them the way.",
+      "translationJa": "案内係は彼らに道を教えました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "them",
+        "start": 17,
+        "endExclusive": 21,
+        "explanationJa": "give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+      },
+      "sentenceExplanationJa": "「The guide showed them the way.」は「案内係は彼らに道を教えました。」という意味です。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。 この文の対象部分は「them」。まとまりは The guide → showed → them → the way. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "guide",
+          "lemma": "guide",
+          "meaningJa": "案内係・案内する",
+          "kind": "word"
+        },
+        {
+          "expression": "showed",
+          "lemma": "show",
+          "meaningJa": "公演・見せる（過去形・過去分詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "them",
+          "lemma": "them",
+          "meaningJa": "彼らを・彼らに",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "way",
+          "lemma": "way",
+          "meaningJa": "道・方法",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The guide showed ___ the way.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 21,
+          "answer": "them"
+        },
+        "options": [
+          {
+            "id": "G38-E10-C4",
+            "text": "theirs",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「them」を使います。「theirs」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E10-C2",
+            "text": "they",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「them」を使います。「they」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G38-E10-C1",
+            "text": "them",
+            "isCorrect": true,
+            "explanationJa": "正解。give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。"
+          },
+          {
+            "id": "G38-E10-C3",
+            "text": "their",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「them」を使います。「their」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G38-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G38-E10-B01",
+            "text": "The guide",
+            "role": "required"
+          },
+          {
+            "id": "G38-E10-B02",
+            "text": "showed",
+            "role": "required"
+          },
+          {
+            "id": "G38-E10-B03",
+            "text": "them",
+            "role": "required"
+          },
+          {
+            "id": "G38-E10-B04",
+            "text": "the way.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G38-E10-B01",
+          "G38-E10-B02",
+          "G38-E10-B03",
+          "G38-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E10-B01",
+            "G38-E10-B02",
+            "G38-E10-B03",
+            "G38-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G38-E10-B01",
+            "text": "The guide",
+            "role": "required"
+          },
+          {
+            "id": "G38-E10-B02",
+            "text": "showed",
+            "role": "required"
+          },
+          {
+            "id": "G38-E10-B03",
+            "text": "them",
+            "role": "required"
+          },
+          {
+            "id": "G38-E10-B04",
+            "text": "the way.",
+            "role": "required"
+          },
+          {
+            "id": "G38-E10-D01",
+            "text": "they",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G38-E10-D02",
+            "text": "their",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G38-E10-D03",
+            "text": "theirs",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G38-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G38-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G38-E10-D01",
+            "text": "they",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G38-E10-D02",
+            "text": "their",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G38-E10-D03",
+            "text": "theirs",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G38-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G38-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G38-E10-B01",
+          "G38-E10-B02",
+          "G38-E10-B03",
+          "G38-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G38-E10-B01",
+            "G38-E10-B02",
+            "G38-E10-B03",
+            "G38-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G38-E10-AUDIO",
+        "text": "The guide showed them the way.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

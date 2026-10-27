@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "requiresCommitBeforeVisual": [
+    "packOpen",
+    "levelUp",
+    "stageResult",
+    "rpGain"
+  ],
+  "resultTimelineMs": {
+    "stageResult": 0,
+    "accuracy": 250,
+    "speed": 700,
+    "teamBonus": 1150,
+    "total": 1700,
+    "stars": 2400,
+    "newRecord": 3000,
+    "rp": 3350,
+    "buttons": 3800
+  },
+  "resultSkip": "Display final saved values; enable buttons within 300ms; never regrant rewards",
+  "durationsMs": {
+    "screenExit": 100,
+    "screenEnter": 160,
+    "ready": 700,
+    "correct": 700,
+    "miss": 900,
+    "timeUp": 400,
+    "cardFlipHalf": 160,
+    "levelUp": 600,
+    "star": 180
+  },
+  "reducedMotion": "50-100ms opacity; no flashes or movement",
+  "backgroundPlayAlpha": 0.55
+}

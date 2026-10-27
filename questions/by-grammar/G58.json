@@ -1,0 +1,2508 @@
+{
+  "grammarId": "G58",
+  "examples": [
+    {
+      "id": "G58-E01",
+      "grammarId": "G58",
+      "grammarNameJa": "分詞の後置修飾",
+      "english": "The girl singing on the stage is my friend.",
+      "translationJa": "ステージで歌っている女の子は私の友達です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "singing",
+        "start": 9,
+        "endExclusive": 16,
+        "explanationJa": "名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+      },
+      "sentenceExplanationJa": "「The girl singing on the stage is my friend.」は「ステージで歌っている女の子は私の友達です。」という意味です。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。 この文の対象部分は「singing」。まとまりは The girl → singing → on the stage → is my friend. の順です。",
+      "glossary": [
+        {
+          "expression": "on the stage",
+          "meaningJa": "ステージで",
+          "kind": "phrase"
+        },
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "girl",
+          "lemma": "girl",
+          "meaningJa": "女の子",
+          "kind": "word"
+        },
+        {
+          "expression": "singing",
+          "lemma": "sing",
+          "meaningJa": "歌う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "stage",
+          "lemma": "stage",
+          "meaningJa": "ステージ",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "friend",
+          "lemma": "friend",
+          "meaningJa": "友達",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The girl ___ on the stage is my friend.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 16,
+          "answer": "singing"
+        },
+        "options": [
+          {
+            "id": "G58-E01-C3",
+            "text": "sings",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「singing」を使います。「sings」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E01-C1",
+            "text": "singing",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+          },
+          {
+            "id": "G58-E01-C4",
+            "text": "sing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「singing」を使います。「sing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E01-C2",
+            "text": "sung",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「singing」を使います。「sung」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G58-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G58-E01-B01",
+            "text": "The girl",
+            "role": "required"
+          },
+          {
+            "id": "G58-E01-B02",
+            "text": "singing",
+            "role": "required"
+          },
+          {
+            "id": "G58-E01-B03",
+            "text": "on the stage",
+            "role": "required"
+          },
+          {
+            "id": "G58-E01-B04",
+            "text": "is my friend.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G58-E01-B01",
+          "G58-E01-B02",
+          "G58-E01-B03",
+          "G58-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E01-B01",
+            "G58-E01-B02",
+            "G58-E01-B03",
+            "G58-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G58-E01-B01",
+            "text": "The girl",
+            "role": "required"
+          },
+          {
+            "id": "G58-E01-B02",
+            "text": "singing",
+            "role": "required"
+          },
+          {
+            "id": "G58-E01-B03",
+            "text": "on the stage",
+            "role": "required"
+          },
+          {
+            "id": "G58-E01-B04",
+            "text": "is my friend.",
+            "role": "required"
+          },
+          {
+            "id": "G58-E01-D01",
+            "text": "sung",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G58-E01-D02",
+            "text": "sings",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G58-E01-D03",
+            "text": "sing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G58-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G58-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G58-E01-D01",
+            "text": "sung",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G58-E01-D02",
+            "text": "sings",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G58-E01-D03",
+            "text": "sing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G58-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          },
+          {
+            "id": "G58-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「singing」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G58-E01-B01",
+          "G58-E01-B02",
+          "G58-E01-B03",
+          "G58-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E01-B01",
+            "G58-E01-B02",
+            "G58-E01-B03",
+            "G58-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G58-E01-AUDIO",
+        "text": "The girl singing on the stage is my friend.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G58-E02",
+      "grammarId": "G58",
+      "grammarNameJa": "分詞の後置修飾",
+      "english": "The photos taken yesterday are on my phone.",
+      "translationJa": "昨日撮られた写真は私の携帯電話に入っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "taken",
+        "start": 11,
+        "endExclusive": 16,
+        "explanationJa": "名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+      },
+      "sentenceExplanationJa": "「The photos taken yesterday are on my phone.」は「昨日撮られた写真は私の携帯電話に入っています。」という意味です。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。 この文の対象部分は「taken」。まとまりは The photos → taken → yesterday → are on my phone. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "photos",
+          "lemma": "photo",
+          "meaningJa": "写真（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "taken",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "phone",
+          "lemma": "phone",
+          "meaningJa": "携帯電話・電話",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The photos ___ yesterday are on my phone.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 16,
+          "answer": "taken"
+        },
+        "options": [
+          {
+            "id": "G58-E02-C3",
+            "text": "took",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「taken」を使います。「took」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E02-C4",
+            "text": "takes",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「taken」を使います。「takes」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E02-C2",
+            "text": "taking",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「taken」を使います。「taking」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E02-C1",
+            "text": "taken",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+          }
+        ],
+        "correctOptionId": "G58-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G58-E02-B01",
+            "text": "The photos",
+            "role": "required"
+          },
+          {
+            "id": "G58-E02-B02",
+            "text": "taken",
+            "role": "required"
+          },
+          {
+            "id": "G58-E02-B03",
+            "text": "yesterday",
+            "role": "required"
+          },
+          {
+            "id": "G58-E02-B04",
+            "text": "are on my phone.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G58-E02-B01",
+          "G58-E02-B02",
+          "G58-E02-B03",
+          "G58-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E02-B01",
+            "G58-E02-B02",
+            "G58-E02-B03",
+            "G58-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G58-E02-B01",
+            "text": "The photos",
+            "role": "required"
+          },
+          {
+            "id": "G58-E02-B02",
+            "text": "taken",
+            "role": "required"
+          },
+          {
+            "id": "G58-E02-B03",
+            "text": "yesterday",
+            "role": "required"
+          },
+          {
+            "id": "G58-E02-B04",
+            "text": "are on my phone.",
+            "role": "required"
+          },
+          {
+            "id": "G58-E02-D01",
+            "text": "taking",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taken」と比較してください。"
+          },
+          {
+            "id": "G58-E02-D02",
+            "text": "took",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taken」と比較してください。"
+          },
+          {
+            "id": "G58-E02-D03",
+            "text": "takes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taken」と比較してください。"
+          },
+          {
+            "id": "G58-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taken」と比較してください。"
+          },
+          {
+            "id": "G58-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taken」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G58-E02-D01",
+            "text": "taking",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taken」と比較してください。"
+          },
+          {
+            "id": "G58-E02-D02",
+            "text": "took",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taken」と比較してください。"
+          },
+          {
+            "id": "G58-E02-D03",
+            "text": "takes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taken」と比較してください。"
+          },
+          {
+            "id": "G58-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taken」と比較してください。"
+          },
+          {
+            "id": "G58-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「taken」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G58-E02-B01",
+          "G58-E02-B02",
+          "G58-E02-B03",
+          "G58-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E02-B01",
+            "G58-E02-B02",
+            "G58-E02-B03",
+            "G58-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G58-E02-AUDIO",
+        "text": "The photos taken yesterday are on my phone.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G58-E03",
+      "grammarId": "G58",
+      "grammarNameJa": "分詞の後置修飾",
+      "english": "I know the boy playing the piano.",
+      "translationJa": "私はピアノを弾いている男の子を知っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "playing",
+        "start": 15,
+        "endExclusive": 22,
+        "explanationJa": "名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+      },
+      "sentenceExplanationJa": "「I know the boy playing the piano.」は「私はピアノを弾いている男の子を知っています。」という意味です。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。 この文の対象部分は「playing」。まとまりは I know → the boy → playing → the piano. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "know",
+          "lemma": "know",
+          "meaningJa": "知っている",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "boy",
+          "lemma": "boy",
+          "meaningJa": "男の子",
+          "kind": "word"
+        },
+        {
+          "expression": "playing",
+          "lemma": "play",
+          "meaningJa": "演奏する・遊ぶ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "piano",
+          "lemma": "piano",
+          "meaningJa": "ピアノ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I know the boy ___ the piano.",
+        "blank": {
+          "start": 15,
+          "endExclusive": 22,
+          "answer": "playing"
+        },
+        "options": [
+          {
+            "id": "G58-E03-C1",
+            "text": "playing",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+          },
+          {
+            "id": "G58-E03-C3",
+            "text": "plays",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「playing」を使います。「plays」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E03-C2",
+            "text": "played",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「playing」を使います。「played」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E03-C4",
+            "text": "play",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「playing」を使います。「play」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G58-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G58-E03-B01",
+            "text": "I know",
+            "role": "required"
+          },
+          {
+            "id": "G58-E03-B02",
+            "text": "the boy",
+            "role": "required"
+          },
+          {
+            "id": "G58-E03-B03",
+            "text": "playing",
+            "role": "required"
+          },
+          {
+            "id": "G58-E03-B04",
+            "text": "the piano.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G58-E03-B01",
+          "G58-E03-B02",
+          "G58-E03-B03",
+          "G58-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E03-B01",
+            "G58-E03-B02",
+            "G58-E03-B03",
+            "G58-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G58-E03-B01",
+            "text": "I know",
+            "role": "required"
+          },
+          {
+            "id": "G58-E03-B02",
+            "text": "the boy",
+            "role": "required"
+          },
+          {
+            "id": "G58-E03-B03",
+            "text": "playing",
+            "role": "required"
+          },
+          {
+            "id": "G58-E03-B04",
+            "text": "the piano.",
+            "role": "required"
+          },
+          {
+            "id": "G58-E03-D01",
+            "text": "played",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G58-E03-D02",
+            "text": "plays",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G58-E03-D03",
+            "text": "play",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G58-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G58-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G58-E03-D01",
+            "text": "played",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G58-E03-D02",
+            "text": "plays",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G58-E03-D03",
+            "text": "play",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G58-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          },
+          {
+            "id": "G58-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「playing」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G58-E03-B01",
+          "G58-E03-B02",
+          "G58-E03-B03",
+          "G58-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E03-B01",
+            "G58-E03-B02",
+            "G58-E03-B03",
+            "G58-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G58-E03-AUDIO",
+        "text": "I know the boy playing the piano.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G58-E04",
+      "grammarId": "G58",
+      "grammarNameJa": "分詞の後置修飾",
+      "english": "This is a song loved by many fans.",
+      "translationJa": "これは多くのファンに愛されている曲です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "loved",
+        "start": 15,
+        "endExclusive": 20,
+        "explanationJa": "名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+      },
+      "sentenceExplanationJa": "「This is a song loved by many fans.」は「これは多くのファンに愛されている曲です。」という意味です。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。 この文の対象部分は「loved」。まとまりは This is → a song → loved → by many fans. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "loved",
+          "lemma": "love",
+          "meaningJa": "大好きである・愛する（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "by",
+          "lemma": "by",
+          "meaningJa": "～によって・～で",
+          "kind": "word"
+        },
+        {
+          "expression": "many",
+          "lemma": "many",
+          "meaningJa": "たくさんの（可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "fans",
+          "lemma": "fan",
+          "meaningJa": "ファン（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This is a song ___ by many fans.",
+        "blank": {
+          "start": 15,
+          "endExclusive": 20,
+          "answer": "loved"
+        },
+        "options": [
+          {
+            "id": "G58-E04-C1",
+            "text": "loved",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+          },
+          {
+            "id": "G58-E04-C4",
+            "text": "love",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「loved」を使います。「love」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E04-C3",
+            "text": "loves",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「loved」を使います。「loves」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E04-C2",
+            "text": "loving",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「loved」を使います。「loving」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G58-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G58-E04-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G58-E04-B02",
+            "text": "a song",
+            "role": "required"
+          },
+          {
+            "id": "G58-E04-B03",
+            "text": "loved",
+            "role": "required"
+          },
+          {
+            "id": "G58-E04-B04",
+            "text": "by many fans.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G58-E04-B01",
+          "G58-E04-B02",
+          "G58-E04-B03",
+          "G58-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E04-B01",
+            "G58-E04-B02",
+            "G58-E04-B03",
+            "G58-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G58-E04-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G58-E04-B02",
+            "text": "a song",
+            "role": "required"
+          },
+          {
+            "id": "G58-E04-B03",
+            "text": "loved",
+            "role": "required"
+          },
+          {
+            "id": "G58-E04-B04",
+            "text": "by many fans.",
+            "role": "required"
+          },
+          {
+            "id": "G58-E04-D01",
+            "text": "loving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「loved」と比較してください。"
+          },
+          {
+            "id": "G58-E04-D02",
+            "text": "loves",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「loved」と比較してください。"
+          },
+          {
+            "id": "G58-E04-D03",
+            "text": "love",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「loved」と比較してください。"
+          },
+          {
+            "id": "G58-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「loved」と比較してください。"
+          },
+          {
+            "id": "G58-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「loved」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G58-E04-D01",
+            "text": "loving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「loved」と比較してください。"
+          },
+          {
+            "id": "G58-E04-D02",
+            "text": "loves",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「loved」と比較してください。"
+          },
+          {
+            "id": "G58-E04-D03",
+            "text": "love",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「loved」と比較してください。"
+          },
+          {
+            "id": "G58-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「loved」と比較してください。"
+          },
+          {
+            "id": "G58-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「loved」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G58-E04-B01",
+          "G58-E04-B02",
+          "G58-E04-B03",
+          "G58-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E04-B01",
+            "G58-E04-B02",
+            "G58-E04-B03",
+            "G58-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G58-E04-AUDIO",
+        "text": "This is a song loved by many fans.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G58-E05",
+      "grammarId": "G58",
+      "grammarNameJa": "分詞の後置修飾",
+      "english": "The fans waiting outside look excited.",
+      "translationJa": "外で待っているファンはわくわくしているように見えます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "waiting",
+        "start": 9,
+        "endExclusive": 16,
+        "explanationJa": "名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+      },
+      "sentenceExplanationJa": "「The fans waiting outside look excited.」は「外で待っているファンはわくわくしているように見えます。」という意味です。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。 この文の対象部分は「waiting」。まとまりは The fans → waiting → outside → look excited. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "fans",
+          "lemma": "fan",
+          "meaningJa": "ファン（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "waiting",
+          "lemma": "wait",
+          "meaningJa": "待つ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "outside",
+          "lemma": "outside",
+          "meaningJa": "外で・外に",
+          "kind": "word"
+        },
+        {
+          "expression": "look",
+          "lemma": "look",
+          "meaningJa": "見る・～に見える",
+          "kind": "word"
+        },
+        {
+          "expression": "excited",
+          "lemma": "excited",
+          "meaningJa": "わくわくした・興奮した",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The fans ___ outside look excited.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 16,
+          "answer": "waiting"
+        },
+        "options": [
+          {
+            "id": "G58-E05-C4",
+            "text": "wait",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「waiting」を使います。「wait」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E05-C1",
+            "text": "waiting",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+          },
+          {
+            "id": "G58-E05-C2",
+            "text": "waited",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「waiting」を使います。「waited」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E05-C3",
+            "text": "waits",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「waiting」を使います。「waits」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G58-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G58-E05-B01",
+            "text": "The fans",
+            "role": "required"
+          },
+          {
+            "id": "G58-E05-B02",
+            "text": "waiting",
+            "role": "required"
+          },
+          {
+            "id": "G58-E05-B03",
+            "text": "outside",
+            "role": "required"
+          },
+          {
+            "id": "G58-E05-B04",
+            "text": "look excited.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G58-E05-B01",
+          "G58-E05-B02",
+          "G58-E05-B03",
+          "G58-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E05-B01",
+            "G58-E05-B02",
+            "G58-E05-B03",
+            "G58-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G58-E05-B01",
+            "text": "The fans",
+            "role": "required"
+          },
+          {
+            "id": "G58-E05-B02",
+            "text": "waiting",
+            "role": "required"
+          },
+          {
+            "id": "G58-E05-B03",
+            "text": "outside",
+            "role": "required"
+          },
+          {
+            "id": "G58-E05-B04",
+            "text": "look excited.",
+            "role": "required"
+          },
+          {
+            "id": "G58-E05-D01",
+            "text": "waited",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waiting」と比較してください。"
+          },
+          {
+            "id": "G58-E05-D02",
+            "text": "waits",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waiting」と比較してください。"
+          },
+          {
+            "id": "G58-E05-D03",
+            "text": "wait",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waiting」と比較してください。"
+          },
+          {
+            "id": "G58-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waiting」と比較してください。"
+          },
+          {
+            "id": "G58-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waiting」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G58-E05-D01",
+            "text": "waited",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waiting」と比較してください。"
+          },
+          {
+            "id": "G58-E05-D02",
+            "text": "waits",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waiting」と比較してください。"
+          },
+          {
+            "id": "G58-E05-D03",
+            "text": "wait",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waiting」と比較してください。"
+          },
+          {
+            "id": "G58-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waiting」と比較してください。"
+          },
+          {
+            "id": "G58-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waiting」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G58-E05-B01",
+          "G58-E05-B02",
+          "G58-E05-B03",
+          "G58-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E05-B01",
+            "G58-E05-B02",
+            "G58-E05-B03",
+            "G58-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G58-E05-AUDIO",
+        "text": "The fans waiting outside look excited.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G58-E06",
+      "grammarId": "G58",
+      "grammarNameJa": "分詞の後置修飾",
+      "english": "The letter written in English is from my friend.",
+      "translationJa": "英語で書かれた手紙は友達からのものです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "written",
+        "start": 11,
+        "endExclusive": 18,
+        "explanationJa": "名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+      },
+      "sentenceExplanationJa": "「The letter written in English is from my friend.」は「英語で書かれた手紙は友達からのものです。」という意味です。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。 この文の対象部分は「written」。まとまりは The letter → written → in English → is from my friend. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "letter",
+          "lemma": "letter",
+          "meaningJa": "手紙",
+          "kind": "word"
+        },
+        {
+          "expression": "written",
+          "lemma": "write",
+          "meaningJa": "書く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "English",
+          "lemma": "english",
+          "meaningJa": "英語",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "from",
+          "lemma": "from",
+          "meaningJa": "～から",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "friend",
+          "lemma": "friend",
+          "meaningJa": "友達",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The letter ___ in English is from my friend.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 18,
+          "answer": "written"
+        },
+        "options": [
+          {
+            "id": "G58-E06-C4",
+            "text": "writes",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「written」を使います。「writes」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E06-C1",
+            "text": "written",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+          },
+          {
+            "id": "G58-E06-C2",
+            "text": "writing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「written」を使います。「writing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E06-C3",
+            "text": "wrote",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「written」を使います。「wrote」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G58-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G58-E06-B01",
+            "text": "The letter",
+            "role": "required"
+          },
+          {
+            "id": "G58-E06-B02",
+            "text": "written",
+            "role": "required"
+          },
+          {
+            "id": "G58-E06-B03",
+            "text": "in English",
+            "role": "required"
+          },
+          {
+            "id": "G58-E06-B04",
+            "text": "is from my friend.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G58-E06-B01",
+          "G58-E06-B02",
+          "G58-E06-B03",
+          "G58-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E06-B01",
+            "G58-E06-B02",
+            "G58-E06-B03",
+            "G58-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G58-E06-B01",
+            "text": "The letter",
+            "role": "required"
+          },
+          {
+            "id": "G58-E06-B02",
+            "text": "written",
+            "role": "required"
+          },
+          {
+            "id": "G58-E06-B03",
+            "text": "in English",
+            "role": "required"
+          },
+          {
+            "id": "G58-E06-B04",
+            "text": "is from my friend.",
+            "role": "required"
+          },
+          {
+            "id": "G58-E06-D01",
+            "text": "writing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「written」と比較してください。"
+          },
+          {
+            "id": "G58-E06-D02",
+            "text": "wrote",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「written」と比較してください。"
+          },
+          {
+            "id": "G58-E06-D03",
+            "text": "writes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「written」と比較してください。"
+          },
+          {
+            "id": "G58-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「written」と比較してください。"
+          },
+          {
+            "id": "G58-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「written」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G58-E06-D01",
+            "text": "writing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「written」と比較してください。"
+          },
+          {
+            "id": "G58-E06-D02",
+            "text": "wrote",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「written」と比較してください。"
+          },
+          {
+            "id": "G58-E06-D03",
+            "text": "writes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「written」と比較してください。"
+          },
+          {
+            "id": "G58-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「written」と比較してください。"
+          },
+          {
+            "id": "G58-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「written」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G58-E06-B01",
+          "G58-E06-B02",
+          "G58-E06-B03",
+          "G58-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E06-B01",
+            "G58-E06-B02",
+            "G58-E06-B03",
+            "G58-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G58-E06-AUDIO",
+        "text": "The letter written in English is from my friend.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G58-E07",
+      "grammarId": "G58",
+      "grammarNameJa": "分詞の後置修飾",
+      "english": "Look at the cat sleeping on my towel.",
+      "translationJa": "私のタオルの上で寝ている猫を見てください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "sleeping",
+        "start": 16,
+        "endExclusive": 24,
+        "explanationJa": "名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+      },
+      "sentenceExplanationJa": "「Look at the cat sleeping on my towel.」は「私のタオルの上で寝ている猫を見てください。」という意味です。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。 この文の対象部分は「sleeping」。まとまりは Look at → the cat → sleeping → on my towel. の順です。",
+      "glossary": [
+        {
+          "expression": "Look",
+          "lemma": "look",
+          "meaningJa": "見る・～に見える",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "cat",
+          "lemma": "cat",
+          "meaningJa": "猫",
+          "kind": "word"
+        },
+        {
+          "expression": "sleeping",
+          "lemma": "sleep",
+          "meaningJa": "眠る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Look at the cat ___ on my towel.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 24,
+          "answer": "sleeping"
+        },
+        "options": [
+          {
+            "id": "G58-E07-C4",
+            "text": "sleep",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sleeping」を使います。「sleep」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E07-C3",
+            "text": "sleeps",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sleeping」を使います。「sleeps」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E07-C1",
+            "text": "sleeping",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+          },
+          {
+            "id": "G58-E07-C2",
+            "text": "slept",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sleeping」を使います。「slept」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G58-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G58-E07-B01",
+            "text": "Look at",
+            "role": "required"
+          },
+          {
+            "id": "G58-E07-B02",
+            "text": "the cat",
+            "role": "required"
+          },
+          {
+            "id": "G58-E07-B03",
+            "text": "sleeping",
+            "role": "required"
+          },
+          {
+            "id": "G58-E07-B04",
+            "text": "on my towel.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G58-E07-B01",
+          "G58-E07-B02",
+          "G58-E07-B03",
+          "G58-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E07-B01",
+            "G58-E07-B02",
+            "G58-E07-B03",
+            "G58-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G58-E07-B01",
+            "text": "Look at",
+            "role": "required"
+          },
+          {
+            "id": "G58-E07-B02",
+            "text": "the cat",
+            "role": "required"
+          },
+          {
+            "id": "G58-E07-B03",
+            "text": "sleeping",
+            "role": "required"
+          },
+          {
+            "id": "G58-E07-B04",
+            "text": "on my towel.",
+            "role": "required"
+          },
+          {
+            "id": "G58-E07-D01",
+            "text": "slept",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleeping」と比較してください。"
+          },
+          {
+            "id": "G58-E07-D02",
+            "text": "sleeps",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleeping」と比較してください。"
+          },
+          {
+            "id": "G58-E07-D03",
+            "text": "sleep",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleeping」と比較してください。"
+          },
+          {
+            "id": "G58-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleeping」と比較してください。"
+          },
+          {
+            "id": "G58-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleeping」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G58-E07-D01",
+            "text": "slept",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleeping」と比較してください。"
+          },
+          {
+            "id": "G58-E07-D02",
+            "text": "sleeps",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleeping」と比較してください。"
+          },
+          {
+            "id": "G58-E07-D03",
+            "text": "sleep",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleeping」と比較してください。"
+          },
+          {
+            "id": "G58-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleeping」と比較してください。"
+          },
+          {
+            "id": "G58-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleeping」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G58-E07-B01",
+          "G58-E07-B02",
+          "G58-E07-B03",
+          "G58-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E07-B01",
+            "G58-E07-B02",
+            "G58-E07-B03",
+            "G58-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G58-E07-AUDIO",
+        "text": "Look at the cat sleeping on my towel.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G58-E08",
+      "grammarId": "G58",
+      "grammarNameJa": "分詞の後置修飾",
+      "english": "The cards made in Japan are popular.",
+      "translationJa": "日本で作られたカードは人気があります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "made",
+        "start": 10,
+        "endExclusive": 14,
+        "explanationJa": "名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+      },
+      "sentenceExplanationJa": "「The cards made in Japan are popular.」は「日本で作られたカードは人気があります。」という意味です。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。 この文の対象部分は「made」。まとまりは The cards → made → in Japan → are popular. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "cards",
+          "lemma": "card",
+          "meaningJa": "カード（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "made",
+          "lemma": "make",
+          "meaningJa": "作る・～にさせる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "Japan",
+          "lemma": "japan",
+          "meaningJa": "日本",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "popular",
+          "lemma": "popular",
+          "meaningJa": "人気のある",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The cards ___ in Japan are popular.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 14,
+          "answer": "made"
+        },
+        "options": [
+          {
+            "id": "G58-E08-C1",
+            "text": "made",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+          },
+          {
+            "id": "G58-E08-C2",
+            "text": "making",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「made」を使います。「making」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E08-C4",
+            "text": "make",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「made」を使います。「make」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E08-C3",
+            "text": "makes",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「made」を使います。「makes」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G58-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G58-E08-B01",
+            "text": "The cards",
+            "role": "required"
+          },
+          {
+            "id": "G58-E08-B02",
+            "text": "made",
+            "role": "required"
+          },
+          {
+            "id": "G58-E08-B03",
+            "text": "in Japan",
+            "role": "required"
+          },
+          {
+            "id": "G58-E08-B04",
+            "text": "are popular.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G58-E08-B01",
+          "G58-E08-B02",
+          "G58-E08-B03",
+          "G58-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E08-B01",
+            "G58-E08-B02",
+            "G58-E08-B03",
+            "G58-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G58-E08-B01",
+            "text": "The cards",
+            "role": "required"
+          },
+          {
+            "id": "G58-E08-B02",
+            "text": "made",
+            "role": "required"
+          },
+          {
+            "id": "G58-E08-B03",
+            "text": "in Japan",
+            "role": "required"
+          },
+          {
+            "id": "G58-E08-B04",
+            "text": "are popular.",
+            "role": "required"
+          },
+          {
+            "id": "G58-E08-D01",
+            "text": "making",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「made」と比較してください。"
+          },
+          {
+            "id": "G58-E08-D02",
+            "text": "makes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「made」と比較してください。"
+          },
+          {
+            "id": "G58-E08-D03",
+            "text": "make",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「made」と比較してください。"
+          },
+          {
+            "id": "G58-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「made」と比較してください。"
+          },
+          {
+            "id": "G58-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「made」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G58-E08-D01",
+            "text": "making",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「made」と比較してください。"
+          },
+          {
+            "id": "G58-E08-D02",
+            "text": "makes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「made」と比較してください。"
+          },
+          {
+            "id": "G58-E08-D03",
+            "text": "make",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「made」と比較してください。"
+          },
+          {
+            "id": "G58-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「made」と比較してください。"
+          },
+          {
+            "id": "G58-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「made」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G58-E08-B01",
+          "G58-E08-B02",
+          "G58-E08-B03",
+          "G58-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E08-B01",
+            "G58-E08-B02",
+            "G58-E08-B03",
+            "G58-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G58-E08-AUDIO",
+        "text": "The cards made in Japan are popular.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G58-E09",
+      "grammarId": "G58",
+      "grammarNameJa": "分詞の後置修飾",
+      "english": "The man carrying the green bag is my father.",
+      "translationJa": "緑のバッグを運んでいる男性は私の父です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "carrying",
+        "start": 8,
+        "endExclusive": 16,
+        "explanationJa": "名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+      },
+      "sentenceExplanationJa": "「The man carrying the green bag is my father.」は「緑のバッグを運んでいる男性は私の父です。」という意味です。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。 この文の対象部分は「carrying」。まとまりは The man → carrying → the green bag → is my father. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "man",
+          "lemma": "man",
+          "meaningJa": "男性",
+          "kind": "word"
+        },
+        {
+          "expression": "carrying",
+          "lemma": "carry",
+          "meaningJa": "運ぶ・持ち歩く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "green",
+          "lemma": "green",
+          "meaningJa": "緑・緑色の",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "father",
+          "lemma": "father",
+          "meaningJa": "父",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The man ___ the green bag is my father.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 16,
+          "answer": "carrying"
+        },
+        "options": [
+          {
+            "id": "G58-E09-C2",
+            "text": "carried",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「carrying」を使います。「carried」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E09-C4",
+            "text": "carry",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「carrying」を使います。「carry」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E09-C3",
+            "text": "carries",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「carrying」を使います。「carries」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E09-C1",
+            "text": "carrying",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+          }
+        ],
+        "correctOptionId": "G58-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G58-E09-B01",
+            "text": "The man",
+            "role": "required"
+          },
+          {
+            "id": "G58-E09-B02",
+            "text": "carrying",
+            "role": "required"
+          },
+          {
+            "id": "G58-E09-B03",
+            "text": "the green bag",
+            "role": "required"
+          },
+          {
+            "id": "G58-E09-B04",
+            "text": "is my father.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G58-E09-B01",
+          "G58-E09-B02",
+          "G58-E09-B03",
+          "G58-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E09-B01",
+            "G58-E09-B02",
+            "G58-E09-B03",
+            "G58-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G58-E09-B01",
+            "text": "The man",
+            "role": "required"
+          },
+          {
+            "id": "G58-E09-B02",
+            "text": "carrying",
+            "role": "required"
+          },
+          {
+            "id": "G58-E09-B03",
+            "text": "the green bag",
+            "role": "required"
+          },
+          {
+            "id": "G58-E09-B04",
+            "text": "is my father.",
+            "role": "required"
+          },
+          {
+            "id": "G58-E09-D01",
+            "text": "carried",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carrying」と比較してください。"
+          },
+          {
+            "id": "G58-E09-D02",
+            "text": "carries",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carrying」と比較してください。"
+          },
+          {
+            "id": "G58-E09-D03",
+            "text": "carry",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carrying」と比較してください。"
+          },
+          {
+            "id": "G58-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carrying」と比較してください。"
+          },
+          {
+            "id": "G58-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carrying」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G58-E09-D01",
+            "text": "carried",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carrying」と比較してください。"
+          },
+          {
+            "id": "G58-E09-D02",
+            "text": "carries",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carrying」と比較してください。"
+          },
+          {
+            "id": "G58-E09-D03",
+            "text": "carry",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carrying」と比較してください。"
+          },
+          {
+            "id": "G58-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carrying」と比較してください。"
+          },
+          {
+            "id": "G58-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carrying」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G58-E09-B01",
+          "G58-E09-B02",
+          "G58-E09-B03",
+          "G58-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E09-B01",
+            "G58-E09-B02",
+            "G58-E09-B03",
+            "G58-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G58-E09-AUDIO",
+        "text": "The man carrying the green bag is my father.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G58-E10",
+      "grammarId": "G58",
+      "grammarNameJa": "分詞の後置修飾",
+      "english": "The ticket found under the chair is mine.",
+      "translationJa": "椅子の下で見つかったチケットは私のものです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "found",
+        "start": 11,
+        "endExclusive": 16,
+        "explanationJa": "名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+      },
+      "sentenceExplanationJa": "「The ticket found under the chair is mine.」は「椅子の下で見つかったチケットは私のものです。」という意味です。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。 この文の対象部分は「found」。まとまりは The ticket → found → under the chair → is mine. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "found",
+          "lemma": "find",
+          "meaningJa": "見つける（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "under",
+          "lemma": "under",
+          "meaningJa": "～の下に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "chair",
+          "lemma": "chair",
+          "meaningJa": "椅子",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "mine",
+          "lemma": "mine",
+          "meaningJa": "私のもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The ticket ___ under the chair is mine.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 16,
+          "answer": "found"
+        },
+        "options": [
+          {
+            "id": "G58-E10-C2",
+            "text": "finding",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「found」を使います。「finding」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E10-C1",
+            "text": "found",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。"
+          },
+          {
+            "id": "G58-E10-C4",
+            "text": "find",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「found」を使います。「find」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G58-E10-C3",
+            "text": "finds",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「found」を使います。「finds」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G58-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G58-E10-B01",
+            "text": "The ticket",
+            "role": "required"
+          },
+          {
+            "id": "G58-E10-B02",
+            "text": "found",
+            "role": "required"
+          },
+          {
+            "id": "G58-E10-B03",
+            "text": "under the chair",
+            "role": "required"
+          },
+          {
+            "id": "G58-E10-B04",
+            "text": "is mine.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G58-E10-B01",
+          "G58-E10-B02",
+          "G58-E10-B03",
+          "G58-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E10-B01",
+            "G58-E10-B02",
+            "G58-E10-B03",
+            "G58-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G58-E10-B01",
+            "text": "The ticket",
+            "role": "required"
+          },
+          {
+            "id": "G58-E10-B02",
+            "text": "found",
+            "role": "required"
+          },
+          {
+            "id": "G58-E10-B03",
+            "text": "under the chair",
+            "role": "required"
+          },
+          {
+            "id": "G58-E10-B04",
+            "text": "is mine.",
+            "role": "required"
+          },
+          {
+            "id": "G58-E10-D01",
+            "text": "finding",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G58-E10-D02",
+            "text": "finds",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G58-E10-D03",
+            "text": "find",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G58-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G58-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G58-E10-D01",
+            "text": "finding",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G58-E10-D02",
+            "text": "finds",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G58-E10-D03",
+            "text": "find",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G58-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          },
+          {
+            "id": "G58-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「found」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G58-E10-B01",
+          "G58-E10-B02",
+          "G58-E10-B03",
+          "G58-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G58-E10-B01",
+            "G58-E10-B02",
+            "G58-E10-B03",
+            "G58-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G58-E10-AUDIO",
+        "text": "The ticket found under the chair is mine.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

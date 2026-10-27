@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "G01-E01-AUDIO",
+    "text": "I am a fan.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G01-E02-AUDIO",
+    "text": "You are my friend.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G01-E03-AUDIO",
+    "text": "This song is great.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G01-E04-AUDIO",
+    "text": "We are ready.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G01-E05-AUDIO",
+    "text": "My ticket is here.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G01-E06-AUDIO",
+    "text": "The lights are bright.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G01-E07-AUDIO",
+    "text": "I am happy today.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G01-E08-AUDIO",
+    "text": "The concert is tomorrow.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G01-E09-AUDIO",
+    "text": "These towels are soft.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G01-E10-AUDIO",
+    "text": "My sister is a fan too.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G02-E01-AUDIO",
+    "text": "I am not late.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G02-E02-AUDIO",
+    "text": "This bag is not mine.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G02-E03-AUDIO",
+    "text": "We are not tired.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G02-E04-AUDIO",
+    "text": "The tickets are not cheap.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G02-E05-AUDIO",
+    "text": "My phone is not here.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G02-E06-AUDIO",
+    "text": "I am not alone.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G02-E07-AUDIO",
+    "text": "You are not wrong.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G02-E08-AUDIO",
+    "text": "The shop is not open.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G02-E09-AUDIO",
+    "text": "These seats are not ours.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G02-E10-AUDIO",
+    "text": "My brother is not angry.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G03-E01-AUDIO",
+    "text": "Are you a fan?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G03-E02-AUDIO",
+    "text": "Is this your ticket?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G03-E03-AUDIO",
+    "text": "Are the seats near the stage?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G03-E04-AUDIO",
+    "text": "Am I too early?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G03-E05-AUDIO",
+    "text": "Is the concert today?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G03-E06-AUDIO",
+    "text": "Are you ready?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G03-E07-AUDIO",
+    "text": "Is your sister here?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G03-E08-AUDIO",
+    "text": "Are these towels new?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G03-E09-AUDIO",
+    "text": "Is that bag yours?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G03-E10-AUDIO",
+    "text": "Are we in the right line?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G04-E01-AUDIO",
+    "text": "I have a ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G04-E02-AUDIO",
+    "text": "She has an umbrella.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G04-E03-AUDIO",
+    "text": "We need a map.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G04-E04-AUDIO",
+    "text": "He bought an album.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G04-E05-AUDIO",
+    "text": "I want a towel.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G04-E06-AUDIO",
+    "text": "She has two tickets.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G04-E07-AUDIO",
+    "text": "I ate an apple before the show.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G04-E08-AUDIO",
+    "text": "We took a bus.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G04-E09-AUDIO",
+    "text": "There are many fans here.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G04-E10-AUDIO",
+    "text": "He needs an eraser.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G05-E01-AUDIO",
+    "text": "This is my ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G05-E02-AUDIO",
+    "text": "That towel is mine.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G05-E03-AUDIO",
+    "text": "Is this your bag?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G05-E04-AUDIO",
+    "text": "This seat is yours.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G05-E05-AUDIO",
+    "text": "I like his guitar.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G05-E06-AUDIO",
+    "text": "We found her phone.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G05-E07-AUDIO",
+    "text": "This is our favorite song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G05-E08-AUDIO",
+    "text": "The front seats are theirs.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G05-E09-AUDIO",
+    "text": "This notebook is hers.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G05-E10-AUDIO",
+    "text": "That little flag is ours.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G06-E01-AUDIO",
+    "text": "Please call me.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G06-E02-AUDIO",
+    "text": "I know him.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G06-E03-AUDIO",
+    "text": "We waited for her.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G06-E04-AUDIO",
+    "text": "The guide helped us.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G06-E05-AUDIO",
+    "text": "I listen to them every day.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G06-E06-AUDIO",
+    "text": "Please send me the photo.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G06-E07-AUDIO",
+    "text": "My sister came with us.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G06-E08-AUDIO",
+    "text": "I bought it yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G06-E09-AUDIO",
+    "text": "She told him the news.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G06-E10-AUDIO",
+    "text": "We met them at the station.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G07-E01-AUDIO",
+    "text": "I listen to Mrs. GREEN APPLE every day.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G07-E02-AUDIO",
+    "text": "We practice after school.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G07-E03-AUDIO",
+    "text": "You sing very well.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G07-E04-AUDIO",
+    "text": "I keep my tickets in a box.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G07-E05-AUDIO",
+    "text": "They share their photos online.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G07-E06-AUDIO",
+    "text": "We buy snacks before concerts.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G07-E07-AUDIO",
+    "text": "I read fan messages at night.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G07-E08-AUDIO",
+    "text": "My friends love this band.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G07-E09-AUDIO",
+    "text": "I save money every month.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G07-E10-AUDIO",
+    "text": "We walk to the station together.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G08-E01-AUDIO",
+    "text": "My sister likes this song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G08-E02-AUDIO",
+    "text": "He plays the guitar every day.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G08-E03-AUDIO",
+    "text": "She watches music videos at night.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G08-E04-AUDIO",
+    "text": "My friend studies English after dinner.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G08-E05-AUDIO",
+    "text": "This shop sells concert goods.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G08-E06-AUDIO",
+    "text": "He goes to school by bus.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G08-E07-AUDIO",
+    "text": "My father knows this band.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G08-E08-AUDIO",
+    "text": "She carries a green bag.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G08-E09-AUDIO",
+    "text": "My phone needs a new battery.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G08-E10-AUDIO",
+    "text": "The show starts at seven.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G09-E01-AUDIO",
+    "text": "I do not know this song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G09-E02-AUDIO",
+    "text": "She does not have a ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G09-E03-AUDIO",
+    "text": "We do not watch TV in the morning.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G09-E04-AUDIO",
+    "text": "He does not play the drums.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G09-E05-AUDIO",
+    "text": "They do not live near the hall.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G09-E06-AUDIO",
+    "text": "My brother does not like long lines.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G09-E07-AUDIO",
+    "text": "I do not need another bag.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G09-E08-AUDIO",
+    "text": "This train does not stop here.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G09-E09-AUDIO",
+    "text": "You do not look tired.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G09-E10-AUDIO",
+    "text": "My friends do not buy every new item.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G10-E01-AUDIO",
+    "text": "Do you like this band?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G10-E02-AUDIO",
+    "text": "Does your sister have a ticket?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G10-E03-AUDIO",
+    "text": "Do they practice here?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G10-E04-AUDIO",
+    "text": "Does this bus stop at the hall?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G10-E05-AUDIO",
+    "text": "Do we need a map?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G10-E06-AUDIO",
+    "text": "Does he sing in English?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G10-E07-AUDIO",
+    "text": "Do your friends collect cards?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G10-E08-AUDIO",
+    "text": "Does the shop open at ten?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G10-E09-AUDIO",
+    "text": "Do you remember this melody?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G10-E10-AUDIO",
+    "text": "Does your phone work here?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G11-E01-AUDIO",
+    "text": "What is your favorite song?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G11-E02-AUDIO",
+    "text": "Who is that singer?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G11-E03-AUDIO",
+    "text": "What do you keep in this box?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G11-E04-AUDIO",
+    "text": "Who plays the guitar in your band?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G11-E05-AUDIO",
+    "text": "What did you buy at the shop?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G11-E06-AUDIO",
+    "text": "Who is singing now?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G11-E07-AUDIO",
+    "text": "What makes you happy?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G11-E08-AUDIO",
+    "text": "Who sent this message?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G11-E09-AUDIO",
+    "text": "What is in your bag?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G11-E10-AUDIO",
+    "text": "Who told you about the concert?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G12-E01-AUDIO",
+    "text": "Where is the concert hall?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G12-E02-AUDIO",
+    "text": "When does the show start?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G12-E03-AUDIO",
+    "text": "Where did you put my ticket?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G12-E04-AUDIO",
+    "text": "When is your birthday?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G12-E05-AUDIO",
+    "text": "Where can we buy towels?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G12-E06-AUDIO",
+    "text": "When did you become a fan?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G12-E07-AUDIO",
+    "text": "Where do you practice?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G12-E08-AUDIO",
+    "text": "When will you leave home?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G12-E09-AUDIO",
+    "text": "Where are my headphones?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G12-E10-AUDIO",
+    "text": "When do tickets go on sale?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G13-E01-AUDIO",
+    "text": "Why are you crying?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G13-E02-AUDIO",
+    "text": "How do you get to the hall?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G13-E03-AUDIO",
+    "text": "How many cards do you have?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G13-E04-AUDIO",
+    "text": "How old is your brother?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G13-E05-AUDIO",
+    "text": "Why did you buy two towels?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G13-E06-AUDIO",
+    "text": "How was the concert?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G13-E07-AUDIO",
+    "text": "How many songs do you know?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G13-E08-AUDIO",
+    "text": "Why is your bag so heavy?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G13-E09-AUDIO",
+    "text": "How can I join the fan club?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G13-E10-AUDIO",
+    "text": "How many friends are coming?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G14-E01-AUDIO",
+    "text": "Which song do you like better?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G14-E02-AUDIO",
+    "text": "Whose ticket is this?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G14-E03-AUDIO",
+    "text": "Which bag is yours?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G14-E04-AUDIO",
+    "text": "Whose towel is on the chair?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G14-E05-AUDIO",
+    "text": "Which do you want, tea or water?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G14-E06-AUDIO",
+    "text": "Whose phone is ringing?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G14-E07-AUDIO",
+    "text": "Which train goes to the hall?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G14-E08-AUDIO",
+    "text": "Whose guitar is that?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G14-E09-AUDIO",
+    "text": "Which is your seat, A or B?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G14-E10-AUDIO",
+    "text": "Whose name is on this card?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G15-E01-AUDIO",
+    "text": "There is a poster on the wall.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G15-E02-AUDIO",
+    "text": "There are three fans near the door.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G15-E03-AUDIO",
+    "text": "There is a shop next to the hall.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G15-E04-AUDIO",
+    "text": "There are two tickets in my bag.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G15-E05-AUDIO",
+    "text": "There is a long line outside.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G15-E06-AUDIO",
+    "text": "There are many stars in the sky.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G15-E07-AUDIO",
+    "text": "There is some water in this bottle.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G15-E08-AUDIO",
+    "text": "There are no empty seats here.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G15-E09-AUDIO",
+    "text": "There is a message for you.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G15-E10-AUDIO",
+    "text": "There are five songs on this list.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G16-E01-AUDIO",
+    "text": "My ticket is in my pocket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G16-E02-AUDIO",
+    "text": "The poster is on the wall.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G16-E03-AUDIO",
+    "text": "My bag is under the chair.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G16-E04-AUDIO",
+    "text": "We walked to the hall.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G16-E05-AUDIO",
+    "text": "The cards are in this box.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G16-E06-AUDIO",
+    "text": "Your phone is on the table.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G16-E07-AUDIO",
+    "text": "The cat is under my concert towel.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G16-E08-AUDIO",
+    "text": "She went to the station.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G16-E09-AUDIO",
+    "text": "We are in the same room.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G16-E10-AUDIO",
+    "text": "The sign is on the door.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G17-E01-AUDIO",
+    "text": "The show starts at six.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G17-E02-AUDIO",
+    "text": "We meet on Sunday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G17-E03-AUDIO",
+    "text": "My birthday is in May.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G17-E04-AUDIO",
+    "text": "I listen to music in the morning.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G17-E05-AUDIO",
+    "text": "The bus leaves at noon.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G17-E06-AUDIO",
+    "text": "The concert is on July tenth.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G17-E07-AUDIO",
+    "text": "I bought this album in 2025.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G17-E08-AUDIO",
+    "text": "We practice on Fridays.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G17-E09-AUDIO",
+    "text": "I read fan messages at midnight.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G17-E10-AUDIO",
+    "text": "The tour begins in April.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G18-E01-AUDIO",
+    "text": "Please show me your ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G18-E02-AUDIO",
+    "text": "Do not run in the hall.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G18-E03-AUDIO",
+    "text": "Let us sing together.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G18-E04-AUDIO",
+    "text": "Please wait here.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G18-E05-AUDIO",
+    "text": "Do not forget your phone.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G18-E06-AUDIO",
+    "text": "Let us take a photo.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G18-E07-AUDIO",
+    "text": "Please turn down the music.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G18-E08-AUDIO",
+    "text": "Do not push other people.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G18-E09-AUDIO",
+    "text": "Let us check the map.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G18-E10-AUDIO",
+    "text": "Please enjoy the show.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G19-E01-AUDIO",
+    "text": "I can play the guitar.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G19-E02-AUDIO",
+    "text": "She can sing this song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G19-E03-AUDIO",
+    "text": "We can see the stage from here.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G19-E04-AUDIO",
+    "text": "He can read music.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G19-E05-AUDIO",
+    "text": "You can use my headphones.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G19-E06-AUDIO",
+    "text": "I cannot remember all the words.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G19-E07-AUDIO",
+    "text": "Can they dance very well?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G19-E08-AUDIO",
+    "text": "My sister can draw beautiful pictures.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G19-E09-AUDIO",
+    "text": "We can buy tickets online.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G19-E10-AUDIO",
+    "text": "This app can help young fans.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G20-E01-AUDIO",
+    "text": "How many tickets do you need?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G20-E02-AUDIO",
+    "text": "How much money do you have?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G20-E03-AUDIO",
+    "text": "I have some good news.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G20-E04-AUDIO",
+    "text": "I do not have any tickets.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G20-E05-AUDIO",
+    "text": "How many fans are here?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G20-E06-AUDIO",
+    "text": "There is not much water left.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G20-E07-AUDIO",
+    "text": "We bought some snacks.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G20-E08-AUDIO",
+    "text": "Do you have any questions?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G20-E09-AUDIO",
+    "text": "How much time do we have?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G20-E10-AUDIO",
+    "text": "How many cards did you get?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G21-E01-AUDIO",
+    "text": "I am listening to music now.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G21-E02-AUDIO",
+    "text": "She is waiting at the gate.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G21-E03-AUDIO",
+    "text": "We are watching a live stream.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G21-E04-AUDIO",
+    "text": "He is playing the piano now.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G21-E05-AUDIO",
+    "text": "The fans are waving their towels.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G21-E06-AUDIO",
+    "text": "I am looking for my ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G21-E07-AUDIO",
+    "text": "You are singing too loudly.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G21-E08-AUDIO",
+    "text": "My phone is ringing again.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G21-E09-AUDIO",
+    "text": "They are selling T-shirts outside.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G21-E10-AUDIO",
+    "text": "My sister is taking a photo.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G22-E01-AUDIO",
+    "text": "I was very happy yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G22-E02-AUDIO",
+    "text": "The seats were near the stage last night.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G22-E03-AUDIO",
+    "text": "She was late this morning.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G22-E04-AUDIO",
+    "text": "We were tired after the show.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G22-E05-AUDIO",
+    "text": "The concert was amazing last night.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G22-E06-AUDIO",
+    "text": "You were quiet yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G22-E07-AUDIO",
+    "text": "My bag was heavy that day.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G22-E08-AUDIO",
+    "text": "The shops were closed last Sunday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G22-E09-AUDIO",
+    "text": "He was a student two years ago.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G22-E10-AUDIO",
+    "text": "The tickets were expensive last year.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G23-E01-AUDIO",
+    "text": "I watched a music video yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G23-E02-AUDIO",
+    "text": "We walked to the hall last night.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G23-E03-AUDIO",
+    "text": "She practiced the piano yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G23-E04-AUDIO",
+    "text": "He called me after the show.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G23-E05-AUDIO",
+    "text": "I saved money last month.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G23-E06-AUDIO",
+    "text": "They danced at the party last night.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G23-E07-AUDIO",
+    "text": "We waited for an hour yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G23-E08-AUDIO",
+    "text": "I opened the card pack this morning.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G23-E09-AUDIO",
+    "text": "She studied English last night.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G23-E10-AUDIO",
+    "text": "We enjoyed the concert yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G24-E01-AUDIO",
+    "text": "I bought a green towel yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G24-E02-AUDIO",
+    "text": "We went to a concert last Sunday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G24-E03-AUDIO",
+    "text": "She saw a rainbow after the show.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G24-E04-AUDIO",
+    "text": "He lost his ticket yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G24-E05-AUDIO",
+    "text": "I found my phone this morning.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G24-E06-AUDIO",
+    "text": "They sang together last night.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G24-E07-AUDIO",
+    "text": "We took a photo yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G24-E08-AUDIO",
+    "text": "I met another fan last week.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G24-E09-AUDIO",
+    "text": "My friend gave me a card yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G24-E10-AUDIO",
+    "text": "I ate dinner after the concert.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G25-E01-AUDIO",
+    "text": "I did not win a ticket yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G25-E02-AUDIO",
+    "text": "Did you enjoy the concert last night?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G25-E03-AUDIO",
+    "text": "She did not bring her towel that day.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G25-E04-AUDIO",
+    "text": "Did he call you yesterday?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G25-E05-AUDIO",
+    "text": "We did not miss the last train last night.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G25-E06-AUDIO",
+    "text": "Did they play your favorite song yesterday?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G25-E07-AUDIO",
+    "text": "I did not buy any goods last week.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G25-E08-AUDIO",
+    "text": "Did you find your ticket this morning?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G25-E09-AUDIO",
+    "text": "He did not know the answer yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G25-E10-AUDIO",
+    "text": "Did she take a photo last night?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G26-E01-AUDIO",
+    "text": "I was listening to music at eight last night.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G26-E02-AUDIO",
+    "text": "We were waiting at the gate then.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G26-E03-AUDIO",
+    "text": "She was sleeping on the train then.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G26-E04-AUDIO",
+    "text": "They were singing when I arrived.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G26-E05-AUDIO",
+    "text": "He was looking for his seat then.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G26-E06-AUDIO",
+    "text": "I was saving money at that time.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G26-E07-AUDIO",
+    "text": "My friends were talking about the show then.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G26-E08-AUDIO",
+    "text": "You were taking a photo when I called.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G26-E09-AUDIO",
+    "text": "The rain was falling when we left.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G26-E10-AUDIO",
+    "text": "We were practicing at six yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G27-E01-AUDIO",
+    "text": "I am going to buy a ticket tomorrow.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G27-E02-AUDIO",
+    "text": "She is going to join the fan club.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G27-E03-AUDIO",
+    "text": "We are going to meet at the station.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G27-E04-AUDIO",
+    "text": "He is going to practice after dinner.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G27-E05-AUDIO",
+    "text": "They are going to watch a live stream.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G27-E06-AUDIO",
+    "text": "I am going to wear my green shirt.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G27-E07-AUDIO",
+    "text": "My sister is going to bring a camera.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G27-E08-AUDIO",
+    "text": "We are going to leave early.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G27-E09-AUDIO",
+    "text": "You are going to love this song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G27-E10-AUDIO",
+    "text": "The shop is going to open next week.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G28-E01-AUDIO",
+    "text": "I will call you tonight.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G28-E02-AUDIO",
+    "text": "We will see you at the hall.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G28-E03-AUDIO",
+    "text": "She will be happy to hear this.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G28-E04-AUDIO",
+    "text": "I will help you with your bag.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G28-E05-AUDIO",
+    "text": "The show will start soon.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G28-E06-AUDIO",
+    "text": "He will send you the photo.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G28-E07-AUDIO",
+    "text": "They will remember this day.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G28-E08-AUDIO",
+    "text": "I will save more money.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G28-E09-AUDIO",
+    "text": "It will rain tomorrow.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G28-E10-AUDIO",
+    "text": "We will come back next year.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G29-E01-AUDIO",
+    "text": "You must keep your ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G29-E02-AUDIO",
+    "text": "We have to leave now.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G29-E03-AUDIO",
+    "text": "You must not take photos here.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G29-E04-AUDIO",
+    "text": "I do not have to work tomorrow.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G29-E05-AUDIO",
+    "text": "She has to catch the last train.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G29-E06-AUDIO",
+    "text": "We must follow the rules.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G29-E07-AUDIO",
+    "text": "You do not have to bring a towel.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G29-E08-AUDIO",
+    "text": "He has to study before the concert.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G29-E09-AUDIO",
+    "text": "We must not block the door.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G29-E10-AUDIO",
+    "text": "I have to charge my phone.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G30-E01-AUDIO",
+    "text": "You should drink some water.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G30-E02-AUDIO",
+    "text": "I may go to the concert.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G30-E03-AUDIO",
+    "text": "Could you show me the way?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G30-E04-AUDIO",
+    "text": "Would you open the window?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G30-E05-AUDIO",
+    "text": "We should leave early.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G30-E06-AUDIO",
+    "text": "You may use this seat.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G30-E07-AUDIO",
+    "text": "He should take a break.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G30-E08-AUDIO",
+    "text": "It may snow tonight.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G30-E09-AUDIO",
+    "text": "Could you take our photo?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G30-E10-AUDIO",
+    "text": "You should check your ticket again.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G31-E01-AUDIO",
+    "text": "This bag is bigger than mine.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G31-E02-AUDIO",
+    "text": "This ticket is cheaper than that one.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G31-E03-AUDIO",
+    "text": "My sister is taller than me.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G31-E04-AUDIO",
+    "text": "This song is longer than that song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G31-E05-AUDIO",
+    "text": "Today is hotter than yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G31-E06-AUDIO",
+    "text": "This seat is better than my old seat.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G31-E07-AUDIO",
+    "text": "The hall is farther than the shop.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G31-E08-AUDIO",
+    "text": "This towel is softer than that towel.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G31-E09-AUDIO",
+    "text": "This book is more interesting than that book.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G31-E10-AUDIO",
+    "text": "My bag is heavier than yours.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G32-E01-AUDIO",
+    "text": "This is the biggest hall in our town.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G32-E02-AUDIO",
+    "text": "This is the cheapest ticket on this list.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G32-E03-AUDIO",
+    "text": "She is the tallest student in our band.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G32-E04-AUDIO",
+    "text": "This is the longest song on the album.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G32-E05-AUDIO",
+    "text": "Today is the hottest day of the week.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G32-E06-AUDIO",
+    "text": "This is the best seat in the hall.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G32-E07-AUDIO",
+    "text": "This is the smallest bag in the shop.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G32-E08-AUDIO",
+    "text": "This is the most exciting part of the show.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G32-E09-AUDIO",
+    "text": "My brother is the youngest fan in our family.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G32-E10-AUDIO",
+    "text": "This is the most beautiful photo in my collection.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G33-E01-AUDIO",
+    "text": "This towel is as soft as mine.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G33-E02-AUDIO",
+    "text": "This song is as long as that song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G33-E03-AUDIO",
+    "text": "My bag is not as heavy as yours.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G33-E04-AUDIO",
+    "text": "She sings as well as her sister.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G33-E05-AUDIO",
+    "text": "This seat is as good as that one.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G33-E06-AUDIO",
+    "text": "He runs as fast as his brother.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G33-E07-AUDIO",
+    "text": "This hall is not as big as that hall.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G33-E08-AUDIO",
+    "text": "I am as excited as you.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G33-E09-AUDIO",
+    "text": "This shirt is as bright as the lights.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G33-E10-AUDIO",
+    "text": "My phone is not as new as hers.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G34-E01-AUDIO",
+    "text": "I want to sing this song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G34-E02-AUDIO",
+    "text": "She hopes to get a ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G34-E03-AUDIO",
+    "text": "We decided to leave early.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G34-E04-AUDIO",
+    "text": "He needs to charge his phone.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G34-E05-AUDIO",
+    "text": "I want to learn English.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G34-E06-AUDIO",
+    "text": "They plan to practice tomorrow.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G34-E07-AUDIO",
+    "text": "I hope to see the band someday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G34-E08-AUDIO",
+    "text": "She decided to join the fan club.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G34-E09-AUDIO",
+    "text": "We want to share this news.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G34-E10-AUDIO",
+    "text": "My brother needs to study tonight.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G35-E01-AUDIO",
+    "text": "I got up early to buy a ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G35-E02-AUDIO",
+    "text": "She saved money to go to the concert.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G35-E03-AUDIO",
+    "text": "We met to practice the song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G35-E04-AUDIO",
+    "text": "He opened the app to review English.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G35-E05-AUDIO",
+    "text": "I went to the shop to get a towel.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G35-E06-AUDIO",
+    "text": "We took a bus to reach the hall.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G35-E07-AUDIO",
+    "text": "She wore glasses to see the stage.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G35-E08-AUDIO",
+    "text": "I turned down the music to hear the announcement.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G35-E09-AUDIO",
+    "text": "He brought a pen to write a message.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G35-E10-AUDIO",
+    "text": "We stood up to wave our towels.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G36-E01-AUDIO",
+    "text": "I have a song to sing.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G36-E02-AUDIO",
+    "text": "We need something to drink.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G36-E03-AUDIO",
+    "text": "She has a letter to write.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G36-E04-AUDIO",
+    "text": "I want a chair to sit on.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G36-E05-AUDIO",
+    "text": "He needs time to practice.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G36-E06-AUDIO",
+    "text": "We have many places to visit.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G36-E07-AUDIO",
+    "text": "I have no money to spend.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G36-E08-AUDIO",
+    "text": "She wants a friend to talk with.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G36-E09-AUDIO",
+    "text": "This is a good book to read.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G36-E10-AUDIO",
+    "text": "I have something to tell you.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G37-E01-AUDIO",
+    "text": "I enjoy listening to music.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G37-E02-AUDIO",
+    "text": "She finished writing her message.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G37-E03-AUDIO",
+    "text": "We practice singing every day.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G37-E04-AUDIO",
+    "text": "He is good at playing the piano.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G37-E05-AUDIO",
+    "text": "Thank you for helping me.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G37-E06-AUDIO",
+    "text": "I am interested in learning English.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G37-E07-AUDIO",
+    "text": "She stopped talking during the song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G37-E08-AUDIO",
+    "text": "We enjoy watching music videos.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G37-E09-AUDIO",
+    "text": "He left without taking his bag.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G37-E10-AUDIO",
+    "text": "My hobby is collecting cards.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G38-E01-AUDIO",
+    "text": "She gave me a card.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G38-E02-AUDIO",
+    "text": "I showed him my ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G38-E03-AUDIO",
+    "text": "He sent us a photo.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G38-E04-AUDIO",
+    "text": "We told her the news.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G38-E05-AUDIO",
+    "text": "My sister bought me a towel.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G38-E06-AUDIO",
+    "text": "Please teach us this song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G38-E07-AUDIO",
+    "text": "I made her a small gift.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G38-E08-AUDIO",
+    "text": "He lent me his headphones.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G38-E09-AUDIO",
+    "text": "She asked him a question.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G38-E10-AUDIO",
+    "text": "The guide showed them the way.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G39-E01-AUDIO",
+    "text": "This song sounds beautiful.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G39-E02-AUDIO",
+    "text": "You look happy.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G39-E03-AUDIO",
+    "text": "I feel sleepy after the concert.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G39-E04-AUDIO",
+    "text": "The soup tastes good.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G39-E05-AUDIO",
+    "text": "She became famous.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G39-E06-AUDIO",
+    "text": "This towel feels soft.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G39-E07-AUDIO",
+    "text": "The flowers smell nice.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G39-E08-AUDIO",
+    "text": "My brother looks tired.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G39-E09-AUDIO",
+    "text": "The room became quiet.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G39-E10-AUDIO",
+    "text": "His idea sounds interesting.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G40-E01-AUDIO",
+    "text": "This song makes me happy.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G40-E02-AUDIO",
+    "text": "We call this dog Apple.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G40-E03-AUDIO",
+    "text": "Please keep your hands clean.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G40-E04-AUDIO",
+    "text": "My mother let me go to the concert.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G40-E05-AUDIO",
+    "text": "He helped me carry my bag.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G40-E06-AUDIO",
+    "text": "That joke made us laugh.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G40-E07-AUDIO",
+    "text": "Please leave the door open.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G40-E08-AUDIO",
+    "text": "The news made her sad.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G40-E09-AUDIO",
+    "text": "I will keep my ticket safe.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G40-E10-AUDIO",
+    "text": "The teacher made us practice again.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G41-E01-AUDIO",
+    "text": "I like singing and dancing.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G41-E02-AUDIO",
+    "text": "The ticket was expensive, but I bought it.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G41-E03-AUDIO",
+    "text": "Do you want tea or water?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G41-E04-AUDIO",
+    "text": "I was tired, so I went home.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G41-E05-AUDIO",
+    "text": "She bought a towel and a bag.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G41-E06-AUDIO",
+    "text": "The line was long, but we waited.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G41-E07-AUDIO",
+    "text": "You can sit here or stand there.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G41-E08-AUDIO",
+    "text": "It was raining, so I took an umbrella.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G41-E09-AUDIO",
+    "text": "He sings and plays the piano.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G41-E10-AUDIO",
+    "text": "I like this song, but my sister does not.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G42-E01-AUDIO",
+    "text": "I smiled because the ticket was mine.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G42-E02-AUDIO",
+    "text": "We cheered when the show started.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G42-E03-AUDIO",
+    "text": "I checked my bag before I left home.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G42-E04-AUDIO",
+    "text": "We ate dinner after the concert ended.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G42-E05-AUDIO",
+    "text": "She was happy because she won a ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G42-E06-AUDIO",
+    "text": "I listen to music when I feel sad.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G42-E07-AUDIO",
+    "text": "Please wash your hands before you eat.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G42-E08-AUDIO",
+    "text": "I called my friend after I got home.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G42-E09-AUDIO",
+    "text": "We took a bus because the hall was far away.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G42-E10-AUDIO",
+    "text": "She waved when she saw me.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G43-E01-AUDIO",
+    "text": "I will cry if I win a ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G43-E02-AUDIO",
+    "text": "We will wait if the train is late.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G43-E03-AUDIO",
+    "text": "I will take a bus if it rains.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G43-E04-AUDIO",
+    "text": "She will come if she has time.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G43-E05-AUDIO",
+    "text": "I will buy a towel if it is green.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G43-E06-AUDIO",
+    "text": "We will miss the start if we leave late.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G43-E07-AUDIO",
+    "text": "You can sit here if you want.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G43-E08-AUDIO",
+    "text": "I will help you if you need me.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G43-E09-AUDIO",
+    "text": "He will smile if he sees this photo.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G43-E10-AUDIO",
+    "text": "We will sing if everyone agrees.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G44-E01-AUDIO",
+    "text": "I think that this song is beautiful.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G44-E02-AUDIO",
+    "text": "She knows that I like this band.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G44-E03-AUDIO",
+    "text": "We hope that the weather will be fine.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G44-E04-AUDIO",
+    "text": "He said that he was tired.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G44-E05-AUDIO",
+    "text": "I am glad that you came.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G44-E06-AUDIO",
+    "text": "We believe that music brings people together.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G44-E07-AUDIO",
+    "text": "She told me that the show was canceled.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G44-E08-AUDIO",
+    "text": "I am sure that you will enjoy it.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G44-E09-AUDIO",
+    "text": "He thinks that this seat is good.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G44-E10-AUDIO",
+    "text": "I am happy that we can go together.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G45-E01-AUDIO",
+    "text": "I know where the hall is.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G45-E02-AUDIO",
+    "text": "Please tell me when the show starts.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G45-E03-AUDIO",
+    "text": "Do you know what this word means?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G45-E04-AUDIO",
+    "text": "I wonder why she is crying.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G45-E05-AUDIO",
+    "text": "He asked me where I lived.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G45-E06-AUDIO",
+    "text": "I remember when we first met.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G45-E07-AUDIO",
+    "text": "Please tell me how you got the ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G45-E08-AUDIO",
+    "text": "She knows which train we need.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G45-E09-AUDIO",
+    "text": "I do not know whose bag this is.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G45-E10-AUDIO",
+    "text": "Do you know how many cards he has?",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G46-E01-AUDIO",
+    "text": "I know how to play this song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G46-E02-AUDIO",
+    "text": "She told me where to buy tickets.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G46-E03-AUDIO",
+    "text": "We discussed when to leave.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G46-E04-AUDIO",
+    "text": "I cannot decide what to wear.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G46-E05-AUDIO",
+    "text": "Please show me how to use this app.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G46-E06-AUDIO",
+    "text": "He knows where to find the shop.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G46-E07-AUDIO",
+    "text": "I do not know what to say.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G46-E08-AUDIO",
+    "text": "She taught me how to read music.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G46-E09-AUDIO",
+    "text": "We must decide when to meet.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G46-E10-AUDIO",
+    "text": "Please tell me where to sit.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G47-E01-AUDIO",
+    "text": "I want you to listen to this song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G47-E02-AUDIO",
+    "text": "She asked me to wait outside.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G47-E03-AUDIO",
+    "text": "The guide told us to stand here.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G47-E04-AUDIO",
+    "text": "I want my brother to come with us.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G47-E05-AUDIO",
+    "text": "He asked me to take a photo.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G47-E06-AUDIO",
+    "text": "My mother told me to study first.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G47-E07-AUDIO",
+    "text": "We want everyone to enjoy the show.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G47-E08-AUDIO",
+    "text": "She asked him to carry her bag.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G47-E09-AUDIO",
+    "text": "The teacher told us to be quiet.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G47-E10-AUDIO",
+    "text": "I want you to remember this day.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G48-E01-AUDIO",
+    "text": "It is easy for me to sing this song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G48-E02-AUDIO",
+    "text": "It is hard for him to get up early.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G48-E03-AUDIO",
+    "text": "It is important for us to keep our tickets.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G48-E04-AUDIO",
+    "text": "It is fun for me to collect cards.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G48-E05-AUDIO",
+    "text": "It is difficult for her to choose one song.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G48-E06-AUDIO",
+    "text": "It is necessary for us to drink water.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G48-E07-AUDIO",
+    "text": "It is exciting for me to visit a new hall.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G48-E08-AUDIO",
+    "text": "It is useful for fans to learn English.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G48-E09-AUDIO",
+    "text": "It is impossible for me to buy every item.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G48-E10-AUDIO",
+    "text": "It is safe for us to wait inside.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G49-E01-AUDIO",
+    "text": "My bag is too heavy to carry.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G49-E02-AUDIO",
+    "text": "He is old enough to go alone.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G49-E03-AUDIO",
+    "text": "I was too excited to sleep.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G49-E04-AUDIO",
+    "text": "This room is big enough to practice in.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G49-E05-AUDIO",
+    "text": "The ticket is too expensive for me to buy.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G49-E06-AUDIO",
+    "text": "She is tall enough to see the stage.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G49-E07-AUDIO",
+    "text": "It is too late to catch the train.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G49-E08-AUDIO",
+    "text": "The music is loud enough to hear outside.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G49-E09-AUDIO",
+    "text": "I am too tired to dance.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G49-E10-AUDIO",
+    "text": "This box is strong enough to hold my cards.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G50-E01-AUDIO",
+    "text": "This song is loved by many fans.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G50-E02-AUDIO",
+    "text": "Tickets are sold online.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G50-E03-AUDIO",
+    "text": "The hall is cleaned every day.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G50-E04-AUDIO",
+    "text": "These cards are made in Japan.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G50-E05-AUDIO",
+    "text": "I am called Apple by my friends.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G50-E06-AUDIO",
+    "text": "This room is used for practice.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G50-E07-AUDIO",
+    "text": "The doors are opened at six.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G50-E08-AUDIO",
+    "text": "English is spoken in this video.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G50-E09-AUDIO",
+    "text": "The towels are washed after every show.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G50-E10-AUDIO",
+    "text": "This picture is shown on the screen.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G51-E01-AUDIO",
+    "text": "This song was played last night.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G51-E02-AUDIO",
+    "text": "The tickets were sold yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G51-E03-AUDIO",
+    "text": "My bag was found this morning.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G51-E04-AUDIO",
+    "text": "The photos were taken after the show.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G51-E05-AUDIO",
+    "text": "The concert was canceled last week.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G51-E06-AUDIO",
+    "text": "We were invited to the party yesterday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G51-E07-AUDIO",
+    "text": "The letter was written last Sunday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G51-E08-AUDIO",
+    "text": "These posters were printed last month.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G51-E09-AUDIO",
+    "text": "The hall was built ten years ago.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G51-E10-AUDIO",
+    "text": "The windows were closed before the show.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G52-E01-AUDIO",
+    "text": "I have seen this band twice.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G52-E02-AUDIO",
+    "text": "She has visited this hall before.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G52-E03-AUDIO",
+    "text": "We have never missed a concert.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G52-E04-AUDIO",
+    "text": "He has never sung on a stage.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G52-E05-AUDIO",
+    "text": "I have been to Osaka three times.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G52-E06-AUDIO",
+    "text": "My sister has met that singer once.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G52-E07-AUDIO",
+    "text": "They have played this song many times.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G52-E08-AUDIO",
+    "text": "I have never won a ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G52-E09-AUDIO",
+    "text": "He has tried this app before.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G52-E10-AUDIO",
+    "text": "We have heard that story many times.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G53-E01-AUDIO",
+    "text": "I have just bought a ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G53-E02-AUDIO",
+    "text": "She has already finished her homework.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G53-E03-AUDIO",
+    "text": "We have just arrived at the hall.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G53-E04-AUDIO",
+    "text": "He has lost his ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G53-E05-AUDIO",
+    "text": "I have already packed my bag.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G53-E06-AUDIO",
+    "text": "The show has just started.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G53-E07-AUDIO",
+    "text": "They have already left the station.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G53-E08-AUDIO",
+    "text": "My phone has stopped working.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G53-E09-AUDIO",
+    "text": "I have not checked the news yet.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G53-E10-AUDIO",
+    "text": "She has just opened her card pack.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G54-E01-AUDIO",
+    "text": "I have been a fan for three years.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G54-E02-AUDIO",
+    "text": "She has known this song since 2020.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G54-E03-AUDIO",
+    "text": "We have lived here for five years.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G54-E04-AUDIO",
+    "text": "He has had this guitar since his birthday.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G54-E05-AUDIO",
+    "text": "I have wanted this towel for a month.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G54-E06-AUDIO",
+    "text": "The shop has been open since ten this morning.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G54-E07-AUDIO",
+    "text": "They have been friends for ten years.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G54-E08-AUDIO",
+    "text": "I have liked green since I was little.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G54-E09-AUDIO",
+    "text": "She has been busy for two weeks.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G54-E10-AUDIO",
+    "text": "We have known each other since last summer.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G55-E01-AUDIO",
+    "text": "I have been waiting for an hour.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G55-E02-AUDIO",
+    "text": "She has been practicing since morning.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G55-E03-AUDIO",
+    "text": "We have been saving money for three months.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G55-E04-AUDIO",
+    "text": "He has been looking for his ticket since noon.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G55-E05-AUDIO",
+    "text": "They have been talking about the concert for an hour.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G55-E06-AUDIO",
+    "text": "I have been studying English since April.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G55-E07-AUDIO",
+    "text": "My sister has been listening to this album all morning.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G55-E08-AUDIO",
+    "text": "We have been standing in this line since eight.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G55-E09-AUDIO",
+    "text": "It has been raining since last night.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G55-E10-AUDIO",
+    "text": "You have been working too hard lately.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G56-E01-AUDIO",
+    "text": "I know a fan who speaks English.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G56-E02-AUDIO",
+    "text": "This is the song that makes me smile.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G56-E03-AUDIO",
+    "text": "She has a friend who plays the guitar.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G56-E04-AUDIO",
+    "text": "I want a bag which holds many towels.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G56-E05-AUDIO",
+    "text": "The boy who is singing is my brother.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G56-E06-AUDIO",
+    "text": "This is the bus that goes to the hall.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G56-E07-AUDIO",
+    "text": "I met a woman who knows this band.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G56-E08-AUDIO",
+    "text": "The card which is on the desk is mine.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G56-E09-AUDIO",
+    "text": "We need a guide who can help us.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G56-E10-AUDIO",
+    "text": "I like songs that tell a story.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G57-E01-AUDIO",
+    "text": "This is the ticket that I bought.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G57-E02-AUDIO",
+    "text": "I like the song which you chose.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G57-E03-AUDIO",
+    "text": "The fan that I met yesterday was kind.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G57-E04-AUDIO",
+    "text": "This is the towel that my sister gave me.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G57-E05-AUDIO",
+    "text": "The book which I am reading is interesting.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G57-E06-AUDIO",
+    "text": "I found the card that you wanted.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G57-E07-AUDIO",
+    "text": "The photo which we took is beautiful.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G57-E08-AUDIO",
+    "text": "This is the hall that we visited.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G57-E09-AUDIO",
+    "text": "I remember the words that he said.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G57-E10-AUDIO",
+    "text": "The bag which she carries is green.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G58-E01-AUDIO",
+    "text": "The girl singing on the stage is my friend.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G58-E02-AUDIO",
+    "text": "The photos taken yesterday are on my phone.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G58-E03-AUDIO",
+    "text": "I know the boy playing the piano.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G58-E04-AUDIO",
+    "text": "This is a song loved by many fans.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G58-E05-AUDIO",
+    "text": "The fans waiting outside look excited.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G58-E06-AUDIO",
+    "text": "The letter written in English is from my friend.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G58-E07-AUDIO",
+    "text": "Look at the cat sleeping on my towel.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G58-E08-AUDIO",
+    "text": "The cards made in Japan are popular.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G58-E09-AUDIO",
+    "text": "The man carrying the green bag is my father.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G58-E10-AUDIO",
+    "text": "The ticket found under the chair is mine.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G59-E01-AUDIO",
+    "text": "I wish I had a ticket.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G59-E02-AUDIO",
+    "text": "I wish I could play the guitar.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G59-E03-AUDIO",
+    "text": "I would buy that towel if I had more money.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G59-E04-AUDIO",
+    "text": "I would sing every day if I were a singer.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G59-E05-AUDIO",
+    "text": "I wish the hall were closer.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G59-E06-AUDIO",
+    "text": "I could take a picture if I had a camera.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G59-E07-AUDIO",
+    "text": "I wish my bag were lighter.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G59-E08-AUDIO",
+    "text": "I would tell you if I knew the answer.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G59-E09-AUDIO",
+    "text": "I wish I had more free time.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G59-E10-AUDIO",
+    "text": "I would check the ticket if I were you.",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G60-E01-AUDIO",
+    "text": "How beautiful this song is!",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G60-E02-AUDIO",
+    "text": "What a great show that was!",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G60-E03-AUDIO",
+    "text": "How fast she can play!",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G60-E04-AUDIO",
+    "text": "What a long line this is!",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G60-E05-AUDIO",
+    "text": "How kind you are!",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G60-E06-AUDIO",
+    "text": "What an exciting day this is!",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G60-E07-AUDIO",
+    "text": "How loud the music is!",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G60-E08-AUDIO",
+    "text": "What a lovely voice she has!",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G60-E09-AUDIO",
+    "text": "How heavy my bag is!",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  },
+  {
+    "id": "G60-E10-AUDIO",
+    "text": "What beautiful photos these are!",
+    "lang": "en-US",
+    "rate": 0.9,
+    "pitch": 1.0,
+    "preRecordedPath": null
+  }
+]

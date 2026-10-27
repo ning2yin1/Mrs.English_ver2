@@ -1,0 +1,2327 @@
+{
+  "grammarId": "G44",
+  "examples": [
+    {
+      "id": "G44-E01",
+      "grammarId": "G44",
+      "grammarNameJa": "that節・感情の理由",
+      "english": "I think that this song is beautiful.",
+      "translationJa": "私はこの曲は美しいと思います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 8,
+        "endExclusive": 12,
+        "explanationJa": "think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+      },
+      "sentenceExplanationJa": "「I think that this song is beautiful.」は「私はこの曲は美しいと思います。」という意味です。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。 この文の対象部分は「that」。まとまりは I think → that → this song is beautiful. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "think",
+          "lemma": "think",
+          "meaningJa": "思う",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "beautiful",
+          "lemma": "beautiful",
+          "meaningJa": "美しい",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I think ___ this song is beautiful.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 12,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G44-E01-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+          },
+          {
+            "id": "G44-E01-C3",
+            "text": "who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E01-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E01-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G44-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G44-E01-B01",
+            "text": "I think",
+            "role": "required"
+          },
+          {
+            "id": "G44-E01-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E01-B03",
+            "text": "this song is beautiful.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G44-E01-B01",
+          "G44-E01-B02",
+          "G44-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E01-B01",
+            "G44-E01-B02",
+            "G44-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G44-E01-B01",
+            "text": "I think",
+            "role": "required"
+          },
+          {
+            "id": "G44-E01-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E01-B03",
+            "text": "this song is beautiful.",
+            "role": "required"
+          },
+          {
+            "id": "G44-E01-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E01-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E01-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G44-E01-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E01-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E01-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G44-E01-B01",
+          "G44-E01-B02",
+          "G44-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E01-B01",
+            "G44-E01-B02",
+            "G44-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G44-E01-AUDIO",
+        "text": "I think that this song is beautiful.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G44-E02",
+      "grammarId": "G44",
+      "grammarNameJa": "that節・感情の理由",
+      "english": "She knows that I like this band.",
+      "translationJa": "彼女は私がこのバンドを好きだと知っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 10,
+        "endExclusive": 14,
+        "explanationJa": "think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+      },
+      "sentenceExplanationJa": "「She knows that I like this band.」は「彼女は私がこのバンドを好きだと知っています。」という意味です。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。 この文の対象部分は「that」。まとまりは She knows → that → I like this band. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "knows",
+          "lemma": "know",
+          "meaningJa": "知っている（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "like",
+          "lemma": "like",
+          "meaningJa": "好きである",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "band",
+          "lemma": "band",
+          "meaningJa": "バンド",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She knows ___ I like this band.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 14,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G44-E02-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E02-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E02-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+          },
+          {
+            "id": "G44-E02-C3",
+            "text": "who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「who」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G44-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G44-E02-B01",
+            "text": "She knows",
+            "role": "required"
+          },
+          {
+            "id": "G44-E02-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E02-B03",
+            "text": "I like this band.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G44-E02-B01",
+          "G44-E02-B02",
+          "G44-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E02-B01",
+            "G44-E02-B02",
+            "G44-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G44-E02-B01",
+            "text": "She knows",
+            "role": "required"
+          },
+          {
+            "id": "G44-E02-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E02-B03",
+            "text": "I like this band.",
+            "role": "required"
+          },
+          {
+            "id": "G44-E02-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E02-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E02-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G44-E02-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E02-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E02-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G44-E02-B01",
+          "G44-E02-B02",
+          "G44-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E02-B01",
+            "G44-E02-B02",
+            "G44-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G44-E02-AUDIO",
+        "text": "She knows that I like this band.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G44-E03",
+      "grammarId": "G44",
+      "grammarNameJa": "that節・感情の理由",
+      "english": "We hope that the weather will be fine.",
+      "translationJa": "私たちは天気がよくなることを願っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 8,
+        "endExclusive": 12,
+        "explanationJa": "think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+      },
+      "sentenceExplanationJa": "「We hope that the weather will be fine.」は「私たちは天気がよくなることを願っています。」という意味です。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。 この文の対象部分は「that」。まとまりは We hope → that → the weather will be fine. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "hope",
+          "lemma": "hope",
+          "meaningJa": "願う・望む",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "weather",
+          "lemma": "weather",
+          "meaningJa": "天気",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "be",
+          "lemma": "be",
+          "meaningJa": "～である・いる（原形）",
+          "kind": "word"
+        },
+        {
+          "expression": "fine",
+          "lemma": "fine",
+          "meaningJa": "晴れた・よい",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We hope ___ the weather will be fine.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 12,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G44-E03-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E03-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+          },
+          {
+            "id": "G44-E03-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E03-C3",
+            "text": "who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「who」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G44-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G44-E03-B01",
+            "text": "We hope",
+            "role": "required"
+          },
+          {
+            "id": "G44-E03-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E03-B03",
+            "text": "the weather will be fine.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G44-E03-B01",
+          "G44-E03-B02",
+          "G44-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E03-B01",
+            "G44-E03-B02",
+            "G44-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G44-E03-B01",
+            "text": "We hope",
+            "role": "required"
+          },
+          {
+            "id": "G44-E03-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E03-B03",
+            "text": "the weather will be fine.",
+            "role": "required"
+          },
+          {
+            "id": "G44-E03-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E03-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E03-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G44-E03-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E03-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E03-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G44-E03-B01",
+          "G44-E03-B02",
+          "G44-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E03-B01",
+            "G44-E03-B02",
+            "G44-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G44-E03-AUDIO",
+        "text": "We hope that the weather will be fine.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G44-E04",
+      "grammarId": "G44",
+      "grammarNameJa": "that節・感情の理由",
+      "english": "He said that he was tired.",
+      "translationJa": "彼は疲れていると言いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 8,
+        "endExclusive": 12,
+        "explanationJa": "think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+      },
+      "sentenceExplanationJa": "「He said that he was tired.」は「彼は疲れていると言いました。」という意味です。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。 この文の対象部分は「that」。まとまりは He said → that → he was tired. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "said",
+          "lemma": "say",
+          "meaningJa": "言う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "he",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "tired",
+          "lemma": "tired",
+          "meaningJa": "疲れた",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He said ___ he was tired.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 12,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G44-E04-C3",
+            "text": "who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E04-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+          },
+          {
+            "id": "G44-E04-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E04-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G44-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G44-E04-B01",
+            "text": "He said",
+            "role": "required"
+          },
+          {
+            "id": "G44-E04-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E04-B03",
+            "text": "he was tired.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G44-E04-B01",
+          "G44-E04-B02",
+          "G44-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E04-B01",
+            "G44-E04-B02",
+            "G44-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G44-E04-B01",
+            "text": "He said",
+            "role": "required"
+          },
+          {
+            "id": "G44-E04-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E04-B03",
+            "text": "he was tired.",
+            "role": "required"
+          },
+          {
+            "id": "G44-E04-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E04-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E04-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G44-E04-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E04-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E04-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G44-E04-B01",
+          "G44-E04-B02",
+          "G44-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E04-B01",
+            "G44-E04-B02",
+            "G44-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G44-E04-AUDIO",
+        "text": "He said that he was tired.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G44-E05",
+      "grammarId": "G44",
+      "grammarNameJa": "that節・感情の理由",
+      "english": "I am glad that you came.",
+      "translationJa": "私はあなたが来てくれてうれしいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 10,
+        "endExclusive": 14,
+        "explanationJa": "think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+      },
+      "sentenceExplanationJa": "「I am glad that you came.」は「私はあなたが来てくれてうれしいです。」という意味です。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。 この文の対象部分は「that」。まとまりは I am glad → that → you came. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "am",
+          "lemma": "am",
+          "meaningJa": "～です・いる（Iに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "glad",
+          "lemma": "glad",
+          "meaningJa": "うれしい",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "came",
+          "lemma": "come",
+          "meaningJa": "来る（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I am glad ___ you came.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 14,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G44-E05-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+          },
+          {
+            "id": "G44-E05-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E05-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E05-C3",
+            "text": "who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「who」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G44-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G44-E05-B01",
+            "text": "I am glad",
+            "role": "required"
+          },
+          {
+            "id": "G44-E05-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E05-B03",
+            "text": "you came.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G44-E05-B01",
+          "G44-E05-B02",
+          "G44-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E05-B01",
+            "G44-E05-B02",
+            "G44-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G44-E05-B01",
+            "text": "I am glad",
+            "role": "required"
+          },
+          {
+            "id": "G44-E05-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E05-B03",
+            "text": "you came.",
+            "role": "required"
+          },
+          {
+            "id": "G44-E05-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E05-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E05-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G44-E05-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E05-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E05-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G44-E05-B01",
+          "G44-E05-B02",
+          "G44-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E05-B01",
+            "G44-E05-B02",
+            "G44-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G44-E05-AUDIO",
+        "text": "I am glad that you came.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G44-E06",
+      "grammarId": "G44",
+      "grammarNameJa": "that節・感情の理由",
+      "english": "We believe that music brings people together.",
+      "translationJa": "私たちは音楽は人を結びつけると信じています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 11,
+        "endExclusive": 15,
+        "explanationJa": "think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+      },
+      "sentenceExplanationJa": "「We believe that music brings people together.」は「私たちは音楽は人を結びつけると信じています。」という意味です。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。 この文の対象部分は「that」。まとまりは We believe → that → music brings people together. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "believe",
+          "lemma": "believe",
+          "meaningJa": "信じる",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "music",
+          "lemma": "music",
+          "meaningJa": "音楽・楽譜",
+          "kind": "word"
+        },
+        {
+          "expression": "brings",
+          "lemma": "bring",
+          "meaningJa": "持ってくる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "people",
+          "lemma": "people",
+          "meaningJa": "人々",
+          "kind": "word"
+        },
+        {
+          "expression": "together",
+          "lemma": "together",
+          "meaningJa": "一緒に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We believe ___ music brings people together.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 15,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G44-E06-C3",
+            "text": "who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E06-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+          },
+          {
+            "id": "G44-E06-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E06-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G44-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G44-E06-B01",
+            "text": "We believe",
+            "role": "required"
+          },
+          {
+            "id": "G44-E06-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E06-B03",
+            "text": "music brings people together.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G44-E06-B01",
+          "G44-E06-B02",
+          "G44-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E06-B01",
+            "G44-E06-B02",
+            "G44-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G44-E06-B01",
+            "text": "We believe",
+            "role": "required"
+          },
+          {
+            "id": "G44-E06-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E06-B03",
+            "text": "music brings people together.",
+            "role": "required"
+          },
+          {
+            "id": "G44-E06-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E06-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E06-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G44-E06-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E06-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E06-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G44-E06-B01",
+          "G44-E06-B02",
+          "G44-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E06-B01",
+            "G44-E06-B02",
+            "G44-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G44-E06-AUDIO",
+        "text": "We believe that music brings people together.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G44-E07",
+      "grammarId": "G44",
+      "grammarNameJa": "that節・感情の理由",
+      "english": "She told me that the show was canceled.",
+      "translationJa": "彼女は公演が中止になったと私に伝えました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 12,
+        "endExclusive": 16,
+        "explanationJa": "think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+      },
+      "sentenceExplanationJa": "「She told me that the show was canceled.」は「彼女は公演が中止になったと私に伝えました。」という意味です。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。 この文の対象部分は「that」。まとまりは She told me → that → the show was canceled. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "told",
+          "lemma": "tell",
+          "meaningJa": "伝える・言う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "canceled",
+          "lemma": "cancel",
+          "meaningJa": "中止する（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She told me ___ the show was canceled.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 16,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G44-E07-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+          },
+          {
+            "id": "G44-E07-C3",
+            "text": "who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E07-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E07-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G44-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G44-E07-B01",
+            "text": "She told me",
+            "role": "required"
+          },
+          {
+            "id": "G44-E07-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E07-B03",
+            "text": "the show was canceled.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G44-E07-B01",
+          "G44-E07-B02",
+          "G44-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E07-B01",
+            "G44-E07-B02",
+            "G44-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G44-E07-B01",
+            "text": "She told me",
+            "role": "required"
+          },
+          {
+            "id": "G44-E07-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E07-B03",
+            "text": "the show was canceled.",
+            "role": "required"
+          },
+          {
+            "id": "G44-E07-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E07-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E07-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G44-E07-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E07-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E07-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G44-E07-B01",
+          "G44-E07-B02",
+          "G44-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E07-B01",
+            "G44-E07-B02",
+            "G44-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G44-E07-AUDIO",
+        "text": "She told me that the show was canceled.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G44-E08",
+      "grammarId": "G44",
+      "grammarNameJa": "that節・感情の理由",
+      "english": "I am sure that you will enjoy it.",
+      "translationJa": "あなたはきっとそれを楽しむと私は確信しています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 10,
+        "endExclusive": 14,
+        "explanationJa": "think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+      },
+      "sentenceExplanationJa": "「I am sure that you will enjoy it.」は「あなたはきっとそれを楽しむと私は確信しています。」という意味です。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。 この文の対象部分は「that」。まとまりは I am sure → that → you will enjoy it. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "am",
+          "lemma": "am",
+          "meaningJa": "～です・いる（Iに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "sure",
+          "lemma": "sure",
+          "meaningJa": "確信している",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "enjoy",
+          "lemma": "enjoy",
+          "meaningJa": "楽しむ",
+          "kind": "word"
+        },
+        {
+          "expression": "it",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I am sure ___ you will enjoy it.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 14,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G44-E08-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E08-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+          },
+          {
+            "id": "G44-E08-C3",
+            "text": "who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E08-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G44-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G44-E08-B01",
+            "text": "I am sure",
+            "role": "required"
+          },
+          {
+            "id": "G44-E08-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E08-B03",
+            "text": "you will enjoy it.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G44-E08-B01",
+          "G44-E08-B02",
+          "G44-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E08-B01",
+            "G44-E08-B02",
+            "G44-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G44-E08-B01",
+            "text": "I am sure",
+            "role": "required"
+          },
+          {
+            "id": "G44-E08-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E08-B03",
+            "text": "you will enjoy it.",
+            "role": "required"
+          },
+          {
+            "id": "G44-E08-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E08-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E08-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G44-E08-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E08-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E08-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G44-E08-B01",
+          "G44-E08-B02",
+          "G44-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E08-B01",
+            "G44-E08-B02",
+            "G44-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G44-E08-AUDIO",
+        "text": "I am sure that you will enjoy it.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G44-E09",
+      "grammarId": "G44",
+      "grammarNameJa": "that節・感情の理由",
+      "english": "He thinks that this seat is good.",
+      "translationJa": "彼はこの席はよいと思っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 10,
+        "endExclusive": 14,
+        "explanationJa": "think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+      },
+      "sentenceExplanationJa": "「He thinks that this seat is good.」は「彼はこの席はよいと思っています。」という意味です。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。 この文の対象部分は「that」。まとまりは He thinks → that → this seat is good. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "thinks",
+          "lemma": "think",
+          "meaningJa": "思う（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "seat",
+          "lemma": "seat",
+          "meaningJa": "席",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "good",
+          "lemma": "good",
+          "meaningJa": "よい",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He thinks ___ this seat is good.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 14,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G44-E09-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+          },
+          {
+            "id": "G44-E09-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E09-C3",
+            "text": "who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E09-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G44-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G44-E09-B01",
+            "text": "He thinks",
+            "role": "required"
+          },
+          {
+            "id": "G44-E09-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E09-B03",
+            "text": "this seat is good.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G44-E09-B01",
+          "G44-E09-B02",
+          "G44-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E09-B01",
+            "G44-E09-B02",
+            "G44-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G44-E09-B01",
+            "text": "He thinks",
+            "role": "required"
+          },
+          {
+            "id": "G44-E09-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E09-B03",
+            "text": "this seat is good.",
+            "role": "required"
+          },
+          {
+            "id": "G44-E09-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E09-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E09-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G44-E09-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E09-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E09-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G44-E09-B01",
+          "G44-E09-B02",
+          "G44-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E09-B01",
+            "G44-E09-B02",
+            "G44-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G44-E09-AUDIO",
+        "text": "He thinks that this seat is good.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G44-E10",
+      "grammarId": "G44",
+      "grammarNameJa": "that節・感情の理由",
+      "english": "I am happy that we can go together.",
+      "translationJa": "私は一緒に行けることがうれしいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 11,
+        "endExclusive": 15,
+        "explanationJa": "think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+      },
+      "sentenceExplanationJa": "「I am happy that we can go together.」は「私は一緒に行けることがうれしいです。」という意味です。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。 この文の対象部分は「that」。まとまりは I am happy → that → we can go together. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "am",
+          "lemma": "am",
+          "meaningJa": "～です・いる（Iに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "happy",
+          "lemma": "happy",
+          "meaningJa": "うれしい・幸せな",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "we",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "go",
+          "lemma": "go",
+          "meaningJa": "行く",
+          "kind": "word"
+        },
+        {
+          "expression": "together",
+          "lemma": "together",
+          "meaningJa": "一緒に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I am happy ___ we can go together.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 15,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G44-E10-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E10-C3",
+            "text": "who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G44-E10-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。"
+          },
+          {
+            "id": "G44-E10-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G44-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G44-E10-B01",
+            "text": "I am happy",
+            "role": "required"
+          },
+          {
+            "id": "G44-E10-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E10-B03",
+            "text": "we can go together.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G44-E10-B01",
+          "G44-E10-B02",
+          "G44-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E10-B01",
+            "G44-E10-B02",
+            "G44-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G44-E10-B01",
+            "text": "I am happy",
+            "role": "required"
+          },
+          {
+            "id": "G44-E10-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G44-E10-B03",
+            "text": "we can go together.",
+            "role": "required"
+          },
+          {
+            "id": "G44-E10-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E10-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E10-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G44-E10-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E10-D02",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E10-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G44-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G44-E10-B01",
+          "G44-E10-B02",
+          "G44-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G44-E10-B01",
+            "G44-E10-B02",
+            "G44-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G44-E10-AUDIO",
+        "text": "I am happy that we can go together.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

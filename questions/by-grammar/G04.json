@@ -1,0 +1,2313 @@
+{
+  "grammarId": "G04",
+  "examples": [
+    {
+      "id": "G04-E01",
+      "grammarId": "G04",
+      "grammarNameJa": "冠詞と名詞の複数形",
+      "english": "I have a ticket.",
+      "translationJa": "私はチケットを1枚持っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "a",
+        "start": 7,
+        "endExclusive": 8,
+        "explanationJa": "aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+      },
+      "sentenceExplanationJa": "「I have a ticket.」は「私はチケットを1枚持っています。」という意味です。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。 この文の対象部分は「a」。まとまりは I → have → a → ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I have ___ ticket.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 8,
+          "answer": "a"
+        },
+        "options": [
+          {
+            "id": "G04-E01-C3",
+            "text": "two",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「a」を使います。「two」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E01-C2",
+            "text": "an",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「a」を使います。「an」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E01-C4",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「a」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E01-C1",
+            "text": "a",
+            "isCorrect": true,
+            "explanationJa": "正解。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+          }
+        ],
+        "correctOptionId": "G04-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G04-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G04-E01-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G04-E01-B03",
+            "text": "a",
+            "role": "required"
+          },
+          {
+            "id": "G04-E01-B04",
+            "text": "ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G04-E01-B01",
+          "G04-E01-B02",
+          "G04-E01-B03",
+          "G04-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E01-B01",
+            "G04-E01-B02",
+            "G04-E01-B03",
+            "G04-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G04-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G04-E01-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G04-E01-B03",
+            "text": "a",
+            "role": "required"
+          },
+          {
+            "id": "G04-E01-B04",
+            "text": "ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G04-E01-D01",
+            "text": "an",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E01-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E01-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G04-E01-D01",
+            "text": "an",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E01-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E01-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G04-E01-B01",
+          "G04-E01-B02",
+          "G04-E01-B03",
+          "G04-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E01-B01",
+            "G04-E01-B02",
+            "G04-E01-B03",
+            "G04-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G04-E01-AUDIO",
+        "text": "I have a ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G04-E02",
+      "grammarId": "G04",
+      "grammarNameJa": "冠詞と名詞の複数形",
+      "english": "She has an umbrella.",
+      "translationJa": "彼女は傘を1本持っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "an",
+        "start": 8,
+        "endExclusive": 10,
+        "explanationJa": "aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+      },
+      "sentenceExplanationJa": "「She has an umbrella.」は「彼女は傘を1本持っています。」という意味です。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。 この文の対象部分は「an」。まとまりは She → has → an → umbrella. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "an",
+          "lemma": "an",
+          "meaningJa": "1つの（母音で始まる音の前の不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "umbrella",
+          "lemma": "umbrella",
+          "meaningJa": "傘",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She has ___ umbrella.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 10,
+          "answer": "an"
+        },
+        "options": [
+          {
+            "id": "G04-E02-C2",
+            "text": "a",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「an」を使います。「a」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E02-C1",
+            "text": "an",
+            "isCorrect": true,
+            "explanationJa": "正解。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+          },
+          {
+            "id": "G04-E02-C4",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「an」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E02-C3",
+            "text": "two",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「an」を使います。「two」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G04-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G04-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G04-E02-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G04-E02-B03",
+            "text": "an",
+            "role": "required"
+          },
+          {
+            "id": "G04-E02-B04",
+            "text": "umbrella.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G04-E02-B01",
+          "G04-E02-B02",
+          "G04-E02-B03",
+          "G04-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E02-B01",
+            "G04-E02-B02",
+            "G04-E02-B03",
+            "G04-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G04-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G04-E02-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G04-E02-B03",
+            "text": "an",
+            "role": "required"
+          },
+          {
+            "id": "G04-E02-B04",
+            "text": "umbrella.",
+            "role": "required"
+          },
+          {
+            "id": "G04-E02-D01",
+            "text": "a",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E02-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E02-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G04-E02-D01",
+            "text": "a",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E02-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E02-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G04-E02-B01",
+          "G04-E02-B02",
+          "G04-E02-B03",
+          "G04-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E02-B01",
+            "G04-E02-B02",
+            "G04-E02-B03",
+            "G04-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G04-E02-AUDIO",
+        "text": "She has an umbrella.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G04-E03",
+      "grammarId": "G04",
+      "grammarNameJa": "冠詞と名詞の複数形",
+      "english": "We need a map.",
+      "translationJa": "私たちは地図が1枚必要です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "a",
+        "start": 8,
+        "endExclusive": 9,
+        "explanationJa": "aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+      },
+      "sentenceExplanationJa": "「We need a map.」は「私たちは地図が1枚必要です。」という意味です。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。 この文の対象部分は「a」。まとまりは We → need → a → map. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "need",
+          "lemma": "need",
+          "meaningJa": "必要とする",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "map",
+          "lemma": "map",
+          "meaningJa": "地図",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We need ___ map.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 9,
+          "answer": "a"
+        },
+        "options": [
+          {
+            "id": "G04-E03-C2",
+            "text": "an",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「a」を使います。「an」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E03-C4",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「a」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E03-C3",
+            "text": "two",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「a」を使います。「two」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E03-C1",
+            "text": "a",
+            "isCorrect": true,
+            "explanationJa": "正解。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+          }
+        ],
+        "correctOptionId": "G04-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G04-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G04-E03-B02",
+            "text": "need",
+            "role": "required"
+          },
+          {
+            "id": "G04-E03-B03",
+            "text": "a",
+            "role": "required"
+          },
+          {
+            "id": "G04-E03-B04",
+            "text": "map.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G04-E03-B01",
+          "G04-E03-B02",
+          "G04-E03-B03",
+          "G04-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E03-B01",
+            "G04-E03-B02",
+            "G04-E03-B03",
+            "G04-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G04-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G04-E03-B02",
+            "text": "need",
+            "role": "required"
+          },
+          {
+            "id": "G04-E03-B03",
+            "text": "a",
+            "role": "required"
+          },
+          {
+            "id": "G04-E03-B04",
+            "text": "map.",
+            "role": "required"
+          },
+          {
+            "id": "G04-E03-D01",
+            "text": "an",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E03-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E03-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G04-E03-D01",
+            "text": "an",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E03-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E03-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G04-E03-B01",
+          "G04-E03-B02",
+          "G04-E03-B03",
+          "G04-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E03-B01",
+            "G04-E03-B02",
+            "G04-E03-B03",
+            "G04-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G04-E03-AUDIO",
+        "text": "We need a map.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G04-E04",
+      "grammarId": "G04",
+      "grammarNameJa": "冠詞と名詞の複数形",
+      "english": "He bought an album.",
+      "translationJa": "彼はアルバムを1枚買いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "an",
+        "start": 10,
+        "endExclusive": 12,
+        "explanationJa": "aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+      },
+      "sentenceExplanationJa": "「He bought an album.」は「彼はアルバムを1枚買いました。」という意味です。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。 この文の対象部分は「an」。まとまりは He → bought → an → album. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "bought",
+          "lemma": "buy",
+          "meaningJa": "買う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "an",
+          "lemma": "an",
+          "meaningJa": "1つの（母音で始まる音の前の不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "album",
+          "lemma": "album",
+          "meaningJa": "アルバム",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He bought ___ album.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 12,
+          "answer": "an"
+        },
+        "options": [
+          {
+            "id": "G04-E04-C2",
+            "text": "a",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「an」を使います。「a」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E04-C1",
+            "text": "an",
+            "isCorrect": true,
+            "explanationJa": "正解。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+          },
+          {
+            "id": "G04-E04-C4",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「an」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E04-C3",
+            "text": "two",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「an」を使います。「two」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G04-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G04-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G04-E04-B02",
+            "text": "bought",
+            "role": "required"
+          },
+          {
+            "id": "G04-E04-B03",
+            "text": "an",
+            "role": "required"
+          },
+          {
+            "id": "G04-E04-B04",
+            "text": "album.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G04-E04-B01",
+          "G04-E04-B02",
+          "G04-E04-B03",
+          "G04-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E04-B01",
+            "G04-E04-B02",
+            "G04-E04-B03",
+            "G04-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G04-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G04-E04-B02",
+            "text": "bought",
+            "role": "required"
+          },
+          {
+            "id": "G04-E04-B03",
+            "text": "an",
+            "role": "required"
+          },
+          {
+            "id": "G04-E04-B04",
+            "text": "album.",
+            "role": "required"
+          },
+          {
+            "id": "G04-E04-D01",
+            "text": "a",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E04-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E04-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G04-E04-D01",
+            "text": "a",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E04-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E04-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G04-E04-B01",
+          "G04-E04-B02",
+          "G04-E04-B03",
+          "G04-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E04-B01",
+            "G04-E04-B02",
+            "G04-E04-B03",
+            "G04-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G04-E04-AUDIO",
+        "text": "He bought an album.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G04-E05",
+      "grammarId": "G04",
+      "grammarNameJa": "冠詞と名詞の複数形",
+      "english": "I want a towel.",
+      "translationJa": "私はタオルが1枚欲しいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "a",
+        "start": 7,
+        "endExclusive": 8,
+        "explanationJa": "aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+      },
+      "sentenceExplanationJa": "「I want a towel.」は「私はタオルが1枚欲しいです。」という意味です。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。 この文の対象部分は「a」。まとまりは I → want → a → towel. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "want",
+          "lemma": "want",
+          "meaningJa": "欲しい・～したい",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I want ___ towel.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 8,
+          "answer": "a"
+        },
+        "options": [
+          {
+            "id": "G04-E05-C2",
+            "text": "an",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「a」を使います。「an」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E05-C3",
+            "text": "two",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「a」を使います。「two」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E05-C4",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「a」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E05-C1",
+            "text": "a",
+            "isCorrect": true,
+            "explanationJa": "正解。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+          }
+        ],
+        "correctOptionId": "G04-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G04-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G04-E05-B02",
+            "text": "want",
+            "role": "required"
+          },
+          {
+            "id": "G04-E05-B03",
+            "text": "a",
+            "role": "required"
+          },
+          {
+            "id": "G04-E05-B04",
+            "text": "towel.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G04-E05-B01",
+          "G04-E05-B02",
+          "G04-E05-B03",
+          "G04-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E05-B01",
+            "G04-E05-B02",
+            "G04-E05-B03",
+            "G04-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G04-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G04-E05-B02",
+            "text": "want",
+            "role": "required"
+          },
+          {
+            "id": "G04-E05-B03",
+            "text": "a",
+            "role": "required"
+          },
+          {
+            "id": "G04-E05-B04",
+            "text": "towel.",
+            "role": "required"
+          },
+          {
+            "id": "G04-E05-D01",
+            "text": "an",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E05-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E05-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G04-E05-D01",
+            "text": "an",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E05-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E05-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G04-E05-B01",
+          "G04-E05-B02",
+          "G04-E05-B03",
+          "G04-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E05-B01",
+            "G04-E05-B02",
+            "G04-E05-B03",
+            "G04-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G04-E05-AUDIO",
+        "text": "I want a towel.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G04-E06",
+      "grammarId": "G04",
+      "grammarNameJa": "冠詞と名詞の複数形",
+      "english": "She has two tickets.",
+      "translationJa": "彼女はチケットを2枚持っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "two",
+        "start": 8,
+        "endExclusive": 11,
+        "explanationJa": "aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+      },
+      "sentenceExplanationJa": "「She has two tickets.」は「彼女はチケットを2枚持っています。」という意味です。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。 この文の対象部分は「two」。まとまりは She → has → two → tickets. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "two",
+          "lemma": "two",
+          "meaningJa": "2",
+          "kind": "word"
+        },
+        {
+          "expression": "tickets",
+          "lemma": "ticket",
+          "meaningJa": "チケット（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She has ___ tickets.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 11,
+          "answer": "two"
+        },
+        "options": [
+          {
+            "id": "G04-E06-C1",
+            "text": "two",
+            "isCorrect": true,
+            "explanationJa": "正解。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+          },
+          {
+            "id": "G04-E06-C4",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「two」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E06-C3",
+            "text": "an",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「two」を使います。「an」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E06-C2",
+            "text": "a",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「two」を使います。「a」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G04-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G04-E06-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G04-E06-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G04-E06-B03",
+            "text": "two",
+            "role": "required"
+          },
+          {
+            "id": "G04-E06-B04",
+            "text": "tickets.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G04-E06-B01",
+          "G04-E06-B02",
+          "G04-E06-B03",
+          "G04-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E06-B01",
+            "G04-E06-B02",
+            "G04-E06-B03",
+            "G04-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G04-E06-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G04-E06-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G04-E06-B03",
+            "text": "two",
+            "role": "required"
+          },
+          {
+            "id": "G04-E06-B04",
+            "text": "tickets.",
+            "role": "required"
+          },
+          {
+            "id": "G04-E06-D01",
+            "text": "a",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「two」と比較してください。"
+          },
+          {
+            "id": "G04-E06-D02",
+            "text": "an",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「two」と比較してください。"
+          },
+          {
+            "id": "G04-E06-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「two」と比較してください。"
+          },
+          {
+            "id": "G04-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「two」と比較してください。"
+          },
+          {
+            "id": "G04-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「two」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G04-E06-D01",
+            "text": "a",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「two」と比較してください。"
+          },
+          {
+            "id": "G04-E06-D02",
+            "text": "an",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「two」と比較してください。"
+          },
+          {
+            "id": "G04-E06-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「two」と比較してください。"
+          },
+          {
+            "id": "G04-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「two」と比較してください。"
+          },
+          {
+            "id": "G04-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「two」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G04-E06-B01",
+          "G04-E06-B02",
+          "G04-E06-B03",
+          "G04-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E06-B01",
+            "G04-E06-B02",
+            "G04-E06-B03",
+            "G04-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G04-E06-AUDIO",
+        "text": "She has two tickets.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G04-E07",
+      "grammarId": "G04",
+      "grammarNameJa": "冠詞と名詞の複数形",
+      "english": "I ate an apple before the show.",
+      "translationJa": "私は公演前にリンゴを1個食べました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "an",
+        "start": 6,
+        "endExclusive": 8,
+        "explanationJa": "aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+      },
+      "sentenceExplanationJa": "「I ate an apple before the show.」は「私は公演前にリンゴを1個食べました。」という意味です。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。 この文の対象部分は「an」。まとまりは I → ate → an → apple → before the show. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "ate",
+          "lemma": "eat",
+          "meaningJa": "食べる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "an",
+          "lemma": "an",
+          "meaningJa": "1つの（母音で始まる音の前の不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "apple",
+          "lemma": "apple",
+          "meaningJa": "リンゴ／アップル（名前）",
+          "kind": "word"
+        },
+        {
+          "expression": "before",
+          "lemma": "before",
+          "meaningJa": "～の前に・以前",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ate ___ apple before the show.",
+        "blank": {
+          "start": 6,
+          "endExclusive": 8,
+          "answer": "an"
+        },
+        "options": [
+          {
+            "id": "G04-E07-C3",
+            "text": "two",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「an」を使います。「two」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E07-C1",
+            "text": "an",
+            "isCorrect": true,
+            "explanationJa": "正解。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+          },
+          {
+            "id": "G04-E07-C2",
+            "text": "a",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「an」を使います。「a」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E07-C4",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「an」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G04-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G04-E07-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G04-E07-B02",
+            "text": "ate",
+            "role": "required"
+          },
+          {
+            "id": "G04-E07-B03",
+            "text": "an",
+            "role": "required"
+          },
+          {
+            "id": "G04-E07-B04",
+            "text": "apple",
+            "role": "required"
+          },
+          {
+            "id": "G04-E07-B05",
+            "text": "before the show.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G04-E07-B01",
+          "G04-E07-B02",
+          "G04-E07-B03",
+          "G04-E07-B04",
+          "G04-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E07-B01",
+            "G04-E07-B02",
+            "G04-E07-B03",
+            "G04-E07-B04",
+            "G04-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G04-E07-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G04-E07-B02",
+            "text": "ate",
+            "role": "required"
+          },
+          {
+            "id": "G04-E07-B03",
+            "text": "an",
+            "role": "required"
+          },
+          {
+            "id": "G04-E07-B04",
+            "text": "apple",
+            "role": "required"
+          },
+          {
+            "id": "G04-E07-B05",
+            "text": "before the show.",
+            "role": "required"
+          },
+          {
+            "id": "G04-E07-D01",
+            "text": "a",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E07-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E07-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G04-E07-D01",
+            "text": "a",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E07-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E07-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G04-E07-B01",
+          "G04-E07-B02",
+          "G04-E07-B03",
+          "G04-E07-B04",
+          "G04-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E07-B01",
+            "G04-E07-B02",
+            "G04-E07-B03",
+            "G04-E07-B04",
+            "G04-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G04-E07-AUDIO",
+        "text": "I ate an apple before the show.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G04-E08",
+      "grammarId": "G04",
+      "grammarNameJa": "冠詞と名詞の複数形",
+      "english": "We took a bus.",
+      "translationJa": "私たちはバスに乗りました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "a",
+        "start": 8,
+        "endExclusive": 9,
+        "explanationJa": "aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+      },
+      "sentenceExplanationJa": "「We took a bus.」は「私たちはバスに乗りました。」という意味です。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。 この文の対象部分は「a」。まとまりは We → took → a → bus. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "took",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "bus",
+          "lemma": "bus",
+          "meaningJa": "バス",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We took ___ bus.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 9,
+          "answer": "a"
+        },
+        "options": [
+          {
+            "id": "G04-E08-C1",
+            "text": "a",
+            "isCorrect": true,
+            "explanationJa": "正解。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+          },
+          {
+            "id": "G04-E08-C3",
+            "text": "two",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「a」を使います。「two」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E08-C2",
+            "text": "an",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「a」を使います。「an」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E08-C4",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「a」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G04-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G04-E08-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G04-E08-B02",
+            "text": "took",
+            "role": "required"
+          },
+          {
+            "id": "G04-E08-B03",
+            "text": "a",
+            "role": "required"
+          },
+          {
+            "id": "G04-E08-B04",
+            "text": "bus.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G04-E08-B01",
+          "G04-E08-B02",
+          "G04-E08-B03",
+          "G04-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E08-B01",
+            "G04-E08-B02",
+            "G04-E08-B03",
+            "G04-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G04-E08-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G04-E08-B02",
+            "text": "took",
+            "role": "required"
+          },
+          {
+            "id": "G04-E08-B03",
+            "text": "a",
+            "role": "required"
+          },
+          {
+            "id": "G04-E08-B04",
+            "text": "bus.",
+            "role": "required"
+          },
+          {
+            "id": "G04-E08-D01",
+            "text": "an",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E08-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E08-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G04-E08-D01",
+            "text": "an",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E08-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E08-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          },
+          {
+            "id": "G04-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「a」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G04-E08-B01",
+          "G04-E08-B02",
+          "G04-E08-B03",
+          "G04-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E08-B01",
+            "G04-E08-B02",
+            "G04-E08-B03",
+            "G04-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G04-E08-AUDIO",
+        "text": "We took a bus.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G04-E09",
+      "grammarId": "G04",
+      "grammarNameJa": "冠詞と名詞の複数形",
+      "english": "There are many fans here.",
+      "translationJa": "ここにはたくさんのファンがいます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "many",
+        "start": 10,
+        "endExclusive": 14,
+        "explanationJa": "aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+      },
+      "sentenceExplanationJa": "「There are many fans here.」は「ここにはたくさんのファンがいます。」という意味です。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。 この文の対象部分は「many」。まとまりは There are → many → fans → here. の順です。",
+      "glossary": [
+        {
+          "expression": "There",
+          "lemma": "there",
+          "meaningJa": "そこに／存在構文のthere",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "many",
+          "lemma": "many",
+          "meaningJa": "たくさんの（可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "fans",
+          "lemma": "fan",
+          "meaningJa": "ファン（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "here",
+          "lemma": "here",
+          "meaningJa": "ここに・ここで",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "There are ___ fans here.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 14,
+          "answer": "many"
+        },
+        "options": [
+          {
+            "id": "G04-E09-C3",
+            "text": "an",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「many」を使います。「an」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E09-C2",
+            "text": "a",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「many」を使います。「a」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E09-C4",
+            "text": "two",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「many」を使います。「two」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E09-C1",
+            "text": "many",
+            "isCorrect": true,
+            "explanationJa": "正解。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+          }
+        ],
+        "correctOptionId": "G04-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G04-E09-B01",
+            "text": "There are",
+            "role": "required"
+          },
+          {
+            "id": "G04-E09-B02",
+            "text": "many",
+            "role": "required"
+          },
+          {
+            "id": "G04-E09-B03",
+            "text": "fans",
+            "role": "required"
+          },
+          {
+            "id": "G04-E09-B04",
+            "text": "here.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G04-E09-B01",
+          "G04-E09-B02",
+          "G04-E09-B03",
+          "G04-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E09-B01",
+            "G04-E09-B02",
+            "G04-E09-B03",
+            "G04-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G04-E09-B01",
+            "text": "There are",
+            "role": "required"
+          },
+          {
+            "id": "G04-E09-B02",
+            "text": "many",
+            "role": "required"
+          },
+          {
+            "id": "G04-E09-B03",
+            "text": "fans",
+            "role": "required"
+          },
+          {
+            "id": "G04-E09-B04",
+            "text": "here.",
+            "role": "required"
+          },
+          {
+            "id": "G04-E09-D01",
+            "text": "a",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G04-E09-D02",
+            "text": "an",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G04-E09-D03",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G04-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G04-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G04-E09-D01",
+            "text": "a",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G04-E09-D02",
+            "text": "an",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G04-E09-D03",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G04-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G04-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G04-E09-B01",
+          "G04-E09-B02",
+          "G04-E09-B03",
+          "G04-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E09-B01",
+            "G04-E09-B02",
+            "G04-E09-B03",
+            "G04-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G04-E09-AUDIO",
+        "text": "There are many fans here.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G04-E10",
+      "grammarId": "G04",
+      "grammarNameJa": "冠詞と名詞の複数形",
+      "english": "He needs an eraser.",
+      "translationJa": "彼は消しゴムを1個必要としています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "an",
+        "start": 9,
+        "endExclusive": 11,
+        "explanationJa": "aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+      },
+      "sentenceExplanationJa": "「He needs an eraser.」は「彼は消しゴムを1個必要としています。」という意味です。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。 この文の対象部分は「an」。まとまりは He → needs → an → eraser. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "needs",
+          "lemma": "need",
+          "meaningJa": "必要とする（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "an",
+          "lemma": "an",
+          "meaningJa": "1つの（母音で始まる音の前の不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "eraser",
+          "lemma": "eraser",
+          "meaningJa": "消しゴム",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He needs ___ eraser.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 11,
+          "answer": "an"
+        },
+        "options": [
+          {
+            "id": "G04-E10-C2",
+            "text": "a",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「an」を使います。「a」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E10-C3",
+            "text": "two",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「an」を使います。「two」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E10-C4",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「an」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G04-E10-C1",
+            "text": "an",
+            "isCorrect": true,
+            "explanationJa": "正解。aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。"
+          }
+        ],
+        "correctOptionId": "G04-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G04-E10-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G04-E10-B02",
+            "text": "needs",
+            "role": "required"
+          },
+          {
+            "id": "G04-E10-B03",
+            "text": "an",
+            "role": "required"
+          },
+          {
+            "id": "G04-E10-B04",
+            "text": "eraser.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G04-E10-B01",
+          "G04-E10-B02",
+          "G04-E10-B03",
+          "G04-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E10-B01",
+            "G04-E10-B02",
+            "G04-E10-B03",
+            "G04-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G04-E10-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G04-E10-B02",
+            "text": "needs",
+            "role": "required"
+          },
+          {
+            "id": "G04-E10-B03",
+            "text": "an",
+            "role": "required"
+          },
+          {
+            "id": "G04-E10-B04",
+            "text": "eraser.",
+            "role": "required"
+          },
+          {
+            "id": "G04-E10-D01",
+            "text": "a",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E10-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E10-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G04-E10-D01",
+            "text": "a",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E10-D02",
+            "text": "two",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E10-D03",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          },
+          {
+            "id": "G04-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「an」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G04-E10-B01",
+          "G04-E10-B02",
+          "G04-E10-B03",
+          "G04-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G04-E10-B01",
+            "G04-E10-B02",
+            "G04-E10-B03",
+            "G04-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G04-E10-AUDIO",
+        "text": "He needs an eraser.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

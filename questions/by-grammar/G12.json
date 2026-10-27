@@ -1,0 +1,2289 @@
+{
+  "grammarId": "G12",
+  "examples": [
+    {
+      "id": "G12-E01",
+      "grammarId": "G12",
+      "grammarNameJa": "where・whenの疑問文",
+      "english": "Where is the concert hall?",
+      "translationJa": "コンサート会場はどこですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Where",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+      },
+      "sentenceExplanationJa": "「Where is the concert hall?」は「コンサート会場はどこですか。」という意味です。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。 この文の対象部分は「Where」。まとまりは Where → is → the concert hall? の順です。",
+      "glossary": [
+        {
+          "expression": "Where",
+          "lemma": "where",
+          "meaningJa": "どこ",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ is the concert hall?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Where"
+        },
+        "options": [
+          {
+            "id": "G12-E01-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E01-C2",
+            "text": "When",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「When」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E01-C3",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E01-C1",
+            "text": "Where",
+            "isCorrect": true,
+            "explanationJa": "正解。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+          }
+        ],
+        "correctOptionId": "G12-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G12-E01-B01",
+            "text": "Where",
+            "role": "required"
+          },
+          {
+            "id": "G12-E01-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G12-E01-B03",
+            "text": "the concert hall?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G12-E01-B01",
+          "G12-E01-B02",
+          "G12-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E01-B01",
+            "G12-E01-B02",
+            "G12-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G12-E01-B01",
+            "text": "Where",
+            "role": "required"
+          },
+          {
+            "id": "G12-E01-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G12-E01-B03",
+            "text": "the concert hall?",
+            "role": "required"
+          },
+          {
+            "id": "G12-E01-D01",
+            "text": "When",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E01-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E01-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G12-E01-D01",
+            "text": "When",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E01-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E01-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G12-E01-B01",
+          "G12-E01-B02",
+          "G12-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E01-B01",
+            "G12-E01-B02",
+            "G12-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G12-E01-AUDIO",
+        "text": "Where is the concert hall?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G12-E02",
+      "grammarId": "G12",
+      "grammarNameJa": "where・whenの疑問文",
+      "english": "When does the show start?",
+      "translationJa": "公演はいつ始まりますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "When",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+      },
+      "sentenceExplanationJa": "「When does the show start?」は「公演はいつ始まりますか。」という意味です。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。 この文の対象部分は「When」。まとまりは When → does → the show → start? の順です。",
+      "glossary": [
+        {
+          "expression": "When",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "does",
+          "lemma": "does",
+          "meaningJa": "三人称単数現在のdo",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        },
+        {
+          "expression": "start",
+          "lemma": "start",
+          "meaningJa": "始まる・始める",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ does the show start?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "When"
+        },
+        "options": [
+          {
+            "id": "G12-E02-C1",
+            "text": "When",
+            "isCorrect": true,
+            "explanationJa": "正解。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+          },
+          {
+            "id": "G12-E02-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E02-C2",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E02-C3",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G12-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G12-E02-B01",
+            "text": "When",
+            "role": "required"
+          },
+          {
+            "id": "G12-E02-B02",
+            "text": "does",
+            "role": "required"
+          },
+          {
+            "id": "G12-E02-B03",
+            "text": "the show",
+            "role": "required"
+          },
+          {
+            "id": "G12-E02-B04",
+            "text": "start?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G12-E02-B01",
+          "G12-E02-B02",
+          "G12-E02-B03",
+          "G12-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E02-B01",
+            "G12-E02-B02",
+            "G12-E02-B03",
+            "G12-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G12-E02-B01",
+            "text": "When",
+            "role": "required"
+          },
+          {
+            "id": "G12-E02-B02",
+            "text": "does",
+            "role": "required"
+          },
+          {
+            "id": "G12-E02-B03",
+            "text": "the show",
+            "role": "required"
+          },
+          {
+            "id": "G12-E02-B04",
+            "text": "start?",
+            "role": "required"
+          },
+          {
+            "id": "G12-E02-D01",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E02-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E02-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E02-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E02-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G12-E02-D01",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E02-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E02-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E02-D04",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E02-D05",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G12-E02-B01",
+          "G12-E02-B02",
+          "G12-E02-B03",
+          "G12-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E02-B01",
+            "G12-E02-B02",
+            "G12-E02-B03",
+            "G12-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G12-E02-AUDIO",
+        "text": "When does the show start?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G12-E03",
+      "grammarId": "G12",
+      "grammarNameJa": "where・whenの疑問文",
+      "english": "Where did you put my ticket?",
+      "translationJa": "あなたは私のチケットをどこに置きましたか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Where",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+      },
+      "sentenceExplanationJa": "「Where did you put my ticket?」は「あなたは私のチケットをどこに置きましたか。」という意味です。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。 この文の対象部分は「Where」。まとまりは Where → did you → put → my ticket? の順です。",
+      "glossary": [
+        {
+          "expression": "Where",
+          "lemma": "where",
+          "meaningJa": "どこ",
+          "kind": "word"
+        },
+        {
+          "expression": "did",
+          "lemma": "did",
+          "meaningJa": "doの過去形・過去の疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "put",
+          "lemma": "put",
+          "meaningJa": "置く",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ did you put my ticket?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Where"
+        },
+        "options": [
+          {
+            "id": "G12-E03-C1",
+            "text": "Where",
+            "isCorrect": true,
+            "explanationJa": "正解。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+          },
+          {
+            "id": "G12-E03-C3",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E03-C2",
+            "text": "When",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「When」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E03-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G12-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G12-E03-B01",
+            "text": "Where",
+            "role": "required"
+          },
+          {
+            "id": "G12-E03-B02",
+            "text": "did you",
+            "role": "required"
+          },
+          {
+            "id": "G12-E03-B03",
+            "text": "put",
+            "role": "required"
+          },
+          {
+            "id": "G12-E03-B04",
+            "text": "my ticket?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G12-E03-B01",
+          "G12-E03-B02",
+          "G12-E03-B03",
+          "G12-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E03-B01",
+            "G12-E03-B02",
+            "G12-E03-B03",
+            "G12-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G12-E03-B01",
+            "text": "Where",
+            "role": "required"
+          },
+          {
+            "id": "G12-E03-B02",
+            "text": "did you",
+            "role": "required"
+          },
+          {
+            "id": "G12-E03-B03",
+            "text": "put",
+            "role": "required"
+          },
+          {
+            "id": "G12-E03-B04",
+            "text": "my ticket?",
+            "role": "required"
+          },
+          {
+            "id": "G12-E03-D01",
+            "text": "When",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E03-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E03-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G12-E03-D01",
+            "text": "When",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E03-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E03-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G12-E03-B01",
+          "G12-E03-B02",
+          "G12-E03-B03",
+          "G12-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E03-B01",
+            "G12-E03-B02",
+            "G12-E03-B03",
+            "G12-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G12-E03-AUDIO",
+        "text": "Where did you put my ticket?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G12-E04",
+      "grammarId": "G12",
+      "grammarNameJa": "where・whenの疑問文",
+      "english": "When is your birthday?",
+      "translationJa": "あなたの誕生日はいつですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "When",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+      },
+      "sentenceExplanationJa": "「When is your birthday?」は「あなたの誕生日はいつですか。」という意味です。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。 この文の対象部分は「When」。まとまりは When → is → your birthday? の順です。",
+      "glossary": [
+        {
+          "expression": "When",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "birthday",
+          "lemma": "birthday",
+          "meaningJa": "誕生日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ is your birthday?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "When"
+        },
+        "options": [
+          {
+            "id": "G12-E04-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E04-C1",
+            "text": "When",
+            "isCorrect": true,
+            "explanationJa": "正解。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+          },
+          {
+            "id": "G12-E04-C3",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E04-C2",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G12-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G12-E04-B01",
+            "text": "When",
+            "role": "required"
+          },
+          {
+            "id": "G12-E04-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G12-E04-B03",
+            "text": "your birthday?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G12-E04-B01",
+          "G12-E04-B02",
+          "G12-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E04-B01",
+            "G12-E04-B02",
+            "G12-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G12-E04-B01",
+            "text": "When",
+            "role": "required"
+          },
+          {
+            "id": "G12-E04-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G12-E04-B03",
+            "text": "your birthday?",
+            "role": "required"
+          },
+          {
+            "id": "G12-E04-D01",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E04-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E04-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G12-E04-D01",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E04-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E04-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G12-E04-B01",
+          "G12-E04-B02",
+          "G12-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E04-B01",
+            "G12-E04-B02",
+            "G12-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G12-E04-AUDIO",
+        "text": "When is your birthday?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G12-E05",
+      "grammarId": "G12",
+      "grammarNameJa": "where・whenの疑問文",
+      "english": "Where can we buy towels?",
+      "translationJa": "私たちはどこでタオルを買えますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Where",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+      },
+      "sentenceExplanationJa": "「Where can we buy towels?」は「私たちはどこでタオルを買えますか。」という意味です。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。 この文の対象部分は「Where」。まとまりは Where → can we → buy → towels? の順です。",
+      "glossary": [
+        {
+          "expression": "Where",
+          "lemma": "where",
+          "meaningJa": "どこ",
+          "kind": "word"
+        },
+        {
+          "expression": "can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "we",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "buy",
+          "lemma": "buy",
+          "meaningJa": "買う",
+          "kind": "word"
+        },
+        {
+          "expression": "towels",
+          "lemma": "towel",
+          "meaningJa": "タオル（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ can we buy towels?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Where"
+        },
+        "options": [
+          {
+            "id": "G12-E05-C3",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E05-C2",
+            "text": "When",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「When」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E05-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E05-C1",
+            "text": "Where",
+            "isCorrect": true,
+            "explanationJa": "正解。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+          }
+        ],
+        "correctOptionId": "G12-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G12-E05-B01",
+            "text": "Where",
+            "role": "required"
+          },
+          {
+            "id": "G12-E05-B02",
+            "text": "can we",
+            "role": "required"
+          },
+          {
+            "id": "G12-E05-B03",
+            "text": "buy",
+            "role": "required"
+          },
+          {
+            "id": "G12-E05-B04",
+            "text": "towels?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G12-E05-B01",
+          "G12-E05-B02",
+          "G12-E05-B03",
+          "G12-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E05-B01",
+            "G12-E05-B02",
+            "G12-E05-B03",
+            "G12-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G12-E05-B01",
+            "text": "Where",
+            "role": "required"
+          },
+          {
+            "id": "G12-E05-B02",
+            "text": "can we",
+            "role": "required"
+          },
+          {
+            "id": "G12-E05-B03",
+            "text": "buy",
+            "role": "required"
+          },
+          {
+            "id": "G12-E05-B04",
+            "text": "towels?",
+            "role": "required"
+          },
+          {
+            "id": "G12-E05-D01",
+            "text": "When",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E05-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E05-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G12-E05-D01",
+            "text": "When",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E05-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E05-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G12-E05-B01",
+          "G12-E05-B02",
+          "G12-E05-B03",
+          "G12-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E05-B01",
+            "G12-E05-B02",
+            "G12-E05-B03",
+            "G12-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G12-E05-AUDIO",
+        "text": "Where can we buy towels?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G12-E06",
+      "grammarId": "G12",
+      "grammarNameJa": "where・whenの疑問文",
+      "english": "When did you become a fan?",
+      "translationJa": "あなたはいつファンになりましたか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "When",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+      },
+      "sentenceExplanationJa": "「When did you become a fan?」は「あなたはいつファンになりましたか。」という意味です。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。 この文の対象部分は「When」。まとまりは When → did you → become → a fan? の順です。",
+      "glossary": [
+        {
+          "expression": "a fan",
+          "meaningJa": "ファンの一人",
+          "kind": "phrase"
+        },
+        {
+          "expression": "When",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "did",
+          "lemma": "did",
+          "meaningJa": "doの過去形・過去の疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "become",
+          "lemma": "become",
+          "meaningJa": "～になる",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "fan",
+          "lemma": "fan",
+          "meaningJa": "ファン",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ did you become a fan?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "When"
+        },
+        "options": [
+          {
+            "id": "G12-E06-C2",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E06-C3",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E06-C1",
+            "text": "When",
+            "isCorrect": true,
+            "explanationJa": "正解。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+          },
+          {
+            "id": "G12-E06-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G12-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G12-E06-B01",
+            "text": "When",
+            "role": "required"
+          },
+          {
+            "id": "G12-E06-B02",
+            "text": "did you",
+            "role": "required"
+          },
+          {
+            "id": "G12-E06-B03",
+            "text": "become",
+            "role": "required"
+          },
+          {
+            "id": "G12-E06-B04",
+            "text": "a fan?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G12-E06-B01",
+          "G12-E06-B02",
+          "G12-E06-B03",
+          "G12-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E06-B01",
+            "G12-E06-B02",
+            "G12-E06-B03",
+            "G12-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G12-E06-B01",
+            "text": "When",
+            "role": "required"
+          },
+          {
+            "id": "G12-E06-B02",
+            "text": "did you",
+            "role": "required"
+          },
+          {
+            "id": "G12-E06-B03",
+            "text": "become",
+            "role": "required"
+          },
+          {
+            "id": "G12-E06-B04",
+            "text": "a fan?",
+            "role": "required"
+          },
+          {
+            "id": "G12-E06-D01",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E06-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E06-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G12-E06-D01",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E06-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E06-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G12-E06-B01",
+          "G12-E06-B02",
+          "G12-E06-B03",
+          "G12-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E06-B01",
+            "G12-E06-B02",
+            "G12-E06-B03",
+            "G12-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G12-E06-AUDIO",
+        "text": "When did you become a fan?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G12-E07",
+      "grammarId": "G12",
+      "grammarNameJa": "where・whenの疑問文",
+      "english": "Where do you practice?",
+      "translationJa": "あなたはどこで練習しますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Where",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+      },
+      "sentenceExplanationJa": "「Where do you practice?」は「あなたはどこで練習しますか。」という意味です。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。 この文の対象部分は「Where」。まとまりは Where → do you → practice? の順です。",
+      "glossary": [
+        {
+          "expression": "Where",
+          "lemma": "where",
+          "meaningJa": "どこ",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "practice",
+          "lemma": "practice",
+          "meaningJa": "練習する・練習",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ do you practice?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Where"
+        },
+        "options": [
+          {
+            "id": "G12-E07-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E07-C1",
+            "text": "Where",
+            "isCorrect": true,
+            "explanationJa": "正解。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+          },
+          {
+            "id": "G12-E07-C3",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E07-C2",
+            "text": "When",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「When」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G12-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G12-E07-B01",
+            "text": "Where",
+            "role": "required"
+          },
+          {
+            "id": "G12-E07-B02",
+            "text": "do you",
+            "role": "required"
+          },
+          {
+            "id": "G12-E07-B03",
+            "text": "practice?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G12-E07-B01",
+          "G12-E07-B02",
+          "G12-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E07-B01",
+            "G12-E07-B02",
+            "G12-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G12-E07-B01",
+            "text": "Where",
+            "role": "required"
+          },
+          {
+            "id": "G12-E07-B02",
+            "text": "do you",
+            "role": "required"
+          },
+          {
+            "id": "G12-E07-B03",
+            "text": "practice?",
+            "role": "required"
+          },
+          {
+            "id": "G12-E07-D01",
+            "text": "When",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E07-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E07-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G12-E07-D01",
+            "text": "When",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E07-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E07-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G12-E07-B01",
+          "G12-E07-B02",
+          "G12-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E07-B01",
+            "G12-E07-B02",
+            "G12-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G12-E07-AUDIO",
+        "text": "Where do you practice?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G12-E08",
+      "grammarId": "G12",
+      "grammarNameJa": "where・whenの疑問文",
+      "english": "When will you leave home?",
+      "translationJa": "あなたはいつ家を出ますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "When",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+      },
+      "sentenceExplanationJa": "「When will you leave home?」は「あなたはいつ家を出ますか。」という意味です。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。 この文の対象部分は「When」。まとまりは When → will you → leave → home? の順です。",
+      "glossary": [
+        {
+          "expression": "When",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "leave",
+          "lemma": "leave",
+          "meaningJa": "出発する・～のままにしておく",
+          "kind": "word"
+        },
+        {
+          "expression": "home",
+          "lemma": "home",
+          "meaningJa": "家・家へ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ will you leave home?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "When"
+        },
+        "options": [
+          {
+            "id": "G12-E08-C3",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E08-C1",
+            "text": "When",
+            "isCorrect": true,
+            "explanationJa": "正解。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+          },
+          {
+            "id": "G12-E08-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E08-C2",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G12-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G12-E08-B01",
+            "text": "When",
+            "role": "required"
+          },
+          {
+            "id": "G12-E08-B02",
+            "text": "will you",
+            "role": "required"
+          },
+          {
+            "id": "G12-E08-B03",
+            "text": "leave",
+            "role": "required"
+          },
+          {
+            "id": "G12-E08-B04",
+            "text": "home?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G12-E08-B01",
+          "G12-E08-B02",
+          "G12-E08-B03",
+          "G12-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E08-B01",
+            "G12-E08-B02",
+            "G12-E08-B03",
+            "G12-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G12-E08-B01",
+            "text": "When",
+            "role": "required"
+          },
+          {
+            "id": "G12-E08-B02",
+            "text": "will you",
+            "role": "required"
+          },
+          {
+            "id": "G12-E08-B03",
+            "text": "leave",
+            "role": "required"
+          },
+          {
+            "id": "G12-E08-B04",
+            "text": "home?",
+            "role": "required"
+          },
+          {
+            "id": "G12-E08-D01",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E08-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E08-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G12-E08-D01",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E08-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E08-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G12-E08-B01",
+          "G12-E08-B02",
+          "G12-E08-B03",
+          "G12-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E08-B01",
+            "G12-E08-B02",
+            "G12-E08-B03",
+            "G12-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G12-E08-AUDIO",
+        "text": "When will you leave home?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G12-E09",
+      "grammarId": "G12",
+      "grammarNameJa": "where・whenの疑問文",
+      "english": "Where are my headphones?",
+      "translationJa": "私のヘッドホンはどこですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Where",
+        "start": 0,
+        "endExclusive": 5,
+        "explanationJa": "whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+      },
+      "sentenceExplanationJa": "「Where are my headphones?」は「私のヘッドホンはどこですか。」という意味です。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。 この文の対象部分は「Where」。まとまりは Where → are → my headphones? の順です。",
+      "glossary": [
+        {
+          "expression": "Where",
+          "lemma": "where",
+          "meaningJa": "どこ",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "headphones",
+          "lemma": "headphones",
+          "meaningJa": "ヘッドホン",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ are my headphones?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 5,
+          "answer": "Where"
+        },
+        "options": [
+          {
+            "id": "G12-E09-C3",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E09-C1",
+            "text": "Where",
+            "isCorrect": true,
+            "explanationJa": "正解。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+          },
+          {
+            "id": "G12-E09-C2",
+            "text": "When",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「When」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E09-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Where」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G12-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G12-E09-B01",
+            "text": "Where",
+            "role": "required"
+          },
+          {
+            "id": "G12-E09-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G12-E09-B03",
+            "text": "my headphones?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G12-E09-B01",
+          "G12-E09-B02",
+          "G12-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E09-B01",
+            "G12-E09-B02",
+            "G12-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G12-E09-B01",
+            "text": "Where",
+            "role": "required"
+          },
+          {
+            "id": "G12-E09-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G12-E09-B03",
+            "text": "my headphones?",
+            "role": "required"
+          },
+          {
+            "id": "G12-E09-D01",
+            "text": "When",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E09-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E09-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G12-E09-D01",
+            "text": "When",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E09-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E09-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          },
+          {
+            "id": "G12-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Where」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G12-E09-B01",
+          "G12-E09-B02",
+          "G12-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E09-B01",
+            "G12-E09-B02",
+            "G12-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G12-E09-AUDIO",
+        "text": "Where are my headphones?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G12-E10",
+      "grammarId": "G12",
+      "grammarNameJa": "where・whenの疑問文",
+      "english": "When do tickets go on sale?",
+      "translationJa": "チケットはいつ発売されますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "When",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+      },
+      "sentenceExplanationJa": "「When do tickets go on sale?」は「チケットはいつ発売されますか。」という意味です。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。 この文の対象部分は「When」。まとまりは When → do → tickets → go on sale? の順です。",
+      "glossary": [
+        {
+          "expression": "go on sale",
+          "meaningJa": "発売される",
+          "kind": "phrase"
+        },
+        {
+          "expression": "When",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "tickets",
+          "lemma": "ticket",
+          "meaningJa": "チケット（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "go",
+          "lemma": "go",
+          "meaningJa": "行く",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "sale",
+          "lemma": "sale",
+          "meaningJa": "販売",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ do tickets go on sale?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "When"
+        },
+        "options": [
+          {
+            "id": "G12-E10-C3",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E10-C2",
+            "text": "Where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「Where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G12-E10-C1",
+            "text": "When",
+            "isCorrect": true,
+            "explanationJa": "正解。whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。"
+          },
+          {
+            "id": "G12-E10-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「When」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G12-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G12-E10-B01",
+            "text": "When",
+            "role": "required"
+          },
+          {
+            "id": "G12-E10-B02",
+            "text": "do",
+            "role": "required"
+          },
+          {
+            "id": "G12-E10-B03",
+            "text": "tickets",
+            "role": "required"
+          },
+          {
+            "id": "G12-E10-B04",
+            "text": "go on sale?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G12-E10-B01",
+          "G12-E10-B02",
+          "G12-E10-B03",
+          "G12-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E10-B01",
+            "G12-E10-B02",
+            "G12-E10-B03",
+            "G12-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G12-E10-B01",
+            "text": "When",
+            "role": "required"
+          },
+          {
+            "id": "G12-E10-B02",
+            "text": "do",
+            "role": "required"
+          },
+          {
+            "id": "G12-E10-B03",
+            "text": "tickets",
+            "role": "required"
+          },
+          {
+            "id": "G12-E10-B04",
+            "text": "go on sale?",
+            "role": "required"
+          },
+          {
+            "id": "G12-E10-D01",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E10-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E10-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G12-E10-D01",
+            "text": "Where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E10-D02",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E10-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          },
+          {
+            "id": "G12-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「When」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G12-E10-B01",
+          "G12-E10-B02",
+          "G12-E10-B03",
+          "G12-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G12-E10-B01",
+            "G12-E10-B02",
+            "G12-E10-B03",
+            "G12-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G12-E10-AUDIO",
+        "text": "When do tickets go on sale?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2389 @@
+{
+  "grammarId": "G16",
+  "examples": [
+    {
+      "id": "G16-E01",
+      "grammarId": "G16",
+      "grammarNameJa": "場所・方向の前置詞",
+      "english": "My ticket is in my pocket.",
+      "translationJa": "チケットは私のポケットの中にあります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "in",
+        "start": 13,
+        "endExclusive": 15,
+        "explanationJa": "in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+      },
+      "sentenceExplanationJa": "「My ticket is in my pocket.」は「チケットは私のポケットの中にあります。」という意味です。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。 この文の対象部分は「in」。まとまりは My ticket → is → in → my pocket. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "pocket",
+          "lemma": "pocket",
+          "meaningJa": "ポケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My ticket is ___ my pocket.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 15,
+          "answer": "in"
+        },
+        "options": [
+          {
+            "id": "G16-E01-C3",
+            "text": "under",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「under」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E01-C2",
+            "text": "on",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「on」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E01-C1",
+            "text": "in",
+            "isCorrect": true,
+            "explanationJa": "正解。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+          },
+          {
+            "id": "G16-E01-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G16-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G16-E01-B01",
+            "text": "My ticket",
+            "role": "required"
+          },
+          {
+            "id": "G16-E01-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G16-E01-B03",
+            "text": "in",
+            "role": "required"
+          },
+          {
+            "id": "G16-E01-B04",
+            "text": "my pocket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G16-E01-B01",
+          "G16-E01-B02",
+          "G16-E01-B03",
+          "G16-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E01-B01",
+            "G16-E01-B02",
+            "G16-E01-B03",
+            "G16-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G16-E01-B01",
+            "text": "My ticket",
+            "role": "required"
+          },
+          {
+            "id": "G16-E01-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G16-E01-B03",
+            "text": "in",
+            "role": "required"
+          },
+          {
+            "id": "G16-E01-B04",
+            "text": "my pocket.",
+            "role": "required"
+          },
+          {
+            "id": "G16-E01-D01",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E01-D02",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E01-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G16-E01-D01",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E01-D02",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E01-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G16-E01-B01",
+          "G16-E01-B02",
+          "G16-E01-B03",
+          "G16-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E01-B01",
+            "G16-E01-B02",
+            "G16-E01-B03",
+            "G16-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G16-E01-AUDIO",
+        "text": "My ticket is in my pocket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G16-E02",
+      "grammarId": "G16",
+      "grammarNameJa": "場所・方向の前置詞",
+      "english": "The poster is on the wall.",
+      "translationJa": "ポスターは壁に貼ってあります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "on",
+        "start": 14,
+        "endExclusive": 16,
+        "explanationJa": "in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+      },
+      "sentenceExplanationJa": "「The poster is on the wall.」は「ポスターは壁に貼ってあります。」という意味です。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。 この文の対象部分は「on」。まとまりは The poster → is → on → the wall. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "poster",
+          "lemma": "poster",
+          "meaningJa": "ポスター",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "wall",
+          "lemma": "wall",
+          "meaningJa": "壁",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The poster is ___ the wall.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 16,
+          "answer": "on"
+        },
+        "options": [
+          {
+            "id": "G16-E02-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E02-C1",
+            "text": "on",
+            "isCorrect": true,
+            "explanationJa": "正解。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+          },
+          {
+            "id": "G16-E02-C3",
+            "text": "under",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「under」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E02-C2",
+            "text": "in",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「in」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G16-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G16-E02-B01",
+            "text": "The poster",
+            "role": "required"
+          },
+          {
+            "id": "G16-E02-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G16-E02-B03",
+            "text": "on",
+            "role": "required"
+          },
+          {
+            "id": "G16-E02-B04",
+            "text": "the wall.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G16-E02-B01",
+          "G16-E02-B02",
+          "G16-E02-B03",
+          "G16-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E02-B01",
+            "G16-E02-B02",
+            "G16-E02-B03",
+            "G16-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G16-E02-B01",
+            "text": "The poster",
+            "role": "required"
+          },
+          {
+            "id": "G16-E02-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G16-E02-B03",
+            "text": "on",
+            "role": "required"
+          },
+          {
+            "id": "G16-E02-B04",
+            "text": "the wall.",
+            "role": "required"
+          },
+          {
+            "id": "G16-E02-D01",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E02-D02",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E02-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G16-E02-D01",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E02-D02",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E02-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G16-E02-B01",
+          "G16-E02-B02",
+          "G16-E02-B03",
+          "G16-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E02-B01",
+            "G16-E02-B02",
+            "G16-E02-B03",
+            "G16-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G16-E02-AUDIO",
+        "text": "The poster is on the wall.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G16-E03",
+      "grammarId": "G16",
+      "grammarNameJa": "場所・方向の前置詞",
+      "english": "My bag is under the chair.",
+      "translationJa": "バッグは椅子の下にあります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "under",
+        "start": 10,
+        "endExclusive": 15,
+        "explanationJa": "in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+      },
+      "sentenceExplanationJa": "「My bag is under the chair.」は「バッグは椅子の下にあります。」という意味です。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。 この文の対象部分は「under」。まとまりは My bag → is → under → the chair. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "under",
+          "lemma": "under",
+          "meaningJa": "～の下に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "chair",
+          "lemma": "chair",
+          "meaningJa": "椅子",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My bag is ___ the chair.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 15,
+          "answer": "under"
+        },
+        "options": [
+          {
+            "id": "G16-E03-C2",
+            "text": "in",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「under」を使います。「in」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E03-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「under」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E03-C3",
+            "text": "on",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「under」を使います。「on」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E03-C1",
+            "text": "under",
+            "isCorrect": true,
+            "explanationJa": "正解。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+          }
+        ],
+        "correctOptionId": "G16-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G16-E03-B01",
+            "text": "My bag",
+            "role": "required"
+          },
+          {
+            "id": "G16-E03-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G16-E03-B03",
+            "text": "under",
+            "role": "required"
+          },
+          {
+            "id": "G16-E03-B04",
+            "text": "the chair.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G16-E03-B01",
+          "G16-E03-B02",
+          "G16-E03-B03",
+          "G16-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E03-B01",
+            "G16-E03-B02",
+            "G16-E03-B03",
+            "G16-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G16-E03-B01",
+            "text": "My bag",
+            "role": "required"
+          },
+          {
+            "id": "G16-E03-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G16-E03-B03",
+            "text": "under",
+            "role": "required"
+          },
+          {
+            "id": "G16-E03-B04",
+            "text": "the chair.",
+            "role": "required"
+          },
+          {
+            "id": "G16-E03-D01",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E03-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E03-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G16-E03-D01",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E03-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E03-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G16-E03-B01",
+          "G16-E03-B02",
+          "G16-E03-B03",
+          "G16-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E03-B01",
+            "G16-E03-B02",
+            "G16-E03-B03",
+            "G16-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G16-E03-AUDIO",
+        "text": "My bag is under the chair.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G16-E04",
+      "grammarId": "G16",
+      "grammarNameJa": "場所・方向の前置詞",
+      "english": "We walked to the hall.",
+      "translationJa": "私たちは会場まで歩きました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to",
+        "start": 10,
+        "endExclusive": 12,
+        "explanationJa": "in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+      },
+      "sentenceExplanationJa": "「We walked to the hall.」は「私たちは会場まで歩きました。」という意味です。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。 この文の対象部分は「to」。まとまりは We → walked → to → the hall. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "walked",
+          "lemma": "walk",
+          "meaningJa": "歩く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We walked ___ the hall.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 12,
+          "answer": "to"
+        },
+        "options": [
+          {
+            "id": "G16-E04-C4",
+            "text": "under",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「under」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E04-C3",
+            "text": "on",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「on」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E04-C1",
+            "text": "to",
+            "isCorrect": true,
+            "explanationJa": "正解。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+          },
+          {
+            "id": "G16-E04-C2",
+            "text": "in",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「in」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G16-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G16-E04-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G16-E04-B02",
+            "text": "walked",
+            "role": "required"
+          },
+          {
+            "id": "G16-E04-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G16-E04-B04",
+            "text": "the hall.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G16-E04-B01",
+          "G16-E04-B02",
+          "G16-E04-B03",
+          "G16-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E04-B01",
+            "G16-E04-B02",
+            "G16-E04-B03",
+            "G16-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G16-E04-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G16-E04-B02",
+            "text": "walked",
+            "role": "required"
+          },
+          {
+            "id": "G16-E04-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G16-E04-B04",
+            "text": "the hall.",
+            "role": "required"
+          },
+          {
+            "id": "G16-E04-D01",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E04-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E04-D03",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G16-E04-D01",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E04-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E04-D03",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G16-E04-B01",
+          "G16-E04-B02",
+          "G16-E04-B03",
+          "G16-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E04-B01",
+            "G16-E04-B02",
+            "G16-E04-B03",
+            "G16-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G16-E04-AUDIO",
+        "text": "We walked to the hall.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G16-E05",
+      "grammarId": "G16",
+      "grammarNameJa": "場所・方向の前置詞",
+      "english": "The cards are in this box.",
+      "translationJa": "カードはこの箱の中にあります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "in",
+        "start": 14,
+        "endExclusive": 16,
+        "explanationJa": "in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+      },
+      "sentenceExplanationJa": "「The cards are in this box.」は「カードはこの箱の中にあります。」という意味です。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。 この文の対象部分は「in」。まとまりは The cards → are → in → this box. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "cards",
+          "lemma": "card",
+          "meaningJa": "カード（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "box",
+          "lemma": "box",
+          "meaningJa": "箱",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The cards are ___ this box.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 16,
+          "answer": "in"
+        },
+        "options": [
+          {
+            "id": "G16-E05-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E05-C3",
+            "text": "under",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「under」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E05-C2",
+            "text": "on",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「on」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E05-C1",
+            "text": "in",
+            "isCorrect": true,
+            "explanationJa": "正解。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+          }
+        ],
+        "correctOptionId": "G16-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G16-E05-B01",
+            "text": "The cards",
+            "role": "required"
+          },
+          {
+            "id": "G16-E05-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G16-E05-B03",
+            "text": "in",
+            "role": "required"
+          },
+          {
+            "id": "G16-E05-B04",
+            "text": "this box.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G16-E05-B01",
+          "G16-E05-B02",
+          "G16-E05-B03",
+          "G16-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E05-B01",
+            "G16-E05-B02",
+            "G16-E05-B03",
+            "G16-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G16-E05-B01",
+            "text": "The cards",
+            "role": "required"
+          },
+          {
+            "id": "G16-E05-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G16-E05-B03",
+            "text": "in",
+            "role": "required"
+          },
+          {
+            "id": "G16-E05-B04",
+            "text": "this box.",
+            "role": "required"
+          },
+          {
+            "id": "G16-E05-D01",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E05-D02",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E05-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G16-E05-D01",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E05-D02",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E05-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G16-E05-B01",
+          "G16-E05-B02",
+          "G16-E05-B03",
+          "G16-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E05-B01",
+            "G16-E05-B02",
+            "G16-E05-B03",
+            "G16-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G16-E05-AUDIO",
+        "text": "The cards are in this box.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G16-E06",
+      "grammarId": "G16",
+      "grammarNameJa": "場所・方向の前置詞",
+      "english": "Your phone is on the table.",
+      "translationJa": "あなたの携帯電話はテーブルの上にあります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "on",
+        "start": 14,
+        "endExclusive": 16,
+        "explanationJa": "in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+      },
+      "sentenceExplanationJa": "「Your phone is on the table.」は「あなたの携帯電話はテーブルの上にあります。」という意味です。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。 この文の対象部分は「on」。まとまりは Your phone → is → on → the table. の順です。",
+      "glossary": [
+        {
+          "expression": "Your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "phone",
+          "lemma": "phone",
+          "meaningJa": "携帯電話・電話",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "table",
+          "lemma": "table",
+          "meaningJa": "テーブル",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Your phone is ___ the table.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 16,
+          "answer": "on"
+        },
+        "options": [
+          {
+            "id": "G16-E06-C1",
+            "text": "on",
+            "isCorrect": true,
+            "explanationJa": "正解。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+          },
+          {
+            "id": "G16-E06-C2",
+            "text": "in",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「in」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E06-C3",
+            "text": "under",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「under」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E06-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G16-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G16-E06-B01",
+            "text": "Your phone",
+            "role": "required"
+          },
+          {
+            "id": "G16-E06-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G16-E06-B03",
+            "text": "on",
+            "role": "required"
+          },
+          {
+            "id": "G16-E06-B04",
+            "text": "the table.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G16-E06-B01",
+          "G16-E06-B02",
+          "G16-E06-B03",
+          "G16-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E06-B01",
+            "G16-E06-B02",
+            "G16-E06-B03",
+            "G16-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G16-E06-B01",
+            "text": "Your phone",
+            "role": "required"
+          },
+          {
+            "id": "G16-E06-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G16-E06-B03",
+            "text": "on",
+            "role": "required"
+          },
+          {
+            "id": "G16-E06-B04",
+            "text": "the table.",
+            "role": "required"
+          },
+          {
+            "id": "G16-E06-D01",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E06-D02",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E06-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G16-E06-D01",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E06-D02",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E06-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G16-E06-B01",
+          "G16-E06-B02",
+          "G16-E06-B03",
+          "G16-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E06-B01",
+            "G16-E06-B02",
+            "G16-E06-B03",
+            "G16-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G16-E06-AUDIO",
+        "text": "Your phone is on the table.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G16-E07",
+      "grammarId": "G16",
+      "grammarNameJa": "場所・方向の前置詞",
+      "english": "The cat is under my concert towel.",
+      "translationJa": "猫は私のライブタオルの下にいます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "under",
+        "start": 11,
+        "endExclusive": 16,
+        "explanationJa": "in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+      },
+      "sentenceExplanationJa": "「The cat is under my concert towel.」は「猫は私のライブタオルの下にいます。」という意味です。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。 この文の対象部分は「under」。まとまりは The cat → is → under → my concert towel. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "cat",
+          "lemma": "cat",
+          "meaningJa": "猫",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "under",
+          "lemma": "under",
+          "meaningJa": "～の下に",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The cat is ___ my concert towel.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 16,
+          "answer": "under"
+        },
+        "options": [
+          {
+            "id": "G16-E07-C2",
+            "text": "in",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「under」を使います。「in」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E07-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「under」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E07-C1",
+            "text": "under",
+            "isCorrect": true,
+            "explanationJa": "正解。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+          },
+          {
+            "id": "G16-E07-C3",
+            "text": "on",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「under」を使います。「on」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G16-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G16-E07-B01",
+            "text": "The cat",
+            "role": "required"
+          },
+          {
+            "id": "G16-E07-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G16-E07-B03",
+            "text": "under",
+            "role": "required"
+          },
+          {
+            "id": "G16-E07-B04",
+            "text": "my concert towel.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G16-E07-B01",
+          "G16-E07-B02",
+          "G16-E07-B03",
+          "G16-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E07-B01",
+            "G16-E07-B02",
+            "G16-E07-B03",
+            "G16-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G16-E07-B01",
+            "text": "The cat",
+            "role": "required"
+          },
+          {
+            "id": "G16-E07-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G16-E07-B03",
+            "text": "under",
+            "role": "required"
+          },
+          {
+            "id": "G16-E07-B04",
+            "text": "my concert towel.",
+            "role": "required"
+          },
+          {
+            "id": "G16-E07-D01",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E07-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E07-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G16-E07-D01",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E07-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E07-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          },
+          {
+            "id": "G16-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「under」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G16-E07-B01",
+          "G16-E07-B02",
+          "G16-E07-B03",
+          "G16-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E07-B01",
+            "G16-E07-B02",
+            "G16-E07-B03",
+            "G16-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G16-E07-AUDIO",
+        "text": "The cat is under my concert towel.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G16-E08",
+      "grammarId": "G16",
+      "grammarNameJa": "場所・方向の前置詞",
+      "english": "She went to the station.",
+      "translationJa": "彼女は駅へ行きました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to",
+        "start": 9,
+        "endExclusive": 11,
+        "explanationJa": "in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+      },
+      "sentenceExplanationJa": "「She went to the station.」は「彼女は駅へ行きました。」という意味です。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。 この文の対象部分は「to」。まとまりは She → went → to → the station. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "went",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "station",
+          "lemma": "station",
+          "meaningJa": "駅",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She went ___ the station.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 11,
+          "answer": "to"
+        },
+        "options": [
+          {
+            "id": "G16-E08-C4",
+            "text": "under",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「under」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E08-C2",
+            "text": "in",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「in」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E08-C3",
+            "text": "on",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「on」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E08-C1",
+            "text": "to",
+            "isCorrect": true,
+            "explanationJa": "正解。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+          }
+        ],
+        "correctOptionId": "G16-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G16-E08-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G16-E08-B02",
+            "text": "went",
+            "role": "required"
+          },
+          {
+            "id": "G16-E08-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G16-E08-B04",
+            "text": "the station.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G16-E08-B01",
+          "G16-E08-B02",
+          "G16-E08-B03",
+          "G16-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E08-B01",
+            "G16-E08-B02",
+            "G16-E08-B03",
+            "G16-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G16-E08-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G16-E08-B02",
+            "text": "went",
+            "role": "required"
+          },
+          {
+            "id": "G16-E08-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G16-E08-B04",
+            "text": "the station.",
+            "role": "required"
+          },
+          {
+            "id": "G16-E08-D01",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E08-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E08-D03",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G16-E08-D01",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E08-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E08-D03",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G16-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G16-E08-B01",
+          "G16-E08-B02",
+          "G16-E08-B03",
+          "G16-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E08-B01",
+            "G16-E08-B02",
+            "G16-E08-B03",
+            "G16-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G16-E08-AUDIO",
+        "text": "She went to the station.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G16-E09",
+      "grammarId": "G16",
+      "grammarNameJa": "場所・方向の前置詞",
+      "english": "We are in the same room.",
+      "translationJa": "私たちは同じ部屋の中にいます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "in",
+        "start": 7,
+        "endExclusive": 9,
+        "explanationJa": "in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+      },
+      "sentenceExplanationJa": "「We are in the same room.」は「私たちは同じ部屋の中にいます。」という意味です。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。 この文の対象部分は「in」。まとまりは We → are → in → the same room. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "same",
+          "lemma": "same",
+          "meaningJa": "同じ",
+          "kind": "word"
+        },
+        {
+          "expression": "room",
+          "lemma": "room",
+          "meaningJa": "部屋",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We are ___ the same room.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 9,
+          "answer": "in"
+        },
+        "options": [
+          {
+            "id": "G16-E09-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E09-C2",
+            "text": "on",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「on」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E09-C3",
+            "text": "under",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「under」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E09-C1",
+            "text": "in",
+            "isCorrect": true,
+            "explanationJa": "正解。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+          }
+        ],
+        "correctOptionId": "G16-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G16-E09-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G16-E09-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G16-E09-B03",
+            "text": "in",
+            "role": "required"
+          },
+          {
+            "id": "G16-E09-B04",
+            "text": "the same room.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G16-E09-B01",
+          "G16-E09-B02",
+          "G16-E09-B03",
+          "G16-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E09-B01",
+            "G16-E09-B02",
+            "G16-E09-B03",
+            "G16-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G16-E09-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G16-E09-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G16-E09-B03",
+            "text": "in",
+            "role": "required"
+          },
+          {
+            "id": "G16-E09-B04",
+            "text": "the same room.",
+            "role": "required"
+          },
+          {
+            "id": "G16-E09-D01",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E09-D02",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E09-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G16-E09-D01",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E09-D02",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E09-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G16-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G16-E09-B01",
+          "G16-E09-B02",
+          "G16-E09-B03",
+          "G16-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E09-B01",
+            "G16-E09-B02",
+            "G16-E09-B03",
+            "G16-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G16-E09-AUDIO",
+        "text": "We are in the same room.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G16-E10",
+      "grammarId": "G16",
+      "grammarNameJa": "場所・方向の前置詞",
+      "english": "The sign is on the door.",
+      "translationJa": "案内の表示はドアに付いています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "on",
+        "start": 12,
+        "endExclusive": 14,
+        "explanationJa": "in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+      },
+      "sentenceExplanationJa": "「The sign is on the door.」は「案内の表示はドアに付いています。」という意味です。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。 この文の対象部分は「on」。まとまりは The sign → is → on → the door. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "sign",
+          "lemma": "sign",
+          "meaningJa": "案内表示・看板",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "door",
+          "lemma": "door",
+          "meaningJa": "ドア",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The sign is ___ the door.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 14,
+          "answer": "on"
+        },
+        "options": [
+          {
+            "id": "G16-E10-C1",
+            "text": "on",
+            "isCorrect": true,
+            "explanationJa": "正解。in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。"
+          },
+          {
+            "id": "G16-E10-C2",
+            "text": "in",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「in」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E10-C3",
+            "text": "under",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「under」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G16-E10-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G16-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G16-E10-B01",
+            "text": "The sign",
+            "role": "required"
+          },
+          {
+            "id": "G16-E10-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G16-E10-B03",
+            "text": "on",
+            "role": "required"
+          },
+          {
+            "id": "G16-E10-B04",
+            "text": "the door.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G16-E10-B01",
+          "G16-E10-B02",
+          "G16-E10-B03",
+          "G16-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E10-B01",
+            "G16-E10-B02",
+            "G16-E10-B03",
+            "G16-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G16-E10-B01",
+            "text": "The sign",
+            "role": "required"
+          },
+          {
+            "id": "G16-E10-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G16-E10-B03",
+            "text": "on",
+            "role": "required"
+          },
+          {
+            "id": "G16-E10-B04",
+            "text": "the door.",
+            "role": "required"
+          },
+          {
+            "id": "G16-E10-D01",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E10-D02",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E10-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G16-E10-D01",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E10-D02",
+            "text": "under",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E10-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G16-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G16-E10-B01",
+          "G16-E10-B02",
+          "G16-E10-B03",
+          "G16-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G16-E10-B01",
+            "G16-E10-B02",
+            "G16-E10-B03",
+            "G16-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G16-E10-AUDIO",
+        "text": "The sign is on the door.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

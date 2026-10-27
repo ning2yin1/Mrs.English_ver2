@@ -1,0 +1,2395 @@
+{
+  "grammarId": "G53",
+  "examples": [
+    {
+      "id": "G53-E01",
+      "grammarId": "G53",
+      "grammarNameJa": "現在完了・完了と結果",
+      "english": "I have just bought a ticket.",
+      "translationJa": "私はちょうどチケットを買ったところです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 2,
+        "endExclusive": 6,
+        "explanationJa": "have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+      },
+      "sentenceExplanationJa": "「I have just bought a ticket.」は「私はちょうどチケットを買ったところです。」という意味です。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。 この文の対象部分は「have」。まとまりは I → have → just bought → a ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "just",
+          "lemma": "just",
+          "meaningJa": "ちょうど・たった今",
+          "kind": "word"
+        },
+        {
+          "expression": "bought",
+          "lemma": "buy",
+          "meaningJa": "買う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ just bought a ticket.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 6,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G53-E01-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+          },
+          {
+            "id": "G53-E01-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E01-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E01-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G53-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G53-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G53-E01-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G53-E01-B03",
+            "text": "just bought",
+            "role": "required"
+          },
+          {
+            "id": "G53-E01-B04",
+            "text": "a ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G53-E01-B01",
+          "G53-E01-B02",
+          "G53-E01-B03",
+          "G53-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E01-B01",
+            "G53-E01-B02",
+            "G53-E01-B03",
+            "G53-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G53-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G53-E01-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G53-E01-B03",
+            "text": "just bought",
+            "role": "required"
+          },
+          {
+            "id": "G53-E01-B04",
+            "text": "a ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G53-E01-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E01-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E01-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G53-E01-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E01-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E01-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G53-E01-B01",
+          "G53-E01-B02",
+          "G53-E01-B03",
+          "G53-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E01-B01",
+            "G53-E01-B02",
+            "G53-E01-B03",
+            "G53-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G53-E01-AUDIO",
+        "text": "I have just bought a ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G53-E02",
+      "grammarId": "G53",
+      "grammarNameJa": "現在完了・完了と結果",
+      "english": "She has already finished her homework.",
+      "translationJa": "彼女はもう宿題を終えました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has",
+        "start": 4,
+        "endExclusive": 7,
+        "explanationJa": "have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+      },
+      "sentenceExplanationJa": "「She has already finished her homework.」は「彼女はもう宿題を終えました。」という意味です。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。 この文の対象部分は「has」。まとまりは She → has → already finished → her homework. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "already",
+          "lemma": "already",
+          "meaningJa": "すでに",
+          "kind": "word"
+        },
+        {
+          "expression": "finished",
+          "lemma": "finish",
+          "meaningJa": "終える（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "her",
+          "lemma": "her",
+          "meaningJa": "彼女を・彼女に・彼女の",
+          "kind": "word"
+        },
+        {
+          "expression": "homework",
+          "lemma": "homework",
+          "meaningJa": "宿題",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ already finished her homework.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 7,
+          "answer": "has"
+        },
+        "options": [
+          {
+            "id": "G53-E02-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E02-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E02-C1",
+            "text": "has",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+          },
+          {
+            "id": "G53-E02-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G53-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G53-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G53-E02-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G53-E02-B03",
+            "text": "already finished",
+            "role": "required"
+          },
+          {
+            "id": "G53-E02-B04",
+            "text": "her homework.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G53-E02-B01",
+          "G53-E02-B02",
+          "G53-E02-B03",
+          "G53-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E02-B01",
+            "G53-E02-B02",
+            "G53-E02-B03",
+            "G53-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G53-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G53-E02-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G53-E02-B03",
+            "text": "already finished",
+            "role": "required"
+          },
+          {
+            "id": "G53-E02-B04",
+            "text": "her homework.",
+            "role": "required"
+          },
+          {
+            "id": "G53-E02-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E02-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E02-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G53-E02-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E02-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E02-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G53-E02-B01",
+          "G53-E02-B02",
+          "G53-E02-B03",
+          "G53-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E02-B01",
+            "G53-E02-B02",
+            "G53-E02-B03",
+            "G53-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G53-E02-AUDIO",
+        "text": "She has already finished her homework.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G53-E03",
+      "grammarId": "G53",
+      "grammarNameJa": "現在完了・完了と結果",
+      "english": "We have just arrived at the hall.",
+      "translationJa": "私たちはちょうど会場に着いたところです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+      },
+      "sentenceExplanationJa": "「We have just arrived at the hall.」は「私たちはちょうど会場に着いたところです。」という意味です。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。 この文の対象部分は「have」。まとまりは We → have → just arrived → at the hall. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "just",
+          "lemma": "just",
+          "meaningJa": "ちょうど・たった今",
+          "kind": "word"
+        },
+        {
+          "expression": "arrived",
+          "lemma": "arrive",
+          "meaningJa": "到着する（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ just arrived at the hall.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G53-E03-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+          },
+          {
+            "id": "G53-E03-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E03-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E03-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G53-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G53-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G53-E03-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G53-E03-B03",
+            "text": "just arrived",
+            "role": "required"
+          },
+          {
+            "id": "G53-E03-B04",
+            "text": "at the hall.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G53-E03-B01",
+          "G53-E03-B02",
+          "G53-E03-B03",
+          "G53-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E03-B01",
+            "G53-E03-B02",
+            "G53-E03-B03",
+            "G53-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G53-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G53-E03-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G53-E03-B03",
+            "text": "just arrived",
+            "role": "required"
+          },
+          {
+            "id": "G53-E03-B04",
+            "text": "at the hall.",
+            "role": "required"
+          },
+          {
+            "id": "G53-E03-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E03-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E03-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G53-E03-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E03-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E03-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G53-E03-B01",
+          "G53-E03-B02",
+          "G53-E03-B03",
+          "G53-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E03-B01",
+            "G53-E03-B02",
+            "G53-E03-B03",
+            "G53-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G53-E03-AUDIO",
+        "text": "We have just arrived at the hall.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G53-E04",
+      "grammarId": "G53",
+      "grammarNameJa": "現在完了・完了と結果",
+      "english": "He has lost his ticket.",
+      "translationJa": "彼はチケットをなくしてしまい、今もありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has",
+        "start": 3,
+        "endExclusive": 6,
+        "explanationJa": "have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+      },
+      "sentenceExplanationJa": "「He has lost his ticket.」は「彼はチケットをなくしてしまい、今もありません。」という意味です。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。 この文の対象部分は「has」。まとまりは He → has → lost → his ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "lost",
+          "lemma": "lose",
+          "meaningJa": "失う・なくす（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "his",
+          "lemma": "his",
+          "meaningJa": "彼の・彼のもの",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ lost his ticket.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 6,
+          "answer": "has"
+        },
+        "options": [
+          {
+            "id": "G53-E04-C1",
+            "text": "has",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+          },
+          {
+            "id": "G53-E04-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E04-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E04-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G53-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G53-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G53-E04-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G53-E04-B03",
+            "text": "lost",
+            "role": "required"
+          },
+          {
+            "id": "G53-E04-B04",
+            "text": "his ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G53-E04-B01",
+          "G53-E04-B02",
+          "G53-E04-B03",
+          "G53-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E04-B01",
+            "G53-E04-B02",
+            "G53-E04-B03",
+            "G53-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G53-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G53-E04-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G53-E04-B03",
+            "text": "lost",
+            "role": "required"
+          },
+          {
+            "id": "G53-E04-B04",
+            "text": "his ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G53-E04-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E04-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E04-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G53-E04-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E04-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E04-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G53-E04-B01",
+          "G53-E04-B02",
+          "G53-E04-B03",
+          "G53-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E04-B01",
+            "G53-E04-B02",
+            "G53-E04-B03",
+            "G53-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G53-E04-AUDIO",
+        "text": "He has lost his ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G53-E05",
+      "grammarId": "G53",
+      "grammarNameJa": "現在完了・完了と結果",
+      "english": "I have already packed my bag.",
+      "translationJa": "私はもうバッグに荷物を詰めました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 2,
+        "endExclusive": 6,
+        "explanationJa": "have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+      },
+      "sentenceExplanationJa": "「I have already packed my bag.」は「私はもうバッグに荷物を詰めました。」という意味です。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。 この文の対象部分は「have」。まとまりは I → have → already packed → my bag. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "already",
+          "lemma": "already",
+          "meaningJa": "すでに",
+          "kind": "word"
+        },
+        {
+          "expression": "packed",
+          "lemma": "pack",
+          "meaningJa": "パック・荷物を詰める（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ already packed my bag.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 6,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G53-E05-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+          },
+          {
+            "id": "G53-E05-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E05-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E05-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G53-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G53-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G53-E05-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G53-E05-B03",
+            "text": "already packed",
+            "role": "required"
+          },
+          {
+            "id": "G53-E05-B04",
+            "text": "my bag.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G53-E05-B01",
+          "G53-E05-B02",
+          "G53-E05-B03",
+          "G53-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E05-B01",
+            "G53-E05-B02",
+            "G53-E05-B03",
+            "G53-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G53-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G53-E05-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G53-E05-B03",
+            "text": "already packed",
+            "role": "required"
+          },
+          {
+            "id": "G53-E05-B04",
+            "text": "my bag.",
+            "role": "required"
+          },
+          {
+            "id": "G53-E05-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E05-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E05-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G53-E05-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E05-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E05-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G53-E05-B01",
+          "G53-E05-B02",
+          "G53-E05-B03",
+          "G53-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E05-B01",
+            "G53-E05-B02",
+            "G53-E05-B03",
+            "G53-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G53-E05-AUDIO",
+        "text": "I have already packed my bag.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G53-E06",
+      "grammarId": "G53",
+      "grammarNameJa": "現在完了・完了と結果",
+      "english": "The show has just started.",
+      "translationJa": "公演はちょうど始まったところです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has",
+        "start": 9,
+        "endExclusive": 12,
+        "explanationJa": "have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+      },
+      "sentenceExplanationJa": "「The show has just started.」は「公演はちょうど始まったところです。」という意味です。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。 この文の対象部分は「has」。まとまりは The show → has → just started. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "just",
+          "lemma": "just",
+          "meaningJa": "ちょうど・たった今",
+          "kind": "word"
+        },
+        {
+          "expression": "started",
+          "lemma": "start",
+          "meaningJa": "始まる・始める（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The show ___ just started.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 12,
+          "answer": "has"
+        },
+        "options": [
+          {
+            "id": "G53-E06-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E06-C1",
+            "text": "has",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+          },
+          {
+            "id": "G53-E06-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E06-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G53-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G53-E06-B01",
+            "text": "The show",
+            "role": "required"
+          },
+          {
+            "id": "G53-E06-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G53-E06-B03",
+            "text": "just started.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G53-E06-B01",
+          "G53-E06-B02",
+          "G53-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E06-B01",
+            "G53-E06-B02",
+            "G53-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G53-E06-B01",
+            "text": "The show",
+            "role": "required"
+          },
+          {
+            "id": "G53-E06-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G53-E06-B03",
+            "text": "just started.",
+            "role": "required"
+          },
+          {
+            "id": "G53-E06-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E06-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E06-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G53-E06-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E06-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E06-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G53-E06-B01",
+          "G53-E06-B02",
+          "G53-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E06-B01",
+            "G53-E06-B02",
+            "G53-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G53-E06-AUDIO",
+        "text": "The show has just started.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G53-E07",
+      "grammarId": "G53",
+      "grammarNameJa": "現在完了・完了と結果",
+      "english": "They have already left the station.",
+      "translationJa": "彼らはすでに駅を出発しました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 5,
+        "endExclusive": 9,
+        "explanationJa": "have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+      },
+      "sentenceExplanationJa": "「They have already left the station.」は「彼らはすでに駅を出発しました。」という意味です。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。 この文の対象部分は「have」。まとまりは They → have → already left → the station. の順です。",
+      "glossary": [
+        {
+          "expression": "They",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "already",
+          "lemma": "already",
+          "meaningJa": "すでに",
+          "kind": "word"
+        },
+        {
+          "expression": "left",
+          "lemma": "leave",
+          "meaningJa": "出発する・～のままにしておく（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "station",
+          "lemma": "station",
+          "meaningJa": "駅",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "They ___ already left the station.",
+        "blank": {
+          "start": 5,
+          "endExclusive": 9,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G53-E07-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+          },
+          {
+            "id": "G53-E07-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E07-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E07-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G53-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G53-E07-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G53-E07-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G53-E07-B03",
+            "text": "already left",
+            "role": "required"
+          },
+          {
+            "id": "G53-E07-B04",
+            "text": "the station.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G53-E07-B01",
+          "G53-E07-B02",
+          "G53-E07-B03",
+          "G53-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E07-B01",
+            "G53-E07-B02",
+            "G53-E07-B03",
+            "G53-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G53-E07-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G53-E07-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G53-E07-B03",
+            "text": "already left",
+            "role": "required"
+          },
+          {
+            "id": "G53-E07-B04",
+            "text": "the station.",
+            "role": "required"
+          },
+          {
+            "id": "G53-E07-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E07-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E07-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G53-E07-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E07-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E07-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G53-E07-B01",
+          "G53-E07-B02",
+          "G53-E07-B03",
+          "G53-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E07-B01",
+            "G53-E07-B02",
+            "G53-E07-B03",
+            "G53-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G53-E07-AUDIO",
+        "text": "They have already left the station.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G53-E08",
+      "grammarId": "G53",
+      "grammarNameJa": "現在完了・完了と結果",
+      "english": "My phone has stopped working.",
+      "translationJa": "私の携帯電話は動かなくなってしまいました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has",
+        "start": 9,
+        "endExclusive": 12,
+        "explanationJa": "have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+      },
+      "sentenceExplanationJa": "「My phone has stopped working.」は「私の携帯電話は動かなくなってしまいました。」という意味です。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。 この文の対象部分は「has」。まとまりは My phone → has → stopped → working. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "phone",
+          "lemma": "phone",
+          "meaningJa": "携帯電話・電話",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "stopped",
+          "lemma": "stop",
+          "meaningJa": "止まる・やめる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "working",
+          "lemma": "work",
+          "meaningJa": "働く・動く（ing形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My phone ___ stopped working.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 12,
+          "answer": "has"
+        },
+        "options": [
+          {
+            "id": "G53-E08-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E08-C1",
+            "text": "has",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+          },
+          {
+            "id": "G53-E08-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E08-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G53-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G53-E08-B01",
+            "text": "My phone",
+            "role": "required"
+          },
+          {
+            "id": "G53-E08-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G53-E08-B03",
+            "text": "stopped",
+            "role": "required"
+          },
+          {
+            "id": "G53-E08-B04",
+            "text": "working.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G53-E08-B01",
+          "G53-E08-B02",
+          "G53-E08-B03",
+          "G53-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E08-B01",
+            "G53-E08-B02",
+            "G53-E08-B03",
+            "G53-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G53-E08-B01",
+            "text": "My phone",
+            "role": "required"
+          },
+          {
+            "id": "G53-E08-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G53-E08-B03",
+            "text": "stopped",
+            "role": "required"
+          },
+          {
+            "id": "G53-E08-B04",
+            "text": "working.",
+            "role": "required"
+          },
+          {
+            "id": "G53-E08-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E08-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E08-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G53-E08-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E08-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E08-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G53-E08-B01",
+          "G53-E08-B02",
+          "G53-E08-B03",
+          "G53-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E08-B01",
+            "G53-E08-B02",
+            "G53-E08-B03",
+            "G53-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G53-E08-AUDIO",
+        "text": "My phone has stopped working.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G53-E09",
+      "grammarId": "G53",
+      "grammarNameJa": "現在完了・完了と結果",
+      "english": "I have not checked the news yet.",
+      "translationJa": "私はまだその知らせを確認していません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "have",
+        "start": 2,
+        "endExclusive": 6,
+        "explanationJa": "have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+      },
+      "sentenceExplanationJa": "「I have not checked the news yet.」は「私はまだその知らせを確認していません。」という意味です。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。 この文の対象部分は「have」。まとまりは I → have → not checked → the news → yet. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "checked",
+          "lemma": "check",
+          "meaningJa": "確認する（過去形・過去分詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "news",
+          "lemma": "news",
+          "meaningJa": "知らせ・ニュース",
+          "kind": "word"
+        },
+        {
+          "expression": "yet",
+          "lemma": "yet",
+          "meaningJa": "まだ・もう（疑問・否定文）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ not checked the news yet.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 6,
+          "answer": "have"
+        },
+        "options": [
+          {
+            "id": "G53-E09-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E09-C2",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E09-C1",
+            "text": "have",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+          },
+          {
+            "id": "G53-E09-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「have」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G53-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G53-E09-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G53-E09-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G53-E09-B03",
+            "text": "not checked",
+            "role": "required"
+          },
+          {
+            "id": "G53-E09-B04",
+            "text": "the news",
+            "role": "required"
+          },
+          {
+            "id": "G53-E09-B05",
+            "text": "yet.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G53-E09-B01",
+          "G53-E09-B02",
+          "G53-E09-B03",
+          "G53-E09-B04",
+          "G53-E09-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E09-B01",
+            "G53-E09-B02",
+            "G53-E09-B03",
+            "G53-E09-B04",
+            "G53-E09-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G53-E09-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G53-E09-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G53-E09-B03",
+            "text": "not checked",
+            "role": "required"
+          },
+          {
+            "id": "G53-E09-B04",
+            "text": "the news",
+            "role": "required"
+          },
+          {
+            "id": "G53-E09-B05",
+            "text": "yet.",
+            "role": "required"
+          },
+          {
+            "id": "G53-E09-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E09-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E09-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G53-E09-D01",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E09-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E09-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          },
+          {
+            "id": "G53-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「have」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G53-E09-B01",
+          "G53-E09-B02",
+          "G53-E09-B03",
+          "G53-E09-B04",
+          "G53-E09-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E09-B01",
+            "G53-E09-B02",
+            "G53-E09-B03",
+            "G53-E09-B04",
+            "G53-E09-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G53-E09-AUDIO",
+        "text": "I have not checked the news yet.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G53-E10",
+      "grammarId": "G53",
+      "grammarNameJa": "現在完了・完了と結果",
+      "english": "She has just opened her card pack.",
+      "translationJa": "彼女はちょうどカードパックを開けたところです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has",
+        "start": 4,
+        "endExclusive": 7,
+        "explanationJa": "have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+      },
+      "sentenceExplanationJa": "「She has just opened her card pack.」は「彼女はちょうどカードパックを開けたところです。」という意味です。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。 この文の対象部分は「has」。まとまりは She → has → just opened → her card pack. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "just",
+          "lemma": "just",
+          "meaningJa": "ちょうど・たった今",
+          "kind": "word"
+        },
+        {
+          "expression": "opened",
+          "lemma": "open",
+          "meaningJa": "開いている・開ける（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "her",
+          "lemma": "her",
+          "meaningJa": "彼女を・彼女に・彼女の",
+          "kind": "word"
+        },
+        {
+          "expression": "card",
+          "lemma": "card",
+          "meaningJa": "カード",
+          "kind": "word"
+        },
+        {
+          "expression": "pack",
+          "lemma": "pack",
+          "meaningJa": "パック・荷物を詰める",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ just opened her card pack.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 7,
+          "answer": "has"
+        },
+        "options": [
+          {
+            "id": "G53-E10-C4",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E10-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G53-E10-C1",
+            "text": "has",
+            "isCorrect": true,
+            "explanationJa": "正解。have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。"
+          },
+          {
+            "id": "G53-E10-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G53-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G53-E10-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G53-E10-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G53-E10-B03",
+            "text": "just opened",
+            "role": "required"
+          },
+          {
+            "id": "G53-E10-B04",
+            "text": "her card pack.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G53-E10-B01",
+          "G53-E10-B02",
+          "G53-E10-B03",
+          "G53-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E10-B01",
+            "G53-E10-B02",
+            "G53-E10-B03",
+            "G53-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G53-E10-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G53-E10-B02",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G53-E10-B03",
+            "text": "just opened",
+            "role": "required"
+          },
+          {
+            "id": "G53-E10-B04",
+            "text": "her card pack.",
+            "role": "required"
+          },
+          {
+            "id": "G53-E10-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E10-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E10-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G53-E10-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E10-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E10-D03",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G53-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G53-E10-B01",
+          "G53-E10-B02",
+          "G53-E10-B03",
+          "G53-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G53-E10-B01",
+            "G53-E10-B02",
+            "G53-E10-B03",
+            "G53-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G53-E10-AUDIO",
+        "text": "She has just opened her card pack.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

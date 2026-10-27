@@ -1,0 +1,2362 @@
+{
+  "grammarId": "G17",
+  "examples": [
+    {
+      "id": "G17-E01",
+      "grammarId": "G17",
+      "grammarNameJa": "時を表す前置詞",
+      "english": "The show starts at six.",
+      "translationJa": "公演は6時に始まります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "at",
+        "start": 16,
+        "endExclusive": 18,
+        "explanationJa": "時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+      },
+      "sentenceExplanationJa": "「The show starts at six.」は「公演は6時に始まります。」という意味です。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。 この文の対象部分は「at」。まとまりは The show → starts → at → six. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        },
+        {
+          "expression": "starts",
+          "lemma": "start",
+          "meaningJa": "始まる・始める（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "six",
+          "lemma": "six",
+          "meaningJa": "6・6時",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The show starts ___ six.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 18,
+          "answer": "at"
+        },
+        "options": [
+          {
+            "id": "G17-E01-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「at」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E01-C2",
+            "text": "on",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「at」を使います。「on」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E01-C3",
+            "text": "in",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「at」を使います。「in」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E01-C1",
+            "text": "at",
+            "isCorrect": true,
+            "explanationJa": "正解。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+          }
+        ],
+        "correctOptionId": "G17-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G17-E01-B01",
+            "text": "The show",
+            "role": "required"
+          },
+          {
+            "id": "G17-E01-B02",
+            "text": "starts",
+            "role": "required"
+          },
+          {
+            "id": "G17-E01-B03",
+            "text": "at",
+            "role": "required"
+          },
+          {
+            "id": "G17-E01-B04",
+            "text": "six.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G17-E01-B01",
+          "G17-E01-B02",
+          "G17-E01-B03",
+          "G17-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E01-B01",
+            "G17-E01-B02",
+            "G17-E01-B03",
+            "G17-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G17-E01-B01",
+            "text": "The show",
+            "role": "required"
+          },
+          {
+            "id": "G17-E01-B02",
+            "text": "starts",
+            "role": "required"
+          },
+          {
+            "id": "G17-E01-B03",
+            "text": "at",
+            "role": "required"
+          },
+          {
+            "id": "G17-E01-B04",
+            "text": "six.",
+            "role": "required"
+          },
+          {
+            "id": "G17-E01-D01",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E01-D02",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E01-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G17-E01-D01",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E01-D02",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E01-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G17-E01-B01",
+          "G17-E01-B02",
+          "G17-E01-B03",
+          "G17-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E01-B01",
+            "G17-E01-B02",
+            "G17-E01-B03",
+            "G17-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G17-E01-AUDIO",
+        "text": "The show starts at six.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G17-E02",
+      "grammarId": "G17",
+      "grammarNameJa": "時を表す前置詞",
+      "english": "We meet on Sunday.",
+      "translationJa": "私たちは日曜日に会います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "on",
+        "start": 8,
+        "endExclusive": 10,
+        "explanationJa": "時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+      },
+      "sentenceExplanationJa": "「We meet on Sunday.」は「私たちは日曜日に会います。」という意味です。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。 この文の対象部分は「on」。まとまりは We → meet → on → Sunday. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "meet",
+          "lemma": "meet",
+          "meaningJa": "会う・集まる",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "Sunday",
+          "lemma": "sunday",
+          "meaningJa": "日曜日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We meet ___ Sunday.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 10,
+          "answer": "on"
+        },
+        "options": [
+          {
+            "id": "G17-E02-C3",
+            "text": "in",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「in」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E02-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E02-C2",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E02-C1",
+            "text": "on",
+            "isCorrect": true,
+            "explanationJa": "正解。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+          }
+        ],
+        "correctOptionId": "G17-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G17-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G17-E02-B02",
+            "text": "meet",
+            "role": "required"
+          },
+          {
+            "id": "G17-E02-B03",
+            "text": "on",
+            "role": "required"
+          },
+          {
+            "id": "G17-E02-B04",
+            "text": "Sunday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G17-E02-B01",
+          "G17-E02-B02",
+          "G17-E02-B03",
+          "G17-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E02-B01",
+            "G17-E02-B02",
+            "G17-E02-B03",
+            "G17-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G17-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G17-E02-B02",
+            "text": "meet",
+            "role": "required"
+          },
+          {
+            "id": "G17-E02-B03",
+            "text": "on",
+            "role": "required"
+          },
+          {
+            "id": "G17-E02-B04",
+            "text": "Sunday.",
+            "role": "required"
+          },
+          {
+            "id": "G17-E02-D01",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E02-D02",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E02-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G17-E02-D01",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E02-D02",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E02-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G17-E02-B01",
+          "G17-E02-B02",
+          "G17-E02-B03",
+          "G17-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E02-B01",
+            "G17-E02-B02",
+            "G17-E02-B03",
+            "G17-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G17-E02-AUDIO",
+        "text": "We meet on Sunday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G17-E03",
+      "grammarId": "G17",
+      "grammarNameJa": "時を表す前置詞",
+      "english": "My birthday is in May.",
+      "translationJa": "私の誕生日は5月です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "in",
+        "start": 15,
+        "endExclusive": 17,
+        "explanationJa": "時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+      },
+      "sentenceExplanationJa": "「My birthday is in May.」は「私の誕生日は5月です。」という意味です。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。 この文の対象部分は「in」。まとまりは My birthday → is → in → May. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "birthday",
+          "lemma": "birthday",
+          "meaningJa": "誕生日",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "May",
+          "lemma": "may",
+          "meaningJa": "～かもしれない・～してよい／5月",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My birthday is ___ May.",
+        "blank": {
+          "start": 15,
+          "endExclusive": 17,
+          "answer": "in"
+        },
+        "options": [
+          {
+            "id": "G17-E03-C1",
+            "text": "in",
+            "isCorrect": true,
+            "explanationJa": "正解。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+          },
+          {
+            "id": "G17-E03-C3",
+            "text": "on",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「on」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E03-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E03-C2",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G17-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G17-E03-B01",
+            "text": "My birthday",
+            "role": "required"
+          },
+          {
+            "id": "G17-E03-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G17-E03-B03",
+            "text": "in",
+            "role": "required"
+          },
+          {
+            "id": "G17-E03-B04",
+            "text": "May.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G17-E03-B01",
+          "G17-E03-B02",
+          "G17-E03-B03",
+          "G17-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E03-B01",
+            "G17-E03-B02",
+            "G17-E03-B03",
+            "G17-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G17-E03-B01",
+            "text": "My birthday",
+            "role": "required"
+          },
+          {
+            "id": "G17-E03-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G17-E03-B03",
+            "text": "in",
+            "role": "required"
+          },
+          {
+            "id": "G17-E03-B04",
+            "text": "May.",
+            "role": "required"
+          },
+          {
+            "id": "G17-E03-D01",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E03-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E03-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G17-E03-D01",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E03-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E03-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G17-E03-B01",
+          "G17-E03-B02",
+          "G17-E03-B03",
+          "G17-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E03-B01",
+            "G17-E03-B02",
+            "G17-E03-B03",
+            "G17-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G17-E03-AUDIO",
+        "text": "My birthday is in May.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G17-E04",
+      "grammarId": "G17",
+      "grammarNameJa": "時を表す前置詞",
+      "english": "I listen to music in the morning.",
+      "translationJa": "私は朝に音楽を聴きます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "in",
+        "start": 18,
+        "endExclusive": 20,
+        "explanationJa": "時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+      },
+      "sentenceExplanationJa": "「I listen to music in the morning.」は「私は朝に音楽を聴きます。」という意味です。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。 この文の対象部分は「in」。まとまりは I → listen to music → in → the morning. の順です。",
+      "glossary": [
+        {
+          "expression": "listen to",
+          "meaningJa": "～を聴く",
+          "kind": "phrase"
+        },
+        {
+          "expression": "in the morning",
+          "meaningJa": "朝に",
+          "kind": "phrase"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "listen",
+          "lemma": "listen",
+          "meaningJa": "耳を傾けて聴く",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "music",
+          "lemma": "music",
+          "meaningJa": "音楽・楽譜",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "morning",
+          "lemma": "morning",
+          "meaningJa": "朝・午前",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I listen to music ___ the morning.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 20,
+          "answer": "in"
+        },
+        "options": [
+          {
+            "id": "G17-E04-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E04-C2",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E04-C3",
+            "text": "on",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「on」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E04-C1",
+            "text": "in",
+            "isCorrect": true,
+            "explanationJa": "正解。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+          }
+        ],
+        "correctOptionId": "G17-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G17-E04-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G17-E04-B02",
+            "text": "listen to music",
+            "role": "required"
+          },
+          {
+            "id": "G17-E04-B03",
+            "text": "in",
+            "role": "required"
+          },
+          {
+            "id": "G17-E04-B04",
+            "text": "the morning.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G17-E04-B01",
+          "G17-E04-B02",
+          "G17-E04-B03",
+          "G17-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E04-B01",
+            "G17-E04-B02",
+            "G17-E04-B03",
+            "G17-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G17-E04-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G17-E04-B02",
+            "text": "listen to music",
+            "role": "required"
+          },
+          {
+            "id": "G17-E04-B03",
+            "text": "in",
+            "role": "required"
+          },
+          {
+            "id": "G17-E04-B04",
+            "text": "the morning.",
+            "role": "required"
+          },
+          {
+            "id": "G17-E04-D01",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E04-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E04-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G17-E04-D01",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E04-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E04-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G17-E04-B01",
+          "G17-E04-B02",
+          "G17-E04-B03",
+          "G17-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E04-B01",
+            "G17-E04-B02",
+            "G17-E04-B03",
+            "G17-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G17-E04-AUDIO",
+        "text": "I listen to music in the morning.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G17-E05",
+      "grammarId": "G17",
+      "grammarNameJa": "時を表す前置詞",
+      "english": "The bus leaves at noon.",
+      "translationJa": "バスは正午に出ます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "at",
+        "start": 15,
+        "endExclusive": 17,
+        "explanationJa": "時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+      },
+      "sentenceExplanationJa": "「The bus leaves at noon.」は「バスは正午に出ます。」という意味です。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。 この文の対象部分は「at」。まとまりは The bus → leaves → at → noon. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "bus",
+          "lemma": "bus",
+          "meaningJa": "バス",
+          "kind": "word"
+        },
+        {
+          "expression": "leaves",
+          "lemma": "leave",
+          "meaningJa": "出発する・～のままにしておく（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "noon",
+          "lemma": "noon",
+          "meaningJa": "正午",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The bus leaves ___ noon.",
+        "blank": {
+          "start": 15,
+          "endExclusive": 17,
+          "answer": "at"
+        },
+        "options": [
+          {
+            "id": "G17-E05-C2",
+            "text": "on",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「at」を使います。「on」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E05-C3",
+            "text": "in",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「at」を使います。「in」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E05-C1",
+            "text": "at",
+            "isCorrect": true,
+            "explanationJa": "正解。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+          },
+          {
+            "id": "G17-E05-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「at」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G17-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G17-E05-B01",
+            "text": "The bus",
+            "role": "required"
+          },
+          {
+            "id": "G17-E05-B02",
+            "text": "leaves",
+            "role": "required"
+          },
+          {
+            "id": "G17-E05-B03",
+            "text": "at",
+            "role": "required"
+          },
+          {
+            "id": "G17-E05-B04",
+            "text": "noon.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G17-E05-B01",
+          "G17-E05-B02",
+          "G17-E05-B03",
+          "G17-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E05-B01",
+            "G17-E05-B02",
+            "G17-E05-B03",
+            "G17-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G17-E05-B01",
+            "text": "The bus",
+            "role": "required"
+          },
+          {
+            "id": "G17-E05-B02",
+            "text": "leaves",
+            "role": "required"
+          },
+          {
+            "id": "G17-E05-B03",
+            "text": "at",
+            "role": "required"
+          },
+          {
+            "id": "G17-E05-B04",
+            "text": "noon.",
+            "role": "required"
+          },
+          {
+            "id": "G17-E05-D01",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E05-D02",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E05-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G17-E05-D01",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E05-D02",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E05-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G17-E05-B01",
+          "G17-E05-B02",
+          "G17-E05-B03",
+          "G17-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E05-B01",
+            "G17-E05-B02",
+            "G17-E05-B03",
+            "G17-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G17-E05-AUDIO",
+        "text": "The bus leaves at noon.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G17-E06",
+      "grammarId": "G17",
+      "grammarNameJa": "時を表す前置詞",
+      "english": "The concert is on July tenth.",
+      "translationJa": "コンサートは7月10日です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "on",
+        "start": 15,
+        "endExclusive": 17,
+        "explanationJa": "時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+      },
+      "sentenceExplanationJa": "「The concert is on July tenth.」は「コンサートは7月10日です。」という意味です。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。 この文の対象部分は「on」。まとまりは The concert → is → on → July tenth. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "July",
+          "lemma": "july",
+          "meaningJa": "7月",
+          "kind": "word"
+        },
+        {
+          "expression": "tenth",
+          "lemma": "tenth",
+          "meaningJa": "10番目・10日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The concert is ___ July tenth.",
+        "blank": {
+          "start": 15,
+          "endExclusive": 17,
+          "answer": "on"
+        },
+        "options": [
+          {
+            "id": "G17-E06-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E06-C2",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E06-C3",
+            "text": "in",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「in」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E06-C1",
+            "text": "on",
+            "isCorrect": true,
+            "explanationJa": "正解。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+          }
+        ],
+        "correctOptionId": "G17-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G17-E06-B01",
+            "text": "The concert",
+            "role": "required"
+          },
+          {
+            "id": "G17-E06-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G17-E06-B03",
+            "text": "on",
+            "role": "required"
+          },
+          {
+            "id": "G17-E06-B04",
+            "text": "July tenth.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G17-E06-B01",
+          "G17-E06-B02",
+          "G17-E06-B03",
+          "G17-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E06-B01",
+            "G17-E06-B02",
+            "G17-E06-B03",
+            "G17-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G17-E06-B01",
+            "text": "The concert",
+            "role": "required"
+          },
+          {
+            "id": "G17-E06-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G17-E06-B03",
+            "text": "on",
+            "role": "required"
+          },
+          {
+            "id": "G17-E06-B04",
+            "text": "July tenth.",
+            "role": "required"
+          },
+          {
+            "id": "G17-E06-D01",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E06-D02",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E06-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G17-E06-D01",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E06-D02",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E06-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G17-E06-B01",
+          "G17-E06-B02",
+          "G17-E06-B03",
+          "G17-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E06-B01",
+            "G17-E06-B02",
+            "G17-E06-B03",
+            "G17-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G17-E06-AUDIO",
+        "text": "The concert is on July tenth.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G17-E07",
+      "grammarId": "G17",
+      "grammarNameJa": "時を表す前置詞",
+      "english": "I bought this album in 2025.",
+      "translationJa": "私はこのアルバムを2025年に買いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "in",
+        "start": 20,
+        "endExclusive": 22,
+        "explanationJa": "時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+      },
+      "sentenceExplanationJa": "「I bought this album in 2025.」は「私はこのアルバムを2025年に買いました。」という意味です。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。 この文の対象部分は「in」。まとまりは I → bought this album → in → 2025. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "bought",
+          "lemma": "buy",
+          "meaningJa": "買う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "album",
+          "lemma": "album",
+          "meaningJa": "アルバム",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "2025",
+          "meaningJa": "2025という数・年",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I bought this album ___ 2025.",
+        "blank": {
+          "start": 20,
+          "endExclusive": 22,
+          "answer": "in"
+        },
+        "options": [
+          {
+            "id": "G17-E07-C1",
+            "text": "in",
+            "isCorrect": true,
+            "explanationJa": "正解。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+          },
+          {
+            "id": "G17-E07-C2",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E07-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E07-C3",
+            "text": "on",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「on」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G17-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G17-E07-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G17-E07-B02",
+            "text": "bought this album",
+            "role": "required"
+          },
+          {
+            "id": "G17-E07-B03",
+            "text": "in",
+            "role": "required"
+          },
+          {
+            "id": "G17-E07-B04",
+            "text": "2025.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G17-E07-B01",
+          "G17-E07-B02",
+          "G17-E07-B03",
+          "G17-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E07-B01",
+            "G17-E07-B02",
+            "G17-E07-B03",
+            "G17-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G17-E07-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G17-E07-B02",
+            "text": "bought this album",
+            "role": "required"
+          },
+          {
+            "id": "G17-E07-B03",
+            "text": "in",
+            "role": "required"
+          },
+          {
+            "id": "G17-E07-B04",
+            "text": "2025.",
+            "role": "required"
+          },
+          {
+            "id": "G17-E07-D01",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E07-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E07-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G17-E07-D01",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E07-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E07-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G17-E07-B01",
+          "G17-E07-B02",
+          "G17-E07-B03",
+          "G17-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E07-B01",
+            "G17-E07-B02",
+            "G17-E07-B03",
+            "G17-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G17-E07-AUDIO",
+        "text": "I bought this album in 2025.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G17-E08",
+      "grammarId": "G17",
+      "grammarNameJa": "時を表す前置詞",
+      "english": "We practice on Fridays.",
+      "translationJa": "私たちは毎週金曜日に練習します。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "on",
+        "start": 12,
+        "endExclusive": 14,
+        "explanationJa": "時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+      },
+      "sentenceExplanationJa": "「We practice on Fridays.」は「私たちは毎週金曜日に練習します。」という意味です。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。 この文の対象部分は「on」。まとまりは We → practice → on → Fridays. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "practice",
+          "lemma": "practice",
+          "meaningJa": "練習する・練習",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "Fridays",
+          "lemma": "fridays",
+          "meaningJa": "毎週金曜日に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We practice ___ Fridays.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 14,
+          "answer": "on"
+        },
+        "options": [
+          {
+            "id": "G17-E08-C3",
+            "text": "in",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「in」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E08-C1",
+            "text": "on",
+            "isCorrect": true,
+            "explanationJa": "正解。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+          },
+          {
+            "id": "G17-E08-C2",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E08-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「on」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G17-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G17-E08-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G17-E08-B02",
+            "text": "practice",
+            "role": "required"
+          },
+          {
+            "id": "G17-E08-B03",
+            "text": "on",
+            "role": "required"
+          },
+          {
+            "id": "G17-E08-B04",
+            "text": "Fridays.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G17-E08-B01",
+          "G17-E08-B02",
+          "G17-E08-B03",
+          "G17-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E08-B01",
+            "G17-E08-B02",
+            "G17-E08-B03",
+            "G17-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G17-E08-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G17-E08-B02",
+            "text": "practice",
+            "role": "required"
+          },
+          {
+            "id": "G17-E08-B03",
+            "text": "on",
+            "role": "required"
+          },
+          {
+            "id": "G17-E08-B04",
+            "text": "Fridays.",
+            "role": "required"
+          },
+          {
+            "id": "G17-E08-D01",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E08-D02",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E08-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G17-E08-D01",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E08-D02",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E08-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          },
+          {
+            "id": "G17-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「on」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G17-E08-B01",
+          "G17-E08-B02",
+          "G17-E08-B03",
+          "G17-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E08-B01",
+            "G17-E08-B02",
+            "G17-E08-B03",
+            "G17-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G17-E08-AUDIO",
+        "text": "We practice on Fridays.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G17-E09",
+      "grammarId": "G17",
+      "grammarNameJa": "時を表す前置詞",
+      "english": "I read fan messages at midnight.",
+      "translationJa": "私は真夜中にファンのメッセージを読みます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "at",
+        "start": 20,
+        "endExclusive": 22,
+        "explanationJa": "時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+      },
+      "sentenceExplanationJa": "「I read fan messages at midnight.」は「私は真夜中にファンのメッセージを読みます。」という意味です。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。 この文の対象部分は「at」。まとまりは I → read fan messages → at → midnight. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "read",
+          "lemma": "read",
+          "meaningJa": "読む",
+          "kind": "word"
+        },
+        {
+          "expression": "fan",
+          "lemma": "fan",
+          "meaningJa": "ファン",
+          "kind": "word"
+        },
+        {
+          "expression": "messages",
+          "lemma": "message",
+          "meaningJa": "メッセージ（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "midnight",
+          "lemma": "midnight",
+          "meaningJa": "真夜中・午前0時",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I read fan messages ___ midnight.",
+        "blank": {
+          "start": 20,
+          "endExclusive": 22,
+          "answer": "at"
+        },
+        "options": [
+          {
+            "id": "G17-E09-C2",
+            "text": "on",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「at」を使います。「on」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E09-C3",
+            "text": "in",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「at」を使います。「in」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E09-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「at」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E09-C1",
+            "text": "at",
+            "isCorrect": true,
+            "explanationJa": "正解。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+          }
+        ],
+        "correctOptionId": "G17-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G17-E09-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G17-E09-B02",
+            "text": "read fan messages",
+            "role": "required"
+          },
+          {
+            "id": "G17-E09-B03",
+            "text": "at",
+            "role": "required"
+          },
+          {
+            "id": "G17-E09-B04",
+            "text": "midnight.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G17-E09-B01",
+          "G17-E09-B02",
+          "G17-E09-B03",
+          "G17-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E09-B01",
+            "G17-E09-B02",
+            "G17-E09-B03",
+            "G17-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G17-E09-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G17-E09-B02",
+            "text": "read fan messages",
+            "role": "required"
+          },
+          {
+            "id": "G17-E09-B03",
+            "text": "at",
+            "role": "required"
+          },
+          {
+            "id": "G17-E09-B04",
+            "text": "midnight.",
+            "role": "required"
+          },
+          {
+            "id": "G17-E09-D01",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E09-D02",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E09-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G17-E09-D01",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E09-D02",
+            "text": "in",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E09-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          },
+          {
+            "id": "G17-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「at」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G17-E09-B01",
+          "G17-E09-B02",
+          "G17-E09-B03",
+          "G17-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E09-B01",
+            "G17-E09-B02",
+            "G17-E09-B03",
+            "G17-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G17-E09-AUDIO",
+        "text": "I read fan messages at midnight.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G17-E10",
+      "grammarId": "G17",
+      "grammarNameJa": "時を表す前置詞",
+      "english": "The tour begins in April.",
+      "translationJa": "ツアーは4月に始まります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "in",
+        "start": 16,
+        "endExclusive": 18,
+        "explanationJa": "時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+      },
+      "sentenceExplanationJa": "「The tour begins in April.」は「ツアーは4月に始まります。」という意味です。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。 この文の対象部分は「in」。まとまりは The tour → begins → in → April. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "tour",
+          "lemma": "tour",
+          "meaningJa": "ツアー",
+          "kind": "word"
+        },
+        {
+          "expression": "begins",
+          "lemma": "begin",
+          "meaningJa": "始まる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "April",
+          "lemma": "april",
+          "meaningJa": "4月",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The tour begins ___ April.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 18,
+          "answer": "in"
+        },
+        "options": [
+          {
+            "id": "G17-E10-C3",
+            "text": "on",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「on」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E10-C4",
+            "text": "to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G17-E10-C1",
+            "text": "in",
+            "isCorrect": true,
+            "explanationJa": "正解。時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。"
+          },
+          {
+            "id": "G17-E10-C2",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「in」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G17-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G17-E10-B01",
+            "text": "The tour",
+            "role": "required"
+          },
+          {
+            "id": "G17-E10-B02",
+            "text": "begins",
+            "role": "required"
+          },
+          {
+            "id": "G17-E10-B03",
+            "text": "in",
+            "role": "required"
+          },
+          {
+            "id": "G17-E10-B04",
+            "text": "April.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G17-E10-B01",
+          "G17-E10-B02",
+          "G17-E10-B03",
+          "G17-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E10-B01",
+            "G17-E10-B02",
+            "G17-E10-B03",
+            "G17-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G17-E10-B01",
+            "text": "The tour",
+            "role": "required"
+          },
+          {
+            "id": "G17-E10-B02",
+            "text": "begins",
+            "role": "required"
+          },
+          {
+            "id": "G17-E10-B03",
+            "text": "in",
+            "role": "required"
+          },
+          {
+            "id": "G17-E10-B04",
+            "text": "April.",
+            "role": "required"
+          },
+          {
+            "id": "G17-E10-D01",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E10-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E10-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G17-E10-D01",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E10-D02",
+            "text": "on",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E10-D03",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          },
+          {
+            "id": "G17-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「in」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G17-E10-B01",
+          "G17-E10-B02",
+          "G17-E10-B03",
+          "G17-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G17-E10-B01",
+            "G17-E10-B02",
+            "G17-E10-B03",
+            "G17-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G17-E10-AUDIO",
+        "text": "The tour begins in April.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

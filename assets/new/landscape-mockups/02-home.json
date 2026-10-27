@@ -1,0 +1,11 @@
+{
+  "key": "02-home",
+  "prompt": "Use case: ui-mockup. ONE complete LANDSCAPE iPhone game screen, 2.16:1 aspect, 1844x853 or 2532x1170. Mrs. English English learning game, Japanese language. Match original SUPERSTAR style/layout: flat royal blue panels, thin cyan edge and magenta offset, 45 degree clipped corners, pale cyan horizontal scanline headers. Full screen, NO phone frame or presentation board. Use references as UI STYLE and supplied band photo identity references. NO stamina or energy or headphone counters, NO diamonds; UNLIMITED play. Japanese primary. When header present: avatar サンタ / 推し 大森元貴 / Lv.1 / 連続1日 / 1,200 RP / menu. When nav requested: five equal bottom tabs カード / 図鑑 / ミッション / ショップ / START. Leave safe areas at both sides. No invented celebrity facts. Sample layout only. HOME with header and nav. Group-photo background mostly visible. Compact top-left banner 今日の学習; left small ログインボーナス, right small 学習記録 and 苦手問題の復習. No other currencies, center faces clear. Authentic screenshot home layout.",
+  "refs": [
+    "asset-review\\img-034.jpg",
+    "reference\\IMG_0719.PNG"
+  ],
+  "source": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-6796895f-a61c-4130-b371-d131f33a5c03.png",
+  "orientation": "landscape",
+  "purpose": "nonbinding visual concept; docs control rules"
+}

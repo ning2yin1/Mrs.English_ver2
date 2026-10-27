@@ -1,0 +1,2318 @@
+{
+  "grammarId": "G30",
+  "examples": [
+    {
+      "id": "G30-E01",
+      "grammarId": "G30",
+      "grammarNameJa": "should・mayと丁寧な依頼",
+      "english": "You should drink some water.",
+      "translationJa": "あなたは水を少し飲んだほうがよいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "should",
+        "start": 4,
+        "endExclusive": 10,
+        "explanationJa": "shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+      },
+      "sentenceExplanationJa": "「You should drink some water.」は「あなたは水を少し飲んだほうがよいです。」という意味です。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。 この文の対象部分は「should」。まとまりは You → should → drink → some water. の順です。",
+      "glossary": [
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "should",
+          "lemma": "should",
+          "meaningJa": "～したほうがよい",
+          "kind": "word"
+        },
+        {
+          "expression": "drink",
+          "lemma": "drink",
+          "meaningJa": "飲む・飲み物",
+          "kind": "word"
+        },
+        {
+          "expression": "some",
+          "lemma": "some",
+          "meaningJa": "いくつかの・いくらかの",
+          "kind": "word"
+        },
+        {
+          "expression": "water",
+          "lemma": "water",
+          "meaningJa": "水",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You ___ drink some water.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 10,
+          "answer": "should"
+        },
+        "options": [
+          {
+            "id": "G30-E01-C3",
+            "text": "should be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「should」を使います。「should be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E01-C1",
+            "text": "should",
+            "isCorrect": true,
+            "explanationJa": "正解。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+          },
+          {
+            "id": "G30-E01-C2",
+            "text": "should to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「should」を使います。「should to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E01-C4",
+            "text": "should have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「should」を使います。「should have」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G30-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G30-E01-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G30-E01-B02",
+            "text": "should",
+            "role": "required"
+          },
+          {
+            "id": "G30-E01-B03",
+            "text": "drink",
+            "role": "required"
+          },
+          {
+            "id": "G30-E01-B04",
+            "text": "some water.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G30-E01-B01",
+          "G30-E01-B02",
+          "G30-E01-B03",
+          "G30-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E01-B01",
+            "G30-E01-B02",
+            "G30-E01-B03",
+            "G30-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G30-E01-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G30-E01-B02",
+            "text": "should",
+            "role": "required"
+          },
+          {
+            "id": "G30-E01-B03",
+            "text": "drink",
+            "role": "required"
+          },
+          {
+            "id": "G30-E01-B04",
+            "text": "some water.",
+            "role": "required"
+          },
+          {
+            "id": "G30-E01-D01",
+            "text": "should to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E01-D02",
+            "text": "should be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E01-D03",
+            "text": "should have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G30-E01-D01",
+            "text": "should to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E01-D02",
+            "text": "should be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E01-D03",
+            "text": "should have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G30-E01-B01",
+          "G30-E01-B02",
+          "G30-E01-B03",
+          "G30-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E01-B01",
+            "G30-E01-B02",
+            "G30-E01-B03",
+            "G30-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G30-E01-AUDIO",
+        "text": "You should drink some water.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G30-E02",
+      "grammarId": "G30",
+      "grammarNameJa": "should・mayと丁寧な依頼",
+      "english": "I may go to the concert.",
+      "translationJa": "私はコンサートに行くかもしれません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "may",
+        "start": 2,
+        "endExclusive": 5,
+        "explanationJa": "shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+      },
+      "sentenceExplanationJa": "「I may go to the concert.」は「私はコンサートに行くかもしれません。」という意味です。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。 この文の対象部分は「may」。まとまりは I → may → go → to the concert. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "may",
+          "lemma": "may",
+          "meaningJa": "～かもしれない・～してよい／5月",
+          "kind": "word"
+        },
+        {
+          "expression": "go",
+          "lemma": "go",
+          "meaningJa": "行く",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ go to the concert.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 5,
+          "answer": "may"
+        },
+        "options": [
+          {
+            "id": "G30-E02-C2",
+            "text": "may to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「may」を使います。「may to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E02-C4",
+            "text": "may have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「may」を使います。「may have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E02-C3",
+            "text": "may be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「may」を使います。「may be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E02-C1",
+            "text": "may",
+            "isCorrect": true,
+            "explanationJa": "正解。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+          }
+        ],
+        "correctOptionId": "G30-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G30-E02-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G30-E02-B02",
+            "text": "may",
+            "role": "required"
+          },
+          {
+            "id": "G30-E02-B03",
+            "text": "go",
+            "role": "required"
+          },
+          {
+            "id": "G30-E02-B04",
+            "text": "to the concert.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G30-E02-B01",
+          "G30-E02-B02",
+          "G30-E02-B03",
+          "G30-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E02-B01",
+            "G30-E02-B02",
+            "G30-E02-B03",
+            "G30-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G30-E02-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G30-E02-B02",
+            "text": "may",
+            "role": "required"
+          },
+          {
+            "id": "G30-E02-B03",
+            "text": "go",
+            "role": "required"
+          },
+          {
+            "id": "G30-E02-B04",
+            "text": "to the concert.",
+            "role": "required"
+          },
+          {
+            "id": "G30-E02-D01",
+            "text": "may to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E02-D02",
+            "text": "may be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E02-D03",
+            "text": "may have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G30-E02-D01",
+            "text": "may to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E02-D02",
+            "text": "may be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E02-D03",
+            "text": "may have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G30-E02-B01",
+          "G30-E02-B02",
+          "G30-E02-B03",
+          "G30-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E02-B01",
+            "G30-E02-B02",
+            "G30-E02-B03",
+            "G30-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G30-E02-AUDIO",
+        "text": "I may go to the concert.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G30-E03",
+      "grammarId": "G30",
+      "grammarNameJa": "should・mayと丁寧な依頼",
+      "english": "Could you show me the way?",
+      "translationJa": "道を教えていただけますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Could you",
+        "start": 0,
+        "endExclusive": 9,
+        "explanationJa": "shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+      },
+      "sentenceExplanationJa": "「Could you show me the way?」は「道を教えていただけますか。」という意味です。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。 この文の対象部分は「Could you」。まとまりは Could you → show me → the way? の順です。",
+      "glossary": [
+        {
+          "expression": "Could",
+          "lemma": "could",
+          "meaningJa": "～できた・仮に～できるのに・丁寧な依頼",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "way",
+          "lemma": "way",
+          "meaningJa": "道・方法",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ show me the way?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 9,
+          "answer": "Could you"
+        },
+        "options": [
+          {
+            "id": "G30-E03-C4",
+            "text": "Could you have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Could you」を使います。「Could you have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E03-C3",
+            "text": "Could you be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Could you」を使います。「Could you be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E03-C2",
+            "text": "Could you to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Could you」を使います。「Could you to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E03-C1",
+            "text": "Could you",
+            "isCorrect": true,
+            "explanationJa": "正解。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+          }
+        ],
+        "correctOptionId": "G30-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G30-E03-B01",
+            "text": "Could you",
+            "role": "required"
+          },
+          {
+            "id": "G30-E03-B02",
+            "text": "show me",
+            "role": "required"
+          },
+          {
+            "id": "G30-E03-B03",
+            "text": "the way?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G30-E03-B01",
+          "G30-E03-B02",
+          "G30-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E03-B01",
+            "G30-E03-B02",
+            "G30-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G30-E03-B01",
+            "text": "Could you",
+            "role": "required"
+          },
+          {
+            "id": "G30-E03-B02",
+            "text": "show me",
+            "role": "required"
+          },
+          {
+            "id": "G30-E03-B03",
+            "text": "the way?",
+            "role": "required"
+          },
+          {
+            "id": "G30-E03-D01",
+            "text": "Could you to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E03-D02",
+            "text": "Could you be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E03-D03",
+            "text": "Could you have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G30-E03-D01",
+            "text": "Could you to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E03-D02",
+            "text": "Could you be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E03-D03",
+            "text": "Could you have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G30-E03-B01",
+          "G30-E03-B02",
+          "G30-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E03-B01",
+            "G30-E03-B02",
+            "G30-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G30-E03-AUDIO",
+        "text": "Could you show me the way?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G30-E04",
+      "grammarId": "G30",
+      "grammarNameJa": "should・mayと丁寧な依頼",
+      "english": "Would you open the window?",
+      "translationJa": "窓を開けていただけますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Would you",
+        "start": 0,
+        "endExclusive": 9,
+        "explanationJa": "shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+      },
+      "sentenceExplanationJa": "「Would you open the window?」は「窓を開けていただけますか。」という意味です。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。 この文の対象部分は「Would you」。まとまりは Would you → open → the window? の順です。",
+      "glossary": [
+        {
+          "expression": "Would",
+          "lemma": "would",
+          "meaningJa": "仮定の結果・丁寧な依頼を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "open",
+          "lemma": "open",
+          "meaningJa": "開いている・開ける",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "window",
+          "lemma": "window",
+          "meaningJa": "窓",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ open the window?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 9,
+          "answer": "Would you"
+        },
+        "options": [
+          {
+            "id": "G30-E04-C2",
+            "text": "Would you to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Would you」を使います。「Would you to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E04-C1",
+            "text": "Would you",
+            "isCorrect": true,
+            "explanationJa": "正解。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+          },
+          {
+            "id": "G30-E04-C3",
+            "text": "Would you be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Would you」を使います。「Would you be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E04-C4",
+            "text": "Would you have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Would you」を使います。「Would you have」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G30-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G30-E04-B01",
+            "text": "Would you",
+            "role": "required"
+          },
+          {
+            "id": "G30-E04-B02",
+            "text": "open",
+            "role": "required"
+          },
+          {
+            "id": "G30-E04-B03",
+            "text": "the window?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G30-E04-B01",
+          "G30-E04-B02",
+          "G30-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E04-B01",
+            "G30-E04-B02",
+            "G30-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G30-E04-B01",
+            "text": "Would you",
+            "role": "required"
+          },
+          {
+            "id": "G30-E04-B02",
+            "text": "open",
+            "role": "required"
+          },
+          {
+            "id": "G30-E04-B03",
+            "text": "the window?",
+            "role": "required"
+          },
+          {
+            "id": "G30-E04-D01",
+            "text": "Would you to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Would you」と比較してください。"
+          },
+          {
+            "id": "G30-E04-D02",
+            "text": "Would you be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Would you」と比較してください。"
+          },
+          {
+            "id": "G30-E04-D03",
+            "text": "Would you have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Would you」と比較してください。"
+          },
+          {
+            "id": "G30-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Would you」と比較してください。"
+          },
+          {
+            "id": "G30-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Would you」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G30-E04-D01",
+            "text": "Would you to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Would you」と比較してください。"
+          },
+          {
+            "id": "G30-E04-D02",
+            "text": "Would you be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Would you」と比較してください。"
+          },
+          {
+            "id": "G30-E04-D03",
+            "text": "Would you have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Would you」と比較してください。"
+          },
+          {
+            "id": "G30-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Would you」と比較してください。"
+          },
+          {
+            "id": "G30-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Would you」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G30-E04-B01",
+          "G30-E04-B02",
+          "G30-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E04-B01",
+            "G30-E04-B02",
+            "G30-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G30-E04-AUDIO",
+        "text": "Would you open the window?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G30-E05",
+      "grammarId": "G30",
+      "grammarNameJa": "should・mayと丁寧な依頼",
+      "english": "We should leave early.",
+      "translationJa": "私たちは早めに出発したほうがよいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "should",
+        "start": 3,
+        "endExclusive": 9,
+        "explanationJa": "shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+      },
+      "sentenceExplanationJa": "「We should leave early.」は「私たちは早めに出発したほうがよいです。」という意味です。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。 この文の対象部分は「should」。まとまりは We → should → leave → early. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "should",
+          "lemma": "should",
+          "meaningJa": "～したほうがよい",
+          "kind": "word"
+        },
+        {
+          "expression": "leave",
+          "lemma": "leave",
+          "meaningJa": "出発する・～のままにしておく",
+          "kind": "word"
+        },
+        {
+          "expression": "early",
+          "lemma": "early",
+          "meaningJa": "早い・早く",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ leave early.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 9,
+          "answer": "should"
+        },
+        "options": [
+          {
+            "id": "G30-E05-C3",
+            "text": "should be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「should」を使います。「should be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E05-C1",
+            "text": "should",
+            "isCorrect": true,
+            "explanationJa": "正解。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+          },
+          {
+            "id": "G30-E05-C2",
+            "text": "should to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「should」を使います。「should to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E05-C4",
+            "text": "should have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「should」を使います。「should have」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G30-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G30-E05-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G30-E05-B02",
+            "text": "should",
+            "role": "required"
+          },
+          {
+            "id": "G30-E05-B03",
+            "text": "leave",
+            "role": "required"
+          },
+          {
+            "id": "G30-E05-B04",
+            "text": "early.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G30-E05-B01",
+          "G30-E05-B02",
+          "G30-E05-B03",
+          "G30-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E05-B01",
+            "G30-E05-B02",
+            "G30-E05-B03",
+            "G30-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G30-E05-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G30-E05-B02",
+            "text": "should",
+            "role": "required"
+          },
+          {
+            "id": "G30-E05-B03",
+            "text": "leave",
+            "role": "required"
+          },
+          {
+            "id": "G30-E05-B04",
+            "text": "early.",
+            "role": "required"
+          },
+          {
+            "id": "G30-E05-D01",
+            "text": "should to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E05-D02",
+            "text": "should be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E05-D03",
+            "text": "should have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G30-E05-D01",
+            "text": "should to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E05-D02",
+            "text": "should be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E05-D03",
+            "text": "should have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G30-E05-B01",
+          "G30-E05-B02",
+          "G30-E05-B03",
+          "G30-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E05-B01",
+            "G30-E05-B02",
+            "G30-E05-B03",
+            "G30-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G30-E05-AUDIO",
+        "text": "We should leave early.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G30-E06",
+      "grammarId": "G30",
+      "grammarNameJa": "should・mayと丁寧な依頼",
+      "english": "You may use this seat.",
+      "translationJa": "あなたはこの席を使ってもよいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "may",
+        "start": 4,
+        "endExclusive": 7,
+        "explanationJa": "shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+      },
+      "sentenceExplanationJa": "「You may use this seat.」は「あなたはこの席を使ってもよいです。」という意味です。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。 この文の対象部分は「may」。まとまりは You → may → use → this seat. の順です。",
+      "glossary": [
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "may",
+          "lemma": "may",
+          "meaningJa": "～かもしれない・～してよい／5月",
+          "kind": "word"
+        },
+        {
+          "expression": "use",
+          "lemma": "use",
+          "meaningJa": "使う",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "seat",
+          "lemma": "seat",
+          "meaningJa": "席",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You ___ use this seat.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 7,
+          "answer": "may"
+        },
+        "options": [
+          {
+            "id": "G30-E06-C4",
+            "text": "may have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「may」を使います。「may have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E06-C2",
+            "text": "may to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「may」を使います。「may to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E06-C1",
+            "text": "may",
+            "isCorrect": true,
+            "explanationJa": "正解。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+          },
+          {
+            "id": "G30-E06-C3",
+            "text": "may be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「may」を使います。「may be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G30-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G30-E06-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G30-E06-B02",
+            "text": "may",
+            "role": "required"
+          },
+          {
+            "id": "G30-E06-B03",
+            "text": "use",
+            "role": "required"
+          },
+          {
+            "id": "G30-E06-B04",
+            "text": "this seat.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G30-E06-B01",
+          "G30-E06-B02",
+          "G30-E06-B03",
+          "G30-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E06-B01",
+            "G30-E06-B02",
+            "G30-E06-B03",
+            "G30-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G30-E06-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G30-E06-B02",
+            "text": "may",
+            "role": "required"
+          },
+          {
+            "id": "G30-E06-B03",
+            "text": "use",
+            "role": "required"
+          },
+          {
+            "id": "G30-E06-B04",
+            "text": "this seat.",
+            "role": "required"
+          },
+          {
+            "id": "G30-E06-D01",
+            "text": "may to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E06-D02",
+            "text": "may be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E06-D03",
+            "text": "may have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G30-E06-D01",
+            "text": "may to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E06-D02",
+            "text": "may be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E06-D03",
+            "text": "may have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G30-E06-B01",
+          "G30-E06-B02",
+          "G30-E06-B03",
+          "G30-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E06-B01",
+            "G30-E06-B02",
+            "G30-E06-B03",
+            "G30-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G30-E06-AUDIO",
+        "text": "You may use this seat.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G30-E07",
+      "grammarId": "G30",
+      "grammarNameJa": "should・mayと丁寧な依頼",
+      "english": "He should take a break.",
+      "translationJa": "彼は休憩したほうがよいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "should",
+        "start": 3,
+        "endExclusive": 9,
+        "explanationJa": "shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+      },
+      "sentenceExplanationJa": "「He should take a break.」は「彼は休憩したほうがよいです。」という意味です。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。 この文の対象部分は「should」。まとまりは He → should → take → a break. の順です。",
+      "glossary": [
+        {
+          "expression": "a break",
+          "meaningJa": "休憩",
+          "kind": "phrase"
+        },
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "should",
+          "lemma": "should",
+          "meaningJa": "～したほうがよい",
+          "kind": "word"
+        },
+        {
+          "expression": "take",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "break",
+          "lemma": "break",
+          "meaningJa": "休憩",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ take a break.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 9,
+          "answer": "should"
+        },
+        "options": [
+          {
+            "id": "G30-E07-C1",
+            "text": "should",
+            "isCorrect": true,
+            "explanationJa": "正解。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+          },
+          {
+            "id": "G30-E07-C2",
+            "text": "should to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「should」を使います。「should to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E07-C4",
+            "text": "should have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「should」を使います。「should have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E07-C3",
+            "text": "should be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「should」を使います。「should be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G30-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G30-E07-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G30-E07-B02",
+            "text": "should",
+            "role": "required"
+          },
+          {
+            "id": "G30-E07-B03",
+            "text": "take",
+            "role": "required"
+          },
+          {
+            "id": "G30-E07-B04",
+            "text": "a break.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G30-E07-B01",
+          "G30-E07-B02",
+          "G30-E07-B03",
+          "G30-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E07-B01",
+            "G30-E07-B02",
+            "G30-E07-B03",
+            "G30-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G30-E07-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G30-E07-B02",
+            "text": "should",
+            "role": "required"
+          },
+          {
+            "id": "G30-E07-B03",
+            "text": "take",
+            "role": "required"
+          },
+          {
+            "id": "G30-E07-B04",
+            "text": "a break.",
+            "role": "required"
+          },
+          {
+            "id": "G30-E07-D01",
+            "text": "should to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E07-D02",
+            "text": "should be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E07-D03",
+            "text": "should have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G30-E07-D01",
+            "text": "should to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E07-D02",
+            "text": "should be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E07-D03",
+            "text": "should have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G30-E07-B01",
+          "G30-E07-B02",
+          "G30-E07-B03",
+          "G30-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E07-B01",
+            "G30-E07-B02",
+            "G30-E07-B03",
+            "G30-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G30-E07-AUDIO",
+        "text": "He should take a break.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G30-E08",
+      "grammarId": "G30",
+      "grammarNameJa": "should・mayと丁寧な依頼",
+      "english": "It may snow tonight.",
+      "translationJa": "今夜は雪が降るかもしれません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "may",
+        "start": 3,
+        "endExclusive": 6,
+        "explanationJa": "shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+      },
+      "sentenceExplanationJa": "「It may snow tonight.」は「今夜は雪が降るかもしれません。」という意味です。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。 この文の対象部分は「may」。まとまりは It → may → snow → tonight. の順です。",
+      "glossary": [
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "may",
+          "lemma": "may",
+          "meaningJa": "～かもしれない・～してよい／5月",
+          "kind": "word"
+        },
+        {
+          "expression": "snow",
+          "lemma": "snow",
+          "meaningJa": "雪・雪が降る",
+          "kind": "word"
+        },
+        {
+          "expression": "tonight",
+          "lemma": "tonight",
+          "meaningJa": "今夜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It ___ snow tonight.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 6,
+          "answer": "may"
+        },
+        "options": [
+          {
+            "id": "G30-E08-C4",
+            "text": "may have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「may」を使います。「may have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E08-C3",
+            "text": "may be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「may」を使います。「may be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E08-C1",
+            "text": "may",
+            "isCorrect": true,
+            "explanationJa": "正解。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+          },
+          {
+            "id": "G30-E08-C2",
+            "text": "may to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「may」を使います。「may to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G30-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G30-E08-B01",
+            "text": "It",
+            "role": "required"
+          },
+          {
+            "id": "G30-E08-B02",
+            "text": "may",
+            "role": "required"
+          },
+          {
+            "id": "G30-E08-B03",
+            "text": "snow",
+            "role": "required"
+          },
+          {
+            "id": "G30-E08-B04",
+            "text": "tonight.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G30-E08-B01",
+          "G30-E08-B02",
+          "G30-E08-B03",
+          "G30-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E08-B01",
+            "G30-E08-B02",
+            "G30-E08-B03",
+            "G30-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G30-E08-B01",
+            "text": "It",
+            "role": "required"
+          },
+          {
+            "id": "G30-E08-B02",
+            "text": "may",
+            "role": "required"
+          },
+          {
+            "id": "G30-E08-B03",
+            "text": "snow",
+            "role": "required"
+          },
+          {
+            "id": "G30-E08-B04",
+            "text": "tonight.",
+            "role": "required"
+          },
+          {
+            "id": "G30-E08-D01",
+            "text": "may to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E08-D02",
+            "text": "may be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E08-D03",
+            "text": "may have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G30-E08-D01",
+            "text": "may to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E08-D02",
+            "text": "may be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E08-D03",
+            "text": "may have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          },
+          {
+            "id": "G30-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「may」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G30-E08-B01",
+          "G30-E08-B02",
+          "G30-E08-B03",
+          "G30-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E08-B01",
+            "G30-E08-B02",
+            "G30-E08-B03",
+            "G30-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G30-E08-AUDIO",
+        "text": "It may snow tonight.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G30-E09",
+      "grammarId": "G30",
+      "grammarNameJa": "should・mayと丁寧な依頼",
+      "english": "Could you take our photo?",
+      "translationJa": "私たちの写真を撮っていただけますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Could you",
+        "start": 0,
+        "endExclusive": 9,
+        "explanationJa": "shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+      },
+      "sentenceExplanationJa": "「Could you take our photo?」は「私たちの写真を撮っていただけますか。」という意味です。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。 この文の対象部分は「Could you」。まとまりは Could you → take → our photo? の順です。",
+      "glossary": [
+        {
+          "expression": "Could",
+          "lemma": "could",
+          "meaningJa": "～できた・仮に～できるのに・丁寧な依頼",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "take",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る",
+          "kind": "word"
+        },
+        {
+          "expression": "our",
+          "lemma": "our",
+          "meaningJa": "私たちの",
+          "kind": "word"
+        },
+        {
+          "expression": "photo",
+          "lemma": "photo",
+          "meaningJa": "写真",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ take our photo?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 9,
+          "answer": "Could you"
+        },
+        "options": [
+          {
+            "id": "G30-E09-C4",
+            "text": "Could you have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Could you」を使います。「Could you have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E09-C3",
+            "text": "Could you be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Could you」を使います。「Could you be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E09-C1",
+            "text": "Could you",
+            "isCorrect": true,
+            "explanationJa": "正解。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+          },
+          {
+            "id": "G30-E09-C2",
+            "text": "Could you to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Could you」を使います。「Could you to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G30-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G30-E09-B01",
+            "text": "Could you",
+            "role": "required"
+          },
+          {
+            "id": "G30-E09-B02",
+            "text": "take",
+            "role": "required"
+          },
+          {
+            "id": "G30-E09-B03",
+            "text": "our photo?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G30-E09-B01",
+          "G30-E09-B02",
+          "G30-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E09-B01",
+            "G30-E09-B02",
+            "G30-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G30-E09-B01",
+            "text": "Could you",
+            "role": "required"
+          },
+          {
+            "id": "G30-E09-B02",
+            "text": "take",
+            "role": "required"
+          },
+          {
+            "id": "G30-E09-B03",
+            "text": "our photo?",
+            "role": "required"
+          },
+          {
+            "id": "G30-E09-D01",
+            "text": "Could you to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E09-D02",
+            "text": "Could you be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E09-D03",
+            "text": "Could you have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G30-E09-D01",
+            "text": "Could you to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E09-D02",
+            "text": "Could you be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E09-D03",
+            "text": "Could you have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          },
+          {
+            "id": "G30-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Could you」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G30-E09-B01",
+          "G30-E09-B02",
+          "G30-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E09-B01",
+            "G30-E09-B02",
+            "G30-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G30-E09-AUDIO",
+        "text": "Could you take our photo?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G30-E10",
+      "grammarId": "G30",
+      "grammarNameJa": "should・mayと丁寧な依頼",
+      "english": "You should check your ticket again.",
+      "translationJa": "あなたはもう一度チケットを確認したほうがよいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "should",
+        "start": 4,
+        "endExclusive": 10,
+        "explanationJa": "shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+      },
+      "sentenceExplanationJa": "「You should check your ticket again.」は「あなたはもう一度チケットを確認したほうがよいです。」という意味です。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。 この文の対象部分は「should」。まとまりは You → should → check → your ticket → again. の順です。",
+      "glossary": [
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "should",
+          "lemma": "should",
+          "meaningJa": "～したほうがよい",
+          "kind": "word"
+        },
+        {
+          "expression": "check",
+          "lemma": "check",
+          "meaningJa": "確認する",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "again",
+          "lemma": "again",
+          "meaningJa": "再び・もう一度",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You ___ check your ticket again.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 10,
+          "answer": "should"
+        },
+        "options": [
+          {
+            "id": "G30-E10-C3",
+            "text": "should be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「should」を使います。「should be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E10-C2",
+            "text": "should to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「should」を使います。「should to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E10-C4",
+            "text": "should have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「should」を使います。「should have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G30-E10-C1",
+            "text": "should",
+            "isCorrect": true,
+            "explanationJa": "正解。shouldは助言、mayは許可や可能性。Could you・Would youは丁寧な依頼の形。"
+          }
+        ],
+        "correctOptionId": "G30-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G30-E10-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G30-E10-B02",
+            "text": "should",
+            "role": "required"
+          },
+          {
+            "id": "G30-E10-B03",
+            "text": "check",
+            "role": "required"
+          },
+          {
+            "id": "G30-E10-B04",
+            "text": "your ticket",
+            "role": "required"
+          },
+          {
+            "id": "G30-E10-B05",
+            "text": "again.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G30-E10-B01",
+          "G30-E10-B02",
+          "G30-E10-B03",
+          "G30-E10-B04",
+          "G30-E10-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E10-B01",
+            "G30-E10-B02",
+            "G30-E10-B03",
+            "G30-E10-B04",
+            "G30-E10-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G30-E10-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G30-E10-B02",
+            "text": "should",
+            "role": "required"
+          },
+          {
+            "id": "G30-E10-B03",
+            "text": "check",
+            "role": "required"
+          },
+          {
+            "id": "G30-E10-B04",
+            "text": "your ticket",
+            "role": "required"
+          },
+          {
+            "id": "G30-E10-B05",
+            "text": "again.",
+            "role": "required"
+          },
+          {
+            "id": "G30-E10-D01",
+            "text": "should to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E10-D02",
+            "text": "should be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E10-D03",
+            "text": "should have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G30-E10-D01",
+            "text": "should to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E10-D02",
+            "text": "should be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E10-D03",
+            "text": "should have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          },
+          {
+            "id": "G30-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「should」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G30-E10-B01",
+          "G30-E10-B02",
+          "G30-E10-B03",
+          "G30-E10-B04",
+          "G30-E10-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G30-E10-B01",
+            "G30-E10-B02",
+            "G30-E10-B03",
+            "G30-E10-B04",
+            "G30-E10-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G30-E10-AUDIO",
+        "text": "You should check your ticket again.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

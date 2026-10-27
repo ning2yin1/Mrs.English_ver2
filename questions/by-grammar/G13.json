@@ -1,0 +1,2339 @@
+{
+  "grammarId": "G13",
+  "examples": [
+    {
+      "id": "G13-E01",
+      "grammarId": "G13",
+      "grammarNameJa": "why・howと程度の疑問文",
+      "english": "Why are you crying?",
+      "translationJa": "あなたはなぜ泣いているのですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Why",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+      },
+      "sentenceExplanationJa": "「Why are you crying?」は「あなたはなぜ泣いているのですか。」という意味です。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。 この文の対象部分は「Why」。まとまりは Why → are you → crying? の順です。",
+      "glossary": [
+        {
+          "expression": "Why",
+          "lemma": "why",
+          "meaningJa": "なぜ",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "crying",
+          "lemma": "cry",
+          "meaningJa": "泣く（ing形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ are you crying?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "Why"
+        },
+        "options": [
+          {
+            "id": "G13-E01-C1",
+            "text": "Why",
+            "isCorrect": true,
+            "explanationJa": "正解。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+          },
+          {
+            "id": "G13-E01-C3",
+            "text": "How many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Why」を使います。「How many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E01-C2",
+            "text": "How",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Why」を使います。「How」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E01-C4",
+            "text": "How old",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Why」を使います。「How old」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G13-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G13-E01-B01",
+            "text": "Why",
+            "role": "required"
+          },
+          {
+            "id": "G13-E01-B02",
+            "text": "are you",
+            "role": "required"
+          },
+          {
+            "id": "G13-E01-B03",
+            "text": "crying?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G13-E01-B01",
+          "G13-E01-B02",
+          "G13-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E01-B01",
+            "G13-E01-B02",
+            "G13-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G13-E01-B01",
+            "text": "Why",
+            "role": "required"
+          },
+          {
+            "id": "G13-E01-B02",
+            "text": "are you",
+            "role": "required"
+          },
+          {
+            "id": "G13-E01-B03",
+            "text": "crying?",
+            "role": "required"
+          },
+          {
+            "id": "G13-E01-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E01-D02",
+            "text": "How many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E01-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G13-E01-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E01-D02",
+            "text": "How many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E01-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G13-E01-B01",
+          "G13-E01-B02",
+          "G13-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E01-B01",
+            "G13-E01-B02",
+            "G13-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G13-E01-AUDIO",
+        "text": "Why are you crying?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G13-E02",
+      "grammarId": "G13",
+      "grammarNameJa": "why・howと程度の疑問文",
+      "english": "How do you get to the hall?",
+      "translationJa": "あなたはどうやって会場へ行きますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "How",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+      },
+      "sentenceExplanationJa": "「How do you get to the hall?」は「あなたはどうやって会場へ行きますか。」という意味です。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。 この文の対象部分は「How」。まとまりは How → do you → get to → the hall? の順です。",
+      "glossary": [
+        {
+          "expression": "get to",
+          "meaningJa": "～へ着く",
+          "kind": "phrase"
+        },
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "get",
+          "lemma": "get",
+          "meaningJa": "得る・着く・～になる",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ do you get to the hall?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "How"
+        },
+        "options": [
+          {
+            "id": "G13-E02-C4",
+            "text": "How old",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「How old」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E02-C2",
+            "text": "Why",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「Why」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E02-C1",
+            "text": "How",
+            "isCorrect": true,
+            "explanationJa": "正解。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+          },
+          {
+            "id": "G13-E02-C3",
+            "text": "How many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「How many」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G13-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G13-E02-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G13-E02-B02",
+            "text": "do you",
+            "role": "required"
+          },
+          {
+            "id": "G13-E02-B03",
+            "text": "get to",
+            "role": "required"
+          },
+          {
+            "id": "G13-E02-B04",
+            "text": "the hall?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G13-E02-B01",
+          "G13-E02-B02",
+          "G13-E02-B03",
+          "G13-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E02-B01",
+            "G13-E02-B02",
+            "G13-E02-B03",
+            "G13-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G13-E02-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G13-E02-B02",
+            "text": "do you",
+            "role": "required"
+          },
+          {
+            "id": "G13-E02-B03",
+            "text": "get to",
+            "role": "required"
+          },
+          {
+            "id": "G13-E02-B04",
+            "text": "the hall?",
+            "role": "required"
+          },
+          {
+            "id": "G13-E02-D01",
+            "text": "Why",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E02-D02",
+            "text": "How many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E02-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G13-E02-D01",
+            "text": "Why",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E02-D02",
+            "text": "How many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E02-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G13-E02-B01",
+          "G13-E02-B02",
+          "G13-E02-B03",
+          "G13-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E02-B01",
+            "G13-E02-B02",
+            "G13-E02-B03",
+            "G13-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G13-E02-AUDIO",
+        "text": "How do you get to the hall?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G13-E03",
+      "grammarId": "G13",
+      "grammarNameJa": "why・howと程度の疑問文",
+      "english": "How many cards do you have?",
+      "translationJa": "あなたはカードを何枚持っていますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "How many",
+        "start": 0,
+        "endExclusive": 8,
+        "explanationJa": "whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+      },
+      "sentenceExplanationJa": "「How many cards do you have?」は「あなたはカードを何枚持っていますか。」という意味です。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。 この文の対象部分は「How many」。まとまりは How many → cards → do you → have? の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "many",
+          "lemma": "many",
+          "meaningJa": "たくさんの（可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "cards",
+          "lemma": "card",
+          "meaningJa": "カード（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ cards do you have?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 8,
+          "answer": "How many"
+        },
+        "options": [
+          {
+            "id": "G13-E03-C4",
+            "text": "How old",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How many」を使います。「How old」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E03-C2",
+            "text": "Why",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How many」を使います。「Why」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E03-C1",
+            "text": "How many",
+            "isCorrect": true,
+            "explanationJa": "正解。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+          },
+          {
+            "id": "G13-E03-C3",
+            "text": "How",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How many」を使います。「How」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G13-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G13-E03-B01",
+            "text": "How many",
+            "role": "required"
+          },
+          {
+            "id": "G13-E03-B02",
+            "text": "cards",
+            "role": "required"
+          },
+          {
+            "id": "G13-E03-B03",
+            "text": "do you",
+            "role": "required"
+          },
+          {
+            "id": "G13-E03-B04",
+            "text": "have?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G13-E03-B01",
+          "G13-E03-B02",
+          "G13-E03-B03",
+          "G13-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E03-B01",
+            "G13-E03-B02",
+            "G13-E03-B03",
+            "G13-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G13-E03-B01",
+            "text": "How many",
+            "role": "required"
+          },
+          {
+            "id": "G13-E03-B02",
+            "text": "cards",
+            "role": "required"
+          },
+          {
+            "id": "G13-E03-B03",
+            "text": "do you",
+            "role": "required"
+          },
+          {
+            "id": "G13-E03-B04",
+            "text": "have?",
+            "role": "required"
+          },
+          {
+            "id": "G13-E03-D01",
+            "text": "Why",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E03-D02",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E03-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G13-E03-D01",
+            "text": "Why",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E03-D02",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E03-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G13-E03-B01",
+          "G13-E03-B02",
+          "G13-E03-B03",
+          "G13-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E03-B01",
+            "G13-E03-B02",
+            "G13-E03-B03",
+            "G13-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G13-E03-AUDIO",
+        "text": "How many cards do you have?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G13-E04",
+      "grammarId": "G13",
+      "grammarNameJa": "why・howと程度の疑問文",
+      "english": "How old is your brother?",
+      "translationJa": "あなたのお兄さんは何歳ですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "How old",
+        "start": 0,
+        "endExclusive": 7,
+        "explanationJa": "whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+      },
+      "sentenceExplanationJa": "「How old is your brother?」は「あなたのお兄さんは何歳ですか。」という意味です。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。 この文の対象部分は「How old」。まとまりは How old → is → your brother? の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "old",
+          "lemma": "old",
+          "meaningJa": "古い・年齢が～の",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "brother",
+          "lemma": "brother",
+          "meaningJa": "兄・弟",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ is your brother?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 7,
+          "answer": "How old"
+        },
+        "options": [
+          {
+            "id": "G13-E04-C1",
+            "text": "How old",
+            "isCorrect": true,
+            "explanationJa": "正解。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+          },
+          {
+            "id": "G13-E04-C4",
+            "text": "How many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How old」を使います。「How many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E04-C3",
+            "text": "How",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How old」を使います。「How」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E04-C2",
+            "text": "Why",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How old」を使います。「Why」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G13-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G13-E04-B01",
+            "text": "How old",
+            "role": "required"
+          },
+          {
+            "id": "G13-E04-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G13-E04-B03",
+            "text": "your brother?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G13-E04-B01",
+          "G13-E04-B02",
+          "G13-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E04-B01",
+            "G13-E04-B02",
+            "G13-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G13-E04-B01",
+            "text": "How old",
+            "role": "required"
+          },
+          {
+            "id": "G13-E04-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G13-E04-B03",
+            "text": "your brother?",
+            "role": "required"
+          },
+          {
+            "id": "G13-E04-D01",
+            "text": "Why",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How old」と比較してください。"
+          },
+          {
+            "id": "G13-E04-D02",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How old」と比較してください。"
+          },
+          {
+            "id": "G13-E04-D03",
+            "text": "How many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How old」と比較してください。"
+          },
+          {
+            "id": "G13-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How old」と比較してください。"
+          },
+          {
+            "id": "G13-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How old」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G13-E04-D01",
+            "text": "Why",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How old」と比較してください。"
+          },
+          {
+            "id": "G13-E04-D02",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How old」と比較してください。"
+          },
+          {
+            "id": "G13-E04-D03",
+            "text": "How many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How old」と比較してください。"
+          },
+          {
+            "id": "G13-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How old」と比較してください。"
+          },
+          {
+            "id": "G13-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How old」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G13-E04-B01",
+          "G13-E04-B02",
+          "G13-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E04-B01",
+            "G13-E04-B02",
+            "G13-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G13-E04-AUDIO",
+        "text": "How old is your brother?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G13-E05",
+      "grammarId": "G13",
+      "grammarNameJa": "why・howと程度の疑問文",
+      "english": "Why did you buy two towels?",
+      "translationJa": "あなたはなぜタオルを2枚買ったのですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Why",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+      },
+      "sentenceExplanationJa": "「Why did you buy two towels?」は「あなたはなぜタオルを2枚買ったのですか。」という意味です。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。 この文の対象部分は「Why」。まとまりは Why → did you → buy → two towels? の順です。",
+      "glossary": [
+        {
+          "expression": "Why",
+          "lemma": "why",
+          "meaningJa": "なぜ",
+          "kind": "word"
+        },
+        {
+          "expression": "did",
+          "lemma": "did",
+          "meaningJa": "doの過去形・過去の疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "buy",
+          "lemma": "buy",
+          "meaningJa": "買う",
+          "kind": "word"
+        },
+        {
+          "expression": "two",
+          "lemma": "two",
+          "meaningJa": "2",
+          "kind": "word"
+        },
+        {
+          "expression": "towels",
+          "lemma": "towel",
+          "meaningJa": "タオル（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ did you buy two towels?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "Why"
+        },
+        "options": [
+          {
+            "id": "G13-E05-C1",
+            "text": "Why",
+            "isCorrect": true,
+            "explanationJa": "正解。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+          },
+          {
+            "id": "G13-E05-C2",
+            "text": "How",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Why」を使います。「How」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E05-C3",
+            "text": "How many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Why」を使います。「How many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E05-C4",
+            "text": "How old",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Why」を使います。「How old」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G13-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G13-E05-B01",
+            "text": "Why",
+            "role": "required"
+          },
+          {
+            "id": "G13-E05-B02",
+            "text": "did you",
+            "role": "required"
+          },
+          {
+            "id": "G13-E05-B03",
+            "text": "buy",
+            "role": "required"
+          },
+          {
+            "id": "G13-E05-B04",
+            "text": "two towels?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G13-E05-B01",
+          "G13-E05-B02",
+          "G13-E05-B03",
+          "G13-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E05-B01",
+            "G13-E05-B02",
+            "G13-E05-B03",
+            "G13-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G13-E05-B01",
+            "text": "Why",
+            "role": "required"
+          },
+          {
+            "id": "G13-E05-B02",
+            "text": "did you",
+            "role": "required"
+          },
+          {
+            "id": "G13-E05-B03",
+            "text": "buy",
+            "role": "required"
+          },
+          {
+            "id": "G13-E05-B04",
+            "text": "two towels?",
+            "role": "required"
+          },
+          {
+            "id": "G13-E05-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E05-D02",
+            "text": "How many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E05-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G13-E05-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E05-D02",
+            "text": "How many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E05-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G13-E05-B01",
+          "G13-E05-B02",
+          "G13-E05-B03",
+          "G13-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E05-B01",
+            "G13-E05-B02",
+            "G13-E05-B03",
+            "G13-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G13-E05-AUDIO",
+        "text": "Why did you buy two towels?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G13-E06",
+      "grammarId": "G13",
+      "grammarNameJa": "why・howと程度の疑問文",
+      "english": "How was the concert?",
+      "translationJa": "コンサートはどうでしたか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "How",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+      },
+      "sentenceExplanationJa": "「How was the concert?」は「コンサートはどうでしたか。」という意味です。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。 この文の対象部分は「How」。まとまりは How → was → the concert? の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ was the concert?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "How"
+        },
+        "options": [
+          {
+            "id": "G13-E06-C4",
+            "text": "How old",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「How old」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E06-C2",
+            "text": "Why",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「Why」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E06-C1",
+            "text": "How",
+            "isCorrect": true,
+            "explanationJa": "正解。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+          },
+          {
+            "id": "G13-E06-C3",
+            "text": "How many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「How many」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G13-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G13-E06-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G13-E06-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G13-E06-B03",
+            "text": "the concert?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G13-E06-B01",
+          "G13-E06-B02",
+          "G13-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E06-B01",
+            "G13-E06-B02",
+            "G13-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G13-E06-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G13-E06-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G13-E06-B03",
+            "text": "the concert?",
+            "role": "required"
+          },
+          {
+            "id": "G13-E06-D01",
+            "text": "Why",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E06-D02",
+            "text": "How many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E06-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G13-E06-D01",
+            "text": "Why",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E06-D02",
+            "text": "How many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E06-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G13-E06-B01",
+          "G13-E06-B02",
+          "G13-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E06-B01",
+            "G13-E06-B02",
+            "G13-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G13-E06-AUDIO",
+        "text": "How was the concert?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G13-E07",
+      "grammarId": "G13",
+      "grammarNameJa": "why・howと程度の疑問文",
+      "english": "How many songs do you know?",
+      "translationJa": "あなたは曲を何曲知っていますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "How many",
+        "start": 0,
+        "endExclusive": 8,
+        "explanationJa": "whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+      },
+      "sentenceExplanationJa": "「How many songs do you know?」は「あなたは曲を何曲知っていますか。」という意味です。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。 この文の対象部分は「How many」。まとまりは How many → songs → do you → know? の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "many",
+          "lemma": "many",
+          "meaningJa": "たくさんの（可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "songs",
+          "lemma": "song",
+          "meaningJa": "曲・歌（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "know",
+          "lemma": "know",
+          "meaningJa": "知っている",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ songs do you know?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 8,
+          "answer": "How many"
+        },
+        "options": [
+          {
+            "id": "G13-E07-C3",
+            "text": "How",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How many」を使います。「How」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E07-C2",
+            "text": "Why",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How many」を使います。「Why」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E07-C4",
+            "text": "How old",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How many」を使います。「How old」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E07-C1",
+            "text": "How many",
+            "isCorrect": true,
+            "explanationJa": "正解。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+          }
+        ],
+        "correctOptionId": "G13-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G13-E07-B01",
+            "text": "How many",
+            "role": "required"
+          },
+          {
+            "id": "G13-E07-B02",
+            "text": "songs",
+            "role": "required"
+          },
+          {
+            "id": "G13-E07-B03",
+            "text": "do you",
+            "role": "required"
+          },
+          {
+            "id": "G13-E07-B04",
+            "text": "know?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G13-E07-B01",
+          "G13-E07-B02",
+          "G13-E07-B03",
+          "G13-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E07-B01",
+            "G13-E07-B02",
+            "G13-E07-B03",
+            "G13-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G13-E07-B01",
+            "text": "How many",
+            "role": "required"
+          },
+          {
+            "id": "G13-E07-B02",
+            "text": "songs",
+            "role": "required"
+          },
+          {
+            "id": "G13-E07-B03",
+            "text": "do you",
+            "role": "required"
+          },
+          {
+            "id": "G13-E07-B04",
+            "text": "know?",
+            "role": "required"
+          },
+          {
+            "id": "G13-E07-D01",
+            "text": "Why",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E07-D02",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E07-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G13-E07-D01",
+            "text": "Why",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E07-D02",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E07-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G13-E07-B01",
+          "G13-E07-B02",
+          "G13-E07-B03",
+          "G13-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E07-B01",
+            "G13-E07-B02",
+            "G13-E07-B03",
+            "G13-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G13-E07-AUDIO",
+        "text": "How many songs do you know?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G13-E08",
+      "grammarId": "G13",
+      "grammarNameJa": "why・howと程度の疑問文",
+      "english": "Why is your bag so heavy?",
+      "translationJa": "あなたのバッグはなぜそんなに重いのですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Why",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+      },
+      "sentenceExplanationJa": "「Why is your bag so heavy?」は「あなたのバッグはなぜそんなに重いのですか。」という意味です。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。 この文の対象部分は「Why」。まとまりは Why → is → your bag → so heavy? の順です。",
+      "glossary": [
+        {
+          "expression": "Why",
+          "lemma": "why",
+          "meaningJa": "なぜ",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "so",
+          "lemma": "so",
+          "meaningJa": "だから・とても",
+          "kind": "word"
+        },
+        {
+          "expression": "heavy",
+          "lemma": "heavy",
+          "meaningJa": "重い",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ is your bag so heavy?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "Why"
+        },
+        "options": [
+          {
+            "id": "G13-E08-C2",
+            "text": "How",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Why」を使います。「How」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E08-C1",
+            "text": "Why",
+            "isCorrect": true,
+            "explanationJa": "正解。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+          },
+          {
+            "id": "G13-E08-C3",
+            "text": "How many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Why」を使います。「How many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E08-C4",
+            "text": "How old",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Why」を使います。「How old」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G13-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G13-E08-B01",
+            "text": "Why",
+            "role": "required"
+          },
+          {
+            "id": "G13-E08-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G13-E08-B03",
+            "text": "your bag",
+            "role": "required"
+          },
+          {
+            "id": "G13-E08-B04",
+            "text": "so heavy?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G13-E08-B01",
+          "G13-E08-B02",
+          "G13-E08-B03",
+          "G13-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E08-B01",
+            "G13-E08-B02",
+            "G13-E08-B03",
+            "G13-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G13-E08-B01",
+            "text": "Why",
+            "role": "required"
+          },
+          {
+            "id": "G13-E08-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G13-E08-B03",
+            "text": "your bag",
+            "role": "required"
+          },
+          {
+            "id": "G13-E08-B04",
+            "text": "so heavy?",
+            "role": "required"
+          },
+          {
+            "id": "G13-E08-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E08-D02",
+            "text": "How many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E08-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G13-E08-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E08-D02",
+            "text": "How many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E08-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          },
+          {
+            "id": "G13-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Why」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G13-E08-B01",
+          "G13-E08-B02",
+          "G13-E08-B03",
+          "G13-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E08-B01",
+            "G13-E08-B02",
+            "G13-E08-B03",
+            "G13-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G13-E08-AUDIO",
+        "text": "Why is your bag so heavy?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G13-E09",
+      "grammarId": "G13",
+      "grammarNameJa": "why・howと程度の疑問文",
+      "english": "How can I join the fan club?",
+      "translationJa": "私はどうすればファンクラブに入れますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "How",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+      },
+      "sentenceExplanationJa": "「How can I join the fan club?」は「私はどうすればファンクラブに入れますか。」という意味です。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。 この文の対象部分は「How」。まとまりは How → can I → join → the fan club? の順です。",
+      "glossary": [
+        {
+          "expression": "fan club",
+          "meaningJa": "ファンクラブ",
+          "kind": "phrase"
+        },
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "join",
+          "lemma": "join",
+          "meaningJa": "参加する・加入する",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "fan",
+          "lemma": "fan",
+          "meaningJa": "ファン",
+          "kind": "word"
+        },
+        {
+          "expression": "club",
+          "lemma": "club",
+          "meaningJa": "クラブ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ can I join the fan club?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "How"
+        },
+        "options": [
+          {
+            "id": "G13-E09-C1",
+            "text": "How",
+            "isCorrect": true,
+            "explanationJa": "正解。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+          },
+          {
+            "id": "G13-E09-C3",
+            "text": "How many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「How many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E09-C2",
+            "text": "Why",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「Why」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E09-C4",
+            "text": "How old",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「How old」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G13-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G13-E09-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G13-E09-B02",
+            "text": "can I",
+            "role": "required"
+          },
+          {
+            "id": "G13-E09-B03",
+            "text": "join",
+            "role": "required"
+          },
+          {
+            "id": "G13-E09-B04",
+            "text": "the fan club?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G13-E09-B01",
+          "G13-E09-B02",
+          "G13-E09-B03",
+          "G13-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E09-B01",
+            "G13-E09-B02",
+            "G13-E09-B03",
+            "G13-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G13-E09-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G13-E09-B02",
+            "text": "can I",
+            "role": "required"
+          },
+          {
+            "id": "G13-E09-B03",
+            "text": "join",
+            "role": "required"
+          },
+          {
+            "id": "G13-E09-B04",
+            "text": "the fan club?",
+            "role": "required"
+          },
+          {
+            "id": "G13-E09-D01",
+            "text": "Why",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E09-D02",
+            "text": "How many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E09-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G13-E09-D01",
+            "text": "Why",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E09-D02",
+            "text": "How many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E09-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G13-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G13-E09-B01",
+          "G13-E09-B02",
+          "G13-E09-B03",
+          "G13-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E09-B01",
+            "G13-E09-B02",
+            "G13-E09-B03",
+            "G13-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G13-E09-AUDIO",
+        "text": "How can I join the fan club?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G13-E10",
+      "grammarId": "G13",
+      "grammarNameJa": "why・howと程度の疑問文",
+      "english": "How many friends are coming?",
+      "translationJa": "友達は何人来ますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "How many",
+        "start": 0,
+        "endExclusive": 8,
+        "explanationJa": "whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+      },
+      "sentenceExplanationJa": "「How many friends are coming?」は「友達は何人来ますか。」という意味です。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。 この文の対象部分は「How many」。まとまりは How many → friends → are → coming? の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "many",
+          "lemma": "many",
+          "meaningJa": "たくさんの（可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "friends",
+          "lemma": "friend",
+          "meaningJa": "友達（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "coming",
+          "lemma": "come",
+          "meaningJa": "来る（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ friends are coming?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 8,
+          "answer": "How many"
+        },
+        "options": [
+          {
+            "id": "G13-E10-C1",
+            "text": "How many",
+            "isCorrect": true,
+            "explanationJa": "正解。whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。"
+          },
+          {
+            "id": "G13-E10-C3",
+            "text": "How",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How many」を使います。「How」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E10-C2",
+            "text": "Why",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How many」を使います。「Why」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G13-E10-C4",
+            "text": "How old",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How many」を使います。「How old」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G13-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G13-E10-B01",
+            "text": "How many",
+            "role": "required"
+          },
+          {
+            "id": "G13-E10-B02",
+            "text": "friends",
+            "role": "required"
+          },
+          {
+            "id": "G13-E10-B03",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G13-E10-B04",
+            "text": "coming?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G13-E10-B01",
+          "G13-E10-B02",
+          "G13-E10-B03",
+          "G13-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E10-B01",
+            "G13-E10-B02",
+            "G13-E10-B03",
+            "G13-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G13-E10-B01",
+            "text": "How many",
+            "role": "required"
+          },
+          {
+            "id": "G13-E10-B02",
+            "text": "friends",
+            "role": "required"
+          },
+          {
+            "id": "G13-E10-B03",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G13-E10-B04",
+            "text": "coming?",
+            "role": "required"
+          },
+          {
+            "id": "G13-E10-D01",
+            "text": "Why",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E10-D02",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E10-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G13-E10-D01",
+            "text": "Why",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E10-D02",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E10-D03",
+            "text": "How old",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          },
+          {
+            "id": "G13-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How many」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G13-E10-B01",
+          "G13-E10-B02",
+          "G13-E10-B03",
+          "G13-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G13-E10-B01",
+            "G13-E10-B02",
+            "G13-E10-B03",
+            "G13-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G13-E10-AUDIO",
+        "text": "How many friends are coming?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

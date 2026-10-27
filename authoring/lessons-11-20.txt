@@ -1,0 +1,110 @@
+@11|what・whoの疑問文|1|whatは物事、whoは人を尋ねる。疑問詞を文の先頭に置く。|What~Who~Where~When
+[What]/is/your favorite song?|あなたのお気に入りの曲は何ですか。
+[Who]/is/that singer?|あの歌手は誰ですか。
+[What]/do you/keep/in this box?|あなたはこの箱に何を保管していますか。
+[Who]/plays/the guitar/in your band?|あなたのバンドでは誰がギターを弾きますか。
+[What]/did you/buy/at the shop?|あなたはその店で何を買いましたか。
+[Who]/is/singing/now?|今歌っているのは誰ですか。
+[What]/makes you/happy?|何があなたを幸せにしますか。
+[Who]/sent/this message?|誰がこのメッセージを送りましたか。
+[What]/is/in your bag?|あなたのバッグには何が入っていますか。
+[Who]/told you/about the concert?|誰があなたにコンサートのことを教えましたか。
+@12|where・whenの疑問文|1|whereで場所、whenで時を尋ねる。一般動詞の疑問文は疑問詞＋do・didなどで作る。|Where~When~What~Who
+[Where]/is/the concert hall?|コンサート会場はどこですか。
+[When]/does/the show/start?|公演はいつ始まりますか。
+[Where]/did you/put/my ticket?|あなたは私のチケットをどこに置きましたか。
+[When]/is/your birthday?|あなたの誕生日はいつですか。
+[Where]/can we/buy/towels?|私たちはどこでタオルを買えますか。
+[When]/did you/become/a fan?|あなたはいつファンになりましたか。
+[Where]/do you/practice?|あなたはどこで練習しますか。
+[When]/will you/leave/home?|あなたはいつ家を出ますか。
+[Where]/are/my headphones?|私のヘッドホンはどこですか。
+[When]/do/tickets/go on sale?|チケットはいつ発売されますか。
+@13|why・howと程度の疑問文|1|whyは理由、howは方法や状態を尋ねる。How old・How manyなどのまとまりも使う。|Why~How~How many~How old
+[Why]/are you/crying?|あなたはなぜ泣いているのですか。
+[How]/do you/get to/the hall?|あなたはどうやって会場へ行きますか。
+[How many]/cards/do you/have?|あなたはカードを何枚持っていますか。
+[How old]/is/your brother?|あなたのお兄さんは何歳ですか。
+[Why]/did you/buy/two towels?|あなたはなぜタオルを2枚買ったのですか。
+[How]/was/the concert?|コンサートはどうでしたか。
+[How many]/songs/do you/know?|あなたは曲を何曲知っていますか。
+[Why]/is/your bag/so heavy?|あなたのバッグはなぜそんなに重いのですか。
+[How]/can I/join/the fan club?|私はどうすればファンクラブに入れますか。
+[How many]/friends/are/coming?|友達は何人来ますか。
+@14|which・whoseと選択疑問文|1|whichは選択、whoseは持ち主を尋ねる。A or Bで選択肢を示せる。|Which~Whose~Who~Where
+[Which]/song/do you/like/better?|あなたはどちらの曲のほうが好きですか。
+[Whose]/ticket/is/this?|これは誰のチケットですか。
+[Which]/bag/is/yours?|どちらのバッグがあなたのものですか。
+[Whose]/towel/is/on the chair?|椅子の上にあるのは誰のタオルですか。
+[Which]/do you/want,/tea or water?|あなたはお茶と水のどちらが欲しいですか。
+[Whose]/phone/is/ringing?|誰の携帯電話が鳴っていますか。
+[Which]/train/goes/to the hall?|どちらの電車が会場へ行きますか。
+[Whose]/guitar/is/that?|あれは誰のギターですか。
+[Which]/is/your seat,/A or B?|あなたの席はAとBのどちらですか。
+[Whose]/name/is/on this card?|このカードにあるのは誰の名前ですか。
+@15|There is・There are|1|There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。|is~are~am~be
+There/[is]/a poster/on the wall.|壁にポスターが1枚あります。
+There/[are]/three fans/near the door.|ドアの近くにファンが3人います。
+There/[is]/a shop/next to the hall.|会場の隣に店があります。
+There/[are]/two tickets/in my bag.|私のバッグにチケットが2枚あります。
+There/[is]/a long line/outside.|外に長い列があります。
+There/[are]/many stars/in the sky.|空にはたくさんの星が見えます。
+There/[is]/some water/in this bottle.|このボトルには水が入っています。
+There/[are]/no empty seats/here.|ここには空席がありません。
+There/[is]/a message/for you.|あなた宛てのメッセージがあります。
+There/[are]/five songs/on this list.|このリストには曲が5曲あります。
+@16|場所・方向の前置詞|1|in・on・under・toなどで位置や方向を示す。日本語の位置関係を手掛かりに選ぶ。|in~on~under~to
+My ticket/is/[in]/my pocket.|チケットは私のポケットの中にあります。
+The poster/is/[on]/the wall.|ポスターは壁に貼ってあります。
+My bag/is/[under]/the chair.|バッグは椅子の下にあります。
+We/walked/[to]/the hall.|私たちは会場まで歩きました。
+The cards/are/[in]/this box.|カードはこの箱の中にあります。
+Your phone/is/[on]/the table.|あなたの携帯電話はテーブルの上にあります。
+The cat/is/[under]/my concert towel.|猫は私のライブタオルの下にいます。
+She/went/[to]/the station.|彼女は駅へ行きました。
+We/are/[in]/the same room.|私たちは同じ部屋の中にいます。
+The sign/is/[on]/the door.|案内の表示はドアに付いています。
+@17|時を表す前置詞|1|時刻にはat、曜日や日付にはon、月や年・朝などにはinを使う。|at~on~in~to
+The show/starts/[at]/six.|公演は6時に始まります。
+We/meet/[on]/Sunday.|私たちは日曜日に会います。
+My birthday/is/[in]/May.|私の誕生日は5月です。
+I/listen to music/[in]/the morning.|私は朝に音楽を聴きます。
+The bus/leaves/[at]/noon.|バスは正午に出ます。
+The concert/is/[on]/July tenth.|コンサートは7月10日です。
+I/bought this album/[in]/2025.|私はこのアルバムを2025年に買いました。
+We/practice/[on]/Fridays.|私たちは毎週金曜日に練習します。
+I/read fan messages/[at]/midnight.|私は真夜中にファンのメッセージを読みます。
+The tour/begins/[in]/April.|ツアーは4月に始まります。
+@18|命令文・勧誘|1|動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。|AUTO
+[Please]/show me/your ticket.|どうぞ私にチケットを見せてください。
+[Do not]/run/in the hall.|会場内を走ってはいけません。
+[Let us]/sing/together.|一緒に歌いましょう。
+[Please]/wait/here.|どうぞここで待ってください。
+[Do not]/forget/your phone.|携帯電話を忘れないでください。
+[Let us]/take/a photo.|写真を撮りましょう。
+[Please]/turn down/the music.|どうぞ音楽の音量を下げてください。
+[Do not]/push/other people.|ほかの人を押してはいけません。
+[Let us]/check/the map.|地図を確認しましょう。
+[Please]/enjoy/the show.|どうぞ公演を楽しんでください。
+@19|canの能力・可能|1|canの後ろは動詞の原形。cannotでできないこと、Can＋主語で質問を表す。|AUTO
+I/[can]/play/the guitar.|私はギターを弾けます。
+She/[can]/sing/this song.|彼女はこの曲を歌えます。
+We/[can]/see/the stage/from here.|私たちはここからステージが見えます。
+He/[can]/read/music.|彼は楽譜を読めます。
+You/[can]/use/my headphones.|あなたは私のヘッドホンを使えます。
+I/[cannot]/remember/all the words.|私は歌詞の言葉を全部覚えられません。
+[Can]/they/dance/very well?|彼らはとても上手に踊れますか。
+My sister/[can]/draw/beautiful pictures.|私の姉は美しい絵を描けます。
+We/[can]/buy/tickets/online.|私たちはオンラインでチケットを買えます。
+This app/[can]/help/young fans.|このアプリは若いファンの役に立てます。
+@20|数量表現・可算と不可算|1|manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。|many~much~some~any
+How/[many]/tickets/do you need?|チケットは何枚必要ですか。
+How/[much]/money/do you have?|お金をいくら持っていますか。
+I/have/[some]/good news.|私にはよい知らせがいくつかあります。
+I/do not have/[any]/tickets.|私はチケットを1枚も持っていません。
+How/[many]/fans/are here?|ここにはファンが何人いますか。
+There is not/[much]/water/left.|水はあまり残っていません。
+We/bought/[some]/snacks.|私たちはお菓子をいくつか買いました。
+Do you have/[any]/questions?|何か質問はありますか。
+How/[much]/time/do we have?|私たちにはどれくらい時間がありますか。
+How/[many]/cards/did you get?|カードは何枚手に入りましたか。

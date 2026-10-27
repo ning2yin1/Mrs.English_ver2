@@ -1,0 +1,2332 @@
+{
+  "grammarId": "G42",
+  "examples": [
+    {
+      "id": "G42-E01",
+      "grammarId": "G42",
+      "grammarNameJa": "because・when・before・after",
+      "english": "I smiled because the ticket was mine.",
+      "translationJa": "私はそのチケットが自分のものだったので笑顔になりました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "because",
+        "start": 9,
+        "endExclusive": 16,
+        "explanationJa": "becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+      },
+      "sentenceExplanationJa": "「I smiled because the ticket was mine.」は「私はそのチケットが自分のものだったので笑顔になりました。」という意味です。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。 この文の対象部分は「because」。まとまりは I smiled → because → the ticket was mine. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "smiled",
+          "lemma": "smile",
+          "meaningJa": "笑顔になる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "because",
+          "lemma": "because",
+          "meaningJa": "～なので",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "mine",
+          "lemma": "mine",
+          "meaningJa": "私のもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I smiled ___ the ticket was mine.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 16,
+          "answer": "because"
+        },
+        "options": [
+          {
+            "id": "G42-E01-C1",
+            "text": "because",
+            "isCorrect": true,
+            "explanationJa": "正解。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+          },
+          {
+            "id": "G42-E01-C3",
+            "text": "before",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「because」を使います。「before」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E01-C4",
+            "text": "after",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「because」を使います。「after」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E01-C2",
+            "text": "when",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「because」を使います。「when」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G42-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G42-E01-B01",
+            "text": "I smiled",
+            "role": "required"
+          },
+          {
+            "id": "G42-E01-B02",
+            "text": "because",
+            "role": "required"
+          },
+          {
+            "id": "G42-E01-B03",
+            "text": "the ticket was mine.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G42-E01-B01",
+          "G42-E01-B02",
+          "G42-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E01-B01",
+            "G42-E01-B02",
+            "G42-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G42-E01-B01",
+            "text": "I smiled",
+            "role": "required"
+          },
+          {
+            "id": "G42-E01-B02",
+            "text": "because",
+            "role": "required"
+          },
+          {
+            "id": "G42-E01-B03",
+            "text": "the ticket was mine.",
+            "role": "required"
+          },
+          {
+            "id": "G42-E01-D01",
+            "text": "when",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E01-D02",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E01-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G42-E01-D01",
+            "text": "when",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E01-D02",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E01-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G42-E01-B01",
+          "G42-E01-B02",
+          "G42-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E01-B01",
+            "G42-E01-B02",
+            "G42-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G42-E01-AUDIO",
+        "text": "I smiled because the ticket was mine.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G42-E02",
+      "grammarId": "G42",
+      "grammarNameJa": "because・when・before・after",
+      "english": "We cheered when the show started.",
+      "translationJa": "私たちは公演が始まった時に歓声を上げました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "when",
+        "start": 11,
+        "endExclusive": 15,
+        "explanationJa": "becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+      },
+      "sentenceExplanationJa": "「We cheered when the show started.」は「私たちは公演が始まった時に歓声を上げました。」という意味です。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。 この文の対象部分は「when」。まとまりは We cheered → when → the show started. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "cheered",
+          "lemma": "cheer",
+          "meaningJa": "歓声を上げる・応援する（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "when",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        },
+        {
+          "expression": "started",
+          "lemma": "start",
+          "meaningJa": "始まる・始める（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We cheered ___ the show started.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 15,
+          "answer": "when"
+        },
+        "options": [
+          {
+            "id": "G42-E02-C1",
+            "text": "when",
+            "isCorrect": true,
+            "explanationJa": "正解。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+          },
+          {
+            "id": "G42-E02-C3",
+            "text": "before",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when」を使います。「before」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E02-C2",
+            "text": "because",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when」を使います。「because」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E02-C4",
+            "text": "after",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when」を使います。「after」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G42-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G42-E02-B01",
+            "text": "We cheered",
+            "role": "required"
+          },
+          {
+            "id": "G42-E02-B02",
+            "text": "when",
+            "role": "required"
+          },
+          {
+            "id": "G42-E02-B03",
+            "text": "the show started.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G42-E02-B01",
+          "G42-E02-B02",
+          "G42-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E02-B01",
+            "G42-E02-B02",
+            "G42-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G42-E02-B01",
+            "text": "We cheered",
+            "role": "required"
+          },
+          {
+            "id": "G42-E02-B02",
+            "text": "when",
+            "role": "required"
+          },
+          {
+            "id": "G42-E02-B03",
+            "text": "the show started.",
+            "role": "required"
+          },
+          {
+            "id": "G42-E02-D01",
+            "text": "because",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E02-D02",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E02-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G42-E02-D01",
+            "text": "because",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E02-D02",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E02-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G42-E02-B01",
+          "G42-E02-B02",
+          "G42-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E02-B01",
+            "G42-E02-B02",
+            "G42-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G42-E02-AUDIO",
+        "text": "We cheered when the show started.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G42-E03",
+      "grammarId": "G42",
+      "grammarNameJa": "because・when・before・after",
+      "english": "I checked my bag before I left home.",
+      "translationJa": "私は家を出る前にバッグを確認しました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "before",
+        "start": 17,
+        "endExclusive": 23,
+        "explanationJa": "becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+      },
+      "sentenceExplanationJa": "「I checked my bag before I left home.」は「私は家を出る前にバッグを確認しました。」という意味です。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。 この文の対象部分は「before」。まとまりは I checked my bag → before → I left home. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "checked",
+          "lemma": "check",
+          "meaningJa": "確認する（過去形・過去分詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "before",
+          "lemma": "before",
+          "meaningJa": "～の前に・以前",
+          "kind": "word"
+        },
+        {
+          "expression": "left",
+          "lemma": "leave",
+          "meaningJa": "出発する・～のままにしておく（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "home",
+          "lemma": "home",
+          "meaningJa": "家・家へ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I checked my bag ___ I left home.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 23,
+          "answer": "before"
+        },
+        "options": [
+          {
+            "id": "G42-E03-C4",
+            "text": "after",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「before」を使います。「after」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E03-C2",
+            "text": "because",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「before」を使います。「because」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E03-C1",
+            "text": "before",
+            "isCorrect": true,
+            "explanationJa": "正解。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+          },
+          {
+            "id": "G42-E03-C3",
+            "text": "when",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「before」を使います。「when」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G42-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G42-E03-B01",
+            "text": "I checked my bag",
+            "role": "required"
+          },
+          {
+            "id": "G42-E03-B02",
+            "text": "before",
+            "role": "required"
+          },
+          {
+            "id": "G42-E03-B03",
+            "text": "I left home.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G42-E03-B01",
+          "G42-E03-B02",
+          "G42-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E03-B01",
+            "G42-E03-B02",
+            "G42-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G42-E03-B01",
+            "text": "I checked my bag",
+            "role": "required"
+          },
+          {
+            "id": "G42-E03-B02",
+            "text": "before",
+            "role": "required"
+          },
+          {
+            "id": "G42-E03-B03",
+            "text": "I left home.",
+            "role": "required"
+          },
+          {
+            "id": "G42-E03-D01",
+            "text": "because",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E03-D02",
+            "text": "when",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E03-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G42-E03-D01",
+            "text": "because",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E03-D02",
+            "text": "when",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E03-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G42-E03-B01",
+          "G42-E03-B02",
+          "G42-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E03-B01",
+            "G42-E03-B02",
+            "G42-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G42-E03-AUDIO",
+        "text": "I checked my bag before I left home.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G42-E04",
+      "grammarId": "G42",
+      "grammarNameJa": "because・when・before・after",
+      "english": "We ate dinner after the concert ended.",
+      "translationJa": "私たちはコンサートが終わった後に夕食を食べました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "after",
+        "start": 14,
+        "endExclusive": 19,
+        "explanationJa": "becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+      },
+      "sentenceExplanationJa": "「We ate dinner after the concert ended.」は「私たちはコンサートが終わった後に夕食を食べました。」という意味です。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。 この文の対象部分は「after」。まとまりは We ate dinner → after → the concert ended. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "ate",
+          "lemma": "eat",
+          "meaningJa": "食べる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "dinner",
+          "lemma": "dinner",
+          "meaningJa": "夕食",
+          "kind": "word"
+        },
+        {
+          "expression": "after",
+          "lemma": "after",
+          "meaningJa": "～の後に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        },
+        {
+          "expression": "ended",
+          "lemma": "end",
+          "meaningJa": "終わる（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ate dinner ___ the concert ended.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 19,
+          "answer": "after"
+        },
+        "options": [
+          {
+            "id": "G42-E04-C4",
+            "text": "before",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「after」を使います。「before」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E04-C2",
+            "text": "because",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「after」を使います。「because」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E04-C3",
+            "text": "when",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「after」を使います。「when」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E04-C1",
+            "text": "after",
+            "isCorrect": true,
+            "explanationJa": "正解。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+          }
+        ],
+        "correctOptionId": "G42-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G42-E04-B01",
+            "text": "We ate dinner",
+            "role": "required"
+          },
+          {
+            "id": "G42-E04-B02",
+            "text": "after",
+            "role": "required"
+          },
+          {
+            "id": "G42-E04-B03",
+            "text": "the concert ended.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G42-E04-B01",
+          "G42-E04-B02",
+          "G42-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E04-B01",
+            "G42-E04-B02",
+            "G42-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G42-E04-B01",
+            "text": "We ate dinner",
+            "role": "required"
+          },
+          {
+            "id": "G42-E04-B02",
+            "text": "after",
+            "role": "required"
+          },
+          {
+            "id": "G42-E04-B03",
+            "text": "the concert ended.",
+            "role": "required"
+          },
+          {
+            "id": "G42-E04-D01",
+            "text": "because",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E04-D02",
+            "text": "when",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E04-D03",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G42-E04-D01",
+            "text": "because",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E04-D02",
+            "text": "when",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E04-D03",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G42-E04-B01",
+          "G42-E04-B02",
+          "G42-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E04-B01",
+            "G42-E04-B02",
+            "G42-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G42-E04-AUDIO",
+        "text": "We ate dinner after the concert ended.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G42-E05",
+      "grammarId": "G42",
+      "grammarNameJa": "because・when・before・after",
+      "english": "She was happy because she won a ticket.",
+      "translationJa": "彼女はチケットの抽選に当たったので喜んでいました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "because",
+        "start": 14,
+        "endExclusive": 21,
+        "explanationJa": "becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+      },
+      "sentenceExplanationJa": "「She was happy because she won a ticket.」は「彼女はチケットの抽選に当たったので喜んでいました。」という意味です。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。 この文の対象部分は「because」。まとまりは She was happy → because → she won a ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "happy",
+          "lemma": "happy",
+          "meaningJa": "うれしい・幸せな",
+          "kind": "word"
+        },
+        {
+          "expression": "because",
+          "lemma": "because",
+          "meaningJa": "～なので",
+          "kind": "word"
+        },
+        {
+          "expression": "she",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "won",
+          "lemma": "win",
+          "meaningJa": "勝つ・抽選に当たる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She was happy ___ she won a ticket.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 21,
+          "answer": "because"
+        },
+        "options": [
+          {
+            "id": "G42-E05-C1",
+            "text": "because",
+            "isCorrect": true,
+            "explanationJa": "正解。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+          },
+          {
+            "id": "G42-E05-C4",
+            "text": "after",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「because」を使います。「after」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E05-C3",
+            "text": "before",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「because」を使います。「before」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E05-C2",
+            "text": "when",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「because」を使います。「when」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G42-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G42-E05-B01",
+            "text": "She was happy",
+            "role": "required"
+          },
+          {
+            "id": "G42-E05-B02",
+            "text": "because",
+            "role": "required"
+          },
+          {
+            "id": "G42-E05-B03",
+            "text": "she won a ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G42-E05-B01",
+          "G42-E05-B02",
+          "G42-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E05-B01",
+            "G42-E05-B02",
+            "G42-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G42-E05-B01",
+            "text": "She was happy",
+            "role": "required"
+          },
+          {
+            "id": "G42-E05-B02",
+            "text": "because",
+            "role": "required"
+          },
+          {
+            "id": "G42-E05-B03",
+            "text": "she won a ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G42-E05-D01",
+            "text": "when",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E05-D02",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E05-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G42-E05-D01",
+            "text": "when",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E05-D02",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E05-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G42-E05-B01",
+          "G42-E05-B02",
+          "G42-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E05-B01",
+            "G42-E05-B02",
+            "G42-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G42-E05-AUDIO",
+        "text": "She was happy because she won a ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G42-E06",
+      "grammarId": "G42",
+      "grammarNameJa": "because・when・before・after",
+      "english": "I listen to music when I feel sad.",
+      "translationJa": "私は悲しいと感じる時に音楽を聴きます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "when",
+        "start": 18,
+        "endExclusive": 22,
+        "explanationJa": "becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+      },
+      "sentenceExplanationJa": "「I listen to music when I feel sad.」は「私は悲しいと感じる時に音楽を聴きます。」という意味です。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。 この文の対象部分は「when」。まとまりは I listen to music → when → I feel sad. の順です。",
+      "glossary": [
+        {
+          "expression": "listen to",
+          "meaningJa": "～を聴く",
+          "kind": "phrase"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "listen",
+          "lemma": "listen",
+          "meaningJa": "耳を傾けて聴く",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "music",
+          "lemma": "music",
+          "meaningJa": "音楽・楽譜",
+          "kind": "word"
+        },
+        {
+          "expression": "when",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "feel",
+          "lemma": "feel",
+          "meaningJa": "感じる",
+          "kind": "word"
+        },
+        {
+          "expression": "sad",
+          "lemma": "sad",
+          "meaningJa": "悲しい",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I listen to music ___ I feel sad.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 22,
+          "answer": "when"
+        },
+        "options": [
+          {
+            "id": "G42-E06-C2",
+            "text": "because",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when」を使います。「because」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E06-C3",
+            "text": "before",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when」を使います。「before」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E06-C1",
+            "text": "when",
+            "isCorrect": true,
+            "explanationJa": "正解。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+          },
+          {
+            "id": "G42-E06-C4",
+            "text": "after",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when」を使います。「after」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G42-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G42-E06-B01",
+            "text": "I listen to music",
+            "role": "required"
+          },
+          {
+            "id": "G42-E06-B02",
+            "text": "when",
+            "role": "required"
+          },
+          {
+            "id": "G42-E06-B03",
+            "text": "I feel sad.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G42-E06-B01",
+          "G42-E06-B02",
+          "G42-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E06-B01",
+            "G42-E06-B02",
+            "G42-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G42-E06-B01",
+            "text": "I listen to music",
+            "role": "required"
+          },
+          {
+            "id": "G42-E06-B02",
+            "text": "when",
+            "role": "required"
+          },
+          {
+            "id": "G42-E06-B03",
+            "text": "I feel sad.",
+            "role": "required"
+          },
+          {
+            "id": "G42-E06-D01",
+            "text": "because",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E06-D02",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E06-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G42-E06-D01",
+            "text": "because",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E06-D02",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E06-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G42-E06-B01",
+          "G42-E06-B02",
+          "G42-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E06-B01",
+            "G42-E06-B02",
+            "G42-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G42-E06-AUDIO",
+        "text": "I listen to music when I feel sad.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G42-E07",
+      "grammarId": "G42",
+      "grammarNameJa": "because・when・before・after",
+      "english": "Please wash your hands before you eat.",
+      "translationJa": "食べる前に手を洗ってください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "before",
+        "start": 23,
+        "endExclusive": 29,
+        "explanationJa": "becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+      },
+      "sentenceExplanationJa": "「Please wash your hands before you eat.」は「食べる前に手を洗ってください。」という意味です。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。 この文の対象部分は「before」。まとまりは Please wash your hands → before → you eat. の順です。",
+      "glossary": [
+        {
+          "expression": "Please",
+          "lemma": "please",
+          "meaningJa": "どうぞ・～してください",
+          "kind": "word"
+        },
+        {
+          "expression": "wash",
+          "lemma": "wash",
+          "meaningJa": "洗う",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "hands",
+          "lemma": "hand",
+          "meaningJa": "手（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "before",
+          "lemma": "before",
+          "meaningJa": "～の前に・以前",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "eat",
+          "lemma": "eat",
+          "meaningJa": "食べる",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Please wash your hands ___ you eat.",
+        "blank": {
+          "start": 23,
+          "endExclusive": 29,
+          "answer": "before"
+        },
+        "options": [
+          {
+            "id": "G42-E07-C1",
+            "text": "before",
+            "isCorrect": true,
+            "explanationJa": "正解。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+          },
+          {
+            "id": "G42-E07-C3",
+            "text": "when",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「before」を使います。「when」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E07-C4",
+            "text": "after",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「before」を使います。「after」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E07-C2",
+            "text": "because",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「before」を使います。「because」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G42-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G42-E07-B01",
+            "text": "Please wash your hands",
+            "role": "required"
+          },
+          {
+            "id": "G42-E07-B02",
+            "text": "before",
+            "role": "required"
+          },
+          {
+            "id": "G42-E07-B03",
+            "text": "you eat.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G42-E07-B01",
+          "G42-E07-B02",
+          "G42-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E07-B01",
+            "G42-E07-B02",
+            "G42-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G42-E07-B01",
+            "text": "Please wash your hands",
+            "role": "required"
+          },
+          {
+            "id": "G42-E07-B02",
+            "text": "before",
+            "role": "required"
+          },
+          {
+            "id": "G42-E07-B03",
+            "text": "you eat.",
+            "role": "required"
+          },
+          {
+            "id": "G42-E07-D01",
+            "text": "because",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E07-D02",
+            "text": "when",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E07-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G42-E07-D01",
+            "text": "because",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E07-D02",
+            "text": "when",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E07-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          },
+          {
+            "id": "G42-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「before」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G42-E07-B01",
+          "G42-E07-B02",
+          "G42-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E07-B01",
+            "G42-E07-B02",
+            "G42-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G42-E07-AUDIO",
+        "text": "Please wash your hands before you eat.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G42-E08",
+      "grammarId": "G42",
+      "grammarNameJa": "because・when・before・after",
+      "english": "I called my friend after I got home.",
+      "translationJa": "私は帰宅した後に友達に電話しました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "after",
+        "start": 19,
+        "endExclusive": 24,
+        "explanationJa": "becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+      },
+      "sentenceExplanationJa": "「I called my friend after I got home.」は「私は帰宅した後に友達に電話しました。」という意味です。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。 この文の対象部分は「after」。まとまりは I called my friend → after → I got home. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "called",
+          "lemma": "call",
+          "meaningJa": "呼ぶ・電話する（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "friend",
+          "lemma": "friend",
+          "meaningJa": "友達",
+          "kind": "word"
+        },
+        {
+          "expression": "after",
+          "lemma": "after",
+          "meaningJa": "～の後に",
+          "kind": "word"
+        },
+        {
+          "expression": "got",
+          "lemma": "get",
+          "meaningJa": "得る・着く・～になる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "home",
+          "lemma": "home",
+          "meaningJa": "家・家へ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I called my friend ___ I got home.",
+        "blank": {
+          "start": 19,
+          "endExclusive": 24,
+          "answer": "after"
+        },
+        "options": [
+          {
+            "id": "G42-E08-C3",
+            "text": "when",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「after」を使います。「when」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E08-C4",
+            "text": "before",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「after」を使います。「before」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E08-C1",
+            "text": "after",
+            "isCorrect": true,
+            "explanationJa": "正解。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+          },
+          {
+            "id": "G42-E08-C2",
+            "text": "because",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「after」を使います。「because」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G42-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G42-E08-B01",
+            "text": "I called my friend",
+            "role": "required"
+          },
+          {
+            "id": "G42-E08-B02",
+            "text": "after",
+            "role": "required"
+          },
+          {
+            "id": "G42-E08-B03",
+            "text": "I got home.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G42-E08-B01",
+          "G42-E08-B02",
+          "G42-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E08-B01",
+            "G42-E08-B02",
+            "G42-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G42-E08-B01",
+            "text": "I called my friend",
+            "role": "required"
+          },
+          {
+            "id": "G42-E08-B02",
+            "text": "after",
+            "role": "required"
+          },
+          {
+            "id": "G42-E08-B03",
+            "text": "I got home.",
+            "role": "required"
+          },
+          {
+            "id": "G42-E08-D01",
+            "text": "because",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E08-D02",
+            "text": "when",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E08-D03",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G42-E08-D01",
+            "text": "because",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E08-D02",
+            "text": "when",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E08-D03",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          },
+          {
+            "id": "G42-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「after」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G42-E08-B01",
+          "G42-E08-B02",
+          "G42-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E08-B01",
+            "G42-E08-B02",
+            "G42-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G42-E08-AUDIO",
+        "text": "I called my friend after I got home.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G42-E09",
+      "grammarId": "G42",
+      "grammarNameJa": "because・when・before・after",
+      "english": "We took a bus because the hall was far away.",
+      "translationJa": "会場が遠かったので、私たちはバスに乗りました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "because",
+        "start": 14,
+        "endExclusive": 21,
+        "explanationJa": "becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+      },
+      "sentenceExplanationJa": "「We took a bus because the hall was far away.」は「会場が遠かったので、私たちはバスに乗りました。」という意味です。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。 この文の対象部分は「because」。まとまりは We took a bus → because → the hall was far away. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "took",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "bus",
+          "lemma": "bus",
+          "meaningJa": "バス",
+          "kind": "word"
+        },
+        {
+          "expression": "because",
+          "lemma": "because",
+          "meaningJa": "～なので",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "far",
+          "lemma": "far",
+          "meaningJa": "遠い・遠く",
+          "kind": "word"
+        },
+        {
+          "expression": "away",
+          "lemma": "away",
+          "meaningJa": "離れて",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We took a bus ___ the hall was far away.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 21,
+          "answer": "because"
+        },
+        "options": [
+          {
+            "id": "G42-E09-C3",
+            "text": "before",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「because」を使います。「before」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E09-C1",
+            "text": "because",
+            "isCorrect": true,
+            "explanationJa": "正解。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+          },
+          {
+            "id": "G42-E09-C4",
+            "text": "after",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「because」を使います。「after」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E09-C2",
+            "text": "when",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「because」を使います。「when」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G42-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G42-E09-B01",
+            "text": "We took a bus",
+            "role": "required"
+          },
+          {
+            "id": "G42-E09-B02",
+            "text": "because",
+            "role": "required"
+          },
+          {
+            "id": "G42-E09-B03",
+            "text": "the hall was far away.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G42-E09-B01",
+          "G42-E09-B02",
+          "G42-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E09-B01",
+            "G42-E09-B02",
+            "G42-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G42-E09-B01",
+            "text": "We took a bus",
+            "role": "required"
+          },
+          {
+            "id": "G42-E09-B02",
+            "text": "because",
+            "role": "required"
+          },
+          {
+            "id": "G42-E09-B03",
+            "text": "the hall was far away.",
+            "role": "required"
+          },
+          {
+            "id": "G42-E09-D01",
+            "text": "when",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E09-D02",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E09-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G42-E09-D01",
+            "text": "when",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E09-D02",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E09-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          },
+          {
+            "id": "G42-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「because」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G42-E09-B01",
+          "G42-E09-B02",
+          "G42-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E09-B01",
+            "G42-E09-B02",
+            "G42-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G42-E09-AUDIO",
+        "text": "We took a bus because the hall was far away.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G42-E10",
+      "grammarId": "G42",
+      "grammarNameJa": "because・when・before・after",
+      "english": "She waved when she saw me.",
+      "translationJa": "彼女は私を見た時に手を振りました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "when",
+        "start": 10,
+        "endExclusive": 14,
+        "explanationJa": "becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+      },
+      "sentenceExplanationJa": "「She waved when she saw me.」は「彼女は私を見た時に手を振りました。」という意味です。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。 この文の対象部分は「when」。まとまりは She waved → when → she saw me. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "waved",
+          "lemma": "wave",
+          "meaningJa": "振る・手を振る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "when",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "she",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "saw",
+          "lemma": "see",
+          "meaningJa": "見る・見える（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She waved ___ she saw me.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 14,
+          "answer": "when"
+        },
+        "options": [
+          {
+            "id": "G42-E10-C2",
+            "text": "because",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when」を使います。「because」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E10-C3",
+            "text": "before",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when」を使います。「before」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E10-C4",
+            "text": "after",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when」を使います。「after」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G42-E10-C1",
+            "text": "when",
+            "isCorrect": true,
+            "explanationJa": "正解。becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。"
+          }
+        ],
+        "correctOptionId": "G42-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G42-E10-B01",
+            "text": "She waved",
+            "role": "required"
+          },
+          {
+            "id": "G42-E10-B02",
+            "text": "when",
+            "role": "required"
+          },
+          {
+            "id": "G42-E10-B03",
+            "text": "she saw me.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G42-E10-B01",
+          "G42-E10-B02",
+          "G42-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E10-B01",
+            "G42-E10-B02",
+            "G42-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G42-E10-B01",
+            "text": "She waved",
+            "role": "required"
+          },
+          {
+            "id": "G42-E10-B02",
+            "text": "when",
+            "role": "required"
+          },
+          {
+            "id": "G42-E10-B03",
+            "text": "she saw me.",
+            "role": "required"
+          },
+          {
+            "id": "G42-E10-D01",
+            "text": "because",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E10-D02",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E10-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G42-E10-D01",
+            "text": "because",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E10-D02",
+            "text": "before",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E10-D03",
+            "text": "after",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          },
+          {
+            "id": "G42-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G42-E10-B01",
+          "G42-E10-B02",
+          "G42-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G42-E10-B01",
+            "G42-E10-B02",
+            "G42-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G42-E10-AUDIO",
+        "text": "She waved when she saw me.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

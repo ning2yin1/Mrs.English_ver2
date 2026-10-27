@@ -1,0 +1,292 @@
+[
+  {
+    "file": "assets/new/native/button-white.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/header-purple.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-back.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-book.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-calendar.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-cards.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-chart.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-check.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-clock.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-close.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-download.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-gift.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-heart.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-home.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-info.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-lock.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-menu.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-mission.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-pause.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-play.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-replay.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-rotate.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-rp.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-settings.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-shop.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/icon-speaker.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/panel-blue.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/star-dim.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/star-gold.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/star-outline.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/native/star-silver.svg",
+    "type": "svg",
+    "parsed": true
+  },
+  {
+    "file": "assets/new/sfx/confirm.wav",
+    "type": "wav",
+    "frames": 8378,
+    "rate": 44100,
+    "clipping": false
+  },
+  {
+    "file": "assets/new/sfx/correct.wav",
+    "type": "wav",
+    "frames": 10583,
+    "rate": 44100,
+    "clipping": false
+  },
+  {
+    "file": "assets/new/sfx/level-up.wav",
+    "type": "wav",
+    "frames": 22930,
+    "rate": 44100,
+    "clipping": false
+  },
+  {
+    "file": "assets/new/sfx/miss.wav",
+    "type": "wav",
+    "frames": 10583,
+    "rate": 44100,
+    "clipping": false
+  },
+  {
+    "file": "assets/new/sfx/new-record.wav",
+    "type": "wav",
+    "frames": 23812,
+    "rate": 44100,
+    "clipping": false
+  },
+  {
+    "file": "assets/new/sfx/pack-open.wav",
+    "type": "wav",
+    "frames": 25576,
+    "rate": 44100,
+    "clipping": false
+  },
+  {
+    "file": "assets/new/sfx/star.wav",
+    "type": "wav",
+    "frames": 5953,
+    "rate": 44100,
+    "clipping": false
+  },
+  {
+    "file": "assets/new/sfx/tap.wav",
+    "type": "wav",
+    "frames": 2645,
+    "rate": 44100,
+    "clipping": false
+  },
+  {
+    "file": "assets/new/sfx/time-up.wav",
+    "type": "wav",
+    "frames": 7937,
+    "rate": 44100,
+    "clipping": false
+  },
+  {
+    "file": "assets/new/landscape-mockups/01-title.png",
+    "type": "png",
+    "width": 1844,
+    "height": 853,
+    "orientation": "landscape",
+    "visuallyInspected": true
+  },
+  {
+    "file": "assets/new/landscape-mockups/02-home.png",
+    "type": "png",
+    "width": 1844,
+    "height": 853,
+    "orientation": "landscape",
+    "visuallyInspected": true
+  },
+  {
+    "file": "assets/new/landscape-mockups/03-first-member.png",
+    "type": "png",
+    "width": 1844,
+    "height": 853,
+    "orientation": "landscape",
+    "visuallyInspected": true
+  },
+  {
+    "file": "assets/new/landscape-mockups/04-welcome-pack.png",
+    "type": "png",
+    "width": 1844,
+    "height": 853,
+    "orientation": "landscape",
+    "visuallyInspected": true
+  },
+  {
+    "file": "assets/new/landscape-mockups/05-stage-select.png",
+    "type": "png",
+    "width": 1844,
+    "height": 853,
+    "orientation": "landscape",
+    "visuallyInspected": true
+  },
+  {
+    "file": "assets/new/landscape-mockups/06-play-easy.png",
+    "type": "png",
+    "width": 1844,
+    "height": 853,
+    "orientation": "landscape",
+    "visuallyInspected": true
+  },
+  {
+    "file": "assets/new/landscape-mockups/07-play-hard.png",
+    "type": "png",
+    "width": 1844,
+    "height": 853,
+    "orientation": "landscape",
+    "visuallyInspected": true
+  },
+  {
+    "file": "assets/new/landscape-mockups/08-results.png",
+    "type": "png",
+    "width": 1844,
+    "height": 853,
+    "orientation": "landscape",
+    "visuallyInspected": true
+  },
+  {
+    "file": "assets/new/landscape-mockups/09-card-detail.png",
+    "type": "png",
+    "width": 1844,
+    "height": 853,
+    "orientation": "landscape",
+    "visuallyInspected": true
+  }
+]

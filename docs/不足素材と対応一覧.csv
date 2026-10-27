@@ -1,0 +1,11 @@
+﻿id,必要素材,元の状態,制作方法,成果物,扱い
+N01,日本語・RP仕様の横画面,旧案にダイヤ等があった,画像生成9枚,assets/new/landscape-mockups,新規参照として完了
+N02,判定語5種,CLEARED等のみ,画像生成シート,assets/new/judgment-wordmarks.png,参照用。実フォントでも再現可
+N03,操作アイコン独立データ,既存は複数部品シート,幾何SVG24点,assets/new/native/icon-*.svg,独立素材として完了
+N04,9-slice対応の空枠,元画像には大きい余白・文字入り枠もあった,幾何SVG3点と寸法JSON,assets/new/native/nine-slice.json,角固定で使用
+N05,星評価の状態,シート中心,独立SVG4点,assets/new/native/star-*.svg,金・銀・空・未達成
+N06,効果音,ZIPに音素材なし,オリジナル短音WAV9本,assets/new/sfx/manifest.json,再生・ON/OFFは実装側
+N07,判定・数字の書体,フォントなし,公式OFLフォント2本,assets/fonts,日本語は端末標準
+N08,開封・強化・結果の時間制御,静止画しかなかった,仕様・機械可読タイムライン・CSS,animations,動作制御は実装側
+N09,PWA配信用各サイズ,元192と高解像度シンボルあり,原本と確定書出し指示,docs/07-PWA・音声・表示要件.md,Codexで192/512/180出力
+N10,600英文音声再生用データ,音声データなし,本文・ID・言語・速度のJSON,questions/tts-manifest.json,録音600本ではなく端末TTS

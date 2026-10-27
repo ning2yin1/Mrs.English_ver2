@@ -1,0 +1,2413 @@
+{
+  "grammarId": "G40",
+  "examples": [
+    {
+      "id": "G40-E01",
+      "grammarId": "G40",
+      "grammarNameJa": "SVOC・make・call・keep・let・help",
+      "english": "This song makes me happy.",
+      "translationJa": "この曲は私を幸せにします。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "happy",
+        "start": 19,
+        "endExclusive": 24,
+        "explanationJa": "目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+      },
+      "sentenceExplanationJa": "「This song makes me happy.」は「この曲は私を幸せにします。」という意味です。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。 この文の対象部分は「happy」。まとまりは This song → makes → me → happy. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "makes",
+          "lemma": "make",
+          "meaningJa": "作る・～にさせる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "happy",
+          "lemma": "happy",
+          "meaningJa": "うれしい・幸せな",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This song makes me ___.",
+        "blank": {
+          "start": 19,
+          "endExclusive": 24,
+          "answer": "happy"
+        },
+        "options": [
+          {
+            "id": "G40-E01-C2",
+            "text": "happily",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「happy」を使います。「happily」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E01-C1",
+            "text": "happy",
+            "isCorrect": true,
+            "explanationJa": "正解。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+          },
+          {
+            "id": "G40-E01-C4",
+            "text": "be happy",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「happy」を使います。「be happy」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E01-C3",
+            "text": "happiness",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「happy」を使います。「happiness」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G40-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G40-E01-B01",
+            "text": "This song",
+            "role": "required"
+          },
+          {
+            "id": "G40-E01-B02",
+            "text": "makes",
+            "role": "required"
+          },
+          {
+            "id": "G40-E01-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G40-E01-B04",
+            "text": "happy.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G40-E01-B01",
+          "G40-E01-B02",
+          "G40-E01-B03",
+          "G40-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E01-B01",
+            "G40-E01-B02",
+            "G40-E01-B03",
+            "G40-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G40-E01-B01",
+            "text": "This song",
+            "role": "required"
+          },
+          {
+            "id": "G40-E01-B02",
+            "text": "makes",
+            "role": "required"
+          },
+          {
+            "id": "G40-E01-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G40-E01-B04",
+            "text": "happy.",
+            "role": "required"
+          },
+          {
+            "id": "G40-E01-D01",
+            "text": "happily",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G40-E01-D02",
+            "text": "happiness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G40-E01-D03",
+            "text": "be happy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G40-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G40-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G40-E01-D01",
+            "text": "happily",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G40-E01-D02",
+            "text": "happiness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G40-E01-D03",
+            "text": "be happy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G40-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G40-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G40-E01-B01",
+          "G40-E01-B02",
+          "G40-E01-B03",
+          "G40-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E01-B01",
+            "G40-E01-B02",
+            "G40-E01-B03",
+            "G40-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G40-E01-AUDIO",
+        "text": "This song makes me happy.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G40-E02",
+      "grammarId": "G40",
+      "grammarNameJa": "SVOC・make・call・keep・let・help",
+      "english": "We call this dog Apple.",
+      "translationJa": "私たちはこの犬をアップルと呼びます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Apple",
+        "start": 17,
+        "endExclusive": 22,
+        "explanationJa": "目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+      },
+      "sentenceExplanationJa": "「We call this dog Apple.」は「私たちはこの犬をアップルと呼びます。」という意味です。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。 この文の対象部分は「Apple」。まとまりは We → call → this dog → Apple. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "call",
+          "lemma": "call",
+          "meaningJa": "呼ぶ・電話する",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "dog",
+          "lemma": "dog",
+          "meaningJa": "犬",
+          "kind": "word"
+        },
+        {
+          "expression": "Apple",
+          "lemma": "apple",
+          "meaningJa": "リンゴ／アップル（名前）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We call this dog ___.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 22,
+          "answer": "Apple"
+        },
+        "options": [
+          {
+            "id": "G40-E02-C1",
+            "text": "Apple",
+            "isCorrect": true,
+            "explanationJa": "正解。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+          },
+          {
+            "id": "G40-E02-C3",
+            "text": "Apple's",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Apple」を使います。「Apple's」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E02-C2",
+            "text": "an Apple",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Apple」を使います。「an Apple」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E02-C4",
+            "text": "to Apple",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Apple」を使います。「to Apple」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G40-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G40-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G40-E02-B02",
+            "text": "call",
+            "role": "required"
+          },
+          {
+            "id": "G40-E02-B03",
+            "text": "this dog",
+            "role": "required"
+          },
+          {
+            "id": "G40-E02-B04",
+            "text": "Apple.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G40-E02-B01",
+          "G40-E02-B02",
+          "G40-E02-B03",
+          "G40-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E02-B01",
+            "G40-E02-B02",
+            "G40-E02-B03",
+            "G40-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G40-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G40-E02-B02",
+            "text": "call",
+            "role": "required"
+          },
+          {
+            "id": "G40-E02-B03",
+            "text": "this dog",
+            "role": "required"
+          },
+          {
+            "id": "G40-E02-B04",
+            "text": "Apple.",
+            "role": "required"
+          },
+          {
+            "id": "G40-E02-D01",
+            "text": "an Apple",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Apple」と比較してください。"
+          },
+          {
+            "id": "G40-E02-D02",
+            "text": "Apple's",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Apple」と比較してください。"
+          },
+          {
+            "id": "G40-E02-D03",
+            "text": "to Apple",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Apple」と比較してください。"
+          },
+          {
+            "id": "G40-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Apple」と比較してください。"
+          },
+          {
+            "id": "G40-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Apple」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G40-E02-D01",
+            "text": "an Apple",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Apple」と比較してください。"
+          },
+          {
+            "id": "G40-E02-D02",
+            "text": "Apple's",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Apple」と比較してください。"
+          },
+          {
+            "id": "G40-E02-D03",
+            "text": "to Apple",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Apple」と比較してください。"
+          },
+          {
+            "id": "G40-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Apple」と比較してください。"
+          },
+          {
+            "id": "G40-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Apple」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G40-E02-B01",
+          "G40-E02-B02",
+          "G40-E02-B03",
+          "G40-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E02-B01",
+            "G40-E02-B02",
+            "G40-E02-B03",
+            "G40-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G40-E02-AUDIO",
+        "text": "We call this dog Apple.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G40-E03",
+      "grammarId": "G40",
+      "grammarNameJa": "SVOC・make・call・keep・let・help",
+      "english": "Please keep your hands clean.",
+      "translationJa": "手を清潔に保ってください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "clean",
+        "start": 23,
+        "endExclusive": 28,
+        "explanationJa": "目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+      },
+      "sentenceExplanationJa": "「Please keep your hands clean.」は「手を清潔に保ってください。」という意味です。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。 この文の対象部分は「clean」。まとまりは Please → keep → your hands → clean. の順です。",
+      "glossary": [
+        {
+          "expression": "Please",
+          "lemma": "please",
+          "meaningJa": "どうぞ・～してください",
+          "kind": "word"
+        },
+        {
+          "expression": "keep",
+          "lemma": "keep",
+          "meaningJa": "保つ・保管する",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "hands",
+          "lemma": "hand",
+          "meaningJa": "手（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "clean",
+          "lemma": "clean",
+          "meaningJa": "清潔な・掃除する",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Please keep your hands ___.",
+        "blank": {
+          "start": 23,
+          "endExclusive": 28,
+          "answer": "clean"
+        },
+        "options": [
+          {
+            "id": "G40-E03-C4",
+            "text": "be clean",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「clean」を使います。「be clean」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E03-C3",
+            "text": "cleanliness",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「clean」を使います。「cleanliness」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E03-C1",
+            "text": "clean",
+            "isCorrect": true,
+            "explanationJa": "正解。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+          },
+          {
+            "id": "G40-E03-C2",
+            "text": "cleanly",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「clean」を使います。「cleanly」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G40-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G40-E03-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G40-E03-B02",
+            "text": "keep",
+            "role": "required"
+          },
+          {
+            "id": "G40-E03-B03",
+            "text": "your hands",
+            "role": "required"
+          },
+          {
+            "id": "G40-E03-B04",
+            "text": "clean.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G40-E03-B01",
+          "G40-E03-B02",
+          "G40-E03-B03",
+          "G40-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E03-B01",
+            "G40-E03-B02",
+            "G40-E03-B03",
+            "G40-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G40-E03-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G40-E03-B02",
+            "text": "keep",
+            "role": "required"
+          },
+          {
+            "id": "G40-E03-B03",
+            "text": "your hands",
+            "role": "required"
+          },
+          {
+            "id": "G40-E03-B04",
+            "text": "clean.",
+            "role": "required"
+          },
+          {
+            "id": "G40-E03-D01",
+            "text": "cleanly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「clean」と比較してください。"
+          },
+          {
+            "id": "G40-E03-D02",
+            "text": "cleanliness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「clean」と比較してください。"
+          },
+          {
+            "id": "G40-E03-D03",
+            "text": "be clean",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「clean」と比較してください。"
+          },
+          {
+            "id": "G40-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「clean」と比較してください。"
+          },
+          {
+            "id": "G40-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「clean」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G40-E03-D01",
+            "text": "cleanly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「clean」と比較してください。"
+          },
+          {
+            "id": "G40-E03-D02",
+            "text": "cleanliness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「clean」と比較してください。"
+          },
+          {
+            "id": "G40-E03-D03",
+            "text": "be clean",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「clean」と比較してください。"
+          },
+          {
+            "id": "G40-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「clean」と比較してください。"
+          },
+          {
+            "id": "G40-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「clean」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G40-E03-B01",
+          "G40-E03-B02",
+          "G40-E03-B03",
+          "G40-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E03-B01",
+            "G40-E03-B02",
+            "G40-E03-B03",
+            "G40-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G40-E03-AUDIO",
+        "text": "Please keep your hands clean.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G40-E04",
+      "grammarId": "G40",
+      "grammarNameJa": "SVOC・make・call・keep・let・help",
+      "english": "My mother let me go to the concert.",
+      "translationJa": "母は私をコンサートに行かせてくれました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "go",
+        "start": 17,
+        "endExclusive": 19,
+        "explanationJa": "目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+      },
+      "sentenceExplanationJa": "「My mother let me go to the concert.」は「母は私をコンサートに行かせてくれました。」という意味です。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。 この文の対象部分は「go」。まとまりは My mother → let → me → go → to the concert. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "mother",
+          "lemma": "mother",
+          "meaningJa": "母",
+          "kind": "word"
+        },
+        {
+          "expression": "let",
+          "lemma": "let",
+          "meaningJa": "～させる・許す",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "go",
+          "lemma": "go",
+          "meaningJa": "行く",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My mother let me ___ to the concert.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 19,
+          "answer": "go"
+        },
+        "options": [
+          {
+            "id": "G40-E04-C1",
+            "text": "go",
+            "isCorrect": true,
+            "explanationJa": "正解。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+          },
+          {
+            "id": "G40-E04-C3",
+            "text": "went",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「go」を使います。「went」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E04-C4",
+            "text": "going",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「go」を使います。「going」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E04-C2",
+            "text": "goes",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「go」を使います。「goes」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G40-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G40-E04-B01",
+            "text": "My mother",
+            "role": "required"
+          },
+          {
+            "id": "G40-E04-B02",
+            "text": "let",
+            "role": "required"
+          },
+          {
+            "id": "G40-E04-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G40-E04-B04",
+            "text": "go",
+            "role": "required"
+          },
+          {
+            "id": "G40-E04-B05",
+            "text": "to the concert.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G40-E04-B01",
+          "G40-E04-B02",
+          "G40-E04-B03",
+          "G40-E04-B04",
+          "G40-E04-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E04-B01",
+            "G40-E04-B02",
+            "G40-E04-B03",
+            "G40-E04-B04",
+            "G40-E04-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G40-E04-B01",
+            "text": "My mother",
+            "role": "required"
+          },
+          {
+            "id": "G40-E04-B02",
+            "text": "let",
+            "role": "required"
+          },
+          {
+            "id": "G40-E04-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G40-E04-B04",
+            "text": "go",
+            "role": "required"
+          },
+          {
+            "id": "G40-E04-B05",
+            "text": "to the concert.",
+            "role": "required"
+          },
+          {
+            "id": "G40-E04-D01",
+            "text": "goes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「go」と比較してください。"
+          },
+          {
+            "id": "G40-E04-D02",
+            "text": "went",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「go」と比較してください。"
+          },
+          {
+            "id": "G40-E04-D03",
+            "text": "going",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「go」と比較してください。"
+          },
+          {
+            "id": "G40-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「go」と比較してください。"
+          },
+          {
+            "id": "G40-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「go」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G40-E04-D01",
+            "text": "goes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「go」と比較してください。"
+          },
+          {
+            "id": "G40-E04-D02",
+            "text": "went",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「go」と比較してください。"
+          },
+          {
+            "id": "G40-E04-D03",
+            "text": "going",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「go」と比較してください。"
+          },
+          {
+            "id": "G40-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「go」と比較してください。"
+          },
+          {
+            "id": "G40-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「go」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G40-E04-B01",
+          "G40-E04-B02",
+          "G40-E04-B03",
+          "G40-E04-B04",
+          "G40-E04-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E04-B01",
+            "G40-E04-B02",
+            "G40-E04-B03",
+            "G40-E04-B04",
+            "G40-E04-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G40-E04-AUDIO",
+        "text": "My mother let me go to the concert.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G40-E05",
+      "grammarId": "G40",
+      "grammarNameJa": "SVOC・make・call・keep・let・help",
+      "english": "He helped me carry my bag.",
+      "translationJa": "彼は私がバッグを運ぶのを手伝ってくれました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "carry",
+        "start": 13,
+        "endExclusive": 18,
+        "explanationJa": "目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+      },
+      "sentenceExplanationJa": "「He helped me carry my bag.」は「彼は私がバッグを運ぶのを手伝ってくれました。」という意味です。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。 この文の対象部分は「carry」。まとまりは He → helped → me → carry → my bag. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "helped",
+          "lemma": "help",
+          "meaningJa": "助ける・手伝う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "carry",
+          "lemma": "carry",
+          "meaningJa": "運ぶ・持ち歩く",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He helped me ___ my bag.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 18,
+          "answer": "carry"
+        },
+        "options": [
+          {
+            "id": "G40-E05-C1",
+            "text": "carry",
+            "isCorrect": true,
+            "explanationJa": "正解。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+          },
+          {
+            "id": "G40-E05-C3",
+            "text": "carried",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「carry」を使います。「carried」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E05-C4",
+            "text": "carrying",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「carry」を使います。「carrying」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E05-C2",
+            "text": "carries",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「carry」を使います。「carries」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G40-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G40-E05-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G40-E05-B02",
+            "text": "helped",
+            "role": "required"
+          },
+          {
+            "id": "G40-E05-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G40-E05-B04",
+            "text": "carry",
+            "role": "required"
+          },
+          {
+            "id": "G40-E05-B05",
+            "text": "my bag.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G40-E05-B01",
+          "G40-E05-B02",
+          "G40-E05-B03",
+          "G40-E05-B04",
+          "G40-E05-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E05-B01",
+            "G40-E05-B02",
+            "G40-E05-B03",
+            "G40-E05-B04",
+            "G40-E05-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G40-E05-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G40-E05-B02",
+            "text": "helped",
+            "role": "required"
+          },
+          {
+            "id": "G40-E05-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G40-E05-B04",
+            "text": "carry",
+            "role": "required"
+          },
+          {
+            "id": "G40-E05-B05",
+            "text": "my bag.",
+            "role": "required"
+          },
+          {
+            "id": "G40-E05-D01",
+            "text": "carries",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carry」と比較してください。"
+          },
+          {
+            "id": "G40-E05-D02",
+            "text": "carried",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carry」と比較してください。"
+          },
+          {
+            "id": "G40-E05-D03",
+            "text": "carrying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carry」と比較してください。"
+          },
+          {
+            "id": "G40-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carry」と比較してください。"
+          },
+          {
+            "id": "G40-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carry」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G40-E05-D01",
+            "text": "carries",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carry」と比較してください。"
+          },
+          {
+            "id": "G40-E05-D02",
+            "text": "carried",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carry」と比較してください。"
+          },
+          {
+            "id": "G40-E05-D03",
+            "text": "carrying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carry」と比較してください。"
+          },
+          {
+            "id": "G40-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carry」と比較してください。"
+          },
+          {
+            "id": "G40-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「carry」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G40-E05-B01",
+          "G40-E05-B02",
+          "G40-E05-B03",
+          "G40-E05-B04",
+          "G40-E05-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E05-B01",
+            "G40-E05-B02",
+            "G40-E05-B03",
+            "G40-E05-B04",
+            "G40-E05-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G40-E05-AUDIO",
+        "text": "He helped me carry my bag.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G40-E06",
+      "grammarId": "G40",
+      "grammarNameJa": "SVOC・make・call・keep・let・help",
+      "english": "That joke made us laugh.",
+      "translationJa": "その冗談で私たちは笑いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "laugh",
+        "start": 18,
+        "endExclusive": 23,
+        "explanationJa": "目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+      },
+      "sentenceExplanationJa": "「That joke made us laugh.」は「その冗談で私たちは笑いました。」という意味です。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。 この文の対象部分は「laugh」。まとまりは That joke → made → us → laugh. の順です。",
+      "glossary": [
+        {
+          "expression": "That",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "joke",
+          "lemma": "joke",
+          "meaningJa": "冗談",
+          "kind": "word"
+        },
+        {
+          "expression": "made",
+          "lemma": "make",
+          "meaningJa": "作る・～にさせる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        },
+        {
+          "expression": "laugh",
+          "lemma": "laugh",
+          "meaningJa": "笑う",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "That joke made us ___.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 23,
+          "answer": "laugh"
+        },
+        "options": [
+          {
+            "id": "G40-E06-C4",
+            "text": "laughing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「laugh」を使います。「laughing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E06-C3",
+            "text": "laughed",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「laugh」を使います。「laughed」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E06-C2",
+            "text": "laughs",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「laugh」を使います。「laughs」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E06-C1",
+            "text": "laugh",
+            "isCorrect": true,
+            "explanationJa": "正解。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+          }
+        ],
+        "correctOptionId": "G40-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G40-E06-B01",
+            "text": "That joke",
+            "role": "required"
+          },
+          {
+            "id": "G40-E06-B02",
+            "text": "made",
+            "role": "required"
+          },
+          {
+            "id": "G40-E06-B03",
+            "text": "us",
+            "role": "required"
+          },
+          {
+            "id": "G40-E06-B04",
+            "text": "laugh.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G40-E06-B01",
+          "G40-E06-B02",
+          "G40-E06-B03",
+          "G40-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E06-B01",
+            "G40-E06-B02",
+            "G40-E06-B03",
+            "G40-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G40-E06-B01",
+            "text": "That joke",
+            "role": "required"
+          },
+          {
+            "id": "G40-E06-B02",
+            "text": "made",
+            "role": "required"
+          },
+          {
+            "id": "G40-E06-B03",
+            "text": "us",
+            "role": "required"
+          },
+          {
+            "id": "G40-E06-B04",
+            "text": "laugh.",
+            "role": "required"
+          },
+          {
+            "id": "G40-E06-D01",
+            "text": "laughs",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「laugh」と比較してください。"
+          },
+          {
+            "id": "G40-E06-D02",
+            "text": "laughed",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「laugh」と比較してください。"
+          },
+          {
+            "id": "G40-E06-D03",
+            "text": "laughing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「laugh」と比較してください。"
+          },
+          {
+            "id": "G40-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「laugh」と比較してください。"
+          },
+          {
+            "id": "G40-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「laugh」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G40-E06-D01",
+            "text": "laughs",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「laugh」と比較してください。"
+          },
+          {
+            "id": "G40-E06-D02",
+            "text": "laughed",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「laugh」と比較してください。"
+          },
+          {
+            "id": "G40-E06-D03",
+            "text": "laughing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「laugh」と比較してください。"
+          },
+          {
+            "id": "G40-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「laugh」と比較してください。"
+          },
+          {
+            "id": "G40-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「laugh」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G40-E06-B01",
+          "G40-E06-B02",
+          "G40-E06-B03",
+          "G40-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E06-B01",
+            "G40-E06-B02",
+            "G40-E06-B03",
+            "G40-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G40-E06-AUDIO",
+        "text": "That joke made us laugh.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G40-E07",
+      "grammarId": "G40",
+      "grammarNameJa": "SVOC・make・call・keep・let・help",
+      "english": "Please leave the door open.",
+      "translationJa": "ドアを開けたままにしてください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "open",
+        "start": 22,
+        "endExclusive": 26,
+        "explanationJa": "目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+      },
+      "sentenceExplanationJa": "「Please leave the door open.」は「ドアを開けたままにしてください。」という意味です。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。 この文の対象部分は「open」。まとまりは Please → leave → the door → open. の順です。",
+      "glossary": [
+        {
+          "expression": "Please",
+          "lemma": "please",
+          "meaningJa": "どうぞ・～してください",
+          "kind": "word"
+        },
+        {
+          "expression": "leave",
+          "lemma": "leave",
+          "meaningJa": "出発する・～のままにしておく",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "door",
+          "lemma": "door",
+          "meaningJa": "ドア",
+          "kind": "word"
+        },
+        {
+          "expression": "open",
+          "lemma": "open",
+          "meaningJa": "開いている・開ける",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Please leave the door ___.",
+        "blank": {
+          "start": 22,
+          "endExclusive": 26,
+          "answer": "open"
+        },
+        "options": [
+          {
+            "id": "G40-E07-C1",
+            "text": "open",
+            "isCorrect": true,
+            "explanationJa": "正解。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+          },
+          {
+            "id": "G40-E07-C4",
+            "text": "be open",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「open」を使います。「be open」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E07-C2",
+            "text": "openly",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「open」を使います。「openly」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E07-C3",
+            "text": "openness",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「open」を使います。「openness」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G40-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G40-E07-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G40-E07-B02",
+            "text": "leave",
+            "role": "required"
+          },
+          {
+            "id": "G40-E07-B03",
+            "text": "the door",
+            "role": "required"
+          },
+          {
+            "id": "G40-E07-B04",
+            "text": "open.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G40-E07-B01",
+          "G40-E07-B02",
+          "G40-E07-B03",
+          "G40-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E07-B01",
+            "G40-E07-B02",
+            "G40-E07-B03",
+            "G40-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G40-E07-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G40-E07-B02",
+            "text": "leave",
+            "role": "required"
+          },
+          {
+            "id": "G40-E07-B03",
+            "text": "the door",
+            "role": "required"
+          },
+          {
+            "id": "G40-E07-B04",
+            "text": "open.",
+            "role": "required"
+          },
+          {
+            "id": "G40-E07-D01",
+            "text": "openly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「open」と比較してください。"
+          },
+          {
+            "id": "G40-E07-D02",
+            "text": "openness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「open」と比較してください。"
+          },
+          {
+            "id": "G40-E07-D03",
+            "text": "be open",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「open」と比較してください。"
+          },
+          {
+            "id": "G40-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「open」と比較してください。"
+          },
+          {
+            "id": "G40-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「open」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G40-E07-D01",
+            "text": "openly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「open」と比較してください。"
+          },
+          {
+            "id": "G40-E07-D02",
+            "text": "openness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「open」と比較してください。"
+          },
+          {
+            "id": "G40-E07-D03",
+            "text": "be open",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「open」と比較してください。"
+          },
+          {
+            "id": "G40-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「open」と比較してください。"
+          },
+          {
+            "id": "G40-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「open」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G40-E07-B01",
+          "G40-E07-B02",
+          "G40-E07-B03",
+          "G40-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E07-B01",
+            "G40-E07-B02",
+            "G40-E07-B03",
+            "G40-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G40-E07-AUDIO",
+        "text": "Please leave the door open.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G40-E08",
+      "grammarId": "G40",
+      "grammarNameJa": "SVOC・make・call・keep・let・help",
+      "english": "The news made her sad.",
+      "translationJa": "その知らせは彼女を悲しませました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "sad",
+        "start": 18,
+        "endExclusive": 21,
+        "explanationJa": "目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+      },
+      "sentenceExplanationJa": "「The news made her sad.」は「その知らせは彼女を悲しませました。」という意味です。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。 この文の対象部分は「sad」。まとまりは The news → made → her → sad. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "news",
+          "lemma": "news",
+          "meaningJa": "知らせ・ニュース",
+          "kind": "word"
+        },
+        {
+          "expression": "made",
+          "lemma": "make",
+          "meaningJa": "作る・～にさせる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "her",
+          "lemma": "her",
+          "meaningJa": "彼女を・彼女に・彼女の",
+          "kind": "word"
+        },
+        {
+          "expression": "sad",
+          "lemma": "sad",
+          "meaningJa": "悲しい",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The news made her ___.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 21,
+          "answer": "sad"
+        },
+        "options": [
+          {
+            "id": "G40-E08-C3",
+            "text": "sadness",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sad」を使います。「sadness」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E08-C1",
+            "text": "sad",
+            "isCorrect": true,
+            "explanationJa": "正解。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+          },
+          {
+            "id": "G40-E08-C2",
+            "text": "sadly",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sad」を使います。「sadly」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E08-C4",
+            "text": "be sad",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sad」を使います。「be sad」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G40-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G40-E08-B01",
+            "text": "The news",
+            "role": "required"
+          },
+          {
+            "id": "G40-E08-B02",
+            "text": "made",
+            "role": "required"
+          },
+          {
+            "id": "G40-E08-B03",
+            "text": "her",
+            "role": "required"
+          },
+          {
+            "id": "G40-E08-B04",
+            "text": "sad.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G40-E08-B01",
+          "G40-E08-B02",
+          "G40-E08-B03",
+          "G40-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E08-B01",
+            "G40-E08-B02",
+            "G40-E08-B03",
+            "G40-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G40-E08-B01",
+            "text": "The news",
+            "role": "required"
+          },
+          {
+            "id": "G40-E08-B02",
+            "text": "made",
+            "role": "required"
+          },
+          {
+            "id": "G40-E08-B03",
+            "text": "her",
+            "role": "required"
+          },
+          {
+            "id": "G40-E08-B04",
+            "text": "sad.",
+            "role": "required"
+          },
+          {
+            "id": "G40-E08-D01",
+            "text": "sadly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sad」と比較してください。"
+          },
+          {
+            "id": "G40-E08-D02",
+            "text": "sadness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sad」と比較してください。"
+          },
+          {
+            "id": "G40-E08-D03",
+            "text": "be sad",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sad」と比較してください。"
+          },
+          {
+            "id": "G40-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sad」と比較してください。"
+          },
+          {
+            "id": "G40-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sad」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G40-E08-D01",
+            "text": "sadly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sad」と比較してください。"
+          },
+          {
+            "id": "G40-E08-D02",
+            "text": "sadness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sad」と比較してください。"
+          },
+          {
+            "id": "G40-E08-D03",
+            "text": "be sad",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sad」と比較してください。"
+          },
+          {
+            "id": "G40-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sad」と比較してください。"
+          },
+          {
+            "id": "G40-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sad」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G40-E08-B01",
+          "G40-E08-B02",
+          "G40-E08-B03",
+          "G40-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E08-B01",
+            "G40-E08-B02",
+            "G40-E08-B03",
+            "G40-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G40-E08-AUDIO",
+        "text": "The news made her sad.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G40-E09",
+      "grammarId": "G40",
+      "grammarNameJa": "SVOC・make・call・keep・let・help",
+      "english": "I will keep my ticket safe.",
+      "translationJa": "私はチケットを安全に保管します。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "safe",
+        "start": 22,
+        "endExclusive": 26,
+        "explanationJa": "目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+      },
+      "sentenceExplanationJa": "「I will keep my ticket safe.」は「私はチケットを安全に保管します。」という意味です。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。 この文の対象部分は「safe」。まとまりは I → will keep → my ticket → safe. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "keep",
+          "lemma": "keep",
+          "meaningJa": "保つ・保管する",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "safe",
+          "lemma": "safe",
+          "meaningJa": "安全な",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I will keep my ticket ___.",
+        "blank": {
+          "start": 22,
+          "endExclusive": 26,
+          "answer": "safe"
+        },
+        "options": [
+          {
+            "id": "G40-E09-C1",
+            "text": "safe",
+            "isCorrect": true,
+            "explanationJa": "正解。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+          },
+          {
+            "id": "G40-E09-C2",
+            "text": "safely",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「safe」を使います。「safely」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E09-C3",
+            "text": "safety",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「safe」を使います。「safety」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E09-C4",
+            "text": "be safe",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「safe」を使います。「be safe」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G40-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G40-E09-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G40-E09-B02",
+            "text": "will keep",
+            "role": "required"
+          },
+          {
+            "id": "G40-E09-B03",
+            "text": "my ticket",
+            "role": "required"
+          },
+          {
+            "id": "G40-E09-B04",
+            "text": "safe.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G40-E09-B01",
+          "G40-E09-B02",
+          "G40-E09-B03",
+          "G40-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E09-B01",
+            "G40-E09-B02",
+            "G40-E09-B03",
+            "G40-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G40-E09-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G40-E09-B02",
+            "text": "will keep",
+            "role": "required"
+          },
+          {
+            "id": "G40-E09-B03",
+            "text": "my ticket",
+            "role": "required"
+          },
+          {
+            "id": "G40-E09-B04",
+            "text": "safe.",
+            "role": "required"
+          },
+          {
+            "id": "G40-E09-D01",
+            "text": "safely",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「safe」と比較してください。"
+          },
+          {
+            "id": "G40-E09-D02",
+            "text": "safety",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「safe」と比較してください。"
+          },
+          {
+            "id": "G40-E09-D03",
+            "text": "be safe",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「safe」と比較してください。"
+          },
+          {
+            "id": "G40-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「safe」と比較してください。"
+          },
+          {
+            "id": "G40-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「safe」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G40-E09-D01",
+            "text": "safely",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「safe」と比較してください。"
+          },
+          {
+            "id": "G40-E09-D02",
+            "text": "safety",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「safe」と比較してください。"
+          },
+          {
+            "id": "G40-E09-D03",
+            "text": "be safe",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「safe」と比較してください。"
+          },
+          {
+            "id": "G40-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「safe」と比較してください。"
+          },
+          {
+            "id": "G40-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「safe」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G40-E09-B01",
+          "G40-E09-B02",
+          "G40-E09-B03",
+          "G40-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E09-B01",
+            "G40-E09-B02",
+            "G40-E09-B03",
+            "G40-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G40-E09-AUDIO",
+        "text": "I will keep my ticket safe.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G40-E10",
+      "grammarId": "G40",
+      "grammarNameJa": "SVOC・make・call・keep・let・help",
+      "english": "The teacher made us practice again.",
+      "translationJa": "先生は私たちにもう一度練習させました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "practice",
+        "start": 20,
+        "endExclusive": 28,
+        "explanationJa": "目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+      },
+      "sentenceExplanationJa": "「The teacher made us practice again.」は「先生は私たちにもう一度練習させました。」という意味です。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。 この文の対象部分は「practice」。まとまりは The teacher → made → us → practice → again. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "teacher",
+          "lemma": "teacher",
+          "meaningJa": "先生",
+          "kind": "word"
+        },
+        {
+          "expression": "made",
+          "lemma": "make",
+          "meaningJa": "作る・～にさせる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        },
+        {
+          "expression": "practice",
+          "lemma": "practice",
+          "meaningJa": "練習する・練習",
+          "kind": "word"
+        },
+        {
+          "expression": "again",
+          "lemma": "again",
+          "meaningJa": "再び・もう一度",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The teacher made us ___ again.",
+        "blank": {
+          "start": 20,
+          "endExclusive": 28,
+          "answer": "practice"
+        },
+        "options": [
+          {
+            "id": "G40-E10-C4",
+            "text": "practicing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「practice」を使います。「practicing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E10-C3",
+            "text": "practiced",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「practice」を使います。「practiced」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G40-E10-C1",
+            "text": "practice",
+            "isCorrect": true,
+            "explanationJa": "正解。目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。"
+          },
+          {
+            "id": "G40-E10-C2",
+            "text": "practices",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「practice」を使います。「practices」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G40-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G40-E10-B01",
+            "text": "The teacher",
+            "role": "required"
+          },
+          {
+            "id": "G40-E10-B02",
+            "text": "made",
+            "role": "required"
+          },
+          {
+            "id": "G40-E10-B03",
+            "text": "us",
+            "role": "required"
+          },
+          {
+            "id": "G40-E10-B04",
+            "text": "practice",
+            "role": "required"
+          },
+          {
+            "id": "G40-E10-B05",
+            "text": "again.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G40-E10-B01",
+          "G40-E10-B02",
+          "G40-E10-B03",
+          "G40-E10-B04",
+          "G40-E10-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E10-B01",
+            "G40-E10-B02",
+            "G40-E10-B03",
+            "G40-E10-B04",
+            "G40-E10-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G40-E10-B01",
+            "text": "The teacher",
+            "role": "required"
+          },
+          {
+            "id": "G40-E10-B02",
+            "text": "made",
+            "role": "required"
+          },
+          {
+            "id": "G40-E10-B03",
+            "text": "us",
+            "role": "required"
+          },
+          {
+            "id": "G40-E10-B04",
+            "text": "practice",
+            "role": "required"
+          },
+          {
+            "id": "G40-E10-B05",
+            "text": "again.",
+            "role": "required"
+          },
+          {
+            "id": "G40-E10-D01",
+            "text": "practices",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G40-E10-D02",
+            "text": "practiced",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G40-E10-D03",
+            "text": "practicing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G40-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G40-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G40-E10-D01",
+            "text": "practices",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G40-E10-D02",
+            "text": "practiced",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G40-E10-D03",
+            "text": "practicing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G40-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G40-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G40-E10-B01",
+          "G40-E10-B02",
+          "G40-E10-B03",
+          "G40-E10-B04",
+          "G40-E10-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G40-E10-B01",
+            "G40-E10-B02",
+            "G40-E10-B03",
+            "G40-E10-B04",
+            "G40-E10-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G40-E10-AUDIO",
+        "text": "The teacher made us practice again.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "kitVersion": "2.0-landscape",
+  "createdDateJST": "2026-10-27",
+  "implementationIncluded": false,
+  "grammars": 60,
+  "examples": 600,
+  "questions": 1800,
+  "ttsData": 600,
+  "preRecordedEnglishFiles": 0,
+  "originalImages": 122,
+  "cardDefinitions": 79,
+  "homePlayBackgrounds": 22,
+  "newLandscapeConcepts": 9,
+  "newJudgmentSheets": 1,
+  "newNativeSVG": 31,
+  "newWavEffects": 9,
+  "screenStates": 37,
+  "dataChecks": 16558,
+  "dataFailures": 0,
+  "jsonSchemasPassed": 4,
+  "allJsonParsed": 100,
+  "remainingImplementationAcceptance": [
+    "アプリの実装",
+    "iPhone実機で横持ち/音声/オフライン/復元の受入試験",
+    "配信用画像/PWAアイコンサイズの書出し"
+  ],
+  "editorialScope": "原稿全件の作成者による見直し、語形ルール・和訳条件の点検、構造検査。外部専門家による独立校閲ではない。"
+}

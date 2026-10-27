@@ -1,0 +1,2171 @@
+{
+  "grammarId": "G02",
+  "examples": [
+    {
+      "id": "G02-E01",
+      "grammarId": "G02",
+      "grammarNameJa": "be動詞の否定文",
+      "english": "I am not late.",
+      "translationJa": "私は遅刻していません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "am not",
+        "start": 2,
+        "endExclusive": 8,
+        "explanationJa": "be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+      },
+      "sentenceExplanationJa": "「I am not late.」は「私は遅刻していません。」という意味です。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。 この文の対象部分は「am not」。まとまりは I → am not → late. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "am",
+          "lemma": "am",
+          "meaningJa": "～です・いる（Iに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "late",
+          "lemma": "late",
+          "meaningJa": "遅い・遅れて",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ late.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 8,
+          "answer": "am not"
+        },
+        "options": [
+          {
+            "id": "G02-E01-C1",
+            "text": "am not",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+          },
+          {
+            "id": "G02-E01-C2",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E01-C3",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E01-C4",
+            "text": "be not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am not」を使います。「be not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G02-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G02-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G02-E01-B02",
+            "text": "am not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E01-B03",
+            "text": "late.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G02-E01-B01",
+          "G02-E01-B02",
+          "G02-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E01-B01",
+            "G02-E01-B02",
+            "G02-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G02-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G02-E01-B02",
+            "text": "am not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E01-B03",
+            "text": "late.",
+            "role": "required"
+          },
+          {
+            "id": "G02-E01-D01",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E01-D02",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E01-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E01-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E01-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G02-E01-D01",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E01-D02",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E01-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E01-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E01-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G02-E01-B01",
+          "G02-E01-B02",
+          "G02-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E01-B01",
+            "G02-E01-B02",
+            "G02-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G02-E01-AUDIO",
+        "text": "I am not late.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G02-E02",
+      "grammarId": "G02",
+      "grammarNameJa": "be動詞の否定文",
+      "english": "This bag is not mine.",
+      "translationJa": "このバッグは私のものではありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is not",
+        "start": 9,
+        "endExclusive": 15,
+        "explanationJa": "be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+      },
+      "sentenceExplanationJa": "「This bag is not mine.」は「このバッグは私のものではありません。」という意味です。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。 この文の対象部分は「is not」。まとまりは This bag → is not → mine. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "mine",
+          "lemma": "mine",
+          "meaningJa": "私のもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This bag ___ mine.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 15,
+          "answer": "is not"
+        },
+        "options": [
+          {
+            "id": "G02-E02-C2",
+            "text": "am not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is not」を使います。「am not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E02-C4",
+            "text": "be not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is not」を使います。「be not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E02-C1",
+            "text": "is not",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+          },
+          {
+            "id": "G02-E02-C3",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G02-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G02-E02-B01",
+            "text": "This bag",
+            "role": "required"
+          },
+          {
+            "id": "G02-E02-B02",
+            "text": "is not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E02-B03",
+            "text": "mine.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G02-E02-B01",
+          "G02-E02-B02",
+          "G02-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E02-B01",
+            "G02-E02-B02",
+            "G02-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G02-E02-B01",
+            "text": "This bag",
+            "role": "required"
+          },
+          {
+            "id": "G02-E02-B02",
+            "text": "is not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E02-B03",
+            "text": "mine.",
+            "role": "required"
+          },
+          {
+            "id": "G02-E02-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E02-D02",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E02-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E02-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E02-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G02-E02-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E02-D02",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E02-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E02-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E02-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G02-E02-B01",
+          "G02-E02-B02",
+          "G02-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E02-B01",
+            "G02-E02-B02",
+            "G02-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G02-E02-AUDIO",
+        "text": "This bag is not mine.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G02-E03",
+      "grammarId": "G02",
+      "grammarNameJa": "be動詞の否定文",
+      "english": "We are not tired.",
+      "translationJa": "私たちは疲れていません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are not",
+        "start": 3,
+        "endExclusive": 10,
+        "explanationJa": "be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+      },
+      "sentenceExplanationJa": "「We are not tired.」は「私たちは疲れていません。」という意味です。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。 この文の対象部分は「are not」。まとまりは We → are not → tired. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "tired",
+          "lemma": "tired",
+          "meaningJa": "疲れた",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ tired.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 10,
+          "answer": "are not"
+        },
+        "options": [
+          {
+            "id": "G02-E03-C1",
+            "text": "are not",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+          },
+          {
+            "id": "G02-E03-C2",
+            "text": "am not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are not」を使います。「am not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E03-C3",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E03-C4",
+            "text": "be not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are not」を使います。「be not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G02-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G02-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G02-E03-B02",
+            "text": "are not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E03-B03",
+            "text": "tired.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G02-E03-B01",
+          "G02-E03-B02",
+          "G02-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E03-B01",
+            "G02-E03-B02",
+            "G02-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G02-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G02-E03-B02",
+            "text": "are not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E03-B03",
+            "text": "tired.",
+            "role": "required"
+          },
+          {
+            "id": "G02-E03-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E03-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E03-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E03-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E03-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G02-E03-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E03-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E03-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E03-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E03-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G02-E03-B01",
+          "G02-E03-B02",
+          "G02-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E03-B01",
+            "G02-E03-B02",
+            "G02-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G02-E03-AUDIO",
+        "text": "We are not tired.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G02-E04",
+      "grammarId": "G02",
+      "grammarNameJa": "be動詞の否定文",
+      "english": "The tickets are not cheap.",
+      "translationJa": "そのチケットは安くありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are not",
+        "start": 12,
+        "endExclusive": 19,
+        "explanationJa": "be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+      },
+      "sentenceExplanationJa": "「The tickets are not cheap.」は「そのチケットは安くありません。」という意味です。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。 この文の対象部分は「are not」。まとまりは The tickets → are not → cheap. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "tickets",
+          "lemma": "ticket",
+          "meaningJa": "チケット（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "cheap",
+          "lemma": "cheap",
+          "meaningJa": "安い",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The tickets ___ cheap.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 19,
+          "answer": "are not"
+        },
+        "options": [
+          {
+            "id": "G02-E04-C2",
+            "text": "am not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are not」を使います。「am not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E04-C4",
+            "text": "be not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are not」を使います。「be not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E04-C1",
+            "text": "are not",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+          },
+          {
+            "id": "G02-E04-C3",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G02-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G02-E04-B01",
+            "text": "The tickets",
+            "role": "required"
+          },
+          {
+            "id": "G02-E04-B02",
+            "text": "are not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E04-B03",
+            "text": "cheap.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G02-E04-B01",
+          "G02-E04-B02",
+          "G02-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E04-B01",
+            "G02-E04-B02",
+            "G02-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G02-E04-B01",
+            "text": "The tickets",
+            "role": "required"
+          },
+          {
+            "id": "G02-E04-B02",
+            "text": "are not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E04-B03",
+            "text": "cheap.",
+            "role": "required"
+          },
+          {
+            "id": "G02-E04-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E04-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E04-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E04-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E04-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G02-E04-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E04-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E04-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E04-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E04-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G02-E04-B01",
+          "G02-E04-B02",
+          "G02-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E04-B01",
+            "G02-E04-B02",
+            "G02-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G02-E04-AUDIO",
+        "text": "The tickets are not cheap.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G02-E05",
+      "grammarId": "G02",
+      "grammarNameJa": "be動詞の否定文",
+      "english": "My phone is not here.",
+      "translationJa": "私の携帯電話はここにはありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is not",
+        "start": 9,
+        "endExclusive": 15,
+        "explanationJa": "be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+      },
+      "sentenceExplanationJa": "「My phone is not here.」は「私の携帯電話はここにはありません。」という意味です。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。 この文の対象部分は「is not」。まとまりは My phone → is not → here. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "phone",
+          "lemma": "phone",
+          "meaningJa": "携帯電話・電話",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "here",
+          "lemma": "here",
+          "meaningJa": "ここに・ここで",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My phone ___ here.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 15,
+          "answer": "is not"
+        },
+        "options": [
+          {
+            "id": "G02-E05-C2",
+            "text": "am not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is not」を使います。「am not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E05-C4",
+            "text": "be not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is not」を使います。「be not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E05-C1",
+            "text": "is not",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+          },
+          {
+            "id": "G02-E05-C3",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G02-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G02-E05-B01",
+            "text": "My phone",
+            "role": "required"
+          },
+          {
+            "id": "G02-E05-B02",
+            "text": "is not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E05-B03",
+            "text": "here.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G02-E05-B01",
+          "G02-E05-B02",
+          "G02-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E05-B01",
+            "G02-E05-B02",
+            "G02-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G02-E05-B01",
+            "text": "My phone",
+            "role": "required"
+          },
+          {
+            "id": "G02-E05-B02",
+            "text": "is not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E05-B03",
+            "text": "here.",
+            "role": "required"
+          },
+          {
+            "id": "G02-E05-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E05-D02",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E05-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E05-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E05-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G02-E05-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E05-D02",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E05-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E05-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E05-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G02-E05-B01",
+          "G02-E05-B02",
+          "G02-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E05-B01",
+            "G02-E05-B02",
+            "G02-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G02-E05-AUDIO",
+        "text": "My phone is not here.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G02-E06",
+      "grammarId": "G02",
+      "grammarNameJa": "be動詞の否定文",
+      "english": "I am not alone.",
+      "translationJa": "私は一人ではありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "am not",
+        "start": 2,
+        "endExclusive": 8,
+        "explanationJa": "be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+      },
+      "sentenceExplanationJa": "「I am not alone.」は「私は一人ではありません。」という意味です。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。 この文の対象部分は「am not」。まとまりは I → am not → alone. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "am",
+          "lemma": "am",
+          "meaningJa": "～です・いる（Iに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "alone",
+          "lemma": "alone",
+          "meaningJa": "一人で",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ alone.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 8,
+          "answer": "am not"
+        },
+        "options": [
+          {
+            "id": "G02-E06-C4",
+            "text": "be not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am not」を使います。「be not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E06-C3",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E06-C2",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E06-C1",
+            "text": "am not",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+          }
+        ],
+        "correctOptionId": "G02-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G02-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G02-E06-B02",
+            "text": "am not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E06-B03",
+            "text": "alone.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G02-E06-B01",
+          "G02-E06-B02",
+          "G02-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E06-B01",
+            "G02-E06-B02",
+            "G02-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G02-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G02-E06-B02",
+            "text": "am not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E06-B03",
+            "text": "alone.",
+            "role": "required"
+          },
+          {
+            "id": "G02-E06-D01",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E06-D02",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E06-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E06-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E06-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G02-E06-D01",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E06-D02",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E06-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E06-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          },
+          {
+            "id": "G02-E06-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G02-E06-B01",
+          "G02-E06-B02",
+          "G02-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E06-B01",
+            "G02-E06-B02",
+            "G02-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G02-E06-AUDIO",
+        "text": "I am not alone.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G02-E07",
+      "grammarId": "G02",
+      "grammarNameJa": "be動詞の否定文",
+      "english": "You are not wrong.",
+      "translationJa": "あなたは間違っていません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are not",
+        "start": 4,
+        "endExclusive": 11,
+        "explanationJa": "be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+      },
+      "sentenceExplanationJa": "「You are not wrong.」は「あなたは間違っていません。」という意味です。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。 この文の対象部分は「are not」。まとまりは You → are not → wrong. の順です。",
+      "glossary": [
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "wrong",
+          "lemma": "wrong",
+          "meaningJa": "間違っている",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You ___ wrong.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 11,
+          "answer": "are not"
+        },
+        "options": [
+          {
+            "id": "G02-E07-C4",
+            "text": "be not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are not」を使います。「be not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E07-C1",
+            "text": "are not",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+          },
+          {
+            "id": "G02-E07-C3",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E07-C2",
+            "text": "am not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are not」を使います。「am not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G02-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G02-E07-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G02-E07-B02",
+            "text": "are not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E07-B03",
+            "text": "wrong.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G02-E07-B01",
+          "G02-E07-B02",
+          "G02-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E07-B01",
+            "G02-E07-B02",
+            "G02-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G02-E07-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G02-E07-B02",
+            "text": "are not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E07-B03",
+            "text": "wrong.",
+            "role": "required"
+          },
+          {
+            "id": "G02-E07-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E07-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E07-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E07-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E07-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G02-E07-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E07-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E07-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E07-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E07-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G02-E07-B01",
+          "G02-E07-B02",
+          "G02-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E07-B01",
+            "G02-E07-B02",
+            "G02-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G02-E07-AUDIO",
+        "text": "You are not wrong.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G02-E08",
+      "grammarId": "G02",
+      "grammarNameJa": "be動詞の否定文",
+      "english": "The shop is not open.",
+      "translationJa": "その店は開いていません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is not",
+        "start": 9,
+        "endExclusive": 15,
+        "explanationJa": "be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+      },
+      "sentenceExplanationJa": "「The shop is not open.」は「その店は開いていません。」という意味です。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。 この文の対象部分は「is not」。まとまりは The shop → is not → open. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "shop",
+          "lemma": "shop",
+          "meaningJa": "店",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "open",
+          "lemma": "open",
+          "meaningJa": "開いている・開ける",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The shop ___ open.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 15,
+          "answer": "is not"
+        },
+        "options": [
+          {
+            "id": "G02-E08-C3",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E08-C4",
+            "text": "be not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is not」を使います。「be not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E08-C1",
+            "text": "is not",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+          },
+          {
+            "id": "G02-E08-C2",
+            "text": "am not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is not」を使います。「am not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G02-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G02-E08-B01",
+            "text": "The shop",
+            "role": "required"
+          },
+          {
+            "id": "G02-E08-B02",
+            "text": "is not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E08-B03",
+            "text": "open.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G02-E08-B01",
+          "G02-E08-B02",
+          "G02-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E08-B01",
+            "G02-E08-B02",
+            "G02-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G02-E08-B01",
+            "text": "The shop",
+            "role": "required"
+          },
+          {
+            "id": "G02-E08-B02",
+            "text": "is not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E08-B03",
+            "text": "open.",
+            "role": "required"
+          },
+          {
+            "id": "G02-E08-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E08-D02",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E08-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E08-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E08-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G02-E08-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E08-D02",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E08-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E08-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E08-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G02-E08-B01",
+          "G02-E08-B02",
+          "G02-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E08-B01",
+            "G02-E08-B02",
+            "G02-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G02-E08-AUDIO",
+        "text": "The shop is not open.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G02-E09",
+      "grammarId": "G02",
+      "grammarNameJa": "be動詞の否定文",
+      "english": "These seats are not ours.",
+      "translationJa": "これらの席は私たちのものではありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are not",
+        "start": 12,
+        "endExclusive": 19,
+        "explanationJa": "be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+      },
+      "sentenceExplanationJa": "「These seats are not ours.」は「これらの席は私たちのものではありません。」という意味です。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。 この文の対象部分は「are not」。まとまりは These seats → are not → ours. の順です。",
+      "glossary": [
+        {
+          "expression": "These",
+          "lemma": "these",
+          "meaningJa": "これら",
+          "kind": "word"
+        },
+        {
+          "expression": "seats",
+          "lemma": "seat",
+          "meaningJa": "席（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "ours",
+          "lemma": "ours",
+          "meaningJa": "私たちのもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "These seats ___ ours.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 19,
+          "answer": "are not"
+        },
+        "options": [
+          {
+            "id": "G02-E09-C4",
+            "text": "be not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are not」を使います。「be not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E09-C3",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E09-C2",
+            "text": "am not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are not」を使います。「am not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E09-C1",
+            "text": "are not",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+          }
+        ],
+        "correctOptionId": "G02-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G02-E09-B01",
+            "text": "These seats",
+            "role": "required"
+          },
+          {
+            "id": "G02-E09-B02",
+            "text": "are not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E09-B03",
+            "text": "ours.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G02-E09-B01",
+          "G02-E09-B02",
+          "G02-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E09-B01",
+            "G02-E09-B02",
+            "G02-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G02-E09-B01",
+            "text": "These seats",
+            "role": "required"
+          },
+          {
+            "id": "G02-E09-B02",
+            "text": "are not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E09-B03",
+            "text": "ours.",
+            "role": "required"
+          },
+          {
+            "id": "G02-E09-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E09-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E09-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E09-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E09-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G02-E09-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E09-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E09-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E09-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          },
+          {
+            "id": "G02-E09-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G02-E09-B01",
+          "G02-E09-B02",
+          "G02-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E09-B01",
+            "G02-E09-B02",
+            "G02-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G02-E09-AUDIO",
+        "text": "These seats are not ours.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G02-E10",
+      "grammarId": "G02",
+      "grammarNameJa": "be動詞の否定文",
+      "english": "My brother is not angry.",
+      "translationJa": "私の兄は怒っていません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is not",
+        "start": 11,
+        "endExclusive": 17,
+        "explanationJa": "be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+      },
+      "sentenceExplanationJa": "「My brother is not angry.」は「私の兄は怒っていません。」という意味です。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。 この文の対象部分は「is not」。まとまりは My brother → is not → angry. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "brother",
+          "lemma": "brother",
+          "meaningJa": "兄・弟",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "angry",
+          "lemma": "angry",
+          "meaningJa": "怒っている",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My brother ___ angry.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 17,
+          "answer": "is not"
+        },
+        "options": [
+          {
+            "id": "G02-E10-C1",
+            "text": "is not",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。"
+          },
+          {
+            "id": "G02-E10-C3",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E10-C2",
+            "text": "am not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is not」を使います。「am not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G02-E10-C4",
+            "text": "be not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is not」を使います。「be not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G02-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G02-E10-B01",
+            "text": "My brother",
+            "role": "required"
+          },
+          {
+            "id": "G02-E10-B02",
+            "text": "is not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E10-B03",
+            "text": "angry.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G02-E10-B01",
+          "G02-E10-B02",
+          "G02-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E10-B01",
+            "G02-E10-B02",
+            "G02-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G02-E10-B01",
+            "text": "My brother",
+            "role": "required"
+          },
+          {
+            "id": "G02-E10-B02",
+            "text": "is not",
+            "role": "required"
+          },
+          {
+            "id": "G02-E10-B03",
+            "text": "angry.",
+            "role": "required"
+          },
+          {
+            "id": "G02-E10-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E10-D02",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E10-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E10-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E10-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G02-E10-D01",
+            "text": "am not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E10-D02",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E10-D03",
+            "text": "be not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E10-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          },
+          {
+            "id": "G02-E10-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G02-E10-B01",
+          "G02-E10-B02",
+          "G02-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G02-E10-B01",
+            "G02-E10-B02",
+            "G02-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G02-E10-AUDIO",
+        "text": "My brother is not angry.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

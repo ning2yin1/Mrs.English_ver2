@@ -1,0 +1,1266 @@
+[
+  {
+    "id": "hiroto-A-01",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/a/hiloto-a-01.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 A フォト01",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.008333333333333333
+  },
+  {
+    "id": "hiroto-A-02",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/a/hiloto-a-02.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 A フォト02",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.008333333333333333
+  },
+  {
+    "id": "hiroto-A-03",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/a/hiloto-a-03.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 A フォト03",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.008333333333333333
+  },
+  {
+    "id": "hiroto-A-04",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/a/hiloto-a-04.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 A フォト04",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.008333333333333333
+  },
+  {
+    "id": "hiroto-A-05",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/a/hiloto-a-05.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 A フォト05",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.008333333333333333
+  },
+  {
+    "id": "hiroto-A-06",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/a/hiloto-a-07.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 A フォト06",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.008333333333333333
+  },
+  {
+    "id": "hiroto-B-01",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/b/hiloto-b-01.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 B フォト01",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "hiroto-B-02",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/b/hiloto-b-02.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 B フォト02",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "hiroto-B-03",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/b/hiloto-b-03.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 B フォト03",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "hiroto-B-04",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/b/hiloto-b-04.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 B フォト04",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "hiroto-B-05",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/b/hiloto-b-05.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 B フォト05",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "hiroto-B-06",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/b/hiloto-b-06.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 B フォト06",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "hiroto-C-01",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/c/hiloto-c-01.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 C フォト01",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.015
+  },
+  {
+    "id": "hiroto-C-02",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/c/hiloto-c-02.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 C フォト02",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.015
+  },
+  {
+    "id": "hiroto-C-03",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/c/hiloto-c-03.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 C フォト03",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.015
+  },
+  {
+    "id": "hiroto-C-04",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/c/hiloto-c-04.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 C フォト04",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.015
+  },
+  {
+    "id": "hiroto-C-05",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/c/hiloto-c-05.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 C フォト05",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.015
+  },
+  {
+    "id": "hiroto-C-06",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/c/hiloto-c-06.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 C フォト06",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.015
+  },
+  {
+    "id": "hiroto-C-07",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/c/hiloto-c-07.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 C フォト07",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.015
+  },
+  {
+    "id": "hiroto-C-08",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/c/hiloto-c-08.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 C フォト08",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.015
+  },
+  {
+    "id": "hiroto-C-09",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/c/hiloto-c-09.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 C フォト09",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.015
+  },
+  {
+    "id": "hiroto-C-10",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/c/hiloto-c-10.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 C フォト10",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.015
+  },
+  {
+    "id": "hiroto-R-01",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "R",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/r/hiloto-a-06.jpg",
+    "framePath": "assets/original/assets/card-frame/Rランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 R フォト01",
+    "originalFilenameRankMayDiffer": true,
+    "ordinaryDrawProbability": 0.006666666666666667
+  },
+  {
+    "id": "hiroto-S-01",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "S",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/s/hiloto-s-01.jpg",
+    "framePath": "assets/original/assets/card-frame/Sランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 S フォト01",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.006666666666666667
+  },
+  {
+    "id": "hiroto-S-02",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "S",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/s/hiloto-s-02.jpg",
+    "framePath": "assets/original/assets/card-frame/Sランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 S フォト02",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.006666666666666667
+  },
+  {
+    "id": "hiroto-S-03",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "S",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/s/hiloto-s-03.jpg",
+    "framePath": "assets/original/assets/card-frame/Sランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 S フォト03",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.006666666666666667
+  },
+  {
+    "id": "hiroto-S-04",
+    "memberId": "hiroto",
+    "memberNameJa": "若井滉斗",
+    "rank": "S",
+    "photoPath": "assets/original/assets/photos/cards/hiloto/s/hiloto-s-04.jpg",
+    "framePath": "assets/original/assets/card-frame/Sランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "若井滉斗 S フォト04",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.006666666666666667
+  },
+  {
+    "id": "motoki-A-01",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/motoki/a/motoki-a-01.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 A フォト01",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.008333333333333333
+  },
+  {
+    "id": "motoki-A-02",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/motoki/a/motoki-a-02.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 A フォト02",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.008333333333333333
+  },
+  {
+    "id": "motoki-A-03",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/motoki/a/motoki-a-03.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 A フォト03",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.008333333333333333
+  },
+  {
+    "id": "motoki-A-04",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/motoki/a/motoki-a-04.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 A フォト04",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.008333333333333333
+  },
+  {
+    "id": "motoki-A-05",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/motoki/a/motoki-a-05.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 A フォト05",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.008333333333333333
+  },
+  {
+    "id": "motoki-A-06",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/motoki/a/motoki-a-06.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 A フォト06",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.008333333333333333
+  },
+  {
+    "id": "motoki-B-01",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/motoki/b/motoki-b-01.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 B フォト01",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.014285714285714285
+  },
+  {
+    "id": "motoki-B-02",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/motoki/b/motoki-b-02.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 B フォト02",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.014285714285714285
+  },
+  {
+    "id": "motoki-B-03",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/motoki/b/motoki-b-03.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 B フォト03",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.014285714285714285
+  },
+  {
+    "id": "motoki-B-04",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/motoki/b/motoki-b-04.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 B フォト04",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.014285714285714285
+  },
+  {
+    "id": "motoki-B-05",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/motoki/b/motoki-b-05.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 B フォト05",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.014285714285714285
+  },
+  {
+    "id": "motoki-B-06",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/motoki/b/motoki-b-06.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 B フォト06",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.014285714285714285
+  },
+  {
+    "id": "motoki-B-07",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/motoki/b/motoki-b-07.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 B フォト07",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.014285714285714285
+  },
+  {
+    "id": "motoki-C-01",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/motoki/c/motoki-c-01.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 C フォト01",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "motoki-C-02",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/motoki/c/motoki-c-02.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 C フォト02",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "motoki-C-03",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/motoki/c/motoki-c-03.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 C フォト03",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "motoki-C-04",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/motoki/c/motoki-c-04.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 C フォト04",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "motoki-C-05",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/motoki/c/motoki-c-05.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 C フォト05",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "motoki-C-06",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/motoki/c/motoki-c-06.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 C フォト06",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "motoki-C-07",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/motoki/c/motoki-c-07.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 C フォト07",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "motoki-C-08",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/motoki/c/motoki-c-08.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 C フォト08",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "motoki-C-09",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/motoki/c/motoki-c-09.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 C フォト09",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "motoki-R-01",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "R",
+    "photoPath": "assets/original/assets/photos/cards/motoki/r/motoki-a-07.jpg",
+    "framePath": "assets/original/assets/card-frame/Rランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 R フォト01",
+    "originalFilenameRankMayDiffer": true,
+    "ordinaryDrawProbability": 0.006666666666666667
+  },
+  {
+    "id": "motoki-S-01",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "S",
+    "photoPath": "assets/original/assets/photos/cards/motoki/s/motoki-s-02.jpg",
+    "framePath": "assets/original/assets/card-frame/Sランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 S フォト01",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.006666666666666667
+  },
+  {
+    "id": "motoki-S-02",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "S",
+    "photoPath": "assets/original/assets/photos/cards/motoki/s/motoki-s-03.jpg",
+    "framePath": "assets/original/assets/card-frame/Sランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 S フォト02",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.006666666666666667
+  },
+  {
+    "id": "motoki-S-03",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "S",
+    "photoPath": "assets/original/assets/photos/cards/motoki/s/motoki-s-04.jpg",
+    "framePath": "assets/original/assets/card-frame/Sランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 S フォト03",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.006666666666666667
+  },
+  {
+    "id": "motoki-S-04",
+    "memberId": "motoki",
+    "memberNameJa": "大森元貴",
+    "rank": "S",
+    "photoPath": "assets/original/assets/photos/cards/motoki/s/motoki-s-05.jpg",
+    "framePath": "assets/original/assets/card-frame/Sランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "大森元貴 S フォト04",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.006666666666666667
+  },
+  {
+    "id": "ryoka-A-01",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/a/ryoka-a-01.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 A フォト01",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.007142857142857143
+  },
+  {
+    "id": "ryoka-A-02",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/a/ryoka-a-02.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 A フォト02",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.007142857142857143
+  },
+  {
+    "id": "ryoka-A-03",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/a/ryoka-a-03.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 A フォト03",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.007142857142857143
+  },
+  {
+    "id": "ryoka-A-04",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/a/ryoka-a-04.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 A フォト04",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.007142857142857143
+  },
+  {
+    "id": "ryoka-A-05",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/a/ryoka-a-05.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 A フォト05",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.007142857142857143
+  },
+  {
+    "id": "ryoka-A-06",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/a/ryoka-a-06.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 A フォト06",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.007142857142857143
+  },
+  {
+    "id": "ryoka-A-07",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "A",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/a/ryoka-a-08.jpg",
+    "framePath": "assets/original/assets/card-frame/Aランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 A フォト07",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.007142857142857143
+  },
+  {
+    "id": "ryoka-B-01",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/b/ryoka-b-01.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 B フォト01",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "ryoka-B-02",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/b/ryoka-b-02.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 B フォト02",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "ryoka-B-03",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/b/ryoka-b-03.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 B フォト03",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "ryoka-B-04",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/b/ryoka-b-04.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 B フォト04",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "ryoka-B-05",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/b/ryoka-b-05.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 B フォト05",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "ryoka-B-06",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "B",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/b/ryoka-b-06.jpg",
+    "framePath": "assets/original/assets/card-frame/Bランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 B フォト06",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.016666666666666666
+  },
+  {
+    "id": "ryoka-C-01",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/c/ryoka-c-01.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 C フォト01",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.02142857142857143
+  },
+  {
+    "id": "ryoka-C-02",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/c/ryoka-c-02.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 C フォト02",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.02142857142857143
+  },
+  {
+    "id": "ryoka-C-03",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/c/ryoka-c-03.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 C フォト03",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.02142857142857143
+  },
+  {
+    "id": "ryoka-C-04",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/c/ryoka-c-04.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 C フォト04",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.02142857142857143
+  },
+  {
+    "id": "ryoka-C-05",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/c/ryoka-c-05.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 C フォト05",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.02142857142857143
+  },
+  {
+    "id": "ryoka-C-06",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/c/ryoka-c-06.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 C フォト06",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.02142857142857143
+  },
+  {
+    "id": "ryoka-C-07",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "C",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/c/ryoka-c-07.jpg",
+    "framePath": "assets/original/assets/card-frame/Cランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 C フォト07",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.02142857142857143
+  },
+  {
+    "id": "ryoka-R-01",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "R",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/r/ryoka-a-07.jpg",
+    "framePath": "assets/original/assets/card-frame/Rランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 R フォト01",
+    "originalFilenameRankMayDiffer": true,
+    "ordinaryDrawProbability": 0.006666666666666667
+  },
+  {
+    "id": "ryoka-S-01",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "S",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/s/ryoka-s-01.jpg",
+    "framePath": "assets/original/assets/card-frame/Sランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 S フォト01",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.006666666666666667
+  },
+  {
+    "id": "ryoka-S-02",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "S",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/s/ryoka-s-02.jpg",
+    "framePath": "assets/original/assets/card-frame/Sランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 S フォト02",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.006666666666666667
+  },
+  {
+    "id": "ryoka-S-03",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "S",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/s/ryoka-s-03.jpg",
+    "framePath": "assets/original/assets/card-frame/Sランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 S フォト03",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.006666666666666667
+  },
+  {
+    "id": "ryoka-S-04",
+    "memberId": "ryoka",
+    "memberNameJa": "藤澤涼架",
+    "rank": "S",
+    "photoPath": "assets/original/assets/photos/cards/ryoka/s/ryoka-s-04.jpg",
+    "framePath": "assets/original/assets/card-frame/Sランクカードフレーム.png",
+    "portraitCrop": {
+      "objectFit": "cover",
+      "objectPosition": "50% 30%"
+    },
+    "collectionNameJa": "フォトコレクション",
+    "nameJa": "藤澤涼架 S フォト04",
+    "originalFilenameRankMayDiffer": false,
+    "ordinaryDrawProbability": 0.006666666666666667
+  }
+]

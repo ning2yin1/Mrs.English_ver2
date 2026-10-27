@@ -1,0 +1,2424 @@
+{
+  "grammarId": "G21",
+  "examples": [
+    {
+      "id": "G21-E01",
+      "grammarId": "G21",
+      "grammarNameJa": "現在進行形",
+      "english": "I am listening to music now.",
+      "translationJa": "私は今音楽を聴いています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "am",
+        "start": 2,
+        "endExclusive": 4,
+        "explanationJa": "be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+      },
+      "sentenceExplanationJa": "「I am listening to music now.」は「私は今音楽を聴いています。」という意味です。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。 この文の対象部分は「am」。まとまりは I → am → listening → to music → now. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "am",
+          "lemma": "am",
+          "meaningJa": "～です・いる（Iに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "listening",
+          "lemma": "listen",
+          "meaningJa": "耳を傾けて聴く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "music",
+          "lemma": "music",
+          "meaningJa": "音楽・楽譜",
+          "kind": "word"
+        },
+        {
+          "expression": "now",
+          "lemma": "now",
+          "meaningJa": "今",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ listening to music now.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 4,
+          "answer": "am"
+        },
+        "options": [
+          {
+            "id": "G21-E01-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E01-C2",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E01-C1",
+            "text": "am",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+          },
+          {
+            "id": "G21-E01-C3",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G21-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G21-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G21-E01-B02",
+            "text": "am",
+            "role": "required"
+          },
+          {
+            "id": "G21-E01-B03",
+            "text": "listening",
+            "role": "required"
+          },
+          {
+            "id": "G21-E01-B04",
+            "text": "to music",
+            "role": "required"
+          },
+          {
+            "id": "G21-E01-B05",
+            "text": "now.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G21-E01-B01",
+          "G21-E01-B02",
+          "G21-E01-B03",
+          "G21-E01-B04",
+          "G21-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E01-B01",
+            "G21-E01-B02",
+            "G21-E01-B03",
+            "G21-E01-B04",
+            "G21-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G21-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G21-E01-B02",
+            "text": "am",
+            "role": "required"
+          },
+          {
+            "id": "G21-E01-B03",
+            "text": "listening",
+            "role": "required"
+          },
+          {
+            "id": "G21-E01-B04",
+            "text": "to music",
+            "role": "required"
+          },
+          {
+            "id": "G21-E01-B05",
+            "text": "now.",
+            "role": "required"
+          },
+          {
+            "id": "G21-E01-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E01-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E01-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E01-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E01-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G21-E01-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E01-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E01-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E01-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E01-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G21-E01-B01",
+          "G21-E01-B02",
+          "G21-E01-B03",
+          "G21-E01-B04",
+          "G21-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E01-B01",
+            "G21-E01-B02",
+            "G21-E01-B03",
+            "G21-E01-B04",
+            "G21-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G21-E01-AUDIO",
+        "text": "I am listening to music now.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G21-E02",
+      "grammarId": "G21",
+      "grammarNameJa": "現在進行形",
+      "english": "She is waiting at the gate.",
+      "translationJa": "彼女は入場口で待っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 4,
+        "endExclusive": 6,
+        "explanationJa": "be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+      },
+      "sentenceExplanationJa": "「She is waiting at the gate.」は「彼女は入場口で待っています。」という意味です。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。 この文の対象部分は「is」。まとまりは She → is → waiting → at the gate. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "waiting",
+          "lemma": "wait",
+          "meaningJa": "待つ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "gate",
+          "lemma": "gate",
+          "meaningJa": "門・入場口",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ waiting at the gate.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 6,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G21-E02-C3",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E02-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E02-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+          },
+          {
+            "id": "G21-E02-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G21-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G21-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G21-E02-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G21-E02-B03",
+            "text": "waiting",
+            "role": "required"
+          },
+          {
+            "id": "G21-E02-B04",
+            "text": "at the gate.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G21-E02-B01",
+          "G21-E02-B02",
+          "G21-E02-B03",
+          "G21-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E02-B01",
+            "G21-E02-B02",
+            "G21-E02-B03",
+            "G21-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G21-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G21-E02-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G21-E02-B03",
+            "text": "waiting",
+            "role": "required"
+          },
+          {
+            "id": "G21-E02-B04",
+            "text": "at the gate.",
+            "role": "required"
+          },
+          {
+            "id": "G21-E02-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E02-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E02-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E02-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E02-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G21-E02-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E02-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E02-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E02-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E02-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G21-E02-B01",
+          "G21-E02-B02",
+          "G21-E02-B03",
+          "G21-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E02-B01",
+            "G21-E02-B02",
+            "G21-E02-B03",
+            "G21-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G21-E02-AUDIO",
+        "text": "She is waiting at the gate.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G21-E03",
+      "grammarId": "G21",
+      "grammarNameJa": "現在進行形",
+      "english": "We are watching a live stream.",
+      "translationJa": "私たちは生配信を見ています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are",
+        "start": 3,
+        "endExclusive": 6,
+        "explanationJa": "be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+      },
+      "sentenceExplanationJa": "「We are watching a live stream.」は「私たちは生配信を見ています。」という意味です。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。 この文の対象部分は「are」。まとまりは We → are → watching → a live stream. の順です。",
+      "glossary": [
+        {
+          "expression": "live stream",
+          "meaningJa": "生配信",
+          "kind": "phrase"
+        },
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "watching",
+          "lemma": "watch",
+          "meaningJa": "見る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "live",
+          "lemma": "live",
+          "meaningJa": "住む／生の・生配信の",
+          "kind": "word"
+        },
+        {
+          "expression": "stream",
+          "lemma": "stream",
+          "meaningJa": "配信",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ watching a live stream.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 6,
+          "answer": "are"
+        },
+        "options": [
+          {
+            "id": "G21-E03-C1",
+            "text": "are",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+          },
+          {
+            "id": "G21-E03-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E03-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E03-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G21-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G21-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G21-E03-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G21-E03-B03",
+            "text": "watching",
+            "role": "required"
+          },
+          {
+            "id": "G21-E03-B04",
+            "text": "a live stream.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G21-E03-B01",
+          "G21-E03-B02",
+          "G21-E03-B03",
+          "G21-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E03-B01",
+            "G21-E03-B02",
+            "G21-E03-B03",
+            "G21-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G21-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G21-E03-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G21-E03-B03",
+            "text": "watching",
+            "role": "required"
+          },
+          {
+            "id": "G21-E03-B04",
+            "text": "a live stream.",
+            "role": "required"
+          },
+          {
+            "id": "G21-E03-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E03-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E03-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E03-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E03-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G21-E03-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E03-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E03-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E03-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E03-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G21-E03-B01",
+          "G21-E03-B02",
+          "G21-E03-B03",
+          "G21-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E03-B01",
+            "G21-E03-B02",
+            "G21-E03-B03",
+            "G21-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G21-E03-AUDIO",
+        "text": "We are watching a live stream.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G21-E04",
+      "grammarId": "G21",
+      "grammarNameJa": "現在進行形",
+      "english": "He is playing the piano now.",
+      "translationJa": "彼は今ピアノを弾いています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 3,
+        "endExclusive": 5,
+        "explanationJa": "be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+      },
+      "sentenceExplanationJa": "「He is playing the piano now.」は「彼は今ピアノを弾いています。」という意味です。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。 この文の対象部分は「is」。まとまりは He → is → playing → the piano → now. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "playing",
+          "lemma": "play",
+          "meaningJa": "演奏する・遊ぶ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "piano",
+          "lemma": "piano",
+          "meaningJa": "ピアノ",
+          "kind": "word"
+        },
+        {
+          "expression": "now",
+          "lemma": "now",
+          "meaningJa": "今",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ playing the piano now.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 5,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G21-E04-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E04-C3",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E04-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E04-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+          }
+        ],
+        "correctOptionId": "G21-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G21-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G21-E04-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G21-E04-B03",
+            "text": "playing",
+            "role": "required"
+          },
+          {
+            "id": "G21-E04-B04",
+            "text": "the piano",
+            "role": "required"
+          },
+          {
+            "id": "G21-E04-B05",
+            "text": "now.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G21-E04-B01",
+          "G21-E04-B02",
+          "G21-E04-B03",
+          "G21-E04-B04",
+          "G21-E04-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E04-B01",
+            "G21-E04-B02",
+            "G21-E04-B03",
+            "G21-E04-B04",
+            "G21-E04-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G21-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G21-E04-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G21-E04-B03",
+            "text": "playing",
+            "role": "required"
+          },
+          {
+            "id": "G21-E04-B04",
+            "text": "the piano",
+            "role": "required"
+          },
+          {
+            "id": "G21-E04-B05",
+            "text": "now.",
+            "role": "required"
+          },
+          {
+            "id": "G21-E04-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E04-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E04-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E04-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E04-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G21-E04-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E04-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E04-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E04-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E04-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G21-E04-B01",
+          "G21-E04-B02",
+          "G21-E04-B03",
+          "G21-E04-B04",
+          "G21-E04-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E04-B01",
+            "G21-E04-B02",
+            "G21-E04-B03",
+            "G21-E04-B04",
+            "G21-E04-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G21-E04-AUDIO",
+        "text": "He is playing the piano now.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G21-E05",
+      "grammarId": "G21",
+      "grammarNameJa": "現在進行形",
+      "english": "The fans are waving their towels.",
+      "translationJa": "ファンたちはタオルを振っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are",
+        "start": 9,
+        "endExclusive": 12,
+        "explanationJa": "be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+      },
+      "sentenceExplanationJa": "「The fans are waving their towels.」は「ファンたちはタオルを振っています。」という意味です。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。 この文の対象部分は「are」。まとまりは The fans → are → waving → their towels. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "fans",
+          "lemma": "fan",
+          "meaningJa": "ファン（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "waving",
+          "lemma": "wave",
+          "meaningJa": "振る・手を振る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "their",
+          "lemma": "their",
+          "meaningJa": "彼らの",
+          "kind": "word"
+        },
+        {
+          "expression": "towels",
+          "lemma": "towel",
+          "meaningJa": "タオル（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The fans ___ waving their towels.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 12,
+          "answer": "are"
+        },
+        "options": [
+          {
+            "id": "G21-E05-C1",
+            "text": "are",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+          },
+          {
+            "id": "G21-E05-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E05-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E05-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G21-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G21-E05-B01",
+            "text": "The fans",
+            "role": "required"
+          },
+          {
+            "id": "G21-E05-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G21-E05-B03",
+            "text": "waving",
+            "role": "required"
+          },
+          {
+            "id": "G21-E05-B04",
+            "text": "their towels.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G21-E05-B01",
+          "G21-E05-B02",
+          "G21-E05-B03",
+          "G21-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E05-B01",
+            "G21-E05-B02",
+            "G21-E05-B03",
+            "G21-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G21-E05-B01",
+            "text": "The fans",
+            "role": "required"
+          },
+          {
+            "id": "G21-E05-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G21-E05-B03",
+            "text": "waving",
+            "role": "required"
+          },
+          {
+            "id": "G21-E05-B04",
+            "text": "their towels.",
+            "role": "required"
+          },
+          {
+            "id": "G21-E05-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E05-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E05-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E05-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E05-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G21-E05-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E05-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E05-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E05-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E05-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G21-E05-B01",
+          "G21-E05-B02",
+          "G21-E05-B03",
+          "G21-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E05-B01",
+            "G21-E05-B02",
+            "G21-E05-B03",
+            "G21-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G21-E05-AUDIO",
+        "text": "The fans are waving their towels.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G21-E06",
+      "grammarId": "G21",
+      "grammarNameJa": "現在進行形",
+      "english": "I am looking for my ticket.",
+      "translationJa": "私はチケットを探しています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "am",
+        "start": 2,
+        "endExclusive": 4,
+        "explanationJa": "be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+      },
+      "sentenceExplanationJa": "「I am looking for my ticket.」は「私はチケットを探しています。」という意味です。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。 この文の対象部分は「am」。まとまりは I → am → looking for → my ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "am",
+          "lemma": "am",
+          "meaningJa": "～です・いる（Iに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "looking",
+          "lemma": "look",
+          "meaningJa": "見る・～に見える（ing形）",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ looking for my ticket.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 4,
+          "answer": "am"
+        },
+        "options": [
+          {
+            "id": "G21-E06-C1",
+            "text": "am",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+          },
+          {
+            "id": "G21-E06-C2",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E06-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E06-C3",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G21-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G21-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G21-E06-B02",
+            "text": "am",
+            "role": "required"
+          },
+          {
+            "id": "G21-E06-B03",
+            "text": "looking for",
+            "role": "required"
+          },
+          {
+            "id": "G21-E06-B04",
+            "text": "my ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G21-E06-B01",
+          "G21-E06-B02",
+          "G21-E06-B03",
+          "G21-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E06-B01",
+            "G21-E06-B02",
+            "G21-E06-B03",
+            "G21-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G21-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G21-E06-B02",
+            "text": "am",
+            "role": "required"
+          },
+          {
+            "id": "G21-E06-B03",
+            "text": "looking for",
+            "role": "required"
+          },
+          {
+            "id": "G21-E06-B04",
+            "text": "my ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G21-E06-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E06-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E06-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E06-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E06-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G21-E06-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E06-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E06-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E06-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G21-E06-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G21-E06-B01",
+          "G21-E06-B02",
+          "G21-E06-B03",
+          "G21-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E06-B01",
+            "G21-E06-B02",
+            "G21-E06-B03",
+            "G21-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G21-E06-AUDIO",
+        "text": "I am looking for my ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G21-E07",
+      "grammarId": "G21",
+      "grammarNameJa": "現在進行形",
+      "english": "You are singing too loudly.",
+      "translationJa": "あなたは大きすぎる声で歌っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are",
+        "start": 4,
+        "endExclusive": 7,
+        "explanationJa": "be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+      },
+      "sentenceExplanationJa": "「You are singing too loudly.」は「あなたは大きすぎる声で歌っています。」という意味です。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。 この文の対象部分は「are」。まとまりは You → are → singing → too loudly. の順です。",
+      "glossary": [
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "singing",
+          "lemma": "sing",
+          "meaningJa": "歌う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "too",
+          "lemma": "too",
+          "meaningJa": "～も・～すぎる",
+          "kind": "word"
+        },
+        {
+          "expression": "loudly",
+          "lemma": "loudly",
+          "meaningJa": "大声で",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You ___ singing too loudly.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 7,
+          "answer": "are"
+        },
+        "options": [
+          {
+            "id": "G21-E07-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E07-C1",
+            "text": "are",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+          },
+          {
+            "id": "G21-E07-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E07-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G21-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G21-E07-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G21-E07-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G21-E07-B03",
+            "text": "singing",
+            "role": "required"
+          },
+          {
+            "id": "G21-E07-B04",
+            "text": "too loudly.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G21-E07-B01",
+          "G21-E07-B02",
+          "G21-E07-B03",
+          "G21-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E07-B01",
+            "G21-E07-B02",
+            "G21-E07-B03",
+            "G21-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G21-E07-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G21-E07-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G21-E07-B03",
+            "text": "singing",
+            "role": "required"
+          },
+          {
+            "id": "G21-E07-B04",
+            "text": "too loudly.",
+            "role": "required"
+          },
+          {
+            "id": "G21-E07-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E07-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E07-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E07-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E07-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G21-E07-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E07-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E07-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E07-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E07-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G21-E07-B01",
+          "G21-E07-B02",
+          "G21-E07-B03",
+          "G21-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E07-B01",
+            "G21-E07-B02",
+            "G21-E07-B03",
+            "G21-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G21-E07-AUDIO",
+        "text": "You are singing too loudly.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G21-E08",
+      "grammarId": "G21",
+      "grammarNameJa": "現在進行形",
+      "english": "My phone is ringing again.",
+      "translationJa": "私の携帯電話がまた鳴っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 9,
+        "endExclusive": 11,
+        "explanationJa": "be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+      },
+      "sentenceExplanationJa": "「My phone is ringing again.」は「私の携帯電話がまた鳴っています。」という意味です。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。 この文の対象部分は「is」。まとまりは My phone → is → ringing → again. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "phone",
+          "lemma": "phone",
+          "meaningJa": "携帯電話・電話",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ringing",
+          "lemma": "ring",
+          "meaningJa": "鳴る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "again",
+          "lemma": "again",
+          "meaningJa": "再び・もう一度",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My phone ___ ringing again.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 11,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G21-E08-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+          },
+          {
+            "id": "G21-E08-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E08-C3",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E08-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G21-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G21-E08-B01",
+            "text": "My phone",
+            "role": "required"
+          },
+          {
+            "id": "G21-E08-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G21-E08-B03",
+            "text": "ringing",
+            "role": "required"
+          },
+          {
+            "id": "G21-E08-B04",
+            "text": "again.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G21-E08-B01",
+          "G21-E08-B02",
+          "G21-E08-B03",
+          "G21-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E08-B01",
+            "G21-E08-B02",
+            "G21-E08-B03",
+            "G21-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G21-E08-B01",
+            "text": "My phone",
+            "role": "required"
+          },
+          {
+            "id": "G21-E08-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G21-E08-B03",
+            "text": "ringing",
+            "role": "required"
+          },
+          {
+            "id": "G21-E08-B04",
+            "text": "again.",
+            "role": "required"
+          },
+          {
+            "id": "G21-E08-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E08-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E08-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E08-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E08-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G21-E08-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E08-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E08-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E08-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E08-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G21-E08-B01",
+          "G21-E08-B02",
+          "G21-E08-B03",
+          "G21-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E08-B01",
+            "G21-E08-B02",
+            "G21-E08-B03",
+            "G21-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G21-E08-AUDIO",
+        "text": "My phone is ringing again.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G21-E09",
+      "grammarId": "G21",
+      "grammarNameJa": "現在進行形",
+      "english": "They are selling T-shirts outside.",
+      "translationJa": "彼らは外でTシャツを売っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are",
+        "start": 5,
+        "endExclusive": 8,
+        "explanationJa": "be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+      },
+      "sentenceExplanationJa": "「They are selling T-shirts outside.」は「彼らは外でTシャツを売っています。」という意味です。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。 この文の対象部分は「are」。まとまりは They → are → selling → T-shirts → outside. の順です。",
+      "glossary": [
+        {
+          "expression": "They",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "selling",
+          "lemma": "sell",
+          "meaningJa": "売る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "T-shirts",
+          "lemma": "t-shirts",
+          "meaningJa": "Tシャツ（複数）",
+          "kind": "word"
+        },
+        {
+          "expression": "outside",
+          "lemma": "outside",
+          "meaningJa": "外で・外に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "They ___ selling T-shirts outside.",
+        "blank": {
+          "start": 5,
+          "endExclusive": 8,
+          "answer": "are"
+        },
+        "options": [
+          {
+            "id": "G21-E09-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E09-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E09-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E09-C1",
+            "text": "are",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+          }
+        ],
+        "correctOptionId": "G21-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G21-E09-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G21-E09-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G21-E09-B03",
+            "text": "selling",
+            "role": "required"
+          },
+          {
+            "id": "G21-E09-B04",
+            "text": "T-shirts",
+            "role": "required"
+          },
+          {
+            "id": "G21-E09-B05",
+            "text": "outside.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G21-E09-B01",
+          "G21-E09-B02",
+          "G21-E09-B03",
+          "G21-E09-B04",
+          "G21-E09-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E09-B01",
+            "G21-E09-B02",
+            "G21-E09-B03",
+            "G21-E09-B04",
+            "G21-E09-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G21-E09-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G21-E09-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G21-E09-B03",
+            "text": "selling",
+            "role": "required"
+          },
+          {
+            "id": "G21-E09-B04",
+            "text": "T-shirts",
+            "role": "required"
+          },
+          {
+            "id": "G21-E09-B05",
+            "text": "outside.",
+            "role": "required"
+          },
+          {
+            "id": "G21-E09-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E09-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E09-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E09-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E09-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G21-E09-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E09-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E09-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E09-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G21-E09-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G21-E09-B01",
+          "G21-E09-B02",
+          "G21-E09-B03",
+          "G21-E09-B04",
+          "G21-E09-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E09-B01",
+            "G21-E09-B02",
+            "G21-E09-B03",
+            "G21-E09-B04",
+            "G21-E09-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G21-E09-AUDIO",
+        "text": "They are selling T-shirts outside.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G21-E10",
+      "grammarId": "G21",
+      "grammarNameJa": "現在進行形",
+      "english": "My sister is taking a photo.",
+      "translationJa": "私の姉は写真を撮っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 10,
+        "endExclusive": 12,
+        "explanationJa": "be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+      },
+      "sentenceExplanationJa": "「My sister is taking a photo.」は「私の姉は写真を撮っています。」という意味です。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。 この文の対象部分は「is」。まとまりは My sister → is → taking → a photo. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "sister",
+          "lemma": "sister",
+          "meaningJa": "姉・妹",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "taking",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "photo",
+          "lemma": "photo",
+          "meaningJa": "写真",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My sister ___ taking a photo.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 12,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G21-E10-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E10-C3",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G21-E10-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。be動詞＋動詞のing形で今進行中の動作を表す。主語とbe動詞を一致させる。"
+          },
+          {
+            "id": "G21-E10-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G21-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G21-E10-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G21-E10-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G21-E10-B03",
+            "text": "taking",
+            "role": "required"
+          },
+          {
+            "id": "G21-E10-B04",
+            "text": "a photo.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G21-E10-B01",
+          "G21-E10-B02",
+          "G21-E10-B03",
+          "G21-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E10-B01",
+            "G21-E10-B02",
+            "G21-E10-B03",
+            "G21-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G21-E10-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G21-E10-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G21-E10-B03",
+            "text": "taking",
+            "role": "required"
+          },
+          {
+            "id": "G21-E10-B04",
+            "text": "a photo.",
+            "role": "required"
+          },
+          {
+            "id": "G21-E10-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E10-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E10-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E10-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E10-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G21-E10-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E10-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E10-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E10-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G21-E10-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G21-E10-B01",
+          "G21-E10-B02",
+          "G21-E10-B03",
+          "G21-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G21-E10-B01",
+            "G21-E10-B02",
+            "G21-E10-B03",
+            "G21-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G21-E10-AUDIO",
+        "text": "My sister is taking a photo.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

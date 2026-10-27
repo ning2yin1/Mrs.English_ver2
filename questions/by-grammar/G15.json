@@ -1,0 +1,2448 @@
+{
+  "grammarId": "G15",
+  "examples": [
+    {
+      "id": "G15-E01",
+      "grammarId": "G15",
+      "grammarNameJa": "There is・There are",
+      "english": "There is a poster on the wall.",
+      "translationJa": "壁にポスターが1枚あります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 6,
+        "endExclusive": 8,
+        "explanationJa": "There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+      },
+      "sentenceExplanationJa": "「There is a poster on the wall.」は「壁にポスターが1枚あります。」という意味です。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。 この文の対象部分は「is」。まとまりは There → is → a poster → on the wall. の順です。",
+      "glossary": [
+        {
+          "expression": "There",
+          "lemma": "there",
+          "meaningJa": "そこに／存在構文のthere",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "poster",
+          "lemma": "poster",
+          "meaningJa": "ポスター",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "wall",
+          "lemma": "wall",
+          "meaningJa": "壁",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "There ___ a poster on the wall.",
+        "blank": {
+          "start": 6,
+          "endExclusive": 8,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G15-E01-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+          },
+          {
+            "id": "G15-E01-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E01-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E01-C2",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G15-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G15-E01-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E01-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G15-E01-B03",
+            "text": "a poster",
+            "role": "required"
+          },
+          {
+            "id": "G15-E01-B04",
+            "text": "on the wall.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G15-E01-B01",
+          "G15-E01-B02",
+          "G15-E01-B03",
+          "G15-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E01-B01",
+            "G15-E01-B02",
+            "G15-E01-B03",
+            "G15-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G15-E01-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E01-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G15-E01-B03",
+            "text": "a poster",
+            "role": "required"
+          },
+          {
+            "id": "G15-E01-B04",
+            "text": "on the wall.",
+            "role": "required"
+          },
+          {
+            "id": "G15-E01-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E01-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E01-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E01-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E01-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G15-E01-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E01-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E01-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E01-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E01-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G15-E01-B01",
+          "G15-E01-B02",
+          "G15-E01-B03",
+          "G15-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E01-B01",
+            "G15-E01-B02",
+            "G15-E01-B03",
+            "G15-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G15-E01-AUDIO",
+        "text": "There is a poster on the wall.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G15-E02",
+      "grammarId": "G15",
+      "grammarNameJa": "There is・There are",
+      "english": "There are three fans near the door.",
+      "translationJa": "ドアの近くにファンが3人います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are",
+        "start": 6,
+        "endExclusive": 9,
+        "explanationJa": "There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+      },
+      "sentenceExplanationJa": "「There are three fans near the door.」は「ドアの近くにファンが3人います。」という意味です。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。 この文の対象部分は「are」。まとまりは There → are → three fans → near the door. の順です。",
+      "glossary": [
+        {
+          "expression": "There",
+          "lemma": "there",
+          "meaningJa": "そこに／存在構文のthere",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "three",
+          "lemma": "three",
+          "meaningJa": "3",
+          "kind": "word"
+        },
+        {
+          "expression": "fans",
+          "lemma": "fan",
+          "meaningJa": "ファン（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "near",
+          "lemma": "near",
+          "meaningJa": "～の近くに",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "door",
+          "lemma": "door",
+          "meaningJa": "ドア",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "There ___ three fans near the door.",
+        "blank": {
+          "start": 6,
+          "endExclusive": 9,
+          "answer": "are"
+        },
+        "options": [
+          {
+            "id": "G15-E02-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E02-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E02-C1",
+            "text": "are",
+            "isCorrect": true,
+            "explanationJa": "正解。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+          },
+          {
+            "id": "G15-E02-C2",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G15-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G15-E02-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E02-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G15-E02-B03",
+            "text": "three fans",
+            "role": "required"
+          },
+          {
+            "id": "G15-E02-B04",
+            "text": "near the door.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G15-E02-B01",
+          "G15-E02-B02",
+          "G15-E02-B03",
+          "G15-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E02-B01",
+            "G15-E02-B02",
+            "G15-E02-B03",
+            "G15-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G15-E02-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E02-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G15-E02-B03",
+            "text": "three fans",
+            "role": "required"
+          },
+          {
+            "id": "G15-E02-B04",
+            "text": "near the door.",
+            "role": "required"
+          },
+          {
+            "id": "G15-E02-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E02-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E02-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E02-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E02-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G15-E02-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E02-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E02-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E02-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E02-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G15-E02-B01",
+          "G15-E02-B02",
+          "G15-E02-B03",
+          "G15-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E02-B01",
+            "G15-E02-B02",
+            "G15-E02-B03",
+            "G15-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G15-E02-AUDIO",
+        "text": "There are three fans near the door.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G15-E03",
+      "grammarId": "G15",
+      "grammarNameJa": "There is・There are",
+      "english": "There is a shop next to the hall.",
+      "translationJa": "会場の隣に店があります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 6,
+        "endExclusive": 8,
+        "explanationJa": "There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+      },
+      "sentenceExplanationJa": "「There is a shop next to the hall.」は「会場の隣に店があります。」という意味です。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。 この文の対象部分は「is」。まとまりは There → is → a shop → next to the hall. の順です。",
+      "glossary": [
+        {
+          "expression": "There",
+          "lemma": "there",
+          "meaningJa": "そこに／存在構文のthere",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "shop",
+          "lemma": "shop",
+          "meaningJa": "店",
+          "kind": "word"
+        },
+        {
+          "expression": "next",
+          "lemma": "next",
+          "meaningJa": "次の",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "There ___ a shop next to the hall.",
+        "blank": {
+          "start": 6,
+          "endExclusive": 8,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G15-E03-C2",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E03-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E03-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E03-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+          }
+        ],
+        "correctOptionId": "G15-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G15-E03-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E03-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G15-E03-B03",
+            "text": "a shop",
+            "role": "required"
+          },
+          {
+            "id": "G15-E03-B04",
+            "text": "next to the hall.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G15-E03-B01",
+          "G15-E03-B02",
+          "G15-E03-B03",
+          "G15-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E03-B01",
+            "G15-E03-B02",
+            "G15-E03-B03",
+            "G15-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G15-E03-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E03-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G15-E03-B03",
+            "text": "a shop",
+            "role": "required"
+          },
+          {
+            "id": "G15-E03-B04",
+            "text": "next to the hall.",
+            "role": "required"
+          },
+          {
+            "id": "G15-E03-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E03-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E03-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E03-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E03-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G15-E03-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E03-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E03-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E03-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E03-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G15-E03-B01",
+          "G15-E03-B02",
+          "G15-E03-B03",
+          "G15-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E03-B01",
+            "G15-E03-B02",
+            "G15-E03-B03",
+            "G15-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G15-E03-AUDIO",
+        "text": "There is a shop next to the hall.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G15-E04",
+      "grammarId": "G15",
+      "grammarNameJa": "There is・There are",
+      "english": "There are two tickets in my bag.",
+      "translationJa": "私のバッグにチケットが2枚あります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are",
+        "start": 6,
+        "endExclusive": 9,
+        "explanationJa": "There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+      },
+      "sentenceExplanationJa": "「There are two tickets in my bag.」は「私のバッグにチケットが2枚あります。」という意味です。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。 この文の対象部分は「are」。まとまりは There → are → two tickets → in my bag. の順です。",
+      "glossary": [
+        {
+          "expression": "There",
+          "lemma": "there",
+          "meaningJa": "そこに／存在構文のthere",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "two",
+          "lemma": "two",
+          "meaningJa": "2",
+          "kind": "word"
+        },
+        {
+          "expression": "tickets",
+          "lemma": "ticket",
+          "meaningJa": "チケット（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "There ___ two tickets in my bag.",
+        "blank": {
+          "start": 6,
+          "endExclusive": 9,
+          "answer": "are"
+        },
+        "options": [
+          {
+            "id": "G15-E04-C1",
+            "text": "are",
+            "isCorrect": true,
+            "explanationJa": "正解。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+          },
+          {
+            "id": "G15-E04-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E04-C2",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E04-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G15-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G15-E04-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E04-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G15-E04-B03",
+            "text": "two tickets",
+            "role": "required"
+          },
+          {
+            "id": "G15-E04-B04",
+            "text": "in my bag.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G15-E04-B01",
+          "G15-E04-B02",
+          "G15-E04-B03",
+          "G15-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E04-B01",
+            "G15-E04-B02",
+            "G15-E04-B03",
+            "G15-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G15-E04-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E04-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G15-E04-B03",
+            "text": "two tickets",
+            "role": "required"
+          },
+          {
+            "id": "G15-E04-B04",
+            "text": "in my bag.",
+            "role": "required"
+          },
+          {
+            "id": "G15-E04-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E04-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E04-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E04-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E04-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G15-E04-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E04-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E04-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E04-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E04-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G15-E04-B01",
+          "G15-E04-B02",
+          "G15-E04-B03",
+          "G15-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E04-B01",
+            "G15-E04-B02",
+            "G15-E04-B03",
+            "G15-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G15-E04-AUDIO",
+        "text": "There are two tickets in my bag.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G15-E05",
+      "grammarId": "G15",
+      "grammarNameJa": "There is・There are",
+      "english": "There is a long line outside.",
+      "translationJa": "外に長い列があります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 6,
+        "endExclusive": 8,
+        "explanationJa": "There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+      },
+      "sentenceExplanationJa": "「There is a long line outside.」は「外に長い列があります。」という意味です。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。 この文の対象部分は「is」。まとまりは There → is → a long line → outside. の順です。",
+      "glossary": [
+        {
+          "expression": "a long line",
+          "meaningJa": "長い行列",
+          "kind": "phrase"
+        },
+        {
+          "expression": "There",
+          "lemma": "there",
+          "meaningJa": "そこに／存在構文のthere",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "long",
+          "lemma": "long",
+          "meaningJa": "長い",
+          "kind": "word"
+        },
+        {
+          "expression": "line",
+          "lemma": "line",
+          "meaningJa": "列・行列",
+          "kind": "word"
+        },
+        {
+          "expression": "outside",
+          "lemma": "outside",
+          "meaningJa": "外で・外に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "There ___ a long line outside.",
+        "blank": {
+          "start": 6,
+          "endExclusive": 8,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G15-E05-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+          },
+          {
+            "id": "G15-E05-C2",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E05-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E05-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G15-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G15-E05-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E05-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G15-E05-B03",
+            "text": "a long line",
+            "role": "required"
+          },
+          {
+            "id": "G15-E05-B04",
+            "text": "outside.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G15-E05-B01",
+          "G15-E05-B02",
+          "G15-E05-B03",
+          "G15-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E05-B01",
+            "G15-E05-B02",
+            "G15-E05-B03",
+            "G15-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G15-E05-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E05-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G15-E05-B03",
+            "text": "a long line",
+            "role": "required"
+          },
+          {
+            "id": "G15-E05-B04",
+            "text": "outside.",
+            "role": "required"
+          },
+          {
+            "id": "G15-E05-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E05-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E05-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E05-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E05-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G15-E05-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E05-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E05-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E05-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E05-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G15-E05-B01",
+          "G15-E05-B02",
+          "G15-E05-B03",
+          "G15-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E05-B01",
+            "G15-E05-B02",
+            "G15-E05-B03",
+            "G15-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G15-E05-AUDIO",
+        "text": "There is a long line outside.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G15-E06",
+      "grammarId": "G15",
+      "grammarNameJa": "There is・There are",
+      "english": "There are many stars in the sky.",
+      "translationJa": "空にはたくさんの星が見えます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are",
+        "start": 6,
+        "endExclusive": 9,
+        "explanationJa": "There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+      },
+      "sentenceExplanationJa": "「There are many stars in the sky.」は「空にはたくさんの星が見えます。」という意味です。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。 この文の対象部分は「are」。まとまりは There → are → many stars → in the sky. の順です。",
+      "glossary": [
+        {
+          "expression": "There",
+          "lemma": "there",
+          "meaningJa": "そこに／存在構文のthere",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "many",
+          "lemma": "many",
+          "meaningJa": "たくさんの（可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "stars",
+          "lemma": "star",
+          "meaningJa": "星（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "sky",
+          "lemma": "sky",
+          "meaningJa": "空",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "There ___ many stars in the sky.",
+        "blank": {
+          "start": 6,
+          "endExclusive": 9,
+          "answer": "are"
+        },
+        "options": [
+          {
+            "id": "G15-E06-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E06-C2",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E06-C1",
+            "text": "are",
+            "isCorrect": true,
+            "explanationJa": "正解。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+          },
+          {
+            "id": "G15-E06-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G15-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G15-E06-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E06-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G15-E06-B03",
+            "text": "many stars",
+            "role": "required"
+          },
+          {
+            "id": "G15-E06-B04",
+            "text": "in the sky.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G15-E06-B01",
+          "G15-E06-B02",
+          "G15-E06-B03",
+          "G15-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E06-B01",
+            "G15-E06-B02",
+            "G15-E06-B03",
+            "G15-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G15-E06-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E06-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G15-E06-B03",
+            "text": "many stars",
+            "role": "required"
+          },
+          {
+            "id": "G15-E06-B04",
+            "text": "in the sky.",
+            "role": "required"
+          },
+          {
+            "id": "G15-E06-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E06-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E06-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E06-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E06-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G15-E06-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E06-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E06-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E06-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E06-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G15-E06-B01",
+          "G15-E06-B02",
+          "G15-E06-B03",
+          "G15-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E06-B01",
+            "G15-E06-B02",
+            "G15-E06-B03",
+            "G15-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G15-E06-AUDIO",
+        "text": "There are many stars in the sky.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G15-E07",
+      "grammarId": "G15",
+      "grammarNameJa": "There is・There are",
+      "english": "There is some water in this bottle.",
+      "translationJa": "このボトルには水が入っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 6,
+        "endExclusive": 8,
+        "explanationJa": "There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+      },
+      "sentenceExplanationJa": "「There is some water in this bottle.」は「このボトルには水が入っています。」という意味です。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。 この文の対象部分は「is」。まとまりは There → is → some water → in this bottle. の順です。",
+      "glossary": [
+        {
+          "expression": "There",
+          "lemma": "there",
+          "meaningJa": "そこに／存在構文のthere",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "some",
+          "lemma": "some",
+          "meaningJa": "いくつかの・いくらかの",
+          "kind": "word"
+        },
+        {
+          "expression": "water",
+          "lemma": "water",
+          "meaningJa": "水",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "bottle",
+          "lemma": "bottle",
+          "meaningJa": "ボトル・瓶",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "There ___ some water in this bottle.",
+        "blank": {
+          "start": 6,
+          "endExclusive": 8,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G15-E07-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E07-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E07-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+          },
+          {
+            "id": "G15-E07-C2",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G15-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G15-E07-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E07-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G15-E07-B03",
+            "text": "some water",
+            "role": "required"
+          },
+          {
+            "id": "G15-E07-B04",
+            "text": "in this bottle.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G15-E07-B01",
+          "G15-E07-B02",
+          "G15-E07-B03",
+          "G15-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E07-B01",
+            "G15-E07-B02",
+            "G15-E07-B03",
+            "G15-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G15-E07-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E07-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G15-E07-B03",
+            "text": "some water",
+            "role": "required"
+          },
+          {
+            "id": "G15-E07-B04",
+            "text": "in this bottle.",
+            "role": "required"
+          },
+          {
+            "id": "G15-E07-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E07-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E07-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E07-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E07-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G15-E07-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E07-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E07-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E07-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E07-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G15-E07-B01",
+          "G15-E07-B02",
+          "G15-E07-B03",
+          "G15-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E07-B01",
+            "G15-E07-B02",
+            "G15-E07-B03",
+            "G15-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G15-E07-AUDIO",
+        "text": "There is some water in this bottle.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G15-E08",
+      "grammarId": "G15",
+      "grammarNameJa": "There is・There are",
+      "english": "There are no empty seats here.",
+      "translationJa": "ここには空席がありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are",
+        "start": 6,
+        "endExclusive": 9,
+        "explanationJa": "There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+      },
+      "sentenceExplanationJa": "「There are no empty seats here.」は「ここには空席がありません。」という意味です。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。 この文の対象部分は「are」。まとまりは There → are → no empty seats → here. の順です。",
+      "glossary": [
+        {
+          "expression": "There",
+          "lemma": "there",
+          "meaningJa": "そこに／存在構文のthere",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "no",
+          "lemma": "no",
+          "meaningJa": "一つもない",
+          "kind": "word"
+        },
+        {
+          "expression": "empty",
+          "lemma": "empty",
+          "meaningJa": "空の",
+          "kind": "word"
+        },
+        {
+          "expression": "seats",
+          "lemma": "seat",
+          "meaningJa": "席（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "here",
+          "lemma": "here",
+          "meaningJa": "ここに・ここで",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "There ___ no empty seats here.",
+        "blank": {
+          "start": 6,
+          "endExclusive": 9,
+          "answer": "are"
+        },
+        "options": [
+          {
+            "id": "G15-E08-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E08-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E08-C2",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E08-C1",
+            "text": "are",
+            "isCorrect": true,
+            "explanationJa": "正解。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+          }
+        ],
+        "correctOptionId": "G15-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G15-E08-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E08-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G15-E08-B03",
+            "text": "no empty seats",
+            "role": "required"
+          },
+          {
+            "id": "G15-E08-B04",
+            "text": "here.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G15-E08-B01",
+          "G15-E08-B02",
+          "G15-E08-B03",
+          "G15-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E08-B01",
+            "G15-E08-B02",
+            "G15-E08-B03",
+            "G15-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G15-E08-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E08-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G15-E08-B03",
+            "text": "no empty seats",
+            "role": "required"
+          },
+          {
+            "id": "G15-E08-B04",
+            "text": "here.",
+            "role": "required"
+          },
+          {
+            "id": "G15-E08-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E08-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E08-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E08-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E08-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G15-E08-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E08-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E08-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E08-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E08-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G15-E08-B01",
+          "G15-E08-B02",
+          "G15-E08-B03",
+          "G15-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E08-B01",
+            "G15-E08-B02",
+            "G15-E08-B03",
+            "G15-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G15-E08-AUDIO",
+        "text": "There are no empty seats here.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G15-E09",
+      "grammarId": "G15",
+      "grammarNameJa": "There is・There are",
+      "english": "There is a message for you.",
+      "translationJa": "あなた宛てのメッセージがあります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 6,
+        "endExclusive": 8,
+        "explanationJa": "There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+      },
+      "sentenceExplanationJa": "「There is a message for you.」は「あなた宛てのメッセージがあります。」という意味です。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。 この文の対象部分は「is」。まとまりは There → is → a message → for you. の順です。",
+      "glossary": [
+        {
+          "expression": "There",
+          "lemma": "there",
+          "meaningJa": "そこに／存在構文のthere",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "message",
+          "lemma": "message",
+          "meaningJa": "メッセージ",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "There ___ a message for you.",
+        "blank": {
+          "start": 6,
+          "endExclusive": 8,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G15-E09-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E09-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+          },
+          {
+            "id": "G15-E09-C2",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E09-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G15-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G15-E09-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E09-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G15-E09-B03",
+            "text": "a message",
+            "role": "required"
+          },
+          {
+            "id": "G15-E09-B04",
+            "text": "for you.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G15-E09-B01",
+          "G15-E09-B02",
+          "G15-E09-B03",
+          "G15-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E09-B01",
+            "G15-E09-B02",
+            "G15-E09-B03",
+            "G15-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G15-E09-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E09-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G15-E09-B03",
+            "text": "a message",
+            "role": "required"
+          },
+          {
+            "id": "G15-E09-B04",
+            "text": "for you.",
+            "role": "required"
+          },
+          {
+            "id": "G15-E09-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E09-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E09-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E09-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E09-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G15-E09-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E09-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E09-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E09-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G15-E09-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G15-E09-B01",
+          "G15-E09-B02",
+          "G15-E09-B03",
+          "G15-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E09-B01",
+            "G15-E09-B02",
+            "G15-E09-B03",
+            "G15-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G15-E09-AUDIO",
+        "text": "There is a message for you.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G15-E10",
+      "grammarId": "G15",
+      "grammarNameJa": "There is・There are",
+      "english": "There are five songs on this list.",
+      "translationJa": "このリストには曲が5曲あります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are",
+        "start": 6,
+        "endExclusive": 9,
+        "explanationJa": "There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+      },
+      "sentenceExplanationJa": "「There are five songs on this list.」は「このリストには曲が5曲あります。」という意味です。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。 この文の対象部分は「are」。まとまりは There → are → five songs → on this list. の順です。",
+      "glossary": [
+        {
+          "expression": "There",
+          "lemma": "there",
+          "meaningJa": "そこに／存在構文のthere",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "five",
+          "lemma": "five",
+          "meaningJa": "5",
+          "kind": "word"
+        },
+        {
+          "expression": "songs",
+          "lemma": "song",
+          "meaningJa": "曲・歌（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "list",
+          "lemma": "list",
+          "meaningJa": "一覧・リスト",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "There ___ five songs on this list.",
+        "blank": {
+          "start": 6,
+          "endExclusive": 9,
+          "answer": "are"
+        },
+        "options": [
+          {
+            "id": "G15-E10-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E10-C1",
+            "text": "are",
+            "isCorrect": true,
+            "explanationJa": "正解。There is＋単数、There are＋複数で存在を伝える。there自体は物や人の主語ではない。"
+          },
+          {
+            "id": "G15-E10-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G15-E10-C2",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G15-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G15-E10-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E10-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G15-E10-B03",
+            "text": "five songs",
+            "role": "required"
+          },
+          {
+            "id": "G15-E10-B04",
+            "text": "on this list.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G15-E10-B01",
+          "G15-E10-B02",
+          "G15-E10-B03",
+          "G15-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E10-B01",
+            "G15-E10-B02",
+            "G15-E10-B03",
+            "G15-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G15-E10-B01",
+            "text": "There",
+            "role": "required"
+          },
+          {
+            "id": "G15-E10-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G15-E10-B03",
+            "text": "five songs",
+            "role": "required"
+          },
+          {
+            "id": "G15-E10-B04",
+            "text": "on this list.",
+            "role": "required"
+          },
+          {
+            "id": "G15-E10-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E10-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E10-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E10-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E10-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G15-E10-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E10-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E10-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E10-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G15-E10-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G15-E10-B01",
+          "G15-E10-B02",
+          "G15-E10-B03",
+          "G15-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G15-E10-B01",
+            "G15-E10-B02",
+            "G15-E10-B03",
+            "G15-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G15-E10-AUDIO",
+        "text": "There are five songs on this list.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

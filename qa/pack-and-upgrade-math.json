@@ -1,0 +1,25 @@
+{
+  "ordinaryRankWeights": {
+    "C": 45,
+    "B": 30,
+    "A": 15,
+    "S": 8,
+    "R": 2
+  },
+  "ordinaryMemberProbability": {
+    "motoki": 0.3333333333333333,
+    "hiroto": 0.3333333333333333,
+    "ryoka": 0.3333333333333333
+  },
+  "sumCardProbability": 1.0,
+  "expectedRPRefundWhenAllOwned": 356.0,
+  "maxUpgradeRP": {
+    "C": 1620,
+    "B": 5320,
+    "A": 11020,
+    "S": 18720,
+    "R": 28420
+  },
+  "freeTenGuarantee": "Each member forced once in first three internal draws, remaining seven ordinary, presentation shuffled",
+  "ordinaryTenGuarantee": null
+}

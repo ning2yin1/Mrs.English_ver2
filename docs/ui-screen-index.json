@@ -1,0 +1,231 @@
+{
+  "orientation": "landscape",
+  "canvas": [
+    844,
+    390
+  ],
+  "screens": [
+    {
+      "id": "S00",
+      "layoutJa": "縦持ち案内。中央に回転アイコンと文、下に保存状態",
+      "actionsJa": "横向き→直前画面、プレイなら再開確認",
+      "statesAndSaveJa": "入力・経過時間を保持"
+    },
+    {
+      "id": "S01",
+      "layoutJa": "タイトル。TOP写真cover、ロゴx270,y45,w304、TAP x270,y270、version右下",
+      "actionsJa": "タップ→設定未完なら該当STEP、開封途中ならS07、他S09",
+      "statesAndSaveJa": "素材未読込は宇宙背景＋再読込。TOPランダム禁止"
+    },
+    {
+      "id": "S02",
+      "layoutJa": "ニックネーム。中央dialog、入力x200,y145,w440、決定右下",
+      "actionsJa": "trim後1〜12書記素→S03",
+      "statesAndSaveJa": "空欄・長すぎる場合は欄下に日本語。確定時保存"
+    },
+    {
+      "id": "S03",
+      "layoutJa": "推し選択。3写真横並びx150/340/530,y100,w160,h170",
+      "actionsJa": "選択チェック→S04確認",
+      "statesAndSaveJa": "未選択は決定不可。写真は元画像を使用"
+    },
+    {
+      "id": "S04",
+      "layoutJa": "推し確認。選んだ写真小と確認文",
+      "actionsJa": "戻る→S03、決定→S05",
+      "statesAndSaveJa": "後から変更可・排出率に差なしの注記"
+    },
+    {
+      "id": "S05",
+      "layoutJa": "背景一覧。左22サムネイル6列スクロール、右w250プレビュー",
+      "actionsJa": "選択→S06、戻る→S03",
+      "statesAndSaveJa": "選択は下書き。決定までホーム変更しない"
+    },
+    {
+      "id": "S06",
+      "layoutJa": "背景拡大。主領域で比率維持preview、下に戻る／決定",
+      "actionsJa": "初回は決定→S07権利、設定経由は元画面",
+      "statesAndSaveJa": "bg-01〜22のみ。選択IDを保存"
+    },
+    {
+      "id": "S07",
+      "layoutJa": "初回特典／購入パック開封前。WELCOMEまたはパック名、中央裏面、開封する",
+      "actionsJa": "タップでdraw+grantを原子的確定→S08a",
+      "statesAndSaveJa": "無料特典にRP価格を出さない。途中状態復元"
+    },
+    {
+      "id": "S08a",
+      "layoutJa": "1枚ずつ開封。中央カードx340,y75,w164,h230、カウンター1/10、次へ",
+      "actionsJa": "裏面タップ→表、次へ→次の未確認カード、最後S08b",
+      "statesAndSaveJa": "二重タップは1枚分。既存の抽選結果を表示"
+    },
+    {
+      "id": "S08b",
+      "layoutJa": "開封一覧。10枚5×2枠、重複RPラベル、受取済み表示",
+      "actionsJa": "初回→ホーム、購入→ショップ",
+      "statesAndSaveJa": "ここで新たなカード付与はしない"
+    },
+    {
+      "id": "S09",
+      "layoutJa": "ホーム。共通バー／5メニュー、イベント、ログイン、記録、復習の小入口",
+      "actionsJa": "下部各画面へ。START→S10",
+      "statesAndSaveJa": "ホーム写真は選択固定。ミッション未受取N"
+    },
+    {
+      "id": "S10",
+      "layoutJa": "文法選択。60項目カルーセル、学年フィルター、難易度上部3タブ、星／2種ベスト",
+      "actionsJa": "選択→詳細下帯、START→S11",
+      "statesAndSaveJa": "未プレイはベスト—。ロックなし"
+    },
+    {
+      "id": "S11",
+      "layoutJa": "開始確認。単元・難易度・10問、3人編成、開始と編成変更",
+      "actionsJa": "開始→READY→S12/S13/S14",
+      "statesAndSaveJa": "空編成なら空枠0%と表示し開始可能"
+    },
+    {
+      "id": "S12",
+      "layoutJa": "EASY。HUD y0〜42、和訳y76、英文y115、4択2×2 x100/434,y180/244,w310,h52",
+      "actionsJa": "選択即判定→S15→次問",
+      "statesAndSaveJa": "一度選んだらロック。正解を音声で先読みさせない"
+    },
+    {
+      "id": "S13",
+      "layoutJa": "NORMAL。和訳y64、レールy110〜174、バンクy192〜292、下に戻す／全解除／決定",
+      "actionsJa": "タップ移動、決定→S15",
+      "statesAndSaveJa": "長い文はレール横スクロール＋2段、バンク縦スクロール"
+    },
+    {
+      "id": "S14",
+      "layoutJa": "HARD。S13同形、不要語5個以上。バンク3段、選択肢を同色同サイズ",
+      "actionsJa": "不要語を残して決定",
+      "statesAndSaveJa": "不要語に別の色や印を付けない。10秒以降も操作可"
+    },
+    {
+      "id": "S15",
+      "layoutJa": "判定オーバーレイ。中央に判定ロゴ、非遮蔽にして短時間表示",
+      "actionsJa": "正解700ms/MISS900ms→次問、10問目→S18",
+      "statesAndSaveJa": "TIME UPは一度だけ非モーダル表示、入力続行"
+    },
+    {
+      "id": "S16",
+      "layoutJa": "一時停止。戻る／最初から／ホームの3タイル、単元名",
+      "actionsJa": "再開→元問題、他はS17確認",
+      "statesAndSaveJa": "計時・音声停止。全入力保持"
+    },
+    {
+      "id": "S17",
+      "layoutJa": "離脱確認。「途中のセット報酬は受け取れません」",
+      "actionsJa": "キャンセル→S16、離脱→S09/新run",
+      "statesAndSaveJa": "中断と破棄を混同しない"
+    },
+    {
+      "id": "S18",
+      "layoutJa": "結果。左3枚カード、中央内訳、右TOTAL・星・NEW RECORD、下3ボタン",
+      "actionsJa": "レビュー→S19、再プレイ→S11、戻る→S10",
+      "statesAndSaveJa": "開始前にrun完了と報酬確定。演出スキップ可能"
+    },
+    {
+      "id": "S19",
+      "layoutJa": "10問レビュー。左w220:番号と正誤、右w540:自分回答/正解/和訳/解説/語彙",
+      "actionsJa": "前へ／次へ、音声、閉じる→S18",
+      "statesAndSaveJa": "最後と最初の前後を無効。本文のみスクロール"
+    },
+    {
+      "id": "S20",
+      "layoutJa": "苦手復習。誤答単元・難易度・最終誤答の一覧、最大10問の開始",
+      "actionsJa": "開始→専用runのS12〜14、結果は復習結果ラベル",
+      "statesAndSaveJa": "0件は本＋チェック、開始無効。星更新なし"
+    },
+    {
+      "id": "S21",
+      "layoutJa": "所持カード一覧。メンバー・ランク絞込、6×2カード、現在編成帯",
+      "actionsJa": "タップ→S22、編成→S23、HOME",
+      "statesAndSaveJa": "所持のみ。未所持は図鑑へ案内。初回パック未完の権利へ誘導"
+    },
+    {
+      "id": "S22",
+      "layoutJa": "カード詳細。左写真大、中央名前/ランク/Lv/ボーナス、右強化/編成、heart/lock",
+      "actionsJa": "強化→S24、編成→該当メンバー枠",
+      "statesAndSaveJa": "写真・枠・文字は独立レイヤー。MAX/残高不足を明示"
+    },
+    {
+      "id": "S23",
+      "layoutJa": "編成。左3枠、右メンバー別所持カード、下にチーム倍率",
+      "actionsJa": "選択で同メンバー枠入替、保存、おすすめ",
+      "statesAndSaveJa": "不正な他メンバー割当不可。初期以外勝手に上書きしない"
+    },
+    {
+      "id": "S24",
+      "layoutJa": "強化確認／結果。現在→次Lv、今回RP、前後ボーナス、決定",
+      "actionsJa": "強化後LEVEL UP→S22",
+      "statesAndSaveJa": "残高不足、MAXは別表示。連打で二重差引しない"
+    },
+    {
+      "id": "S25",
+      "layoutJa": "図鑑。79定義、所持済みは写真、未取得は裏面と?、達成27/79等",
+      "actionsJa": "メンバー/ランク絞込→既知詳細または未取得情報",
+      "statesAndSaveJa": "未取得写真を薄く露出せずシルエット/裏面。重複数は図鑑進捗に加算しない"
+    },
+    {
+      "id": "S26",
+      "layoutJa": "ショップ。1枚1000RPと10枚9000RPの2パック、RP、排出率入口",
+      "actionsJa": "購入→S27確認",
+      "statesAndSaveJa": "RP不足は不足額と学習へ。現金・ダイヤを出さない"
+    },
+    {
+      "id": "S27",
+      "layoutJa": "購入確認。枚数、消費、残高前→後、重複還元注記",
+      "actionsJa": "購入原子確定→S08a、取消S26",
+      "statesAndSaveJa": "二重タップを防止。保存失敗はRPを減らさない"
+    },
+    {
+      "id": "S28",
+      "layoutJa": "排出率。ランク5行、メンバー等確率、各画像一様、初回保証・重複還元",
+      "actionsJa": "閉じる",
+      "statesAndSaveJa": "RPショップと初回無料の保証差を明記"
+    },
+    {
+      "id": "S29",
+      "layoutJa": "ミッション。日/週タブ、各3行、進捗、未受取N、受取／全部受取",
+      "actionsJa": "達成済み→台帳付与",
+      "statesAndSaveJa": "期限切替時に最新期間を再判定"
+    },
+    {
+      "id": "S30",
+      "layoutJa": "ログインボーナス。当日50RP、受取状態、連続学習とは別の注記",
+      "actionsJa": "受取→台帳、一度のみ",
+      "statesAndSaveJa": "受取済みボタン無効、戻る"
+    },
+    {
+      "id": "S31",
+      "layoutJa": "学習記録。累積正解/セット/学習日、日別小グラフ、単元一覧",
+      "actionsJa": "履歴→過去S19、戻る",
+      "statesAndSaveJa": "0件は初めての学習を案内"
+    },
+    {
+      "id": "S32",
+      "layoutJa": "メニュー／設定。ニックネーム、推し、背景、効果音、読み上げ速度、写真暗さ、バックアップ",
+      "actionsJa": "各設定保存、個別設定は対応S02〜06再利用",
+      "statesAndSaveJa": "変更で初回特典を再発行しない"
+    },
+    {
+      "id": "S33",
+      "layoutJa": "バックアップ。エクスポート日時、保存、インポート選択、内容サマリー",
+      "actionsJa": "取込検証→置換確認→全置換",
+      "statesAndSaveJa": "不正ファイル・新schemaは拒否し現データ保持"
+    },
+    {
+      "id": "S34",
+      "layoutJa": "音声利用不可／オフライン等トースト",
+      "actionsJa": "閉じる／再試行",
+      "statesAndSaveJa": "音声失敗でRPや問題結果を変えない"
+    },
+    {
+      "id": "S35",
+      "layoutJa": "保存失敗モーダル。再試行、バックアップ出力、戻る",
+      "actionsJa": "保存成功まで報酬の確定表示をしない",
+      "statesAndSaveJa": "失敗を成功演出で隠さない"
+    }
+  ]
+}

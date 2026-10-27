@@ -1,0 +1,2419 @@
+{
+  "grammarId": "G33",
+  "examples": [
+    {
+      "id": "G33-E01",
+      "grammarId": "G33",
+      "grammarNameJa": "as ... asの原級比較",
+      "english": "This towel is as soft as mine.",
+      "translationJa": "このタオルは私のものと同じくらい柔らかいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "soft",
+        "start": 17,
+        "endExclusive": 21,
+        "explanationJa": "as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+      },
+      "sentenceExplanationJa": "「This towel is as soft as mine.」は「このタオルは私のものと同じくらい柔らかいです。」という意味です。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。 この文の対象部分は「soft」。まとまりは This towel → is → as soft as → mine. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "as",
+          "lemma": "as",
+          "meaningJa": "～と同じくらい・～として",
+          "kind": "word"
+        },
+        {
+          "expression": "soft",
+          "lemma": "soft",
+          "meaningJa": "柔らかい",
+          "kind": "word"
+        },
+        {
+          "expression": "mine",
+          "lemma": "mine",
+          "meaningJa": "私のもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This towel is as ___ as mine.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 21,
+          "answer": "soft"
+        },
+        "options": [
+          {
+            "id": "G33-E01-C1",
+            "text": "soft",
+            "isCorrect": true,
+            "explanationJa": "正解。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+          },
+          {
+            "id": "G33-E01-C2",
+            "text": "softer",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「soft」を使います。「softer」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E01-C3",
+            "text": "softest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「soft」を使います。「softest」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E01-C4",
+            "text": "softly",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「soft」を使います。「softly」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G33-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G33-E01-B01",
+            "text": "This towel",
+            "role": "required"
+          },
+          {
+            "id": "G33-E01-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G33-E01-B03",
+            "text": "as soft as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E01-B04",
+            "text": "mine.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G33-E01-B01",
+          "G33-E01-B02",
+          "G33-E01-B03",
+          "G33-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E01-B01",
+            "G33-E01-B02",
+            "G33-E01-B03",
+            "G33-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G33-E01-B01",
+            "text": "This towel",
+            "role": "required"
+          },
+          {
+            "id": "G33-E01-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G33-E01-B03",
+            "text": "as soft as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E01-B04",
+            "text": "mine.",
+            "role": "required"
+          },
+          {
+            "id": "G33-E01-D01",
+            "text": "softer",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G33-E01-D02",
+            "text": "softest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G33-E01-D03",
+            "text": "softly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G33-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G33-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G33-E01-D01",
+            "text": "softer",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G33-E01-D02",
+            "text": "softest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G33-E01-D03",
+            "text": "softly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G33-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G33-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G33-E01-B01",
+          "G33-E01-B02",
+          "G33-E01-B03",
+          "G33-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E01-B01",
+            "G33-E01-B02",
+            "G33-E01-B03",
+            "G33-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G33-E01-AUDIO",
+        "text": "This towel is as soft as mine.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G33-E02",
+      "grammarId": "G33",
+      "grammarNameJa": "as ... asの原級比較",
+      "english": "This song is as long as that song.",
+      "translationJa": "この曲はあの曲と同じくらい長いです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "long",
+        "start": 16,
+        "endExclusive": 20,
+        "explanationJa": "as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+      },
+      "sentenceExplanationJa": "「This song is as long as that song.」は「この曲はあの曲と同じくらい長いです。」という意味です。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。 この文の対象部分は「long」。まとまりは This song → is → as long as → that song. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "as",
+          "lemma": "as",
+          "meaningJa": "～と同じくらい・～として",
+          "kind": "word"
+        },
+        {
+          "expression": "long",
+          "lemma": "long",
+          "meaningJa": "長い",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This song is as ___ as that song.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 20,
+          "answer": "long"
+        },
+        "options": [
+          {
+            "id": "G33-E02-C2",
+            "text": "longer",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「long」を使います。「longer」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E02-C1",
+            "text": "long",
+            "isCorrect": true,
+            "explanationJa": "正解。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+          },
+          {
+            "id": "G33-E02-C4",
+            "text": "more long",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「long」を使います。「more long」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E02-C3",
+            "text": "longest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「long」を使います。「longest」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G33-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G33-E02-B01",
+            "text": "This song",
+            "role": "required"
+          },
+          {
+            "id": "G33-E02-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G33-E02-B03",
+            "text": "as long as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E02-B04",
+            "text": "that song.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G33-E02-B01",
+          "G33-E02-B02",
+          "G33-E02-B03",
+          "G33-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E02-B01",
+            "G33-E02-B02",
+            "G33-E02-B03",
+            "G33-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G33-E02-B01",
+            "text": "This song",
+            "role": "required"
+          },
+          {
+            "id": "G33-E02-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G33-E02-B03",
+            "text": "as long as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E02-B04",
+            "text": "that song.",
+            "role": "required"
+          },
+          {
+            "id": "G33-E02-D01",
+            "text": "longer",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「long」と比較してください。"
+          },
+          {
+            "id": "G33-E02-D02",
+            "text": "longest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「long」と比較してください。"
+          },
+          {
+            "id": "G33-E02-D03",
+            "text": "more long",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「long」と比較してください。"
+          },
+          {
+            "id": "G33-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「long」と比較してください。"
+          },
+          {
+            "id": "G33-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「long」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G33-E02-D01",
+            "text": "longer",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「long」と比較してください。"
+          },
+          {
+            "id": "G33-E02-D02",
+            "text": "longest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「long」と比較してください。"
+          },
+          {
+            "id": "G33-E02-D03",
+            "text": "more long",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「long」と比較してください。"
+          },
+          {
+            "id": "G33-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「long」と比較してください。"
+          },
+          {
+            "id": "G33-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「long」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G33-E02-B01",
+          "G33-E02-B02",
+          "G33-E02-B03",
+          "G33-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E02-B01",
+            "G33-E02-B02",
+            "G33-E02-B03",
+            "G33-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G33-E02-AUDIO",
+        "text": "This song is as long as that song.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G33-E03",
+      "grammarId": "G33",
+      "grammarNameJa": "as ... asの原級比較",
+      "english": "My bag is not as heavy as yours.",
+      "translationJa": "私のバッグはあなたのものほど重くありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "heavy",
+        "start": 17,
+        "endExclusive": 22,
+        "explanationJa": "as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+      },
+      "sentenceExplanationJa": "「My bag is not as heavy as yours.」は「私のバッグはあなたのものほど重くありません。」という意味です。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。 この文の対象部分は「heavy」。まとまりは My bag → is → not as heavy as → yours. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "as",
+          "lemma": "as",
+          "meaningJa": "～と同じくらい・～として",
+          "kind": "word"
+        },
+        {
+          "expression": "heavy",
+          "lemma": "heavy",
+          "meaningJa": "重い",
+          "kind": "word"
+        },
+        {
+          "expression": "yours",
+          "lemma": "yours",
+          "meaningJa": "あなたのもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My bag is not as ___ as yours.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 22,
+          "answer": "heavy"
+        },
+        "options": [
+          {
+            "id": "G33-E03-C4",
+            "text": "heavily",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「heavy」を使います。「heavily」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E03-C1",
+            "text": "heavy",
+            "isCorrect": true,
+            "explanationJa": "正解。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+          },
+          {
+            "id": "G33-E03-C3",
+            "text": "heaviest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「heavy」を使います。「heaviest」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E03-C2",
+            "text": "heavier",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「heavy」を使います。「heavier」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G33-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G33-E03-B01",
+            "text": "My bag",
+            "role": "required"
+          },
+          {
+            "id": "G33-E03-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G33-E03-B03",
+            "text": "not as heavy as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E03-B04",
+            "text": "yours.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G33-E03-B01",
+          "G33-E03-B02",
+          "G33-E03-B03",
+          "G33-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E03-B01",
+            "G33-E03-B02",
+            "G33-E03-B03",
+            "G33-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G33-E03-B01",
+            "text": "My bag",
+            "role": "required"
+          },
+          {
+            "id": "G33-E03-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G33-E03-B03",
+            "text": "not as heavy as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E03-B04",
+            "text": "yours.",
+            "role": "required"
+          },
+          {
+            "id": "G33-E03-D01",
+            "text": "heavier",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavy」と比較してください。"
+          },
+          {
+            "id": "G33-E03-D02",
+            "text": "heaviest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavy」と比較してください。"
+          },
+          {
+            "id": "G33-E03-D03",
+            "text": "heavily",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavy」と比較してください。"
+          },
+          {
+            "id": "G33-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavy」と比較してください。"
+          },
+          {
+            "id": "G33-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavy」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G33-E03-D01",
+            "text": "heavier",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavy」と比較してください。"
+          },
+          {
+            "id": "G33-E03-D02",
+            "text": "heaviest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavy」と比較してください。"
+          },
+          {
+            "id": "G33-E03-D03",
+            "text": "heavily",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavy」と比較してください。"
+          },
+          {
+            "id": "G33-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavy」と比較してください。"
+          },
+          {
+            "id": "G33-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「heavy」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G33-E03-B01",
+          "G33-E03-B02",
+          "G33-E03-B03",
+          "G33-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E03-B01",
+            "G33-E03-B02",
+            "G33-E03-B03",
+            "G33-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G33-E03-AUDIO",
+        "text": "My bag is not as heavy as yours.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G33-E04",
+      "grammarId": "G33",
+      "grammarNameJa": "as ... asの原級比較",
+      "english": "She sings as well as her sister.",
+      "translationJa": "彼女は姉と同じくらい上手に歌います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "well",
+        "start": 13,
+        "endExclusive": 17,
+        "explanationJa": "as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+      },
+      "sentenceExplanationJa": "「She sings as well as her sister.」は「彼女は姉と同じくらい上手に歌います。」という意味です。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。 この文の対象部分は「well」。まとまりは She → sings → as well as → her sister. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "sings",
+          "lemma": "sing",
+          "meaningJa": "歌う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "as",
+          "lemma": "as",
+          "meaningJa": "～と同じくらい・～として",
+          "kind": "word"
+        },
+        {
+          "expression": "well",
+          "lemma": "well",
+          "meaningJa": "上手に・よく",
+          "kind": "word"
+        },
+        {
+          "expression": "her",
+          "lemma": "her",
+          "meaningJa": "彼女を・彼女に・彼女の",
+          "kind": "word"
+        },
+        {
+          "expression": "sister",
+          "lemma": "sister",
+          "meaningJa": "姉・妹",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She sings as ___ as her sister.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 17,
+          "answer": "well"
+        },
+        "options": [
+          {
+            "id": "G33-E04-C1",
+            "text": "well",
+            "isCorrect": true,
+            "explanationJa": "正解。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+          },
+          {
+            "id": "G33-E04-C3",
+            "text": "best",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「well」を使います。「best」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E04-C2",
+            "text": "better",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「well」を使います。「better」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E04-C4",
+            "text": "more well",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「well」を使います。「more well」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G33-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G33-E04-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G33-E04-B02",
+            "text": "sings",
+            "role": "required"
+          },
+          {
+            "id": "G33-E04-B03",
+            "text": "as well as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E04-B04",
+            "text": "her sister.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G33-E04-B01",
+          "G33-E04-B02",
+          "G33-E04-B03",
+          "G33-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E04-B01",
+            "G33-E04-B02",
+            "G33-E04-B03",
+            "G33-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G33-E04-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G33-E04-B02",
+            "text": "sings",
+            "role": "required"
+          },
+          {
+            "id": "G33-E04-B03",
+            "text": "as well as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E04-B04",
+            "text": "her sister.",
+            "role": "required"
+          },
+          {
+            "id": "G33-E04-D01",
+            "text": "better",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「well」と比較してください。"
+          },
+          {
+            "id": "G33-E04-D02",
+            "text": "best",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「well」と比較してください。"
+          },
+          {
+            "id": "G33-E04-D03",
+            "text": "more well",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「well」と比較してください。"
+          },
+          {
+            "id": "G33-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「well」と比較してください。"
+          },
+          {
+            "id": "G33-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「well」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G33-E04-D01",
+            "text": "better",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「well」と比較してください。"
+          },
+          {
+            "id": "G33-E04-D02",
+            "text": "best",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「well」と比較してください。"
+          },
+          {
+            "id": "G33-E04-D03",
+            "text": "more well",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「well」と比較してください。"
+          },
+          {
+            "id": "G33-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「well」と比較してください。"
+          },
+          {
+            "id": "G33-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「well」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G33-E04-B01",
+          "G33-E04-B02",
+          "G33-E04-B03",
+          "G33-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E04-B01",
+            "G33-E04-B02",
+            "G33-E04-B03",
+            "G33-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G33-E04-AUDIO",
+        "text": "She sings as well as her sister.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G33-E05",
+      "grammarId": "G33",
+      "grammarNameJa": "as ... asの原級比較",
+      "english": "This seat is as good as that one.",
+      "translationJa": "この席はあれと同じくらいよいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "good",
+        "start": 16,
+        "endExclusive": 20,
+        "explanationJa": "as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+      },
+      "sentenceExplanationJa": "「This seat is as good as that one.」は「この席はあれと同じくらいよいです。」という意味です。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。 この文の対象部分は「good」。まとまりは This seat → is → as good as → that one. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "seat",
+          "lemma": "seat",
+          "meaningJa": "席",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "as",
+          "lemma": "as",
+          "meaningJa": "～と同じくらい・～として",
+          "kind": "word"
+        },
+        {
+          "expression": "good",
+          "lemma": "good",
+          "meaningJa": "よい",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "one",
+          "lemma": "one",
+          "meaningJa": "1つ・1人／前の名詞の代わり",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This seat is as ___ as that one.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 20,
+          "answer": "good"
+        },
+        "options": [
+          {
+            "id": "G33-E05-C1",
+            "text": "good",
+            "isCorrect": true,
+            "explanationJa": "正解。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+          },
+          {
+            "id": "G33-E05-C4",
+            "text": "well",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「good」を使います。「well」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E05-C3",
+            "text": "best",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「good」を使います。「best」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E05-C2",
+            "text": "better",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「good」を使います。「better」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G33-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G33-E05-B01",
+            "text": "This seat",
+            "role": "required"
+          },
+          {
+            "id": "G33-E05-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G33-E05-B03",
+            "text": "as good as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E05-B04",
+            "text": "that one.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G33-E05-B01",
+          "G33-E05-B02",
+          "G33-E05-B03",
+          "G33-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E05-B01",
+            "G33-E05-B02",
+            "G33-E05-B03",
+            "G33-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G33-E05-B01",
+            "text": "This seat",
+            "role": "required"
+          },
+          {
+            "id": "G33-E05-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G33-E05-B03",
+            "text": "as good as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E05-B04",
+            "text": "that one.",
+            "role": "required"
+          },
+          {
+            "id": "G33-E05-D01",
+            "text": "better",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G33-E05-D02",
+            "text": "best",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G33-E05-D03",
+            "text": "well",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G33-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G33-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G33-E05-D01",
+            "text": "better",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G33-E05-D02",
+            "text": "best",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G33-E05-D03",
+            "text": "well",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G33-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G33-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G33-E05-B01",
+          "G33-E05-B02",
+          "G33-E05-B03",
+          "G33-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E05-B01",
+            "G33-E05-B02",
+            "G33-E05-B03",
+            "G33-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G33-E05-AUDIO",
+        "text": "This seat is as good as that one.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G33-E06",
+      "grammarId": "G33",
+      "grammarNameJa": "as ... asの原級比較",
+      "english": "He runs as fast as his brother.",
+      "translationJa": "彼は兄と同じくらい速く走ります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "fast",
+        "start": 11,
+        "endExclusive": 15,
+        "explanationJa": "as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+      },
+      "sentenceExplanationJa": "「He runs as fast as his brother.」は「彼は兄と同じくらい速く走ります。」という意味です。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。 この文の対象部分は「fast」。まとまりは He → runs → as fast as → his brother. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "runs",
+          "lemma": "run",
+          "meaningJa": "走る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "as",
+          "lemma": "as",
+          "meaningJa": "～と同じくらい・～として",
+          "kind": "word"
+        },
+        {
+          "expression": "fast",
+          "lemma": "fast",
+          "meaningJa": "速い・速く",
+          "kind": "word"
+        },
+        {
+          "expression": "his",
+          "lemma": "his",
+          "meaningJa": "彼の・彼のもの",
+          "kind": "word"
+        },
+        {
+          "expression": "brother",
+          "lemma": "brother",
+          "meaningJa": "兄・弟",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He runs as ___ as his brother.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 15,
+          "answer": "fast"
+        },
+        "options": [
+          {
+            "id": "G33-E06-C1",
+            "text": "fast",
+            "isCorrect": true,
+            "explanationJa": "正解。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+          },
+          {
+            "id": "G33-E06-C4",
+            "text": "more fast",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「fast」を使います。「more fast」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E06-C2",
+            "text": "faster",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「fast」を使います。「faster」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E06-C3",
+            "text": "fastest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「fast」を使います。「fastest」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G33-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G33-E06-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G33-E06-B02",
+            "text": "runs",
+            "role": "required"
+          },
+          {
+            "id": "G33-E06-B03",
+            "text": "as fast as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E06-B04",
+            "text": "his brother.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G33-E06-B01",
+          "G33-E06-B02",
+          "G33-E06-B03",
+          "G33-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E06-B01",
+            "G33-E06-B02",
+            "G33-E06-B03",
+            "G33-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G33-E06-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G33-E06-B02",
+            "text": "runs",
+            "role": "required"
+          },
+          {
+            "id": "G33-E06-B03",
+            "text": "as fast as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E06-B04",
+            "text": "his brother.",
+            "role": "required"
+          },
+          {
+            "id": "G33-E06-D01",
+            "text": "faster",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「fast」と比較してください。"
+          },
+          {
+            "id": "G33-E06-D02",
+            "text": "fastest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「fast」と比較してください。"
+          },
+          {
+            "id": "G33-E06-D03",
+            "text": "more fast",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「fast」と比較してください。"
+          },
+          {
+            "id": "G33-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「fast」と比較してください。"
+          },
+          {
+            "id": "G33-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「fast」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G33-E06-D01",
+            "text": "faster",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「fast」と比較してください。"
+          },
+          {
+            "id": "G33-E06-D02",
+            "text": "fastest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「fast」と比較してください。"
+          },
+          {
+            "id": "G33-E06-D03",
+            "text": "more fast",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「fast」と比較してください。"
+          },
+          {
+            "id": "G33-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「fast」と比較してください。"
+          },
+          {
+            "id": "G33-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「fast」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G33-E06-B01",
+          "G33-E06-B02",
+          "G33-E06-B03",
+          "G33-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E06-B01",
+            "G33-E06-B02",
+            "G33-E06-B03",
+            "G33-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G33-E06-AUDIO",
+        "text": "He runs as fast as his brother.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G33-E07",
+      "grammarId": "G33",
+      "grammarNameJa": "as ... asの原級比較",
+      "english": "This hall is not as big as that hall.",
+      "translationJa": "この会場はあの会場ほど大きくありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "big",
+        "start": 20,
+        "endExclusive": 23,
+        "explanationJa": "as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+      },
+      "sentenceExplanationJa": "「This hall is not as big as that hall.」は「この会場はあの会場ほど大きくありません。」という意味です。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。 この文の対象部分は「big」。まとまりは This hall → is → not as big as → that hall. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "as",
+          "lemma": "as",
+          "meaningJa": "～と同じくらい・～として",
+          "kind": "word"
+        },
+        {
+          "expression": "big",
+          "lemma": "big",
+          "meaningJa": "大きい",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This hall is not as ___ as that hall.",
+        "blank": {
+          "start": 20,
+          "endExclusive": 23,
+          "answer": "big"
+        },
+        "options": [
+          {
+            "id": "G33-E07-C1",
+            "text": "big",
+            "isCorrect": true,
+            "explanationJa": "正解。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+          },
+          {
+            "id": "G33-E07-C3",
+            "text": "biggest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「big」を使います。「biggest」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E07-C2",
+            "text": "bigger",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「big」を使います。「bigger」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E07-C4",
+            "text": "more big",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「big」を使います。「more big」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G33-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G33-E07-B01",
+            "text": "This hall",
+            "role": "required"
+          },
+          {
+            "id": "G33-E07-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G33-E07-B03",
+            "text": "not as big as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E07-B04",
+            "text": "that hall.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G33-E07-B01",
+          "G33-E07-B02",
+          "G33-E07-B03",
+          "G33-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E07-B01",
+            "G33-E07-B02",
+            "G33-E07-B03",
+            "G33-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G33-E07-B01",
+            "text": "This hall",
+            "role": "required"
+          },
+          {
+            "id": "G33-E07-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G33-E07-B03",
+            "text": "not as big as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E07-B04",
+            "text": "that hall.",
+            "role": "required"
+          },
+          {
+            "id": "G33-E07-D01",
+            "text": "bigger",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「big」と比較してください。"
+          },
+          {
+            "id": "G33-E07-D02",
+            "text": "biggest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「big」と比較してください。"
+          },
+          {
+            "id": "G33-E07-D03",
+            "text": "more big",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「big」と比較してください。"
+          },
+          {
+            "id": "G33-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「big」と比較してください。"
+          },
+          {
+            "id": "G33-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「big」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G33-E07-D01",
+            "text": "bigger",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「big」と比較してください。"
+          },
+          {
+            "id": "G33-E07-D02",
+            "text": "biggest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「big」と比較してください。"
+          },
+          {
+            "id": "G33-E07-D03",
+            "text": "more big",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「big」と比較してください。"
+          },
+          {
+            "id": "G33-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「big」と比較してください。"
+          },
+          {
+            "id": "G33-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「big」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G33-E07-B01",
+          "G33-E07-B02",
+          "G33-E07-B03",
+          "G33-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E07-B01",
+            "G33-E07-B02",
+            "G33-E07-B03",
+            "G33-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G33-E07-AUDIO",
+        "text": "This hall is not as big as that hall.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G33-E08",
+      "grammarId": "G33",
+      "grammarNameJa": "as ... asの原級比較",
+      "english": "I am as excited as you.",
+      "translationJa": "私はあなたと同じくらいわくわくしています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "excited",
+        "start": 8,
+        "endExclusive": 15,
+        "explanationJa": "as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+      },
+      "sentenceExplanationJa": "「I am as excited as you.」は「私はあなたと同じくらいわくわくしています。」という意味です。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。 この文の対象部分は「excited」。まとまりは I → am → as excited as → you. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "am",
+          "lemma": "am",
+          "meaningJa": "～です・いる（Iに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "as",
+          "lemma": "as",
+          "meaningJa": "～と同じくらい・～として",
+          "kind": "word"
+        },
+        {
+          "expression": "excited",
+          "lemma": "excited",
+          "meaningJa": "わくわくした・興奮した",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I am as ___ as you.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 15,
+          "answer": "excited"
+        },
+        "options": [
+          {
+            "id": "G33-E08-C4",
+            "text": "excitedly",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「excited」を使います。「excitedly」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E08-C2",
+            "text": "more excited",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「excited」を使います。「more excited」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E08-C3",
+            "text": "most excited",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「excited」を使います。「most excited」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E08-C1",
+            "text": "excited",
+            "isCorrect": true,
+            "explanationJa": "正解。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+          }
+        ],
+        "correctOptionId": "G33-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G33-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G33-E08-B02",
+            "text": "am",
+            "role": "required"
+          },
+          {
+            "id": "G33-E08-B03",
+            "text": "as excited as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E08-B04",
+            "text": "you.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G33-E08-B01",
+          "G33-E08-B02",
+          "G33-E08-B03",
+          "G33-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E08-B01",
+            "G33-E08-B02",
+            "G33-E08-B03",
+            "G33-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G33-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G33-E08-B02",
+            "text": "am",
+            "role": "required"
+          },
+          {
+            "id": "G33-E08-B03",
+            "text": "as excited as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E08-B04",
+            "text": "you.",
+            "role": "required"
+          },
+          {
+            "id": "G33-E08-D01",
+            "text": "more excited",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「excited」と比較してください。"
+          },
+          {
+            "id": "G33-E08-D02",
+            "text": "most excited",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「excited」と比較してください。"
+          },
+          {
+            "id": "G33-E08-D03",
+            "text": "excitedly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「excited」と比較してください。"
+          },
+          {
+            "id": "G33-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「excited」と比較してください。"
+          },
+          {
+            "id": "G33-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「excited」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G33-E08-D01",
+            "text": "more excited",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「excited」と比較してください。"
+          },
+          {
+            "id": "G33-E08-D02",
+            "text": "most excited",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「excited」と比較してください。"
+          },
+          {
+            "id": "G33-E08-D03",
+            "text": "excitedly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「excited」と比較してください。"
+          },
+          {
+            "id": "G33-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「excited」と比較してください。"
+          },
+          {
+            "id": "G33-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「excited」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G33-E08-B01",
+          "G33-E08-B02",
+          "G33-E08-B03",
+          "G33-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E08-B01",
+            "G33-E08-B02",
+            "G33-E08-B03",
+            "G33-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G33-E08-AUDIO",
+        "text": "I am as excited as you.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G33-E09",
+      "grammarId": "G33",
+      "grammarNameJa": "as ... asの原級比較",
+      "english": "This shirt is as bright as the lights.",
+      "translationJa": "このシャツは照明と同じくらい鮮やかです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "bright",
+        "start": 17,
+        "endExclusive": 23,
+        "explanationJa": "as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+      },
+      "sentenceExplanationJa": "「This shirt is as bright as the lights.」は「このシャツは照明と同じくらい鮮やかです。」という意味です。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。 この文の対象部分は「bright」。まとまりは This shirt → is → as bright as → the lights. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "shirt",
+          "lemma": "shirt",
+          "meaningJa": "シャツ",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "as",
+          "lemma": "as",
+          "meaningJa": "～と同じくらい・～として",
+          "kind": "word"
+        },
+        {
+          "expression": "bright",
+          "lemma": "bright",
+          "meaningJa": "明るい・鮮やかな",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "lights",
+          "lemma": "light",
+          "meaningJa": "照明・明かり（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This shirt is as ___ as the lights.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 23,
+          "answer": "bright"
+        },
+        "options": [
+          {
+            "id": "G33-E09-C4",
+            "text": "brightly",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「bright」を使います。「brightly」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E09-C3",
+            "text": "brightest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「bright」を使います。「brightest」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E09-C1",
+            "text": "bright",
+            "isCorrect": true,
+            "explanationJa": "正解。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+          },
+          {
+            "id": "G33-E09-C2",
+            "text": "brighter",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「bright」を使います。「brighter」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G33-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G33-E09-B01",
+            "text": "This shirt",
+            "role": "required"
+          },
+          {
+            "id": "G33-E09-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G33-E09-B03",
+            "text": "as bright as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E09-B04",
+            "text": "the lights.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G33-E09-B01",
+          "G33-E09-B02",
+          "G33-E09-B03",
+          "G33-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E09-B01",
+            "G33-E09-B02",
+            "G33-E09-B03",
+            "G33-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G33-E09-B01",
+            "text": "This shirt",
+            "role": "required"
+          },
+          {
+            "id": "G33-E09-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G33-E09-B03",
+            "text": "as bright as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E09-B04",
+            "text": "the lights.",
+            "role": "required"
+          },
+          {
+            "id": "G33-E09-D01",
+            "text": "brighter",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bright」と比較してください。"
+          },
+          {
+            "id": "G33-E09-D02",
+            "text": "brightest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bright」と比較してください。"
+          },
+          {
+            "id": "G33-E09-D03",
+            "text": "brightly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bright」と比較してください。"
+          },
+          {
+            "id": "G33-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bright」と比較してください。"
+          },
+          {
+            "id": "G33-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bright」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G33-E09-D01",
+            "text": "brighter",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bright」と比較してください。"
+          },
+          {
+            "id": "G33-E09-D02",
+            "text": "brightest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bright」と比較してください。"
+          },
+          {
+            "id": "G33-E09-D03",
+            "text": "brightly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bright」と比較してください。"
+          },
+          {
+            "id": "G33-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bright」と比較してください。"
+          },
+          {
+            "id": "G33-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bright」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G33-E09-B01",
+          "G33-E09-B02",
+          "G33-E09-B03",
+          "G33-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E09-B01",
+            "G33-E09-B02",
+            "G33-E09-B03",
+            "G33-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G33-E09-AUDIO",
+        "text": "This shirt is as bright as the lights.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G33-E10",
+      "grammarId": "G33",
+      "grammarNameJa": "as ... asの原級比較",
+      "english": "My phone is not as new as hers.",
+      "translationJa": "私の携帯電話は彼女のものほど新しくありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "new",
+        "start": 19,
+        "endExclusive": 22,
+        "explanationJa": "as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+      },
+      "sentenceExplanationJa": "「My phone is not as new as hers.」は「私の携帯電話は彼女のものほど新しくありません。」という意味です。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。 この文の対象部分は「new」。まとまりは My phone → is → not as new as → hers. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "phone",
+          "lemma": "phone",
+          "meaningJa": "携帯電話・電話",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "as",
+          "lemma": "as",
+          "meaningJa": "～と同じくらい・～として",
+          "kind": "word"
+        },
+        {
+          "expression": "new",
+          "lemma": "new",
+          "meaningJa": "新しい",
+          "kind": "word"
+        },
+        {
+          "expression": "hers",
+          "lemma": "hers",
+          "meaningJa": "彼女のもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My phone is not as ___ as hers.",
+        "blank": {
+          "start": 19,
+          "endExclusive": 22,
+          "answer": "new"
+        },
+        "options": [
+          {
+            "id": "G33-E10-C3",
+            "text": "newest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「new」を使います。「newest」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E10-C1",
+            "text": "new",
+            "isCorrect": true,
+            "explanationJa": "正解。as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。"
+          },
+          {
+            "id": "G33-E10-C4",
+            "text": "newly",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「new」を使います。「newly」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G33-E10-C2",
+            "text": "newer",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「new」を使います。「newer」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G33-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G33-E10-B01",
+            "text": "My phone",
+            "role": "required"
+          },
+          {
+            "id": "G33-E10-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G33-E10-B03",
+            "text": "not as new as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E10-B04",
+            "text": "hers.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G33-E10-B01",
+          "G33-E10-B02",
+          "G33-E10-B03",
+          "G33-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E10-B01",
+            "G33-E10-B02",
+            "G33-E10-B03",
+            "G33-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G33-E10-B01",
+            "text": "My phone",
+            "role": "required"
+          },
+          {
+            "id": "G33-E10-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G33-E10-B03",
+            "text": "not as new as",
+            "role": "required"
+          },
+          {
+            "id": "G33-E10-B04",
+            "text": "hers.",
+            "role": "required"
+          },
+          {
+            "id": "G33-E10-D01",
+            "text": "newer",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「new」と比較してください。"
+          },
+          {
+            "id": "G33-E10-D02",
+            "text": "newest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「new」と比較してください。"
+          },
+          {
+            "id": "G33-E10-D03",
+            "text": "newly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「new」と比較してください。"
+          },
+          {
+            "id": "G33-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「new」と比較してください。"
+          },
+          {
+            "id": "G33-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「new」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G33-E10-D01",
+            "text": "newer",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「new」と比較してください。"
+          },
+          {
+            "id": "G33-E10-D02",
+            "text": "newest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「new」と比較してください。"
+          },
+          {
+            "id": "G33-E10-D03",
+            "text": "newly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「new」と比較してください。"
+          },
+          {
+            "id": "G33-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「new」と比較してください。"
+          },
+          {
+            "id": "G33-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「new」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G33-E10-B01",
+          "G33-E10-B02",
+          "G33-E10-B03",
+          "G33-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G33-E10-B01",
+            "G33-E10-B02",
+            "G33-E10-B03",
+            "G33-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G33-E10-AUDIO",
+        "text": "My phone is not as new as hers.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

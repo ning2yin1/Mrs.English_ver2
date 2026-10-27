@@ -1,0 +1,20 @@
+{
+  "primarySources": "assets/original/assets",
+  "approvedSupplementSheets": "assets/approved-reference",
+  "newMockups": "assets/new/landscape-mockups",
+  "notRuntimeScreenshots": true,
+  "precedence": [
+    "docs/game-rules.json",
+    "docs/01-ゲーム仕様書.md",
+    "docs/04-全画面UI設計書.md",
+    "image mockups only for visual mood"
+  ],
+  "deprecatedElements": [
+    "ヘッドホン通貨",
+    "ダイヤ",
+    "スタミナ",
+    "英語のINVENTORY・OBTAINED・EQUIPラベル",
+    "横画面変更前の縦画面案"
+  ],
+  "doNotUseGeneratedFacesInRuntime": "実装では元ZIPの写真を使用。画面モック内の顔・文字・数値を素材として切り抜かない。"
+}

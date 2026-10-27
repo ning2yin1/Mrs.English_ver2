@@ -1,0 +1,22 @@
+[
+  {
+    "file": "examples.json",
+    "items": 600,
+    "errors": []
+  },
+  {
+    "file": "questions.json",
+    "items": 1800,
+    "errors": []
+  },
+  {
+    "file": "curriculum.json",
+    "items": 60,
+    "errors": []
+  },
+  {
+    "file": "tts-manifest.json",
+    "items": 600,
+    "errors": []
+  }
+]

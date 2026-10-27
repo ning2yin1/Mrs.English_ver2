@@ -1,0 +1,110 @@
+@01|be動詞の肯定文|1|人や物の状態をam・is・areで表す。主語Iはam、単数はis、複数とyouはare。|am~is~are~be
+I/[am]/a fan.|私はファンです。
+You/[are]/my friend.|あなたは私の友達です。
+This song/[is]/great.|この曲はすばらしいです。
+We/[are]/ready.|私たちは準備ができています。
+My ticket/[is]/here.|私のチケットはここにあります。
+The lights/[are]/bright.|照明は明るいです。
+I/[am]/happy/today.|私は今日うれしいです。
+The concert/[is]/tomorrow.|コンサートは明日です。
+These towels/[are]/soft.|これらのタオルは柔らかいです。
+My sister/[is]/a fan/too.|私の姉もファンです。
+@02|be動詞の否定文|1|be動詞の後ろにnotを置く。主語とbe動詞の一致にも注意する。|am not~is not~are not~be not
+I/[am not]/late.|私は遅刻していません。
+This bag/[is not]/mine.|このバッグは私のものではありません。
+We/[are not]/tired.|私たちは疲れていません。
+The tickets/[are not]/cheap.|そのチケットは安くありません。
+My phone/[is not]/here.|私の携帯電話はここにはありません。
+I/[am not]/alone.|私は一人ではありません。
+You/[are not]/wrong.|あなたは間違っていません。
+The shop/[is not]/open.|その店は開いていません。
+These seats/[are not]/ours.|これらの席は私たちのものではありません。
+My brother/[is not]/angry.|私の兄は怒っていません。
+@03|be動詞の疑問文|1|be動詞を主語の前に置いて質問する。疑問符まで含めて確認する。|Am~Is~Are~Be
+[Are]/you/a fan?|あなたはファンですか。
+[Is]/this/your ticket?|これはあなたのチケットですか。
+[Are]/the seats/near the stage?|その席はステージの近くですか。
+[Am]/I/too early?|私は早すぎますか。
+[Is]/the concert/today?|コンサートは今日ですか。
+[Are]/you/ready?|あなたは準備ができていますか。
+[Is]/your sister/here?|あなたの姉はここにいますか。
+[Are]/these towels/new?|これらのタオルは新しいですか。
+[Is]/that bag/yours?|あのバッグはあなたのものですか。
+[Are]/we/in the right line?|私たちは正しい列にいますか。
+@04|冠詞と名詞の複数形|1|aは子音で始まる音、anは母音で始まる音の前で使う。複数形の名詞にはa・anを付けない。|a~an~two~many
+I/have/[a]/ticket.|私はチケットを1枚持っています。
+She/has/[an]/umbrella.|彼女は傘を1本持っています。
+We/need/[a]/map.|私たちは地図が1枚必要です。
+He/bought/[an]/album.|彼はアルバムを1枚買いました。
+I/want/[a]/towel.|私はタオルが1枚欲しいです。
+She/has/[two]/tickets.|彼女はチケットを2枚持っています。
+I/ate/[an]/apple/before the show.|私は公演前にリンゴを1個食べました。
+We/took/[a]/bus.|私たちはバスに乗りました。
+There are/[many]/fans/here.|ここにはたくさんのファンがいます。
+He/needs/[an]/eraser.|彼は消しゴムを1個必要としています。
+@05|所有格と所有代名詞|1|名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。|AUTO
+This is/[my]/ticket.|これは私のチケットです。
+That towel/is/[mine].|あのタオルは私のものです。
+Is this/[your]/bag?|これはあなたのバッグですか。
+This seat/is/[yours].|この席はあなたのものです。
+I like/[his]/guitar.|私は彼のギターが好きです。
+We found/[her]/phone.|私たちは彼女の携帯電話を見つけました。
+This is/[our]/favorite song.|これは私たちのお気に入りの曲です。
+The front seats/are/[theirs].|前の席は彼らのものです。
+This notebook/is/[hers].|このノートは彼女のものです。
+That little flag/is/[ours].|あの小さな旗は私たちのものです。
+@06|代名詞の目的格|1|動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。|AUTO
+Please/call/[me].|私に電話してください。
+I/know/[him].|私は彼を知っています。
+We/waited for/[her].|私たちは彼女を待ちました。
+The guide/helped/[us].|その案内係は私たちを助けてくれました。
+I/listen to/[them]/every day.|私は毎日彼らの音楽を聴きます。
+Please/send/[me]/the photo.|私にその写真を送ってください。
+My sister/came with/[us].|私の姉は私たちと来ました。
+I/bought/[it]/yesterday.|私は昨日それを買いました。
+She/told/[him]/the news.|彼女は彼にその知らせを伝えました。
+We/met/[them]/at the station.|私たちは駅で彼らに会いました。
+@07|一般動詞の現在形|1|I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。|VERB
+I/[listen]/to Mrs. GREEN APPLE/every day.|私は毎日Mrs. GREEN APPLEの音楽を聴きます。
+We/[practice]/after school.|私たちは放課後に練習します。
+You/[sing]/very well.|あなたはとても上手に歌います。
+I/[keep]/my tickets/in a box.|私はチケットを箱に保管しています。
+They/[share]/their photos/online.|彼らは写真をオンラインで共有します。
+We/[buy]/snacks/before concerts.|私たちはコンサート前にお菓子を買います。
+I/[read]/fan messages/at night.|私は夜にファンのメッセージを読みます。
+My friends/[love]/this band.|私の友達はこのバンドが大好きです。
+I/[save]/money/every month.|私は毎月お金を貯めます。
+We/[walk]/to the station/together.|私たちは一緒に駅まで歩きます。
+@08|三人称単数現在|1|主語がhe・she・単数の人や物なら、現在の一般動詞にs・esなどを付ける。|VERBS
+My sister/[likes]/this song.|私の姉はこの曲が好きです。
+He/[plays]/the guitar/every day.|彼は毎日ギターを弾きます。
+She/[watches]/music videos/at night.|彼女は夜にミュージックビデオを見ます。
+My friend/[studies]/English/after dinner.|私の友達は夕食後に英語を勉強します。
+This shop/[sells]/concert goods.|この店はコンサートグッズを売っています。
+He/[goes]/to school/by bus.|彼はバスで学校へ行きます。
+My father/[knows]/this band.|私の父はこのバンドを知っています。
+She/[carries]/a green bag.|彼女は緑のバッグを持ち歩いています。
+My phone/[needs]/a new battery.|私の携帯電話には新しい電池が必要です。
+The show/[starts]/at seven.|公演は7時に始まります。
+@09|一般動詞の否定文|1|I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。|do not~does not~is not~are not
+I/[do not]/know/this song.|私はこの曲を知りません。
+She/[does not]/have/a ticket.|彼女はチケットを持っていません。
+We/[do not]/watch/TV/in the morning.|私たちは朝にテレビを見ません。
+He/[does not]/play/the drums.|彼はドラムを演奏しません。
+They/[do not]/live/near the hall.|彼らは会場の近くには住んでいません。
+My brother/[does not]/like/long lines.|私の弟は長い行列が好きではありません。
+I/[do not]/need/another bag.|私は別のバッグを必要としていません。
+This train/[does not]/stop/here.|この電車はここには止まりません。
+You/[do not]/look/tired.|あなたは疲れているようには見えません。
+My friends/[do not]/buy/every new item.|私の友達は新商品を全部買うわけではありません。
+@10|一般動詞の疑問文|1|Do・Doesを主語の前に置く。Doesの後ろの動詞も原形にする。|Do~Does~Is~Are
+[Do]/you/like/this band?|あなたはこのバンドが好きですか。
+[Does]/your sister/have/a ticket?|あなたの姉はチケットを持っていますか。
+[Do]/they/practice/here?|彼らはここで練習しますか。
+[Does]/this bus/stop/at the hall?|このバスは会場に止まりますか。
+[Do]/we/need/a map?|私たちは地図が必要ですか。
+[Does]/he/sing/in English?|彼は英語で歌いますか。
+[Do]/your friends/collect/cards?|あなたの友達はカードを集めていますか。
+[Does]/the shop/open/at ten?|その店は10時に開きますか。
+[Do]/you/remember/this melody?|あなたはこのメロディーを覚えていますか。
+[Does]/your phone/work/here?|あなたの携帯電話はここで使えますか。

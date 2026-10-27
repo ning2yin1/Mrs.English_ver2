@@ -1,0 +1,95 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-26",
+  "format": "PNG sheets; static effects; icons on opaque blue review background",
+  "items": [
+    {
+      "file": "01-panels/mission-reward-panels.png",
+      "intendedComponents": 4,
+      "transparentBackgroundRequested": true,
+      "referenceFiles": [
+        "reference\\IMG_0717.PNG",
+        "ui-materials-proposal-v2\\02-explanation-panel.png"
+      ],
+      "prompt": "Use case: ui-mockup. Additional art assets for Mrs. English English study PWA. STRICTLY match the supplied original game screenshots and the APPROVED supplementary panel. Input images are STYLE references ONLY. Visual system: plain flat royal blue #194d84 / navy surfaces, pale cyan #b5faf7 horizontal scanline header chrome, thin cyan edge and offset magenta #ff009e right/bottom edge, 45-degree clipped top-left and bottom-right corners. Modest 2D gradients only. Crisp utilitarian mobile rhythm-game menus. No armored frames, no beveled metal, no excessive neon bloom, no 3D toys, no people, no brand marks, no photos. All text areas EMPTY unless exact text specifically requested. All components separate with generous margins, no overlap, straight-on. A landscape sprite sheet, 2 columns x 2 rows, exactly FOUR independent UI components. Top-left: wide mission row panel with small white outlined checklist at left, blank blue central text zone, small empty cyan progress track at bottom and small square empty reward slot at right. Top-right: same mission row completed state, small cyan check at left and magenta outlined empty claim button at right. Bottom-left: reward acquisition dialog with blank pale cyan scanline header, plain blue main area with single EMPTY square display slot centered, blank footer. Bottom-right: daily attendance week panel with blank cyan header and seven small empty day cells in one row, one selected cyan rim, one checked. NO lettering or numerals anywhere. Transparent outside pieces.",
+      "sourcePath": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-e84d133b-b327-43a0-8a75-5077a4785664.png"
+    },
+    {
+      "file": "02-controls/progress-and-status.png",
+      "intendedComponents": 8,
+      "transparentBackgroundRequested": true,
+      "referenceFiles": [
+        "reference\\IMG_0780.PNG",
+        "ui-materials-proposal-v2\\02-explanation-panel.png"
+      ],
+      "prompt": "Use case: ui-mockup. Additional art assets for Mrs. English English study PWA. STRICTLY match the supplied original game screenshots and the APPROVED supplementary panel. Input images are STYLE references ONLY. Visual system: plain flat royal blue #194d84 / navy surfaces, pale cyan #b5faf7 horizontal scanline header chrome, thin cyan edge and offset magenta #ff009e right/bottom edge, 45-degree clipped top-left and bottom-right corners. Modest 2D gradients only. Crisp utilitarian mobile rhythm-game menus. No armored frames, no beveled metal, no excessive neon bloom, no 3D toys, no people, no brand marks, no photos. All text areas EMPTY unless exact text specifically requested. All components separate with generous margins, no overlap, straight-on. One landscape 2 columns x 4 rows sheet, exactly EIGHT separate UI components. Row1: horizontal empty pill progress track; same track half-filled cyan. Row2: same track full cyan with small white check; compact segmented ten-step progress track with first four segments cyan. Row3: thin countdown ring with one quarter cyan; thin countdown ring three quarters cyan. Row4: wide blank dark translucent combo/count strip with cyan thin top and bottom rules; wide blank level/streak strip with small white monoline flame on left and empty long text region. No text, no numbers. Flat subdued cyan, blue and white, no decorative glow. Transparent margins.",
+      "sourcePath": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-c48368ee-a252-480e-bf86-0897558002a3.png"
+    },
+    {
+      "file": "02-controls/notifications-and-tags.png",
+      "intendedComponents": 10,
+      "transparentBackgroundRequested": true,
+      "referenceFiles": [
+        "reference\\IMG_0719.PNG",
+        "reference\\IMG_0776.PNG"
+      ],
+      "prompt": "Use case: ui-mockup. Additional art assets for Mrs. English English study PWA. STRICTLY match the supplied original game screenshots and the APPROVED supplementary panel. Input images are STYLE references ONLY. Visual system: plain flat royal blue #194d84 / navy surfaces, pale cyan #b5faf7 horizontal scanline header chrome, thin cyan edge and offset magenta #ff009e right/bottom edge, 45-degree clipped top-left and bottom-right corners. Modest 2D gradients only. Crisp utilitarian mobile rhythm-game menus. No armored frames, no beveled metal, no excessive neon bloom, no 3D toys, no people, no brand marks, no photos. All text areas EMPTY unless exact text specifically requested. All components separate with generous margins, no overlap, straight-on. One landscape sheet, exactly TEN isolated small UI elements in 2 columns x 5 rows. Row1: wide blank blue toast with small white check on left; wide blank blue toast with small pink info circle on left. Row2: wide blank warning toast with small yellow outlined triangle; wide blank disabled grey-blue toast with small white lock. Row3: compact magenta corner ribbon with exact white text NEW; compact cyan corner ribbon exact white text EVENT. Row4: compact blue tag exact white text DAILY; compact violet tag exact white text WEEKLY. Row5: tiny red-pink square notification badge with exact white N; small white octagonal quantity badge with magenta lower-right offset, empty inside. Simple flat original game labels. Transparent outside, no extra lettering.",
+      "sourcePath": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-ed44055e-757c-400b-971a-f115ac0b3f69.png"
+    },
+    {
+      "file": "02-controls/settings-and-selection.png",
+      "intendedComponents": 10,
+      "transparentBackgroundRequested": true,
+      "referenceFiles": [
+        "reference\\IMG_0774.PNG",
+        "reference\\IMG_0775.PNG"
+      ],
+      "prompt": "Use case: ui-mockup. Additional art assets for Mrs. English English study PWA. STRICTLY match the supplied original game screenshots and the APPROVED supplementary panel. Input images are STYLE references ONLY. Visual system: plain flat royal blue #194d84 / navy surfaces, pale cyan #b5faf7 horizontal scanline header chrome, thin cyan edge and offset magenta #ff009e right/bottom edge, 45-degree clipped top-left and bottom-right corners. Modest 2D gradients only. Crisp utilitarian mobile rhythm-game menus. No armored frames, no beveled metal, no excessive neon bloom, no 3D toys, no people, no brand marks, no photos. All text areas EMPTY unless exact text specifically requested. All components separate with generous margins, no overlap, straight-on. One landscape sprite sheet exactly TEN isolated controls in 2 columns x 5 rows, no text. Row1: on toggle cyan slider; off toggle gray slider. Row2: checked white square with cyan tick; unchecked thin white square. Row3: selected white radio circle with cyan center; unselected white radio ring. Row4: cyan volume slider with circular white handle at 70 percent; subdued gray-blue disabled slider. Row5: blue short dropdown button with thin white down chevron at right, blank center; blue short selection tab with cyan thin top/left border and magenta bottom edge, blank center. Fine thin outlines, flat look, no glow or metallic surfaces. Transparent outside all.",
+      "sourcePath": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-6b5d2db9-4705-4ad2-bf4e-4e07bd033813.png"
+    },
+    {
+      "file": "03-icons/navigation-icons.png",
+      "intendedComponents": 16,
+      "transparentBackgroundRequested": false,
+      "referenceFiles": [
+        "ui-materials-proposal-v2\\04-learning-icons-review-sheet.png",
+        "reference\\IMG_0719.PNG"
+      ],
+      "prompt": "Use case: ui-mockup. Additional art assets for Mrs. English English study PWA. STRICTLY match the supplied original game screenshots and the APPROVED supplementary panel. Input images are STYLE references ONLY. Visual system: plain flat royal blue #194d84 / navy surfaces, pale cyan #b5faf7 horizontal scanline header chrome, thin cyan edge and offset magenta #ff009e right/bottom edge, 45-degree clipped top-left and bottom-right corners. Modest 2D gradients only. Crisp utilitarian mobile rhythm-game menus. No armored frames, no beveled metal, no excessive neon bloom, no 3D toys, no people, no brand marks, no photos. All text areas EMPTY unless exact text specifically requested. All components separate with generous margins, no overlap, straight-on. An OPAQUE dark navy blue #163c65 icon reference board, exactly SIXTEEN monoline white icons, 4 columns x 4 rows. Reading order: home, gear settings, calendar, clock; bell, envelope, magnifying glass, filter sliders; outlined heart favorite, bookmark, padlock closed, padlock open; cloud download, phone with check for offline saved, information circle, question circle. Match approved white monoline icon sheet: simple clean smooth white strokes equal weight and optical scale, no glow, no texture, no captions, no shadows. Equal cells, generous gutters. This is a review board with solid blue background, not a full app screenshot.",
+      "sourcePath": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-fd9a7ef7-1e1b-4fec-8392-4da7c9b862ef.png"
+    },
+    {
+      "file": "03-icons/study-and-collection-icons.png",
+      "intendedComponents": 16,
+      "transparentBackgroundRequested": false,
+      "referenceFiles": [
+        "ui-materials-proposal-v2\\04-learning-icons-review-sheet.png",
+        "reference\\IMG_0774.PNG"
+      ],
+      "prompt": "Use case: ui-mockup. Additional art assets for Mrs. English English study PWA. STRICTLY match the supplied original game screenshots and the APPROVED supplementary panel. Input images are STYLE references ONLY. Visual system: plain flat royal blue #194d84 / navy surfaces, pale cyan #b5faf7 horizontal scanline header chrome, thin cyan edge and offset magenta #ff009e right/bottom edge, 45-degree clipped top-left and bottom-right corners. Modest 2D gradients only. Crisp utilitarian mobile rhythm-game menus. No armored frames, no beveled metal, no excessive neon bloom, no 3D toys, no people, no brand marks, no photos. All text areas EMPTY unless exact text specifically requested. All components separate with generous margins, no overlap, straight-on. An OPAQUE dark navy blue #163c65 icon reference board, exactly SIXTEEN monoline icons, 4 columns x 4 rows. Reading order: microphone, speech bubble, pencil, two flashcards; book with small bookmark, headphones with play triangle, circular arrows around check for review, bar chart; gift box, card pack envelope, three stacked collectible cards, small trophy; diamond outlined currency, simple coin circle containing a small star, outlined flame streak, target with arrow. White thin smooth strokes for all except bottom row uses pale cyan. Same optical size, clean simple 2D, no fills, no 3D jewels, no texture or distressed edges, no text or extra symbols. Equal cells and generous gutters, match approved icon reference.",
+      "sourcePath": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-fdfdb8e9-9db3-41bf-842d-cd901a57e3c5.png"
+    },
+    {
+      "file": "04-effects/sparkles-and-clear-effects.png",
+      "intendedComponents": 6,
+      "transparentBackgroundRequested": true,
+      "referenceFiles": [
+        "reference\\IMG_0780.PNG",
+        "ui-materials-proposal-v2\\02-explanation-panel.png"
+      ],
+      "prompt": "Use case: ui-mockup. Additional art assets for Mrs. English English study PWA. STRICTLY match the supplied original game screenshots and the APPROVED supplementary panel. Input images are STYLE references ONLY. Visual system: plain flat royal blue #194d84 / navy surfaces, pale cyan #b5faf7 horizontal scanline header chrome, thin cyan edge and offset magenta #ff009e right/bottom edge, 45-degree clipped top-left and bottom-right corners. Modest 2D gradients only. Crisp utilitarian mobile rhythm-game menus. No armored frames, no beveled metal, no excessive neon bloom, no 3D toys, no people, no brand marks, no photos. All text areas EMPTY unless exact text specifically requested. All components separate with generous margins, no overlap, straight-on. Use case: stylized-concept. One landscape 3 columns x 2 rows sprite sheet of SIX isolated STATIC 2D effect overlays in cyan, white and restrained gold. Row1: single crisp four-point white sparkle; cluster of five small cyan-white four-point sparkles; subtle gold-white radial starburst with EMPTY transparent center. Row2: sparse cyan-magenta square confetti burst with EMPTY transparent center; wide thin cyan horizontal light streak with bright center and tapered ends; simple cyan elliptical selection ring with transparent empty center, no particles. All separated, ample transparent gutters, no panels, no letters. Effects are overlays for reward/lesson clear, restrained clean flat rhythm-game style, transparent background.",
+      "sourcePath": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-7c3d0ea0-2996-4e68-accb-50d9f7d59b90.png"
+    },
+    {
+      "file": "04-effects/collection-and-unlock-overlays.png",
+      "intendedComponents": 6,
+      "transparentBackgroundRequested": true,
+      "referenceFiles": [
+        "reference\\IMG_0774.PNG",
+        "reference\\IMG_0762.PNG"
+      ],
+      "prompt": "Use case: ui-mockup. Additional art assets for Mrs. English English study PWA. STRICTLY match the supplied original game screenshots and the APPROVED supplementary panel. Input images are STYLE references ONLY. Visual system: plain flat royal blue #194d84 / navy surfaces, pale cyan #b5faf7 horizontal scanline header chrome, thin cyan edge and offset magenta #ff009e right/bottom edge, 45-degree clipped top-left and bottom-right corners. Modest 2D gradients only. Crisp utilitarian mobile rhythm-game menus. No armored frames, no beveled metal, no excessive neon bloom, no 3D toys, no people, no brand marks, no photos. All text areas EMPTY unless exact text specifically requested. All components separate with generous margins, no overlap, straight-on. A landscape 3 columns x 2 rows sheet of SIX isolated collectible-card overlays. Row1: thin pale cyan portrait rectangular selection outline with clipped top-left/bottom-right and a small cyan check tab at top right, EMPTY TRANSPARENT inside; thin gold portrait highlight outline with EMPTY inside; dark blue translucent portrait locked veil with small white monoline padlock at center. Row2: white diagonal reflective sheen stripe tilted 30 degrees inside an otherwise EMPTY transparent portrait rectangle, no frame; small white circular favorite heart badge; small magenta corner ribbon marked exact white NEW. Consistent minimalist rhythm game UI, no photos, no actual card artwork, no textures, no extra text. Generous clear transparent gutters. Single still image overlay elements, NOT animation frames.",
+      "sourcePath": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-094cb502-6bc9-413f-b612-8847a632c43a.png"
+    }
+  ]
+}

@@ -1,0 +1,2479 @@
+{
+  "grammarId": "G57",
+  "examples": [
+    {
+      "id": "G57-E01",
+      "grammarId": "G57",
+      "grammarNameJa": "関係代名詞・目的格と省略",
+      "english": "This is the ticket that I bought.",
+      "translationJa": "これは私が買ったチケットです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 19,
+        "endExclusive": 23,
+        "explanationJa": "名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+      },
+      "sentenceExplanationJa": "「This is the ticket that I bought.」は「これは私が買ったチケットです。」という意味です。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。 この文の対象部分は「that」。まとまりは This is → the ticket → that → I bought. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "bought",
+          "lemma": "buy",
+          "meaningJa": "買う（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This is the ticket ___ I bought.",
+        "blank": {
+          "start": 19,
+          "endExclusive": 23,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G57-E01-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+          },
+          {
+            "id": "G57-E01-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E01-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E01-C3",
+            "text": "whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「whose」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G57-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G57-E01-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G57-E01-B02",
+            "text": "the ticket",
+            "role": "required"
+          },
+          {
+            "id": "G57-E01-B03",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G57-E01-B04",
+            "text": "I bought.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G57-E01-B01",
+          "G57-E01-B02",
+          "G57-E01-B03",
+          "G57-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E01-B01",
+            "G57-E01-B02",
+            "G57-E01-B03",
+            "G57-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G57-E01-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G57-E01-B02",
+            "text": "the ticket",
+            "role": "required"
+          },
+          {
+            "id": "G57-E01-B03",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G57-E01-B04",
+            "text": "I bought.",
+            "role": "required"
+          },
+          {
+            "id": "G57-E01-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E01-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E01-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G57-E01-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E01-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E01-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G57-E01-B01",
+          "G57-E01-B02",
+          "G57-E01-B03",
+          "G57-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E01-B01",
+            "G57-E01-B02",
+            "G57-E01-B03",
+            "G57-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G57-E01-AUDIO",
+        "text": "This is the ticket that I bought.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G57-E02",
+      "grammarId": "G57",
+      "grammarNameJa": "関係代名詞・目的格と省略",
+      "english": "I like the song which you chose.",
+      "translationJa": "私はあなたが選んだ曲が好きです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "which",
+        "start": 16,
+        "endExclusive": 21,
+        "explanationJa": "名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+      },
+      "sentenceExplanationJa": "「I like the song which you chose.」は「私はあなたが選んだ曲が好きです。」という意味です。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。 この文の対象部分は「which」。まとまりは I like → the song → which → you chose. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "like",
+          "lemma": "like",
+          "meaningJa": "好きである",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "which",
+          "lemma": "which",
+          "meaningJa": "どちら・どの／関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "chose",
+          "lemma": "choose",
+          "meaningJa": "選ぶ（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I like the song ___ you chose.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 21,
+          "answer": "which"
+        },
+        "options": [
+          {
+            "id": "G57-E02-C4",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「which」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E02-C2",
+            "text": "who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「which」を使います。「who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E02-C3",
+            "text": "whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「which」を使います。「whose」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E02-C1",
+            "text": "which",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+          }
+        ],
+        "correctOptionId": "G57-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G57-E02-B01",
+            "text": "I like",
+            "role": "required"
+          },
+          {
+            "id": "G57-E02-B02",
+            "text": "the song",
+            "role": "required"
+          },
+          {
+            "id": "G57-E02-B03",
+            "text": "which",
+            "role": "required"
+          },
+          {
+            "id": "G57-E02-B04",
+            "text": "you chose.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G57-E02-B01",
+          "G57-E02-B02",
+          "G57-E02-B03",
+          "G57-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E02-B01",
+            "G57-E02-B02",
+            "G57-E02-B03",
+            "G57-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G57-E02-B01",
+            "text": "I like",
+            "role": "required"
+          },
+          {
+            "id": "G57-E02-B02",
+            "text": "the song",
+            "role": "required"
+          },
+          {
+            "id": "G57-E02-B03",
+            "text": "which",
+            "role": "required"
+          },
+          {
+            "id": "G57-E02-B04",
+            "text": "you chose.",
+            "role": "required"
+          },
+          {
+            "id": "G57-E02-D01",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E02-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E02-D03",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G57-E02-D01",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E02-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E02-D03",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G57-E02-B01",
+          "G57-E02-B02",
+          "G57-E02-B03",
+          "G57-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E02-B01",
+            "G57-E02-B02",
+            "G57-E02-B03",
+            "G57-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G57-E02-AUDIO",
+        "text": "I like the song which you chose.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G57-E03",
+      "grammarId": "G57",
+      "grammarNameJa": "関係代名詞・目的格と省略",
+      "english": "The fan that I met yesterday was kind.",
+      "translationJa": "昨日私が会ったファンは親切でした。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 8,
+        "endExclusive": 12,
+        "explanationJa": "名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+      },
+      "sentenceExplanationJa": "「The fan that I met yesterday was kind.」は「昨日私が会ったファンは親切でした。」という意味です。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。 この文の対象部分は「that」。まとまりは The fan → that → I met yesterday → was kind. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "fan",
+          "lemma": "fan",
+          "meaningJa": "ファン",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "met",
+          "lemma": "meet",
+          "meaningJa": "会う・集まる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "kind",
+          "lemma": "kind",
+          "meaningJa": "親切な",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The fan ___ I met yesterday was kind.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 12,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G57-E03-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+          },
+          {
+            "id": "G57-E03-C3",
+            "text": "whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「whose」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E03-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E03-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G57-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G57-E03-B01",
+            "text": "The fan",
+            "role": "required"
+          },
+          {
+            "id": "G57-E03-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G57-E03-B03",
+            "text": "I met yesterday",
+            "role": "required"
+          },
+          {
+            "id": "G57-E03-B04",
+            "text": "was kind.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G57-E03-B01",
+          "G57-E03-B02",
+          "G57-E03-B03",
+          "G57-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E03-B01",
+            "G57-E03-B02",
+            "G57-E03-B03",
+            "G57-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G57-E03-B01",
+            "text": "The fan",
+            "role": "required"
+          },
+          {
+            "id": "G57-E03-B02",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G57-E03-B03",
+            "text": "I met yesterday",
+            "role": "required"
+          },
+          {
+            "id": "G57-E03-B04",
+            "text": "was kind.",
+            "role": "required"
+          },
+          {
+            "id": "G57-E03-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E03-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E03-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G57-E03-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E03-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E03-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G57-E03-B01",
+          "G57-E03-B02",
+          "G57-E03-B03",
+          "G57-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E03-B01",
+            "G57-E03-B02",
+            "G57-E03-B03",
+            "G57-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G57-E03-AUDIO",
+        "text": "The fan that I met yesterday was kind.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G57-E04",
+      "grammarId": "G57",
+      "grammarNameJa": "関係代名詞・目的格と省略",
+      "english": "This is the towel that my sister gave me.",
+      "translationJa": "これは姉が私にくれたタオルです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 18,
+        "endExclusive": 22,
+        "explanationJa": "名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+      },
+      "sentenceExplanationJa": "「This is the towel that my sister gave me.」は「これは姉が私にくれたタオルです。」という意味です。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。 この文の対象部分は「that」。まとまりは This is → the towel → that → my sister gave me. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "sister",
+          "lemma": "sister",
+          "meaningJa": "姉・妹",
+          "kind": "word"
+        },
+        {
+          "expression": "gave",
+          "lemma": "give",
+          "meaningJa": "与える・くれる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This is the towel ___ my sister gave me.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 22,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G57-E04-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E04-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+          },
+          {
+            "id": "G57-E04-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E04-C3",
+            "text": "whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「whose」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G57-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G57-E04-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G57-E04-B02",
+            "text": "the towel",
+            "role": "required"
+          },
+          {
+            "id": "G57-E04-B03",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G57-E04-B04",
+            "text": "my sister gave me.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G57-E04-B01",
+          "G57-E04-B02",
+          "G57-E04-B03",
+          "G57-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E04-B01",
+            "G57-E04-B02",
+            "G57-E04-B03",
+            "G57-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G57-E04-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G57-E04-B02",
+            "text": "the towel",
+            "role": "required"
+          },
+          {
+            "id": "G57-E04-B03",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G57-E04-B04",
+            "text": "my sister gave me.",
+            "role": "required"
+          },
+          {
+            "id": "G57-E04-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E04-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E04-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G57-E04-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E04-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E04-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G57-E04-B01",
+          "G57-E04-B02",
+          "G57-E04-B03",
+          "G57-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E04-B01",
+            "G57-E04-B02",
+            "G57-E04-B03",
+            "G57-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G57-E04-AUDIO",
+        "text": "This is the towel that my sister gave me.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G57-E05",
+      "grammarId": "G57",
+      "grammarNameJa": "関係代名詞・目的格と省略",
+      "english": "The book which I am reading is interesting.",
+      "translationJa": "私が読んでいる本はおもしろいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "which",
+        "start": 9,
+        "endExclusive": 14,
+        "explanationJa": "名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+      },
+      "sentenceExplanationJa": "「The book which I am reading is interesting.」は「私が読んでいる本はおもしろいです。」という意味です。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。 この文の対象部分は「which」。まとまりは The book → which → I am reading → is interesting. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "book",
+          "lemma": "book",
+          "meaningJa": "本",
+          "kind": "word"
+        },
+        {
+          "expression": "which",
+          "lemma": "which",
+          "meaningJa": "どちら・どの／関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "am",
+          "lemma": "am",
+          "meaningJa": "～です・いる（Iに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "reading",
+          "lemma": "read",
+          "meaningJa": "読む（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "interesting",
+          "lemma": "interesting",
+          "meaningJa": "おもしろい",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The book ___ I am reading is interesting.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 14,
+          "answer": "which"
+        },
+        "options": [
+          {
+            "id": "G57-E05-C1",
+            "text": "which",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+          },
+          {
+            "id": "G57-E05-C4",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「which」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E05-C2",
+            "text": "who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「which」を使います。「who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E05-C3",
+            "text": "whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「which」を使います。「whose」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G57-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G57-E05-B01",
+            "text": "The book",
+            "role": "required"
+          },
+          {
+            "id": "G57-E05-B02",
+            "text": "which",
+            "role": "required"
+          },
+          {
+            "id": "G57-E05-B03",
+            "text": "I am reading",
+            "role": "required"
+          },
+          {
+            "id": "G57-E05-B04",
+            "text": "is interesting.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G57-E05-B01",
+          "G57-E05-B02",
+          "G57-E05-B03",
+          "G57-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E05-B01",
+            "G57-E05-B02",
+            "G57-E05-B03",
+            "G57-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G57-E05-B01",
+            "text": "The book",
+            "role": "required"
+          },
+          {
+            "id": "G57-E05-B02",
+            "text": "which",
+            "role": "required"
+          },
+          {
+            "id": "G57-E05-B03",
+            "text": "I am reading",
+            "role": "required"
+          },
+          {
+            "id": "G57-E05-B04",
+            "text": "is interesting.",
+            "role": "required"
+          },
+          {
+            "id": "G57-E05-D01",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E05-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E05-D03",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G57-E05-D01",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E05-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E05-D03",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G57-E05-B01",
+          "G57-E05-B02",
+          "G57-E05-B03",
+          "G57-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E05-B01",
+            "G57-E05-B02",
+            "G57-E05-B03",
+            "G57-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G57-E05-AUDIO",
+        "text": "The book which I am reading is interesting.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G57-E06",
+      "grammarId": "G57",
+      "grammarNameJa": "関係代名詞・目的格と省略",
+      "english": "I found the card that you wanted.",
+      "translationJa": "私はあなたが欲しがっていたカードを見つけました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 17,
+        "endExclusive": 21,
+        "explanationJa": "名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+      },
+      "sentenceExplanationJa": "「I found the card that you wanted.」は「私はあなたが欲しがっていたカードを見つけました。」という意味です。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。 この文の対象部分は「that」。まとまりは I found → the card → that → you wanted. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "found",
+          "lemma": "find",
+          "meaningJa": "見つける（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "card",
+          "lemma": "card",
+          "meaningJa": "カード",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "wanted",
+          "lemma": "want",
+          "meaningJa": "欲しい・～したい（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I found the card ___ you wanted.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 21,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G57-E06-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E06-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+          },
+          {
+            "id": "G57-E06-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E06-C3",
+            "text": "whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「whose」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G57-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G57-E06-B01",
+            "text": "I found",
+            "role": "required"
+          },
+          {
+            "id": "G57-E06-B02",
+            "text": "the card",
+            "role": "required"
+          },
+          {
+            "id": "G57-E06-B03",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G57-E06-B04",
+            "text": "you wanted.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G57-E06-B01",
+          "G57-E06-B02",
+          "G57-E06-B03",
+          "G57-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E06-B01",
+            "G57-E06-B02",
+            "G57-E06-B03",
+            "G57-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G57-E06-B01",
+            "text": "I found",
+            "role": "required"
+          },
+          {
+            "id": "G57-E06-B02",
+            "text": "the card",
+            "role": "required"
+          },
+          {
+            "id": "G57-E06-B03",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G57-E06-B04",
+            "text": "you wanted.",
+            "role": "required"
+          },
+          {
+            "id": "G57-E06-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E06-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E06-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G57-E06-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E06-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E06-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G57-E06-B01",
+          "G57-E06-B02",
+          "G57-E06-B03",
+          "G57-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E06-B01",
+            "G57-E06-B02",
+            "G57-E06-B03",
+            "G57-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G57-E06-AUDIO",
+        "text": "I found the card that you wanted.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G57-E07",
+      "grammarId": "G57",
+      "grammarNameJa": "関係代名詞・目的格と省略",
+      "english": "The photo which we took is beautiful.",
+      "translationJa": "私たちが撮った写真は美しいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "which",
+        "start": 10,
+        "endExclusive": 15,
+        "explanationJa": "名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+      },
+      "sentenceExplanationJa": "「The photo which we took is beautiful.」は「私たちが撮った写真は美しいです。」という意味です。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。 この文の対象部分は「which」。まとまりは The photo → which → we took → is beautiful. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "photo",
+          "lemma": "photo",
+          "meaningJa": "写真",
+          "kind": "word"
+        },
+        {
+          "expression": "which",
+          "lemma": "which",
+          "meaningJa": "どちら・どの／関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "we",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "took",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "beautiful",
+          "lemma": "beautiful",
+          "meaningJa": "美しい",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The photo ___ we took is beautiful.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 15,
+          "answer": "which"
+        },
+        "options": [
+          {
+            "id": "G57-E07-C1",
+            "text": "which",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+          },
+          {
+            "id": "G57-E07-C3",
+            "text": "whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「which」を使います。「whose」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E07-C4",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「which」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E07-C2",
+            "text": "who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「which」を使います。「who」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G57-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G57-E07-B01",
+            "text": "The photo",
+            "role": "required"
+          },
+          {
+            "id": "G57-E07-B02",
+            "text": "which",
+            "role": "required"
+          },
+          {
+            "id": "G57-E07-B03",
+            "text": "we took",
+            "role": "required"
+          },
+          {
+            "id": "G57-E07-B04",
+            "text": "is beautiful.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G57-E07-B01",
+          "G57-E07-B02",
+          "G57-E07-B03",
+          "G57-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E07-B01",
+            "G57-E07-B02",
+            "G57-E07-B03",
+            "G57-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G57-E07-B01",
+            "text": "The photo",
+            "role": "required"
+          },
+          {
+            "id": "G57-E07-B02",
+            "text": "which",
+            "role": "required"
+          },
+          {
+            "id": "G57-E07-B03",
+            "text": "we took",
+            "role": "required"
+          },
+          {
+            "id": "G57-E07-B04",
+            "text": "is beautiful.",
+            "role": "required"
+          },
+          {
+            "id": "G57-E07-D01",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E07-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E07-D03",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G57-E07-D01",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E07-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E07-D03",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G57-E07-B01",
+          "G57-E07-B02",
+          "G57-E07-B03",
+          "G57-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E07-B01",
+            "G57-E07-B02",
+            "G57-E07-B03",
+            "G57-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G57-E07-AUDIO",
+        "text": "The photo which we took is beautiful.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G57-E08",
+      "grammarId": "G57",
+      "grammarNameJa": "関係代名詞・目的格と省略",
+      "english": "This is the hall that we visited.",
+      "translationJa": "これは私たちが訪れた会場です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 17,
+        "endExclusive": 21,
+        "explanationJa": "名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+      },
+      "sentenceExplanationJa": "「This is the hall that we visited.」は「これは私たちが訪れた会場です。」という意味です。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。 この文の対象部分は「that」。まとまりは This is → the hall → that → we visited. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "we",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "visited",
+          "lemma": "visit",
+          "meaningJa": "訪れる（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This is the hall ___ we visited.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 21,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G57-E08-C3",
+            "text": "whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「whose」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E08-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E08-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+          },
+          {
+            "id": "G57-E08-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G57-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G57-E08-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G57-E08-B02",
+            "text": "the hall",
+            "role": "required"
+          },
+          {
+            "id": "G57-E08-B03",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G57-E08-B04",
+            "text": "we visited.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G57-E08-B01",
+          "G57-E08-B02",
+          "G57-E08-B03",
+          "G57-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E08-B01",
+            "G57-E08-B02",
+            "G57-E08-B03",
+            "G57-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G57-E08-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G57-E08-B02",
+            "text": "the hall",
+            "role": "required"
+          },
+          {
+            "id": "G57-E08-B03",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G57-E08-B04",
+            "text": "we visited.",
+            "role": "required"
+          },
+          {
+            "id": "G57-E08-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E08-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E08-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G57-E08-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E08-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E08-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G57-E08-B01",
+          "G57-E08-B02",
+          "G57-E08-B03",
+          "G57-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E08-B01",
+            "G57-E08-B02",
+            "G57-E08-B03",
+            "G57-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G57-E08-AUDIO",
+        "text": "This is the hall that we visited.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G57-E09",
+      "grammarId": "G57",
+      "grammarNameJa": "関係代名詞・目的格と省略",
+      "english": "I remember the words that he said.",
+      "translationJa": "私は彼が言った言葉を覚えています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "that",
+        "start": 21,
+        "endExclusive": 25,
+        "explanationJa": "名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+      },
+      "sentenceExplanationJa": "「I remember the words that he said.」は「私は彼が言った言葉を覚えています。」という意味です。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。 この文の対象部分は「that」。まとまりは I remember → the words → that → he said. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "remember",
+          "lemma": "remember",
+          "meaningJa": "覚えている",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "words",
+          "lemma": "word",
+          "meaningJa": "単語・言葉（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "he",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "said",
+          "lemma": "say",
+          "meaningJa": "言う（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I remember the words ___ he said.",
+        "blank": {
+          "start": 21,
+          "endExclusive": 25,
+          "answer": "that"
+        },
+        "options": [
+          {
+            "id": "G57-E09-C2",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E09-C4",
+            "text": "where",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「where」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E09-C3",
+            "text": "whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「that」を使います。「whose」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E09-C1",
+            "text": "that",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+          }
+        ],
+        "correctOptionId": "G57-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G57-E09-B01",
+            "text": "I remember",
+            "role": "required"
+          },
+          {
+            "id": "G57-E09-B02",
+            "text": "the words",
+            "role": "required"
+          },
+          {
+            "id": "G57-E09-B03",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G57-E09-B04",
+            "text": "he said.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G57-E09-B01",
+          "G57-E09-B02",
+          "G57-E09-B03",
+          "G57-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E09-B01",
+            "G57-E09-B02",
+            "G57-E09-B03",
+            "G57-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G57-E09-B01",
+            "text": "I remember",
+            "role": "required"
+          },
+          {
+            "id": "G57-E09-B02",
+            "text": "the words",
+            "role": "required"
+          },
+          {
+            "id": "G57-E09-B03",
+            "text": "that",
+            "role": "required"
+          },
+          {
+            "id": "G57-E09-B04",
+            "text": "he said.",
+            "role": "required"
+          },
+          {
+            "id": "G57-E09-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E09-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E09-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G57-E09-D01",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E09-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E09-D03",
+            "text": "where",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          },
+          {
+            "id": "G57-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「that」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G57-E09-B01",
+          "G57-E09-B02",
+          "G57-E09-B03",
+          "G57-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E09-B01",
+            "G57-E09-B02",
+            "G57-E09-B03",
+            "G57-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G57-E09-AUDIO",
+        "text": "I remember the words that he said.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G57-E10",
+      "grammarId": "G57",
+      "grammarNameJa": "関係代名詞・目的格と省略",
+      "english": "The bag which she carries is green.",
+      "translationJa": "彼女が持ち歩いているバッグは緑色です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "which",
+        "start": 8,
+        "endExclusive": 13,
+        "explanationJa": "名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+      },
+      "sentenceExplanationJa": "「The bag which she carries is green.」は「彼女が持ち歩いているバッグは緑色です。」という意味です。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。 この文の対象部分は「which」。まとまりは The bag → which → she carries → is green. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "which",
+          "lemma": "which",
+          "meaningJa": "どちら・どの／関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "she",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "carries",
+          "lemma": "carry",
+          "meaningJa": "運ぶ・持ち歩く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "green",
+          "lemma": "green",
+          "meaningJa": "緑・緑色の",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The bag ___ she carries is green.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 13,
+          "answer": "which"
+        },
+        "options": [
+          {
+            "id": "G57-E10-C1",
+            "text": "which",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。"
+          },
+          {
+            "id": "G57-E10-C4",
+            "text": "what",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「which」を使います。「what」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E10-C2",
+            "text": "who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「which」を使います。「who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G57-E10-C3",
+            "text": "whose",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「which」を使います。「whose」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G57-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G57-E10-B01",
+            "text": "The bag",
+            "role": "required"
+          },
+          {
+            "id": "G57-E10-B02",
+            "text": "which",
+            "role": "required"
+          },
+          {
+            "id": "G57-E10-B03",
+            "text": "she carries",
+            "role": "required"
+          },
+          {
+            "id": "G57-E10-B04",
+            "text": "is green.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G57-E10-B01",
+          "G57-E10-B02",
+          "G57-E10-B03",
+          "G57-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E10-B01",
+            "G57-E10-B02",
+            "G57-E10-B03",
+            "G57-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G57-E10-B01",
+            "text": "The bag",
+            "role": "required"
+          },
+          {
+            "id": "G57-E10-B02",
+            "text": "which",
+            "role": "required"
+          },
+          {
+            "id": "G57-E10-B03",
+            "text": "she carries",
+            "role": "required"
+          },
+          {
+            "id": "G57-E10-B04",
+            "text": "is green.",
+            "role": "required"
+          },
+          {
+            "id": "G57-E10-D01",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E10-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E10-D03",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G57-E10-D01",
+            "text": "who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E10-D02",
+            "text": "whose",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E10-D03",
+            "text": "what",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          },
+          {
+            "id": "G57-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「which」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G57-E10-B01",
+          "G57-E10-B02",
+          "G57-E10-B03",
+          "G57-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G57-E10-B01",
+            "G57-E10-B02",
+            "G57-E10-B03",
+            "G57-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G57-E10-AUDIO",
+        "text": "The bag which she carries is green.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

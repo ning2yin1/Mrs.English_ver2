@@ -1,0 +1,2471 @@
+{
+  "grammarId": "G59",
+  "examples": [
+    {
+      "id": "G59-E01",
+      "grammarId": "G59",
+      "grammarNameJa": "基本的な仮定法・I wish",
+      "english": "I wish I had a ticket.",
+      "translationJa": "私はチケットを持っていればいいのにと思います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "had",
+        "start": 9,
+        "endExclusive": 12,
+        "explanationJa": "現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+      },
+      "sentenceExplanationJa": "「I wish I had a ticket.」は「私はチケットを持っていればいいのにと思います。」という意味です。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。 この文の対象部分は「had」。まとまりは I wish → I → had → a ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "wish",
+          "lemma": "wish",
+          "meaningJa": "～ならよいのにと思う",
+          "kind": "word"
+        },
+        {
+          "expression": "had",
+          "lemma": "had",
+          "meaningJa": "haveの過去形・過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I wish I ___ a ticket.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 12,
+          "answer": "had"
+        },
+        "options": [
+          {
+            "id": "G59-E01-C1",
+            "text": "had",
+            "isCorrect": true,
+            "explanationJa": "正解。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+          },
+          {
+            "id": "G59-E01-C4",
+            "text": "having",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「had」を使います。「having」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E01-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「had」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E01-C3",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「had」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G59-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G59-E01-B01",
+            "text": "I wish",
+            "role": "required"
+          },
+          {
+            "id": "G59-E01-B02",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E01-B03",
+            "text": "had",
+            "role": "required"
+          },
+          {
+            "id": "G59-E01-B04",
+            "text": "a ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G59-E01-B01",
+          "G59-E01-B02",
+          "G59-E01-B03",
+          "G59-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E01-B01",
+            "G59-E01-B02",
+            "G59-E01-B03",
+            "G59-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G59-E01-B01",
+            "text": "I wish",
+            "role": "required"
+          },
+          {
+            "id": "G59-E01-B02",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E01-B03",
+            "text": "had",
+            "role": "required"
+          },
+          {
+            "id": "G59-E01-B04",
+            "text": "a ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G59-E01-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E01-D02",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E01-D03",
+            "text": "having",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G59-E01-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E01-D02",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E01-D03",
+            "text": "having",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G59-E01-B01",
+          "G59-E01-B02",
+          "G59-E01-B03",
+          "G59-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E01-B01",
+            "G59-E01-B02",
+            "G59-E01-B03",
+            "G59-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G59-E01-AUDIO",
+        "text": "I wish I had a ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G59-E02",
+      "grammarId": "G59",
+      "grammarNameJa": "基本的な仮定法・I wish",
+      "english": "I wish I could play the guitar.",
+      "translationJa": "私はギターが弾けたらいいのにと思います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "could",
+        "start": 9,
+        "endExclusive": 14,
+        "explanationJa": "現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+      },
+      "sentenceExplanationJa": "「I wish I could play the guitar.」は「私はギターが弾けたらいいのにと思います。」という意味です。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。 この文の対象部分は「could」。まとまりは I wish → I → could → play the guitar. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "wish",
+          "lemma": "wish",
+          "meaningJa": "～ならよいのにと思う",
+          "kind": "word"
+        },
+        {
+          "expression": "could",
+          "lemma": "could",
+          "meaningJa": "～できた・仮に～できるのに・丁寧な依頼",
+          "kind": "word"
+        },
+        {
+          "expression": "play",
+          "lemma": "play",
+          "meaningJa": "演奏する・遊ぶ",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "guitar",
+          "lemma": "guitar",
+          "meaningJa": "ギター",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I wish I ___ play the guitar.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 14,
+          "answer": "could"
+        },
+        "options": [
+          {
+            "id": "G59-E02-C3",
+            "text": "could to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「could」を使います。「could to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E02-C2",
+            "text": "can",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「could」を使います。「can」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E02-C4",
+            "text": "could be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「could」を使います。「could be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E02-C1",
+            "text": "could",
+            "isCorrect": true,
+            "explanationJa": "正解。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+          }
+        ],
+        "correctOptionId": "G59-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G59-E02-B01",
+            "text": "I wish",
+            "role": "required"
+          },
+          {
+            "id": "G59-E02-B02",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E02-B03",
+            "text": "could",
+            "role": "required"
+          },
+          {
+            "id": "G59-E02-B04",
+            "text": "play the guitar.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G59-E02-B01",
+          "G59-E02-B02",
+          "G59-E02-B03",
+          "G59-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E02-B01",
+            "G59-E02-B02",
+            "G59-E02-B03",
+            "G59-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G59-E02-B01",
+            "text": "I wish",
+            "role": "required"
+          },
+          {
+            "id": "G59-E02-B02",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E02-B03",
+            "text": "could",
+            "role": "required"
+          },
+          {
+            "id": "G59-E02-B04",
+            "text": "play the guitar.",
+            "role": "required"
+          },
+          {
+            "id": "G59-E02-D01",
+            "text": "can",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E02-D02",
+            "text": "could to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E02-D03",
+            "text": "could be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G59-E02-D01",
+            "text": "can",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E02-D02",
+            "text": "could to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E02-D03",
+            "text": "could be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G59-E02-B01",
+          "G59-E02-B02",
+          "G59-E02-B03",
+          "G59-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E02-B01",
+            "G59-E02-B02",
+            "G59-E02-B03",
+            "G59-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G59-E02-AUDIO",
+        "text": "I wish I could play the guitar.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G59-E03",
+      "grammarId": "G59",
+      "grammarNameJa": "基本的な仮定法・I wish",
+      "english": "I would buy that towel if I had more money.",
+      "translationJa": "もっとお金があれば、私はあのタオルを買うのに。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "would",
+        "start": 2,
+        "endExclusive": 7,
+        "explanationJa": "現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+      },
+      "sentenceExplanationJa": "「I would buy that towel if I had more money.」は「もっとお金があれば、私はあのタオルを買うのに。」という意味です。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。 この文の対象部分は「would」。まとまりは I → would → buy that towel → if I had more money. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "would",
+          "lemma": "would",
+          "meaningJa": "仮定の結果・丁寧な依頼を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "buy",
+          "lemma": "buy",
+          "meaningJa": "買う",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "had",
+          "lemma": "had",
+          "meaningJa": "haveの過去形・過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "more",
+          "lemma": "more",
+          "meaningJa": "もっと・より多くの",
+          "kind": "word"
+        },
+        {
+          "expression": "money",
+          "lemma": "money",
+          "meaningJa": "お金",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ buy that towel if I had more money.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 7,
+          "answer": "would"
+        },
+        "options": [
+          {
+            "id": "G59-E03-C3",
+            "text": "would to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「would」を使います。「would to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E03-C1",
+            "text": "would",
+            "isCorrect": true,
+            "explanationJa": "正解。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+          },
+          {
+            "id": "G59-E03-C2",
+            "text": "will",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「would」を使います。「will」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E03-C4",
+            "text": "would be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「would」を使います。「would be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G59-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G59-E03-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E03-B02",
+            "text": "would",
+            "role": "required"
+          },
+          {
+            "id": "G59-E03-B03",
+            "text": "buy that towel",
+            "role": "required"
+          },
+          {
+            "id": "G59-E03-B04",
+            "text": "if I had more money.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G59-E03-B01",
+          "G59-E03-B02",
+          "G59-E03-B03",
+          "G59-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E03-B01",
+            "G59-E03-B02",
+            "G59-E03-B03",
+            "G59-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G59-E03-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E03-B02",
+            "text": "would",
+            "role": "required"
+          },
+          {
+            "id": "G59-E03-B03",
+            "text": "buy that towel",
+            "role": "required"
+          },
+          {
+            "id": "G59-E03-B04",
+            "text": "if I had more money.",
+            "role": "required"
+          },
+          {
+            "id": "G59-E03-D01",
+            "text": "will",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E03-D02",
+            "text": "would to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E03-D03",
+            "text": "would be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G59-E03-D01",
+            "text": "will",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E03-D02",
+            "text": "would to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E03-D03",
+            "text": "would be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G59-E03-B01",
+          "G59-E03-B02",
+          "G59-E03-B03",
+          "G59-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E03-B01",
+            "G59-E03-B02",
+            "G59-E03-B03",
+            "G59-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G59-E03-AUDIO",
+        "text": "I would buy that towel if I had more money.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G59-E04",
+      "grammarId": "G59",
+      "grammarNameJa": "基本的な仮定法・I wish",
+      "english": "I would sing every day if I were a singer.",
+      "translationJa": "もし歌手なら、私は毎日歌うのに。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "would",
+        "start": 2,
+        "endExclusive": 7,
+        "explanationJa": "現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+      },
+      "sentenceExplanationJa": "「I would sing every day if I were a singer.」は「もし歌手なら、私は毎日歌うのに。」という意味です。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。 この文の対象部分は「would」。まとまりは I → would → sing every day → if I were a singer. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "would",
+          "lemma": "would",
+          "meaningJa": "仮定の結果・丁寧な依頼を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "sing",
+          "lemma": "sing",
+          "meaningJa": "歌う",
+          "kind": "word"
+        },
+        {
+          "expression": "every",
+          "lemma": "every",
+          "meaningJa": "毎～・すべての",
+          "kind": "word"
+        },
+        {
+          "expression": "day",
+          "lemma": "day",
+          "meaningJa": "日・一日",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "were",
+          "lemma": "were",
+          "meaningJa": "～でした・いた（複数などのbe動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "singer",
+          "lemma": "singer",
+          "meaningJa": "歌手",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ sing every day if I were a singer.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 7,
+          "answer": "would"
+        },
+        "options": [
+          {
+            "id": "G59-E04-C2",
+            "text": "will",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「would」を使います。「will」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E04-C4",
+            "text": "would be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「would」を使います。「would be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E04-C3",
+            "text": "would to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「would」を使います。「would to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E04-C1",
+            "text": "would",
+            "isCorrect": true,
+            "explanationJa": "正解。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+          }
+        ],
+        "correctOptionId": "G59-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G59-E04-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E04-B02",
+            "text": "would",
+            "role": "required"
+          },
+          {
+            "id": "G59-E04-B03",
+            "text": "sing every day",
+            "role": "required"
+          },
+          {
+            "id": "G59-E04-B04",
+            "text": "if I were a singer.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G59-E04-B01",
+          "G59-E04-B02",
+          "G59-E04-B03",
+          "G59-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E04-B01",
+            "G59-E04-B02",
+            "G59-E04-B03",
+            "G59-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G59-E04-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E04-B02",
+            "text": "would",
+            "role": "required"
+          },
+          {
+            "id": "G59-E04-B03",
+            "text": "sing every day",
+            "role": "required"
+          },
+          {
+            "id": "G59-E04-B04",
+            "text": "if I were a singer.",
+            "role": "required"
+          },
+          {
+            "id": "G59-E04-D01",
+            "text": "will",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E04-D02",
+            "text": "would to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E04-D03",
+            "text": "would be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G59-E04-D01",
+            "text": "will",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E04-D02",
+            "text": "would to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E04-D03",
+            "text": "would be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G59-E04-B01",
+          "G59-E04-B02",
+          "G59-E04-B03",
+          "G59-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E04-B01",
+            "G59-E04-B02",
+            "G59-E04-B03",
+            "G59-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G59-E04-AUDIO",
+        "text": "I would sing every day if I were a singer.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G59-E05",
+      "grammarId": "G59",
+      "grammarNameJa": "基本的な仮定法・I wish",
+      "english": "I wish the hall were closer.",
+      "translationJa": "会場がもっと近ければいいのにと思います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "were",
+        "start": 16,
+        "endExclusive": 20,
+        "explanationJa": "現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+      },
+      "sentenceExplanationJa": "「I wish the hall were closer.」は「会場がもっと近ければいいのにと思います。」という意味です。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。 この文の対象部分は「were」。まとまりは I wish → the hall → were → closer. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "wish",
+          "lemma": "wish",
+          "meaningJa": "～ならよいのにと思う",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        },
+        {
+          "expression": "were",
+          "lemma": "were",
+          "meaningJa": "～でした・いた（複数などのbe動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "closer",
+          "lemma": "closer",
+          "meaningJa": "より近い",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I wish the hall ___ closer.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 20,
+          "answer": "were"
+        },
+        "options": [
+          {
+            "id": "G59-E05-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E05-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E05-C1",
+            "text": "were",
+            "isCorrect": true,
+            "explanationJa": "正解。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+          },
+          {
+            "id": "G59-E05-C2",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G59-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G59-E05-B01",
+            "text": "I wish",
+            "role": "required"
+          },
+          {
+            "id": "G59-E05-B02",
+            "text": "the hall",
+            "role": "required"
+          },
+          {
+            "id": "G59-E05-B03",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G59-E05-B04",
+            "text": "closer.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G59-E05-B01",
+          "G59-E05-B02",
+          "G59-E05-B03",
+          "G59-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E05-B01",
+            "G59-E05-B02",
+            "G59-E05-B03",
+            "G59-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G59-E05-B01",
+            "text": "I wish",
+            "role": "required"
+          },
+          {
+            "id": "G59-E05-B02",
+            "text": "the hall",
+            "role": "required"
+          },
+          {
+            "id": "G59-E05-B03",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G59-E05-B04",
+            "text": "closer.",
+            "role": "required"
+          },
+          {
+            "id": "G59-E05-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E05-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E05-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G59-E05-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E05-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E05-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G59-E05-B01",
+          "G59-E05-B02",
+          "G59-E05-B03",
+          "G59-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E05-B01",
+            "G59-E05-B02",
+            "G59-E05-B03",
+            "G59-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G59-E05-AUDIO",
+        "text": "I wish the hall were closer.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G59-E06",
+      "grammarId": "G59",
+      "grammarNameJa": "基本的な仮定法・I wish",
+      "english": "I could take a picture if I had a camera.",
+      "translationJa": "カメラがあれば、私は写真を撮れるのに。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "could",
+        "start": 2,
+        "endExclusive": 7,
+        "explanationJa": "現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+      },
+      "sentenceExplanationJa": "「I could take a picture if I had a camera.」は「カメラがあれば、私は写真を撮れるのに。」という意味です。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。 この文の対象部分は「could」。まとまりは I → could → take a picture → if I had a camera. の順です。",
+      "glossary": [
+        {
+          "expression": "take a picture",
+          "meaningJa": "写真を撮る",
+          "kind": "phrase"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "could",
+          "lemma": "could",
+          "meaningJa": "～できた・仮に～できるのに・丁寧な依頼",
+          "kind": "word"
+        },
+        {
+          "expression": "take",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "picture",
+          "lemma": "picture",
+          "meaningJa": "写真・絵",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "had",
+          "lemma": "had",
+          "meaningJa": "haveの過去形・過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "camera",
+          "lemma": "camera",
+          "meaningJa": "カメラ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ take a picture if I had a camera.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 7,
+          "answer": "could"
+        },
+        "options": [
+          {
+            "id": "G59-E06-C2",
+            "text": "can",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「could」を使います。「can」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E06-C4",
+            "text": "could be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「could」を使います。「could be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E06-C3",
+            "text": "could to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「could」を使います。「could to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E06-C1",
+            "text": "could",
+            "isCorrect": true,
+            "explanationJa": "正解。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+          }
+        ],
+        "correctOptionId": "G59-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G59-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E06-B02",
+            "text": "could",
+            "role": "required"
+          },
+          {
+            "id": "G59-E06-B03",
+            "text": "take a picture",
+            "role": "required"
+          },
+          {
+            "id": "G59-E06-B04",
+            "text": "if I had a camera.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G59-E06-B01",
+          "G59-E06-B02",
+          "G59-E06-B03",
+          "G59-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E06-B01",
+            "G59-E06-B02",
+            "G59-E06-B03",
+            "G59-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G59-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E06-B02",
+            "text": "could",
+            "role": "required"
+          },
+          {
+            "id": "G59-E06-B03",
+            "text": "take a picture",
+            "role": "required"
+          },
+          {
+            "id": "G59-E06-B04",
+            "text": "if I had a camera.",
+            "role": "required"
+          },
+          {
+            "id": "G59-E06-D01",
+            "text": "can",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E06-D02",
+            "text": "could to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E06-D03",
+            "text": "could be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G59-E06-D01",
+            "text": "can",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E06-D02",
+            "text": "could to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E06-D03",
+            "text": "could be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          },
+          {
+            "id": "G59-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「could」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G59-E06-B01",
+          "G59-E06-B02",
+          "G59-E06-B03",
+          "G59-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E06-B01",
+            "G59-E06-B02",
+            "G59-E06-B03",
+            "G59-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G59-E06-AUDIO",
+        "text": "I could take a picture if I had a camera.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G59-E07",
+      "grammarId": "G59",
+      "grammarNameJa": "基本的な仮定法・I wish",
+      "english": "I wish my bag were lighter.",
+      "translationJa": "バッグがもっと軽ければいいのにと思います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "were",
+        "start": 14,
+        "endExclusive": 18,
+        "explanationJa": "現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+      },
+      "sentenceExplanationJa": "「I wish my bag were lighter.」は「バッグがもっと軽ければいいのにと思います。」という意味です。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。 この文の対象部分は「were」。まとまりは I wish → my bag → were → lighter. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "wish",
+          "lemma": "wish",
+          "meaningJa": "～ならよいのにと思う",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "were",
+          "lemma": "were",
+          "meaningJa": "～でした・いた（複数などのbe動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "lighter",
+          "lemma": "lighter",
+          "meaningJa": "より軽い",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I wish my bag ___ lighter.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 18,
+          "answer": "were"
+        },
+        "options": [
+          {
+            "id": "G59-E07-C1",
+            "text": "were",
+            "isCorrect": true,
+            "explanationJa": "正解。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+          },
+          {
+            "id": "G59-E07-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E07-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E07-C2",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G59-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G59-E07-B01",
+            "text": "I wish",
+            "role": "required"
+          },
+          {
+            "id": "G59-E07-B02",
+            "text": "my bag",
+            "role": "required"
+          },
+          {
+            "id": "G59-E07-B03",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G59-E07-B04",
+            "text": "lighter.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G59-E07-B01",
+          "G59-E07-B02",
+          "G59-E07-B03",
+          "G59-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E07-B01",
+            "G59-E07-B02",
+            "G59-E07-B03",
+            "G59-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G59-E07-B01",
+            "text": "I wish",
+            "role": "required"
+          },
+          {
+            "id": "G59-E07-B02",
+            "text": "my bag",
+            "role": "required"
+          },
+          {
+            "id": "G59-E07-B03",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G59-E07-B04",
+            "text": "lighter.",
+            "role": "required"
+          },
+          {
+            "id": "G59-E07-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E07-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E07-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G59-E07-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E07-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E07-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G59-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G59-E07-B01",
+          "G59-E07-B02",
+          "G59-E07-B03",
+          "G59-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E07-B01",
+            "G59-E07-B02",
+            "G59-E07-B03",
+            "G59-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G59-E07-AUDIO",
+        "text": "I wish my bag were lighter.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G59-E08",
+      "grammarId": "G59",
+      "grammarNameJa": "基本的な仮定法・I wish",
+      "english": "I would tell you if I knew the answer.",
+      "translationJa": "答えがわかれば、私はあなたに教えるのに。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "would",
+        "start": 2,
+        "endExclusive": 7,
+        "explanationJa": "現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+      },
+      "sentenceExplanationJa": "「I would tell you if I knew the answer.」は「答えがわかれば、私はあなたに教えるのに。」という意味です。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。 この文の対象部分は「would」。まとまりは I → would → tell you → if I knew the answer. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "would",
+          "lemma": "would",
+          "meaningJa": "仮定の結果・丁寧な依頼を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "tell",
+          "lemma": "tell",
+          "meaningJa": "伝える・言う",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "knew",
+          "lemma": "know",
+          "meaningJa": "知っている（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "answer",
+          "lemma": "answer",
+          "meaningJa": "答え・答える",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ tell you if I knew the answer.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 7,
+          "answer": "would"
+        },
+        "options": [
+          {
+            "id": "G59-E08-C4",
+            "text": "would be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「would」を使います。「would be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E08-C2",
+            "text": "will",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「would」を使います。「will」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E08-C1",
+            "text": "would",
+            "isCorrect": true,
+            "explanationJa": "正解。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+          },
+          {
+            "id": "G59-E08-C3",
+            "text": "would to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「would」を使います。「would to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G59-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G59-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E08-B02",
+            "text": "would",
+            "role": "required"
+          },
+          {
+            "id": "G59-E08-B03",
+            "text": "tell you",
+            "role": "required"
+          },
+          {
+            "id": "G59-E08-B04",
+            "text": "if I knew the answer.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G59-E08-B01",
+          "G59-E08-B02",
+          "G59-E08-B03",
+          "G59-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E08-B01",
+            "G59-E08-B02",
+            "G59-E08-B03",
+            "G59-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G59-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E08-B02",
+            "text": "would",
+            "role": "required"
+          },
+          {
+            "id": "G59-E08-B03",
+            "text": "tell you",
+            "role": "required"
+          },
+          {
+            "id": "G59-E08-B04",
+            "text": "if I knew the answer.",
+            "role": "required"
+          },
+          {
+            "id": "G59-E08-D01",
+            "text": "will",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E08-D02",
+            "text": "would to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E08-D03",
+            "text": "would be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G59-E08-D01",
+            "text": "will",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E08-D02",
+            "text": "would to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E08-D03",
+            "text": "would be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G59-E08-B01",
+          "G59-E08-B02",
+          "G59-E08-B03",
+          "G59-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E08-B01",
+            "G59-E08-B02",
+            "G59-E08-B03",
+            "G59-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G59-E08-AUDIO",
+        "text": "I would tell you if I knew the answer.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G59-E09",
+      "grammarId": "G59",
+      "grammarNameJa": "基本的な仮定法・I wish",
+      "english": "I wish I had more free time.",
+      "translationJa": "もっと自由な時間があればいいのにと思います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "had",
+        "start": 9,
+        "endExclusive": 12,
+        "explanationJa": "現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+      },
+      "sentenceExplanationJa": "「I wish I had more free time.」は「もっと自由な時間があればいいのにと思います。」という意味です。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。 この文の対象部分は「had」。まとまりは I wish → I → had → more free time. の順です。",
+      "glossary": [
+        {
+          "expression": "free time",
+          "meaningJa": "自由な時間",
+          "kind": "phrase"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "wish",
+          "lemma": "wish",
+          "meaningJa": "～ならよいのにと思う",
+          "kind": "word"
+        },
+        {
+          "expression": "had",
+          "lemma": "had",
+          "meaningJa": "haveの過去形・過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "more",
+          "lemma": "more",
+          "meaningJa": "もっと・より多くの",
+          "kind": "word"
+        },
+        {
+          "expression": "free",
+          "lemma": "free",
+          "meaningJa": "自由な・無料の",
+          "kind": "word"
+        },
+        {
+          "expression": "time",
+          "lemma": "time",
+          "meaningJa": "時間・時・回数",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I wish I ___ more free time.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 12,
+          "answer": "had"
+        },
+        "options": [
+          {
+            "id": "G59-E09-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「had」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E09-C1",
+            "text": "had",
+            "isCorrect": true,
+            "explanationJa": "正解。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+          },
+          {
+            "id": "G59-E09-C4",
+            "text": "having",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「had」を使います。「having」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E09-C3",
+            "text": "has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「had」を使います。「has」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G59-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G59-E09-B01",
+            "text": "I wish",
+            "role": "required"
+          },
+          {
+            "id": "G59-E09-B02",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E09-B03",
+            "text": "had",
+            "role": "required"
+          },
+          {
+            "id": "G59-E09-B04",
+            "text": "more free time.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G59-E09-B01",
+          "G59-E09-B02",
+          "G59-E09-B03",
+          "G59-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E09-B01",
+            "G59-E09-B02",
+            "G59-E09-B03",
+            "G59-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G59-E09-B01",
+            "text": "I wish",
+            "role": "required"
+          },
+          {
+            "id": "G59-E09-B02",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E09-B03",
+            "text": "had",
+            "role": "required"
+          },
+          {
+            "id": "G59-E09-B04",
+            "text": "more free time.",
+            "role": "required"
+          },
+          {
+            "id": "G59-E09-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E09-D02",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E09-D03",
+            "text": "having",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G59-E09-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E09-D02",
+            "text": "has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E09-D03",
+            "text": "having",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          },
+          {
+            "id": "G59-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「had」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G59-E09-B01",
+          "G59-E09-B02",
+          "G59-E09-B03",
+          "G59-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E09-B01",
+            "G59-E09-B02",
+            "G59-E09-B03",
+            "G59-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G59-E09-AUDIO",
+        "text": "I wish I had more free time.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G59-E10",
+      "grammarId": "G59",
+      "grammarNameJa": "基本的な仮定法・I wish",
+      "english": "I would check the ticket if I were you.",
+      "translationJa": "もし私があなたなら、そのチケットを確認するでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "would",
+        "start": 2,
+        "endExclusive": 7,
+        "explanationJa": "現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+      },
+      "sentenceExplanationJa": "「I would check the ticket if I were you.」は「もし私があなたなら、そのチケットを確認するでしょう。」という意味です。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。 この文の対象部分は「would」。まとまりは I → would → check the ticket → if I were you. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "would",
+          "lemma": "would",
+          "meaningJa": "仮定の結果・丁寧な依頼を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "check",
+          "lemma": "check",
+          "meaningJa": "確認する",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "were",
+          "lemma": "were",
+          "meaningJa": "～でした・いた（複数などのbe動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ check the ticket if I were you.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 7,
+          "answer": "would"
+        },
+        "options": [
+          {
+            "id": "G59-E10-C3",
+            "text": "would to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「would」を使います。「would to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E10-C4",
+            "text": "would be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「would」を使います。「would be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G59-E10-C1",
+            "text": "would",
+            "isCorrect": true,
+            "explanationJa": "正解。現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。"
+          },
+          {
+            "id": "G59-E10-C2",
+            "text": "will",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「would」を使います。「will」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G59-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G59-E10-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E10-B02",
+            "text": "would",
+            "role": "required"
+          },
+          {
+            "id": "G59-E10-B03",
+            "text": "check the ticket",
+            "role": "required"
+          },
+          {
+            "id": "G59-E10-B04",
+            "text": "if I were you.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G59-E10-B01",
+          "G59-E10-B02",
+          "G59-E10-B03",
+          "G59-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E10-B01",
+            "G59-E10-B02",
+            "G59-E10-B03",
+            "G59-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G59-E10-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G59-E10-B02",
+            "text": "would",
+            "role": "required"
+          },
+          {
+            "id": "G59-E10-B03",
+            "text": "check the ticket",
+            "role": "required"
+          },
+          {
+            "id": "G59-E10-B04",
+            "text": "if I were you.",
+            "role": "required"
+          },
+          {
+            "id": "G59-E10-D01",
+            "text": "will",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E10-D02",
+            "text": "would to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E10-D03",
+            "text": "would be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G59-E10-D01",
+            "text": "will",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E10-D02",
+            "text": "would to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E10-D03",
+            "text": "would be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          },
+          {
+            "id": "G59-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「would」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G59-E10-B01",
+          "G59-E10-B02",
+          "G59-E10-B03",
+          "G59-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G59-E10-B01",
+            "G59-E10-B02",
+            "G59-E10-B03",
+            "G59-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G59-E10-AUDIO",
+        "text": "I would check the ticket if I were you.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

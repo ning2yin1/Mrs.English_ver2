@@ -1,0 +1,26 @@
+{
+  "colors": {
+    "navy": "#08162c",
+    "panel": "#194d84",
+    "cyan": "#2bb9e8",
+    "paleCyan": "#b5faf7",
+    "magenta": "#ff009e",
+    "purple": "#4b2ca0",
+    "text": "#ffffff"
+  },
+  "baseCanvas": [
+    844,
+    390
+  ],
+  "tapMinPx": 44,
+  "gapPx": 8,
+  "borderPx": 2,
+  "cutCornerPx": 10,
+  "photoBlackOverlay": 0.55,
+  "bodyFont": "Hiragino Sans, sans-serif",
+  "displayFont": "Barlow Condensed",
+  "displayWeights": [
+    700
+  ],
+  "orientation": "landscape"
+}

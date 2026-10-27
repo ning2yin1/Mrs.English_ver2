@@ -1,0 +1,83 @@
+[
+  {
+    "id": "tap",
+    "path": "assets/new/sfx/tap.wav",
+    "durationMs": 60,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peak": 0.215545654296875,
+    "license": "このキット用に合成したオリジナルUI効果音。プロジェクト内で利用・改変可。"
+  },
+  {
+    "id": "confirm",
+    "path": "assets/new/sfx/confirm.wav",
+    "durationMs": 190,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peak": 0.253265380859375,
+    "license": "このキット用に合成したオリジナルUI効果音。プロジェクト内で利用・改変可。"
+  },
+  {
+    "id": "correct",
+    "path": "assets/new/sfx/correct.wav",
+    "durationMs": 240,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peak": 0.263916015625,
+    "license": "このキット用に合成したオリジナルUI効果音。プロジェクト内で利用・改変可。"
+  },
+  {
+    "id": "miss",
+    "path": "assets/new/sfx/miss.wav",
+    "durationMs": 240,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peak": 0.253631591796875,
+    "license": "このキット用に合成したオリジナルUI効果音。プロジェクト内で利用・改変可。"
+  },
+  {
+    "id": "time-up",
+    "path": "assets/new/sfx/time-up.wav",
+    "durationMs": 180,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peak": 0.25213623046875,
+    "license": "このキット用に合成したオリジナルUI効果音。プロジェクト内で利用・改変可。"
+  },
+  {
+    "id": "star",
+    "path": "assets/new/sfx/star.wav",
+    "durationMs": 135,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peak": 0.263275146484375,
+    "license": "このキット用に合成したオリジナルUI効果音。プロジェクト内で利用・改変可。"
+  },
+  {
+    "id": "pack-open",
+    "path": "assets/new/sfx/pack-open.wav",
+    "durationMs": 580,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peak": 0.2763671875,
+    "license": "このキット用に合成したオリジナルUI効果音。プロジェクト内で利用・改変可。"
+  },
+  {
+    "id": "level-up",
+    "path": "assets/new/sfx/level-up.wav",
+    "durationMs": 520,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peak": 0.277740478515625,
+    "license": "このキット用に合成したオリジナルUI効果音。プロジェクト内で利用・改変可。"
+  },
+  {
+    "id": "new-record",
+    "path": "assets/new/sfx/new-record.wav",
+    "durationMs": 540,
+    "sampleRate": 44100,
+    "channels": 1,
+    "peak": 0.27923583984375,
+    "license": "このキット用に合成したオリジナルUI効果音。プロジェクト内で利用・改変可。"
+  }
+]

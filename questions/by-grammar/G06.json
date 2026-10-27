@@ -1,0 +1,2240 @@
+{
+  "grammarId": "G06",
+  "examples": [
+    {
+      "id": "G06-E01",
+      "grammarId": "G06",
+      "grammarNameJa": "代名詞の目的格",
+      "english": "Please call me.",
+      "translationJa": "私に電話してください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "me",
+        "start": 12,
+        "endExclusive": 14,
+        "explanationJa": "動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+      },
+      "sentenceExplanationJa": "「Please call me.」は「私に電話してください。」という意味です。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。 この文の対象部分は「me」。まとまりは Please → call → me. の順です。",
+      "glossary": [
+        {
+          "expression": "Please",
+          "lemma": "please",
+          "meaningJa": "どうぞ・～してください",
+          "kind": "word"
+        },
+        {
+          "expression": "call",
+          "lemma": "call",
+          "meaningJa": "呼ぶ・電話する",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Please call ___.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 14,
+          "answer": "me"
+        },
+        "options": [
+          {
+            "id": "G06-E01-C3",
+            "text": "my",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「my」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E01-C2",
+            "text": "I",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「I」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E01-C1",
+            "text": "me",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+          },
+          {
+            "id": "G06-E01-C4",
+            "text": "mine",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「mine」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G06-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G06-E01-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G06-E01-B02",
+            "text": "call",
+            "role": "required"
+          },
+          {
+            "id": "G06-E01-B03",
+            "text": "me.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G06-E01-B01",
+          "G06-E01-B02",
+          "G06-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E01-B01",
+            "G06-E01-B02",
+            "G06-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G06-E01-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G06-E01-B02",
+            "text": "call",
+            "role": "required"
+          },
+          {
+            "id": "G06-E01-B03",
+            "text": "me.",
+            "role": "required"
+          },
+          {
+            "id": "G06-E01-D01",
+            "text": "I",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E01-D02",
+            "text": "my",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E01-D03",
+            "text": "mine",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G06-E01-D01",
+            "text": "I",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E01-D02",
+            "text": "my",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E01-D03",
+            "text": "mine",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G06-E01-B01",
+          "G06-E01-B02",
+          "G06-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E01-B01",
+            "G06-E01-B02",
+            "G06-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G06-E01-AUDIO",
+        "text": "Please call me.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G06-E02",
+      "grammarId": "G06",
+      "grammarNameJa": "代名詞の目的格",
+      "english": "I know him.",
+      "translationJa": "私は彼を知っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "him",
+        "start": 7,
+        "endExclusive": 10,
+        "explanationJa": "動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+      },
+      "sentenceExplanationJa": "「I know him.」は「私は彼を知っています。」という意味です。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。 この文の対象部分は「him」。まとまりは I → know → him. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "know",
+          "lemma": "know",
+          "meaningJa": "知っている",
+          "kind": "word"
+        },
+        {
+          "expression": "him",
+          "lemma": "him",
+          "meaningJa": "彼を・彼に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I know ___.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 10,
+          "answer": "him"
+        },
+        "options": [
+          {
+            "id": "G06-E02-C3",
+            "text": "his",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「him」を使います。「his」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E02-C1",
+            "text": "him",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+          },
+          {
+            "id": "G06-E02-C2",
+            "text": "he",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「him」を使います。「he」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E02-C4",
+            "text": "himself",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「him」を使います。「himself」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G06-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G06-E02-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G06-E02-B02",
+            "text": "know",
+            "role": "required"
+          },
+          {
+            "id": "G06-E02-B03",
+            "text": "him.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G06-E02-B01",
+          "G06-E02-B02",
+          "G06-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E02-B01",
+            "G06-E02-B02",
+            "G06-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G06-E02-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G06-E02-B02",
+            "text": "know",
+            "role": "required"
+          },
+          {
+            "id": "G06-E02-B03",
+            "text": "him.",
+            "role": "required"
+          },
+          {
+            "id": "G06-E02-D01",
+            "text": "he",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E02-D02",
+            "text": "his",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E02-D03",
+            "text": "himself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G06-E02-D01",
+            "text": "he",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E02-D02",
+            "text": "his",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E02-D03",
+            "text": "himself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G06-E02-B01",
+          "G06-E02-B02",
+          "G06-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E02-B01",
+            "G06-E02-B02",
+            "G06-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G06-E02-AUDIO",
+        "text": "I know him.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G06-E03",
+      "grammarId": "G06",
+      "grammarNameJa": "代名詞の目的格",
+      "english": "We waited for her.",
+      "translationJa": "私たちは彼女を待ちました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "her",
+        "start": 14,
+        "endExclusive": 17,
+        "explanationJa": "動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+      },
+      "sentenceExplanationJa": "「We waited for her.」は「私たちは彼女を待ちました。」という意味です。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。 この文の対象部分は「her」。まとまりは We → waited for → her. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "waited",
+          "lemma": "wait",
+          "meaningJa": "待つ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "her",
+          "lemma": "her",
+          "meaningJa": "彼女を・彼女に・彼女の",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We waited for ___.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 17,
+          "answer": "her"
+        },
+        "options": [
+          {
+            "id": "G06-E03-C4",
+            "text": "herself",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「her」を使います。「herself」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E03-C1",
+            "text": "her",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+          },
+          {
+            "id": "G06-E03-C3",
+            "text": "hers",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「her」を使います。「hers」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E03-C2",
+            "text": "she",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「her」を使います。「she」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G06-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G06-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G06-E03-B02",
+            "text": "waited for",
+            "role": "required"
+          },
+          {
+            "id": "G06-E03-B03",
+            "text": "her.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G06-E03-B01",
+          "G06-E03-B02",
+          "G06-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E03-B01",
+            "G06-E03-B02",
+            "G06-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G06-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G06-E03-B02",
+            "text": "waited for",
+            "role": "required"
+          },
+          {
+            "id": "G06-E03-B03",
+            "text": "her.",
+            "role": "required"
+          },
+          {
+            "id": "G06-E03-D01",
+            "text": "she",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G06-E03-D02",
+            "text": "hers",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G06-E03-D03",
+            "text": "herself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G06-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G06-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G06-E03-D01",
+            "text": "she",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G06-E03-D02",
+            "text": "hers",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G06-E03-D03",
+            "text": "herself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G06-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G06-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G06-E03-B01",
+          "G06-E03-B02",
+          "G06-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E03-B01",
+            "G06-E03-B02",
+            "G06-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G06-E03-AUDIO",
+        "text": "We waited for her.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G06-E04",
+      "grammarId": "G06",
+      "grammarNameJa": "代名詞の目的格",
+      "english": "The guide helped us.",
+      "translationJa": "その案内係は私たちを助けてくれました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "us",
+        "start": 17,
+        "endExclusive": 19,
+        "explanationJa": "動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+      },
+      "sentenceExplanationJa": "「The guide helped us.」は「その案内係は私たちを助けてくれました。」という意味です。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。 この文の対象部分は「us」。まとまりは The guide → helped → us. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "guide",
+          "lemma": "guide",
+          "meaningJa": "案内係・案内する",
+          "kind": "word"
+        },
+        {
+          "expression": "helped",
+          "lemma": "help",
+          "meaningJa": "助ける・手伝う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The guide helped ___.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 19,
+          "answer": "us"
+        },
+        "options": [
+          {
+            "id": "G06-E04-C2",
+            "text": "we",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「us」を使います。「we」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E04-C1",
+            "text": "us",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+          },
+          {
+            "id": "G06-E04-C3",
+            "text": "our",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「us」を使います。「our」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E04-C4",
+            "text": "ours",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「us」を使います。「ours」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G06-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G06-E04-B01",
+            "text": "The guide",
+            "role": "required"
+          },
+          {
+            "id": "G06-E04-B02",
+            "text": "helped",
+            "role": "required"
+          },
+          {
+            "id": "G06-E04-B03",
+            "text": "us.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G06-E04-B01",
+          "G06-E04-B02",
+          "G06-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E04-B01",
+            "G06-E04-B02",
+            "G06-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G06-E04-B01",
+            "text": "The guide",
+            "role": "required"
+          },
+          {
+            "id": "G06-E04-B02",
+            "text": "helped",
+            "role": "required"
+          },
+          {
+            "id": "G06-E04-B03",
+            "text": "us.",
+            "role": "required"
+          },
+          {
+            "id": "G06-E04-D01",
+            "text": "we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E04-D02",
+            "text": "our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E04-D03",
+            "text": "ours",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G06-E04-D01",
+            "text": "we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E04-D02",
+            "text": "our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E04-D03",
+            "text": "ours",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G06-E04-B01",
+          "G06-E04-B02",
+          "G06-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E04-B01",
+            "G06-E04-B02",
+            "G06-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G06-E04-AUDIO",
+        "text": "The guide helped us.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G06-E05",
+      "grammarId": "G06",
+      "grammarNameJa": "代名詞の目的格",
+      "english": "I listen to them every day.",
+      "translationJa": "私は毎日彼らの音楽を聴きます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "them",
+        "start": 12,
+        "endExclusive": 16,
+        "explanationJa": "動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+      },
+      "sentenceExplanationJa": "「I listen to them every day.」は「私は毎日彼らの音楽を聴きます。」という意味です。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。 この文の対象部分は「them」。まとまりは I → listen to → them → every day. の順です。",
+      "glossary": [
+        {
+          "expression": "listen to",
+          "meaningJa": "～を聴く",
+          "kind": "phrase"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "listen",
+          "lemma": "listen",
+          "meaningJa": "耳を傾けて聴く",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "them",
+          "lemma": "them",
+          "meaningJa": "彼らを・彼らに",
+          "kind": "word"
+        },
+        {
+          "expression": "every",
+          "lemma": "every",
+          "meaningJa": "毎～・すべての",
+          "kind": "word"
+        },
+        {
+          "expression": "day",
+          "lemma": "day",
+          "meaningJa": "日・一日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I listen to ___ every day.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 16,
+          "answer": "them"
+        },
+        "options": [
+          {
+            "id": "G06-E05-C3",
+            "text": "their",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「them」を使います。「their」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E05-C2",
+            "text": "they",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「them」を使います。「they」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E05-C1",
+            "text": "them",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+          },
+          {
+            "id": "G06-E05-C4",
+            "text": "theirs",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「them」を使います。「theirs」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G06-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G06-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G06-E05-B02",
+            "text": "listen to",
+            "role": "required"
+          },
+          {
+            "id": "G06-E05-B03",
+            "text": "them",
+            "role": "required"
+          },
+          {
+            "id": "G06-E05-B04",
+            "text": "every day.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G06-E05-B01",
+          "G06-E05-B02",
+          "G06-E05-B03",
+          "G06-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E05-B01",
+            "G06-E05-B02",
+            "G06-E05-B03",
+            "G06-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G06-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G06-E05-B02",
+            "text": "listen to",
+            "role": "required"
+          },
+          {
+            "id": "G06-E05-B03",
+            "text": "them",
+            "role": "required"
+          },
+          {
+            "id": "G06-E05-B04",
+            "text": "every day.",
+            "role": "required"
+          },
+          {
+            "id": "G06-E05-D01",
+            "text": "they",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E05-D02",
+            "text": "their",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E05-D03",
+            "text": "theirs",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G06-E05-D01",
+            "text": "they",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E05-D02",
+            "text": "their",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E05-D03",
+            "text": "theirs",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G06-E05-B01",
+          "G06-E05-B02",
+          "G06-E05-B03",
+          "G06-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E05-B01",
+            "G06-E05-B02",
+            "G06-E05-B03",
+            "G06-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G06-E05-AUDIO",
+        "text": "I listen to them every day.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G06-E06",
+      "grammarId": "G06",
+      "grammarNameJa": "代名詞の目的格",
+      "english": "Please send me the photo.",
+      "translationJa": "私にその写真を送ってください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "me",
+        "start": 12,
+        "endExclusive": 14,
+        "explanationJa": "動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+      },
+      "sentenceExplanationJa": "「Please send me the photo.」は「私にその写真を送ってください。」という意味です。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。 この文の対象部分は「me」。まとまりは Please → send → me → the photo. の順です。",
+      "glossary": [
+        {
+          "expression": "Please",
+          "lemma": "please",
+          "meaningJa": "どうぞ・～してください",
+          "kind": "word"
+        },
+        {
+          "expression": "send",
+          "lemma": "send",
+          "meaningJa": "送る",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "photo",
+          "lemma": "photo",
+          "meaningJa": "写真",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Please send ___ the photo.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 14,
+          "answer": "me"
+        },
+        "options": [
+          {
+            "id": "G06-E06-C3",
+            "text": "my",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「my」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E06-C2",
+            "text": "I",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「I」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E06-C1",
+            "text": "me",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+          },
+          {
+            "id": "G06-E06-C4",
+            "text": "mine",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「me」を使います。「mine」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G06-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G06-E06-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G06-E06-B02",
+            "text": "send",
+            "role": "required"
+          },
+          {
+            "id": "G06-E06-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G06-E06-B04",
+            "text": "the photo.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G06-E06-B01",
+          "G06-E06-B02",
+          "G06-E06-B03",
+          "G06-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E06-B01",
+            "G06-E06-B02",
+            "G06-E06-B03",
+            "G06-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G06-E06-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G06-E06-B02",
+            "text": "send",
+            "role": "required"
+          },
+          {
+            "id": "G06-E06-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G06-E06-B04",
+            "text": "the photo.",
+            "role": "required"
+          },
+          {
+            "id": "G06-E06-D01",
+            "text": "I",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E06-D02",
+            "text": "my",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E06-D03",
+            "text": "mine",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G06-E06-D01",
+            "text": "I",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E06-D02",
+            "text": "my",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E06-D03",
+            "text": "mine",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          },
+          {
+            "id": "G06-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「me」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G06-E06-B01",
+          "G06-E06-B02",
+          "G06-E06-B03",
+          "G06-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E06-B01",
+            "G06-E06-B02",
+            "G06-E06-B03",
+            "G06-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G06-E06-AUDIO",
+        "text": "Please send me the photo.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G06-E07",
+      "grammarId": "G06",
+      "grammarNameJa": "代名詞の目的格",
+      "english": "My sister came with us.",
+      "translationJa": "私の姉は私たちと来ました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "us",
+        "start": 20,
+        "endExclusive": 22,
+        "explanationJa": "動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+      },
+      "sentenceExplanationJa": "「My sister came with us.」は「私の姉は私たちと来ました。」という意味です。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。 この文の対象部分は「us」。まとまりは My sister → came with → us. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "sister",
+          "lemma": "sister",
+          "meaningJa": "姉・妹",
+          "kind": "word"
+        },
+        {
+          "expression": "came",
+          "lemma": "come",
+          "meaningJa": "来る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "with",
+          "lemma": "with",
+          "meaningJa": "～と一緒に・～で",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My sister came with ___.",
+        "blank": {
+          "start": 20,
+          "endExclusive": 22,
+          "answer": "us"
+        },
+        "options": [
+          {
+            "id": "G06-E07-C2",
+            "text": "we",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「us」を使います。「we」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E07-C4",
+            "text": "ours",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「us」を使います。「ours」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E07-C3",
+            "text": "our",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「us」を使います。「our」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E07-C1",
+            "text": "us",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+          }
+        ],
+        "correctOptionId": "G06-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G06-E07-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G06-E07-B02",
+            "text": "came with",
+            "role": "required"
+          },
+          {
+            "id": "G06-E07-B03",
+            "text": "us.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G06-E07-B01",
+          "G06-E07-B02",
+          "G06-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E07-B01",
+            "G06-E07-B02",
+            "G06-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G06-E07-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G06-E07-B02",
+            "text": "came with",
+            "role": "required"
+          },
+          {
+            "id": "G06-E07-B03",
+            "text": "us.",
+            "role": "required"
+          },
+          {
+            "id": "G06-E07-D01",
+            "text": "we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E07-D02",
+            "text": "our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E07-D03",
+            "text": "ours",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G06-E07-D01",
+            "text": "we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E07-D02",
+            "text": "our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E07-D03",
+            "text": "ours",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          },
+          {
+            "id": "G06-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「us」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G06-E07-B01",
+          "G06-E07-B02",
+          "G06-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E07-B01",
+            "G06-E07-B02",
+            "G06-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G06-E07-AUDIO",
+        "text": "My sister came with us.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G06-E08",
+      "grammarId": "G06",
+      "grammarNameJa": "代名詞の目的格",
+      "english": "I bought it yesterday.",
+      "translationJa": "私は昨日それを買いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "it",
+        "start": 9,
+        "endExclusive": 11,
+        "explanationJa": "動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+      },
+      "sentenceExplanationJa": "「I bought it yesterday.」は「私は昨日それを買いました。」という意味です。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。 この文の対象部分は「it」。まとまりは I → bought → it → yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "bought",
+          "lemma": "buy",
+          "meaningJa": "買う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "it",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I bought ___ yesterday.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 11,
+          "answer": "it"
+        },
+        "options": [
+          {
+            "id": "G06-E08-C3",
+            "text": "itself",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「it」を使います。「itself」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E08-C2",
+            "text": "its",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「it」を使います。「its」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E08-C1",
+            "text": "it",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+          },
+          {
+            "id": "G06-E08-C4",
+            "text": "they",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「it」を使います。「they」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G06-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G06-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G06-E08-B02",
+            "text": "bought",
+            "role": "required"
+          },
+          {
+            "id": "G06-E08-B03",
+            "text": "it",
+            "role": "required"
+          },
+          {
+            "id": "G06-E08-B04",
+            "text": "yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G06-E08-B01",
+          "G06-E08-B02",
+          "G06-E08-B03",
+          "G06-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E08-B01",
+            "G06-E08-B02",
+            "G06-E08-B03",
+            "G06-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G06-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G06-E08-B02",
+            "text": "bought",
+            "role": "required"
+          },
+          {
+            "id": "G06-E08-B03",
+            "text": "it",
+            "role": "required"
+          },
+          {
+            "id": "G06-E08-B04",
+            "text": "yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G06-E08-D01",
+            "text": "its",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「it」と比較してください。"
+          },
+          {
+            "id": "G06-E08-D02",
+            "text": "itself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「it」と比較してください。"
+          },
+          {
+            "id": "G06-E08-D03",
+            "text": "they",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「it」と比較してください。"
+          },
+          {
+            "id": "G06-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「it」と比較してください。"
+          },
+          {
+            "id": "G06-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「it」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G06-E08-D01",
+            "text": "its",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「it」と比較してください。"
+          },
+          {
+            "id": "G06-E08-D02",
+            "text": "itself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「it」と比較してください。"
+          },
+          {
+            "id": "G06-E08-D03",
+            "text": "they",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「it」と比較してください。"
+          },
+          {
+            "id": "G06-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「it」と比較してください。"
+          },
+          {
+            "id": "G06-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「it」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G06-E08-B01",
+          "G06-E08-B02",
+          "G06-E08-B03",
+          "G06-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E08-B01",
+            "G06-E08-B02",
+            "G06-E08-B03",
+            "G06-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G06-E08-AUDIO",
+        "text": "I bought it yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G06-E09",
+      "grammarId": "G06",
+      "grammarNameJa": "代名詞の目的格",
+      "english": "She told him the news.",
+      "translationJa": "彼女は彼にその知らせを伝えました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "him",
+        "start": 9,
+        "endExclusive": 12,
+        "explanationJa": "動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+      },
+      "sentenceExplanationJa": "「She told him the news.」は「彼女は彼にその知らせを伝えました。」という意味です。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。 この文の対象部分は「him」。まとまりは She → told → him → the news. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "told",
+          "lemma": "tell",
+          "meaningJa": "伝える・言う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "him",
+          "lemma": "him",
+          "meaningJa": "彼を・彼に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "news",
+          "lemma": "news",
+          "meaningJa": "知らせ・ニュース",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She told ___ the news.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 12,
+          "answer": "him"
+        },
+        "options": [
+          {
+            "id": "G06-E09-C1",
+            "text": "him",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+          },
+          {
+            "id": "G06-E09-C3",
+            "text": "his",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「him」を使います。「his」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E09-C2",
+            "text": "he",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「him」を使います。「he」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E09-C4",
+            "text": "himself",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「him」を使います。「himself」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G06-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G06-E09-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G06-E09-B02",
+            "text": "told",
+            "role": "required"
+          },
+          {
+            "id": "G06-E09-B03",
+            "text": "him",
+            "role": "required"
+          },
+          {
+            "id": "G06-E09-B04",
+            "text": "the news.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G06-E09-B01",
+          "G06-E09-B02",
+          "G06-E09-B03",
+          "G06-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E09-B01",
+            "G06-E09-B02",
+            "G06-E09-B03",
+            "G06-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G06-E09-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G06-E09-B02",
+            "text": "told",
+            "role": "required"
+          },
+          {
+            "id": "G06-E09-B03",
+            "text": "him",
+            "role": "required"
+          },
+          {
+            "id": "G06-E09-B04",
+            "text": "the news.",
+            "role": "required"
+          },
+          {
+            "id": "G06-E09-D01",
+            "text": "he",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E09-D02",
+            "text": "his",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E09-D03",
+            "text": "himself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G06-E09-D01",
+            "text": "he",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E09-D02",
+            "text": "his",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E09-D03",
+            "text": "himself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          },
+          {
+            "id": "G06-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「him」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G06-E09-B01",
+          "G06-E09-B02",
+          "G06-E09-B03",
+          "G06-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E09-B01",
+            "G06-E09-B02",
+            "G06-E09-B03",
+            "G06-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G06-E09-AUDIO",
+        "text": "She told him the news.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G06-E10",
+      "grammarId": "G06",
+      "grammarNameJa": "代名詞の目的格",
+      "english": "We met them at the station.",
+      "translationJa": "私たちは駅で彼らに会いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "them",
+        "start": 7,
+        "endExclusive": 11,
+        "explanationJa": "動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+      },
+      "sentenceExplanationJa": "「We met them at the station.」は「私たちは駅で彼らに会いました。」という意味です。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。 この文の対象部分は「them」。まとまりは We → met → them → at the station. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "met",
+          "lemma": "meet",
+          "meaningJa": "会う・集まる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "them",
+          "lemma": "them",
+          "meaningJa": "彼らを・彼らに",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "station",
+          "lemma": "station",
+          "meaningJa": "駅",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We met ___ at the station.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 11,
+          "answer": "them"
+        },
+        "options": [
+          {
+            "id": "G06-E10-C4",
+            "text": "theirs",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「them」を使います。「theirs」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E10-C3",
+            "text": "their",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「them」を使います。「their」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E10-C2",
+            "text": "they",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「them」を使います。「they」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G06-E10-C1",
+            "text": "them",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞や前置詞の後ろではme・him・her・us・themなどの目的格を使う。"
+          }
+        ],
+        "correctOptionId": "G06-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G06-E10-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G06-E10-B02",
+            "text": "met",
+            "role": "required"
+          },
+          {
+            "id": "G06-E10-B03",
+            "text": "them",
+            "role": "required"
+          },
+          {
+            "id": "G06-E10-B04",
+            "text": "at the station.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G06-E10-B01",
+          "G06-E10-B02",
+          "G06-E10-B03",
+          "G06-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E10-B01",
+            "G06-E10-B02",
+            "G06-E10-B03",
+            "G06-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G06-E10-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G06-E10-B02",
+            "text": "met",
+            "role": "required"
+          },
+          {
+            "id": "G06-E10-B03",
+            "text": "them",
+            "role": "required"
+          },
+          {
+            "id": "G06-E10-B04",
+            "text": "at the station.",
+            "role": "required"
+          },
+          {
+            "id": "G06-E10-D01",
+            "text": "they",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E10-D02",
+            "text": "their",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E10-D03",
+            "text": "theirs",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G06-E10-D01",
+            "text": "they",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E10-D02",
+            "text": "their",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E10-D03",
+            "text": "theirs",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          },
+          {
+            "id": "G06-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「them」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G06-E10-B01",
+          "G06-E10-B02",
+          "G06-E10-B03",
+          "G06-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G06-E10-B01",
+            "G06-E10-B02",
+            "G06-E10-B03",
+            "G06-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G06-E10-AUDIO",
+        "text": "We met them at the station.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

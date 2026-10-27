@@ -1,0 +1,14 @@
+/* 実装前の再利用可能な演出素材。アプリ本体や画面実装ではありません。 */
+@keyframes me-tap-pulse {0%,100%{opacity:.35}50%{opacity:1}}
+@keyframes me-enter {from{opacity:0;transform:translateX(12px)}to{opacity:1;transform:translateX(0)}}
+@keyframes me-judge {0%{opacity:0;transform:scale(.9)}20%{opacity:1;transform:scale(1.06)}45%,85%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(1)}}
+@keyframes me-miss {0%,100%{transform:translateX(0)}25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
+@keyframes me-star {0%{opacity:0;transform:scale(.7)}65%{opacity:1;transform:scale(1.15)}100%{opacity:1;transform:scale(1)}}
+@keyframes me-level {0%,100%{transform:scale(1)}45%{transform:scale(1.03)}}
+.me-tap{animation:me-tap-pulse 2.4s ease-in-out infinite}
+.me-enter{animation:me-enter 160ms ease-out both}
+.me-judge{animation:me-judge 700ms ease-out both;pointer-events:none}
+.me-miss{animation:me-miss 180ms linear}
+.me-star{animation:me-star 180ms ease-out both}
+.me-level{animation:me-level 400ms ease-in-out}
+@media(prefers-reduced-motion:reduce){.me-tap{animation:none;opacity:1}.me-enter,.me-judge,.me-miss,.me-star,.me-level{animation:none;transform:none;opacity:1}}

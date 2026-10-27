@@ -1,0 +1,2657 @@
+{
+  "grammarId": "G32",
+  "examples": [
+    {
+      "id": "G32-E01",
+      "grammarId": "G32",
+      "grammarNameJa": "最上級",
+      "english": "This is the biggest hall in our town.",
+      "translationJa": "これは私たちの町で一番大きな会場です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "biggest",
+        "start": 12,
+        "endExclusive": 19,
+        "explanationJa": "三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+      },
+      "sentenceExplanationJa": "「This is the biggest hall in our town.」は「これは私たちの町で一番大きな会場です。」という意味です。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。 この文の対象部分は「biggest」。まとまりは This is → the → biggest → hall → in our town. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "biggest",
+          "lemma": "big",
+          "meaningJa": "大きい（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "our",
+          "lemma": "our",
+          "meaningJa": "私たちの",
+          "kind": "word"
+        },
+        {
+          "expression": "town",
+          "lemma": "town",
+          "meaningJa": "町",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This is the ___ hall in our town.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 19,
+          "answer": "biggest"
+        },
+        "options": [
+          {
+            "id": "G32-E01-C4",
+            "text": "most big",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「biggest」を使います。「most big」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E01-C1",
+            "text": "biggest",
+            "isCorrect": true,
+            "explanationJa": "正解。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+          },
+          {
+            "id": "G32-E01-C2",
+            "text": "big",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「biggest」を使います。「big」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E01-C3",
+            "text": "bigger",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「biggest」を使います。「bigger」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G32-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G32-E01-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E01-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E01-B03",
+            "text": "biggest",
+            "role": "required"
+          },
+          {
+            "id": "G32-E01-B04",
+            "text": "hall",
+            "role": "required"
+          },
+          {
+            "id": "G32-E01-B05",
+            "text": "in our town.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G32-E01-B01",
+          "G32-E01-B02",
+          "G32-E01-B03",
+          "G32-E01-B04",
+          "G32-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E01-B01",
+            "G32-E01-B02",
+            "G32-E01-B03",
+            "G32-E01-B04",
+            "G32-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G32-E01-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E01-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E01-B03",
+            "text": "biggest",
+            "role": "required"
+          },
+          {
+            "id": "G32-E01-B04",
+            "text": "hall",
+            "role": "required"
+          },
+          {
+            "id": "G32-E01-B05",
+            "text": "in our town.",
+            "role": "required"
+          },
+          {
+            "id": "G32-E01-D01",
+            "text": "big",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「biggest」と比較してください。"
+          },
+          {
+            "id": "G32-E01-D02",
+            "text": "bigger",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「biggest」と比較してください。"
+          },
+          {
+            "id": "G32-E01-D03",
+            "text": "most big",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「biggest」と比較してください。"
+          },
+          {
+            "id": "G32-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「biggest」と比較してください。"
+          },
+          {
+            "id": "G32-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「biggest」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G32-E01-D01",
+            "text": "big",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「biggest」と比較してください。"
+          },
+          {
+            "id": "G32-E01-D02",
+            "text": "bigger",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「biggest」と比較してください。"
+          },
+          {
+            "id": "G32-E01-D03",
+            "text": "most big",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「biggest」と比較してください。"
+          },
+          {
+            "id": "G32-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「biggest」と比較してください。"
+          },
+          {
+            "id": "G32-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「biggest」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G32-E01-B01",
+          "G32-E01-B02",
+          "G32-E01-B03",
+          "G32-E01-B04",
+          "G32-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E01-B01",
+            "G32-E01-B02",
+            "G32-E01-B03",
+            "G32-E01-B04",
+            "G32-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G32-E01-AUDIO",
+        "text": "This is the biggest hall in our town.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G32-E02",
+      "grammarId": "G32",
+      "grammarNameJa": "最上級",
+      "english": "This is the cheapest ticket on this list.",
+      "translationJa": "これはこの一覧で一番安いチケットです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "cheapest",
+        "start": 12,
+        "endExclusive": 20,
+        "explanationJa": "三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+      },
+      "sentenceExplanationJa": "「This is the cheapest ticket on this list.」は「これはこの一覧で一番安いチケットです。」という意味です。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。 この文の対象部分は「cheapest」。まとまりは This is → the → cheapest → ticket → on this list. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "cheapest",
+          "lemma": "cheap",
+          "meaningJa": "安い（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "list",
+          "lemma": "list",
+          "meaningJa": "一覧・リスト",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This is the ___ ticket on this list.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 20,
+          "answer": "cheapest"
+        },
+        "options": [
+          {
+            "id": "G32-E02-C2",
+            "text": "cheap",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「cheapest」を使います。「cheap」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E02-C4",
+            "text": "cheaply",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「cheapest」を使います。「cheaply」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E02-C3",
+            "text": "cheaper",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「cheapest」を使います。「cheaper」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E02-C1",
+            "text": "cheapest",
+            "isCorrect": true,
+            "explanationJa": "正解。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+          }
+        ],
+        "correctOptionId": "G32-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G32-E02-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E02-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E02-B03",
+            "text": "cheapest",
+            "role": "required"
+          },
+          {
+            "id": "G32-E02-B04",
+            "text": "ticket",
+            "role": "required"
+          },
+          {
+            "id": "G32-E02-B05",
+            "text": "on this list.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G32-E02-B01",
+          "G32-E02-B02",
+          "G32-E02-B03",
+          "G32-E02-B04",
+          "G32-E02-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E02-B01",
+            "G32-E02-B02",
+            "G32-E02-B03",
+            "G32-E02-B04",
+            "G32-E02-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G32-E02-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E02-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E02-B03",
+            "text": "cheapest",
+            "role": "required"
+          },
+          {
+            "id": "G32-E02-B04",
+            "text": "ticket",
+            "role": "required"
+          },
+          {
+            "id": "G32-E02-B05",
+            "text": "on this list.",
+            "role": "required"
+          },
+          {
+            "id": "G32-E02-D01",
+            "text": "cheap",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheapest」と比較してください。"
+          },
+          {
+            "id": "G32-E02-D02",
+            "text": "cheaper",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheapest」と比較してください。"
+          },
+          {
+            "id": "G32-E02-D03",
+            "text": "cheaply",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheapest」と比較してください。"
+          },
+          {
+            "id": "G32-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheapest」と比較してください。"
+          },
+          {
+            "id": "G32-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheapest」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G32-E02-D01",
+            "text": "cheap",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheapest」と比較してください。"
+          },
+          {
+            "id": "G32-E02-D02",
+            "text": "cheaper",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheapest」と比較してください。"
+          },
+          {
+            "id": "G32-E02-D03",
+            "text": "cheaply",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheapest」と比較してください。"
+          },
+          {
+            "id": "G32-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheapest」と比較してください。"
+          },
+          {
+            "id": "G32-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「cheapest」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G32-E02-B01",
+          "G32-E02-B02",
+          "G32-E02-B03",
+          "G32-E02-B04",
+          "G32-E02-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E02-B01",
+            "G32-E02-B02",
+            "G32-E02-B03",
+            "G32-E02-B04",
+            "G32-E02-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G32-E02-AUDIO",
+        "text": "This is the cheapest ticket on this list.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G32-E03",
+      "grammarId": "G32",
+      "grammarNameJa": "最上級",
+      "english": "She is the tallest student in our band.",
+      "translationJa": "彼女は私たちのバンドで一番背の高い生徒です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "tallest",
+        "start": 11,
+        "endExclusive": 18,
+        "explanationJa": "三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+      },
+      "sentenceExplanationJa": "「She is the tallest student in our band.」は「彼女は私たちのバンドで一番背の高い生徒です。」という意味です。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。 この文の対象部分は「tallest」。まとまりは She is → the → tallest → student → in our band. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "tallest",
+          "lemma": "tall",
+          "meaningJa": "背が高い（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "student",
+          "lemma": "student",
+          "meaningJa": "生徒・学生",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "our",
+          "lemma": "our",
+          "meaningJa": "私たちの",
+          "kind": "word"
+        },
+        {
+          "expression": "band",
+          "lemma": "band",
+          "meaningJa": "バンド",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She is the ___ student in our band.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 18,
+          "answer": "tallest"
+        },
+        "options": [
+          {
+            "id": "G32-E03-C1",
+            "text": "tallest",
+            "isCorrect": true,
+            "explanationJa": "正解。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+          },
+          {
+            "id": "G32-E03-C4",
+            "text": "most tall",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「tallest」を使います。「most tall」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E03-C3",
+            "text": "taller",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「tallest」を使います。「taller」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E03-C2",
+            "text": "tall",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「tallest」を使います。「tall」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G32-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G32-E03-B01",
+            "text": "She is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E03-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E03-B03",
+            "text": "tallest",
+            "role": "required"
+          },
+          {
+            "id": "G32-E03-B04",
+            "text": "student",
+            "role": "required"
+          },
+          {
+            "id": "G32-E03-B05",
+            "text": "in our band.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G32-E03-B01",
+          "G32-E03-B02",
+          "G32-E03-B03",
+          "G32-E03-B04",
+          "G32-E03-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E03-B01",
+            "G32-E03-B02",
+            "G32-E03-B03",
+            "G32-E03-B04",
+            "G32-E03-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G32-E03-B01",
+            "text": "She is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E03-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E03-B03",
+            "text": "tallest",
+            "role": "required"
+          },
+          {
+            "id": "G32-E03-B04",
+            "text": "student",
+            "role": "required"
+          },
+          {
+            "id": "G32-E03-B05",
+            "text": "in our band.",
+            "role": "required"
+          },
+          {
+            "id": "G32-E03-D01",
+            "text": "tall",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tallest」と比較してください。"
+          },
+          {
+            "id": "G32-E03-D02",
+            "text": "taller",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tallest」と比較してください。"
+          },
+          {
+            "id": "G32-E03-D03",
+            "text": "most tall",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tallest」と比較してください。"
+          },
+          {
+            "id": "G32-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tallest」と比較してください。"
+          },
+          {
+            "id": "G32-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tallest」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G32-E03-D01",
+            "text": "tall",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tallest」と比較してください。"
+          },
+          {
+            "id": "G32-E03-D02",
+            "text": "taller",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tallest」と比較してください。"
+          },
+          {
+            "id": "G32-E03-D03",
+            "text": "most tall",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tallest」と比較してください。"
+          },
+          {
+            "id": "G32-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tallest」と比較してください。"
+          },
+          {
+            "id": "G32-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tallest」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G32-E03-B01",
+          "G32-E03-B02",
+          "G32-E03-B03",
+          "G32-E03-B04",
+          "G32-E03-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E03-B01",
+            "G32-E03-B02",
+            "G32-E03-B03",
+            "G32-E03-B04",
+            "G32-E03-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G32-E03-AUDIO",
+        "text": "She is the tallest student in our band.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G32-E04",
+      "grammarId": "G32",
+      "grammarNameJa": "最上級",
+      "english": "This is the longest song on the album.",
+      "translationJa": "これはそのアルバムで一番長い曲です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "longest",
+        "start": 12,
+        "endExclusive": 19,
+        "explanationJa": "三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+      },
+      "sentenceExplanationJa": "「This is the longest song on the album.」は「これはそのアルバムで一番長い曲です。」という意味です。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。 この文の対象部分は「longest」。まとまりは This is → the → longest → song → on the album. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "longest",
+          "lemma": "long",
+          "meaningJa": "長い（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "album",
+          "lemma": "album",
+          "meaningJa": "アルバム",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This is the ___ song on the album.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 19,
+          "answer": "longest"
+        },
+        "options": [
+          {
+            "id": "G32-E04-C1",
+            "text": "longest",
+            "isCorrect": true,
+            "explanationJa": "正解。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+          },
+          {
+            "id": "G32-E04-C2",
+            "text": "long",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「longest」を使います。「long」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E04-C3",
+            "text": "longer",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「longest」を使います。「longer」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E04-C4",
+            "text": "most long",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「longest」を使います。「most long」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G32-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G32-E04-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E04-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E04-B03",
+            "text": "longest",
+            "role": "required"
+          },
+          {
+            "id": "G32-E04-B04",
+            "text": "song",
+            "role": "required"
+          },
+          {
+            "id": "G32-E04-B05",
+            "text": "on the album.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G32-E04-B01",
+          "G32-E04-B02",
+          "G32-E04-B03",
+          "G32-E04-B04",
+          "G32-E04-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E04-B01",
+            "G32-E04-B02",
+            "G32-E04-B03",
+            "G32-E04-B04",
+            "G32-E04-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G32-E04-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E04-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E04-B03",
+            "text": "longest",
+            "role": "required"
+          },
+          {
+            "id": "G32-E04-B04",
+            "text": "song",
+            "role": "required"
+          },
+          {
+            "id": "G32-E04-B05",
+            "text": "on the album.",
+            "role": "required"
+          },
+          {
+            "id": "G32-E04-D01",
+            "text": "long",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longest」と比較してください。"
+          },
+          {
+            "id": "G32-E04-D02",
+            "text": "longer",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longest」と比較してください。"
+          },
+          {
+            "id": "G32-E04-D03",
+            "text": "most long",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longest」と比較してください。"
+          },
+          {
+            "id": "G32-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longest」と比較してください。"
+          },
+          {
+            "id": "G32-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longest」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G32-E04-D01",
+            "text": "long",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longest」と比較してください。"
+          },
+          {
+            "id": "G32-E04-D02",
+            "text": "longer",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longest」と比較してください。"
+          },
+          {
+            "id": "G32-E04-D03",
+            "text": "most long",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longest」と比較してください。"
+          },
+          {
+            "id": "G32-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longest」と比較してください。"
+          },
+          {
+            "id": "G32-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「longest」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G32-E04-B01",
+          "G32-E04-B02",
+          "G32-E04-B03",
+          "G32-E04-B04",
+          "G32-E04-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E04-B01",
+            "G32-E04-B02",
+            "G32-E04-B03",
+            "G32-E04-B04",
+            "G32-E04-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G32-E04-AUDIO",
+        "text": "This is the longest song on the album.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G32-E05",
+      "grammarId": "G32",
+      "grammarNameJa": "最上級",
+      "english": "Today is the hottest day of the week.",
+      "translationJa": "今日は今週で一番暑い日です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "hottest",
+        "start": 13,
+        "endExclusive": 20,
+        "explanationJa": "三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+      },
+      "sentenceExplanationJa": "「Today is the hottest day of the week.」は「今日は今週で一番暑い日です。」という意味です。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。 この文の対象部分は「hottest」。まとまりは Today is → the → hottest → day → of the week. の順です。",
+      "glossary": [
+        {
+          "expression": "Today",
+          "lemma": "today",
+          "meaningJa": "今日",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hottest",
+          "lemma": "hot",
+          "meaningJa": "暑い（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "day",
+          "lemma": "day",
+          "meaningJa": "日・一日",
+          "kind": "word"
+        },
+        {
+          "expression": "of",
+          "lemma": "of",
+          "meaningJa": "～の",
+          "kind": "word"
+        },
+        {
+          "expression": "week",
+          "lemma": "week",
+          "meaningJa": "週・1週間",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Today is the ___ day of the week.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 20,
+          "answer": "hottest"
+        },
+        "options": [
+          {
+            "id": "G32-E05-C2",
+            "text": "hot",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「hottest」を使います。「hot」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E05-C4",
+            "text": "most hot",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「hottest」を使います。「most hot」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E05-C1",
+            "text": "hottest",
+            "isCorrect": true,
+            "explanationJa": "正解。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+          },
+          {
+            "id": "G32-E05-C3",
+            "text": "hotter",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「hottest」を使います。「hotter」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G32-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G32-E05-B01",
+            "text": "Today is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E05-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E05-B03",
+            "text": "hottest",
+            "role": "required"
+          },
+          {
+            "id": "G32-E05-B04",
+            "text": "day",
+            "role": "required"
+          },
+          {
+            "id": "G32-E05-B05",
+            "text": "of the week.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G32-E05-B01",
+          "G32-E05-B02",
+          "G32-E05-B03",
+          "G32-E05-B04",
+          "G32-E05-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E05-B01",
+            "G32-E05-B02",
+            "G32-E05-B03",
+            "G32-E05-B04",
+            "G32-E05-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G32-E05-B01",
+            "text": "Today is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E05-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E05-B03",
+            "text": "hottest",
+            "role": "required"
+          },
+          {
+            "id": "G32-E05-B04",
+            "text": "day",
+            "role": "required"
+          },
+          {
+            "id": "G32-E05-B05",
+            "text": "of the week.",
+            "role": "required"
+          },
+          {
+            "id": "G32-E05-D01",
+            "text": "hot",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hottest」と比較してください。"
+          },
+          {
+            "id": "G32-E05-D02",
+            "text": "hotter",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hottest」と比較してください。"
+          },
+          {
+            "id": "G32-E05-D03",
+            "text": "most hot",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hottest」と比較してください。"
+          },
+          {
+            "id": "G32-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hottest」と比較してください。"
+          },
+          {
+            "id": "G32-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hottest」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G32-E05-D01",
+            "text": "hot",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hottest」と比較してください。"
+          },
+          {
+            "id": "G32-E05-D02",
+            "text": "hotter",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hottest」と比較してください。"
+          },
+          {
+            "id": "G32-E05-D03",
+            "text": "most hot",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hottest」と比較してください。"
+          },
+          {
+            "id": "G32-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hottest」と比較してください。"
+          },
+          {
+            "id": "G32-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hottest」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G32-E05-B01",
+          "G32-E05-B02",
+          "G32-E05-B03",
+          "G32-E05-B04",
+          "G32-E05-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E05-B01",
+            "G32-E05-B02",
+            "G32-E05-B03",
+            "G32-E05-B04",
+            "G32-E05-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G32-E05-AUDIO",
+        "text": "Today is the hottest day of the week.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G32-E06",
+      "grammarId": "G32",
+      "grammarNameJa": "最上級",
+      "english": "This is the best seat in the hall.",
+      "translationJa": "これは会場で一番よい席です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "best",
+        "start": 12,
+        "endExclusive": 16,
+        "explanationJa": "三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+      },
+      "sentenceExplanationJa": "「This is the best seat in the hall.」は「これは会場で一番よい席です。」という意味です。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。 この文の対象部分は「best」。まとまりは This is → the → best → seat → in the hall. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "best",
+          "lemma": "best",
+          "meaningJa": "一番よい（goodの最上級）",
+          "kind": "word"
+        },
+        {
+          "expression": "seat",
+          "lemma": "seat",
+          "meaningJa": "席",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This is the ___ seat in the hall.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 16,
+          "answer": "best"
+        },
+        "options": [
+          {
+            "id": "G32-E06-C4",
+            "text": "well",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「best」を使います。「well」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E06-C3",
+            "text": "better",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「best」を使います。「better」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E06-C1",
+            "text": "best",
+            "isCorrect": true,
+            "explanationJa": "正解。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+          },
+          {
+            "id": "G32-E06-C2",
+            "text": "good",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「best」を使います。「good」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G32-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G32-E06-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E06-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E06-B03",
+            "text": "best",
+            "role": "required"
+          },
+          {
+            "id": "G32-E06-B04",
+            "text": "seat",
+            "role": "required"
+          },
+          {
+            "id": "G32-E06-B05",
+            "text": "in the hall.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G32-E06-B01",
+          "G32-E06-B02",
+          "G32-E06-B03",
+          "G32-E06-B04",
+          "G32-E06-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E06-B01",
+            "G32-E06-B02",
+            "G32-E06-B03",
+            "G32-E06-B04",
+            "G32-E06-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G32-E06-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E06-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E06-B03",
+            "text": "best",
+            "role": "required"
+          },
+          {
+            "id": "G32-E06-B04",
+            "text": "seat",
+            "role": "required"
+          },
+          {
+            "id": "G32-E06-B05",
+            "text": "in the hall.",
+            "role": "required"
+          },
+          {
+            "id": "G32-E06-D01",
+            "text": "good",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「best」と比較してください。"
+          },
+          {
+            "id": "G32-E06-D02",
+            "text": "better",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「best」と比較してください。"
+          },
+          {
+            "id": "G32-E06-D03",
+            "text": "well",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「best」と比較してください。"
+          },
+          {
+            "id": "G32-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「best」と比較してください。"
+          },
+          {
+            "id": "G32-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「best」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G32-E06-D01",
+            "text": "good",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「best」と比較してください。"
+          },
+          {
+            "id": "G32-E06-D02",
+            "text": "better",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「best」と比較してください。"
+          },
+          {
+            "id": "G32-E06-D03",
+            "text": "well",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「best」と比較してください。"
+          },
+          {
+            "id": "G32-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「best」と比較してください。"
+          },
+          {
+            "id": "G32-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「best」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G32-E06-B01",
+          "G32-E06-B02",
+          "G32-E06-B03",
+          "G32-E06-B04",
+          "G32-E06-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E06-B01",
+            "G32-E06-B02",
+            "G32-E06-B03",
+            "G32-E06-B04",
+            "G32-E06-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G32-E06-AUDIO",
+        "text": "This is the best seat in the hall.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G32-E07",
+      "grammarId": "G32",
+      "grammarNameJa": "最上級",
+      "english": "This is the smallest bag in the shop.",
+      "translationJa": "これはその店で一番小さなバッグです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "smallest",
+        "start": 12,
+        "endExclusive": 20,
+        "explanationJa": "三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+      },
+      "sentenceExplanationJa": "「This is the smallest bag in the shop.」は「これはその店で一番小さなバッグです。」という意味です。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。 この文の対象部分は「smallest」。まとまりは This is → the → smallest → bag → in the shop. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "smallest",
+          "lemma": "small",
+          "meaningJa": "小さい（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "shop",
+          "lemma": "shop",
+          "meaningJa": "店",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This is the ___ bag in the shop.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 20,
+          "answer": "smallest"
+        },
+        "options": [
+          {
+            "id": "G32-E07-C1",
+            "text": "smallest",
+            "isCorrect": true,
+            "explanationJa": "正解。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+          },
+          {
+            "id": "G32-E07-C4",
+            "text": "most small",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「smallest」を使います。「most small」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E07-C3",
+            "text": "smaller",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「smallest」を使います。「smaller」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E07-C2",
+            "text": "small",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「smallest」を使います。「small」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G32-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G32-E07-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E07-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E07-B03",
+            "text": "smallest",
+            "role": "required"
+          },
+          {
+            "id": "G32-E07-B04",
+            "text": "bag",
+            "role": "required"
+          },
+          {
+            "id": "G32-E07-B05",
+            "text": "in the shop.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G32-E07-B01",
+          "G32-E07-B02",
+          "G32-E07-B03",
+          "G32-E07-B04",
+          "G32-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E07-B01",
+            "G32-E07-B02",
+            "G32-E07-B03",
+            "G32-E07-B04",
+            "G32-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G32-E07-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E07-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E07-B03",
+            "text": "smallest",
+            "role": "required"
+          },
+          {
+            "id": "G32-E07-B04",
+            "text": "bag",
+            "role": "required"
+          },
+          {
+            "id": "G32-E07-B05",
+            "text": "in the shop.",
+            "role": "required"
+          },
+          {
+            "id": "G32-E07-D01",
+            "text": "small",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「smallest」と比較してください。"
+          },
+          {
+            "id": "G32-E07-D02",
+            "text": "smaller",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「smallest」と比較してください。"
+          },
+          {
+            "id": "G32-E07-D03",
+            "text": "most small",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「smallest」と比較してください。"
+          },
+          {
+            "id": "G32-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「smallest」と比較してください。"
+          },
+          {
+            "id": "G32-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「smallest」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G32-E07-D01",
+            "text": "small",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「smallest」と比較してください。"
+          },
+          {
+            "id": "G32-E07-D02",
+            "text": "smaller",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「smallest」と比較してください。"
+          },
+          {
+            "id": "G32-E07-D03",
+            "text": "most small",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「smallest」と比較してください。"
+          },
+          {
+            "id": "G32-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「smallest」と比較してください。"
+          },
+          {
+            "id": "G32-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「smallest」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G32-E07-B01",
+          "G32-E07-B02",
+          "G32-E07-B03",
+          "G32-E07-B04",
+          "G32-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E07-B01",
+            "G32-E07-B02",
+            "G32-E07-B03",
+            "G32-E07-B04",
+            "G32-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G32-E07-AUDIO",
+        "text": "This is the smallest bag in the shop.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G32-E08",
+      "grammarId": "G32",
+      "grammarNameJa": "最上級",
+      "english": "This is the most exciting part of the show.",
+      "translationJa": "これは公演の中で一番わくわくする部分です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "most exciting",
+        "start": 12,
+        "endExclusive": 25,
+        "explanationJa": "三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+      },
+      "sentenceExplanationJa": "「This is the most exciting part of the show.」は「これは公演の中で一番わくわくする部分です。」という意味です。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。 この文の対象部分は「most exciting」。まとまりは This is → the → most exciting → part → of the show. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "most",
+          "lemma": "most",
+          "meaningJa": "最も",
+          "kind": "word"
+        },
+        {
+          "expression": "exciting",
+          "lemma": "exciting",
+          "meaningJa": "わくわくさせる",
+          "kind": "word"
+        },
+        {
+          "expression": "part",
+          "lemma": "part",
+          "meaningJa": "部分",
+          "kind": "word"
+        },
+        {
+          "expression": "of",
+          "lemma": "of",
+          "meaningJa": "～の",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This is the ___ part of the show.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 25,
+          "answer": "most exciting"
+        },
+        "options": [
+          {
+            "id": "G32-E08-C4",
+            "text": "excitingly",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「most exciting」を使います。「excitingly」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E08-C3",
+            "text": "more exciting",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「most exciting」を使います。「more exciting」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E08-C1",
+            "text": "most exciting",
+            "isCorrect": true,
+            "explanationJa": "正解。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+          },
+          {
+            "id": "G32-E08-C2",
+            "text": "exciting",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「most exciting」を使います。「exciting」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G32-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G32-E08-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E08-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E08-B03",
+            "text": "most exciting",
+            "role": "required"
+          },
+          {
+            "id": "G32-E08-B04",
+            "text": "part",
+            "role": "required"
+          },
+          {
+            "id": "G32-E08-B05",
+            "text": "of the show.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G32-E08-B01",
+          "G32-E08-B02",
+          "G32-E08-B03",
+          "G32-E08-B04",
+          "G32-E08-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E08-B01",
+            "G32-E08-B02",
+            "G32-E08-B03",
+            "G32-E08-B04",
+            "G32-E08-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G32-E08-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E08-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E08-B03",
+            "text": "most exciting",
+            "role": "required"
+          },
+          {
+            "id": "G32-E08-B04",
+            "text": "part",
+            "role": "required"
+          },
+          {
+            "id": "G32-E08-B05",
+            "text": "of the show.",
+            "role": "required"
+          },
+          {
+            "id": "G32-E08-D01",
+            "text": "exciting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most exciting」と比較してください。"
+          },
+          {
+            "id": "G32-E08-D02",
+            "text": "more exciting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most exciting」と比較してください。"
+          },
+          {
+            "id": "G32-E08-D03",
+            "text": "excitingly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most exciting」と比較してください。"
+          },
+          {
+            "id": "G32-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most exciting」と比較してください。"
+          },
+          {
+            "id": "G32-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most exciting」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G32-E08-D01",
+            "text": "exciting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most exciting」と比較してください。"
+          },
+          {
+            "id": "G32-E08-D02",
+            "text": "more exciting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most exciting」と比較してください。"
+          },
+          {
+            "id": "G32-E08-D03",
+            "text": "excitingly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most exciting」と比較してください。"
+          },
+          {
+            "id": "G32-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most exciting」と比較してください。"
+          },
+          {
+            "id": "G32-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most exciting」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G32-E08-B01",
+          "G32-E08-B02",
+          "G32-E08-B03",
+          "G32-E08-B04",
+          "G32-E08-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E08-B01",
+            "G32-E08-B02",
+            "G32-E08-B03",
+            "G32-E08-B04",
+            "G32-E08-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G32-E08-AUDIO",
+        "text": "This is the most exciting part of the show.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G32-E09",
+      "grammarId": "G32",
+      "grammarNameJa": "最上級",
+      "english": "My brother is the youngest fan in our family.",
+      "translationJa": "私の弟は家族で一番年下のファンです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "youngest",
+        "start": 18,
+        "endExclusive": 26,
+        "explanationJa": "三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+      },
+      "sentenceExplanationJa": "「My brother is the youngest fan in our family.」は「私の弟は家族で一番年下のファンです。」という意味です。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。 この文の対象部分は「youngest」。まとまりは My brother → is → the → youngest → fan → in our family. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "brother",
+          "lemma": "brother",
+          "meaningJa": "兄・弟",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "youngest",
+          "lemma": "young",
+          "meaningJa": "若い（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "fan",
+          "lemma": "fan",
+          "meaningJa": "ファン",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "our",
+          "lemma": "our",
+          "meaningJa": "私たちの",
+          "kind": "word"
+        },
+        {
+          "expression": "family",
+          "lemma": "family",
+          "meaningJa": "家族",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My brother is the ___ fan in our family.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 26,
+          "answer": "youngest"
+        },
+        "options": [
+          {
+            "id": "G32-E09-C4",
+            "text": "most young",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「youngest」を使います。「most young」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E09-C1",
+            "text": "youngest",
+            "isCorrect": true,
+            "explanationJa": "正解。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+          },
+          {
+            "id": "G32-E09-C3",
+            "text": "younger",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「youngest」を使います。「younger」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E09-C2",
+            "text": "young",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「youngest」を使います。「young」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G32-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G32-E09-B01",
+            "text": "My brother",
+            "role": "required"
+          },
+          {
+            "id": "G32-E09-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E09-B03",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E09-B04",
+            "text": "youngest",
+            "role": "required"
+          },
+          {
+            "id": "G32-E09-B05",
+            "text": "fan",
+            "role": "required"
+          },
+          {
+            "id": "G32-E09-B06",
+            "text": "in our family.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G32-E09-B01",
+          "G32-E09-B02",
+          "G32-E09-B03",
+          "G32-E09-B04",
+          "G32-E09-B05",
+          "G32-E09-B06"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E09-B01",
+            "G32-E09-B02",
+            "G32-E09-B03",
+            "G32-E09-B04",
+            "G32-E09-B05",
+            "G32-E09-B06"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G32-E09-B01",
+            "text": "My brother",
+            "role": "required"
+          },
+          {
+            "id": "G32-E09-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E09-B03",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E09-B04",
+            "text": "youngest",
+            "role": "required"
+          },
+          {
+            "id": "G32-E09-B05",
+            "text": "fan",
+            "role": "required"
+          },
+          {
+            "id": "G32-E09-B06",
+            "text": "in our family.",
+            "role": "required"
+          },
+          {
+            "id": "G32-E09-D01",
+            "text": "young",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「youngest」と比較してください。"
+          },
+          {
+            "id": "G32-E09-D02",
+            "text": "younger",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「youngest」と比較してください。"
+          },
+          {
+            "id": "G32-E09-D03",
+            "text": "most young",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「youngest」と比較してください。"
+          },
+          {
+            "id": "G32-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「youngest」と比較してください。"
+          },
+          {
+            "id": "G32-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「youngest」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G32-E09-D01",
+            "text": "young",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「youngest」と比較してください。"
+          },
+          {
+            "id": "G32-E09-D02",
+            "text": "younger",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「youngest」と比較してください。"
+          },
+          {
+            "id": "G32-E09-D03",
+            "text": "most young",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「youngest」と比較してください。"
+          },
+          {
+            "id": "G32-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「youngest」と比較してください。"
+          },
+          {
+            "id": "G32-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「youngest」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G32-E09-B01",
+          "G32-E09-B02",
+          "G32-E09-B03",
+          "G32-E09-B04",
+          "G32-E09-B05",
+          "G32-E09-B06"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E09-B01",
+            "G32-E09-B02",
+            "G32-E09-B03",
+            "G32-E09-B04",
+            "G32-E09-B05",
+            "G32-E09-B06"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G32-E09-AUDIO",
+        "text": "My brother is the youngest fan in our family.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G32-E10",
+      "grammarId": "G32",
+      "grammarNameJa": "最上級",
+      "english": "This is the most beautiful photo in my collection.",
+      "translationJa": "これは私のコレクションで一番美しい写真です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "most beautiful",
+        "start": 12,
+        "endExclusive": 26,
+        "explanationJa": "三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+      },
+      "sentenceExplanationJa": "「This is the most beautiful photo in my collection.」は「これは私のコレクションで一番美しい写真です。」という意味です。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。 この文の対象部分は「most beautiful」。まとまりは This is → the → most beautiful → photo → in my collection. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "most",
+          "lemma": "most",
+          "meaningJa": "最も",
+          "kind": "word"
+        },
+        {
+          "expression": "beautiful",
+          "lemma": "beautiful",
+          "meaningJa": "美しい",
+          "kind": "word"
+        },
+        {
+          "expression": "photo",
+          "lemma": "photo",
+          "meaningJa": "写真",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "collection",
+          "lemma": "collection",
+          "meaningJa": "収集品・コレクション",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This is the ___ photo in my collection.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 26,
+          "answer": "most beautiful"
+        },
+        "options": [
+          {
+            "id": "G32-E10-C3",
+            "text": "more beautiful",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「most beautiful」を使います。「more beautiful」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E10-C1",
+            "text": "most beautiful",
+            "isCorrect": true,
+            "explanationJa": "正解。三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。"
+          },
+          {
+            "id": "G32-E10-C2",
+            "text": "beautiful",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「most beautiful」を使います。「beautiful」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G32-E10-C4",
+            "text": "beautifully",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「most beautiful」を使います。「beautifully」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G32-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G32-E10-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E10-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E10-B03",
+            "text": "most beautiful",
+            "role": "required"
+          },
+          {
+            "id": "G32-E10-B04",
+            "text": "photo",
+            "role": "required"
+          },
+          {
+            "id": "G32-E10-B05",
+            "text": "in my collection.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G32-E10-B01",
+          "G32-E10-B02",
+          "G32-E10-B03",
+          "G32-E10-B04",
+          "G32-E10-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E10-B01",
+            "G32-E10-B02",
+            "G32-E10-B03",
+            "G32-E10-B04",
+            "G32-E10-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G32-E10-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G32-E10-B02",
+            "text": "the",
+            "role": "required"
+          },
+          {
+            "id": "G32-E10-B03",
+            "text": "most beautiful",
+            "role": "required"
+          },
+          {
+            "id": "G32-E10-B04",
+            "text": "photo",
+            "role": "required"
+          },
+          {
+            "id": "G32-E10-B05",
+            "text": "in my collection.",
+            "role": "required"
+          },
+          {
+            "id": "G32-E10-D01",
+            "text": "beautiful",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most beautiful」と比較してください。"
+          },
+          {
+            "id": "G32-E10-D02",
+            "text": "more beautiful",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most beautiful」と比較してください。"
+          },
+          {
+            "id": "G32-E10-D03",
+            "text": "beautifully",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most beautiful」と比較してください。"
+          },
+          {
+            "id": "G32-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most beautiful」と比較してください。"
+          },
+          {
+            "id": "G32-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most beautiful」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G32-E10-D01",
+            "text": "beautiful",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most beautiful」と比較してください。"
+          },
+          {
+            "id": "G32-E10-D02",
+            "text": "more beautiful",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most beautiful」と比較してください。"
+          },
+          {
+            "id": "G32-E10-D03",
+            "text": "beautifully",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most beautiful」と比較してください。"
+          },
+          {
+            "id": "G32-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most beautiful」と比較してください。"
+          },
+          {
+            "id": "G32-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「most beautiful」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G32-E10-B01",
+          "G32-E10-B02",
+          "G32-E10-B03",
+          "G32-E10-B04",
+          "G32-E10-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G32-E10-B01",
+            "G32-E10-B02",
+            "G32-E10-B03",
+            "G32-E10-B04",
+            "G32-E10-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G32-E10-AUDIO",
+        "text": "This is the most beautiful photo in my collection.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

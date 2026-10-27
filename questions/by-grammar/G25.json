@@ -1,0 +1,2611 @@
+{
+  "grammarId": "G25",
+  "examples": [
+    {
+      "id": "G25-E01",
+      "grammarId": "G25",
+      "grammarNameJa": "一般動詞の過去の否定・疑問文",
+      "english": "I did not win a ticket yesterday.",
+      "translationJa": "私は昨日チケットの抽選に当たりませんでした。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "did not",
+        "start": 2,
+        "endExclusive": 9,
+        "explanationJa": "did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+      },
+      "sentenceExplanationJa": "「I did not win a ticket yesterday.」は「私は昨日チケットの抽選に当たりませんでした。」という意味です。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。 この文の対象部分は「did not」。まとまりは I → did not → win → a ticket → yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "did",
+          "lemma": "did",
+          "meaningJa": "doの過去形・過去の疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "win",
+          "lemma": "win",
+          "meaningJa": "勝つ・抽選に当たる",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ win a ticket yesterday.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 9,
+          "answer": "did not"
+        },
+        "options": [
+          {
+            "id": "G25-E01-C4",
+            "text": "was not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「was not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E01-C3",
+            "text": "does not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「does not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E01-C2",
+            "text": "did not to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「did not to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E01-C1",
+            "text": "did not",
+            "isCorrect": true,
+            "explanationJa": "正解。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+          }
+        ],
+        "correctOptionId": "G25-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G25-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G25-E01-B02",
+            "text": "did not",
+            "role": "required"
+          },
+          {
+            "id": "G25-E01-B03",
+            "text": "win",
+            "role": "required"
+          },
+          {
+            "id": "G25-E01-B04",
+            "text": "a ticket",
+            "role": "required"
+          },
+          {
+            "id": "G25-E01-B05",
+            "text": "yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G25-E01-B01",
+          "G25-E01-B02",
+          "G25-E01-B03",
+          "G25-E01-B04",
+          "G25-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E01-B01",
+            "G25-E01-B02",
+            "G25-E01-B03",
+            "G25-E01-B04",
+            "G25-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G25-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G25-E01-B02",
+            "text": "did not",
+            "role": "required"
+          },
+          {
+            "id": "G25-E01-B03",
+            "text": "win",
+            "role": "required"
+          },
+          {
+            "id": "G25-E01-B04",
+            "text": "a ticket",
+            "role": "required"
+          },
+          {
+            "id": "G25-E01-B05",
+            "text": "yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G25-E01-D01",
+            "text": "did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E01-D02",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E01-D03",
+            "text": "was not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G25-E01-D01",
+            "text": "did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E01-D02",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E01-D03",
+            "text": "was not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G25-E01-B01",
+          "G25-E01-B02",
+          "G25-E01-B03",
+          "G25-E01-B04",
+          "G25-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E01-B01",
+            "G25-E01-B02",
+            "G25-E01-B03",
+            "G25-E01-B04",
+            "G25-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G25-E01-AUDIO",
+        "text": "I did not win a ticket yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G25-E02",
+      "grammarId": "G25",
+      "grammarNameJa": "一般動詞の過去の否定・疑問文",
+      "english": "Did you enjoy the concert last night?",
+      "translationJa": "あなたは昨夜コンサートを楽しみましたか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Did",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+      },
+      "sentenceExplanationJa": "「Did you enjoy the concert last night?」は「あなたは昨夜コンサートを楽しみましたか。」という意味です。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。 この文の対象部分は「Did」。まとまりは Did → you → enjoy → the concert → last night? の順です。",
+      "glossary": [
+        {
+          "expression": "Did",
+          "lemma": "did",
+          "meaningJa": "doの過去形・過去の疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "enjoy",
+          "lemma": "enjoy",
+          "meaningJa": "楽しむ",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "night",
+          "lemma": "night",
+          "meaningJa": "夜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ you enjoy the concert last night?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "Did"
+        },
+        "options": [
+          {
+            "id": "G25-E02-C4",
+            "text": "Was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Was」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E02-C2",
+            "text": "Does",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Does」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E02-C3",
+            "text": "Do",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Do」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E02-C1",
+            "text": "Did",
+            "isCorrect": true,
+            "explanationJa": "正解。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+          }
+        ],
+        "correctOptionId": "G25-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G25-E02-B01",
+            "text": "Did",
+            "role": "required"
+          },
+          {
+            "id": "G25-E02-B02",
+            "text": "you",
+            "role": "required"
+          },
+          {
+            "id": "G25-E02-B03",
+            "text": "enjoy",
+            "role": "required"
+          },
+          {
+            "id": "G25-E02-B04",
+            "text": "the concert",
+            "role": "required"
+          },
+          {
+            "id": "G25-E02-B05",
+            "text": "last night?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G25-E02-B01",
+          "G25-E02-B02",
+          "G25-E02-B03",
+          "G25-E02-B04",
+          "G25-E02-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E02-B01",
+            "G25-E02-B02",
+            "G25-E02-B03",
+            "G25-E02-B04",
+            "G25-E02-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G25-E02-B01",
+            "text": "Did",
+            "role": "required"
+          },
+          {
+            "id": "G25-E02-B02",
+            "text": "you",
+            "role": "required"
+          },
+          {
+            "id": "G25-E02-B03",
+            "text": "enjoy",
+            "role": "required"
+          },
+          {
+            "id": "G25-E02-B04",
+            "text": "the concert",
+            "role": "required"
+          },
+          {
+            "id": "G25-E02-B05",
+            "text": "last night?",
+            "role": "required"
+          },
+          {
+            "id": "G25-E02-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E02-D02",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E02-D03",
+            "text": "Was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E02-D04",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E02-D05",
+            "text": "done",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G25-E02-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E02-D02",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E02-D03",
+            "text": "Was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E02-D04",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E02-D05",
+            "text": "done",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G25-E02-B01",
+          "G25-E02-B02",
+          "G25-E02-B03",
+          "G25-E02-B04",
+          "G25-E02-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E02-B01",
+            "G25-E02-B02",
+            "G25-E02-B03",
+            "G25-E02-B04",
+            "G25-E02-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G25-E02-AUDIO",
+        "text": "Did you enjoy the concert last night?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G25-E03",
+      "grammarId": "G25",
+      "grammarNameJa": "一般動詞の過去の否定・疑問文",
+      "english": "She did not bring her towel that day.",
+      "translationJa": "彼女はその日タオルを持ってきませんでした。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "did not",
+        "start": 4,
+        "endExclusive": 11,
+        "explanationJa": "did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+      },
+      "sentenceExplanationJa": "「She did not bring her towel that day.」は「彼女はその日タオルを持ってきませんでした。」という意味です。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。 この文の対象部分は「did not」。まとまりは She → did not → bring → her towel → that day. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "did",
+          "lemma": "did",
+          "meaningJa": "doの過去形・過去の疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "bring",
+          "lemma": "bring",
+          "meaningJa": "持ってくる",
+          "kind": "word"
+        },
+        {
+          "expression": "her",
+          "lemma": "her",
+          "meaningJa": "彼女を・彼女に・彼女の",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "day",
+          "lemma": "day",
+          "meaningJa": "日・一日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ bring her towel that day.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 11,
+          "answer": "did not"
+        },
+        "options": [
+          {
+            "id": "G25-E03-C1",
+            "text": "did not",
+            "isCorrect": true,
+            "explanationJa": "正解。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+          },
+          {
+            "id": "G25-E03-C3",
+            "text": "does not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「does not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E03-C2",
+            "text": "did not to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「did not to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E03-C4",
+            "text": "was not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「was not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G25-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G25-E03-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G25-E03-B02",
+            "text": "did not",
+            "role": "required"
+          },
+          {
+            "id": "G25-E03-B03",
+            "text": "bring",
+            "role": "required"
+          },
+          {
+            "id": "G25-E03-B04",
+            "text": "her towel",
+            "role": "required"
+          },
+          {
+            "id": "G25-E03-B05",
+            "text": "that day.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G25-E03-B01",
+          "G25-E03-B02",
+          "G25-E03-B03",
+          "G25-E03-B04",
+          "G25-E03-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E03-B01",
+            "G25-E03-B02",
+            "G25-E03-B03",
+            "G25-E03-B04",
+            "G25-E03-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G25-E03-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G25-E03-B02",
+            "text": "did not",
+            "role": "required"
+          },
+          {
+            "id": "G25-E03-B03",
+            "text": "bring",
+            "role": "required"
+          },
+          {
+            "id": "G25-E03-B04",
+            "text": "her towel",
+            "role": "required"
+          },
+          {
+            "id": "G25-E03-B05",
+            "text": "that day.",
+            "role": "required"
+          },
+          {
+            "id": "G25-E03-D01",
+            "text": "did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E03-D02",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E03-D03",
+            "text": "was not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G25-E03-D01",
+            "text": "did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E03-D02",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E03-D03",
+            "text": "was not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G25-E03-B01",
+          "G25-E03-B02",
+          "G25-E03-B03",
+          "G25-E03-B04",
+          "G25-E03-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E03-B01",
+            "G25-E03-B02",
+            "G25-E03-B03",
+            "G25-E03-B04",
+            "G25-E03-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G25-E03-AUDIO",
+        "text": "She did not bring her towel that day.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G25-E04",
+      "grammarId": "G25",
+      "grammarNameJa": "一般動詞の過去の否定・疑問文",
+      "english": "Did he call you yesterday?",
+      "translationJa": "彼は昨日あなたに電話しましたか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Did",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+      },
+      "sentenceExplanationJa": "「Did he call you yesterday?」は「彼は昨日あなたに電話しましたか。」という意味です。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。 この文の対象部分は「Did」。まとまりは Did → he → call → you → yesterday? の順です。",
+      "glossary": [
+        {
+          "expression": "Did",
+          "lemma": "did",
+          "meaningJa": "doの過去形・過去の疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "he",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "call",
+          "lemma": "call",
+          "meaningJa": "呼ぶ・電話する",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ he call you yesterday?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "Did"
+        },
+        "options": [
+          {
+            "id": "G25-E04-C1",
+            "text": "Did",
+            "isCorrect": true,
+            "explanationJa": "正解。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+          },
+          {
+            "id": "G25-E04-C3",
+            "text": "Do",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Do」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E04-C2",
+            "text": "Does",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Does」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E04-C4",
+            "text": "Was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Was」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G25-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G25-E04-B01",
+            "text": "Did",
+            "role": "required"
+          },
+          {
+            "id": "G25-E04-B02",
+            "text": "he",
+            "role": "required"
+          },
+          {
+            "id": "G25-E04-B03",
+            "text": "call",
+            "role": "required"
+          },
+          {
+            "id": "G25-E04-B04",
+            "text": "you",
+            "role": "required"
+          },
+          {
+            "id": "G25-E04-B05",
+            "text": "yesterday?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G25-E04-B01",
+          "G25-E04-B02",
+          "G25-E04-B03",
+          "G25-E04-B04",
+          "G25-E04-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E04-B01",
+            "G25-E04-B02",
+            "G25-E04-B03",
+            "G25-E04-B04",
+            "G25-E04-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G25-E04-B01",
+            "text": "Did",
+            "role": "required"
+          },
+          {
+            "id": "G25-E04-B02",
+            "text": "he",
+            "role": "required"
+          },
+          {
+            "id": "G25-E04-B03",
+            "text": "call",
+            "role": "required"
+          },
+          {
+            "id": "G25-E04-B04",
+            "text": "you",
+            "role": "required"
+          },
+          {
+            "id": "G25-E04-B05",
+            "text": "yesterday?",
+            "role": "required"
+          },
+          {
+            "id": "G25-E04-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E04-D02",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E04-D03",
+            "text": "Was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E04-D04",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E04-D05",
+            "text": "done",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G25-E04-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E04-D02",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E04-D03",
+            "text": "Was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E04-D04",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E04-D05",
+            "text": "done",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G25-E04-B01",
+          "G25-E04-B02",
+          "G25-E04-B03",
+          "G25-E04-B04",
+          "G25-E04-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E04-B01",
+            "G25-E04-B02",
+            "G25-E04-B03",
+            "G25-E04-B04",
+            "G25-E04-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G25-E04-AUDIO",
+        "text": "Did he call you yesterday?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G25-E05",
+      "grammarId": "G25",
+      "grammarNameJa": "一般動詞の過去の否定・疑問文",
+      "english": "We did not miss the last train last night.",
+      "translationJa": "私たちは昨夜終電に乗り遅れませんでした。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "did not",
+        "start": 3,
+        "endExclusive": 10,
+        "explanationJa": "did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+      },
+      "sentenceExplanationJa": "「We did not miss the last train last night.」は「私たちは昨夜終電に乗り遅れませんでした。」という意味です。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。 この文の対象部分は「did not」。まとまりは We → did not → miss → the last train → last night. の順です。",
+      "glossary": [
+        {
+          "expression": "last train",
+          "meaningJa": "終電",
+          "kind": "phrase"
+        },
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "did",
+          "lemma": "did",
+          "meaningJa": "doの過去形・過去の疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "miss",
+          "lemma": "miss",
+          "meaningJa": "乗り遅れる・見逃す",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "train",
+          "lemma": "train",
+          "meaningJa": "電車",
+          "kind": "word"
+        },
+        {
+          "expression": "night",
+          "lemma": "night",
+          "meaningJa": "夜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ miss the last train last night.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 10,
+          "answer": "did not"
+        },
+        "options": [
+          {
+            "id": "G25-E05-C3",
+            "text": "does not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「does not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E05-C2",
+            "text": "did not to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「did not to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E05-C4",
+            "text": "was not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「was not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E05-C1",
+            "text": "did not",
+            "isCorrect": true,
+            "explanationJa": "正解。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+          }
+        ],
+        "correctOptionId": "G25-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G25-E05-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G25-E05-B02",
+            "text": "did not",
+            "role": "required"
+          },
+          {
+            "id": "G25-E05-B03",
+            "text": "miss",
+            "role": "required"
+          },
+          {
+            "id": "G25-E05-B04",
+            "text": "the last train",
+            "role": "required"
+          },
+          {
+            "id": "G25-E05-B05",
+            "text": "last night.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G25-E05-B01",
+          "G25-E05-B02",
+          "G25-E05-B03",
+          "G25-E05-B04",
+          "G25-E05-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E05-B01",
+            "G25-E05-B02",
+            "G25-E05-B03",
+            "G25-E05-B04",
+            "G25-E05-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G25-E05-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G25-E05-B02",
+            "text": "did not",
+            "role": "required"
+          },
+          {
+            "id": "G25-E05-B03",
+            "text": "miss",
+            "role": "required"
+          },
+          {
+            "id": "G25-E05-B04",
+            "text": "the last train",
+            "role": "required"
+          },
+          {
+            "id": "G25-E05-B05",
+            "text": "last night.",
+            "role": "required"
+          },
+          {
+            "id": "G25-E05-D01",
+            "text": "did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E05-D02",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E05-D03",
+            "text": "was not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G25-E05-D01",
+            "text": "did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E05-D02",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E05-D03",
+            "text": "was not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G25-E05-B01",
+          "G25-E05-B02",
+          "G25-E05-B03",
+          "G25-E05-B04",
+          "G25-E05-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E05-B01",
+            "G25-E05-B02",
+            "G25-E05-B03",
+            "G25-E05-B04",
+            "G25-E05-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G25-E05-AUDIO",
+        "text": "We did not miss the last train last night.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G25-E06",
+      "grammarId": "G25",
+      "grammarNameJa": "一般動詞の過去の否定・疑問文",
+      "english": "Did they play your favorite song yesterday?",
+      "translationJa": "彼らは昨日あなたの好きな曲を演奏しましたか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Did",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+      },
+      "sentenceExplanationJa": "「Did they play your favorite song yesterday?」は「彼らは昨日あなたの好きな曲を演奏しましたか。」という意味です。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。 この文の対象部分は「Did」。まとまりは Did → they → play → your favorite song → yesterday? の順です。",
+      "glossary": [
+        {
+          "expression": "Did",
+          "lemma": "did",
+          "meaningJa": "doの過去形・過去の疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "they",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "play",
+          "lemma": "play",
+          "meaningJa": "演奏する・遊ぶ",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "favorite",
+          "lemma": "favorite",
+          "meaningJa": "お気に入りの",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ they play your favorite song yesterday?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "Did"
+        },
+        "options": [
+          {
+            "id": "G25-E06-C2",
+            "text": "Does",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Does」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E06-C3",
+            "text": "Do",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Do」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E06-C1",
+            "text": "Did",
+            "isCorrect": true,
+            "explanationJa": "正解。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+          },
+          {
+            "id": "G25-E06-C4",
+            "text": "Was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Was」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G25-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G25-E06-B01",
+            "text": "Did",
+            "role": "required"
+          },
+          {
+            "id": "G25-E06-B02",
+            "text": "they",
+            "role": "required"
+          },
+          {
+            "id": "G25-E06-B03",
+            "text": "play",
+            "role": "required"
+          },
+          {
+            "id": "G25-E06-B04",
+            "text": "your favorite song",
+            "role": "required"
+          },
+          {
+            "id": "G25-E06-B05",
+            "text": "yesterday?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G25-E06-B01",
+          "G25-E06-B02",
+          "G25-E06-B03",
+          "G25-E06-B04",
+          "G25-E06-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E06-B01",
+            "G25-E06-B02",
+            "G25-E06-B03",
+            "G25-E06-B04",
+            "G25-E06-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G25-E06-B01",
+            "text": "Did",
+            "role": "required"
+          },
+          {
+            "id": "G25-E06-B02",
+            "text": "they",
+            "role": "required"
+          },
+          {
+            "id": "G25-E06-B03",
+            "text": "play",
+            "role": "required"
+          },
+          {
+            "id": "G25-E06-B04",
+            "text": "your favorite song",
+            "role": "required"
+          },
+          {
+            "id": "G25-E06-B05",
+            "text": "yesterday?",
+            "role": "required"
+          },
+          {
+            "id": "G25-E06-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E06-D02",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E06-D03",
+            "text": "Was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E06-D04",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E06-D05",
+            "text": "done",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G25-E06-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E06-D02",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E06-D03",
+            "text": "Was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E06-D04",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E06-D05",
+            "text": "done",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G25-E06-B01",
+          "G25-E06-B02",
+          "G25-E06-B03",
+          "G25-E06-B04",
+          "G25-E06-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E06-B01",
+            "G25-E06-B02",
+            "G25-E06-B03",
+            "G25-E06-B04",
+            "G25-E06-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G25-E06-AUDIO",
+        "text": "Did they play your favorite song yesterday?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G25-E07",
+      "grammarId": "G25",
+      "grammarNameJa": "一般動詞の過去の否定・疑問文",
+      "english": "I did not buy any goods last week.",
+      "translationJa": "私は先週グッズを何も買いませんでした。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "did not",
+        "start": 2,
+        "endExclusive": 9,
+        "explanationJa": "did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+      },
+      "sentenceExplanationJa": "「I did not buy any goods last week.」は「私は先週グッズを何も買いませんでした。」という意味です。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。 この文の対象部分は「did not」。まとまりは I → did not → buy → any goods → last week. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "did",
+          "lemma": "did",
+          "meaningJa": "doの過去形・過去の疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "buy",
+          "lemma": "buy",
+          "meaningJa": "買う",
+          "kind": "word"
+        },
+        {
+          "expression": "any",
+          "lemma": "any",
+          "meaningJa": "いくつかの・少しも（否定・疑問などで使用）",
+          "kind": "word"
+        },
+        {
+          "expression": "goods",
+          "lemma": "goods",
+          "meaningJa": "商品・グッズ",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "week",
+          "lemma": "week",
+          "meaningJa": "週・1週間",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ buy any goods last week.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 9,
+          "answer": "did not"
+        },
+        "options": [
+          {
+            "id": "G25-E07-C4",
+            "text": "was not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「was not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E07-C3",
+            "text": "does not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「does not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E07-C2",
+            "text": "did not to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「did not to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E07-C1",
+            "text": "did not",
+            "isCorrect": true,
+            "explanationJa": "正解。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+          }
+        ],
+        "correctOptionId": "G25-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G25-E07-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G25-E07-B02",
+            "text": "did not",
+            "role": "required"
+          },
+          {
+            "id": "G25-E07-B03",
+            "text": "buy",
+            "role": "required"
+          },
+          {
+            "id": "G25-E07-B04",
+            "text": "any goods",
+            "role": "required"
+          },
+          {
+            "id": "G25-E07-B05",
+            "text": "last week.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G25-E07-B01",
+          "G25-E07-B02",
+          "G25-E07-B03",
+          "G25-E07-B04",
+          "G25-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E07-B01",
+            "G25-E07-B02",
+            "G25-E07-B03",
+            "G25-E07-B04",
+            "G25-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G25-E07-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G25-E07-B02",
+            "text": "did not",
+            "role": "required"
+          },
+          {
+            "id": "G25-E07-B03",
+            "text": "buy",
+            "role": "required"
+          },
+          {
+            "id": "G25-E07-B04",
+            "text": "any goods",
+            "role": "required"
+          },
+          {
+            "id": "G25-E07-B05",
+            "text": "last week.",
+            "role": "required"
+          },
+          {
+            "id": "G25-E07-D01",
+            "text": "did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E07-D02",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E07-D03",
+            "text": "was not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G25-E07-D01",
+            "text": "did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E07-D02",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E07-D03",
+            "text": "was not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G25-E07-B01",
+          "G25-E07-B02",
+          "G25-E07-B03",
+          "G25-E07-B04",
+          "G25-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E07-B01",
+            "G25-E07-B02",
+            "G25-E07-B03",
+            "G25-E07-B04",
+            "G25-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G25-E07-AUDIO",
+        "text": "I did not buy any goods last week.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G25-E08",
+      "grammarId": "G25",
+      "grammarNameJa": "一般動詞の過去の否定・疑問文",
+      "english": "Did you find your ticket this morning?",
+      "translationJa": "あなたは今朝チケットを見つけましたか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Did",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+      },
+      "sentenceExplanationJa": "「Did you find your ticket this morning?」は「あなたは今朝チケットを見つけましたか。」という意味です。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。 この文の対象部分は「Did」。まとまりは Did → you → find → your ticket → this morning? の順です。",
+      "glossary": [
+        {
+          "expression": "Did",
+          "lemma": "did",
+          "meaningJa": "doの過去形・過去の疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "find",
+          "lemma": "find",
+          "meaningJa": "見つける",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "morning",
+          "lemma": "morning",
+          "meaningJa": "朝・午前",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ you find your ticket this morning?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "Did"
+        },
+        "options": [
+          {
+            "id": "G25-E08-C1",
+            "text": "Did",
+            "isCorrect": true,
+            "explanationJa": "正解。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+          },
+          {
+            "id": "G25-E08-C3",
+            "text": "Do",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Do」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E08-C2",
+            "text": "Does",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Does」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E08-C4",
+            "text": "Was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Was」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G25-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G25-E08-B01",
+            "text": "Did",
+            "role": "required"
+          },
+          {
+            "id": "G25-E08-B02",
+            "text": "you",
+            "role": "required"
+          },
+          {
+            "id": "G25-E08-B03",
+            "text": "find",
+            "role": "required"
+          },
+          {
+            "id": "G25-E08-B04",
+            "text": "your ticket",
+            "role": "required"
+          },
+          {
+            "id": "G25-E08-B05",
+            "text": "this morning?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G25-E08-B01",
+          "G25-E08-B02",
+          "G25-E08-B03",
+          "G25-E08-B04",
+          "G25-E08-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E08-B01",
+            "G25-E08-B02",
+            "G25-E08-B03",
+            "G25-E08-B04",
+            "G25-E08-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G25-E08-B01",
+            "text": "Did",
+            "role": "required"
+          },
+          {
+            "id": "G25-E08-B02",
+            "text": "you",
+            "role": "required"
+          },
+          {
+            "id": "G25-E08-B03",
+            "text": "find",
+            "role": "required"
+          },
+          {
+            "id": "G25-E08-B04",
+            "text": "your ticket",
+            "role": "required"
+          },
+          {
+            "id": "G25-E08-B05",
+            "text": "this morning?",
+            "role": "required"
+          },
+          {
+            "id": "G25-E08-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E08-D02",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E08-D03",
+            "text": "Was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E08-D04",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E08-D05",
+            "text": "done",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G25-E08-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E08-D02",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E08-D03",
+            "text": "Was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E08-D04",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E08-D05",
+            "text": "done",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G25-E08-B01",
+          "G25-E08-B02",
+          "G25-E08-B03",
+          "G25-E08-B04",
+          "G25-E08-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E08-B01",
+            "G25-E08-B02",
+            "G25-E08-B03",
+            "G25-E08-B04",
+            "G25-E08-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G25-E08-AUDIO",
+        "text": "Did you find your ticket this morning?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G25-E09",
+      "grammarId": "G25",
+      "grammarNameJa": "一般動詞の過去の否定・疑問文",
+      "english": "He did not know the answer yesterday.",
+      "translationJa": "彼は昨日答えを知りませんでした。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "did not",
+        "start": 3,
+        "endExclusive": 10,
+        "explanationJa": "did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+      },
+      "sentenceExplanationJa": "「He did not know the answer yesterday.」は「彼は昨日答えを知りませんでした。」という意味です。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。 この文の対象部分は「did not」。まとまりは He → did not → know → the answer → yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "did",
+          "lemma": "did",
+          "meaningJa": "doの過去形・過去の疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "know",
+          "lemma": "know",
+          "meaningJa": "知っている",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "answer",
+          "lemma": "answer",
+          "meaningJa": "答え・答える",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ know the answer yesterday.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 10,
+          "answer": "did not"
+        },
+        "options": [
+          {
+            "id": "G25-E09-C2",
+            "text": "did not to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「did not to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E09-C4",
+            "text": "was not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「was not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E09-C3",
+            "text": "does not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「did not」を使います。「does not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E09-C1",
+            "text": "did not",
+            "isCorrect": true,
+            "explanationJa": "正解。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+          }
+        ],
+        "correctOptionId": "G25-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G25-E09-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G25-E09-B02",
+            "text": "did not",
+            "role": "required"
+          },
+          {
+            "id": "G25-E09-B03",
+            "text": "know",
+            "role": "required"
+          },
+          {
+            "id": "G25-E09-B04",
+            "text": "the answer",
+            "role": "required"
+          },
+          {
+            "id": "G25-E09-B05",
+            "text": "yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G25-E09-B01",
+          "G25-E09-B02",
+          "G25-E09-B03",
+          "G25-E09-B04",
+          "G25-E09-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E09-B01",
+            "G25-E09-B02",
+            "G25-E09-B03",
+            "G25-E09-B04",
+            "G25-E09-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G25-E09-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G25-E09-B02",
+            "text": "did not",
+            "role": "required"
+          },
+          {
+            "id": "G25-E09-B03",
+            "text": "know",
+            "role": "required"
+          },
+          {
+            "id": "G25-E09-B04",
+            "text": "the answer",
+            "role": "required"
+          },
+          {
+            "id": "G25-E09-B05",
+            "text": "yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G25-E09-D01",
+            "text": "did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E09-D02",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E09-D03",
+            "text": "was not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G25-E09-D01",
+            "text": "did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E09-D02",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E09-D03",
+            "text": "was not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          },
+          {
+            "id": "G25-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「did not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G25-E09-B01",
+          "G25-E09-B02",
+          "G25-E09-B03",
+          "G25-E09-B04",
+          "G25-E09-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E09-B01",
+            "G25-E09-B02",
+            "G25-E09-B03",
+            "G25-E09-B04",
+            "G25-E09-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G25-E09-AUDIO",
+        "text": "He did not know the answer yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G25-E10",
+      "grammarId": "G25",
+      "grammarNameJa": "一般動詞の過去の否定・疑問文",
+      "english": "Did she take a photo last night?",
+      "translationJa": "彼女は昨夜写真を撮りましたか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Did",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+      },
+      "sentenceExplanationJa": "「Did she take a photo last night?」は「彼女は昨夜写真を撮りましたか。」という意味です。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。 この文の対象部分は「Did」。まとまりは Did → she → take → a photo → last night? の順です。",
+      "glossary": [
+        {
+          "expression": "take a photo",
+          "meaningJa": "写真を撮る",
+          "kind": "phrase"
+        },
+        {
+          "expression": "Did",
+          "lemma": "did",
+          "meaningJa": "doの過去形・過去の疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "she",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "take",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "photo",
+          "lemma": "photo",
+          "meaningJa": "写真",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "night",
+          "lemma": "night",
+          "meaningJa": "夜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ she take a photo last night?",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "Did"
+        },
+        "options": [
+          {
+            "id": "G25-E10-C3",
+            "text": "Do",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Do」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E10-C2",
+            "text": "Does",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Does」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G25-E10-C1",
+            "text": "Did",
+            "isCorrect": true,
+            "explanationJa": "正解。did notの後ろは原形。疑問文はDid＋主語＋原形の順にする。"
+          },
+          {
+            "id": "G25-E10-C4",
+            "text": "Was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Did」を使います。「Was」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G25-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G25-E10-B01",
+            "text": "Did",
+            "role": "required"
+          },
+          {
+            "id": "G25-E10-B02",
+            "text": "she",
+            "role": "required"
+          },
+          {
+            "id": "G25-E10-B03",
+            "text": "take",
+            "role": "required"
+          },
+          {
+            "id": "G25-E10-B04",
+            "text": "a photo",
+            "role": "required"
+          },
+          {
+            "id": "G25-E10-B05",
+            "text": "last night?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G25-E10-B01",
+          "G25-E10-B02",
+          "G25-E10-B03",
+          "G25-E10-B04",
+          "G25-E10-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E10-B01",
+            "G25-E10-B02",
+            "G25-E10-B03",
+            "G25-E10-B04",
+            "G25-E10-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G25-E10-B01",
+            "text": "Did",
+            "role": "required"
+          },
+          {
+            "id": "G25-E10-B02",
+            "text": "she",
+            "role": "required"
+          },
+          {
+            "id": "G25-E10-B03",
+            "text": "take",
+            "role": "required"
+          },
+          {
+            "id": "G25-E10-B04",
+            "text": "a photo",
+            "role": "required"
+          },
+          {
+            "id": "G25-E10-B05",
+            "text": "last night?",
+            "role": "required"
+          },
+          {
+            "id": "G25-E10-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E10-D02",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E10-D03",
+            "text": "Was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E10-D04",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E10-D05",
+            "text": "done",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G25-E10-D01",
+            "text": "Does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E10-D02",
+            "text": "Do",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E10-D03",
+            "text": "Was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E10-D04",
+            "text": "doing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          },
+          {
+            "id": "G25-E10-D05",
+            "text": "done",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Did」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G25-E10-B01",
+          "G25-E10-B02",
+          "G25-E10-B03",
+          "G25-E10-B04",
+          "G25-E10-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G25-E10-B01",
+            "G25-E10-B02",
+            "G25-E10-B03",
+            "G25-E10-B04",
+            "G25-E10-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G25-E10-AUDIO",
+        "text": "Did she take a photo last night?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

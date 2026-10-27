@@ -1,0 +1,2387 @@
+{
+  "grammarId": "G41",
+  "examples": [
+    {
+      "id": "G41-E01",
+      "grammarId": "G41",
+      "grammarNameJa": "and・but・or・so",
+      "english": "I like singing and dancing.",
+      "translationJa": "私は歌うことと踊ることが好きです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "and",
+        "start": 15,
+        "endExclusive": 18,
+        "explanationJa": "andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+      },
+      "sentenceExplanationJa": "「I like singing and dancing.」は「私は歌うことと踊ることが好きです。」という意味です。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。 この文の対象部分は「and」。まとまりは I → like singing → and → dancing. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "like",
+          "lemma": "like",
+          "meaningJa": "好きである",
+          "kind": "word"
+        },
+        {
+          "expression": "singing",
+          "lemma": "sing",
+          "meaningJa": "歌う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "and",
+          "lemma": "and",
+          "meaningJa": "～と・そして",
+          "kind": "word"
+        },
+        {
+          "expression": "dancing",
+          "lemma": "dance",
+          "meaningJa": "踊る（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I like singing ___ dancing.",
+        "blank": {
+          "start": 15,
+          "endExclusive": 18,
+          "answer": "and"
+        },
+        "options": [
+          {
+            "id": "G41-E01-C4",
+            "text": "so",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「and」を使います。「so」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E01-C2",
+            "text": "but",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「and」を使います。「but」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E01-C1",
+            "text": "and",
+            "isCorrect": true,
+            "explanationJa": "正解。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+          },
+          {
+            "id": "G41-E01-C3",
+            "text": "or",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「and」を使います。「or」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G41-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G41-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G41-E01-B02",
+            "text": "like singing",
+            "role": "required"
+          },
+          {
+            "id": "G41-E01-B03",
+            "text": "and",
+            "role": "required"
+          },
+          {
+            "id": "G41-E01-B04",
+            "text": "dancing.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G41-E01-B01",
+          "G41-E01-B02",
+          "G41-E01-B03",
+          "G41-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E01-B01",
+            "G41-E01-B02",
+            "G41-E01-B03",
+            "G41-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G41-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G41-E01-B02",
+            "text": "like singing",
+            "role": "required"
+          },
+          {
+            "id": "G41-E01-B03",
+            "text": "and",
+            "role": "required"
+          },
+          {
+            "id": "G41-E01-B04",
+            "text": "dancing.",
+            "role": "required"
+          },
+          {
+            "id": "G41-E01-D01",
+            "text": "but",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E01-D02",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E01-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G41-E01-D01",
+            "text": "but",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E01-D02",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E01-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G41-E01-B01",
+          "G41-E01-B02",
+          "G41-E01-B03",
+          "G41-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E01-B01",
+            "G41-E01-B02",
+            "G41-E01-B03",
+            "G41-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G41-E01-AUDIO",
+        "text": "I like singing and dancing.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G41-E02",
+      "grammarId": "G41",
+      "grammarNameJa": "and・but・or・so",
+      "english": "The ticket was expensive, but I bought it.",
+      "translationJa": "チケットは高かったですが、私は買いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "but",
+        "start": 26,
+        "endExclusive": 29,
+        "explanationJa": "andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+      },
+      "sentenceExplanationJa": "「The ticket was expensive, but I bought it.」は「チケットは高かったですが、私は買いました。」という意味です。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。 この文の対象部分は「but」。まとまりは The ticket → was expensive, → but → I bought it. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "expensive",
+          "lemma": "expensive",
+          "meaningJa": "高価な",
+          "kind": "word"
+        },
+        {
+          "expression": "but",
+          "lemma": "but",
+          "meaningJa": "しかし・けれども",
+          "kind": "word"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "bought",
+          "lemma": "buy",
+          "meaningJa": "買う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "it",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The ticket was expensive, ___ I bought it.",
+        "blank": {
+          "start": 26,
+          "endExclusive": 29,
+          "answer": "but"
+        },
+        "options": [
+          {
+            "id": "G41-E02-C2",
+            "text": "and",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「but」を使います。「and」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E02-C3",
+            "text": "or",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「but」を使います。「or」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E02-C1",
+            "text": "but",
+            "isCorrect": true,
+            "explanationJa": "正解。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+          },
+          {
+            "id": "G41-E02-C4",
+            "text": "so",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「but」を使います。「so」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G41-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G41-E02-B01",
+            "text": "The ticket",
+            "role": "required"
+          },
+          {
+            "id": "G41-E02-B02",
+            "text": "was expensive,",
+            "role": "required"
+          },
+          {
+            "id": "G41-E02-B03",
+            "text": "but",
+            "role": "required"
+          },
+          {
+            "id": "G41-E02-B04",
+            "text": "I bought it.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G41-E02-B01",
+          "G41-E02-B02",
+          "G41-E02-B03",
+          "G41-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E02-B01",
+            "G41-E02-B02",
+            "G41-E02-B03",
+            "G41-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G41-E02-B01",
+            "text": "The ticket",
+            "role": "required"
+          },
+          {
+            "id": "G41-E02-B02",
+            "text": "was expensive,",
+            "role": "required"
+          },
+          {
+            "id": "G41-E02-B03",
+            "text": "but",
+            "role": "required"
+          },
+          {
+            "id": "G41-E02-B04",
+            "text": "I bought it.",
+            "role": "required"
+          },
+          {
+            "id": "G41-E02-D01",
+            "text": "and",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E02-D02",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E02-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G41-E02-D01",
+            "text": "and",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E02-D02",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E02-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G41-E02-B01",
+          "G41-E02-B02",
+          "G41-E02-B03",
+          "G41-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E02-B01",
+            "G41-E02-B02",
+            "G41-E02-B03",
+            "G41-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G41-E02-AUDIO",
+        "text": "The ticket was expensive, but I bought it.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G41-E03",
+      "grammarId": "G41",
+      "grammarNameJa": "and・but・or・so",
+      "english": "Do you want tea or water?",
+      "translationJa": "あなたはお茶と水のどちらが欲しいですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "or",
+        "start": 16,
+        "endExclusive": 18,
+        "explanationJa": "andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+      },
+      "sentenceExplanationJa": "「Do you want tea or water?」は「あなたはお茶と水のどちらが欲しいですか。」という意味です。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。 この文の対象部分は「or」。まとまりは Do you want → tea → or → water? の順です。",
+      "glossary": [
+        {
+          "expression": "Do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "want",
+          "lemma": "want",
+          "meaningJa": "欲しい・～したい",
+          "kind": "word"
+        },
+        {
+          "expression": "tea",
+          "lemma": "tea",
+          "meaningJa": "お茶",
+          "kind": "word"
+        },
+        {
+          "expression": "or",
+          "lemma": "or",
+          "meaningJa": "または",
+          "kind": "word"
+        },
+        {
+          "expression": "water",
+          "lemma": "water",
+          "meaningJa": "水",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Do you want tea ___ water?",
+        "blank": {
+          "start": 16,
+          "endExclusive": 18,
+          "answer": "or"
+        },
+        "options": [
+          {
+            "id": "G41-E03-C1",
+            "text": "or",
+            "isCorrect": true,
+            "explanationJa": "正解。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+          },
+          {
+            "id": "G41-E03-C2",
+            "text": "and",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「or」を使います。「and」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E03-C3",
+            "text": "but",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「or」を使います。「but」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E03-C4",
+            "text": "so",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「or」を使います。「so」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G41-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G41-E03-B01",
+            "text": "Do you want",
+            "role": "required"
+          },
+          {
+            "id": "G41-E03-B02",
+            "text": "tea",
+            "role": "required"
+          },
+          {
+            "id": "G41-E03-B03",
+            "text": "or",
+            "role": "required"
+          },
+          {
+            "id": "G41-E03-B04",
+            "text": "water?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G41-E03-B01",
+          "G41-E03-B02",
+          "G41-E03-B03",
+          "G41-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E03-B01",
+            "G41-E03-B02",
+            "G41-E03-B03",
+            "G41-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G41-E03-B01",
+            "text": "Do you want",
+            "role": "required"
+          },
+          {
+            "id": "G41-E03-B02",
+            "text": "tea",
+            "role": "required"
+          },
+          {
+            "id": "G41-E03-B03",
+            "text": "or",
+            "role": "required"
+          },
+          {
+            "id": "G41-E03-B04",
+            "text": "water?",
+            "role": "required"
+          },
+          {
+            "id": "G41-E03-D01",
+            "text": "and",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E03-D02",
+            "text": "but",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E03-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G41-E03-D01",
+            "text": "and",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E03-D02",
+            "text": "but",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E03-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G41-E03-B01",
+          "G41-E03-B02",
+          "G41-E03-B03",
+          "G41-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E03-B01",
+            "G41-E03-B02",
+            "G41-E03-B03",
+            "G41-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G41-E03-AUDIO",
+        "text": "Do you want tea or water?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G41-E04",
+      "grammarId": "G41",
+      "grammarNameJa": "and・but・or・so",
+      "english": "I was tired, so I went home.",
+      "translationJa": "私は疲れていたので、家に帰りました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "so",
+        "start": 13,
+        "endExclusive": 15,
+        "explanationJa": "andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+      },
+      "sentenceExplanationJa": "「I was tired, so I went home.」は「私は疲れていたので、家に帰りました。」という意味です。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。 この文の対象部分は「so」。まとまりは I was tired, → so → I went home. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "tired",
+          "lemma": "tired",
+          "meaningJa": "疲れた",
+          "kind": "word"
+        },
+        {
+          "expression": "so",
+          "lemma": "so",
+          "meaningJa": "だから・とても",
+          "kind": "word"
+        },
+        {
+          "expression": "went",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "home",
+          "lemma": "home",
+          "meaningJa": "家・家へ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I was tired, ___ I went home.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 15,
+          "answer": "so"
+        },
+        "options": [
+          {
+            "id": "G41-E04-C4",
+            "text": "or",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「so」を使います。「or」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E04-C2",
+            "text": "and",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「so」を使います。「and」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E04-C3",
+            "text": "but",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「so」を使います。「but」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E04-C1",
+            "text": "so",
+            "isCorrect": true,
+            "explanationJa": "正解。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+          }
+        ],
+        "correctOptionId": "G41-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G41-E04-B01",
+            "text": "I was tired,",
+            "role": "required"
+          },
+          {
+            "id": "G41-E04-B02",
+            "text": "so",
+            "role": "required"
+          },
+          {
+            "id": "G41-E04-B03",
+            "text": "I went home.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G41-E04-B01",
+          "G41-E04-B02",
+          "G41-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E04-B01",
+            "G41-E04-B02",
+            "G41-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G41-E04-B01",
+            "text": "I was tired,",
+            "role": "required"
+          },
+          {
+            "id": "G41-E04-B02",
+            "text": "so",
+            "role": "required"
+          },
+          {
+            "id": "G41-E04-B03",
+            "text": "I went home.",
+            "role": "required"
+          },
+          {
+            "id": "G41-E04-D01",
+            "text": "and",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E04-D02",
+            "text": "but",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E04-D03",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G41-E04-D01",
+            "text": "and",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E04-D02",
+            "text": "but",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E04-D03",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G41-E04-B01",
+          "G41-E04-B02",
+          "G41-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E04-B01",
+            "G41-E04-B02",
+            "G41-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G41-E04-AUDIO",
+        "text": "I was tired, so I went home.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G41-E05",
+      "grammarId": "G41",
+      "grammarNameJa": "and・but・or・so",
+      "english": "She bought a towel and a bag.",
+      "translationJa": "彼女はタオルとバッグを買いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "and",
+        "start": 19,
+        "endExclusive": 22,
+        "explanationJa": "andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+      },
+      "sentenceExplanationJa": "「She bought a towel and a bag.」は「彼女はタオルとバッグを買いました。」という意味です。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。 この文の対象部分は「and」。まとまりは She bought → a towel → and → a bag. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "bought",
+          "lemma": "buy",
+          "meaningJa": "買う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        },
+        {
+          "expression": "and",
+          "lemma": "and",
+          "meaningJa": "～と・そして",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She bought a towel ___ a bag.",
+        "blank": {
+          "start": 19,
+          "endExclusive": 22,
+          "answer": "and"
+        },
+        "options": [
+          {
+            "id": "G41-E05-C3",
+            "text": "or",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「and」を使います。「or」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E05-C1",
+            "text": "and",
+            "isCorrect": true,
+            "explanationJa": "正解。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+          },
+          {
+            "id": "G41-E05-C2",
+            "text": "but",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「and」を使います。「but」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E05-C4",
+            "text": "so",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「and」を使います。「so」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G41-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G41-E05-B01",
+            "text": "She bought",
+            "role": "required"
+          },
+          {
+            "id": "G41-E05-B02",
+            "text": "a towel",
+            "role": "required"
+          },
+          {
+            "id": "G41-E05-B03",
+            "text": "and",
+            "role": "required"
+          },
+          {
+            "id": "G41-E05-B04",
+            "text": "a bag.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G41-E05-B01",
+          "G41-E05-B02",
+          "G41-E05-B03",
+          "G41-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E05-B01",
+            "G41-E05-B02",
+            "G41-E05-B03",
+            "G41-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G41-E05-B01",
+            "text": "She bought",
+            "role": "required"
+          },
+          {
+            "id": "G41-E05-B02",
+            "text": "a towel",
+            "role": "required"
+          },
+          {
+            "id": "G41-E05-B03",
+            "text": "and",
+            "role": "required"
+          },
+          {
+            "id": "G41-E05-B04",
+            "text": "a bag.",
+            "role": "required"
+          },
+          {
+            "id": "G41-E05-D01",
+            "text": "but",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E05-D02",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E05-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G41-E05-D01",
+            "text": "but",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E05-D02",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E05-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G41-E05-B01",
+          "G41-E05-B02",
+          "G41-E05-B03",
+          "G41-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E05-B01",
+            "G41-E05-B02",
+            "G41-E05-B03",
+            "G41-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G41-E05-AUDIO",
+        "text": "She bought a towel and a bag.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G41-E06",
+      "grammarId": "G41",
+      "grammarNameJa": "and・but・or・so",
+      "english": "The line was long, but we waited.",
+      "translationJa": "列は長かったですが、私たちは待ちました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "but",
+        "start": 19,
+        "endExclusive": 22,
+        "explanationJa": "andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+      },
+      "sentenceExplanationJa": "「The line was long, but we waited.」は「列は長かったですが、私たちは待ちました。」という意味です。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。 この文の対象部分は「but」。まとまりは The line → was long, → but → we waited. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "line",
+          "lemma": "line",
+          "meaningJa": "列・行列",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "long",
+          "lemma": "long",
+          "meaningJa": "長い",
+          "kind": "word"
+        },
+        {
+          "expression": "but",
+          "lemma": "but",
+          "meaningJa": "しかし・けれども",
+          "kind": "word"
+        },
+        {
+          "expression": "we",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "waited",
+          "lemma": "wait",
+          "meaningJa": "待つ（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The line was long, ___ we waited.",
+        "blank": {
+          "start": 19,
+          "endExclusive": 22,
+          "answer": "but"
+        },
+        "options": [
+          {
+            "id": "G41-E06-C4",
+            "text": "so",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「but」を使います。「so」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E06-C2",
+            "text": "and",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「but」を使います。「and」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E06-C3",
+            "text": "or",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「but」を使います。「or」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E06-C1",
+            "text": "but",
+            "isCorrect": true,
+            "explanationJa": "正解。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+          }
+        ],
+        "correctOptionId": "G41-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G41-E06-B01",
+            "text": "The line",
+            "role": "required"
+          },
+          {
+            "id": "G41-E06-B02",
+            "text": "was long,",
+            "role": "required"
+          },
+          {
+            "id": "G41-E06-B03",
+            "text": "but",
+            "role": "required"
+          },
+          {
+            "id": "G41-E06-B04",
+            "text": "we waited.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G41-E06-B01",
+          "G41-E06-B02",
+          "G41-E06-B03",
+          "G41-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E06-B01",
+            "G41-E06-B02",
+            "G41-E06-B03",
+            "G41-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G41-E06-B01",
+            "text": "The line",
+            "role": "required"
+          },
+          {
+            "id": "G41-E06-B02",
+            "text": "was long,",
+            "role": "required"
+          },
+          {
+            "id": "G41-E06-B03",
+            "text": "but",
+            "role": "required"
+          },
+          {
+            "id": "G41-E06-B04",
+            "text": "we waited.",
+            "role": "required"
+          },
+          {
+            "id": "G41-E06-D01",
+            "text": "and",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E06-D02",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E06-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G41-E06-D01",
+            "text": "and",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E06-D02",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E06-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G41-E06-B01",
+          "G41-E06-B02",
+          "G41-E06-B03",
+          "G41-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E06-B01",
+            "G41-E06-B02",
+            "G41-E06-B03",
+            "G41-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G41-E06-AUDIO",
+        "text": "The line was long, but we waited.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G41-E07",
+      "grammarId": "G41",
+      "grammarNameJa": "and・but・or・so",
+      "english": "You can sit here or stand there.",
+      "translationJa": "あなたはここに座るか、あそこに立つかできます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "or",
+        "start": 17,
+        "endExclusive": 19,
+        "explanationJa": "andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+      },
+      "sentenceExplanationJa": "「You can sit here or stand there.」は「あなたはここに座るか、あそこに立つかできます。」という意味です。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。 この文の対象部分は「or」。まとまりは You can sit here → or → stand there. の順です。",
+      "glossary": [
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "sit",
+          "lemma": "sit",
+          "meaningJa": "座る",
+          "kind": "word"
+        },
+        {
+          "expression": "here",
+          "lemma": "here",
+          "meaningJa": "ここに・ここで",
+          "kind": "word"
+        },
+        {
+          "expression": "or",
+          "lemma": "or",
+          "meaningJa": "または",
+          "kind": "word"
+        },
+        {
+          "expression": "stand",
+          "lemma": "stand",
+          "meaningJa": "立つ",
+          "kind": "word"
+        },
+        {
+          "expression": "there",
+          "lemma": "there",
+          "meaningJa": "そこに／存在構文のthere",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You can sit here ___ stand there.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 19,
+          "answer": "or"
+        },
+        "options": [
+          {
+            "id": "G41-E07-C4",
+            "text": "so",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「or」を使います。「so」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E07-C3",
+            "text": "but",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「or」を使います。「but」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E07-C1",
+            "text": "or",
+            "isCorrect": true,
+            "explanationJa": "正解。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+          },
+          {
+            "id": "G41-E07-C2",
+            "text": "and",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「or」を使います。「and」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G41-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G41-E07-B01",
+            "text": "You can sit here",
+            "role": "required"
+          },
+          {
+            "id": "G41-E07-B02",
+            "text": "or",
+            "role": "required"
+          },
+          {
+            "id": "G41-E07-B03",
+            "text": "stand there.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G41-E07-B01",
+          "G41-E07-B02",
+          "G41-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E07-B01",
+            "G41-E07-B02",
+            "G41-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G41-E07-B01",
+            "text": "You can sit here",
+            "role": "required"
+          },
+          {
+            "id": "G41-E07-B02",
+            "text": "or",
+            "role": "required"
+          },
+          {
+            "id": "G41-E07-B03",
+            "text": "stand there.",
+            "role": "required"
+          },
+          {
+            "id": "G41-E07-D01",
+            "text": "and",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E07-D02",
+            "text": "but",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E07-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G41-E07-D01",
+            "text": "and",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E07-D02",
+            "text": "but",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E07-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          },
+          {
+            "id": "G41-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「or」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G41-E07-B01",
+          "G41-E07-B02",
+          "G41-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E07-B01",
+            "G41-E07-B02",
+            "G41-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G41-E07-AUDIO",
+        "text": "You can sit here or stand there.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G41-E08",
+      "grammarId": "G41",
+      "grammarNameJa": "and・but・or・so",
+      "english": "It was raining, so I took an umbrella.",
+      "translationJa": "雨が降っていたので、私は傘を持っていきました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "so",
+        "start": 16,
+        "endExclusive": 18,
+        "explanationJa": "andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+      },
+      "sentenceExplanationJa": "「It was raining, so I took an umbrella.」は「雨が降っていたので、私は傘を持っていきました。」という意味です。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。 この文の対象部分は「so」。まとまりは It was raining, → so → I took an umbrella. の順です。",
+      "glossary": [
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "raining",
+          "lemma": "rain",
+          "meaningJa": "雨・雨が降る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "so",
+          "lemma": "so",
+          "meaningJa": "だから・とても",
+          "kind": "word"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "took",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "an",
+          "lemma": "an",
+          "meaningJa": "1つの（母音で始まる音の前の不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "umbrella",
+          "lemma": "umbrella",
+          "meaningJa": "傘",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It was raining, ___ I took an umbrella.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 18,
+          "answer": "so"
+        },
+        "options": [
+          {
+            "id": "G41-E08-C1",
+            "text": "so",
+            "isCorrect": true,
+            "explanationJa": "正解。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+          },
+          {
+            "id": "G41-E08-C3",
+            "text": "but",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「so」を使います。「but」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E08-C4",
+            "text": "or",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「so」を使います。「or」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E08-C2",
+            "text": "and",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「so」を使います。「and」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G41-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G41-E08-B01",
+            "text": "It was raining,",
+            "role": "required"
+          },
+          {
+            "id": "G41-E08-B02",
+            "text": "so",
+            "role": "required"
+          },
+          {
+            "id": "G41-E08-B03",
+            "text": "I took an umbrella.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G41-E08-B01",
+          "G41-E08-B02",
+          "G41-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E08-B01",
+            "G41-E08-B02",
+            "G41-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G41-E08-B01",
+            "text": "It was raining,",
+            "role": "required"
+          },
+          {
+            "id": "G41-E08-B02",
+            "text": "so",
+            "role": "required"
+          },
+          {
+            "id": "G41-E08-B03",
+            "text": "I took an umbrella.",
+            "role": "required"
+          },
+          {
+            "id": "G41-E08-D01",
+            "text": "and",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E08-D02",
+            "text": "but",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E08-D03",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G41-E08-D01",
+            "text": "and",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E08-D02",
+            "text": "but",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E08-D03",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          },
+          {
+            "id": "G41-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「so」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G41-E08-B01",
+          "G41-E08-B02",
+          "G41-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E08-B01",
+            "G41-E08-B02",
+            "G41-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G41-E08-AUDIO",
+        "text": "It was raining, so I took an umbrella.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G41-E09",
+      "grammarId": "G41",
+      "grammarNameJa": "and・but・or・so",
+      "english": "He sings and plays the piano.",
+      "translationJa": "彼は歌い、ピアノも弾きます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "and",
+        "start": 9,
+        "endExclusive": 12,
+        "explanationJa": "andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+      },
+      "sentenceExplanationJa": "「He sings and plays the piano.」は「彼は歌い、ピアノも弾きます。」という意味です。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。 この文の対象部分は「and」。まとまりは He → sings → and → plays the piano. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "sings",
+          "lemma": "sing",
+          "meaningJa": "歌う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "and",
+          "lemma": "and",
+          "meaningJa": "～と・そして",
+          "kind": "word"
+        },
+        {
+          "expression": "plays",
+          "lemma": "play",
+          "meaningJa": "演奏する・遊ぶ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "piano",
+          "lemma": "piano",
+          "meaningJa": "ピアノ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He sings ___ plays the piano.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 12,
+          "answer": "and"
+        },
+        "options": [
+          {
+            "id": "G41-E09-C1",
+            "text": "and",
+            "isCorrect": true,
+            "explanationJa": "正解。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+          },
+          {
+            "id": "G41-E09-C3",
+            "text": "or",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「and」を使います。「or」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E09-C2",
+            "text": "but",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「and」を使います。「but」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E09-C4",
+            "text": "so",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「and」を使います。「so」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G41-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G41-E09-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G41-E09-B02",
+            "text": "sings",
+            "role": "required"
+          },
+          {
+            "id": "G41-E09-B03",
+            "text": "and",
+            "role": "required"
+          },
+          {
+            "id": "G41-E09-B04",
+            "text": "plays the piano.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G41-E09-B01",
+          "G41-E09-B02",
+          "G41-E09-B03",
+          "G41-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E09-B01",
+            "G41-E09-B02",
+            "G41-E09-B03",
+            "G41-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G41-E09-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G41-E09-B02",
+            "text": "sings",
+            "role": "required"
+          },
+          {
+            "id": "G41-E09-B03",
+            "text": "and",
+            "role": "required"
+          },
+          {
+            "id": "G41-E09-B04",
+            "text": "plays the piano.",
+            "role": "required"
+          },
+          {
+            "id": "G41-E09-D01",
+            "text": "but",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E09-D02",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E09-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G41-E09-D01",
+            "text": "but",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E09-D02",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E09-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          },
+          {
+            "id": "G41-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「and」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G41-E09-B01",
+          "G41-E09-B02",
+          "G41-E09-B03",
+          "G41-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E09-B01",
+            "G41-E09-B02",
+            "G41-E09-B03",
+            "G41-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G41-E09-AUDIO",
+        "text": "He sings and plays the piano.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G41-E10",
+      "grammarId": "G41",
+      "grammarNameJa": "and・but・or・so",
+      "english": "I like this song, but my sister does not.",
+      "translationJa": "私はこの曲が好きですが、姉は好きではありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "but",
+        "start": 18,
+        "endExclusive": 21,
+        "explanationJa": "andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+      },
+      "sentenceExplanationJa": "「I like this song, but my sister does not.」は「私はこの曲が好きですが、姉は好きではありません。」という意味です。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。 この文の対象部分は「but」。まとまりは I like this song, → but → my sister does not. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "like",
+          "lemma": "like",
+          "meaningJa": "好きである",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "but",
+          "lemma": "but",
+          "meaningJa": "しかし・けれども",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "sister",
+          "lemma": "sister",
+          "meaningJa": "姉・妹",
+          "kind": "word"
+        },
+        {
+          "expression": "does",
+          "lemma": "does",
+          "meaningJa": "三人称単数現在のdo",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I like this song, ___ my sister does not.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 21,
+          "answer": "but"
+        },
+        "options": [
+          {
+            "id": "G41-E10-C1",
+            "text": "but",
+            "isCorrect": true,
+            "explanationJa": "正解。andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。"
+          },
+          {
+            "id": "G41-E10-C3",
+            "text": "or",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「but」を使います。「or」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E10-C2",
+            "text": "and",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「but」を使います。「and」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G41-E10-C4",
+            "text": "so",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「but」を使います。「so」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G41-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G41-E10-B01",
+            "text": "I like this song,",
+            "role": "required"
+          },
+          {
+            "id": "G41-E10-B02",
+            "text": "but",
+            "role": "required"
+          },
+          {
+            "id": "G41-E10-B03",
+            "text": "my sister does not.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G41-E10-B01",
+          "G41-E10-B02",
+          "G41-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E10-B01",
+            "G41-E10-B02",
+            "G41-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G41-E10-B01",
+            "text": "I like this song,",
+            "role": "required"
+          },
+          {
+            "id": "G41-E10-B02",
+            "text": "but",
+            "role": "required"
+          },
+          {
+            "id": "G41-E10-B03",
+            "text": "my sister does not.",
+            "role": "required"
+          },
+          {
+            "id": "G41-E10-D01",
+            "text": "and",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E10-D02",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E10-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G41-E10-D01",
+            "text": "and",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E10-D02",
+            "text": "or",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E10-D03",
+            "text": "so",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          },
+          {
+            "id": "G41-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「but」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G41-E10-B01",
+          "G41-E10-B02",
+          "G41-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G41-E10-B01",
+            "G41-E10-B02",
+            "G41-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G41-E10-AUDIO",
+        "text": "I like this song, but my sister does not.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

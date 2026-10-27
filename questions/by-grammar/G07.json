@@ -1,0 +1,2333 @@
+{
+  "grammarId": "G07",
+  "examples": [
+    {
+      "id": "G07-E01",
+      "grammarId": "G07",
+      "grammarNameJa": "一般動詞の現在形",
+      "english": "I listen to Mrs. GREEN APPLE every day.",
+      "translationJa": "私は毎日Mrs. GREEN APPLEの音楽を聴きます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "listen",
+        "start": 2,
+        "endExclusive": 8,
+        "explanationJa": "I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+      },
+      "sentenceExplanationJa": "「I listen to Mrs. GREEN APPLE every day.」は「私は毎日Mrs. GREEN APPLEの音楽を聴きます。」という意味です。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。 この文の対象部分は「listen」。まとまりは I → listen → to Mrs. GREEN APPLE → every day. の順です。",
+      "glossary": [
+        {
+          "expression": "listen to",
+          "meaningJa": "～を聴く",
+          "kind": "phrase"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "listen",
+          "lemma": "listen",
+          "meaningJa": "耳を傾けて聴く",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "Mrs",
+          "lemma": "mrs",
+          "meaningJa": "Mrs.（ここではバンド名の一部）",
+          "kind": "word"
+        },
+        {
+          "expression": "GREEN",
+          "lemma": "green",
+          "meaningJa": "緑・緑色の",
+          "kind": "word"
+        },
+        {
+          "expression": "APPLE",
+          "lemma": "apple",
+          "meaningJa": "リンゴ／アップル（名前）",
+          "kind": "word"
+        },
+        {
+          "expression": "every",
+          "lemma": "every",
+          "meaningJa": "毎～・すべての",
+          "kind": "word"
+        },
+        {
+          "expression": "day",
+          "lemma": "day",
+          "meaningJa": "日・一日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ to Mrs. GREEN APPLE every day.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 8,
+          "answer": "listen"
+        },
+        "options": [
+          {
+            "id": "G07-E01-C4",
+            "text": "listening",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「listen」を使います。「listening」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E01-C3",
+            "text": "listened",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「listen」を使います。「listened」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E01-C2",
+            "text": "listens",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「listen」を使います。「listens」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E01-C1",
+            "text": "listen",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+          }
+        ],
+        "correctOptionId": "G07-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G07-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G07-E01-B02",
+            "text": "listen",
+            "role": "required"
+          },
+          {
+            "id": "G07-E01-B03",
+            "text": "to Mrs. GREEN APPLE",
+            "role": "required"
+          },
+          {
+            "id": "G07-E01-B04",
+            "text": "every day.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G07-E01-B01",
+          "G07-E01-B02",
+          "G07-E01-B03",
+          "G07-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E01-B01",
+            "G07-E01-B02",
+            "G07-E01-B03",
+            "G07-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G07-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G07-E01-B02",
+            "text": "listen",
+            "role": "required"
+          },
+          {
+            "id": "G07-E01-B03",
+            "text": "to Mrs. GREEN APPLE",
+            "role": "required"
+          },
+          {
+            "id": "G07-E01-B04",
+            "text": "every day.",
+            "role": "required"
+          },
+          {
+            "id": "G07-E01-D01",
+            "text": "listens",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listen」と比較してください。"
+          },
+          {
+            "id": "G07-E01-D02",
+            "text": "listened",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listen」と比較してください。"
+          },
+          {
+            "id": "G07-E01-D03",
+            "text": "listening",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listen」と比較してください。"
+          },
+          {
+            "id": "G07-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listen」と比較してください。"
+          },
+          {
+            "id": "G07-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listen」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G07-E01-D01",
+            "text": "listens",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listen」と比較してください。"
+          },
+          {
+            "id": "G07-E01-D02",
+            "text": "listened",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listen」と比較してください。"
+          },
+          {
+            "id": "G07-E01-D03",
+            "text": "listening",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listen」と比較してください。"
+          },
+          {
+            "id": "G07-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listen」と比較してください。"
+          },
+          {
+            "id": "G07-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「listen」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G07-E01-B01",
+          "G07-E01-B02",
+          "G07-E01-B03",
+          "G07-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E01-B01",
+            "G07-E01-B02",
+            "G07-E01-B03",
+            "G07-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G07-E01-AUDIO",
+        "text": "I listen to Mrs. GREEN APPLE every day.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G07-E02",
+      "grammarId": "G07",
+      "grammarNameJa": "一般動詞の現在形",
+      "english": "We practice after school.",
+      "translationJa": "私たちは放課後に練習します。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "practice",
+        "start": 3,
+        "endExclusive": 11,
+        "explanationJa": "I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+      },
+      "sentenceExplanationJa": "「We practice after school.」は「私たちは放課後に練習します。」という意味です。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。 この文の対象部分は「practice」。まとまりは We → practice → after school. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "practice",
+          "lemma": "practice",
+          "meaningJa": "練習する・練習",
+          "kind": "word"
+        },
+        {
+          "expression": "after",
+          "lemma": "after",
+          "meaningJa": "～の後に",
+          "kind": "word"
+        },
+        {
+          "expression": "school",
+          "lemma": "school",
+          "meaningJa": "学校",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ after school.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 11,
+          "answer": "practice"
+        },
+        "options": [
+          {
+            "id": "G07-E02-C2",
+            "text": "practices",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「practice」を使います。「practices」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E02-C1",
+            "text": "practice",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+          },
+          {
+            "id": "G07-E02-C3",
+            "text": "practiced",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「practice」を使います。「practiced」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E02-C4",
+            "text": "practicing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「practice」を使います。「practicing」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G07-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G07-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G07-E02-B02",
+            "text": "practice",
+            "role": "required"
+          },
+          {
+            "id": "G07-E02-B03",
+            "text": "after school.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G07-E02-B01",
+          "G07-E02-B02",
+          "G07-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E02-B01",
+            "G07-E02-B02",
+            "G07-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G07-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G07-E02-B02",
+            "text": "practice",
+            "role": "required"
+          },
+          {
+            "id": "G07-E02-B03",
+            "text": "after school.",
+            "role": "required"
+          },
+          {
+            "id": "G07-E02-D01",
+            "text": "practices",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G07-E02-D02",
+            "text": "practiced",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G07-E02-D03",
+            "text": "practicing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G07-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G07-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G07-E02-D01",
+            "text": "practices",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G07-E02-D02",
+            "text": "practiced",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G07-E02-D03",
+            "text": "practicing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G07-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          },
+          {
+            "id": "G07-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practice」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G07-E02-B01",
+          "G07-E02-B02",
+          "G07-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E02-B01",
+            "G07-E02-B02",
+            "G07-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G07-E02-AUDIO",
+        "text": "We practice after school.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G07-E03",
+      "grammarId": "G07",
+      "grammarNameJa": "一般動詞の現在形",
+      "english": "You sing very well.",
+      "translationJa": "あなたはとても上手に歌います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "sing",
+        "start": 4,
+        "endExclusive": 8,
+        "explanationJa": "I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+      },
+      "sentenceExplanationJa": "「You sing very well.」は「あなたはとても上手に歌います。」という意味です。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。 この文の対象部分は「sing」。まとまりは You → sing → very well. の順です。",
+      "glossary": [
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "sing",
+          "lemma": "sing",
+          "meaningJa": "歌う",
+          "kind": "word"
+        },
+        {
+          "expression": "very",
+          "lemma": "very",
+          "meaningJa": "とても",
+          "kind": "word"
+        },
+        {
+          "expression": "well",
+          "lemma": "well",
+          "meaningJa": "上手に・よく",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You ___ very well.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 8,
+          "answer": "sing"
+        },
+        "options": [
+          {
+            "id": "G07-E03-C4",
+            "text": "singing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sing」を使います。「singing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E03-C3",
+            "text": "sang",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sing」を使います。「sang」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E03-C1",
+            "text": "sing",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+          },
+          {
+            "id": "G07-E03-C2",
+            "text": "sings",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sing」を使います。「sings」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G07-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G07-E03-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G07-E03-B02",
+            "text": "sing",
+            "role": "required"
+          },
+          {
+            "id": "G07-E03-B03",
+            "text": "very well.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G07-E03-B01",
+          "G07-E03-B02",
+          "G07-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E03-B01",
+            "G07-E03-B02",
+            "G07-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G07-E03-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G07-E03-B02",
+            "text": "sing",
+            "role": "required"
+          },
+          {
+            "id": "G07-E03-B03",
+            "text": "very well.",
+            "role": "required"
+          },
+          {
+            "id": "G07-E03-D01",
+            "text": "sings",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sing」と比較してください。"
+          },
+          {
+            "id": "G07-E03-D02",
+            "text": "sang",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sing」と比較してください。"
+          },
+          {
+            "id": "G07-E03-D03",
+            "text": "singing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sing」と比較してください。"
+          },
+          {
+            "id": "G07-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sing」と比較してください。"
+          },
+          {
+            "id": "G07-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sing」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G07-E03-D01",
+            "text": "sings",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sing」と比較してください。"
+          },
+          {
+            "id": "G07-E03-D02",
+            "text": "sang",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sing」と比較してください。"
+          },
+          {
+            "id": "G07-E03-D03",
+            "text": "singing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sing」と比較してください。"
+          },
+          {
+            "id": "G07-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sing」と比較してください。"
+          },
+          {
+            "id": "G07-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sing」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G07-E03-B01",
+          "G07-E03-B02",
+          "G07-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E03-B01",
+            "G07-E03-B02",
+            "G07-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G07-E03-AUDIO",
+        "text": "You sing very well.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G07-E04",
+      "grammarId": "G07",
+      "grammarNameJa": "一般動詞の現在形",
+      "english": "I keep my tickets in a box.",
+      "translationJa": "私はチケットを箱に保管しています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "keep",
+        "start": 2,
+        "endExclusive": 6,
+        "explanationJa": "I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+      },
+      "sentenceExplanationJa": "「I keep my tickets in a box.」は「私はチケットを箱に保管しています。」という意味です。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。 この文の対象部分は「keep」。まとまりは I → keep → my tickets → in a box. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "keep",
+          "lemma": "keep",
+          "meaningJa": "保つ・保管する",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "tickets",
+          "lemma": "ticket",
+          "meaningJa": "チケット（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "box",
+          "lemma": "box",
+          "meaningJa": "箱",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ my tickets in a box.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 6,
+          "answer": "keep"
+        },
+        "options": [
+          {
+            "id": "G07-E04-C3",
+            "text": "kept",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「keep」を使います。「kept」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E04-C1",
+            "text": "keep",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+          },
+          {
+            "id": "G07-E04-C4",
+            "text": "keeping",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「keep」を使います。「keeping」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E04-C2",
+            "text": "keeps",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「keep」を使います。「keeps」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G07-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G07-E04-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G07-E04-B02",
+            "text": "keep",
+            "role": "required"
+          },
+          {
+            "id": "G07-E04-B03",
+            "text": "my tickets",
+            "role": "required"
+          },
+          {
+            "id": "G07-E04-B04",
+            "text": "in a box.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G07-E04-B01",
+          "G07-E04-B02",
+          "G07-E04-B03",
+          "G07-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E04-B01",
+            "G07-E04-B02",
+            "G07-E04-B03",
+            "G07-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G07-E04-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G07-E04-B02",
+            "text": "keep",
+            "role": "required"
+          },
+          {
+            "id": "G07-E04-B03",
+            "text": "my tickets",
+            "role": "required"
+          },
+          {
+            "id": "G07-E04-B04",
+            "text": "in a box.",
+            "role": "required"
+          },
+          {
+            "id": "G07-E04-D01",
+            "text": "keeps",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「keep」と比較してください。"
+          },
+          {
+            "id": "G07-E04-D02",
+            "text": "kept",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「keep」と比較してください。"
+          },
+          {
+            "id": "G07-E04-D03",
+            "text": "keeping",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「keep」と比較してください。"
+          },
+          {
+            "id": "G07-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「keep」と比較してください。"
+          },
+          {
+            "id": "G07-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「keep」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G07-E04-D01",
+            "text": "keeps",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「keep」と比較してください。"
+          },
+          {
+            "id": "G07-E04-D02",
+            "text": "kept",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「keep」と比較してください。"
+          },
+          {
+            "id": "G07-E04-D03",
+            "text": "keeping",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「keep」と比較してください。"
+          },
+          {
+            "id": "G07-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「keep」と比較してください。"
+          },
+          {
+            "id": "G07-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「keep」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G07-E04-B01",
+          "G07-E04-B02",
+          "G07-E04-B03",
+          "G07-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E04-B01",
+            "G07-E04-B02",
+            "G07-E04-B03",
+            "G07-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G07-E04-AUDIO",
+        "text": "I keep my tickets in a box.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G07-E05",
+      "grammarId": "G07",
+      "grammarNameJa": "一般動詞の現在形",
+      "english": "They share their photos online.",
+      "translationJa": "彼らは写真をオンラインで共有します。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "share",
+        "start": 5,
+        "endExclusive": 10,
+        "explanationJa": "I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+      },
+      "sentenceExplanationJa": "「They share their photos online.」は「彼らは写真をオンラインで共有します。」という意味です。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。 この文の対象部分は「share」。まとまりは They → share → their photos → online. の順です。",
+      "glossary": [
+        {
+          "expression": "They",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "share",
+          "lemma": "share",
+          "meaningJa": "共有する",
+          "kind": "word"
+        },
+        {
+          "expression": "their",
+          "lemma": "their",
+          "meaningJa": "彼らの",
+          "kind": "word"
+        },
+        {
+          "expression": "photos",
+          "lemma": "photo",
+          "meaningJa": "写真（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "online",
+          "lemma": "online",
+          "meaningJa": "オンラインで",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "They ___ their photos online.",
+        "blank": {
+          "start": 5,
+          "endExclusive": 10,
+          "answer": "share"
+        },
+        "options": [
+          {
+            "id": "G07-E05-C1",
+            "text": "share",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+          },
+          {
+            "id": "G07-E05-C2",
+            "text": "shares",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「share」を使います。「shares」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E05-C4",
+            "text": "sharing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「share」を使います。「sharing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E05-C3",
+            "text": "shared",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「share」を使います。「shared」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G07-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G07-E05-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G07-E05-B02",
+            "text": "share",
+            "role": "required"
+          },
+          {
+            "id": "G07-E05-B03",
+            "text": "their photos",
+            "role": "required"
+          },
+          {
+            "id": "G07-E05-B04",
+            "text": "online.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G07-E05-B01",
+          "G07-E05-B02",
+          "G07-E05-B03",
+          "G07-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E05-B01",
+            "G07-E05-B02",
+            "G07-E05-B03",
+            "G07-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G07-E05-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G07-E05-B02",
+            "text": "share",
+            "role": "required"
+          },
+          {
+            "id": "G07-E05-B03",
+            "text": "their photos",
+            "role": "required"
+          },
+          {
+            "id": "G07-E05-B04",
+            "text": "online.",
+            "role": "required"
+          },
+          {
+            "id": "G07-E05-D01",
+            "text": "shares",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「share」と比較してください。"
+          },
+          {
+            "id": "G07-E05-D02",
+            "text": "shared",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「share」と比較してください。"
+          },
+          {
+            "id": "G07-E05-D03",
+            "text": "sharing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「share」と比較してください。"
+          },
+          {
+            "id": "G07-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「share」と比較してください。"
+          },
+          {
+            "id": "G07-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「share」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G07-E05-D01",
+            "text": "shares",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「share」と比較してください。"
+          },
+          {
+            "id": "G07-E05-D02",
+            "text": "shared",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「share」と比較してください。"
+          },
+          {
+            "id": "G07-E05-D03",
+            "text": "sharing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「share」と比較してください。"
+          },
+          {
+            "id": "G07-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「share」と比較してください。"
+          },
+          {
+            "id": "G07-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「share」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G07-E05-B01",
+          "G07-E05-B02",
+          "G07-E05-B03",
+          "G07-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E05-B01",
+            "G07-E05-B02",
+            "G07-E05-B03",
+            "G07-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G07-E05-AUDIO",
+        "text": "They share their photos online.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G07-E06",
+      "grammarId": "G07",
+      "grammarNameJa": "一般動詞の現在形",
+      "english": "We buy snacks before concerts.",
+      "translationJa": "私たちはコンサート前にお菓子を買います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "buy",
+        "start": 3,
+        "endExclusive": 6,
+        "explanationJa": "I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+      },
+      "sentenceExplanationJa": "「We buy snacks before concerts.」は「私たちはコンサート前にお菓子を買います。」という意味です。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。 この文の対象部分は「buy」。まとまりは We → buy → snacks → before concerts. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "buy",
+          "lemma": "buy",
+          "meaningJa": "買う",
+          "kind": "word"
+        },
+        {
+          "expression": "snacks",
+          "lemma": "snack",
+          "meaningJa": "お菓子・軽食（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "before",
+          "lemma": "before",
+          "meaningJa": "～の前に・以前",
+          "kind": "word"
+        },
+        {
+          "expression": "concerts",
+          "lemma": "concert",
+          "meaningJa": "コンサート（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ snacks before concerts.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 6,
+          "answer": "buy"
+        },
+        "options": [
+          {
+            "id": "G07-E06-C2",
+            "text": "buys",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「buy」を使います。「buys」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E06-C1",
+            "text": "buy",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+          },
+          {
+            "id": "G07-E06-C3",
+            "text": "bought",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「buy」を使います。「bought」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E06-C4",
+            "text": "buying",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「buy」を使います。「buying」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G07-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G07-E06-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G07-E06-B02",
+            "text": "buy",
+            "role": "required"
+          },
+          {
+            "id": "G07-E06-B03",
+            "text": "snacks",
+            "role": "required"
+          },
+          {
+            "id": "G07-E06-B04",
+            "text": "before concerts.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G07-E06-B01",
+          "G07-E06-B02",
+          "G07-E06-B03",
+          "G07-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E06-B01",
+            "G07-E06-B02",
+            "G07-E06-B03",
+            "G07-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G07-E06-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G07-E06-B02",
+            "text": "buy",
+            "role": "required"
+          },
+          {
+            "id": "G07-E06-B03",
+            "text": "snacks",
+            "role": "required"
+          },
+          {
+            "id": "G07-E06-B04",
+            "text": "before concerts.",
+            "role": "required"
+          },
+          {
+            "id": "G07-E06-D01",
+            "text": "buys",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「buy」と比較してください。"
+          },
+          {
+            "id": "G07-E06-D02",
+            "text": "bought",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「buy」と比較してください。"
+          },
+          {
+            "id": "G07-E06-D03",
+            "text": "buying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「buy」と比較してください。"
+          },
+          {
+            "id": "G07-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「buy」と比較してください。"
+          },
+          {
+            "id": "G07-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「buy」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G07-E06-D01",
+            "text": "buys",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「buy」と比較してください。"
+          },
+          {
+            "id": "G07-E06-D02",
+            "text": "bought",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「buy」と比較してください。"
+          },
+          {
+            "id": "G07-E06-D03",
+            "text": "buying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「buy」と比較してください。"
+          },
+          {
+            "id": "G07-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「buy」と比較してください。"
+          },
+          {
+            "id": "G07-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「buy」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G07-E06-B01",
+          "G07-E06-B02",
+          "G07-E06-B03",
+          "G07-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E06-B01",
+            "G07-E06-B02",
+            "G07-E06-B03",
+            "G07-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G07-E06-AUDIO",
+        "text": "We buy snacks before concerts.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G07-E07",
+      "grammarId": "G07",
+      "grammarNameJa": "一般動詞の現在形",
+      "english": "I read fan messages at night.",
+      "translationJa": "私は夜にファンのメッセージを読みます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "read",
+        "start": 2,
+        "endExclusive": 6,
+        "explanationJa": "I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+      },
+      "sentenceExplanationJa": "「I read fan messages at night.」は「私は夜にファンのメッセージを読みます。」という意味です。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。 この文の対象部分は「read」。まとまりは I → read → fan messages → at night. の順です。",
+      "glossary": [
+        {
+          "expression": "at night",
+          "meaningJa": "夜に",
+          "kind": "phrase"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "read",
+          "lemma": "read",
+          "meaningJa": "読む",
+          "kind": "word"
+        },
+        {
+          "expression": "fan",
+          "lemma": "fan",
+          "meaningJa": "ファン",
+          "kind": "word"
+        },
+        {
+          "expression": "messages",
+          "lemma": "message",
+          "meaningJa": "メッセージ（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "night",
+          "lemma": "night",
+          "meaningJa": "夜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ fan messages at night.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 6,
+          "answer": "read"
+        },
+        "options": [
+          {
+            "id": "G07-E07-C2",
+            "text": "reads",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「read」を使います。「reads」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E07-C1",
+            "text": "read",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+          },
+          {
+            "id": "G07-E07-C4",
+            "text": "to read",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「read」を使います。「to read」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E07-C3",
+            "text": "reading",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「read」を使います。「reading」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G07-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G07-E07-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G07-E07-B02",
+            "text": "read",
+            "role": "required"
+          },
+          {
+            "id": "G07-E07-B03",
+            "text": "fan messages",
+            "role": "required"
+          },
+          {
+            "id": "G07-E07-B04",
+            "text": "at night.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G07-E07-B01",
+          "G07-E07-B02",
+          "G07-E07-B03",
+          "G07-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E07-B01",
+            "G07-E07-B02",
+            "G07-E07-B03",
+            "G07-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G07-E07-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G07-E07-B02",
+            "text": "read",
+            "role": "required"
+          },
+          {
+            "id": "G07-E07-B03",
+            "text": "fan messages",
+            "role": "required"
+          },
+          {
+            "id": "G07-E07-B04",
+            "text": "at night.",
+            "role": "required"
+          },
+          {
+            "id": "G07-E07-D01",
+            "text": "reads",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「read」と比較してください。"
+          },
+          {
+            "id": "G07-E07-D02",
+            "text": "reading",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「read」と比較してください。"
+          },
+          {
+            "id": "G07-E07-D03",
+            "text": "to read",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「read」と比較してください。"
+          },
+          {
+            "id": "G07-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「read」と比較してください。"
+          },
+          {
+            "id": "G07-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「read」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G07-E07-D01",
+            "text": "reads",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「read」と比較してください。"
+          },
+          {
+            "id": "G07-E07-D02",
+            "text": "reading",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「read」と比較してください。"
+          },
+          {
+            "id": "G07-E07-D03",
+            "text": "to read",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「read」と比較してください。"
+          },
+          {
+            "id": "G07-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「read」と比較してください。"
+          },
+          {
+            "id": "G07-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「read」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G07-E07-B01",
+          "G07-E07-B02",
+          "G07-E07-B03",
+          "G07-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E07-B01",
+            "G07-E07-B02",
+            "G07-E07-B03",
+            "G07-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G07-E07-AUDIO",
+        "text": "I read fan messages at night.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G07-E08",
+      "grammarId": "G07",
+      "grammarNameJa": "一般動詞の現在形",
+      "english": "My friends love this band.",
+      "translationJa": "私の友達はこのバンドが大好きです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "love",
+        "start": 11,
+        "endExclusive": 15,
+        "explanationJa": "I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+      },
+      "sentenceExplanationJa": "「My friends love this band.」は「私の友達はこのバンドが大好きです。」という意味です。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。 この文の対象部分は「love」。まとまりは My friends → love → this band. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "friends",
+          "lemma": "friend",
+          "meaningJa": "友達（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "love",
+          "lemma": "love",
+          "meaningJa": "大好きである・愛する",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "band",
+          "lemma": "band",
+          "meaningJa": "バンド",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My friends ___ this band.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 15,
+          "answer": "love"
+        },
+        "options": [
+          {
+            "id": "G07-E08-C1",
+            "text": "love",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+          },
+          {
+            "id": "G07-E08-C4",
+            "text": "loving",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「love」を使います。「loving」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E08-C3",
+            "text": "loved",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「love」を使います。「loved」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E08-C2",
+            "text": "loves",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「love」を使います。「loves」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G07-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G07-E08-B01",
+            "text": "My friends",
+            "role": "required"
+          },
+          {
+            "id": "G07-E08-B02",
+            "text": "love",
+            "role": "required"
+          },
+          {
+            "id": "G07-E08-B03",
+            "text": "this band.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G07-E08-B01",
+          "G07-E08-B02",
+          "G07-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E08-B01",
+            "G07-E08-B02",
+            "G07-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G07-E08-B01",
+            "text": "My friends",
+            "role": "required"
+          },
+          {
+            "id": "G07-E08-B02",
+            "text": "love",
+            "role": "required"
+          },
+          {
+            "id": "G07-E08-B03",
+            "text": "this band.",
+            "role": "required"
+          },
+          {
+            "id": "G07-E08-D01",
+            "text": "loves",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「love」と比較してください。"
+          },
+          {
+            "id": "G07-E08-D02",
+            "text": "loved",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「love」と比較してください。"
+          },
+          {
+            "id": "G07-E08-D03",
+            "text": "loving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「love」と比較してください。"
+          },
+          {
+            "id": "G07-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「love」と比較してください。"
+          },
+          {
+            "id": "G07-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「love」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G07-E08-D01",
+            "text": "loves",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「love」と比較してください。"
+          },
+          {
+            "id": "G07-E08-D02",
+            "text": "loved",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「love」と比較してください。"
+          },
+          {
+            "id": "G07-E08-D03",
+            "text": "loving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「love」と比較してください。"
+          },
+          {
+            "id": "G07-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「love」と比較してください。"
+          },
+          {
+            "id": "G07-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「love」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G07-E08-B01",
+          "G07-E08-B02",
+          "G07-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E08-B01",
+            "G07-E08-B02",
+            "G07-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G07-E08-AUDIO",
+        "text": "My friends love this band.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G07-E09",
+      "grammarId": "G07",
+      "grammarNameJa": "一般動詞の現在形",
+      "english": "I save money every month.",
+      "translationJa": "私は毎月お金を貯めます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "save",
+        "start": 2,
+        "endExclusive": 6,
+        "explanationJa": "I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+      },
+      "sentenceExplanationJa": "「I save money every month.」は「私は毎月お金を貯めます。」という意味です。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。 この文の対象部分は「save」。まとまりは I → save → money → every month. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "save",
+          "lemma": "save",
+          "meaningJa": "貯める・保存する",
+          "kind": "word"
+        },
+        {
+          "expression": "money",
+          "lemma": "money",
+          "meaningJa": "お金",
+          "kind": "word"
+        },
+        {
+          "expression": "every",
+          "lemma": "every",
+          "meaningJa": "毎～・すべての",
+          "kind": "word"
+        },
+        {
+          "expression": "month",
+          "lemma": "month",
+          "meaningJa": "月・1か月",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ money every month.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 6,
+          "answer": "save"
+        },
+        "options": [
+          {
+            "id": "G07-E09-C3",
+            "text": "saved",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「save」を使います。「saved」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E09-C2",
+            "text": "saves",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「save」を使います。「saves」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E09-C1",
+            "text": "save",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+          },
+          {
+            "id": "G07-E09-C4",
+            "text": "saving",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「save」を使います。「saving」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G07-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G07-E09-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G07-E09-B02",
+            "text": "save",
+            "role": "required"
+          },
+          {
+            "id": "G07-E09-B03",
+            "text": "money",
+            "role": "required"
+          },
+          {
+            "id": "G07-E09-B04",
+            "text": "every month.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G07-E09-B01",
+          "G07-E09-B02",
+          "G07-E09-B03",
+          "G07-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E09-B01",
+            "G07-E09-B02",
+            "G07-E09-B03",
+            "G07-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G07-E09-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G07-E09-B02",
+            "text": "save",
+            "role": "required"
+          },
+          {
+            "id": "G07-E09-B03",
+            "text": "money",
+            "role": "required"
+          },
+          {
+            "id": "G07-E09-B04",
+            "text": "every month.",
+            "role": "required"
+          },
+          {
+            "id": "G07-E09-D01",
+            "text": "saves",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「save」と比較してください。"
+          },
+          {
+            "id": "G07-E09-D02",
+            "text": "saved",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「save」と比較してください。"
+          },
+          {
+            "id": "G07-E09-D03",
+            "text": "saving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「save」と比較してください。"
+          },
+          {
+            "id": "G07-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「save」と比較してください。"
+          },
+          {
+            "id": "G07-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「save」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G07-E09-D01",
+            "text": "saves",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「save」と比較してください。"
+          },
+          {
+            "id": "G07-E09-D02",
+            "text": "saved",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「save」と比較してください。"
+          },
+          {
+            "id": "G07-E09-D03",
+            "text": "saving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「save」と比較してください。"
+          },
+          {
+            "id": "G07-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「save」と比較してください。"
+          },
+          {
+            "id": "G07-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「save」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G07-E09-B01",
+          "G07-E09-B02",
+          "G07-E09-B03",
+          "G07-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E09-B01",
+            "G07-E09-B02",
+            "G07-E09-B03",
+            "G07-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G07-E09-AUDIO",
+        "text": "I save money every month.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G07-E10",
+      "grammarId": "G07",
+      "grammarNameJa": "一般動詞の現在形",
+      "english": "We walk to the station together.",
+      "translationJa": "私たちは一緒に駅まで歩きます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "walk",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+      },
+      "sentenceExplanationJa": "「We walk to the station together.」は「私たちは一緒に駅まで歩きます。」という意味です。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。 この文の対象部分は「walk」。まとまりは We → walk → to the station → together. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "walk",
+          "lemma": "walk",
+          "meaningJa": "歩く",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "station",
+          "lemma": "station",
+          "meaningJa": "駅",
+          "kind": "word"
+        },
+        {
+          "expression": "together",
+          "lemma": "together",
+          "meaningJa": "一緒に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ to the station together.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "walk"
+        },
+        "options": [
+          {
+            "id": "G07-E10-C1",
+            "text": "walk",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyなどを主語にして、習慣や普段の行動を動詞の原形で表す。"
+          },
+          {
+            "id": "G07-E10-C4",
+            "text": "walking",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「walk」を使います。「walking」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E10-C2",
+            "text": "walks",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「walk」を使います。「walks」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G07-E10-C3",
+            "text": "walked",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「walk」を使います。「walked」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G07-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G07-E10-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G07-E10-B02",
+            "text": "walk",
+            "role": "required"
+          },
+          {
+            "id": "G07-E10-B03",
+            "text": "to the station",
+            "role": "required"
+          },
+          {
+            "id": "G07-E10-B04",
+            "text": "together.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G07-E10-B01",
+          "G07-E10-B02",
+          "G07-E10-B03",
+          "G07-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E10-B01",
+            "G07-E10-B02",
+            "G07-E10-B03",
+            "G07-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G07-E10-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G07-E10-B02",
+            "text": "walk",
+            "role": "required"
+          },
+          {
+            "id": "G07-E10-B03",
+            "text": "to the station",
+            "role": "required"
+          },
+          {
+            "id": "G07-E10-B04",
+            "text": "together.",
+            "role": "required"
+          },
+          {
+            "id": "G07-E10-D01",
+            "text": "walks",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walk」と比較してください。"
+          },
+          {
+            "id": "G07-E10-D02",
+            "text": "walked",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walk」と比較してください。"
+          },
+          {
+            "id": "G07-E10-D03",
+            "text": "walking",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walk」と比較してください。"
+          },
+          {
+            "id": "G07-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walk」と比較してください。"
+          },
+          {
+            "id": "G07-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walk」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G07-E10-D01",
+            "text": "walks",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walk」と比較してください。"
+          },
+          {
+            "id": "G07-E10-D02",
+            "text": "walked",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walk」と比較してください。"
+          },
+          {
+            "id": "G07-E10-D03",
+            "text": "walking",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walk」と比較してください。"
+          },
+          {
+            "id": "G07-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walk」と比較してください。"
+          },
+          {
+            "id": "G07-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walk」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G07-E10-B01",
+          "G07-E10-B02",
+          "G07-E10-B03",
+          "G07-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G07-E10-B01",
+            "G07-E10-B02",
+            "G07-E10-B03",
+            "G07-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G07-E10-AUDIO",
+        "text": "We walk to the station together.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

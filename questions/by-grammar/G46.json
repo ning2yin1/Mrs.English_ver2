@@ -1,0 +1,2291 @@
+{
+  "grammarId": "G46",
+  "examples": [
+    {
+      "id": "G46-E01",
+      "grammarId": "G46",
+      "grammarNameJa": "疑問詞＋to不定詞",
+      "english": "I know how to play this song.",
+      "translationJa": "私はこの曲の演奏方法を知っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "how to",
+        "start": 7,
+        "endExclusive": 13,
+        "explanationJa": "how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+      },
+      "sentenceExplanationJa": "「I know how to play this song.」は「私はこの曲の演奏方法を知っています。」という意味です。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。 この文の対象部分は「how to」。まとまりは I know → how to → play this song. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "know",
+          "lemma": "know",
+          "meaningJa": "知っている",
+          "kind": "word"
+        },
+        {
+          "expression": "how",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "play",
+          "lemma": "play",
+          "meaningJa": "演奏する・遊ぶ",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I know ___ play this song.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 13,
+          "answer": "how to"
+        },
+        "options": [
+          {
+            "id": "G46-E01-C4",
+            "text": "when to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「how to」を使います。「when to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E01-C2",
+            "text": "what to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「how to」を使います。「what to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E01-C1",
+            "text": "how to",
+            "isCorrect": true,
+            "explanationJa": "正解。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+          },
+          {
+            "id": "G46-E01-C3",
+            "text": "where to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「how to」を使います。「where to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G46-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G46-E01-B01",
+            "text": "I know",
+            "role": "required"
+          },
+          {
+            "id": "G46-E01-B02",
+            "text": "how to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E01-B03",
+            "text": "play this song.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G46-E01-B01",
+          "G46-E01-B02",
+          "G46-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E01-B01",
+            "G46-E01-B02",
+            "G46-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G46-E01-B01",
+            "text": "I know",
+            "role": "required"
+          },
+          {
+            "id": "G46-E01-B02",
+            "text": "how to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E01-B03",
+            "text": "play this song.",
+            "role": "required"
+          },
+          {
+            "id": "G46-E01-D01",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E01-D02",
+            "text": "where to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E01-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G46-E01-D01",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E01-D02",
+            "text": "where to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E01-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G46-E01-B01",
+          "G46-E01-B02",
+          "G46-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E01-B01",
+            "G46-E01-B02",
+            "G46-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G46-E01-AUDIO",
+        "text": "I know how to play this song.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G46-E02",
+      "grammarId": "G46",
+      "grammarNameJa": "疑問詞＋to不定詞",
+      "english": "She told me where to buy tickets.",
+      "translationJa": "彼女はどこでチケットを買うか教えてくれました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "where to",
+        "start": 12,
+        "endExclusive": 20,
+        "explanationJa": "how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+      },
+      "sentenceExplanationJa": "「She told me where to buy tickets.」は「彼女はどこでチケットを買うか教えてくれました。」という意味です。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。 この文の対象部分は「where to」。まとまりは She told me → where to → buy tickets. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "told",
+          "lemma": "tell",
+          "meaningJa": "伝える・言う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "where",
+          "lemma": "where",
+          "meaningJa": "どこ",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "buy",
+          "lemma": "buy",
+          "meaningJa": "買う",
+          "kind": "word"
+        },
+        {
+          "expression": "tickets",
+          "lemma": "ticket",
+          "meaningJa": "チケット（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She told me ___ buy tickets.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 20,
+          "answer": "where to"
+        },
+        "options": [
+          {
+            "id": "G46-E02-C4",
+            "text": "when to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「where to」を使います。「when to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E02-C2",
+            "text": "how to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「where to」を使います。「how to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E02-C3",
+            "text": "what to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「where to」を使います。「what to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E02-C1",
+            "text": "where to",
+            "isCorrect": true,
+            "explanationJa": "正解。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+          }
+        ],
+        "correctOptionId": "G46-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G46-E02-B01",
+            "text": "She told me",
+            "role": "required"
+          },
+          {
+            "id": "G46-E02-B02",
+            "text": "where to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E02-B03",
+            "text": "buy tickets.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G46-E02-B01",
+          "G46-E02-B02",
+          "G46-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E02-B01",
+            "G46-E02-B02",
+            "G46-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G46-E02-B01",
+            "text": "She told me",
+            "role": "required"
+          },
+          {
+            "id": "G46-E02-B02",
+            "text": "where to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E02-B03",
+            "text": "buy tickets.",
+            "role": "required"
+          },
+          {
+            "id": "G46-E02-D01",
+            "text": "how to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E02-D02",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E02-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G46-E02-D01",
+            "text": "how to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E02-D02",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E02-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G46-E02-B01",
+          "G46-E02-B02",
+          "G46-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E02-B01",
+            "G46-E02-B02",
+            "G46-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G46-E02-AUDIO",
+        "text": "She told me where to buy tickets.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G46-E03",
+      "grammarId": "G46",
+      "grammarNameJa": "疑問詞＋to不定詞",
+      "english": "We discussed when to leave.",
+      "translationJa": "私たちはいつ出発するか話し合いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "when to",
+        "start": 13,
+        "endExclusive": 20,
+        "explanationJa": "how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+      },
+      "sentenceExplanationJa": "「We discussed when to leave.」は「私たちはいつ出発するか話し合いました。」という意味です。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。 この文の対象部分は「when to」。まとまりは We discussed → when to → leave. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "discussed",
+          "lemma": "discuss",
+          "meaningJa": "話し合う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "when",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "leave",
+          "lemma": "leave",
+          "meaningJa": "出発する・～のままにしておく",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We discussed ___ leave.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 20,
+          "answer": "when to"
+        },
+        "options": [
+          {
+            "id": "G46-E03-C1",
+            "text": "when to",
+            "isCorrect": true,
+            "explanationJa": "正解。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+          },
+          {
+            "id": "G46-E03-C3",
+            "text": "what to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when to」を使います。「what to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E03-C2",
+            "text": "how to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when to」を使います。「how to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E03-C4",
+            "text": "where to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when to」を使います。「where to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G46-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G46-E03-B01",
+            "text": "We discussed",
+            "role": "required"
+          },
+          {
+            "id": "G46-E03-B02",
+            "text": "when to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E03-B03",
+            "text": "leave.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G46-E03-B01",
+          "G46-E03-B02",
+          "G46-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E03-B01",
+            "G46-E03-B02",
+            "G46-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G46-E03-B01",
+            "text": "We discussed",
+            "role": "required"
+          },
+          {
+            "id": "G46-E03-B02",
+            "text": "when to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E03-B03",
+            "text": "leave.",
+            "role": "required"
+          },
+          {
+            "id": "G46-E03-D01",
+            "text": "how to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E03-D02",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E03-D03",
+            "text": "where to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G46-E03-D01",
+            "text": "how to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E03-D02",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E03-D03",
+            "text": "where to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G46-E03-B01",
+          "G46-E03-B02",
+          "G46-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E03-B01",
+            "G46-E03-B02",
+            "G46-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G46-E03-AUDIO",
+        "text": "We discussed when to leave.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G46-E04",
+      "grammarId": "G46",
+      "grammarNameJa": "疑問詞＋to不定詞",
+      "english": "I cannot decide what to wear.",
+      "translationJa": "私は何を着るか決められません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "what to",
+        "start": 16,
+        "endExclusive": 23,
+        "explanationJa": "how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+      },
+      "sentenceExplanationJa": "「I cannot decide what to wear.」は「私は何を着るか決められません。」という意味です。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。 この文の対象部分は「what to」。まとまりは I cannot decide → what to → wear. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "cannot",
+          "lemma": "cannot",
+          "meaningJa": "～できない",
+          "kind": "word"
+        },
+        {
+          "expression": "decide",
+          "lemma": "decide",
+          "meaningJa": "決める",
+          "kind": "word"
+        },
+        {
+          "expression": "what",
+          "lemma": "what",
+          "meaningJa": "何・何という",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "wear",
+          "lemma": "wear",
+          "meaningJa": "着る・身に付ける",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I cannot decide ___ wear.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 23,
+          "answer": "what to"
+        },
+        "options": [
+          {
+            "id": "G46-E04-C4",
+            "text": "when to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「what to」を使います。「when to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E04-C3",
+            "text": "where to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「what to」を使います。「where to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E04-C1",
+            "text": "what to",
+            "isCorrect": true,
+            "explanationJa": "正解。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+          },
+          {
+            "id": "G46-E04-C2",
+            "text": "how to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「what to」を使います。「how to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G46-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G46-E04-B01",
+            "text": "I cannot decide",
+            "role": "required"
+          },
+          {
+            "id": "G46-E04-B02",
+            "text": "what to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E04-B03",
+            "text": "wear.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G46-E04-B01",
+          "G46-E04-B02",
+          "G46-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E04-B01",
+            "G46-E04-B02",
+            "G46-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G46-E04-B01",
+            "text": "I cannot decide",
+            "role": "required"
+          },
+          {
+            "id": "G46-E04-B02",
+            "text": "what to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E04-B03",
+            "text": "wear.",
+            "role": "required"
+          },
+          {
+            "id": "G46-E04-D01",
+            "text": "how to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E04-D02",
+            "text": "where to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E04-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G46-E04-D01",
+            "text": "how to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E04-D02",
+            "text": "where to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E04-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G46-E04-B01",
+          "G46-E04-B02",
+          "G46-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E04-B01",
+            "G46-E04-B02",
+            "G46-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G46-E04-AUDIO",
+        "text": "I cannot decide what to wear.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G46-E05",
+      "grammarId": "G46",
+      "grammarNameJa": "疑問詞＋to不定詞",
+      "english": "Please show me how to use this app.",
+      "translationJa": "このアプリの使い方を教えてください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "how to",
+        "start": 15,
+        "endExclusive": 21,
+        "explanationJa": "how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+      },
+      "sentenceExplanationJa": "「Please show me how to use this app.」は「このアプリの使い方を教えてください。」という意味です。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。 この文の対象部分は「how to」。まとまりは Please show me → how to → use this app. の順です。",
+      "glossary": [
+        {
+          "expression": "Please",
+          "lemma": "please",
+          "meaningJa": "どうぞ・～してください",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "how",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "use",
+          "lemma": "use",
+          "meaningJa": "使う",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "app",
+          "lemma": "app",
+          "meaningJa": "アプリ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Please show me ___ use this app.",
+        "blank": {
+          "start": 15,
+          "endExclusive": 21,
+          "answer": "how to"
+        },
+        "options": [
+          {
+            "id": "G46-E05-C1",
+            "text": "how to",
+            "isCorrect": true,
+            "explanationJa": "正解。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+          },
+          {
+            "id": "G46-E05-C3",
+            "text": "where to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「how to」を使います。「where to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E05-C2",
+            "text": "what to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「how to」を使います。「what to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E05-C4",
+            "text": "when to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「how to」を使います。「when to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G46-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G46-E05-B01",
+            "text": "Please show me",
+            "role": "required"
+          },
+          {
+            "id": "G46-E05-B02",
+            "text": "how to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E05-B03",
+            "text": "use this app.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G46-E05-B01",
+          "G46-E05-B02",
+          "G46-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E05-B01",
+            "G46-E05-B02",
+            "G46-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G46-E05-B01",
+            "text": "Please show me",
+            "role": "required"
+          },
+          {
+            "id": "G46-E05-B02",
+            "text": "how to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E05-B03",
+            "text": "use this app.",
+            "role": "required"
+          },
+          {
+            "id": "G46-E05-D01",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E05-D02",
+            "text": "where to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E05-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G46-E05-D01",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E05-D02",
+            "text": "where to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E05-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G46-E05-B01",
+          "G46-E05-B02",
+          "G46-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E05-B01",
+            "G46-E05-B02",
+            "G46-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G46-E05-AUDIO",
+        "text": "Please show me how to use this app.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G46-E06",
+      "grammarId": "G46",
+      "grammarNameJa": "疑問詞＋to不定詞",
+      "english": "He knows where to find the shop.",
+      "translationJa": "彼はどこでその店を見つけられるか知っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "where to",
+        "start": 9,
+        "endExclusive": 17,
+        "explanationJa": "how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+      },
+      "sentenceExplanationJa": "「He knows where to find the shop.」は「彼はどこでその店を見つけられるか知っています。」という意味です。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。 この文の対象部分は「where to」。まとまりは He knows → where to → find the shop. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "knows",
+          "lemma": "know",
+          "meaningJa": "知っている（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "where",
+          "lemma": "where",
+          "meaningJa": "どこ",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "find",
+          "lemma": "find",
+          "meaningJa": "見つける",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "shop",
+          "lemma": "shop",
+          "meaningJa": "店",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He knows ___ find the shop.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 17,
+          "answer": "where to"
+        },
+        "options": [
+          {
+            "id": "G46-E06-C1",
+            "text": "where to",
+            "isCorrect": true,
+            "explanationJa": "正解。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+          },
+          {
+            "id": "G46-E06-C2",
+            "text": "how to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「where to」を使います。「how to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E06-C3",
+            "text": "what to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「where to」を使います。「what to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E06-C4",
+            "text": "when to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「where to」を使います。「when to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G46-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G46-E06-B01",
+            "text": "He knows",
+            "role": "required"
+          },
+          {
+            "id": "G46-E06-B02",
+            "text": "where to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E06-B03",
+            "text": "find the shop.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G46-E06-B01",
+          "G46-E06-B02",
+          "G46-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E06-B01",
+            "G46-E06-B02",
+            "G46-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G46-E06-B01",
+            "text": "He knows",
+            "role": "required"
+          },
+          {
+            "id": "G46-E06-B02",
+            "text": "where to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E06-B03",
+            "text": "find the shop.",
+            "role": "required"
+          },
+          {
+            "id": "G46-E06-D01",
+            "text": "how to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E06-D02",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E06-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G46-E06-D01",
+            "text": "how to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E06-D02",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E06-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G46-E06-B01",
+          "G46-E06-B02",
+          "G46-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E06-B01",
+            "G46-E06-B02",
+            "G46-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G46-E06-AUDIO",
+        "text": "He knows where to find the shop.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G46-E07",
+      "grammarId": "G46",
+      "grammarNameJa": "疑問詞＋to不定詞",
+      "english": "I do not know what to say.",
+      "translationJa": "私は何と言えばよいかわかりません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "what to",
+        "start": 14,
+        "endExclusive": 21,
+        "explanationJa": "how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+      },
+      "sentenceExplanationJa": "「I do not know what to say.」は「私は何と言えばよいかわかりません。」という意味です。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。 この文の対象部分は「what to」。まとまりは I do not know → what to → say. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "know",
+          "lemma": "know",
+          "meaningJa": "知っている",
+          "kind": "word"
+        },
+        {
+          "expression": "what",
+          "lemma": "what",
+          "meaningJa": "何・何という",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "say",
+          "lemma": "say",
+          "meaningJa": "言う",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I do not know ___ say.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 21,
+          "answer": "what to"
+        },
+        "options": [
+          {
+            "id": "G46-E07-C4",
+            "text": "when to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「what to」を使います。「when to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E07-C2",
+            "text": "how to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「what to」を使います。「how to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E07-C1",
+            "text": "what to",
+            "isCorrect": true,
+            "explanationJa": "正解。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+          },
+          {
+            "id": "G46-E07-C3",
+            "text": "where to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「what to」を使います。「where to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G46-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G46-E07-B01",
+            "text": "I do not know",
+            "role": "required"
+          },
+          {
+            "id": "G46-E07-B02",
+            "text": "what to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E07-B03",
+            "text": "say.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G46-E07-B01",
+          "G46-E07-B02",
+          "G46-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E07-B01",
+            "G46-E07-B02",
+            "G46-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G46-E07-B01",
+            "text": "I do not know",
+            "role": "required"
+          },
+          {
+            "id": "G46-E07-B02",
+            "text": "what to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E07-B03",
+            "text": "say.",
+            "role": "required"
+          },
+          {
+            "id": "G46-E07-D01",
+            "text": "how to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E07-D02",
+            "text": "where to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E07-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G46-E07-D01",
+            "text": "how to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E07-D02",
+            "text": "where to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E07-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          },
+          {
+            "id": "G46-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「what to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G46-E07-B01",
+          "G46-E07-B02",
+          "G46-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E07-B01",
+            "G46-E07-B02",
+            "G46-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G46-E07-AUDIO",
+        "text": "I do not know what to say.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G46-E08",
+      "grammarId": "G46",
+      "grammarNameJa": "疑問詞＋to不定詞",
+      "english": "She taught me how to read music.",
+      "translationJa": "彼女は楽譜の読み方を教えてくれました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "how to",
+        "start": 14,
+        "endExclusive": 20,
+        "explanationJa": "how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+      },
+      "sentenceExplanationJa": "「She taught me how to read music.」は「彼女は楽譜の読み方を教えてくれました。」という意味です。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。 この文の対象部分は「how to」。まとまりは She taught me → how to → read music. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "taught",
+          "lemma": "teach",
+          "meaningJa": "教える（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "how",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "read",
+          "lemma": "read",
+          "meaningJa": "読む",
+          "kind": "word"
+        },
+        {
+          "expression": "music",
+          "lemma": "music",
+          "meaningJa": "音楽・楽譜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She taught me ___ read music.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 20,
+          "answer": "how to"
+        },
+        "options": [
+          {
+            "id": "G46-E08-C2",
+            "text": "what to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「how to」を使います。「what to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E08-C1",
+            "text": "how to",
+            "isCorrect": true,
+            "explanationJa": "正解。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+          },
+          {
+            "id": "G46-E08-C4",
+            "text": "when to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「how to」を使います。「when to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E08-C3",
+            "text": "where to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「how to」を使います。「where to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G46-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G46-E08-B01",
+            "text": "She taught me",
+            "role": "required"
+          },
+          {
+            "id": "G46-E08-B02",
+            "text": "how to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E08-B03",
+            "text": "read music.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G46-E08-B01",
+          "G46-E08-B02",
+          "G46-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E08-B01",
+            "G46-E08-B02",
+            "G46-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G46-E08-B01",
+            "text": "She taught me",
+            "role": "required"
+          },
+          {
+            "id": "G46-E08-B02",
+            "text": "how to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E08-B03",
+            "text": "read music.",
+            "role": "required"
+          },
+          {
+            "id": "G46-E08-D01",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E08-D02",
+            "text": "where to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E08-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G46-E08-D01",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E08-D02",
+            "text": "where to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E08-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          },
+          {
+            "id": "G46-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「how to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G46-E08-B01",
+          "G46-E08-B02",
+          "G46-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E08-B01",
+            "G46-E08-B02",
+            "G46-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G46-E08-AUDIO",
+        "text": "She taught me how to read music.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G46-E09",
+      "grammarId": "G46",
+      "grammarNameJa": "疑問詞＋to不定詞",
+      "english": "We must decide when to meet.",
+      "translationJa": "私たちはいつ会うか決めなければなりません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "when to",
+        "start": 15,
+        "endExclusive": 22,
+        "explanationJa": "how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+      },
+      "sentenceExplanationJa": "「We must decide when to meet.」は「私たちはいつ会うか決めなければなりません。」という意味です。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。 この文の対象部分は「when to」。まとまりは We must decide → when to → meet. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "must",
+          "lemma": "must",
+          "meaningJa": "～しなければならない",
+          "kind": "word"
+        },
+        {
+          "expression": "decide",
+          "lemma": "decide",
+          "meaningJa": "決める",
+          "kind": "word"
+        },
+        {
+          "expression": "when",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "meet",
+          "lemma": "meet",
+          "meaningJa": "会う・集まる",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We must decide ___ meet.",
+        "blank": {
+          "start": 15,
+          "endExclusive": 22,
+          "answer": "when to"
+        },
+        "options": [
+          {
+            "id": "G46-E09-C1",
+            "text": "when to",
+            "isCorrect": true,
+            "explanationJa": "正解。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+          },
+          {
+            "id": "G46-E09-C3",
+            "text": "what to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when to」を使います。「what to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E09-C4",
+            "text": "where to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when to」を使います。「where to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E09-C2",
+            "text": "how to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「when to」を使います。「how to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G46-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G46-E09-B01",
+            "text": "We must decide",
+            "role": "required"
+          },
+          {
+            "id": "G46-E09-B02",
+            "text": "when to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E09-B03",
+            "text": "meet.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G46-E09-B01",
+          "G46-E09-B02",
+          "G46-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E09-B01",
+            "G46-E09-B02",
+            "G46-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G46-E09-B01",
+            "text": "We must decide",
+            "role": "required"
+          },
+          {
+            "id": "G46-E09-B02",
+            "text": "when to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E09-B03",
+            "text": "meet.",
+            "role": "required"
+          },
+          {
+            "id": "G46-E09-D01",
+            "text": "how to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E09-D02",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E09-D03",
+            "text": "where to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G46-E09-D01",
+            "text": "how to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E09-D02",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E09-D03",
+            "text": "where to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          },
+          {
+            "id": "G46-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「when to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G46-E09-B01",
+          "G46-E09-B02",
+          "G46-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E09-B01",
+            "G46-E09-B02",
+            "G46-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G46-E09-AUDIO",
+        "text": "We must decide when to meet.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G46-E10",
+      "grammarId": "G46",
+      "grammarNameJa": "疑問詞＋to不定詞",
+      "english": "Please tell me where to sit.",
+      "translationJa": "どこに座ればよいか教えてください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "where to",
+        "start": 15,
+        "endExclusive": 23,
+        "explanationJa": "how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+      },
+      "sentenceExplanationJa": "「Please tell me where to sit.」は「どこに座ればよいか教えてください。」という意味です。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。 この文の対象部分は「where to」。まとまりは Please tell me → where to → sit. の順です。",
+      "glossary": [
+        {
+          "expression": "Please",
+          "lemma": "please",
+          "meaningJa": "どうぞ・～してください",
+          "kind": "word"
+        },
+        {
+          "expression": "tell",
+          "lemma": "tell",
+          "meaningJa": "伝える・言う",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "where",
+          "lemma": "where",
+          "meaningJa": "どこ",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "sit",
+          "lemma": "sit",
+          "meaningJa": "座る",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Please tell me ___ sit.",
+        "blank": {
+          "start": 15,
+          "endExclusive": 23,
+          "answer": "where to"
+        },
+        "options": [
+          {
+            "id": "G46-E10-C3",
+            "text": "what to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「where to」を使います。「what to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E10-C2",
+            "text": "how to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「where to」を使います。「how to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E10-C4",
+            "text": "when to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「where to」を使います。「when to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G46-E10-C1",
+            "text": "where to",
+            "isCorrect": true,
+            "explanationJa": "正解。how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。"
+          }
+        ],
+        "correctOptionId": "G46-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G46-E10-B01",
+            "text": "Please tell me",
+            "role": "required"
+          },
+          {
+            "id": "G46-E10-B02",
+            "text": "where to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E10-B03",
+            "text": "sit.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G46-E10-B01",
+          "G46-E10-B02",
+          "G46-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E10-B01",
+            "G46-E10-B02",
+            "G46-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G46-E10-B01",
+            "text": "Please tell me",
+            "role": "required"
+          },
+          {
+            "id": "G46-E10-B02",
+            "text": "where to",
+            "role": "required"
+          },
+          {
+            "id": "G46-E10-B03",
+            "text": "sit.",
+            "role": "required"
+          },
+          {
+            "id": "G46-E10-D01",
+            "text": "how to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E10-D02",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E10-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G46-E10-D01",
+            "text": "how to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E10-D02",
+            "text": "what to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E10-D03",
+            "text": "when to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          },
+          {
+            "id": "G46-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「where to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G46-E10-B01",
+          "G46-E10-B02",
+          "G46-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G46-E10-B01",
+            "G46-E10-B02",
+            "G46-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G46-E10-AUDIO",
+        "text": "Please tell me where to sit.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

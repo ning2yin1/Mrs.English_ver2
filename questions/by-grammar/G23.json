@@ -1,0 +1,2389 @@
+{
+  "grammarId": "G23",
+  "examples": [
+    {
+      "id": "G23-E01",
+      "grammarId": "G23",
+      "grammarNameJa": "一般動詞の過去形・規則動詞",
+      "english": "I watched a music video yesterday.",
+      "translationJa": "私は昨日ミュージックビデオを見ました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "watched",
+        "start": 2,
+        "endExclusive": 9,
+        "explanationJa": "規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+      },
+      "sentenceExplanationJa": "「I watched a music video yesterday.」は「私は昨日ミュージックビデオを見ました。」という意味です。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。 この文の対象部分は「watched」。まとまりは I → watched → a music video → yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "watched",
+          "lemma": "watch",
+          "meaningJa": "見る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "music",
+          "lemma": "music",
+          "meaningJa": "音楽・楽譜",
+          "kind": "word"
+        },
+        {
+          "expression": "video",
+          "lemma": "video",
+          "meaningJa": "動画",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ a music video yesterday.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 9,
+          "answer": "watched"
+        },
+        "options": [
+          {
+            "id": "G23-E01-C1",
+            "text": "watched",
+            "isCorrect": true,
+            "explanationJa": "正解。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+          },
+          {
+            "id": "G23-E01-C4",
+            "text": "watching",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「watched」を使います。「watching」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E01-C3",
+            "text": "watches",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「watched」を使います。「watches」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E01-C2",
+            "text": "watch",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「watched」を使います。「watch」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G23-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G23-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G23-E01-B02",
+            "text": "watched",
+            "role": "required"
+          },
+          {
+            "id": "G23-E01-B03",
+            "text": "a music video",
+            "role": "required"
+          },
+          {
+            "id": "G23-E01-B04",
+            "text": "yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G23-E01-B01",
+          "G23-E01-B02",
+          "G23-E01-B03",
+          "G23-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E01-B01",
+            "G23-E01-B02",
+            "G23-E01-B03",
+            "G23-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G23-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G23-E01-B02",
+            "text": "watched",
+            "role": "required"
+          },
+          {
+            "id": "G23-E01-B03",
+            "text": "a music video",
+            "role": "required"
+          },
+          {
+            "id": "G23-E01-B04",
+            "text": "yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G23-E01-D01",
+            "text": "watch",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watched」と比較してください。"
+          },
+          {
+            "id": "G23-E01-D02",
+            "text": "watches",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watched」と比較してください。"
+          },
+          {
+            "id": "G23-E01-D03",
+            "text": "watching",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watched」と比較してください。"
+          },
+          {
+            "id": "G23-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watched」と比較してください。"
+          },
+          {
+            "id": "G23-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watched」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G23-E01-D01",
+            "text": "watch",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watched」と比較してください。"
+          },
+          {
+            "id": "G23-E01-D02",
+            "text": "watches",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watched」と比較してください。"
+          },
+          {
+            "id": "G23-E01-D03",
+            "text": "watching",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watched」と比較してください。"
+          },
+          {
+            "id": "G23-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watched」と比較してください。"
+          },
+          {
+            "id": "G23-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「watched」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G23-E01-B01",
+          "G23-E01-B02",
+          "G23-E01-B03",
+          "G23-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E01-B01",
+            "G23-E01-B02",
+            "G23-E01-B03",
+            "G23-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G23-E01-AUDIO",
+        "text": "I watched a music video yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G23-E02",
+      "grammarId": "G23",
+      "grammarNameJa": "一般動詞の過去形・規則動詞",
+      "english": "We walked to the hall last night.",
+      "translationJa": "私たちは昨夜会場まで歩きました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "walked",
+        "start": 3,
+        "endExclusive": 9,
+        "explanationJa": "規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+      },
+      "sentenceExplanationJa": "「We walked to the hall last night.」は「私たちは昨夜会場まで歩きました。」という意味です。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。 この文の対象部分は「walked」。まとまりは We → walked → to the hall → last night. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "walked",
+          "lemma": "walk",
+          "meaningJa": "歩く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "night",
+          "lemma": "night",
+          "meaningJa": "夜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ to the hall last night.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 9,
+          "answer": "walked"
+        },
+        "options": [
+          {
+            "id": "G23-E02-C1",
+            "text": "walked",
+            "isCorrect": true,
+            "explanationJa": "正解。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+          },
+          {
+            "id": "G23-E02-C2",
+            "text": "walk",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「walked」を使います。「walk」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E02-C4",
+            "text": "walking",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「walked」を使います。「walking」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E02-C3",
+            "text": "walks",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「walked」を使います。「walks」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G23-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G23-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G23-E02-B02",
+            "text": "walked",
+            "role": "required"
+          },
+          {
+            "id": "G23-E02-B03",
+            "text": "to the hall",
+            "role": "required"
+          },
+          {
+            "id": "G23-E02-B04",
+            "text": "last night.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G23-E02-B01",
+          "G23-E02-B02",
+          "G23-E02-B03",
+          "G23-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E02-B01",
+            "G23-E02-B02",
+            "G23-E02-B03",
+            "G23-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G23-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G23-E02-B02",
+            "text": "walked",
+            "role": "required"
+          },
+          {
+            "id": "G23-E02-B03",
+            "text": "to the hall",
+            "role": "required"
+          },
+          {
+            "id": "G23-E02-B04",
+            "text": "last night.",
+            "role": "required"
+          },
+          {
+            "id": "G23-E02-D01",
+            "text": "walk",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walked」と比較してください。"
+          },
+          {
+            "id": "G23-E02-D02",
+            "text": "walks",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walked」と比較してください。"
+          },
+          {
+            "id": "G23-E02-D03",
+            "text": "walking",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walked」と比較してください。"
+          },
+          {
+            "id": "G23-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walked」と比較してください。"
+          },
+          {
+            "id": "G23-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walked」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G23-E02-D01",
+            "text": "walk",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walked」と比較してください。"
+          },
+          {
+            "id": "G23-E02-D02",
+            "text": "walks",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walked」と比較してください。"
+          },
+          {
+            "id": "G23-E02-D03",
+            "text": "walking",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walked」と比較してください。"
+          },
+          {
+            "id": "G23-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walked」と比較してください。"
+          },
+          {
+            "id": "G23-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「walked」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G23-E02-B01",
+          "G23-E02-B02",
+          "G23-E02-B03",
+          "G23-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E02-B01",
+            "G23-E02-B02",
+            "G23-E02-B03",
+            "G23-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G23-E02-AUDIO",
+        "text": "We walked to the hall last night.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G23-E03",
+      "grammarId": "G23",
+      "grammarNameJa": "一般動詞の過去形・規則動詞",
+      "english": "She practiced the piano yesterday.",
+      "translationJa": "彼女は昨日ピアノを練習しました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "practiced",
+        "start": 4,
+        "endExclusive": 13,
+        "explanationJa": "規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+      },
+      "sentenceExplanationJa": "「She practiced the piano yesterday.」は「彼女は昨日ピアノを練習しました。」という意味です。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。 この文の対象部分は「practiced」。まとまりは She → practiced → the piano → yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "practiced",
+          "lemma": "practice",
+          "meaningJa": "練習する・練習（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "piano",
+          "lemma": "piano",
+          "meaningJa": "ピアノ",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ the piano yesterday.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 13,
+          "answer": "practiced"
+        },
+        "options": [
+          {
+            "id": "G23-E03-C2",
+            "text": "practice",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「practiced」を使います。「practice」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E03-C3",
+            "text": "practices",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「practiced」を使います。「practices」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E03-C1",
+            "text": "practiced",
+            "isCorrect": true,
+            "explanationJa": "正解。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+          },
+          {
+            "id": "G23-E03-C4",
+            "text": "practicing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「practiced」を使います。「practicing」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G23-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G23-E03-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G23-E03-B02",
+            "text": "practiced",
+            "role": "required"
+          },
+          {
+            "id": "G23-E03-B03",
+            "text": "the piano",
+            "role": "required"
+          },
+          {
+            "id": "G23-E03-B04",
+            "text": "yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G23-E03-B01",
+          "G23-E03-B02",
+          "G23-E03-B03",
+          "G23-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E03-B01",
+            "G23-E03-B02",
+            "G23-E03-B03",
+            "G23-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G23-E03-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G23-E03-B02",
+            "text": "practiced",
+            "role": "required"
+          },
+          {
+            "id": "G23-E03-B03",
+            "text": "the piano",
+            "role": "required"
+          },
+          {
+            "id": "G23-E03-B04",
+            "text": "yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G23-E03-D01",
+            "text": "practice",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practiced」と比較してください。"
+          },
+          {
+            "id": "G23-E03-D02",
+            "text": "practices",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practiced」と比較してください。"
+          },
+          {
+            "id": "G23-E03-D03",
+            "text": "practicing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practiced」と比較してください。"
+          },
+          {
+            "id": "G23-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practiced」と比較してください。"
+          },
+          {
+            "id": "G23-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practiced」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G23-E03-D01",
+            "text": "practice",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practiced」と比較してください。"
+          },
+          {
+            "id": "G23-E03-D02",
+            "text": "practices",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practiced」と比較してください。"
+          },
+          {
+            "id": "G23-E03-D03",
+            "text": "practicing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practiced」と比較してください。"
+          },
+          {
+            "id": "G23-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practiced」と比較してください。"
+          },
+          {
+            "id": "G23-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「practiced」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G23-E03-B01",
+          "G23-E03-B02",
+          "G23-E03-B03",
+          "G23-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E03-B01",
+            "G23-E03-B02",
+            "G23-E03-B03",
+            "G23-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G23-E03-AUDIO",
+        "text": "She practiced the piano yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G23-E04",
+      "grammarId": "G23",
+      "grammarNameJa": "一般動詞の過去形・規則動詞",
+      "english": "He called me after the show.",
+      "translationJa": "彼は公演後に私に電話しました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "called",
+        "start": 3,
+        "endExclusive": 9,
+        "explanationJa": "規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+      },
+      "sentenceExplanationJa": "「He called me after the show.」は「彼は公演後に私に電話しました。」という意味です。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。 この文の対象部分は「called」。まとまりは He → called → me → after the show. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "called",
+          "lemma": "call",
+          "meaningJa": "呼ぶ・電話する（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "after",
+          "lemma": "after",
+          "meaningJa": "～の後に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ me after the show.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 9,
+          "answer": "called"
+        },
+        "options": [
+          {
+            "id": "G23-E04-C4",
+            "text": "calling",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「called」を使います。「calling」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E04-C3",
+            "text": "calls",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「called」を使います。「calls」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E04-C2",
+            "text": "call",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「called」を使います。「call」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E04-C1",
+            "text": "called",
+            "isCorrect": true,
+            "explanationJa": "正解。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+          }
+        ],
+        "correctOptionId": "G23-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G23-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G23-E04-B02",
+            "text": "called",
+            "role": "required"
+          },
+          {
+            "id": "G23-E04-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G23-E04-B04",
+            "text": "after the show.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G23-E04-B01",
+          "G23-E04-B02",
+          "G23-E04-B03",
+          "G23-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E04-B01",
+            "G23-E04-B02",
+            "G23-E04-B03",
+            "G23-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G23-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G23-E04-B02",
+            "text": "called",
+            "role": "required"
+          },
+          {
+            "id": "G23-E04-B03",
+            "text": "me",
+            "role": "required"
+          },
+          {
+            "id": "G23-E04-B04",
+            "text": "after the show.",
+            "role": "required"
+          },
+          {
+            "id": "G23-E04-D01",
+            "text": "call",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「called」と比較してください。"
+          },
+          {
+            "id": "G23-E04-D02",
+            "text": "calls",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「called」と比較してください。"
+          },
+          {
+            "id": "G23-E04-D03",
+            "text": "calling",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「called」と比較してください。"
+          },
+          {
+            "id": "G23-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「called」と比較してください。"
+          },
+          {
+            "id": "G23-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「called」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G23-E04-D01",
+            "text": "call",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「called」と比較してください。"
+          },
+          {
+            "id": "G23-E04-D02",
+            "text": "calls",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「called」と比較してください。"
+          },
+          {
+            "id": "G23-E04-D03",
+            "text": "calling",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「called」と比較してください。"
+          },
+          {
+            "id": "G23-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「called」と比較してください。"
+          },
+          {
+            "id": "G23-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「called」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G23-E04-B01",
+          "G23-E04-B02",
+          "G23-E04-B03",
+          "G23-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E04-B01",
+            "G23-E04-B02",
+            "G23-E04-B03",
+            "G23-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G23-E04-AUDIO",
+        "text": "He called me after the show.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G23-E05",
+      "grammarId": "G23",
+      "grammarNameJa": "一般動詞の過去形・規則動詞",
+      "english": "I saved money last month.",
+      "translationJa": "私は先月お金を貯めました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "saved",
+        "start": 2,
+        "endExclusive": 7,
+        "explanationJa": "規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+      },
+      "sentenceExplanationJa": "「I saved money last month.」は「私は先月お金を貯めました。」という意味です。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。 この文の対象部分は「saved」。まとまりは I → saved → money → last month. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "saved",
+          "lemma": "save",
+          "meaningJa": "貯める・保存する（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "money",
+          "lemma": "money",
+          "meaningJa": "お金",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "month",
+          "lemma": "month",
+          "meaningJa": "月・1か月",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ money last month.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 7,
+          "answer": "saved"
+        },
+        "options": [
+          {
+            "id": "G23-E05-C2",
+            "text": "save",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「saved」を使います。「save」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E05-C4",
+            "text": "saving",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「saved」を使います。「saving」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E05-C3",
+            "text": "saves",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「saved」を使います。「saves」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E05-C1",
+            "text": "saved",
+            "isCorrect": true,
+            "explanationJa": "正解。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+          }
+        ],
+        "correctOptionId": "G23-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G23-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G23-E05-B02",
+            "text": "saved",
+            "role": "required"
+          },
+          {
+            "id": "G23-E05-B03",
+            "text": "money",
+            "role": "required"
+          },
+          {
+            "id": "G23-E05-B04",
+            "text": "last month.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G23-E05-B01",
+          "G23-E05-B02",
+          "G23-E05-B03",
+          "G23-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E05-B01",
+            "G23-E05-B02",
+            "G23-E05-B03",
+            "G23-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G23-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G23-E05-B02",
+            "text": "saved",
+            "role": "required"
+          },
+          {
+            "id": "G23-E05-B03",
+            "text": "money",
+            "role": "required"
+          },
+          {
+            "id": "G23-E05-B04",
+            "text": "last month.",
+            "role": "required"
+          },
+          {
+            "id": "G23-E05-D01",
+            "text": "save",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saved」と比較してください。"
+          },
+          {
+            "id": "G23-E05-D02",
+            "text": "saves",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saved」と比較してください。"
+          },
+          {
+            "id": "G23-E05-D03",
+            "text": "saving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saved」と比較してください。"
+          },
+          {
+            "id": "G23-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saved」と比較してください。"
+          },
+          {
+            "id": "G23-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saved」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G23-E05-D01",
+            "text": "save",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saved」と比較してください。"
+          },
+          {
+            "id": "G23-E05-D02",
+            "text": "saves",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saved」と比較してください。"
+          },
+          {
+            "id": "G23-E05-D03",
+            "text": "saving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saved」と比較してください。"
+          },
+          {
+            "id": "G23-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saved」と比較してください。"
+          },
+          {
+            "id": "G23-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「saved」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G23-E05-B01",
+          "G23-E05-B02",
+          "G23-E05-B03",
+          "G23-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E05-B01",
+            "G23-E05-B02",
+            "G23-E05-B03",
+            "G23-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G23-E05-AUDIO",
+        "text": "I saved money last month.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G23-E06",
+      "grammarId": "G23",
+      "grammarNameJa": "一般動詞の過去形・規則動詞",
+      "english": "They danced at the party last night.",
+      "translationJa": "彼らは昨夜パーティーで踊りました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "danced",
+        "start": 5,
+        "endExclusive": 11,
+        "explanationJa": "規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+      },
+      "sentenceExplanationJa": "「They danced at the party last night.」は「彼らは昨夜パーティーで踊りました。」という意味です。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。 この文の対象部分は「danced」。まとまりは They → danced → at the party → last night. の順です。",
+      "glossary": [
+        {
+          "expression": "They",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "danced",
+          "lemma": "dance",
+          "meaningJa": "踊る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "party",
+          "lemma": "party",
+          "meaningJa": "パーティー",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "night",
+          "lemma": "night",
+          "meaningJa": "夜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "They ___ at the party last night.",
+        "blank": {
+          "start": 5,
+          "endExclusive": 11,
+          "answer": "danced"
+        },
+        "options": [
+          {
+            "id": "G23-E06-C3",
+            "text": "dances",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「danced」を使います。「dances」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E06-C4",
+            "text": "dancing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「danced」を使います。「dancing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E06-C1",
+            "text": "danced",
+            "isCorrect": true,
+            "explanationJa": "正解。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+          },
+          {
+            "id": "G23-E06-C2",
+            "text": "dance",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「danced」を使います。「dance」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G23-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G23-E06-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G23-E06-B02",
+            "text": "danced",
+            "role": "required"
+          },
+          {
+            "id": "G23-E06-B03",
+            "text": "at the party",
+            "role": "required"
+          },
+          {
+            "id": "G23-E06-B04",
+            "text": "last night.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G23-E06-B01",
+          "G23-E06-B02",
+          "G23-E06-B03",
+          "G23-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E06-B01",
+            "G23-E06-B02",
+            "G23-E06-B03",
+            "G23-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G23-E06-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G23-E06-B02",
+            "text": "danced",
+            "role": "required"
+          },
+          {
+            "id": "G23-E06-B03",
+            "text": "at the party",
+            "role": "required"
+          },
+          {
+            "id": "G23-E06-B04",
+            "text": "last night.",
+            "role": "required"
+          },
+          {
+            "id": "G23-E06-D01",
+            "text": "dance",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「danced」と比較してください。"
+          },
+          {
+            "id": "G23-E06-D02",
+            "text": "dances",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「danced」と比較してください。"
+          },
+          {
+            "id": "G23-E06-D03",
+            "text": "dancing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「danced」と比較してください。"
+          },
+          {
+            "id": "G23-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「danced」と比較してください。"
+          },
+          {
+            "id": "G23-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「danced」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G23-E06-D01",
+            "text": "dance",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「danced」と比較してください。"
+          },
+          {
+            "id": "G23-E06-D02",
+            "text": "dances",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「danced」と比較してください。"
+          },
+          {
+            "id": "G23-E06-D03",
+            "text": "dancing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「danced」と比較してください。"
+          },
+          {
+            "id": "G23-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「danced」と比較してください。"
+          },
+          {
+            "id": "G23-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「danced」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G23-E06-B01",
+          "G23-E06-B02",
+          "G23-E06-B03",
+          "G23-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E06-B01",
+            "G23-E06-B02",
+            "G23-E06-B03",
+            "G23-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G23-E06-AUDIO",
+        "text": "They danced at the party last night.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G23-E07",
+      "grammarId": "G23",
+      "grammarNameJa": "一般動詞の過去形・規則動詞",
+      "english": "We waited for an hour yesterday.",
+      "translationJa": "私たちは昨日1時間待ちました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "waited",
+        "start": 3,
+        "endExclusive": 9,
+        "explanationJa": "規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+      },
+      "sentenceExplanationJa": "「We waited for an hour yesterday.」は「私たちは昨日1時間待ちました。」という意味です。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。 この文の対象部分は「waited」。まとまりは We → waited → for an hour → yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "waited",
+          "lemma": "wait",
+          "meaningJa": "待つ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "an",
+          "lemma": "an",
+          "meaningJa": "1つの（母音で始まる音の前の不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hour",
+          "lemma": "hour",
+          "meaningJa": "1時間",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ for an hour yesterday.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 9,
+          "answer": "waited"
+        },
+        "options": [
+          {
+            "id": "G23-E07-C1",
+            "text": "waited",
+            "isCorrect": true,
+            "explanationJa": "正解。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+          },
+          {
+            "id": "G23-E07-C2",
+            "text": "wait",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「waited」を使います。「wait」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E07-C3",
+            "text": "waits",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「waited」を使います。「waits」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E07-C4",
+            "text": "waiting",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「waited」を使います。「waiting」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G23-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G23-E07-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G23-E07-B02",
+            "text": "waited",
+            "role": "required"
+          },
+          {
+            "id": "G23-E07-B03",
+            "text": "for an hour",
+            "role": "required"
+          },
+          {
+            "id": "G23-E07-B04",
+            "text": "yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G23-E07-B01",
+          "G23-E07-B02",
+          "G23-E07-B03",
+          "G23-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E07-B01",
+            "G23-E07-B02",
+            "G23-E07-B03",
+            "G23-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G23-E07-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G23-E07-B02",
+            "text": "waited",
+            "role": "required"
+          },
+          {
+            "id": "G23-E07-B03",
+            "text": "for an hour",
+            "role": "required"
+          },
+          {
+            "id": "G23-E07-B04",
+            "text": "yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G23-E07-D01",
+            "text": "wait",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waited」と比較してください。"
+          },
+          {
+            "id": "G23-E07-D02",
+            "text": "waits",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waited」と比較してください。"
+          },
+          {
+            "id": "G23-E07-D03",
+            "text": "waiting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waited」と比較してください。"
+          },
+          {
+            "id": "G23-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waited」と比較してください。"
+          },
+          {
+            "id": "G23-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waited」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G23-E07-D01",
+            "text": "wait",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waited」と比較してください。"
+          },
+          {
+            "id": "G23-E07-D02",
+            "text": "waits",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waited」と比較してください。"
+          },
+          {
+            "id": "G23-E07-D03",
+            "text": "waiting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waited」と比較してください。"
+          },
+          {
+            "id": "G23-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waited」と比較してください。"
+          },
+          {
+            "id": "G23-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「waited」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G23-E07-B01",
+          "G23-E07-B02",
+          "G23-E07-B03",
+          "G23-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E07-B01",
+            "G23-E07-B02",
+            "G23-E07-B03",
+            "G23-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G23-E07-AUDIO",
+        "text": "We waited for an hour yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G23-E08",
+      "grammarId": "G23",
+      "grammarNameJa": "一般動詞の過去形・規則動詞",
+      "english": "I opened the card pack this morning.",
+      "translationJa": "私は今朝カードパックを開けました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "opened",
+        "start": 2,
+        "endExclusive": 8,
+        "explanationJa": "規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+      },
+      "sentenceExplanationJa": "「I opened the card pack this morning.」は「私は今朝カードパックを開けました。」という意味です。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。 この文の対象部分は「opened」。まとまりは I → opened → the card pack → this morning. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "opened",
+          "lemma": "open",
+          "meaningJa": "開いている・開ける（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "card",
+          "lemma": "card",
+          "meaningJa": "カード",
+          "kind": "word"
+        },
+        {
+          "expression": "pack",
+          "lemma": "pack",
+          "meaningJa": "パック・荷物を詰める",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "morning",
+          "lemma": "morning",
+          "meaningJa": "朝・午前",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ the card pack this morning.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 8,
+          "answer": "opened"
+        },
+        "options": [
+          {
+            "id": "G23-E08-C4",
+            "text": "opening",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「opened」を使います。「opening」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E08-C2",
+            "text": "open",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「opened」を使います。「open」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E08-C3",
+            "text": "opens",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「opened」を使います。「opens」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E08-C1",
+            "text": "opened",
+            "isCorrect": true,
+            "explanationJa": "正解。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+          }
+        ],
+        "correctOptionId": "G23-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G23-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G23-E08-B02",
+            "text": "opened",
+            "role": "required"
+          },
+          {
+            "id": "G23-E08-B03",
+            "text": "the card pack",
+            "role": "required"
+          },
+          {
+            "id": "G23-E08-B04",
+            "text": "this morning.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G23-E08-B01",
+          "G23-E08-B02",
+          "G23-E08-B03",
+          "G23-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E08-B01",
+            "G23-E08-B02",
+            "G23-E08-B03",
+            "G23-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G23-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G23-E08-B02",
+            "text": "opened",
+            "role": "required"
+          },
+          {
+            "id": "G23-E08-B03",
+            "text": "the card pack",
+            "role": "required"
+          },
+          {
+            "id": "G23-E08-B04",
+            "text": "this morning.",
+            "role": "required"
+          },
+          {
+            "id": "G23-E08-D01",
+            "text": "open",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「opened」と比較してください。"
+          },
+          {
+            "id": "G23-E08-D02",
+            "text": "opens",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「opened」と比較してください。"
+          },
+          {
+            "id": "G23-E08-D03",
+            "text": "opening",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「opened」と比較してください。"
+          },
+          {
+            "id": "G23-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「opened」と比較してください。"
+          },
+          {
+            "id": "G23-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「opened」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G23-E08-D01",
+            "text": "open",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「opened」と比較してください。"
+          },
+          {
+            "id": "G23-E08-D02",
+            "text": "opens",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「opened」と比較してください。"
+          },
+          {
+            "id": "G23-E08-D03",
+            "text": "opening",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「opened」と比較してください。"
+          },
+          {
+            "id": "G23-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「opened」と比較してください。"
+          },
+          {
+            "id": "G23-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「opened」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G23-E08-B01",
+          "G23-E08-B02",
+          "G23-E08-B03",
+          "G23-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E08-B01",
+            "G23-E08-B02",
+            "G23-E08-B03",
+            "G23-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G23-E08-AUDIO",
+        "text": "I opened the card pack this morning.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G23-E09",
+      "grammarId": "G23",
+      "grammarNameJa": "一般動詞の過去形・規則動詞",
+      "english": "She studied English last night.",
+      "translationJa": "彼女は昨夜英語を勉強しました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "studied",
+        "start": 4,
+        "endExclusive": 11,
+        "explanationJa": "規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+      },
+      "sentenceExplanationJa": "「She studied English last night.」は「彼女は昨夜英語を勉強しました。」という意味です。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。 この文の対象部分は「studied」。まとまりは She → studied → English → last night. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "studied",
+          "lemma": "study",
+          "meaningJa": "勉強する（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "English",
+          "lemma": "english",
+          "meaningJa": "英語",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "night",
+          "lemma": "night",
+          "meaningJa": "夜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ English last night.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 11,
+          "answer": "studied"
+        },
+        "options": [
+          {
+            "id": "G23-E09-C4",
+            "text": "studying",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「studied」を使います。「studying」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E09-C3",
+            "text": "studies",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「studied」を使います。「studies」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E09-C1",
+            "text": "studied",
+            "isCorrect": true,
+            "explanationJa": "正解。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+          },
+          {
+            "id": "G23-E09-C2",
+            "text": "study",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「studied」を使います。「study」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G23-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G23-E09-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G23-E09-B02",
+            "text": "studied",
+            "role": "required"
+          },
+          {
+            "id": "G23-E09-B03",
+            "text": "English",
+            "role": "required"
+          },
+          {
+            "id": "G23-E09-B04",
+            "text": "last night.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G23-E09-B01",
+          "G23-E09-B02",
+          "G23-E09-B03",
+          "G23-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E09-B01",
+            "G23-E09-B02",
+            "G23-E09-B03",
+            "G23-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G23-E09-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G23-E09-B02",
+            "text": "studied",
+            "role": "required"
+          },
+          {
+            "id": "G23-E09-B03",
+            "text": "English",
+            "role": "required"
+          },
+          {
+            "id": "G23-E09-B04",
+            "text": "last night.",
+            "role": "required"
+          },
+          {
+            "id": "G23-E09-D01",
+            "text": "study",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「studied」と比較してください。"
+          },
+          {
+            "id": "G23-E09-D02",
+            "text": "studies",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「studied」と比較してください。"
+          },
+          {
+            "id": "G23-E09-D03",
+            "text": "studying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「studied」と比較してください。"
+          },
+          {
+            "id": "G23-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「studied」と比較してください。"
+          },
+          {
+            "id": "G23-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「studied」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G23-E09-D01",
+            "text": "study",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「studied」と比較してください。"
+          },
+          {
+            "id": "G23-E09-D02",
+            "text": "studies",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「studied」と比較してください。"
+          },
+          {
+            "id": "G23-E09-D03",
+            "text": "studying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「studied」と比較してください。"
+          },
+          {
+            "id": "G23-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「studied」と比較してください。"
+          },
+          {
+            "id": "G23-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「studied」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G23-E09-B01",
+          "G23-E09-B02",
+          "G23-E09-B03",
+          "G23-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E09-B01",
+            "G23-E09-B02",
+            "G23-E09-B03",
+            "G23-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G23-E09-AUDIO",
+        "text": "She studied English last night.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G23-E10",
+      "grammarId": "G23",
+      "grammarNameJa": "一般動詞の過去形・規則動詞",
+      "english": "We enjoyed the concert yesterday.",
+      "translationJa": "私たちは昨日コンサートを楽しみました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "enjoyed",
+        "start": 3,
+        "endExclusive": 10,
+        "explanationJa": "規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+      },
+      "sentenceExplanationJa": "「We enjoyed the concert yesterday.」は「私たちは昨日コンサートを楽しみました。」という意味です。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。 この文の対象部分は「enjoyed」。まとまりは We → enjoyed → the concert → yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "enjoyed",
+          "lemma": "enjoy",
+          "meaningJa": "楽しむ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ the concert yesterday.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 10,
+          "answer": "enjoyed"
+        },
+        "options": [
+          {
+            "id": "G23-E10-C4",
+            "text": "enjoying",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enjoyed」を使います。「enjoying」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E10-C1",
+            "text": "enjoyed",
+            "isCorrect": true,
+            "explanationJa": "正解。規則動詞にed・dを付けて過去の動作を表す。子音字＋yはiedにする。"
+          },
+          {
+            "id": "G23-E10-C3",
+            "text": "enjoys",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enjoyed」を使います。「enjoys」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G23-E10-C2",
+            "text": "enjoy",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enjoyed」を使います。「enjoy」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G23-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G23-E10-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G23-E10-B02",
+            "text": "enjoyed",
+            "role": "required"
+          },
+          {
+            "id": "G23-E10-B03",
+            "text": "the concert",
+            "role": "required"
+          },
+          {
+            "id": "G23-E10-B04",
+            "text": "yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G23-E10-B01",
+          "G23-E10-B02",
+          "G23-E10-B03",
+          "G23-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E10-B01",
+            "G23-E10-B02",
+            "G23-E10-B03",
+            "G23-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G23-E10-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G23-E10-B02",
+            "text": "enjoyed",
+            "role": "required"
+          },
+          {
+            "id": "G23-E10-B03",
+            "text": "the concert",
+            "role": "required"
+          },
+          {
+            "id": "G23-E10-B04",
+            "text": "yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G23-E10-D01",
+            "text": "enjoy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enjoyed」と比較してください。"
+          },
+          {
+            "id": "G23-E10-D02",
+            "text": "enjoys",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enjoyed」と比較してください。"
+          },
+          {
+            "id": "G23-E10-D03",
+            "text": "enjoying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enjoyed」と比較してください。"
+          },
+          {
+            "id": "G23-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enjoyed」と比較してください。"
+          },
+          {
+            "id": "G23-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enjoyed」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G23-E10-D01",
+            "text": "enjoy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enjoyed」と比較してください。"
+          },
+          {
+            "id": "G23-E10-D02",
+            "text": "enjoys",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enjoyed」と比較してください。"
+          },
+          {
+            "id": "G23-E10-D03",
+            "text": "enjoying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enjoyed」と比較してください。"
+          },
+          {
+            "id": "G23-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enjoyed」と比較してください。"
+          },
+          {
+            "id": "G23-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enjoyed」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G23-E10-B01",
+          "G23-E10-B02",
+          "G23-E10-B03",
+          "G23-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G23-E10-B01",
+            "G23-E10-B02",
+            "G23-E10-B03",
+            "G23-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G23-E10-AUDIO",
+        "text": "We enjoyed the concert yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+@41|and・but・or・so|2|andは追加、butは対比、orは選択、soは結果を結ぶ。日本語のつながりを確認する。|and~but~or~so
+I/like singing/[and]/dancing.|私は歌うことと踊ることが好きです。
+The ticket/was expensive,/[but]/I bought it.|チケットは高かったですが、私は買いました。
+Do you want/tea/[or]/water?|あなたはお茶と水のどちらが欲しいですか。
+I was tired,/[so]/I went home.|私は疲れていたので、家に帰りました。
+She bought/a towel/[and]/a bag.|彼女はタオルとバッグを買いました。
+The line/was long,/[but]/we waited.|列は長かったですが、私たちは待ちました。
+You can sit here/[or]/stand there.|あなたはここに座るか、あそこに立つかできます。
+It was raining,/[so]/I took an umbrella.|雨が降っていたので、私は傘を持っていきました。
+He/sings/[and]/plays the piano.|彼は歌い、ピアノも弾きます。
+I like this song,/[but]/my sister does not.|私はこの曲が好きですが、姉は好きではありません。
+@42|because・when・before・after|2|becauseは理由、whenは時、beforeは前、afterは後を示す。従属節も主語＋動詞にする。|because~when~before~after
+I smiled/[because]/the ticket was mine.|私はそのチケットが自分のものだったので笑顔になりました。
+We cheered/[when]/the show started.|私たちは公演が始まった時に歓声を上げました。
+I checked my bag/[before]/I left home.|私は家を出る前にバッグを確認しました。
+We ate dinner/[after]/the concert ended.|私たちはコンサートが終わった後に夕食を食べました。
+She was happy/[because]/she won a ticket.|彼女はチケットの抽選に当たったので喜んでいました。
+I listen to music/[when]/I feel sad.|私は悲しいと感じる時に音楽を聴きます。
+Please wash your hands/[before]/you eat.|食べる前に手を洗ってください。
+I called my friend/[after]/I got home.|私は帰宅した後に友達に電話しました。
+We took a bus/[because]/the hall was far away.|会場が遠かったので、私たちはバスに乗りました。
+She waved/[when]/she saw me.|彼女は私を見た時に手を振りました。
+@43|ifの条件文|2|if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。|AUTO
+I will cry/if I/[win]/a ticket.|チケットが当たったら、私は泣くと思います。
+We will wait/if the train/[is]/late.|電車が遅れたら、私たちは待ちます。
+I will take a bus/if it/[rains].|雨が降ったら、私はバスに乗ります。
+She will come/if she/[has]/time.|時間があれば、彼女は来るでしょう。
+I will buy a towel/if it/[is]/green.|緑色なら、私はタオルを買います。
+We will miss the start/if we/[leave]/late.|出発が遅れたら、私たちは開始に間に合わないでしょう。
+You can sit here/if you/[want].|座りたければ、ここに座ってよいです。
+I will help you/if you/[need]/me.|私が必要なら、あなたを手伝います。
+He will smile/if he/[sees]/this photo.|この写真を見たら、彼は笑顔になるでしょう。
+We will sing/if everyone/[agrees].|全員が賛成したら、私たちは歌います。
+@44|that節・感情の理由|2|think・knowなどの目的語にthat＋主語＋動詞を使う。be glad thatでも気持ちの理由を示せる。|that~what~who~where
+I think/[that]/this song is beautiful.|私はこの曲は美しいと思います。
+She knows/[that]/I like this band.|彼女は私がこのバンドを好きだと知っています。
+We hope/[that]/the weather will be fine.|私たちは天気がよくなることを願っています。
+He said/[that]/he was tired.|彼は疲れていると言いました。
+I am glad/[that]/you came.|私はあなたが来てくれてうれしいです。
+We believe/[that]/music brings people together.|私たちは音楽は人を結びつけると信じています。
+She told me/[that]/the show was canceled.|彼女は公演が中止になったと私に伝えました。
+I am sure/[that]/you will enjoy it.|あなたはきっとそれを楽しむと私は確信しています。
+He thinks/[that]/this seat is good.|彼はこの席はよいと思っています。
+I am happy/[that]/we can go together.|私は一緒に行けることがうれしいです。
+@45|間接疑問文|3|疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。|AUTO
+I know/where/[the hall is].|私は会場がどこにあるか知っています。
+Please tell me/when/[the show starts].|公演がいつ始まるか教えてください。
+Do you know/what/[this word means]?|あなたはこの単語が何を意味するか知っていますか。
+I wonder/why/[she is crying].|私は彼女がなぜ泣いているのかと思います。
+He asked me/where/[I lived].|彼は私がどこに住んでいたか尋ねました。
+I remember/when/[we first met].|私は私たちが初めて会った時を覚えています。
+Please tell me/how/[you got the ticket].|どうやってチケットを手に入れたか教えてください。
+She knows/which/[train we need].|彼女は私たちにどの電車が必要か知っています。
+I do not know/whose/[bag this is].|私はこれが誰のバッグかわかりません。
+Do you know/how many cards/[he has]?|あなたは彼がカードを何枚持っているか知っていますか。
+@46|疑問詞＋to不定詞|3|how toは方法、what toは何をするか、where toはどこで行うかを簡潔に表す。|how to~what to~where to~when to
+I know/[how to]/play this song.|私はこの曲の演奏方法を知っています。
+She told me/[where to]/buy tickets.|彼女はどこでチケットを買うか教えてくれました。
+We discussed/[when to]/leave.|私たちはいつ出発するか話し合いました。
+I cannot decide/[what to]/wear.|私は何を着るか決められません。
+Please show me/[how to]/use this app.|このアプリの使い方を教えてください。
+He knows/[where to]/find the shop.|彼はどこでその店を見つけられるか知っています。
+I do not know/[what to]/say.|私は何と言えばよいかわかりません。
+She taught me/[how to]/read music.|彼女は楽譜の読み方を教えてくれました。
+We must decide/[when to]/meet.|私たちはいつ会うか決めなければなりません。
+Please tell me/[where to]/sit.|どこに座ればよいか教えてください。
+@47|want・ask・tell＋人＋to|3|want・ask・tellの後ろに人＋to不定詞を置き、人にしてほしいことや頼む内容を示す。|AUTO
+I want/you/[to listen]/to this song.|私はあなたにこの曲を聴いてほしいです。
+She asked/me/[to wait]/outside.|彼女は私に外で待つよう頼みました。
+The guide told/us/[to stand]/here.|案内係は私たちにここに立つよう言いました。
+I want/my brother/[to come]/with us.|私は弟に一緒に来てほしいです。
+He asked/me/[to take]/a photo.|彼は私に写真を撮るよう頼みました。
+My mother told/me/[to study]/first.|母は私に先に勉強するよう言いました。
+We want/everyone/[to enjoy]/the show.|私たちは全員に公演を楽しんでほしいです。
+She asked/him/[to carry]/her bag.|彼女は彼にバッグを運ぶよう頼みました。
+The teacher told/us/[to be]/quiet.|先生は私たちに静かにするよう言いました。
+I want/you/[to remember]/this day.|私はあなたにこの日を覚えていてほしいです。
+@48|It is ... for ... to|3|長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。|to~for~of~at
+It is easy/for me/[to]/sing this song.|私にとってこの曲を歌うのは簡単です。
+It is hard/for him/[to]/get up early.|彼にとって早起きするのは大変です。
+It is important/for us/[to]/keep our tickets.|私たちにとってチケットを保管するのは大切です。
+It is fun/for me/[to]/collect cards.|私にとってカードを集めるのは楽しいです。
+It is difficult/for her/[to]/choose one song.|彼女にとって曲を1曲選ぶのは難しいです。
+It is necessary/for us/[to]/drink water.|私たちにとって水を飲むことは必要です。
+It is exciting/for me/[to]/visit a new hall.|私にとって新しい会場を訪れるのはわくわくします。
+It is useful/for fans/[to]/learn English.|ファンにとって英語を学ぶことは役に立ちます。
+It is impossible/for me/[to]/buy every item.|私にとって全商品を買うのは不可能です。
+It is safe/for us/[to]/wait inside.|私たちにとって中で待つのは安全です。
+@49|too ... to・enough to|3|too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。|too~enough~very~much
+My bag/is/[too]/heavy/to carry.|バッグは重すぎて運べません。
+He/is old/[enough]/to go alone.|彼は一人で行ける年齢です。
+I/was/[too]/excited/to sleep.|私は興奮しすぎて眠れませんでした。
+This room/is big/[enough]/to practice in.|この部屋は練習するのに十分広いです。
+The ticket/is/[too]/expensive/for me to buy.|チケットは高すぎて私には買えません。
+She/is tall/[enough]/to see the stage.|彼女はステージが見えるくらい背が高いです。
+It/is/[too]/late/to catch the train.|電車に乗るには遅すぎます。
+The music/is loud/[enough]/to hear outside.|音楽は外で聞こえるくらい十分大きいです。
+I/am/[too]/tired/to dance.|私は疲れすぎて踊れません。
+This box/is strong/[enough]/to hold my cards.|この箱はカードを入れられるくらい十分丈夫です。
+@50|受け身の現在形|3|am・is・are＋過去分詞で「～される」を表す。動作を受ける人や物を主語にする。|am~is~are~be
+This song/[is]/loved/by many fans.|この曲は多くのファンに愛されています。
+Tickets/[are]/sold/online.|チケットはオンラインで販売されています。
+The hall/[is]/cleaned/every day.|会場は毎日清掃されています。
+These cards/[are]/made/in Japan.|これらのカードは日本で作られています。
+I/[am]/called/Apple/by my friends.|私は友達にアップルと呼ばれています。
+This room/[is]/used/for practice.|この部屋は練習に使われています。
+The doors/[are]/opened/at six.|ドアは6時に開けられます。
+English/[is]/spoken/in this video.|この動画では英語が話されています。
+The towels/[are]/washed/after every show.|タオルは毎公演後に洗われます。
+This picture/[is]/shown/on the screen.|この写真は画面に映されています。

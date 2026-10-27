@@ -1,0 +1,2149 @@
+{
+  "grammarId": "G39",
+  "examples": [
+    {
+      "id": "G39-E01",
+      "grammarId": "G39",
+      "grammarNameJa": "SVC・感覚動詞",
+      "english": "This song sounds beautiful.",
+      "translationJa": "この曲は美しく聞こえます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "beautiful",
+        "start": 17,
+        "endExclusive": 26,
+        "explanationJa": "look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+      },
+      "sentenceExplanationJa": "「This song sounds beautiful.」は「この曲は美しく聞こえます。」という意味です。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。 この文の対象部分は「beautiful」。まとまりは This song → sounds → beautiful. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "sounds",
+          "lemma": "sound",
+          "meaningJa": "～に聞こえる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "beautiful",
+          "lemma": "beautiful",
+          "meaningJa": "美しい",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This song sounds ___.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 26,
+          "answer": "beautiful"
+        },
+        "options": [
+          {
+            "id": "G39-E01-C3",
+            "text": "beauty",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「beautiful」を使います。「beauty」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E01-C1",
+            "text": "beautiful",
+            "isCorrect": true,
+            "explanationJa": "正解。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+          },
+          {
+            "id": "G39-E01-C4",
+            "text": "beauties",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「beautiful」を使います。「beauties」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E01-C2",
+            "text": "beautifully",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「beautiful」を使います。「beautifully」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G39-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G39-E01-B01",
+            "text": "This song",
+            "role": "required"
+          },
+          {
+            "id": "G39-E01-B02",
+            "text": "sounds",
+            "role": "required"
+          },
+          {
+            "id": "G39-E01-B03",
+            "text": "beautiful.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G39-E01-B01",
+          "G39-E01-B02",
+          "G39-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E01-B01",
+            "G39-E01-B02",
+            "G39-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G39-E01-B01",
+            "text": "This song",
+            "role": "required"
+          },
+          {
+            "id": "G39-E01-B02",
+            "text": "sounds",
+            "role": "required"
+          },
+          {
+            "id": "G39-E01-B03",
+            "text": "beautiful.",
+            "role": "required"
+          },
+          {
+            "id": "G39-E01-D01",
+            "text": "beautifully",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「beautiful」と比較してください。"
+          },
+          {
+            "id": "G39-E01-D02",
+            "text": "beauty",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「beautiful」と比較してください。"
+          },
+          {
+            "id": "G39-E01-D03",
+            "text": "beauties",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「beautiful」と比較してください。"
+          },
+          {
+            "id": "G39-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「beautiful」と比較してください。"
+          },
+          {
+            "id": "G39-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「beautiful」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G39-E01-D01",
+            "text": "beautifully",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「beautiful」と比較してください。"
+          },
+          {
+            "id": "G39-E01-D02",
+            "text": "beauty",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「beautiful」と比較してください。"
+          },
+          {
+            "id": "G39-E01-D03",
+            "text": "beauties",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「beautiful」と比較してください。"
+          },
+          {
+            "id": "G39-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「beautiful」と比較してください。"
+          },
+          {
+            "id": "G39-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「beautiful」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G39-E01-B01",
+          "G39-E01-B02",
+          "G39-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E01-B01",
+            "G39-E01-B02",
+            "G39-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G39-E01-AUDIO",
+        "text": "This song sounds beautiful.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G39-E02",
+      "grammarId": "G39",
+      "grammarNameJa": "SVC・感覚動詞",
+      "english": "You look happy.",
+      "translationJa": "あなたはうれしそうに見えます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "happy",
+        "start": 9,
+        "endExclusive": 14,
+        "explanationJa": "look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+      },
+      "sentenceExplanationJa": "「You look happy.」は「あなたはうれしそうに見えます。」という意味です。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。 この文の対象部分は「happy」。まとまりは You → look → happy. の順です。",
+      "glossary": [
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "look",
+          "lemma": "look",
+          "meaningJa": "見る・～に見える",
+          "kind": "word"
+        },
+        {
+          "expression": "happy",
+          "lemma": "happy",
+          "meaningJa": "うれしい・幸せな",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You look ___.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 14,
+          "answer": "happy"
+        },
+        "options": [
+          {
+            "id": "G39-E02-C4",
+            "text": "be happy",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「happy」を使います。「be happy」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E02-C2",
+            "text": "happily",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「happy」を使います。「happily」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E02-C3",
+            "text": "happiness",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「happy」を使います。「happiness」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E02-C1",
+            "text": "happy",
+            "isCorrect": true,
+            "explanationJa": "正解。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+          }
+        ],
+        "correctOptionId": "G39-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G39-E02-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G39-E02-B02",
+            "text": "look",
+            "role": "required"
+          },
+          {
+            "id": "G39-E02-B03",
+            "text": "happy.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G39-E02-B01",
+          "G39-E02-B02",
+          "G39-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E02-B01",
+            "G39-E02-B02",
+            "G39-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G39-E02-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G39-E02-B02",
+            "text": "look",
+            "role": "required"
+          },
+          {
+            "id": "G39-E02-B03",
+            "text": "happy.",
+            "role": "required"
+          },
+          {
+            "id": "G39-E02-D01",
+            "text": "happily",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G39-E02-D02",
+            "text": "happiness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G39-E02-D03",
+            "text": "be happy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G39-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G39-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G39-E02-D01",
+            "text": "happily",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G39-E02-D02",
+            "text": "happiness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G39-E02-D03",
+            "text": "be happy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G39-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          },
+          {
+            "id": "G39-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「happy」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G39-E02-B01",
+          "G39-E02-B02",
+          "G39-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E02-B01",
+            "G39-E02-B02",
+            "G39-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G39-E02-AUDIO",
+        "text": "You look happy.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G39-E03",
+      "grammarId": "G39",
+      "grammarNameJa": "SVC・感覚動詞",
+      "english": "I feel sleepy after the concert.",
+      "translationJa": "私はコンサート後に眠く感じます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "sleepy",
+        "start": 7,
+        "endExclusive": 13,
+        "explanationJa": "look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+      },
+      "sentenceExplanationJa": "「I feel sleepy after the concert.」は「私はコンサート後に眠く感じます。」という意味です。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。 この文の対象部分は「sleepy」。まとまりは I → feel → sleepy → after the concert. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "feel",
+          "lemma": "feel",
+          "meaningJa": "感じる",
+          "kind": "word"
+        },
+        {
+          "expression": "sleepy",
+          "lemma": "sleepy",
+          "meaningJa": "眠い",
+          "kind": "word"
+        },
+        {
+          "expression": "after",
+          "lemma": "after",
+          "meaningJa": "～の後に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I feel ___ after the concert.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 13,
+          "answer": "sleepy"
+        },
+        "options": [
+          {
+            "id": "G39-E03-C4",
+            "text": "be sleepy",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sleepy」を使います。「be sleepy」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E03-C3",
+            "text": "sleepiness",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sleepy」を使います。「sleepiness」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E03-C1",
+            "text": "sleepy",
+            "isCorrect": true,
+            "explanationJa": "正解。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+          },
+          {
+            "id": "G39-E03-C2",
+            "text": "sleepily",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sleepy」を使います。「sleepily」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G39-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G39-E03-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G39-E03-B02",
+            "text": "feel",
+            "role": "required"
+          },
+          {
+            "id": "G39-E03-B03",
+            "text": "sleepy",
+            "role": "required"
+          },
+          {
+            "id": "G39-E03-B04",
+            "text": "after the concert.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G39-E03-B01",
+          "G39-E03-B02",
+          "G39-E03-B03",
+          "G39-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E03-B01",
+            "G39-E03-B02",
+            "G39-E03-B03",
+            "G39-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G39-E03-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G39-E03-B02",
+            "text": "feel",
+            "role": "required"
+          },
+          {
+            "id": "G39-E03-B03",
+            "text": "sleepy",
+            "role": "required"
+          },
+          {
+            "id": "G39-E03-B04",
+            "text": "after the concert.",
+            "role": "required"
+          },
+          {
+            "id": "G39-E03-D01",
+            "text": "sleepily",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleepy」と比較してください。"
+          },
+          {
+            "id": "G39-E03-D02",
+            "text": "sleepiness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleepy」と比較してください。"
+          },
+          {
+            "id": "G39-E03-D03",
+            "text": "be sleepy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleepy」と比較してください。"
+          },
+          {
+            "id": "G39-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleepy」と比較してください。"
+          },
+          {
+            "id": "G39-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleepy」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G39-E03-D01",
+            "text": "sleepily",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleepy」と比較してください。"
+          },
+          {
+            "id": "G39-E03-D02",
+            "text": "sleepiness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleepy」と比較してください。"
+          },
+          {
+            "id": "G39-E03-D03",
+            "text": "be sleepy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleepy」と比較してください。"
+          },
+          {
+            "id": "G39-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleepy」と比較してください。"
+          },
+          {
+            "id": "G39-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sleepy」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G39-E03-B01",
+          "G39-E03-B02",
+          "G39-E03-B03",
+          "G39-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E03-B01",
+            "G39-E03-B02",
+            "G39-E03-B03",
+            "G39-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G39-E03-AUDIO",
+        "text": "I feel sleepy after the concert.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G39-E04",
+      "grammarId": "G39",
+      "grammarNameJa": "SVC・感覚動詞",
+      "english": "The soup tastes good.",
+      "translationJa": "そのスープはおいしい味がします。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "good",
+        "start": 16,
+        "endExclusive": 20,
+        "explanationJa": "look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+      },
+      "sentenceExplanationJa": "「The soup tastes good.」は「そのスープはおいしい味がします。」という意味です。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。 この文の対象部分は「good」。まとまりは The soup → tastes → good. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "soup",
+          "lemma": "soup",
+          "meaningJa": "スープ",
+          "kind": "word"
+        },
+        {
+          "expression": "tastes",
+          "lemma": "taste",
+          "meaningJa": "～の味がする（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "good",
+          "lemma": "good",
+          "meaningJa": "よい",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The soup tastes ___.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 20,
+          "answer": "good"
+        },
+        "options": [
+          {
+            "id": "G39-E04-C3",
+            "text": "goodness",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「good」を使います。「goodness」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E04-C4",
+            "text": "goods",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「good」を使います。「goods」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E04-C1",
+            "text": "good",
+            "isCorrect": true,
+            "explanationJa": "正解。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+          },
+          {
+            "id": "G39-E04-C2",
+            "text": "well",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「good」を使います。「well」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G39-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G39-E04-B01",
+            "text": "The soup",
+            "role": "required"
+          },
+          {
+            "id": "G39-E04-B02",
+            "text": "tastes",
+            "role": "required"
+          },
+          {
+            "id": "G39-E04-B03",
+            "text": "good.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G39-E04-B01",
+          "G39-E04-B02",
+          "G39-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E04-B01",
+            "G39-E04-B02",
+            "G39-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G39-E04-B01",
+            "text": "The soup",
+            "role": "required"
+          },
+          {
+            "id": "G39-E04-B02",
+            "text": "tastes",
+            "role": "required"
+          },
+          {
+            "id": "G39-E04-B03",
+            "text": "good.",
+            "role": "required"
+          },
+          {
+            "id": "G39-E04-D01",
+            "text": "well",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G39-E04-D02",
+            "text": "goodness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G39-E04-D03",
+            "text": "goods",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G39-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G39-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G39-E04-D01",
+            "text": "well",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G39-E04-D02",
+            "text": "goodness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G39-E04-D03",
+            "text": "goods",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G39-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          },
+          {
+            "id": "G39-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「good」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G39-E04-B01",
+          "G39-E04-B02",
+          "G39-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E04-B01",
+            "G39-E04-B02",
+            "G39-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G39-E04-AUDIO",
+        "text": "The soup tastes good.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G39-E05",
+      "grammarId": "G39",
+      "grammarNameJa": "SVC・感覚動詞",
+      "english": "She became famous.",
+      "translationJa": "彼女は有名になりました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "famous",
+        "start": 11,
+        "endExclusive": 17,
+        "explanationJa": "look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+      },
+      "sentenceExplanationJa": "「She became famous.」は「彼女は有名になりました。」という意味です。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。 この文の対象部分は「famous」。まとまりは She → became → famous. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "became",
+          "lemma": "become",
+          "meaningJa": "～になる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "famous",
+          "lemma": "famous",
+          "meaningJa": "有名な",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She became ___.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 17,
+          "answer": "famous"
+        },
+        "options": [
+          {
+            "id": "G39-E05-C2",
+            "text": "famously",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「famous」を使います。「famously」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E05-C4",
+            "text": "be famous",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「famous」を使います。「be famous」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E05-C1",
+            "text": "famous",
+            "isCorrect": true,
+            "explanationJa": "正解。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+          },
+          {
+            "id": "G39-E05-C3",
+            "text": "fame",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「famous」を使います。「fame」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G39-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G39-E05-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G39-E05-B02",
+            "text": "became",
+            "role": "required"
+          },
+          {
+            "id": "G39-E05-B03",
+            "text": "famous.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G39-E05-B01",
+          "G39-E05-B02",
+          "G39-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E05-B01",
+            "G39-E05-B02",
+            "G39-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G39-E05-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G39-E05-B02",
+            "text": "became",
+            "role": "required"
+          },
+          {
+            "id": "G39-E05-B03",
+            "text": "famous.",
+            "role": "required"
+          },
+          {
+            "id": "G39-E05-D01",
+            "text": "famously",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「famous」と比較してください。"
+          },
+          {
+            "id": "G39-E05-D02",
+            "text": "fame",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「famous」と比較してください。"
+          },
+          {
+            "id": "G39-E05-D03",
+            "text": "be famous",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「famous」と比較してください。"
+          },
+          {
+            "id": "G39-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「famous」と比較してください。"
+          },
+          {
+            "id": "G39-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「famous」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G39-E05-D01",
+            "text": "famously",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「famous」と比較してください。"
+          },
+          {
+            "id": "G39-E05-D02",
+            "text": "fame",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「famous」と比較してください。"
+          },
+          {
+            "id": "G39-E05-D03",
+            "text": "be famous",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「famous」と比較してください。"
+          },
+          {
+            "id": "G39-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「famous」と比較してください。"
+          },
+          {
+            "id": "G39-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「famous」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G39-E05-B01",
+          "G39-E05-B02",
+          "G39-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E05-B01",
+            "G39-E05-B02",
+            "G39-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G39-E05-AUDIO",
+        "text": "She became famous.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G39-E06",
+      "grammarId": "G39",
+      "grammarNameJa": "SVC・感覚動詞",
+      "english": "This towel feels soft.",
+      "translationJa": "このタオルは柔らかい手触りです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "soft",
+        "start": 17,
+        "endExclusive": 21,
+        "explanationJa": "look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+      },
+      "sentenceExplanationJa": "「This towel feels soft.」は「このタオルは柔らかい手触りです。」という意味です。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。 この文の対象部分は「soft」。まとまりは This towel → feels → soft. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        },
+        {
+          "expression": "feels",
+          "lemma": "feel",
+          "meaningJa": "感じる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "soft",
+          "lemma": "soft",
+          "meaningJa": "柔らかい",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This towel feels ___.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 21,
+          "answer": "soft"
+        },
+        "options": [
+          {
+            "id": "G39-E06-C3",
+            "text": "softness",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「soft」を使います。「softness」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E06-C2",
+            "text": "softly",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「soft」を使います。「softly」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E06-C4",
+            "text": "be soft",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「soft」を使います。「be soft」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E06-C1",
+            "text": "soft",
+            "isCorrect": true,
+            "explanationJa": "正解。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+          }
+        ],
+        "correctOptionId": "G39-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G39-E06-B01",
+            "text": "This towel",
+            "role": "required"
+          },
+          {
+            "id": "G39-E06-B02",
+            "text": "feels",
+            "role": "required"
+          },
+          {
+            "id": "G39-E06-B03",
+            "text": "soft.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G39-E06-B01",
+          "G39-E06-B02",
+          "G39-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E06-B01",
+            "G39-E06-B02",
+            "G39-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G39-E06-B01",
+            "text": "This towel",
+            "role": "required"
+          },
+          {
+            "id": "G39-E06-B02",
+            "text": "feels",
+            "role": "required"
+          },
+          {
+            "id": "G39-E06-B03",
+            "text": "soft.",
+            "role": "required"
+          },
+          {
+            "id": "G39-E06-D01",
+            "text": "softly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G39-E06-D02",
+            "text": "softness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G39-E06-D03",
+            "text": "be soft",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G39-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G39-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G39-E06-D01",
+            "text": "softly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G39-E06-D02",
+            "text": "softness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G39-E06-D03",
+            "text": "be soft",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G39-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          },
+          {
+            "id": "G39-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「soft」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G39-E06-B01",
+          "G39-E06-B02",
+          "G39-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E06-B01",
+            "G39-E06-B02",
+            "G39-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G39-E06-AUDIO",
+        "text": "This towel feels soft.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G39-E07",
+      "grammarId": "G39",
+      "grammarNameJa": "SVC・感覚動詞",
+      "english": "The flowers smell nice.",
+      "translationJa": "その花はよい香りがします。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "nice",
+        "start": 18,
+        "endExclusive": 22,
+        "explanationJa": "look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+      },
+      "sentenceExplanationJa": "「The flowers smell nice.」は「その花はよい香りがします。」という意味です。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。 この文の対象部分は「nice」。まとまりは The flowers → smell → nice. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "flowers",
+          "lemma": "flower",
+          "meaningJa": "花（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "smell",
+          "lemma": "smell",
+          "meaningJa": "においがする",
+          "kind": "word"
+        },
+        {
+          "expression": "nice",
+          "lemma": "nice",
+          "meaningJa": "よい・すてきな",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The flowers smell ___.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 22,
+          "answer": "nice"
+        },
+        "options": [
+          {
+            "id": "G39-E07-C1",
+            "text": "nice",
+            "isCorrect": true,
+            "explanationJa": "正解。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+          },
+          {
+            "id": "G39-E07-C3",
+            "text": "niceness",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「nice」を使います。「niceness」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E07-C4",
+            "text": "be nice",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「nice」を使います。「be nice」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E07-C2",
+            "text": "nicely",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「nice」を使います。「nicely」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G39-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G39-E07-B01",
+            "text": "The flowers",
+            "role": "required"
+          },
+          {
+            "id": "G39-E07-B02",
+            "text": "smell",
+            "role": "required"
+          },
+          {
+            "id": "G39-E07-B03",
+            "text": "nice.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G39-E07-B01",
+          "G39-E07-B02",
+          "G39-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E07-B01",
+            "G39-E07-B02",
+            "G39-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G39-E07-B01",
+            "text": "The flowers",
+            "role": "required"
+          },
+          {
+            "id": "G39-E07-B02",
+            "text": "smell",
+            "role": "required"
+          },
+          {
+            "id": "G39-E07-B03",
+            "text": "nice.",
+            "role": "required"
+          },
+          {
+            "id": "G39-E07-D01",
+            "text": "nicely",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「nice」と比較してください。"
+          },
+          {
+            "id": "G39-E07-D02",
+            "text": "niceness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「nice」と比較してください。"
+          },
+          {
+            "id": "G39-E07-D03",
+            "text": "be nice",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「nice」と比較してください。"
+          },
+          {
+            "id": "G39-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「nice」と比較してください。"
+          },
+          {
+            "id": "G39-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「nice」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G39-E07-D01",
+            "text": "nicely",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「nice」と比較してください。"
+          },
+          {
+            "id": "G39-E07-D02",
+            "text": "niceness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「nice」と比較してください。"
+          },
+          {
+            "id": "G39-E07-D03",
+            "text": "be nice",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「nice」と比較してください。"
+          },
+          {
+            "id": "G39-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「nice」と比較してください。"
+          },
+          {
+            "id": "G39-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「nice」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G39-E07-B01",
+          "G39-E07-B02",
+          "G39-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E07-B01",
+            "G39-E07-B02",
+            "G39-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G39-E07-AUDIO",
+        "text": "The flowers smell nice.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G39-E08",
+      "grammarId": "G39",
+      "grammarNameJa": "SVC・感覚動詞",
+      "english": "My brother looks tired.",
+      "translationJa": "私の兄は疲れているように見えます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "tired",
+        "start": 17,
+        "endExclusive": 22,
+        "explanationJa": "look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+      },
+      "sentenceExplanationJa": "「My brother looks tired.」は「私の兄は疲れているように見えます。」という意味です。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。 この文の対象部分は「tired」。まとまりは My brother → looks → tired. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "brother",
+          "lemma": "brother",
+          "meaningJa": "兄・弟",
+          "kind": "word"
+        },
+        {
+          "expression": "looks",
+          "lemma": "look",
+          "meaningJa": "見る・～に見える（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "tired",
+          "lemma": "tired",
+          "meaningJa": "疲れた",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My brother looks ___.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 22,
+          "answer": "tired"
+        },
+        "options": [
+          {
+            "id": "G39-E08-C1",
+            "text": "tired",
+            "isCorrect": true,
+            "explanationJa": "正解。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+          },
+          {
+            "id": "G39-E08-C4",
+            "text": "be tired",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「tired」を使います。「be tired」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E08-C2",
+            "text": "tiredly",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「tired」を使います。「tiredly」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E08-C3",
+            "text": "tiredness",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「tired」を使います。「tiredness」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G39-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G39-E08-B01",
+            "text": "My brother",
+            "role": "required"
+          },
+          {
+            "id": "G39-E08-B02",
+            "text": "looks",
+            "role": "required"
+          },
+          {
+            "id": "G39-E08-B03",
+            "text": "tired.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G39-E08-B01",
+          "G39-E08-B02",
+          "G39-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E08-B01",
+            "G39-E08-B02",
+            "G39-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G39-E08-B01",
+            "text": "My brother",
+            "role": "required"
+          },
+          {
+            "id": "G39-E08-B02",
+            "text": "looks",
+            "role": "required"
+          },
+          {
+            "id": "G39-E08-B03",
+            "text": "tired.",
+            "role": "required"
+          },
+          {
+            "id": "G39-E08-D01",
+            "text": "tiredly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tired」と比較してください。"
+          },
+          {
+            "id": "G39-E08-D02",
+            "text": "tiredness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tired」と比較してください。"
+          },
+          {
+            "id": "G39-E08-D03",
+            "text": "be tired",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tired」と比較してください。"
+          },
+          {
+            "id": "G39-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tired」と比較してください。"
+          },
+          {
+            "id": "G39-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tired」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G39-E08-D01",
+            "text": "tiredly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tired」と比較してください。"
+          },
+          {
+            "id": "G39-E08-D02",
+            "text": "tiredness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tired」と比較してください。"
+          },
+          {
+            "id": "G39-E08-D03",
+            "text": "be tired",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tired」と比較してください。"
+          },
+          {
+            "id": "G39-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tired」と比較してください。"
+          },
+          {
+            "id": "G39-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「tired」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G39-E08-B01",
+          "G39-E08-B02",
+          "G39-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E08-B01",
+            "G39-E08-B02",
+            "G39-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G39-E08-AUDIO",
+        "text": "My brother looks tired.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G39-E09",
+      "grammarId": "G39",
+      "grammarNameJa": "SVC・感覚動詞",
+      "english": "The room became quiet.",
+      "translationJa": "その部屋は静かになりました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "quiet",
+        "start": 16,
+        "endExclusive": 21,
+        "explanationJa": "look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+      },
+      "sentenceExplanationJa": "「The room became quiet.」は「その部屋は静かになりました。」という意味です。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。 この文の対象部分は「quiet」。まとまりは The room → became → quiet. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "room",
+          "lemma": "room",
+          "meaningJa": "部屋",
+          "kind": "word"
+        },
+        {
+          "expression": "became",
+          "lemma": "become",
+          "meaningJa": "～になる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "quiet",
+          "lemma": "quiet",
+          "meaningJa": "静かな",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The room became ___.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 21,
+          "answer": "quiet"
+        },
+        "options": [
+          {
+            "id": "G39-E09-C2",
+            "text": "quietly",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「quiet」を使います。「quietly」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E09-C1",
+            "text": "quiet",
+            "isCorrect": true,
+            "explanationJa": "正解。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+          },
+          {
+            "id": "G39-E09-C4",
+            "text": "be quiet",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「quiet」を使います。「be quiet」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E09-C3",
+            "text": "quietness",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「quiet」を使います。「quietness」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G39-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G39-E09-B01",
+            "text": "The room",
+            "role": "required"
+          },
+          {
+            "id": "G39-E09-B02",
+            "text": "became",
+            "role": "required"
+          },
+          {
+            "id": "G39-E09-B03",
+            "text": "quiet.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G39-E09-B01",
+          "G39-E09-B02",
+          "G39-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E09-B01",
+            "G39-E09-B02",
+            "G39-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G39-E09-B01",
+            "text": "The room",
+            "role": "required"
+          },
+          {
+            "id": "G39-E09-B02",
+            "text": "became",
+            "role": "required"
+          },
+          {
+            "id": "G39-E09-B03",
+            "text": "quiet.",
+            "role": "required"
+          },
+          {
+            "id": "G39-E09-D01",
+            "text": "quietly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「quiet」と比較してください。"
+          },
+          {
+            "id": "G39-E09-D02",
+            "text": "quietness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「quiet」と比較してください。"
+          },
+          {
+            "id": "G39-E09-D03",
+            "text": "be quiet",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「quiet」と比較してください。"
+          },
+          {
+            "id": "G39-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「quiet」と比較してください。"
+          },
+          {
+            "id": "G39-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「quiet」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G39-E09-D01",
+            "text": "quietly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「quiet」と比較してください。"
+          },
+          {
+            "id": "G39-E09-D02",
+            "text": "quietness",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「quiet」と比較してください。"
+          },
+          {
+            "id": "G39-E09-D03",
+            "text": "be quiet",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「quiet」と比較してください。"
+          },
+          {
+            "id": "G39-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「quiet」と比較してください。"
+          },
+          {
+            "id": "G39-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「quiet」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G39-E09-B01",
+          "G39-E09-B02",
+          "G39-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E09-B01",
+            "G39-E09-B02",
+            "G39-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G39-E09-AUDIO",
+        "text": "The room became quiet.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G39-E10",
+      "grammarId": "G39",
+      "grammarNameJa": "SVC・感覚動詞",
+      "english": "His idea sounds interesting.",
+      "translationJa": "彼の考えはおもしろそうに聞こえます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "interesting",
+        "start": 16,
+        "endExclusive": 27,
+        "explanationJa": "look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+      },
+      "sentenceExplanationJa": "「His idea sounds interesting.」は「彼の考えはおもしろそうに聞こえます。」という意味です。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。 この文の対象部分は「interesting」。まとまりは His idea → sounds → interesting. の順です。",
+      "glossary": [
+        {
+          "expression": "His",
+          "lemma": "his",
+          "meaningJa": "彼の・彼のもの",
+          "kind": "word"
+        },
+        {
+          "expression": "idea",
+          "lemma": "idea",
+          "meaningJa": "考え・アイデア",
+          "kind": "word"
+        },
+        {
+          "expression": "sounds",
+          "lemma": "sound",
+          "meaningJa": "～に聞こえる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "interesting",
+          "lemma": "interesting",
+          "meaningJa": "おもしろい",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "His idea sounds ___.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 27,
+          "answer": "interesting"
+        },
+        "options": [
+          {
+            "id": "G39-E10-C1",
+            "text": "interesting",
+            "isCorrect": true,
+            "explanationJa": "正解。look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。"
+          },
+          {
+            "id": "G39-E10-C4",
+            "text": "be interesting",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「interesting」を使います。「be interesting」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E10-C3",
+            "text": "interest",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「interesting」を使います。「interest」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G39-E10-C2",
+            "text": "interestingly",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「interesting」を使います。「interestingly」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G39-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G39-E10-B01",
+            "text": "His idea",
+            "role": "required"
+          },
+          {
+            "id": "G39-E10-B02",
+            "text": "sounds",
+            "role": "required"
+          },
+          {
+            "id": "G39-E10-B03",
+            "text": "interesting.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G39-E10-B01",
+          "G39-E10-B02",
+          "G39-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E10-B01",
+            "G39-E10-B02",
+            "G39-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G39-E10-B01",
+            "text": "His idea",
+            "role": "required"
+          },
+          {
+            "id": "G39-E10-B02",
+            "text": "sounds",
+            "role": "required"
+          },
+          {
+            "id": "G39-E10-B03",
+            "text": "interesting.",
+            "role": "required"
+          },
+          {
+            "id": "G39-E10-D01",
+            "text": "interestingly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「interesting」と比較してください。"
+          },
+          {
+            "id": "G39-E10-D02",
+            "text": "interest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「interesting」と比較してください。"
+          },
+          {
+            "id": "G39-E10-D03",
+            "text": "be interesting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「interesting」と比較してください。"
+          },
+          {
+            "id": "G39-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「interesting」と比較してください。"
+          },
+          {
+            "id": "G39-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「interesting」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G39-E10-D01",
+            "text": "interestingly",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「interesting」と比較してください。"
+          },
+          {
+            "id": "G39-E10-D02",
+            "text": "interest",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「interesting」と比較してください。"
+          },
+          {
+            "id": "G39-E10-D03",
+            "text": "be interesting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「interesting」と比較してください。"
+          },
+          {
+            "id": "G39-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「interesting」と比較してください。"
+          },
+          {
+            "id": "G39-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「interesting」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G39-E10-B01",
+          "G39-E10-B02",
+          "G39-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G39-E10-B01",
+            "G39-E10-B02",
+            "G39-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G39-E10-AUDIO",
+        "text": "His idea sounds interesting.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

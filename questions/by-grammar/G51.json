@@ -1,0 +1,2427 @@
+{
+  "grammarId": "G51",
+  "examples": [
+    {
+      "id": "G51-E01",
+      "grammarId": "G51",
+      "grammarNameJa": "受け身の過去形",
+      "english": "This song was played last night.",
+      "translationJa": "この曲は昨夜演奏されました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "was",
+        "start": 10,
+        "endExclusive": 13,
+        "explanationJa": "was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+      },
+      "sentenceExplanationJa": "「This song was played last night.」は「この曲は昨夜演奏されました。」という意味です。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。 この文の対象部分は「was」。まとまりは This song → was → played → last night. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "played",
+          "lemma": "play",
+          "meaningJa": "演奏する・遊ぶ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "night",
+          "lemma": "night",
+          "meaningJa": "夜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This song ___ played last night.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 13,
+          "answer": "was"
+        },
+        "options": [
+          {
+            "id": "G51-E01-C1",
+            "text": "was",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+          },
+          {
+            "id": "G51-E01-C2",
+            "text": "were",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「were」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E01-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E01-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G51-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G51-E01-B01",
+            "text": "This song",
+            "role": "required"
+          },
+          {
+            "id": "G51-E01-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G51-E01-B03",
+            "text": "played",
+            "role": "required"
+          },
+          {
+            "id": "G51-E01-B04",
+            "text": "last night.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G51-E01-B01",
+          "G51-E01-B02",
+          "G51-E01-B03",
+          "G51-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E01-B01",
+            "G51-E01-B02",
+            "G51-E01-B03",
+            "G51-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G51-E01-B01",
+            "text": "This song",
+            "role": "required"
+          },
+          {
+            "id": "G51-E01-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G51-E01-B03",
+            "text": "played",
+            "role": "required"
+          },
+          {
+            "id": "G51-E01-B04",
+            "text": "last night.",
+            "role": "required"
+          },
+          {
+            "id": "G51-E01-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E01-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E01-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E01-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E01-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G51-E01-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E01-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E01-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E01-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E01-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G51-E01-B01",
+          "G51-E01-B02",
+          "G51-E01-B03",
+          "G51-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E01-B01",
+            "G51-E01-B02",
+            "G51-E01-B03",
+            "G51-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G51-E01-AUDIO",
+        "text": "This song was played last night.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G51-E02",
+      "grammarId": "G51",
+      "grammarNameJa": "受け身の過去形",
+      "english": "The tickets were sold yesterday.",
+      "translationJa": "チケットは昨日販売されました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "were",
+        "start": 12,
+        "endExclusive": 16,
+        "explanationJa": "was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+      },
+      "sentenceExplanationJa": "「The tickets were sold yesterday.」は「チケットは昨日販売されました。」という意味です。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。 この文の対象部分は「were」。まとまりは The tickets → were → sold → yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "tickets",
+          "lemma": "ticket",
+          "meaningJa": "チケット（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "were",
+          "lemma": "were",
+          "meaningJa": "～でした・いた（複数などのbe動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "sold",
+          "lemma": "sell",
+          "meaningJa": "売る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The tickets ___ sold yesterday.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 16,
+          "answer": "were"
+        },
+        "options": [
+          {
+            "id": "G51-E02-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E02-C1",
+            "text": "were",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+          },
+          {
+            "id": "G51-E02-C2",
+            "text": "was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「was」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E02-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G51-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G51-E02-B01",
+            "text": "The tickets",
+            "role": "required"
+          },
+          {
+            "id": "G51-E02-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G51-E02-B03",
+            "text": "sold",
+            "role": "required"
+          },
+          {
+            "id": "G51-E02-B04",
+            "text": "yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G51-E02-B01",
+          "G51-E02-B02",
+          "G51-E02-B03",
+          "G51-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E02-B01",
+            "G51-E02-B02",
+            "G51-E02-B03",
+            "G51-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G51-E02-B01",
+            "text": "The tickets",
+            "role": "required"
+          },
+          {
+            "id": "G51-E02-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G51-E02-B03",
+            "text": "sold",
+            "role": "required"
+          },
+          {
+            "id": "G51-E02-B04",
+            "text": "yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G51-E02-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E02-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E02-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E02-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E02-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G51-E02-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E02-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E02-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E02-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E02-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G51-E02-B01",
+          "G51-E02-B02",
+          "G51-E02-B03",
+          "G51-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E02-B01",
+            "G51-E02-B02",
+            "G51-E02-B03",
+            "G51-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G51-E02-AUDIO",
+        "text": "The tickets were sold yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G51-E03",
+      "grammarId": "G51",
+      "grammarNameJa": "受け身の過去形",
+      "english": "My bag was found this morning.",
+      "translationJa": "私のバッグは今朝見つかりました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "was",
+        "start": 7,
+        "endExclusive": 10,
+        "explanationJa": "was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+      },
+      "sentenceExplanationJa": "「My bag was found this morning.」は「私のバッグは今朝見つかりました。」という意味です。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。 この文の対象部分は「was」。まとまりは My bag → was → found → this morning. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "found",
+          "lemma": "find",
+          "meaningJa": "見つける（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "morning",
+          "lemma": "morning",
+          "meaningJa": "朝・午前",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My bag ___ found this morning.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 10,
+          "answer": "was"
+        },
+        "options": [
+          {
+            "id": "G51-E03-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E03-C2",
+            "text": "were",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「were」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E03-C1",
+            "text": "was",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+          },
+          {
+            "id": "G51-E03-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G51-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G51-E03-B01",
+            "text": "My bag",
+            "role": "required"
+          },
+          {
+            "id": "G51-E03-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G51-E03-B03",
+            "text": "found",
+            "role": "required"
+          },
+          {
+            "id": "G51-E03-B04",
+            "text": "this morning.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G51-E03-B01",
+          "G51-E03-B02",
+          "G51-E03-B03",
+          "G51-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E03-B01",
+            "G51-E03-B02",
+            "G51-E03-B03",
+            "G51-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G51-E03-B01",
+            "text": "My bag",
+            "role": "required"
+          },
+          {
+            "id": "G51-E03-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G51-E03-B03",
+            "text": "found",
+            "role": "required"
+          },
+          {
+            "id": "G51-E03-B04",
+            "text": "this morning.",
+            "role": "required"
+          },
+          {
+            "id": "G51-E03-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E03-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E03-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E03-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E03-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G51-E03-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E03-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E03-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E03-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E03-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G51-E03-B01",
+          "G51-E03-B02",
+          "G51-E03-B03",
+          "G51-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E03-B01",
+            "G51-E03-B02",
+            "G51-E03-B03",
+            "G51-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G51-E03-AUDIO",
+        "text": "My bag was found this morning.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G51-E04",
+      "grammarId": "G51",
+      "grammarNameJa": "受け身の過去形",
+      "english": "The photos were taken after the show.",
+      "translationJa": "その写真は公演後に撮られました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "were",
+        "start": 11,
+        "endExclusive": 15,
+        "explanationJa": "was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+      },
+      "sentenceExplanationJa": "「The photos were taken after the show.」は「その写真は公演後に撮られました。」という意味です。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。 この文の対象部分は「were」。まとまりは The photos → were → taken → after the show. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "photos",
+          "lemma": "photo",
+          "meaningJa": "写真（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "were",
+          "lemma": "were",
+          "meaningJa": "～でした・いた（複数などのbe動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "taken",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "after",
+          "lemma": "after",
+          "meaningJa": "～の後に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The photos ___ taken after the show.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 15,
+          "answer": "were"
+        },
+        "options": [
+          {
+            "id": "G51-E04-C1",
+            "text": "were",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+          },
+          {
+            "id": "G51-E04-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E04-C2",
+            "text": "was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「was」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E04-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G51-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G51-E04-B01",
+            "text": "The photos",
+            "role": "required"
+          },
+          {
+            "id": "G51-E04-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G51-E04-B03",
+            "text": "taken",
+            "role": "required"
+          },
+          {
+            "id": "G51-E04-B04",
+            "text": "after the show.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G51-E04-B01",
+          "G51-E04-B02",
+          "G51-E04-B03",
+          "G51-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E04-B01",
+            "G51-E04-B02",
+            "G51-E04-B03",
+            "G51-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G51-E04-B01",
+            "text": "The photos",
+            "role": "required"
+          },
+          {
+            "id": "G51-E04-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G51-E04-B03",
+            "text": "taken",
+            "role": "required"
+          },
+          {
+            "id": "G51-E04-B04",
+            "text": "after the show.",
+            "role": "required"
+          },
+          {
+            "id": "G51-E04-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E04-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E04-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E04-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E04-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G51-E04-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E04-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E04-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E04-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E04-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G51-E04-B01",
+          "G51-E04-B02",
+          "G51-E04-B03",
+          "G51-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E04-B01",
+            "G51-E04-B02",
+            "G51-E04-B03",
+            "G51-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G51-E04-AUDIO",
+        "text": "The photos were taken after the show.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G51-E05",
+      "grammarId": "G51",
+      "grammarNameJa": "受け身の過去形",
+      "english": "The concert was canceled last week.",
+      "translationJa": "コンサートは先週中止になりました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "was",
+        "start": 12,
+        "endExclusive": 15,
+        "explanationJa": "was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+      },
+      "sentenceExplanationJa": "「The concert was canceled last week.」は「コンサートは先週中止になりました。」という意味です。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。 この文の対象部分は「was」。まとまりは The concert → was → canceled → last week. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "canceled",
+          "lemma": "cancel",
+          "meaningJa": "中止する（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "week",
+          "lemma": "week",
+          "meaningJa": "週・1週間",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The concert ___ canceled last week.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 15,
+          "answer": "was"
+        },
+        "options": [
+          {
+            "id": "G51-E05-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E05-C1",
+            "text": "was",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+          },
+          {
+            "id": "G51-E05-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E05-C2",
+            "text": "were",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「were」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G51-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G51-E05-B01",
+            "text": "The concert",
+            "role": "required"
+          },
+          {
+            "id": "G51-E05-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G51-E05-B03",
+            "text": "canceled",
+            "role": "required"
+          },
+          {
+            "id": "G51-E05-B04",
+            "text": "last week.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G51-E05-B01",
+          "G51-E05-B02",
+          "G51-E05-B03",
+          "G51-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E05-B01",
+            "G51-E05-B02",
+            "G51-E05-B03",
+            "G51-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G51-E05-B01",
+            "text": "The concert",
+            "role": "required"
+          },
+          {
+            "id": "G51-E05-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G51-E05-B03",
+            "text": "canceled",
+            "role": "required"
+          },
+          {
+            "id": "G51-E05-B04",
+            "text": "last week.",
+            "role": "required"
+          },
+          {
+            "id": "G51-E05-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E05-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E05-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E05-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E05-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G51-E05-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E05-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E05-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E05-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E05-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G51-E05-B01",
+          "G51-E05-B02",
+          "G51-E05-B03",
+          "G51-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E05-B01",
+            "G51-E05-B02",
+            "G51-E05-B03",
+            "G51-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G51-E05-AUDIO",
+        "text": "The concert was canceled last week.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G51-E06",
+      "grammarId": "G51",
+      "grammarNameJa": "受け身の過去形",
+      "english": "We were invited to the party yesterday.",
+      "translationJa": "私たちは昨日パーティーに招待されました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "were",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+      },
+      "sentenceExplanationJa": "「We were invited to the party yesterday.」は「私たちは昨日パーティーに招待されました。」という意味です。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。 この文の対象部分は「were」。まとまりは We → were → invited → to the party → yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "were",
+          "lemma": "were",
+          "meaningJa": "～でした・いた（複数などのbe動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "invited",
+          "lemma": "invite",
+          "meaningJa": "招待する（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "party",
+          "lemma": "party",
+          "meaningJa": "パーティー",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ invited to the party yesterday.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "were"
+        },
+        "options": [
+          {
+            "id": "G51-E06-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E06-C1",
+            "text": "were",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+          },
+          {
+            "id": "G51-E06-C2",
+            "text": "was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「was」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E06-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G51-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G51-E06-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G51-E06-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G51-E06-B03",
+            "text": "invited",
+            "role": "required"
+          },
+          {
+            "id": "G51-E06-B04",
+            "text": "to the party",
+            "role": "required"
+          },
+          {
+            "id": "G51-E06-B05",
+            "text": "yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G51-E06-B01",
+          "G51-E06-B02",
+          "G51-E06-B03",
+          "G51-E06-B04",
+          "G51-E06-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E06-B01",
+            "G51-E06-B02",
+            "G51-E06-B03",
+            "G51-E06-B04",
+            "G51-E06-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G51-E06-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G51-E06-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G51-E06-B03",
+            "text": "invited",
+            "role": "required"
+          },
+          {
+            "id": "G51-E06-B04",
+            "text": "to the party",
+            "role": "required"
+          },
+          {
+            "id": "G51-E06-B05",
+            "text": "yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G51-E06-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E06-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E06-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E06-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E06-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G51-E06-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E06-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E06-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E06-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E06-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G51-E06-B01",
+          "G51-E06-B02",
+          "G51-E06-B03",
+          "G51-E06-B04",
+          "G51-E06-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E06-B01",
+            "G51-E06-B02",
+            "G51-E06-B03",
+            "G51-E06-B04",
+            "G51-E06-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G51-E06-AUDIO",
+        "text": "We were invited to the party yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G51-E07",
+      "grammarId": "G51",
+      "grammarNameJa": "受け身の過去形",
+      "english": "The letter was written last Sunday.",
+      "translationJa": "その手紙は先週の日曜日に書かれました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "was",
+        "start": 11,
+        "endExclusive": 14,
+        "explanationJa": "was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+      },
+      "sentenceExplanationJa": "「The letter was written last Sunday.」は「その手紙は先週の日曜日に書かれました。」という意味です。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。 この文の対象部分は「was」。まとまりは The letter → was → written → last Sunday. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "letter",
+          "lemma": "letter",
+          "meaningJa": "手紙",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "written",
+          "lemma": "write",
+          "meaningJa": "書く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "Sunday",
+          "lemma": "sunday",
+          "meaningJa": "日曜日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The letter ___ written last Sunday.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 14,
+          "answer": "was"
+        },
+        "options": [
+          {
+            "id": "G51-E07-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E07-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E07-C2",
+            "text": "were",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「were」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E07-C1",
+            "text": "was",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+          }
+        ],
+        "correctOptionId": "G51-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G51-E07-B01",
+            "text": "The letter",
+            "role": "required"
+          },
+          {
+            "id": "G51-E07-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G51-E07-B03",
+            "text": "written",
+            "role": "required"
+          },
+          {
+            "id": "G51-E07-B04",
+            "text": "last Sunday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G51-E07-B01",
+          "G51-E07-B02",
+          "G51-E07-B03",
+          "G51-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E07-B01",
+            "G51-E07-B02",
+            "G51-E07-B03",
+            "G51-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G51-E07-B01",
+            "text": "The letter",
+            "role": "required"
+          },
+          {
+            "id": "G51-E07-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G51-E07-B03",
+            "text": "written",
+            "role": "required"
+          },
+          {
+            "id": "G51-E07-B04",
+            "text": "last Sunday.",
+            "role": "required"
+          },
+          {
+            "id": "G51-E07-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E07-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E07-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E07-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E07-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G51-E07-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E07-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E07-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E07-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E07-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G51-E07-B01",
+          "G51-E07-B02",
+          "G51-E07-B03",
+          "G51-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E07-B01",
+            "G51-E07-B02",
+            "G51-E07-B03",
+            "G51-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G51-E07-AUDIO",
+        "text": "The letter was written last Sunday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G51-E08",
+      "grammarId": "G51",
+      "grammarNameJa": "受け身の過去形",
+      "english": "These posters were printed last month.",
+      "translationJa": "これらのポスターは先月印刷されました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "were",
+        "start": 14,
+        "endExclusive": 18,
+        "explanationJa": "was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+      },
+      "sentenceExplanationJa": "「These posters were printed last month.」は「これらのポスターは先月印刷されました。」という意味です。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。 この文の対象部分は「were」。まとまりは These posters → were → printed → last month. の順です。",
+      "glossary": [
+        {
+          "expression": "These",
+          "lemma": "these",
+          "meaningJa": "これら",
+          "kind": "word"
+        },
+        {
+          "expression": "posters",
+          "lemma": "poster",
+          "meaningJa": "ポスター（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "were",
+          "lemma": "were",
+          "meaningJa": "～でした・いた（複数などのbe動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "printed",
+          "lemma": "print",
+          "meaningJa": "印刷する（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "month",
+          "lemma": "month",
+          "meaningJa": "月・1か月",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "These posters ___ printed last month.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 18,
+          "answer": "were"
+        },
+        "options": [
+          {
+            "id": "G51-E08-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E08-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E08-C1",
+            "text": "were",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+          },
+          {
+            "id": "G51-E08-C2",
+            "text": "was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「was」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G51-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G51-E08-B01",
+            "text": "These posters",
+            "role": "required"
+          },
+          {
+            "id": "G51-E08-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G51-E08-B03",
+            "text": "printed",
+            "role": "required"
+          },
+          {
+            "id": "G51-E08-B04",
+            "text": "last month.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G51-E08-B01",
+          "G51-E08-B02",
+          "G51-E08-B03",
+          "G51-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E08-B01",
+            "G51-E08-B02",
+            "G51-E08-B03",
+            "G51-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G51-E08-B01",
+            "text": "These posters",
+            "role": "required"
+          },
+          {
+            "id": "G51-E08-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G51-E08-B03",
+            "text": "printed",
+            "role": "required"
+          },
+          {
+            "id": "G51-E08-B04",
+            "text": "last month.",
+            "role": "required"
+          },
+          {
+            "id": "G51-E08-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E08-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E08-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E08-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E08-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G51-E08-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E08-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E08-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E08-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E08-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G51-E08-B01",
+          "G51-E08-B02",
+          "G51-E08-B03",
+          "G51-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E08-B01",
+            "G51-E08-B02",
+            "G51-E08-B03",
+            "G51-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G51-E08-AUDIO",
+        "text": "These posters were printed last month.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G51-E09",
+      "grammarId": "G51",
+      "grammarNameJa": "受け身の過去形",
+      "english": "The hall was built ten years ago.",
+      "translationJa": "会場は10年前に建てられました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "was",
+        "start": 9,
+        "endExclusive": 12,
+        "explanationJa": "was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+      },
+      "sentenceExplanationJa": "「The hall was built ten years ago.」は「会場は10年前に建てられました。」という意味です。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。 この文の対象部分は「was」。まとまりは The hall → was → built → ten years ago. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "built",
+          "lemma": "build",
+          "meaningJa": "建てる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "ten",
+          "lemma": "ten",
+          "meaningJa": "10・10時",
+          "kind": "word"
+        },
+        {
+          "expression": "years",
+          "lemma": "year",
+          "meaningJa": "年・1年間（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "ago",
+          "lemma": "ago",
+          "meaningJa": "～前に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The hall ___ built ten years ago.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 12,
+          "answer": "was"
+        },
+        "options": [
+          {
+            "id": "G51-E09-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E09-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E09-C2",
+            "text": "were",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「were」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E09-C1",
+            "text": "was",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+          }
+        ],
+        "correctOptionId": "G51-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G51-E09-B01",
+            "text": "The hall",
+            "role": "required"
+          },
+          {
+            "id": "G51-E09-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G51-E09-B03",
+            "text": "built",
+            "role": "required"
+          },
+          {
+            "id": "G51-E09-B04",
+            "text": "ten years ago.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G51-E09-B01",
+          "G51-E09-B02",
+          "G51-E09-B03",
+          "G51-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E09-B01",
+            "G51-E09-B02",
+            "G51-E09-B03",
+            "G51-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G51-E09-B01",
+            "text": "The hall",
+            "role": "required"
+          },
+          {
+            "id": "G51-E09-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G51-E09-B03",
+            "text": "built",
+            "role": "required"
+          },
+          {
+            "id": "G51-E09-B04",
+            "text": "ten years ago.",
+            "role": "required"
+          },
+          {
+            "id": "G51-E09-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E09-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E09-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E09-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E09-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G51-E09-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E09-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E09-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E09-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G51-E09-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G51-E09-B01",
+          "G51-E09-B02",
+          "G51-E09-B03",
+          "G51-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E09-B01",
+            "G51-E09-B02",
+            "G51-E09-B03",
+            "G51-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G51-E09-AUDIO",
+        "text": "The hall was built ten years ago.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G51-E10",
+      "grammarId": "G51",
+      "grammarNameJa": "受け身の過去形",
+      "english": "The windows were closed before the show.",
+      "translationJa": "窓は公演前に閉められました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "were",
+        "start": 12,
+        "endExclusive": 16,
+        "explanationJa": "was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+      },
+      "sentenceExplanationJa": "「The windows were closed before the show.」は「窓は公演前に閉められました。」という意味です。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。 この文の対象部分は「were」。まとまりは The windows → were → closed → before the show. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "windows",
+          "lemma": "window",
+          "meaningJa": "窓（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "were",
+          "lemma": "were",
+          "meaningJa": "～でした・いた（複数などのbe動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "closed",
+          "lemma": "close",
+          "meaningJa": "閉める・近い（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "before",
+          "lemma": "before",
+          "meaningJa": "～の前に・以前",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The windows ___ closed before the show.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 16,
+          "answer": "were"
+        },
+        "options": [
+          {
+            "id": "G51-E10-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E10-C2",
+            "text": "was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「was」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E10-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G51-E10-C1",
+            "text": "were",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。"
+          }
+        ],
+        "correctOptionId": "G51-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G51-E10-B01",
+            "text": "The windows",
+            "role": "required"
+          },
+          {
+            "id": "G51-E10-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G51-E10-B03",
+            "text": "closed",
+            "role": "required"
+          },
+          {
+            "id": "G51-E10-B04",
+            "text": "before the show.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G51-E10-B01",
+          "G51-E10-B02",
+          "G51-E10-B03",
+          "G51-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E10-B01",
+            "G51-E10-B02",
+            "G51-E10-B03",
+            "G51-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G51-E10-B01",
+            "text": "The windows",
+            "role": "required"
+          },
+          {
+            "id": "G51-E10-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G51-E10-B03",
+            "text": "closed",
+            "role": "required"
+          },
+          {
+            "id": "G51-E10-B04",
+            "text": "before the show.",
+            "role": "required"
+          },
+          {
+            "id": "G51-E10-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E10-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E10-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E10-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E10-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G51-E10-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E10-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E10-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E10-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G51-E10-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G51-E10-B01",
+          "G51-E10-B02",
+          "G51-E10-B03",
+          "G51-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G51-E10-B01",
+            "G51-E10-B02",
+            "G51-E10-B03",
+            "G51-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G51-E10-AUDIO",
+        "text": "The windows were closed before the show.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

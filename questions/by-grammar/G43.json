@@ -1,0 +1,2449 @@
+{
+  "grammarId": "G43",
+  "examples": [
+    {
+      "id": "G43-E01",
+      "grammarId": "G43",
+      "grammarNameJa": "ifの条件文",
+      "english": "I will cry if I win a ticket.",
+      "translationJa": "チケットが当たったら、私は泣くと思います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "win",
+        "start": 16,
+        "endExclusive": 19,
+        "explanationJa": "if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+      },
+      "sentenceExplanationJa": "「I will cry if I win a ticket.」は「チケットが当たったら、私は泣くと思います。」という意味です。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。 この文の対象部分は「win」。まとまりは I will cry → if I → win → a ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "cry",
+          "lemma": "cry",
+          "meaningJa": "泣く",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "win",
+          "lemma": "win",
+          "meaningJa": "勝つ・抽選に当たる",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I will cry if I ___ a ticket.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 19,
+          "answer": "win"
+        },
+        "options": [
+          {
+            "id": "G43-E01-C1",
+            "text": "win",
+            "isCorrect": true,
+            "explanationJa": "正解。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+          },
+          {
+            "id": "G43-E01-C4",
+            "text": "will win",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「win」を使います。「will win」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E01-C3",
+            "text": "winning",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「win」を使います。「winning」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E01-C2",
+            "text": "wins",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「win」を使います。「wins」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G43-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G43-E01-B01",
+            "text": "I will cry",
+            "role": "required"
+          },
+          {
+            "id": "G43-E01-B02",
+            "text": "if I",
+            "role": "required"
+          },
+          {
+            "id": "G43-E01-B03",
+            "text": "win",
+            "role": "required"
+          },
+          {
+            "id": "G43-E01-B04",
+            "text": "a ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G43-E01-B01",
+          "G43-E01-B02",
+          "G43-E01-B03",
+          "G43-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E01-B01",
+            "G43-E01-B02",
+            "G43-E01-B03",
+            "G43-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G43-E01-B01",
+            "text": "I will cry",
+            "role": "required"
+          },
+          {
+            "id": "G43-E01-B02",
+            "text": "if I",
+            "role": "required"
+          },
+          {
+            "id": "G43-E01-B03",
+            "text": "win",
+            "role": "required"
+          },
+          {
+            "id": "G43-E01-B04",
+            "text": "a ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G43-E01-D01",
+            "text": "wins",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「win」と比較してください。"
+          },
+          {
+            "id": "G43-E01-D02",
+            "text": "winning",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「win」と比較してください。"
+          },
+          {
+            "id": "G43-E01-D03",
+            "text": "will win",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「win」と比較してください。"
+          },
+          {
+            "id": "G43-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「win」と比較してください。"
+          },
+          {
+            "id": "G43-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「win」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G43-E01-D01",
+            "text": "wins",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「win」と比較してください。"
+          },
+          {
+            "id": "G43-E01-D02",
+            "text": "winning",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「win」と比較してください。"
+          },
+          {
+            "id": "G43-E01-D03",
+            "text": "will win",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「win」と比較してください。"
+          },
+          {
+            "id": "G43-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「win」と比較してください。"
+          },
+          {
+            "id": "G43-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「win」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G43-E01-B01",
+          "G43-E01-B02",
+          "G43-E01-B03",
+          "G43-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E01-B01",
+            "G43-E01-B02",
+            "G43-E01-B03",
+            "G43-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G43-E01-AUDIO",
+        "text": "I will cry if I win a ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G43-E02",
+      "grammarId": "G43",
+      "grammarNameJa": "ifの条件文",
+      "english": "We will wait if the train is late.",
+      "translationJa": "電車が遅れたら、私たちは待ちます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 26,
+        "endExclusive": 28,
+        "explanationJa": "if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+      },
+      "sentenceExplanationJa": "「We will wait if the train is late.」は「電車が遅れたら、私たちは待ちます。」という意味です。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。 この文の対象部分は「is」。まとまりは We will wait → if the train → is → late. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "wait",
+          "lemma": "wait",
+          "meaningJa": "待つ",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "train",
+          "lemma": "train",
+          "meaningJa": "電車",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "late",
+          "lemma": "late",
+          "meaningJa": "遅い・遅れて",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We will wait if the train ___ late.",
+        "blank": {
+          "start": 26,
+          "endExclusive": 28,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G43-E02-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+          },
+          {
+            "id": "G43-E02-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E02-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E02-C2",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G43-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G43-E02-B01",
+            "text": "We will wait",
+            "role": "required"
+          },
+          {
+            "id": "G43-E02-B02",
+            "text": "if the train",
+            "role": "required"
+          },
+          {
+            "id": "G43-E02-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G43-E02-B04",
+            "text": "late.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G43-E02-B01",
+          "G43-E02-B02",
+          "G43-E02-B03",
+          "G43-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E02-B01",
+            "G43-E02-B02",
+            "G43-E02-B03",
+            "G43-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G43-E02-B01",
+            "text": "We will wait",
+            "role": "required"
+          },
+          {
+            "id": "G43-E02-B02",
+            "text": "if the train",
+            "role": "required"
+          },
+          {
+            "id": "G43-E02-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G43-E02-B04",
+            "text": "late.",
+            "role": "required"
+          },
+          {
+            "id": "G43-E02-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E02-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E02-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G43-E02-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E02-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E02-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G43-E02-B01",
+          "G43-E02-B02",
+          "G43-E02-B03",
+          "G43-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E02-B01",
+            "G43-E02-B02",
+            "G43-E02-B03",
+            "G43-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G43-E02-AUDIO",
+        "text": "We will wait if the train is late.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G43-E03",
+      "grammarId": "G43",
+      "grammarNameJa": "ifの条件文",
+      "english": "I will take a bus if it rains.",
+      "translationJa": "雨が降ったら、私はバスに乗ります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "rains",
+        "start": 24,
+        "endExclusive": 29,
+        "explanationJa": "if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+      },
+      "sentenceExplanationJa": "「I will take a bus if it rains.」は「雨が降ったら、私はバスに乗ります。」という意味です。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。 この文の対象部分は「rains」。まとまりは I will take a bus → if it → rains. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "take",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "bus",
+          "lemma": "bus",
+          "meaningJa": "バス",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "it",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "rains",
+          "lemma": "rain",
+          "meaningJa": "雨・雨が降る（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I will take a bus if it ___.",
+        "blank": {
+          "start": 24,
+          "endExclusive": 29,
+          "answer": "rains"
+        },
+        "options": [
+          {
+            "id": "G43-E03-C4",
+            "text": "will rain",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「rains」を使います。「will rain」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E03-C2",
+            "text": "rain",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「rains」を使います。「rain」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E03-C3",
+            "text": "raining",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「rains」を使います。「raining」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E03-C1",
+            "text": "rains",
+            "isCorrect": true,
+            "explanationJa": "正解。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+          }
+        ],
+        "correctOptionId": "G43-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G43-E03-B01",
+            "text": "I will take a bus",
+            "role": "required"
+          },
+          {
+            "id": "G43-E03-B02",
+            "text": "if it",
+            "role": "required"
+          },
+          {
+            "id": "G43-E03-B03",
+            "text": "rains.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G43-E03-B01",
+          "G43-E03-B02",
+          "G43-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E03-B01",
+            "G43-E03-B02",
+            "G43-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G43-E03-B01",
+            "text": "I will take a bus",
+            "role": "required"
+          },
+          {
+            "id": "G43-E03-B02",
+            "text": "if it",
+            "role": "required"
+          },
+          {
+            "id": "G43-E03-B03",
+            "text": "rains.",
+            "role": "required"
+          },
+          {
+            "id": "G43-E03-D01",
+            "text": "rain",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「rains」と比較してください。"
+          },
+          {
+            "id": "G43-E03-D02",
+            "text": "raining",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「rains」と比較してください。"
+          },
+          {
+            "id": "G43-E03-D03",
+            "text": "will rain",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「rains」と比較してください。"
+          },
+          {
+            "id": "G43-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「rains」と比較してください。"
+          },
+          {
+            "id": "G43-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「rains」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G43-E03-D01",
+            "text": "rain",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「rains」と比較してください。"
+          },
+          {
+            "id": "G43-E03-D02",
+            "text": "raining",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「rains」と比較してください。"
+          },
+          {
+            "id": "G43-E03-D03",
+            "text": "will rain",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「rains」と比較してください。"
+          },
+          {
+            "id": "G43-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「rains」と比較してください。"
+          },
+          {
+            "id": "G43-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「rains」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G43-E03-B01",
+          "G43-E03-B02",
+          "G43-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E03-B01",
+            "G43-E03-B02",
+            "G43-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G43-E03-AUDIO",
+        "text": "I will take a bus if it rains.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G43-E04",
+      "grammarId": "G43",
+      "grammarNameJa": "ifの条件文",
+      "english": "She will come if she has time.",
+      "translationJa": "時間があれば、彼女は来るでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "has",
+        "start": 21,
+        "endExclusive": 24,
+        "explanationJa": "if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+      },
+      "sentenceExplanationJa": "「She will come if she has time.」は「時間があれば、彼女は来るでしょう。」という意味です。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。 この文の対象部分は「has」。まとまりは She will come → if she → has → time. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "come",
+          "lemma": "come",
+          "meaningJa": "来る",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "she",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "time",
+          "lemma": "time",
+          "meaningJa": "時間・時・回数",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She will come if she ___ time.",
+        "blank": {
+          "start": 21,
+          "endExclusive": 24,
+          "answer": "has"
+        },
+        "options": [
+          {
+            "id": "G43-E04-C1",
+            "text": "has",
+            "isCorrect": true,
+            "explanationJa": "正解。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+          },
+          {
+            "id": "G43-E04-C2",
+            "text": "have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E04-C4",
+            "text": "will have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「will have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E04-C3",
+            "text": "having",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「has」を使います。「having」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G43-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G43-E04-B01",
+            "text": "She will come",
+            "role": "required"
+          },
+          {
+            "id": "G43-E04-B02",
+            "text": "if she",
+            "role": "required"
+          },
+          {
+            "id": "G43-E04-B03",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G43-E04-B04",
+            "text": "time.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G43-E04-B01",
+          "G43-E04-B02",
+          "G43-E04-B03",
+          "G43-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E04-B01",
+            "G43-E04-B02",
+            "G43-E04-B03",
+            "G43-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G43-E04-B01",
+            "text": "She will come",
+            "role": "required"
+          },
+          {
+            "id": "G43-E04-B02",
+            "text": "if she",
+            "role": "required"
+          },
+          {
+            "id": "G43-E04-B03",
+            "text": "has",
+            "role": "required"
+          },
+          {
+            "id": "G43-E04-B04",
+            "text": "time.",
+            "role": "required"
+          },
+          {
+            "id": "G43-E04-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G43-E04-D02",
+            "text": "having",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G43-E04-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G43-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G43-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G43-E04-D01",
+            "text": "have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G43-E04-D02",
+            "text": "having",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G43-E04-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G43-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          },
+          {
+            "id": "G43-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G43-E04-B01",
+          "G43-E04-B02",
+          "G43-E04-B03",
+          "G43-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E04-B01",
+            "G43-E04-B02",
+            "G43-E04-B03",
+            "G43-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G43-E04-AUDIO",
+        "text": "She will come if she has time.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G43-E05",
+      "grammarId": "G43",
+      "grammarNameJa": "ifの条件文",
+      "english": "I will buy a towel if it is green.",
+      "translationJa": "緑色なら、私はタオルを買います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 25,
+        "endExclusive": 27,
+        "explanationJa": "if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+      },
+      "sentenceExplanationJa": "「I will buy a towel if it is green.」は「緑色なら、私はタオルを買います。」という意味です。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。 この文の対象部分は「is」。まとまりは I will buy a towel → if it → is → green. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "buy",
+          "lemma": "buy",
+          "meaningJa": "買う",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "it",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "green",
+          "lemma": "green",
+          "meaningJa": "緑・緑色の",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I will buy a towel if it ___ green.",
+        "blank": {
+          "start": 25,
+          "endExclusive": 27,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G43-E05-C2",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E05-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E05-C3",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E05-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+          }
+        ],
+        "correctOptionId": "G43-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G43-E05-B01",
+            "text": "I will buy a towel",
+            "role": "required"
+          },
+          {
+            "id": "G43-E05-B02",
+            "text": "if it",
+            "role": "required"
+          },
+          {
+            "id": "G43-E05-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G43-E05-B04",
+            "text": "green.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G43-E05-B01",
+          "G43-E05-B02",
+          "G43-E05-B03",
+          "G43-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E05-B01",
+            "G43-E05-B02",
+            "G43-E05-B03",
+            "G43-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G43-E05-B01",
+            "text": "I will buy a towel",
+            "role": "required"
+          },
+          {
+            "id": "G43-E05-B02",
+            "text": "if it",
+            "role": "required"
+          },
+          {
+            "id": "G43-E05-B03",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G43-E05-B04",
+            "text": "green.",
+            "role": "required"
+          },
+          {
+            "id": "G43-E05-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E05-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E05-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G43-E05-D01",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E05-D02",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E05-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G43-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G43-E05-B01",
+          "G43-E05-B02",
+          "G43-E05-B03",
+          "G43-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E05-B01",
+            "G43-E05-B02",
+            "G43-E05-B03",
+            "G43-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G43-E05-AUDIO",
+        "text": "I will buy a towel if it is green.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G43-E06",
+      "grammarId": "G43",
+      "grammarNameJa": "ifの条件文",
+      "english": "We will miss the start if we leave late.",
+      "translationJa": "出発が遅れたら、私たちは開始に間に合わないでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "leave",
+        "start": 29,
+        "endExclusive": 34,
+        "explanationJa": "if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+      },
+      "sentenceExplanationJa": "「We will miss the start if we leave late.」は「出発が遅れたら、私たちは開始に間に合わないでしょう。」という意味です。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。 この文の対象部分は「leave」。まとまりは We will miss the start → if we → leave → late. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "miss",
+          "lemma": "miss",
+          "meaningJa": "乗り遅れる・見逃す",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "start",
+          "lemma": "start",
+          "meaningJa": "始まる・始める",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "we",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "leave",
+          "lemma": "leave",
+          "meaningJa": "出発する・～のままにしておく",
+          "kind": "word"
+        },
+        {
+          "expression": "late",
+          "lemma": "late",
+          "meaningJa": "遅い・遅れて",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We will miss the start if we ___ late.",
+        "blank": {
+          "start": 29,
+          "endExclusive": 34,
+          "answer": "leave"
+        },
+        "options": [
+          {
+            "id": "G43-E06-C3",
+            "text": "leaving",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「leave」を使います。「leaving」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E06-C1",
+            "text": "leave",
+            "isCorrect": true,
+            "explanationJa": "正解。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+          },
+          {
+            "id": "G43-E06-C2",
+            "text": "leaves",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「leave」を使います。「leaves」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E06-C4",
+            "text": "will leave",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「leave」を使います。「will leave」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G43-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G43-E06-B01",
+            "text": "We will miss the start",
+            "role": "required"
+          },
+          {
+            "id": "G43-E06-B02",
+            "text": "if we",
+            "role": "required"
+          },
+          {
+            "id": "G43-E06-B03",
+            "text": "leave",
+            "role": "required"
+          },
+          {
+            "id": "G43-E06-B04",
+            "text": "late.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G43-E06-B01",
+          "G43-E06-B02",
+          "G43-E06-B03",
+          "G43-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E06-B01",
+            "G43-E06-B02",
+            "G43-E06-B03",
+            "G43-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G43-E06-B01",
+            "text": "We will miss the start",
+            "role": "required"
+          },
+          {
+            "id": "G43-E06-B02",
+            "text": "if we",
+            "role": "required"
+          },
+          {
+            "id": "G43-E06-B03",
+            "text": "leave",
+            "role": "required"
+          },
+          {
+            "id": "G43-E06-B04",
+            "text": "late.",
+            "role": "required"
+          },
+          {
+            "id": "G43-E06-D01",
+            "text": "leaves",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「leave」と比較してください。"
+          },
+          {
+            "id": "G43-E06-D02",
+            "text": "leaving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「leave」と比較してください。"
+          },
+          {
+            "id": "G43-E06-D03",
+            "text": "will leave",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「leave」と比較してください。"
+          },
+          {
+            "id": "G43-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「leave」と比較してください。"
+          },
+          {
+            "id": "G43-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「leave」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G43-E06-D01",
+            "text": "leaves",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「leave」と比較してください。"
+          },
+          {
+            "id": "G43-E06-D02",
+            "text": "leaving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「leave」と比較してください。"
+          },
+          {
+            "id": "G43-E06-D03",
+            "text": "will leave",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「leave」と比較してください。"
+          },
+          {
+            "id": "G43-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「leave」と比較してください。"
+          },
+          {
+            "id": "G43-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「leave」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G43-E06-B01",
+          "G43-E06-B02",
+          "G43-E06-B03",
+          "G43-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E06-B01",
+            "G43-E06-B02",
+            "G43-E06-B03",
+            "G43-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G43-E06-AUDIO",
+        "text": "We will miss the start if we leave late.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G43-E07",
+      "grammarId": "G43",
+      "grammarNameJa": "ifの条件文",
+      "english": "You can sit here if you want.",
+      "translationJa": "座りたければ、ここに座ってよいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "want",
+        "start": 24,
+        "endExclusive": 28,
+        "explanationJa": "if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+      },
+      "sentenceExplanationJa": "「You can sit here if you want.」は「座りたければ、ここに座ってよいです。」という意味です。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。 この文の対象部分は「want」。まとまりは You can sit here → if you → want. の順です。",
+      "glossary": [
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "sit",
+          "lemma": "sit",
+          "meaningJa": "座る",
+          "kind": "word"
+        },
+        {
+          "expression": "here",
+          "lemma": "here",
+          "meaningJa": "ここに・ここで",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "want",
+          "lemma": "want",
+          "meaningJa": "欲しい・～したい",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You can sit here if you ___.",
+        "blank": {
+          "start": 24,
+          "endExclusive": 28,
+          "answer": "want"
+        },
+        "options": [
+          {
+            "id": "G43-E07-C3",
+            "text": "wanting",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「want」を使います。「wanting」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E07-C1",
+            "text": "want",
+            "isCorrect": true,
+            "explanationJa": "正解。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+          },
+          {
+            "id": "G43-E07-C4",
+            "text": "will want",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「want」を使います。「will want」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E07-C2",
+            "text": "wants",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「want」を使います。「wants」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G43-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G43-E07-B01",
+            "text": "You can sit here",
+            "role": "required"
+          },
+          {
+            "id": "G43-E07-B02",
+            "text": "if you",
+            "role": "required"
+          },
+          {
+            "id": "G43-E07-B03",
+            "text": "want.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G43-E07-B01",
+          "G43-E07-B02",
+          "G43-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E07-B01",
+            "G43-E07-B02",
+            "G43-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G43-E07-B01",
+            "text": "You can sit here",
+            "role": "required"
+          },
+          {
+            "id": "G43-E07-B02",
+            "text": "if you",
+            "role": "required"
+          },
+          {
+            "id": "G43-E07-B03",
+            "text": "want.",
+            "role": "required"
+          },
+          {
+            "id": "G43-E07-D01",
+            "text": "wants",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「want」と比較してください。"
+          },
+          {
+            "id": "G43-E07-D02",
+            "text": "wanting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「want」と比較してください。"
+          },
+          {
+            "id": "G43-E07-D03",
+            "text": "will want",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「want」と比較してください。"
+          },
+          {
+            "id": "G43-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「want」と比較してください。"
+          },
+          {
+            "id": "G43-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「want」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G43-E07-D01",
+            "text": "wants",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「want」と比較してください。"
+          },
+          {
+            "id": "G43-E07-D02",
+            "text": "wanting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「want」と比較してください。"
+          },
+          {
+            "id": "G43-E07-D03",
+            "text": "will want",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「want」と比較してください。"
+          },
+          {
+            "id": "G43-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「want」と比較してください。"
+          },
+          {
+            "id": "G43-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「want」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G43-E07-B01",
+          "G43-E07-B02",
+          "G43-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E07-B01",
+            "G43-E07-B02",
+            "G43-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G43-E07-AUDIO",
+        "text": "You can sit here if you want.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G43-E08",
+      "grammarId": "G43",
+      "grammarNameJa": "ifの条件文",
+      "english": "I will help you if you need me.",
+      "translationJa": "私が必要なら、あなたを手伝います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "need",
+        "start": 23,
+        "endExclusive": 27,
+        "explanationJa": "if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+      },
+      "sentenceExplanationJa": "「I will help you if you need me.」は「私が必要なら、あなたを手伝います。」という意味です。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。 この文の対象部分は「need」。まとまりは I will help you → if you → need → me. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "help",
+          "lemma": "help",
+          "meaningJa": "助ける・手伝う",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "need",
+          "lemma": "need",
+          "meaningJa": "必要とする",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I will help you if you ___ me.",
+        "blank": {
+          "start": 23,
+          "endExclusive": 27,
+          "answer": "need"
+        },
+        "options": [
+          {
+            "id": "G43-E08-C3",
+            "text": "needing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「need」を使います。「needing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E08-C4",
+            "text": "will need",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「need」を使います。「will need」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E08-C1",
+            "text": "need",
+            "isCorrect": true,
+            "explanationJa": "正解。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+          },
+          {
+            "id": "G43-E08-C2",
+            "text": "needs",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「need」を使います。「needs」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G43-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G43-E08-B01",
+            "text": "I will help you",
+            "role": "required"
+          },
+          {
+            "id": "G43-E08-B02",
+            "text": "if you",
+            "role": "required"
+          },
+          {
+            "id": "G43-E08-B03",
+            "text": "need",
+            "role": "required"
+          },
+          {
+            "id": "G43-E08-B04",
+            "text": "me.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G43-E08-B01",
+          "G43-E08-B02",
+          "G43-E08-B03",
+          "G43-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E08-B01",
+            "G43-E08-B02",
+            "G43-E08-B03",
+            "G43-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G43-E08-B01",
+            "text": "I will help you",
+            "role": "required"
+          },
+          {
+            "id": "G43-E08-B02",
+            "text": "if you",
+            "role": "required"
+          },
+          {
+            "id": "G43-E08-B03",
+            "text": "need",
+            "role": "required"
+          },
+          {
+            "id": "G43-E08-B04",
+            "text": "me.",
+            "role": "required"
+          },
+          {
+            "id": "G43-E08-D01",
+            "text": "needs",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「need」と比較してください。"
+          },
+          {
+            "id": "G43-E08-D02",
+            "text": "needing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「need」と比較してください。"
+          },
+          {
+            "id": "G43-E08-D03",
+            "text": "will need",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「need」と比較してください。"
+          },
+          {
+            "id": "G43-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「need」と比較してください。"
+          },
+          {
+            "id": "G43-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「need」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G43-E08-D01",
+            "text": "needs",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「need」と比較してください。"
+          },
+          {
+            "id": "G43-E08-D02",
+            "text": "needing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「need」と比較してください。"
+          },
+          {
+            "id": "G43-E08-D03",
+            "text": "will need",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「need」と比較してください。"
+          },
+          {
+            "id": "G43-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「need」と比較してください。"
+          },
+          {
+            "id": "G43-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「need」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G43-E08-B01",
+          "G43-E08-B02",
+          "G43-E08-B03",
+          "G43-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E08-B01",
+            "G43-E08-B02",
+            "G43-E08-B03",
+            "G43-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G43-E08-AUDIO",
+        "text": "I will help you if you need me.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G43-E09",
+      "grammarId": "G43",
+      "grammarNameJa": "ifの条件文",
+      "english": "He will smile if he sees this photo.",
+      "translationJa": "この写真を見たら、彼は笑顔になるでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "sees",
+        "start": 20,
+        "endExclusive": 24,
+        "explanationJa": "if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+      },
+      "sentenceExplanationJa": "「He will smile if he sees this photo.」は「この写真を見たら、彼は笑顔になるでしょう。」という意味です。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。 この文の対象部分は「sees」。まとまりは He will smile → if he → sees → this photo. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "smile",
+          "lemma": "smile",
+          "meaningJa": "笑顔になる",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "he",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "sees",
+          "lemma": "see",
+          "meaningJa": "見る・見える（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "photo",
+          "lemma": "photo",
+          "meaningJa": "写真",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He will smile if he ___ this photo.",
+        "blank": {
+          "start": 20,
+          "endExclusive": 24,
+          "answer": "sees"
+        },
+        "options": [
+          {
+            "id": "G43-E09-C3",
+            "text": "seeing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sees」を使います。「seeing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E09-C2",
+            "text": "see",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sees」を使います。「see」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E09-C4",
+            "text": "will see",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「sees」を使います。「will see」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E09-C1",
+            "text": "sees",
+            "isCorrect": true,
+            "explanationJa": "正解。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+          }
+        ],
+        "correctOptionId": "G43-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G43-E09-B01",
+            "text": "He will smile",
+            "role": "required"
+          },
+          {
+            "id": "G43-E09-B02",
+            "text": "if he",
+            "role": "required"
+          },
+          {
+            "id": "G43-E09-B03",
+            "text": "sees",
+            "role": "required"
+          },
+          {
+            "id": "G43-E09-B04",
+            "text": "this photo.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G43-E09-B01",
+          "G43-E09-B02",
+          "G43-E09-B03",
+          "G43-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E09-B01",
+            "G43-E09-B02",
+            "G43-E09-B03",
+            "G43-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G43-E09-B01",
+            "text": "He will smile",
+            "role": "required"
+          },
+          {
+            "id": "G43-E09-B02",
+            "text": "if he",
+            "role": "required"
+          },
+          {
+            "id": "G43-E09-B03",
+            "text": "sees",
+            "role": "required"
+          },
+          {
+            "id": "G43-E09-B04",
+            "text": "this photo.",
+            "role": "required"
+          },
+          {
+            "id": "G43-E09-D01",
+            "text": "see",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sees」と比較してください。"
+          },
+          {
+            "id": "G43-E09-D02",
+            "text": "seeing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sees」と比較してください。"
+          },
+          {
+            "id": "G43-E09-D03",
+            "text": "will see",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sees」と比較してください。"
+          },
+          {
+            "id": "G43-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sees」と比較してください。"
+          },
+          {
+            "id": "G43-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sees」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G43-E09-D01",
+            "text": "see",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sees」と比較してください。"
+          },
+          {
+            "id": "G43-E09-D02",
+            "text": "seeing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sees」と比較してください。"
+          },
+          {
+            "id": "G43-E09-D03",
+            "text": "will see",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sees」と比較してください。"
+          },
+          {
+            "id": "G43-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sees」と比較してください。"
+          },
+          {
+            "id": "G43-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「sees」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G43-E09-B01",
+          "G43-E09-B02",
+          "G43-E09-B03",
+          "G43-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E09-B01",
+            "G43-E09-B02",
+            "G43-E09-B03",
+            "G43-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G43-E09-AUDIO",
+        "text": "He will smile if he sees this photo.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G43-E10",
+      "grammarId": "G43",
+      "grammarNameJa": "ifの条件文",
+      "english": "We will sing if everyone agrees.",
+      "translationJa": "全員が賛成したら、私たちは歌います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "agrees",
+        "start": 25,
+        "endExclusive": 31,
+        "explanationJa": "if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+      },
+      "sentenceExplanationJa": "「We will sing if everyone agrees.」は「全員が賛成したら、私たちは歌います。」という意味です。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。 この文の対象部分は「agrees」。まとまりは We will sing → if everyone → agrees. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "sing",
+          "lemma": "sing",
+          "meaningJa": "歌う",
+          "kind": "word"
+        },
+        {
+          "expression": "if",
+          "lemma": "if",
+          "meaningJa": "もし～なら",
+          "kind": "word"
+        },
+        {
+          "expression": "everyone",
+          "lemma": "everyone",
+          "meaningJa": "みんな・全員",
+          "kind": "word"
+        },
+        {
+          "expression": "agrees",
+          "lemma": "agree",
+          "meaningJa": "賛成する（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We will sing if everyone ___.",
+        "blank": {
+          "start": 25,
+          "endExclusive": 31,
+          "answer": "agrees"
+        },
+        "options": [
+          {
+            "id": "G43-E10-C1",
+            "text": "agrees",
+            "isCorrect": true,
+            "explanationJa": "正解。if節で条件を表す。未来のことでもif節では現在形を使い、主節にwillなどを使う。"
+          },
+          {
+            "id": "G43-E10-C4",
+            "text": "will agree",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「agrees」を使います。「will agree」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E10-C2",
+            "text": "agree",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「agrees」を使います。「agree」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G43-E10-C3",
+            "text": "agreeing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「agrees」を使います。「agreeing」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G43-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G43-E10-B01",
+            "text": "We will sing",
+            "role": "required"
+          },
+          {
+            "id": "G43-E10-B02",
+            "text": "if everyone",
+            "role": "required"
+          },
+          {
+            "id": "G43-E10-B03",
+            "text": "agrees.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G43-E10-B01",
+          "G43-E10-B02",
+          "G43-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E10-B01",
+            "G43-E10-B02",
+            "G43-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G43-E10-B01",
+            "text": "We will sing",
+            "role": "required"
+          },
+          {
+            "id": "G43-E10-B02",
+            "text": "if everyone",
+            "role": "required"
+          },
+          {
+            "id": "G43-E10-B03",
+            "text": "agrees.",
+            "role": "required"
+          },
+          {
+            "id": "G43-E10-D01",
+            "text": "agree",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「agrees」と比較してください。"
+          },
+          {
+            "id": "G43-E10-D02",
+            "text": "agreeing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「agrees」と比較してください。"
+          },
+          {
+            "id": "G43-E10-D03",
+            "text": "will agree",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「agrees」と比較してください。"
+          },
+          {
+            "id": "G43-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「agrees」と比較してください。"
+          },
+          {
+            "id": "G43-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「agrees」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G43-E10-D01",
+            "text": "agree",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「agrees」と比較してください。"
+          },
+          {
+            "id": "G43-E10-D02",
+            "text": "agreeing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「agrees」と比較してください。"
+          },
+          {
+            "id": "G43-E10-D03",
+            "text": "will agree",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「agrees」と比較してください。"
+          },
+          {
+            "id": "G43-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「agrees」と比較してください。"
+          },
+          {
+            "id": "G43-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「agrees」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G43-E10-B01",
+          "G43-E10-B02",
+          "G43-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G43-E10-B01",
+            "G43-E10-B02",
+            "G43-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G43-E10-AUDIO",
+        "text": "We will sing if everyone agrees.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2561 @@
+{
+  "grammarId": "G49",
+  "examples": [
+    {
+      "id": "G49-E01",
+      "grammarId": "G49",
+      "grammarNameJa": "too ... to・enough to",
+      "english": "My bag is too heavy to carry.",
+      "translationJa": "バッグは重すぎて運べません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "too",
+        "start": 10,
+        "endExclusive": 13,
+        "explanationJa": "too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+      },
+      "sentenceExplanationJa": "「My bag is too heavy to carry.」は「バッグは重すぎて運べません。」という意味です。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。 この文の対象部分は「too」。まとまりは My bag → is → too → heavy → to carry. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "too",
+          "lemma": "too",
+          "meaningJa": "～も・～すぎる",
+          "kind": "word"
+        },
+        {
+          "expression": "heavy",
+          "lemma": "heavy",
+          "meaningJa": "重い",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "carry",
+          "lemma": "carry",
+          "meaningJa": "運ぶ・持ち歩く",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My bag is ___ heavy to carry.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 13,
+          "answer": "too"
+        },
+        "options": [
+          {
+            "id": "G49-E01-C1",
+            "text": "too",
+            "isCorrect": true,
+            "explanationJa": "正解。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+          },
+          {
+            "id": "G49-E01-C4",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E01-C2",
+            "text": "enough",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「enough」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E01-C3",
+            "text": "very",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「very」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G49-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G49-E01-B01",
+            "text": "My bag",
+            "role": "required"
+          },
+          {
+            "id": "G49-E01-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G49-E01-B03",
+            "text": "too",
+            "role": "required"
+          },
+          {
+            "id": "G49-E01-B04",
+            "text": "heavy",
+            "role": "required"
+          },
+          {
+            "id": "G49-E01-B05",
+            "text": "to carry.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G49-E01-B01",
+          "G49-E01-B02",
+          "G49-E01-B03",
+          "G49-E01-B04",
+          "G49-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E01-B01",
+            "G49-E01-B02",
+            "G49-E01-B03",
+            "G49-E01-B04",
+            "G49-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G49-E01-B01",
+            "text": "My bag",
+            "role": "required"
+          },
+          {
+            "id": "G49-E01-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G49-E01-B03",
+            "text": "too",
+            "role": "required"
+          },
+          {
+            "id": "G49-E01-B04",
+            "text": "heavy",
+            "role": "required"
+          },
+          {
+            "id": "G49-E01-B05",
+            "text": "to carry.",
+            "role": "required"
+          },
+          {
+            "id": "G49-E01-D01",
+            "text": "enough",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E01-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E01-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G49-E01-D01",
+            "text": "enough",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E01-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E01-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G49-E01-B01",
+          "G49-E01-B02",
+          "G49-E01-B03",
+          "G49-E01-B04",
+          "G49-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E01-B01",
+            "G49-E01-B02",
+            "G49-E01-B03",
+            "G49-E01-B04",
+            "G49-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G49-E01-AUDIO",
+        "text": "My bag is too heavy to carry.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G49-E02",
+      "grammarId": "G49",
+      "grammarNameJa": "too ... to・enough to",
+      "english": "He is old enough to go alone.",
+      "translationJa": "彼は一人で行ける年齢です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "enough",
+        "start": 10,
+        "endExclusive": 16,
+        "explanationJa": "too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+      },
+      "sentenceExplanationJa": "「He is old enough to go alone.」は「彼は一人で行ける年齢です。」という意味です。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。 この文の対象部分は「enough」。まとまりは He → is old → enough → to go alone. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "old",
+          "lemma": "old",
+          "meaningJa": "古い・年齢が～の",
+          "kind": "word"
+        },
+        {
+          "expression": "enough",
+          "lemma": "enough",
+          "meaningJa": "十分に・十分な",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "go",
+          "lemma": "go",
+          "meaningJa": "行く",
+          "kind": "word"
+        },
+        {
+          "expression": "alone",
+          "lemma": "alone",
+          "meaningJa": "一人で",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He is old ___ to go alone.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 16,
+          "answer": "enough"
+        },
+        "options": [
+          {
+            "id": "G49-E02-C3",
+            "text": "very",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「very」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E02-C1",
+            "text": "enough",
+            "isCorrect": true,
+            "explanationJa": "正解。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+          },
+          {
+            "id": "G49-E02-C2",
+            "text": "too",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「too」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E02-C4",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G49-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G49-E02-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G49-E02-B02",
+            "text": "is old",
+            "role": "required"
+          },
+          {
+            "id": "G49-E02-B03",
+            "text": "enough",
+            "role": "required"
+          },
+          {
+            "id": "G49-E02-B04",
+            "text": "to go alone.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G49-E02-B01",
+          "G49-E02-B02",
+          "G49-E02-B03",
+          "G49-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E02-B01",
+            "G49-E02-B02",
+            "G49-E02-B03",
+            "G49-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G49-E02-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G49-E02-B02",
+            "text": "is old",
+            "role": "required"
+          },
+          {
+            "id": "G49-E02-B03",
+            "text": "enough",
+            "role": "required"
+          },
+          {
+            "id": "G49-E02-B04",
+            "text": "to go alone.",
+            "role": "required"
+          },
+          {
+            "id": "G49-E02-D01",
+            "text": "too",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E02-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E02-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G49-E02-D01",
+            "text": "too",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E02-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E02-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G49-E02-B01",
+          "G49-E02-B02",
+          "G49-E02-B03",
+          "G49-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E02-B01",
+            "G49-E02-B02",
+            "G49-E02-B03",
+            "G49-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G49-E02-AUDIO",
+        "text": "He is old enough to go alone.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G49-E03",
+      "grammarId": "G49",
+      "grammarNameJa": "too ... to・enough to",
+      "english": "I was too excited to sleep.",
+      "translationJa": "私は興奮しすぎて眠れませんでした。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "too",
+        "start": 6,
+        "endExclusive": 9,
+        "explanationJa": "too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+      },
+      "sentenceExplanationJa": "「I was too excited to sleep.」は「私は興奮しすぎて眠れませんでした。」という意味です。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。 この文の対象部分は「too」。まとまりは I → was → too → excited → to sleep. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "too",
+          "lemma": "too",
+          "meaningJa": "～も・～すぎる",
+          "kind": "word"
+        },
+        {
+          "expression": "excited",
+          "lemma": "excited",
+          "meaningJa": "わくわくした・興奮した",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "sleep",
+          "lemma": "sleep",
+          "meaningJa": "眠る",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I was ___ excited to sleep.",
+        "blank": {
+          "start": 6,
+          "endExclusive": 9,
+          "answer": "too"
+        },
+        "options": [
+          {
+            "id": "G49-E03-C3",
+            "text": "very",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「very」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E03-C1",
+            "text": "too",
+            "isCorrect": true,
+            "explanationJa": "正解。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+          },
+          {
+            "id": "G49-E03-C4",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E03-C2",
+            "text": "enough",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「enough」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G49-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G49-E03-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G49-E03-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G49-E03-B03",
+            "text": "too",
+            "role": "required"
+          },
+          {
+            "id": "G49-E03-B04",
+            "text": "excited",
+            "role": "required"
+          },
+          {
+            "id": "G49-E03-B05",
+            "text": "to sleep.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G49-E03-B01",
+          "G49-E03-B02",
+          "G49-E03-B03",
+          "G49-E03-B04",
+          "G49-E03-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E03-B01",
+            "G49-E03-B02",
+            "G49-E03-B03",
+            "G49-E03-B04",
+            "G49-E03-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G49-E03-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G49-E03-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G49-E03-B03",
+            "text": "too",
+            "role": "required"
+          },
+          {
+            "id": "G49-E03-B04",
+            "text": "excited",
+            "role": "required"
+          },
+          {
+            "id": "G49-E03-B05",
+            "text": "to sleep.",
+            "role": "required"
+          },
+          {
+            "id": "G49-E03-D01",
+            "text": "enough",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E03-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E03-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G49-E03-D01",
+            "text": "enough",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E03-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E03-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G49-E03-B01",
+          "G49-E03-B02",
+          "G49-E03-B03",
+          "G49-E03-B04",
+          "G49-E03-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E03-B01",
+            "G49-E03-B02",
+            "G49-E03-B03",
+            "G49-E03-B04",
+            "G49-E03-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G49-E03-AUDIO",
+        "text": "I was too excited to sleep.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G49-E04",
+      "grammarId": "G49",
+      "grammarNameJa": "too ... to・enough to",
+      "english": "This room is big enough to practice in.",
+      "translationJa": "この部屋は練習するのに十分広いです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "enough",
+        "start": 17,
+        "endExclusive": 23,
+        "explanationJa": "too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+      },
+      "sentenceExplanationJa": "「This room is big enough to practice in.」は「この部屋は練習するのに十分広いです。」という意味です。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。 この文の対象部分は「enough」。まとまりは This room → is big → enough → to practice in. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "room",
+          "lemma": "room",
+          "meaningJa": "部屋",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "big",
+          "lemma": "big",
+          "meaningJa": "大きい",
+          "kind": "word"
+        },
+        {
+          "expression": "enough",
+          "lemma": "enough",
+          "meaningJa": "十分に・十分な",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "practice",
+          "lemma": "practice",
+          "meaningJa": "練習する・練習",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This room is big ___ to practice in.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 23,
+          "answer": "enough"
+        },
+        "options": [
+          {
+            "id": "G49-E04-C3",
+            "text": "very",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「very」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E04-C4",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E04-C2",
+            "text": "too",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「too」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E04-C1",
+            "text": "enough",
+            "isCorrect": true,
+            "explanationJa": "正解。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+          }
+        ],
+        "correctOptionId": "G49-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G49-E04-B01",
+            "text": "This room",
+            "role": "required"
+          },
+          {
+            "id": "G49-E04-B02",
+            "text": "is big",
+            "role": "required"
+          },
+          {
+            "id": "G49-E04-B03",
+            "text": "enough",
+            "role": "required"
+          },
+          {
+            "id": "G49-E04-B04",
+            "text": "to practice in.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G49-E04-B01",
+          "G49-E04-B02",
+          "G49-E04-B03",
+          "G49-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E04-B01",
+            "G49-E04-B02",
+            "G49-E04-B03",
+            "G49-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G49-E04-B01",
+            "text": "This room",
+            "role": "required"
+          },
+          {
+            "id": "G49-E04-B02",
+            "text": "is big",
+            "role": "required"
+          },
+          {
+            "id": "G49-E04-B03",
+            "text": "enough",
+            "role": "required"
+          },
+          {
+            "id": "G49-E04-B04",
+            "text": "to practice in.",
+            "role": "required"
+          },
+          {
+            "id": "G49-E04-D01",
+            "text": "too",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E04-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E04-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G49-E04-D01",
+            "text": "too",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E04-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E04-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G49-E04-B01",
+          "G49-E04-B02",
+          "G49-E04-B03",
+          "G49-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E04-B01",
+            "G49-E04-B02",
+            "G49-E04-B03",
+            "G49-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G49-E04-AUDIO",
+        "text": "This room is big enough to practice in.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G49-E05",
+      "grammarId": "G49",
+      "grammarNameJa": "too ... to・enough to",
+      "english": "The ticket is too expensive for me to buy.",
+      "translationJa": "チケットは高すぎて私には買えません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "too",
+        "start": 14,
+        "endExclusive": 17,
+        "explanationJa": "too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+      },
+      "sentenceExplanationJa": "「The ticket is too expensive for me to buy.」は「チケットは高すぎて私には買えません。」という意味です。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。 この文の対象部分は「too」。まとまりは The ticket → is → too → expensive → for me to buy. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "too",
+          "lemma": "too",
+          "meaningJa": "～も・～すぎる",
+          "kind": "word"
+        },
+        {
+          "expression": "expensive",
+          "lemma": "expensive",
+          "meaningJa": "高価な",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "buy",
+          "lemma": "buy",
+          "meaningJa": "買う",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The ticket is ___ expensive for me to buy.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 17,
+          "answer": "too"
+        },
+        "options": [
+          {
+            "id": "G49-E05-C1",
+            "text": "too",
+            "isCorrect": true,
+            "explanationJa": "正解。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+          },
+          {
+            "id": "G49-E05-C4",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E05-C3",
+            "text": "very",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「very」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E05-C2",
+            "text": "enough",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「enough」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G49-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G49-E05-B01",
+            "text": "The ticket",
+            "role": "required"
+          },
+          {
+            "id": "G49-E05-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G49-E05-B03",
+            "text": "too",
+            "role": "required"
+          },
+          {
+            "id": "G49-E05-B04",
+            "text": "expensive",
+            "role": "required"
+          },
+          {
+            "id": "G49-E05-B05",
+            "text": "for me to buy.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G49-E05-B01",
+          "G49-E05-B02",
+          "G49-E05-B03",
+          "G49-E05-B04",
+          "G49-E05-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E05-B01",
+            "G49-E05-B02",
+            "G49-E05-B03",
+            "G49-E05-B04",
+            "G49-E05-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G49-E05-B01",
+            "text": "The ticket",
+            "role": "required"
+          },
+          {
+            "id": "G49-E05-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G49-E05-B03",
+            "text": "too",
+            "role": "required"
+          },
+          {
+            "id": "G49-E05-B04",
+            "text": "expensive",
+            "role": "required"
+          },
+          {
+            "id": "G49-E05-B05",
+            "text": "for me to buy.",
+            "role": "required"
+          },
+          {
+            "id": "G49-E05-D01",
+            "text": "enough",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E05-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E05-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G49-E05-D01",
+            "text": "enough",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E05-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E05-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G49-E05-B01",
+          "G49-E05-B02",
+          "G49-E05-B03",
+          "G49-E05-B04",
+          "G49-E05-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E05-B01",
+            "G49-E05-B02",
+            "G49-E05-B03",
+            "G49-E05-B04",
+            "G49-E05-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G49-E05-AUDIO",
+        "text": "The ticket is too expensive for me to buy.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G49-E06",
+      "grammarId": "G49",
+      "grammarNameJa": "too ... to・enough to",
+      "english": "She is tall enough to see the stage.",
+      "translationJa": "彼女はステージが見えるくらい背が高いです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "enough",
+        "start": 12,
+        "endExclusive": 18,
+        "explanationJa": "too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+      },
+      "sentenceExplanationJa": "「She is tall enough to see the stage.」は「彼女はステージが見えるくらい背が高いです。」という意味です。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。 この文の対象部分は「enough」。まとまりは She → is tall → enough → to see the stage. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "tall",
+          "lemma": "tall",
+          "meaningJa": "背が高い",
+          "kind": "word"
+        },
+        {
+          "expression": "enough",
+          "lemma": "enough",
+          "meaningJa": "十分に・十分な",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "see",
+          "lemma": "see",
+          "meaningJa": "見る・見える",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "stage",
+          "lemma": "stage",
+          "meaningJa": "ステージ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She is tall ___ to see the stage.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 18,
+          "answer": "enough"
+        },
+        "options": [
+          {
+            "id": "G49-E06-C3",
+            "text": "very",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「very」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E06-C2",
+            "text": "too",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「too」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E06-C4",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E06-C1",
+            "text": "enough",
+            "isCorrect": true,
+            "explanationJa": "正解。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+          }
+        ],
+        "correctOptionId": "G49-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G49-E06-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G49-E06-B02",
+            "text": "is tall",
+            "role": "required"
+          },
+          {
+            "id": "G49-E06-B03",
+            "text": "enough",
+            "role": "required"
+          },
+          {
+            "id": "G49-E06-B04",
+            "text": "to see the stage.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G49-E06-B01",
+          "G49-E06-B02",
+          "G49-E06-B03",
+          "G49-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E06-B01",
+            "G49-E06-B02",
+            "G49-E06-B03",
+            "G49-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G49-E06-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G49-E06-B02",
+            "text": "is tall",
+            "role": "required"
+          },
+          {
+            "id": "G49-E06-B03",
+            "text": "enough",
+            "role": "required"
+          },
+          {
+            "id": "G49-E06-B04",
+            "text": "to see the stage.",
+            "role": "required"
+          },
+          {
+            "id": "G49-E06-D01",
+            "text": "too",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E06-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E06-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G49-E06-D01",
+            "text": "too",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E06-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E06-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G49-E06-B01",
+          "G49-E06-B02",
+          "G49-E06-B03",
+          "G49-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E06-B01",
+            "G49-E06-B02",
+            "G49-E06-B03",
+            "G49-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G49-E06-AUDIO",
+        "text": "She is tall enough to see the stage.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G49-E07",
+      "grammarId": "G49",
+      "grammarNameJa": "too ... to・enough to",
+      "english": "It is too late to catch the train.",
+      "translationJa": "電車に乗るには遅すぎます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "too",
+        "start": 6,
+        "endExclusive": 9,
+        "explanationJa": "too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+      },
+      "sentenceExplanationJa": "「It is too late to catch the train.」は「電車に乗るには遅すぎます。」という意味です。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。 この文の対象部分は「too」。まとまりは It → is → too → late → to catch the train. の順です。",
+      "glossary": [
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "too",
+          "lemma": "too",
+          "meaningJa": "～も・～すぎる",
+          "kind": "word"
+        },
+        {
+          "expression": "late",
+          "lemma": "late",
+          "meaningJa": "遅い・遅れて",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "catch",
+          "lemma": "catch",
+          "meaningJa": "つかまえる・乗り物に間に合う",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "train",
+          "lemma": "train",
+          "meaningJa": "電車",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It is ___ late to catch the train.",
+        "blank": {
+          "start": 6,
+          "endExclusive": 9,
+          "answer": "too"
+        },
+        "options": [
+          {
+            "id": "G49-E07-C1",
+            "text": "too",
+            "isCorrect": true,
+            "explanationJa": "正解。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+          },
+          {
+            "id": "G49-E07-C2",
+            "text": "enough",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「enough」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E07-C4",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E07-C3",
+            "text": "very",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「very」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G49-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G49-E07-B01",
+            "text": "It",
+            "role": "required"
+          },
+          {
+            "id": "G49-E07-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G49-E07-B03",
+            "text": "too",
+            "role": "required"
+          },
+          {
+            "id": "G49-E07-B04",
+            "text": "late",
+            "role": "required"
+          },
+          {
+            "id": "G49-E07-B05",
+            "text": "to catch the train.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G49-E07-B01",
+          "G49-E07-B02",
+          "G49-E07-B03",
+          "G49-E07-B04",
+          "G49-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E07-B01",
+            "G49-E07-B02",
+            "G49-E07-B03",
+            "G49-E07-B04",
+            "G49-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G49-E07-B01",
+            "text": "It",
+            "role": "required"
+          },
+          {
+            "id": "G49-E07-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G49-E07-B03",
+            "text": "too",
+            "role": "required"
+          },
+          {
+            "id": "G49-E07-B04",
+            "text": "late",
+            "role": "required"
+          },
+          {
+            "id": "G49-E07-B05",
+            "text": "to catch the train.",
+            "role": "required"
+          },
+          {
+            "id": "G49-E07-D01",
+            "text": "enough",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E07-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E07-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G49-E07-D01",
+            "text": "enough",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E07-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E07-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G49-E07-B01",
+          "G49-E07-B02",
+          "G49-E07-B03",
+          "G49-E07-B04",
+          "G49-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E07-B01",
+            "G49-E07-B02",
+            "G49-E07-B03",
+            "G49-E07-B04",
+            "G49-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G49-E07-AUDIO",
+        "text": "It is too late to catch the train.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G49-E08",
+      "grammarId": "G49",
+      "grammarNameJa": "too ... to・enough to",
+      "english": "The music is loud enough to hear outside.",
+      "translationJa": "音楽は外で聞こえるくらい十分大きいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "enough",
+        "start": 18,
+        "endExclusive": 24,
+        "explanationJa": "too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+      },
+      "sentenceExplanationJa": "「The music is loud enough to hear outside.」は「音楽は外で聞こえるくらい十分大きいです。」という意味です。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。 この文の対象部分は「enough」。まとまりは The music → is loud → enough → to hear outside. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "music",
+          "lemma": "music",
+          "meaningJa": "音楽・楽譜",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "loud",
+          "lemma": "loud",
+          "meaningJa": "大きな音の",
+          "kind": "word"
+        },
+        {
+          "expression": "enough",
+          "lemma": "enough",
+          "meaningJa": "十分に・十分な",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "hear",
+          "lemma": "hear",
+          "meaningJa": "聞こえる・聞く",
+          "kind": "word"
+        },
+        {
+          "expression": "outside",
+          "lemma": "outside",
+          "meaningJa": "外で・外に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The music is loud ___ to hear outside.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 24,
+          "answer": "enough"
+        },
+        "options": [
+          {
+            "id": "G49-E08-C2",
+            "text": "too",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「too」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E08-C1",
+            "text": "enough",
+            "isCorrect": true,
+            "explanationJa": "正解。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+          },
+          {
+            "id": "G49-E08-C3",
+            "text": "very",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「very」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E08-C4",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G49-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G49-E08-B01",
+            "text": "The music",
+            "role": "required"
+          },
+          {
+            "id": "G49-E08-B02",
+            "text": "is loud",
+            "role": "required"
+          },
+          {
+            "id": "G49-E08-B03",
+            "text": "enough",
+            "role": "required"
+          },
+          {
+            "id": "G49-E08-B04",
+            "text": "to hear outside.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G49-E08-B01",
+          "G49-E08-B02",
+          "G49-E08-B03",
+          "G49-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E08-B01",
+            "G49-E08-B02",
+            "G49-E08-B03",
+            "G49-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G49-E08-B01",
+            "text": "The music",
+            "role": "required"
+          },
+          {
+            "id": "G49-E08-B02",
+            "text": "is loud",
+            "role": "required"
+          },
+          {
+            "id": "G49-E08-B03",
+            "text": "enough",
+            "role": "required"
+          },
+          {
+            "id": "G49-E08-B04",
+            "text": "to hear outside.",
+            "role": "required"
+          },
+          {
+            "id": "G49-E08-D01",
+            "text": "too",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E08-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E08-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G49-E08-D01",
+            "text": "too",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E08-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E08-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G49-E08-B01",
+          "G49-E08-B02",
+          "G49-E08-B03",
+          "G49-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E08-B01",
+            "G49-E08-B02",
+            "G49-E08-B03",
+            "G49-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G49-E08-AUDIO",
+        "text": "The music is loud enough to hear outside.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G49-E09",
+      "grammarId": "G49",
+      "grammarNameJa": "too ... to・enough to",
+      "english": "I am too tired to dance.",
+      "translationJa": "私は疲れすぎて踊れません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "too",
+        "start": 5,
+        "endExclusive": 8,
+        "explanationJa": "too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+      },
+      "sentenceExplanationJa": "「I am too tired to dance.」は「私は疲れすぎて踊れません。」という意味です。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。 この文の対象部分は「too」。まとまりは I → am → too → tired → to dance. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "am",
+          "lemma": "am",
+          "meaningJa": "～です・いる（Iに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "too",
+          "lemma": "too",
+          "meaningJa": "～も・～すぎる",
+          "kind": "word"
+        },
+        {
+          "expression": "tired",
+          "lemma": "tired",
+          "meaningJa": "疲れた",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "dance",
+          "lemma": "dance",
+          "meaningJa": "踊る",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I am ___ tired to dance.",
+        "blank": {
+          "start": 5,
+          "endExclusive": 8,
+          "answer": "too"
+        },
+        "options": [
+          {
+            "id": "G49-E09-C1",
+            "text": "too",
+            "isCorrect": true,
+            "explanationJa": "正解。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+          },
+          {
+            "id": "G49-E09-C3",
+            "text": "very",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「very」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E09-C4",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E09-C2",
+            "text": "enough",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「too」を使います。「enough」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G49-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G49-E09-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G49-E09-B02",
+            "text": "am",
+            "role": "required"
+          },
+          {
+            "id": "G49-E09-B03",
+            "text": "too",
+            "role": "required"
+          },
+          {
+            "id": "G49-E09-B04",
+            "text": "tired",
+            "role": "required"
+          },
+          {
+            "id": "G49-E09-B05",
+            "text": "to dance.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G49-E09-B01",
+          "G49-E09-B02",
+          "G49-E09-B03",
+          "G49-E09-B04",
+          "G49-E09-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E09-B01",
+            "G49-E09-B02",
+            "G49-E09-B03",
+            "G49-E09-B04",
+            "G49-E09-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G49-E09-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G49-E09-B02",
+            "text": "am",
+            "role": "required"
+          },
+          {
+            "id": "G49-E09-B03",
+            "text": "too",
+            "role": "required"
+          },
+          {
+            "id": "G49-E09-B04",
+            "text": "tired",
+            "role": "required"
+          },
+          {
+            "id": "G49-E09-B05",
+            "text": "to dance.",
+            "role": "required"
+          },
+          {
+            "id": "G49-E09-D01",
+            "text": "enough",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E09-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E09-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G49-E09-D01",
+            "text": "enough",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E09-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E09-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          },
+          {
+            "id": "G49-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「too」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G49-E09-B01",
+          "G49-E09-B02",
+          "G49-E09-B03",
+          "G49-E09-B04",
+          "G49-E09-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E09-B01",
+            "G49-E09-B02",
+            "G49-E09-B03",
+            "G49-E09-B04",
+            "G49-E09-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G49-E09-AUDIO",
+        "text": "I am too tired to dance.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G49-E10",
+      "grammarId": "G49",
+      "grammarNameJa": "too ... to・enough to",
+      "english": "This box is strong enough to hold my cards.",
+      "translationJa": "この箱はカードを入れられるくらい十分丈夫です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "enough",
+        "start": 19,
+        "endExclusive": 25,
+        "explanationJa": "too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+      },
+      "sentenceExplanationJa": "「This box is strong enough to hold my cards.」は「この箱はカードを入れられるくらい十分丈夫です。」という意味です。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。 この文の対象部分は「enough」。まとまりは This box → is strong → enough → to hold my cards. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "box",
+          "lemma": "box",
+          "meaningJa": "箱",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "strong",
+          "lemma": "strong",
+          "meaningJa": "丈夫な・強い",
+          "kind": "word"
+        },
+        {
+          "expression": "enough",
+          "lemma": "enough",
+          "meaningJa": "十分に・十分な",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "hold",
+          "lemma": "hold",
+          "meaningJa": "入れる・収容する・持つ",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "cards",
+          "lemma": "card",
+          "meaningJa": "カード（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This box is strong ___ to hold my cards.",
+        "blank": {
+          "start": 19,
+          "endExclusive": 25,
+          "answer": "enough"
+        },
+        "options": [
+          {
+            "id": "G49-E10-C4",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E10-C2",
+            "text": "too",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「too」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G49-E10-C1",
+            "text": "enough",
+            "isCorrect": true,
+            "explanationJa": "正解。too＋形容詞＋toは程度が強くてできないこと、形容詞＋enough＋toはできる程度を表す。"
+          },
+          {
+            "id": "G49-E10-C3",
+            "text": "very",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「enough」を使います。「very」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G49-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G49-E10-B01",
+            "text": "This box",
+            "role": "required"
+          },
+          {
+            "id": "G49-E10-B02",
+            "text": "is strong",
+            "role": "required"
+          },
+          {
+            "id": "G49-E10-B03",
+            "text": "enough",
+            "role": "required"
+          },
+          {
+            "id": "G49-E10-B04",
+            "text": "to hold my cards.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G49-E10-B01",
+          "G49-E10-B02",
+          "G49-E10-B03",
+          "G49-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E10-B01",
+            "G49-E10-B02",
+            "G49-E10-B03",
+            "G49-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G49-E10-B01",
+            "text": "This box",
+            "role": "required"
+          },
+          {
+            "id": "G49-E10-B02",
+            "text": "is strong",
+            "role": "required"
+          },
+          {
+            "id": "G49-E10-B03",
+            "text": "enough",
+            "role": "required"
+          },
+          {
+            "id": "G49-E10-B04",
+            "text": "to hold my cards.",
+            "role": "required"
+          },
+          {
+            "id": "G49-E10-D01",
+            "text": "too",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E10-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E10-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G49-E10-D01",
+            "text": "too",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E10-D02",
+            "text": "very",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E10-D03",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          },
+          {
+            "id": "G49-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「enough」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G49-E10-B01",
+          "G49-E10-B02",
+          "G49-E10-B03",
+          "G49-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G49-E10-B01",
+            "G49-E10-B02",
+            "G49-E10-B03",
+            "G49-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G49-E10-AUDIO",
+        "text": "This box is strong enough to hold my cards.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

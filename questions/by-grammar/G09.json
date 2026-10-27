@@ -1,0 +1,2444 @@
+{
+  "grammarId": "G09",
+  "examples": [
+    {
+      "id": "G09-E01",
+      "grammarId": "G09",
+      "grammarNameJa": "一般動詞の否定文",
+      "english": "I do not know this song.",
+      "translationJa": "私はこの曲を知りません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "do not",
+        "start": 2,
+        "endExclusive": 8,
+        "explanationJa": "I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+      },
+      "sentenceExplanationJa": "「I do not know this song.」は「私はこの曲を知りません。」という意味です。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。 この文の対象部分は「do not」。まとまりは I → do not → know → this song. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "know",
+          "lemma": "know",
+          "meaningJa": "知っている",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ know this song.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 8,
+          "answer": "do not"
+        },
+        "options": [
+          {
+            "id": "G09-E01-C2",
+            "text": "does not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「does not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E01-C4",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E01-C1",
+            "text": "do not",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+          },
+          {
+            "id": "G09-E01-C3",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G09-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G09-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G09-E01-B02",
+            "text": "do not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E01-B03",
+            "text": "know",
+            "role": "required"
+          },
+          {
+            "id": "G09-E01-B04",
+            "text": "this song.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G09-E01-B01",
+          "G09-E01-B02",
+          "G09-E01-B03",
+          "G09-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E01-B01",
+            "G09-E01-B02",
+            "G09-E01-B03",
+            "G09-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G09-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G09-E01-B02",
+            "text": "do not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E01-B03",
+            "text": "know",
+            "role": "required"
+          },
+          {
+            "id": "G09-E01-B04",
+            "text": "this song.",
+            "role": "required"
+          },
+          {
+            "id": "G09-E01-D01",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E01-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E01-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G09-E01-D01",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E01-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E01-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G09-E01-B01",
+          "G09-E01-B02",
+          "G09-E01-B03",
+          "G09-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E01-B01",
+            "G09-E01-B02",
+            "G09-E01-B03",
+            "G09-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G09-E01-AUDIO",
+        "text": "I do not know this song.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G09-E02",
+      "grammarId": "G09",
+      "grammarNameJa": "一般動詞の否定文",
+      "english": "She does not have a ticket.",
+      "translationJa": "彼女はチケットを持っていません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "does not",
+        "start": 4,
+        "endExclusive": 12,
+        "explanationJa": "I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+      },
+      "sentenceExplanationJa": "「She does not have a ticket.」は「彼女はチケットを持っていません。」という意味です。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。 この文の対象部分は「does not」。まとまりは She → does not → have → a ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "does",
+          "lemma": "does",
+          "meaningJa": "三人称単数現在のdo",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ have a ticket.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 12,
+          "answer": "does not"
+        },
+        "options": [
+          {
+            "id": "G09-E02-C2",
+            "text": "do not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「does not」を使います。「do not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E02-C1",
+            "text": "does not",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+          },
+          {
+            "id": "G09-E02-C3",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「does not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E02-C4",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「does not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G09-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G09-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G09-E02-B02",
+            "text": "does not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E02-B03",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G09-E02-B04",
+            "text": "a ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G09-E02-B01",
+          "G09-E02-B02",
+          "G09-E02-B03",
+          "G09-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E02-B01",
+            "G09-E02-B02",
+            "G09-E02-B03",
+            "G09-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G09-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G09-E02-B02",
+            "text": "does not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E02-B03",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G09-E02-B04",
+            "text": "a ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G09-E02-D01",
+            "text": "do not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E02-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E02-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G09-E02-D01",
+            "text": "do not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E02-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E02-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G09-E02-B01",
+          "G09-E02-B02",
+          "G09-E02-B03",
+          "G09-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E02-B01",
+            "G09-E02-B02",
+            "G09-E02-B03",
+            "G09-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G09-E02-AUDIO",
+        "text": "She does not have a ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G09-E03",
+      "grammarId": "G09",
+      "grammarNameJa": "一般動詞の否定文",
+      "english": "We do not watch TV in the morning.",
+      "translationJa": "私たちは朝にテレビを見ません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "do not",
+        "start": 3,
+        "endExclusive": 9,
+        "explanationJa": "I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+      },
+      "sentenceExplanationJa": "「We do not watch TV in the morning.」は「私たちは朝にテレビを見ません。」という意味です。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。 この文の対象部分は「do not」。まとまりは We → do not → watch → TV → in the morning. の順です。",
+      "glossary": [
+        {
+          "expression": "in the morning",
+          "meaningJa": "朝に",
+          "kind": "phrase"
+        },
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "watch",
+          "lemma": "watch",
+          "meaningJa": "見る",
+          "kind": "word"
+        },
+        {
+          "expression": "TV",
+          "lemma": "tv",
+          "meaningJa": "テレビ",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "morning",
+          "lemma": "morning",
+          "meaningJa": "朝・午前",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ watch TV in the morning.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 9,
+          "answer": "do not"
+        },
+        "options": [
+          {
+            "id": "G09-E03-C4",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E03-C2",
+            "text": "does not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「does not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E03-C3",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E03-C1",
+            "text": "do not",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+          }
+        ],
+        "correctOptionId": "G09-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G09-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G09-E03-B02",
+            "text": "do not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E03-B03",
+            "text": "watch",
+            "role": "required"
+          },
+          {
+            "id": "G09-E03-B04",
+            "text": "TV",
+            "role": "required"
+          },
+          {
+            "id": "G09-E03-B05",
+            "text": "in the morning.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G09-E03-B01",
+          "G09-E03-B02",
+          "G09-E03-B03",
+          "G09-E03-B04",
+          "G09-E03-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E03-B01",
+            "G09-E03-B02",
+            "G09-E03-B03",
+            "G09-E03-B04",
+            "G09-E03-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G09-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G09-E03-B02",
+            "text": "do not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E03-B03",
+            "text": "watch",
+            "role": "required"
+          },
+          {
+            "id": "G09-E03-B04",
+            "text": "TV",
+            "role": "required"
+          },
+          {
+            "id": "G09-E03-B05",
+            "text": "in the morning.",
+            "role": "required"
+          },
+          {
+            "id": "G09-E03-D01",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E03-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E03-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G09-E03-D01",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E03-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E03-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G09-E03-B01",
+          "G09-E03-B02",
+          "G09-E03-B03",
+          "G09-E03-B04",
+          "G09-E03-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E03-B01",
+            "G09-E03-B02",
+            "G09-E03-B03",
+            "G09-E03-B04",
+            "G09-E03-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G09-E03-AUDIO",
+        "text": "We do not watch TV in the morning.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G09-E04",
+      "grammarId": "G09",
+      "grammarNameJa": "一般動詞の否定文",
+      "english": "He does not play the drums.",
+      "translationJa": "彼はドラムを演奏しません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "does not",
+        "start": 3,
+        "endExclusive": 11,
+        "explanationJa": "I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+      },
+      "sentenceExplanationJa": "「He does not play the drums.」は「彼はドラムを演奏しません。」という意味です。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。 この文の対象部分は「does not」。まとまりは He → does not → play → the drums. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "does",
+          "lemma": "does",
+          "meaningJa": "三人称単数現在のdo",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "play",
+          "lemma": "play",
+          "meaningJa": "演奏する・遊ぶ",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "drums",
+          "lemma": "drums",
+          "meaningJa": "ドラム",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ play the drums.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 11,
+          "answer": "does not"
+        },
+        "options": [
+          {
+            "id": "G09-E04-C1",
+            "text": "does not",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+          },
+          {
+            "id": "G09-E04-C3",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「does not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E04-C4",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「does not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E04-C2",
+            "text": "do not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「does not」を使います。「do not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G09-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G09-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G09-E04-B02",
+            "text": "does not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E04-B03",
+            "text": "play",
+            "role": "required"
+          },
+          {
+            "id": "G09-E04-B04",
+            "text": "the drums.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G09-E04-B01",
+          "G09-E04-B02",
+          "G09-E04-B03",
+          "G09-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E04-B01",
+            "G09-E04-B02",
+            "G09-E04-B03",
+            "G09-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G09-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G09-E04-B02",
+            "text": "does not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E04-B03",
+            "text": "play",
+            "role": "required"
+          },
+          {
+            "id": "G09-E04-B04",
+            "text": "the drums.",
+            "role": "required"
+          },
+          {
+            "id": "G09-E04-D01",
+            "text": "do not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E04-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E04-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G09-E04-D01",
+            "text": "do not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E04-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E04-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G09-E04-B01",
+          "G09-E04-B02",
+          "G09-E04-B03",
+          "G09-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E04-B01",
+            "G09-E04-B02",
+            "G09-E04-B03",
+            "G09-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G09-E04-AUDIO",
+        "text": "He does not play the drums.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G09-E05",
+      "grammarId": "G09",
+      "grammarNameJa": "一般動詞の否定文",
+      "english": "They do not live near the hall.",
+      "translationJa": "彼らは会場の近くには住んでいません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "do not",
+        "start": 5,
+        "endExclusive": 11,
+        "explanationJa": "I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+      },
+      "sentenceExplanationJa": "「They do not live near the hall.」は「彼らは会場の近くには住んでいません。」という意味です。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。 この文の対象部分は「do not」。まとまりは They → do not → live → near the hall. の順です。",
+      "glossary": [
+        {
+          "expression": "They",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "live",
+          "lemma": "live",
+          "meaningJa": "住む／生の・生配信の",
+          "kind": "word"
+        },
+        {
+          "expression": "near",
+          "lemma": "near",
+          "meaningJa": "～の近くに",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "They ___ live near the hall.",
+        "blank": {
+          "start": 5,
+          "endExclusive": 11,
+          "answer": "do not"
+        },
+        "options": [
+          {
+            "id": "G09-E05-C1",
+            "text": "do not",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+          },
+          {
+            "id": "G09-E05-C2",
+            "text": "does not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「does not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E05-C3",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E05-C4",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G09-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G09-E05-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G09-E05-B02",
+            "text": "do not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E05-B03",
+            "text": "live",
+            "role": "required"
+          },
+          {
+            "id": "G09-E05-B04",
+            "text": "near the hall.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G09-E05-B01",
+          "G09-E05-B02",
+          "G09-E05-B03",
+          "G09-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E05-B01",
+            "G09-E05-B02",
+            "G09-E05-B03",
+            "G09-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G09-E05-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G09-E05-B02",
+            "text": "do not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E05-B03",
+            "text": "live",
+            "role": "required"
+          },
+          {
+            "id": "G09-E05-B04",
+            "text": "near the hall.",
+            "role": "required"
+          },
+          {
+            "id": "G09-E05-D01",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E05-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E05-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G09-E05-D01",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E05-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E05-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G09-E05-B01",
+          "G09-E05-B02",
+          "G09-E05-B03",
+          "G09-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E05-B01",
+            "G09-E05-B02",
+            "G09-E05-B03",
+            "G09-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G09-E05-AUDIO",
+        "text": "They do not live near the hall.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G09-E06",
+      "grammarId": "G09",
+      "grammarNameJa": "一般動詞の否定文",
+      "english": "My brother does not like long lines.",
+      "translationJa": "私の弟は長い行列が好きではありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "does not",
+        "start": 11,
+        "endExclusive": 19,
+        "explanationJa": "I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+      },
+      "sentenceExplanationJa": "「My brother does not like long lines.」は「私の弟は長い行列が好きではありません。」という意味です。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。 この文の対象部分は「does not」。まとまりは My brother → does not → like → long lines. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "brother",
+          "lemma": "brother",
+          "meaningJa": "兄・弟",
+          "kind": "word"
+        },
+        {
+          "expression": "does",
+          "lemma": "does",
+          "meaningJa": "三人称単数現在のdo",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "like",
+          "lemma": "like",
+          "meaningJa": "好きである",
+          "kind": "word"
+        },
+        {
+          "expression": "long",
+          "lemma": "long",
+          "meaningJa": "長い",
+          "kind": "word"
+        },
+        {
+          "expression": "lines",
+          "lemma": "line",
+          "meaningJa": "列・行列（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My brother ___ like long lines.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 19,
+          "answer": "does not"
+        },
+        "options": [
+          {
+            "id": "G09-E06-C1",
+            "text": "does not",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+          },
+          {
+            "id": "G09-E06-C3",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「does not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E06-C2",
+            "text": "do not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「does not」を使います。「do not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E06-C4",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「does not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G09-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G09-E06-B01",
+            "text": "My brother",
+            "role": "required"
+          },
+          {
+            "id": "G09-E06-B02",
+            "text": "does not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E06-B03",
+            "text": "like",
+            "role": "required"
+          },
+          {
+            "id": "G09-E06-B04",
+            "text": "long lines.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G09-E06-B01",
+          "G09-E06-B02",
+          "G09-E06-B03",
+          "G09-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E06-B01",
+            "G09-E06-B02",
+            "G09-E06-B03",
+            "G09-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G09-E06-B01",
+            "text": "My brother",
+            "role": "required"
+          },
+          {
+            "id": "G09-E06-B02",
+            "text": "does not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E06-B03",
+            "text": "like",
+            "role": "required"
+          },
+          {
+            "id": "G09-E06-B04",
+            "text": "long lines.",
+            "role": "required"
+          },
+          {
+            "id": "G09-E06-D01",
+            "text": "do not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E06-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E06-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G09-E06-D01",
+            "text": "do not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E06-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E06-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G09-E06-B01",
+          "G09-E06-B02",
+          "G09-E06-B03",
+          "G09-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E06-B01",
+            "G09-E06-B02",
+            "G09-E06-B03",
+            "G09-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G09-E06-AUDIO",
+        "text": "My brother does not like long lines.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G09-E07",
+      "grammarId": "G09",
+      "grammarNameJa": "一般動詞の否定文",
+      "english": "I do not need another bag.",
+      "translationJa": "私は別のバッグを必要としていません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "do not",
+        "start": 2,
+        "endExclusive": 8,
+        "explanationJa": "I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+      },
+      "sentenceExplanationJa": "「I do not need another bag.」は「私は別のバッグを必要としていません。」という意味です。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。 この文の対象部分は「do not」。まとまりは I → do not → need → another bag. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "need",
+          "lemma": "need",
+          "meaningJa": "必要とする",
+          "kind": "word"
+        },
+        {
+          "expression": "another",
+          "lemma": "another",
+          "meaningJa": "別の・もう一つの",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ need another bag.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 8,
+          "answer": "do not"
+        },
+        "options": [
+          {
+            "id": "G09-E07-C4",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E07-C1",
+            "text": "do not",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+          },
+          {
+            "id": "G09-E07-C3",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E07-C2",
+            "text": "does not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「does not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G09-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G09-E07-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G09-E07-B02",
+            "text": "do not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E07-B03",
+            "text": "need",
+            "role": "required"
+          },
+          {
+            "id": "G09-E07-B04",
+            "text": "another bag.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G09-E07-B01",
+          "G09-E07-B02",
+          "G09-E07-B03",
+          "G09-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E07-B01",
+            "G09-E07-B02",
+            "G09-E07-B03",
+            "G09-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G09-E07-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G09-E07-B02",
+            "text": "do not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E07-B03",
+            "text": "need",
+            "role": "required"
+          },
+          {
+            "id": "G09-E07-B04",
+            "text": "another bag.",
+            "role": "required"
+          },
+          {
+            "id": "G09-E07-D01",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E07-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E07-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G09-E07-D01",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E07-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E07-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G09-E07-B01",
+          "G09-E07-B02",
+          "G09-E07-B03",
+          "G09-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E07-B01",
+            "G09-E07-B02",
+            "G09-E07-B03",
+            "G09-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G09-E07-AUDIO",
+        "text": "I do not need another bag.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G09-E08",
+      "grammarId": "G09",
+      "grammarNameJa": "一般動詞の否定文",
+      "english": "This train does not stop here.",
+      "translationJa": "この電車はここには止まりません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "does not",
+        "start": 11,
+        "endExclusive": 19,
+        "explanationJa": "I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+      },
+      "sentenceExplanationJa": "「This train does not stop here.」は「この電車はここには止まりません。」という意味です。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。 この文の対象部分は「does not」。まとまりは This train → does not → stop → here. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "train",
+          "lemma": "train",
+          "meaningJa": "電車",
+          "kind": "word"
+        },
+        {
+          "expression": "does",
+          "lemma": "does",
+          "meaningJa": "三人称単数現在のdo",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "stop",
+          "lemma": "stop",
+          "meaningJa": "止まる・やめる",
+          "kind": "word"
+        },
+        {
+          "expression": "here",
+          "lemma": "here",
+          "meaningJa": "ここに・ここで",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This train ___ stop here.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 19,
+          "answer": "does not"
+        },
+        "options": [
+          {
+            "id": "G09-E08-C4",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「does not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E08-C3",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「does not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E08-C1",
+            "text": "does not",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+          },
+          {
+            "id": "G09-E08-C2",
+            "text": "do not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「does not」を使います。「do not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G09-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G09-E08-B01",
+            "text": "This train",
+            "role": "required"
+          },
+          {
+            "id": "G09-E08-B02",
+            "text": "does not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E08-B03",
+            "text": "stop",
+            "role": "required"
+          },
+          {
+            "id": "G09-E08-B04",
+            "text": "here.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G09-E08-B01",
+          "G09-E08-B02",
+          "G09-E08-B03",
+          "G09-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E08-B01",
+            "G09-E08-B02",
+            "G09-E08-B03",
+            "G09-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G09-E08-B01",
+            "text": "This train",
+            "role": "required"
+          },
+          {
+            "id": "G09-E08-B02",
+            "text": "does not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E08-B03",
+            "text": "stop",
+            "role": "required"
+          },
+          {
+            "id": "G09-E08-B04",
+            "text": "here.",
+            "role": "required"
+          },
+          {
+            "id": "G09-E08-D01",
+            "text": "do not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E08-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E08-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G09-E08-D01",
+            "text": "do not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E08-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E08-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          },
+          {
+            "id": "G09-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「does not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G09-E08-B01",
+          "G09-E08-B02",
+          "G09-E08-B03",
+          "G09-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E08-B01",
+            "G09-E08-B02",
+            "G09-E08-B03",
+            "G09-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G09-E08-AUDIO",
+        "text": "This train does not stop here.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G09-E09",
+      "grammarId": "G09",
+      "grammarNameJa": "一般動詞の否定文",
+      "english": "You do not look tired.",
+      "translationJa": "あなたは疲れているようには見えません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "do not",
+        "start": 4,
+        "endExclusive": 10,
+        "explanationJa": "I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+      },
+      "sentenceExplanationJa": "「You do not look tired.」は「あなたは疲れているようには見えません。」という意味です。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。 この文の対象部分は「do not」。まとまりは You → do not → look → tired. の順です。",
+      "glossary": [
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "look",
+          "lemma": "look",
+          "meaningJa": "見る・～に見える",
+          "kind": "word"
+        },
+        {
+          "expression": "tired",
+          "lemma": "tired",
+          "meaningJa": "疲れた",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You ___ look tired.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 10,
+          "answer": "do not"
+        },
+        "options": [
+          {
+            "id": "G09-E09-C4",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E09-C2",
+            "text": "does not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「does not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E09-C1",
+            "text": "do not",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+          },
+          {
+            "id": "G09-E09-C3",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G09-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G09-E09-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G09-E09-B02",
+            "text": "do not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E09-B03",
+            "text": "look",
+            "role": "required"
+          },
+          {
+            "id": "G09-E09-B04",
+            "text": "tired.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G09-E09-B01",
+          "G09-E09-B02",
+          "G09-E09-B03",
+          "G09-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E09-B01",
+            "G09-E09-B02",
+            "G09-E09-B03",
+            "G09-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G09-E09-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G09-E09-B02",
+            "text": "do not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E09-B03",
+            "text": "look",
+            "role": "required"
+          },
+          {
+            "id": "G09-E09-B04",
+            "text": "tired.",
+            "role": "required"
+          },
+          {
+            "id": "G09-E09-D01",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E09-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E09-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G09-E09-D01",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E09-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E09-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G09-E09-B01",
+          "G09-E09-B02",
+          "G09-E09-B03",
+          "G09-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E09-B01",
+            "G09-E09-B02",
+            "G09-E09-B03",
+            "G09-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G09-E09-AUDIO",
+        "text": "You do not look tired.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G09-E10",
+      "grammarId": "G09",
+      "grammarNameJa": "一般動詞の否定文",
+      "english": "My friends do not buy every new item.",
+      "translationJa": "私の友達は新商品を全部買うわけではありません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "do not",
+        "start": 11,
+        "endExclusive": 17,
+        "explanationJa": "I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+      },
+      "sentenceExplanationJa": "「My friends do not buy every new item.」は「私の友達は新商品を全部買うわけではありません。」という意味です。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。 この文の対象部分は「do not」。まとまりは My friends → do not → buy → every new item. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "friends",
+          "lemma": "friend",
+          "meaningJa": "友達（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "buy",
+          "lemma": "buy",
+          "meaningJa": "買う",
+          "kind": "word"
+        },
+        {
+          "expression": "every",
+          "lemma": "every",
+          "meaningJa": "毎～・すべての",
+          "kind": "word"
+        },
+        {
+          "expression": "new",
+          "lemma": "new",
+          "meaningJa": "新しい",
+          "kind": "word"
+        },
+        {
+          "expression": "item",
+          "lemma": "item",
+          "meaningJa": "商品・品物",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My friends ___ buy every new item.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 17,
+          "answer": "do not"
+        },
+        "options": [
+          {
+            "id": "G09-E10-C2",
+            "text": "does not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「does not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E10-C4",
+            "text": "are not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「are not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G09-E10-C1",
+            "text": "do not",
+            "isCorrect": true,
+            "explanationJa": "正解。I・you・we・theyにはdo not、三人称単数にはdoes notを使い、その後を原形にする。"
+          },
+          {
+            "id": "G09-E10-C3",
+            "text": "is not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「do not」を使います。「is not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G09-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G09-E10-B01",
+            "text": "My friends",
+            "role": "required"
+          },
+          {
+            "id": "G09-E10-B02",
+            "text": "do not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E10-B03",
+            "text": "buy",
+            "role": "required"
+          },
+          {
+            "id": "G09-E10-B04",
+            "text": "every new item.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G09-E10-B01",
+          "G09-E10-B02",
+          "G09-E10-B03",
+          "G09-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E10-B01",
+            "G09-E10-B02",
+            "G09-E10-B03",
+            "G09-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G09-E10-B01",
+            "text": "My friends",
+            "role": "required"
+          },
+          {
+            "id": "G09-E10-B02",
+            "text": "do not",
+            "role": "required"
+          },
+          {
+            "id": "G09-E10-B03",
+            "text": "buy",
+            "role": "required"
+          },
+          {
+            "id": "G09-E10-B04",
+            "text": "every new item.",
+            "role": "required"
+          },
+          {
+            "id": "G09-E10-D01",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E10-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E10-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G09-E10-D01",
+            "text": "does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E10-D02",
+            "text": "is not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E10-D03",
+            "text": "are not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          },
+          {
+            "id": "G09-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「do not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G09-E10-B01",
+          "G09-E10-B02",
+          "G09-E10-B03",
+          "G09-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G09-E10-B01",
+            "G09-E10-B02",
+            "G09-E10-B03",
+            "G09-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G09-E10-AUDIO",
+        "text": "My friends do not buy every new item.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

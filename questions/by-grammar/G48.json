@@ -1,0 +1,2562 @@
+{
+  "grammarId": "G48",
+  "examples": [
+    {
+      "id": "G48-E01",
+      "grammarId": "G48",
+      "grammarNameJa": "It is ... for ... to",
+      "english": "It is easy for me to sing this song.",
+      "translationJa": "私にとってこの曲を歌うのは簡単です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to",
+        "start": 18,
+        "endExclusive": 20,
+        "explanationJa": "長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+      },
+      "sentenceExplanationJa": "「It is easy for me to sing this song.」は「私にとってこの曲を歌うのは簡単です。」という意味です。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。 この文の対象部分は「to」。まとまりは It is easy → for me → to → sing this song. の順です。",
+      "glossary": [
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "easy",
+          "lemma": "easy",
+          "meaningJa": "簡単な",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "sing",
+          "lemma": "sing",
+          "meaningJa": "歌う",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It is easy for me ___ sing this song.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 20,
+          "answer": "to"
+        },
+        "options": [
+          {
+            "id": "G48-E01-C1",
+            "text": "to",
+            "isCorrect": true,
+            "explanationJa": "正解。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+          },
+          {
+            "id": "G48-E01-C4",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E01-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E01-C3",
+            "text": "of",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「of」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G48-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G48-E01-B01",
+            "text": "It is easy",
+            "role": "required"
+          },
+          {
+            "id": "G48-E01-B02",
+            "text": "for me",
+            "role": "required"
+          },
+          {
+            "id": "G48-E01-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E01-B04",
+            "text": "sing this song.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G48-E01-B01",
+          "G48-E01-B02",
+          "G48-E01-B03",
+          "G48-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E01-B01",
+            "G48-E01-B02",
+            "G48-E01-B03",
+            "G48-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G48-E01-B01",
+            "text": "It is easy",
+            "role": "required"
+          },
+          {
+            "id": "G48-E01-B02",
+            "text": "for me",
+            "role": "required"
+          },
+          {
+            "id": "G48-E01-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E01-B04",
+            "text": "sing this song.",
+            "role": "required"
+          },
+          {
+            "id": "G48-E01-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E01-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E01-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E01-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E01-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G48-E01-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E01-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E01-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E01-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E01-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G48-E01-B01",
+          "G48-E01-B02",
+          "G48-E01-B03",
+          "G48-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E01-B01",
+            "G48-E01-B02",
+            "G48-E01-B03",
+            "G48-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G48-E01-AUDIO",
+        "text": "It is easy for me to sing this song.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G48-E02",
+      "grammarId": "G48",
+      "grammarNameJa": "It is ... for ... to",
+      "english": "It is hard for him to get up early.",
+      "translationJa": "彼にとって早起きするのは大変です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to",
+        "start": 19,
+        "endExclusive": 21,
+        "explanationJa": "長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+      },
+      "sentenceExplanationJa": "「It is hard for him to get up early.」は「彼にとって早起きするのは大変です。」という意味です。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。 この文の対象部分は「to」。まとまりは It is hard → for him → to → get up early. の順です。",
+      "glossary": [
+        {
+          "expression": "get up",
+          "meaningJa": "起きる",
+          "kind": "phrase"
+        },
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hard",
+          "lemma": "hard",
+          "meaningJa": "難しい・一生懸命に",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "him",
+          "lemma": "him",
+          "meaningJa": "彼を・彼に",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "get",
+          "lemma": "get",
+          "meaningJa": "得る・着く・～になる",
+          "kind": "word"
+        },
+        {
+          "expression": "up",
+          "lemma": "up",
+          "meaningJa": "上に・起きて",
+          "kind": "word"
+        },
+        {
+          "expression": "early",
+          "lemma": "early",
+          "meaningJa": "早い・早く",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It is hard for him ___ get up early.",
+        "blank": {
+          "start": 19,
+          "endExclusive": 21,
+          "answer": "to"
+        },
+        "options": [
+          {
+            "id": "G48-E02-C4",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E02-C1",
+            "text": "to",
+            "isCorrect": true,
+            "explanationJa": "正解。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+          },
+          {
+            "id": "G48-E02-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E02-C3",
+            "text": "of",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「of」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G48-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G48-E02-B01",
+            "text": "It is hard",
+            "role": "required"
+          },
+          {
+            "id": "G48-E02-B02",
+            "text": "for him",
+            "role": "required"
+          },
+          {
+            "id": "G48-E02-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E02-B04",
+            "text": "get up early.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G48-E02-B01",
+          "G48-E02-B02",
+          "G48-E02-B03",
+          "G48-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E02-B01",
+            "G48-E02-B02",
+            "G48-E02-B03",
+            "G48-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G48-E02-B01",
+            "text": "It is hard",
+            "role": "required"
+          },
+          {
+            "id": "G48-E02-B02",
+            "text": "for him",
+            "role": "required"
+          },
+          {
+            "id": "G48-E02-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E02-B04",
+            "text": "get up early.",
+            "role": "required"
+          },
+          {
+            "id": "G48-E02-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E02-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E02-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E02-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E02-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G48-E02-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E02-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E02-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E02-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E02-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G48-E02-B01",
+          "G48-E02-B02",
+          "G48-E02-B03",
+          "G48-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E02-B01",
+            "G48-E02-B02",
+            "G48-E02-B03",
+            "G48-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G48-E02-AUDIO",
+        "text": "It is hard for him to get up early.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G48-E03",
+      "grammarId": "G48",
+      "grammarNameJa": "It is ... for ... to",
+      "english": "It is important for us to keep our tickets.",
+      "translationJa": "私たちにとってチケットを保管するのは大切です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to",
+        "start": 23,
+        "endExclusive": 25,
+        "explanationJa": "長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+      },
+      "sentenceExplanationJa": "「It is important for us to keep our tickets.」は「私たちにとってチケットを保管するのは大切です。」という意味です。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。 この文の対象部分は「to」。まとまりは It is important → for us → to → keep our tickets. の順です。",
+      "glossary": [
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "important",
+          "lemma": "important",
+          "meaningJa": "大切な",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "keep",
+          "lemma": "keep",
+          "meaningJa": "保つ・保管する",
+          "kind": "word"
+        },
+        {
+          "expression": "our",
+          "lemma": "our",
+          "meaningJa": "私たちの",
+          "kind": "word"
+        },
+        {
+          "expression": "tickets",
+          "lemma": "ticket",
+          "meaningJa": "チケット（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It is important for us ___ keep our tickets.",
+        "blank": {
+          "start": 23,
+          "endExclusive": 25,
+          "answer": "to"
+        },
+        "options": [
+          {
+            "id": "G48-E03-C1",
+            "text": "to",
+            "isCorrect": true,
+            "explanationJa": "正解。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+          },
+          {
+            "id": "G48-E03-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E03-C4",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E03-C3",
+            "text": "of",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「of」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G48-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G48-E03-B01",
+            "text": "It is important",
+            "role": "required"
+          },
+          {
+            "id": "G48-E03-B02",
+            "text": "for us",
+            "role": "required"
+          },
+          {
+            "id": "G48-E03-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E03-B04",
+            "text": "keep our tickets.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G48-E03-B01",
+          "G48-E03-B02",
+          "G48-E03-B03",
+          "G48-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E03-B01",
+            "G48-E03-B02",
+            "G48-E03-B03",
+            "G48-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G48-E03-B01",
+            "text": "It is important",
+            "role": "required"
+          },
+          {
+            "id": "G48-E03-B02",
+            "text": "for us",
+            "role": "required"
+          },
+          {
+            "id": "G48-E03-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E03-B04",
+            "text": "keep our tickets.",
+            "role": "required"
+          },
+          {
+            "id": "G48-E03-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E03-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E03-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E03-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E03-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G48-E03-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E03-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E03-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E03-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E03-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G48-E03-B01",
+          "G48-E03-B02",
+          "G48-E03-B03",
+          "G48-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E03-B01",
+            "G48-E03-B02",
+            "G48-E03-B03",
+            "G48-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G48-E03-AUDIO",
+        "text": "It is important for us to keep our tickets.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G48-E04",
+      "grammarId": "G48",
+      "grammarNameJa": "It is ... for ... to",
+      "english": "It is fun for me to collect cards.",
+      "translationJa": "私にとってカードを集めるのは楽しいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to",
+        "start": 17,
+        "endExclusive": 19,
+        "explanationJa": "長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+      },
+      "sentenceExplanationJa": "「It is fun for me to collect cards.」は「私にとってカードを集めるのは楽しいです。」という意味です。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。 この文の対象部分は「to」。まとまりは It is fun → for me → to → collect cards. の順です。",
+      "glossary": [
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "fun",
+          "lemma": "fun",
+          "meaningJa": "楽しいこと・楽しさ",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "collect",
+          "lemma": "collect",
+          "meaningJa": "集める",
+          "kind": "word"
+        },
+        {
+          "expression": "cards",
+          "lemma": "card",
+          "meaningJa": "カード（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It is fun for me ___ collect cards.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 19,
+          "answer": "to"
+        },
+        "options": [
+          {
+            "id": "G48-E04-C1",
+            "text": "to",
+            "isCorrect": true,
+            "explanationJa": "正解。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+          },
+          {
+            "id": "G48-E04-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E04-C4",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E04-C3",
+            "text": "of",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「of」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G48-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G48-E04-B01",
+            "text": "It is fun",
+            "role": "required"
+          },
+          {
+            "id": "G48-E04-B02",
+            "text": "for me",
+            "role": "required"
+          },
+          {
+            "id": "G48-E04-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E04-B04",
+            "text": "collect cards.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G48-E04-B01",
+          "G48-E04-B02",
+          "G48-E04-B03",
+          "G48-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E04-B01",
+            "G48-E04-B02",
+            "G48-E04-B03",
+            "G48-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G48-E04-B01",
+            "text": "It is fun",
+            "role": "required"
+          },
+          {
+            "id": "G48-E04-B02",
+            "text": "for me",
+            "role": "required"
+          },
+          {
+            "id": "G48-E04-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E04-B04",
+            "text": "collect cards.",
+            "role": "required"
+          },
+          {
+            "id": "G48-E04-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E04-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E04-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E04-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E04-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G48-E04-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E04-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E04-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E04-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E04-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G48-E04-B01",
+          "G48-E04-B02",
+          "G48-E04-B03",
+          "G48-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E04-B01",
+            "G48-E04-B02",
+            "G48-E04-B03",
+            "G48-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G48-E04-AUDIO",
+        "text": "It is fun for me to collect cards.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G48-E05",
+      "grammarId": "G48",
+      "grammarNameJa": "It is ... for ... to",
+      "english": "It is difficult for her to choose one song.",
+      "translationJa": "彼女にとって曲を1曲選ぶのは難しいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to",
+        "start": 24,
+        "endExclusive": 26,
+        "explanationJa": "長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+      },
+      "sentenceExplanationJa": "「It is difficult for her to choose one song.」は「彼女にとって曲を1曲選ぶのは難しいです。」という意味です。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。 この文の対象部分は「to」。まとまりは It is difficult → for her → to → choose one song. の順です。",
+      "glossary": [
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "difficult",
+          "lemma": "difficult",
+          "meaningJa": "難しい",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "her",
+          "lemma": "her",
+          "meaningJa": "彼女を・彼女に・彼女の",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "choose",
+          "lemma": "choose",
+          "meaningJa": "選ぶ",
+          "kind": "word"
+        },
+        {
+          "expression": "one",
+          "lemma": "one",
+          "meaningJa": "1つ・1人／前の名詞の代わり",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It is difficult for her ___ choose one song.",
+        "blank": {
+          "start": 24,
+          "endExclusive": 26,
+          "answer": "to"
+        },
+        "options": [
+          {
+            "id": "G48-E05-C4",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E05-C3",
+            "text": "of",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「of」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E05-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E05-C1",
+            "text": "to",
+            "isCorrect": true,
+            "explanationJa": "正解。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+          }
+        ],
+        "correctOptionId": "G48-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G48-E05-B01",
+            "text": "It is difficult",
+            "role": "required"
+          },
+          {
+            "id": "G48-E05-B02",
+            "text": "for her",
+            "role": "required"
+          },
+          {
+            "id": "G48-E05-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E05-B04",
+            "text": "choose one song.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G48-E05-B01",
+          "G48-E05-B02",
+          "G48-E05-B03",
+          "G48-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E05-B01",
+            "G48-E05-B02",
+            "G48-E05-B03",
+            "G48-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G48-E05-B01",
+            "text": "It is difficult",
+            "role": "required"
+          },
+          {
+            "id": "G48-E05-B02",
+            "text": "for her",
+            "role": "required"
+          },
+          {
+            "id": "G48-E05-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E05-B04",
+            "text": "choose one song.",
+            "role": "required"
+          },
+          {
+            "id": "G48-E05-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E05-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E05-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E05-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E05-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G48-E05-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E05-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E05-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E05-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E05-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G48-E05-B01",
+          "G48-E05-B02",
+          "G48-E05-B03",
+          "G48-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E05-B01",
+            "G48-E05-B02",
+            "G48-E05-B03",
+            "G48-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G48-E05-AUDIO",
+        "text": "It is difficult for her to choose one song.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G48-E06",
+      "grammarId": "G48",
+      "grammarNameJa": "It is ... for ... to",
+      "english": "It is necessary for us to drink water.",
+      "translationJa": "私たちにとって水を飲むことは必要です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to",
+        "start": 23,
+        "endExclusive": 25,
+        "explanationJa": "長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+      },
+      "sentenceExplanationJa": "「It is necessary for us to drink water.」は「私たちにとって水を飲むことは必要です。」という意味です。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。 この文の対象部分は「to」。まとまりは It is necessary → for us → to → drink water. の順です。",
+      "glossary": [
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "necessary",
+          "lemma": "necessary",
+          "meaningJa": "必要な",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "drink",
+          "lemma": "drink",
+          "meaningJa": "飲む・飲み物",
+          "kind": "word"
+        },
+        {
+          "expression": "water",
+          "lemma": "water",
+          "meaningJa": "水",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It is necessary for us ___ drink water.",
+        "blank": {
+          "start": 23,
+          "endExclusive": 25,
+          "answer": "to"
+        },
+        "options": [
+          {
+            "id": "G48-E06-C4",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E06-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E06-C1",
+            "text": "to",
+            "isCorrect": true,
+            "explanationJa": "正解。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+          },
+          {
+            "id": "G48-E06-C3",
+            "text": "of",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「of」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G48-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G48-E06-B01",
+            "text": "It is necessary",
+            "role": "required"
+          },
+          {
+            "id": "G48-E06-B02",
+            "text": "for us",
+            "role": "required"
+          },
+          {
+            "id": "G48-E06-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E06-B04",
+            "text": "drink water.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G48-E06-B01",
+          "G48-E06-B02",
+          "G48-E06-B03",
+          "G48-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E06-B01",
+            "G48-E06-B02",
+            "G48-E06-B03",
+            "G48-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G48-E06-B01",
+            "text": "It is necessary",
+            "role": "required"
+          },
+          {
+            "id": "G48-E06-B02",
+            "text": "for us",
+            "role": "required"
+          },
+          {
+            "id": "G48-E06-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E06-B04",
+            "text": "drink water.",
+            "role": "required"
+          },
+          {
+            "id": "G48-E06-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E06-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E06-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E06-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E06-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G48-E06-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E06-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E06-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E06-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E06-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G48-E06-B01",
+          "G48-E06-B02",
+          "G48-E06-B03",
+          "G48-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E06-B01",
+            "G48-E06-B02",
+            "G48-E06-B03",
+            "G48-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G48-E06-AUDIO",
+        "text": "It is necessary for us to drink water.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G48-E07",
+      "grammarId": "G48",
+      "grammarNameJa": "It is ... for ... to",
+      "english": "It is exciting for me to visit a new hall.",
+      "translationJa": "私にとって新しい会場を訪れるのはわくわくします。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to",
+        "start": 22,
+        "endExclusive": 24,
+        "explanationJa": "長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+      },
+      "sentenceExplanationJa": "「It is exciting for me to visit a new hall.」は「私にとって新しい会場を訪れるのはわくわくします。」という意味です。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。 この文の対象部分は「to」。まとまりは It is exciting → for me → to → visit a new hall. の順です。",
+      "glossary": [
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "exciting",
+          "lemma": "exciting",
+          "meaningJa": "わくわくさせる",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "visit",
+          "lemma": "visit",
+          "meaningJa": "訪れる",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "new",
+          "lemma": "new",
+          "meaningJa": "新しい",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It is exciting for me ___ visit a new hall.",
+        "blank": {
+          "start": 22,
+          "endExclusive": 24,
+          "answer": "to"
+        },
+        "options": [
+          {
+            "id": "G48-E07-C1",
+            "text": "to",
+            "isCorrect": true,
+            "explanationJa": "正解。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+          },
+          {
+            "id": "G48-E07-C3",
+            "text": "of",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「of」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E07-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E07-C4",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G48-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G48-E07-B01",
+            "text": "It is exciting",
+            "role": "required"
+          },
+          {
+            "id": "G48-E07-B02",
+            "text": "for me",
+            "role": "required"
+          },
+          {
+            "id": "G48-E07-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E07-B04",
+            "text": "visit a new hall.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G48-E07-B01",
+          "G48-E07-B02",
+          "G48-E07-B03",
+          "G48-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E07-B01",
+            "G48-E07-B02",
+            "G48-E07-B03",
+            "G48-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G48-E07-B01",
+            "text": "It is exciting",
+            "role": "required"
+          },
+          {
+            "id": "G48-E07-B02",
+            "text": "for me",
+            "role": "required"
+          },
+          {
+            "id": "G48-E07-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E07-B04",
+            "text": "visit a new hall.",
+            "role": "required"
+          },
+          {
+            "id": "G48-E07-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E07-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E07-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E07-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E07-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G48-E07-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E07-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E07-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E07-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E07-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G48-E07-B01",
+          "G48-E07-B02",
+          "G48-E07-B03",
+          "G48-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E07-B01",
+            "G48-E07-B02",
+            "G48-E07-B03",
+            "G48-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G48-E07-AUDIO",
+        "text": "It is exciting for me to visit a new hall.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G48-E08",
+      "grammarId": "G48",
+      "grammarNameJa": "It is ... for ... to",
+      "english": "It is useful for fans to learn English.",
+      "translationJa": "ファンにとって英語を学ぶことは役に立ちます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to",
+        "start": 22,
+        "endExclusive": 24,
+        "explanationJa": "長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+      },
+      "sentenceExplanationJa": "「It is useful for fans to learn English.」は「ファンにとって英語を学ぶことは役に立ちます。」という意味です。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。 この文の対象部分は「to」。まとまりは It is useful → for fans → to → learn English. の順です。",
+      "glossary": [
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "useful",
+          "lemma": "useful",
+          "meaningJa": "役に立つ",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "fans",
+          "lemma": "fan",
+          "meaningJa": "ファン（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "learn",
+          "lemma": "learn",
+          "meaningJa": "学ぶ",
+          "kind": "word"
+        },
+        {
+          "expression": "English",
+          "lemma": "english",
+          "meaningJa": "英語",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It is useful for fans ___ learn English.",
+        "blank": {
+          "start": 22,
+          "endExclusive": 24,
+          "answer": "to"
+        },
+        "options": [
+          {
+            "id": "G48-E08-C4",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E08-C3",
+            "text": "of",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「of」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E08-C1",
+            "text": "to",
+            "isCorrect": true,
+            "explanationJa": "正解。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+          },
+          {
+            "id": "G48-E08-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G48-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G48-E08-B01",
+            "text": "It is useful",
+            "role": "required"
+          },
+          {
+            "id": "G48-E08-B02",
+            "text": "for fans",
+            "role": "required"
+          },
+          {
+            "id": "G48-E08-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E08-B04",
+            "text": "learn English.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G48-E08-B01",
+          "G48-E08-B02",
+          "G48-E08-B03",
+          "G48-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E08-B01",
+            "G48-E08-B02",
+            "G48-E08-B03",
+            "G48-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G48-E08-B01",
+            "text": "It is useful",
+            "role": "required"
+          },
+          {
+            "id": "G48-E08-B02",
+            "text": "for fans",
+            "role": "required"
+          },
+          {
+            "id": "G48-E08-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E08-B04",
+            "text": "learn English.",
+            "role": "required"
+          },
+          {
+            "id": "G48-E08-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E08-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E08-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E08-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E08-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G48-E08-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E08-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E08-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E08-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E08-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G48-E08-B01",
+          "G48-E08-B02",
+          "G48-E08-B03",
+          "G48-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E08-B01",
+            "G48-E08-B02",
+            "G48-E08-B03",
+            "G48-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G48-E08-AUDIO",
+        "text": "It is useful for fans to learn English.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G48-E09",
+      "grammarId": "G48",
+      "grammarNameJa": "It is ... for ... to",
+      "english": "It is impossible for me to buy every item.",
+      "translationJa": "私にとって全商品を買うのは不可能です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to",
+        "start": 24,
+        "endExclusive": 26,
+        "explanationJa": "長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+      },
+      "sentenceExplanationJa": "「It is impossible for me to buy every item.」は「私にとって全商品を買うのは不可能です。」という意味です。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。 この文の対象部分は「to」。まとまりは It is impossible → for me → to → buy every item. の順です。",
+      "glossary": [
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "impossible",
+          "lemma": "impossible",
+          "meaningJa": "不可能な",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "buy",
+          "lemma": "buy",
+          "meaningJa": "買う",
+          "kind": "word"
+        },
+        {
+          "expression": "every",
+          "lemma": "every",
+          "meaningJa": "毎～・すべての",
+          "kind": "word"
+        },
+        {
+          "expression": "item",
+          "lemma": "item",
+          "meaningJa": "商品・品物",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It is impossible for me ___ buy every item.",
+        "blank": {
+          "start": 24,
+          "endExclusive": 26,
+          "answer": "to"
+        },
+        "options": [
+          {
+            "id": "G48-E09-C3",
+            "text": "of",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「of」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E09-C1",
+            "text": "to",
+            "isCorrect": true,
+            "explanationJa": "正解。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+          },
+          {
+            "id": "G48-E09-C4",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E09-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G48-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G48-E09-B01",
+            "text": "It is impossible",
+            "role": "required"
+          },
+          {
+            "id": "G48-E09-B02",
+            "text": "for me",
+            "role": "required"
+          },
+          {
+            "id": "G48-E09-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E09-B04",
+            "text": "buy every item.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G48-E09-B01",
+          "G48-E09-B02",
+          "G48-E09-B03",
+          "G48-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E09-B01",
+            "G48-E09-B02",
+            "G48-E09-B03",
+            "G48-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G48-E09-B01",
+            "text": "It is impossible",
+            "role": "required"
+          },
+          {
+            "id": "G48-E09-B02",
+            "text": "for me",
+            "role": "required"
+          },
+          {
+            "id": "G48-E09-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E09-B04",
+            "text": "buy every item.",
+            "role": "required"
+          },
+          {
+            "id": "G48-E09-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E09-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E09-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E09-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E09-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G48-E09-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E09-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E09-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E09-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E09-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G48-E09-B01",
+          "G48-E09-B02",
+          "G48-E09-B03",
+          "G48-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E09-B01",
+            "G48-E09-B02",
+            "G48-E09-B03",
+            "G48-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G48-E09-AUDIO",
+        "text": "It is impossible for me to buy every item.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G48-E10",
+      "grammarId": "G48",
+      "grammarNameJa": "It is ... for ... to",
+      "english": "It is safe for us to wait inside.",
+      "translationJa": "私たちにとって中で待つのは安全です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to",
+        "start": 18,
+        "endExclusive": 20,
+        "explanationJa": "長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+      },
+      "sentenceExplanationJa": "「It is safe for us to wait inside.」は「私たちにとって中で待つのは安全です。」という意味です。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。 この文の対象部分は「to」。まとまりは It is safe → for us → to → wait inside. の順です。",
+      "glossary": [
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "safe",
+          "lemma": "safe",
+          "meaningJa": "安全な",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "wait",
+          "lemma": "wait",
+          "meaningJa": "待つ",
+          "kind": "word"
+        },
+        {
+          "expression": "inside",
+          "lemma": "inside",
+          "meaningJa": "中で・中に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It is safe for us ___ wait inside.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 20,
+          "answer": "to"
+        },
+        "options": [
+          {
+            "id": "G48-E10-C1",
+            "text": "to",
+            "isCorrect": true,
+            "explanationJa": "正解。長い主語の代わりにitを置き、for＋人で動作をする人、to不定詞で内容を示す。"
+          },
+          {
+            "id": "G48-E10-C4",
+            "text": "at",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「at」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E10-C3",
+            "text": "of",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「of」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G48-E10-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G48-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G48-E10-B01",
+            "text": "It is safe",
+            "role": "required"
+          },
+          {
+            "id": "G48-E10-B02",
+            "text": "for us",
+            "role": "required"
+          },
+          {
+            "id": "G48-E10-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E10-B04",
+            "text": "wait inside.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G48-E10-B01",
+          "G48-E10-B02",
+          "G48-E10-B03",
+          "G48-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E10-B01",
+            "G48-E10-B02",
+            "G48-E10-B03",
+            "G48-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G48-E10-B01",
+            "text": "It is safe",
+            "role": "required"
+          },
+          {
+            "id": "G48-E10-B02",
+            "text": "for us",
+            "role": "required"
+          },
+          {
+            "id": "G48-E10-B03",
+            "text": "to",
+            "role": "required"
+          },
+          {
+            "id": "G48-E10-B04",
+            "text": "wait inside.",
+            "role": "required"
+          },
+          {
+            "id": "G48-E10-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E10-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E10-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E10-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E10-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G48-E10-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E10-D02",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E10-D03",
+            "text": "at",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E10-D04",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          },
+          {
+            "id": "G48-E10-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G48-E10-B01",
+          "G48-E10-B02",
+          "G48-E10-B03",
+          "G48-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G48-E10-B01",
+            "G48-E10-B02",
+            "G48-E10-B03",
+            "G48-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G48-E10-AUDIO",
+        "text": "It is safe for us to wait inside.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

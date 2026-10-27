@@ -1,0 +1,225 @@
+{
+  "version": "2.0-landscape",
+  "orientation": "landscape",
+  "timeZone": "Asia/Tokyo",
+  "unlimitedPlay": true,
+  "currencies": [
+    "RP"
+  ],
+  "stageQuestionCount": 10,
+  "accuracyPerCorrect": 700,
+  "maxSpeedPerCorrect": 300,
+  "englishMax": 10000,
+  "speedRounding": "floor(x+0.5)",
+  "totalRounding": "floor(x+0.5)",
+  "timeBands": [
+    {
+      "maxBasis": 4,
+      "seconds": 10
+    },
+    {
+      "maxBasis": 6,
+      "seconds": 15
+    },
+    {
+      "maxBasis": 8,
+      "seconds": 20
+    },
+    {
+      "maxBasis": 10,
+      "seconds": 25
+    },
+    {
+      "maxBasis": null,
+      "seconds": 30
+    }
+  ],
+  "judgmentSpeedFraction": {
+    "SUPER PERFECT": 0.8,
+    "PERFECT": 0.4,
+    "GOOD": 0
+  },
+  "starThresholds": {
+    "3": 10,
+    "2": 8,
+    "1": 6
+  },
+  "ranks": {
+    "C": {
+      "maxLevel": 10,
+      "maxBonus": 0.1
+    },
+    "B": {
+      "maxLevel": 20,
+      "maxBonus": 0.2
+    },
+    "A": {
+      "maxLevel": 30,
+      "maxBonus": 0.35
+    },
+    "S": {
+      "maxLevel": 40,
+      "maxBonus": 0.55
+    },
+    "R": {
+      "maxLevel": 50,
+      "maxBonus": 0.8
+    }
+  },
+  "levelCost": {
+    "base": 100,
+    "increment": 20
+  },
+  "teamSize": 3,
+  "teamMembers": [
+    "motoki",
+    "hiroto",
+    "ryoka"
+  ],
+  "rankWeights": {
+    "C": 45,
+    "B": 30,
+    "A": 15,
+    "S": 8,
+    "R": 2
+  },
+  "memberWeights": {
+    "motoki": 1,
+    "hiroto": 1,
+    "ryoka": 1
+  },
+  "packPrices": {
+    "single": 1000,
+    "ten": 9000
+  },
+  "initialPack": {
+    "count": 10,
+    "free": true,
+    "guaranteedOneOfEachMember": true,
+    "guaranteeDraws": 3,
+    "ordinaryDraws": 7
+  },
+  "duplicateRP": {
+    "C": 100,
+    "B": 250,
+    "A": 600,
+    "S": 1200,
+    "R": 2500
+  },
+  "rewards": {
+    "correct": 10,
+    "completion": 50,
+    "login": 50,
+    "starCumulative": [
+      0,
+      100,
+      300,
+      600
+    ]
+  },
+  "xp": {
+    "correct": 10,
+    "completion": 20,
+    "levelEvery": 500,
+    "maxLevel": 99
+  },
+  "missions": {
+    "daily": [
+      {
+        "id": "D-CORRECT",
+        "metric": "correctAnswers",
+        "target": 10,
+        "reward": 100
+      },
+      {
+        "id": "D-STAGE",
+        "metric": "standardStagesCompleted",
+        "target": 3,
+        "reward": 150
+      },
+      {
+        "id": "D-REVIEW",
+        "metric": "distinctReviewedExamples",
+        "target": 5,
+        "reward": 100
+      }
+    ],
+    "weekly": [
+      {
+        "id": "W-CORRECT",
+        "metric": "correctAnswers",
+        "target": 100,
+        "reward": 300
+      },
+      {
+        "id": "W-STAGE",
+        "metric": "standardStagesCompleted",
+        "target": 15,
+        "reward": 300
+      },
+      {
+        "id": "W-STAR3",
+        "metric": "threeStarStandardCompletions",
+        "target": 3,
+        "reward": 300
+      }
+    ]
+  },
+  "review": {
+    "maxQuestions": 10,
+    "correctRP": 10,
+    "completionRP": 50,
+    "updatesStars": false,
+    "updatesBestScore": false
+  },
+  "titleBackground": "title-fixed",
+  "homeBackgroundIds": [
+    "bg-01",
+    "bg-02",
+    "bg-03",
+    "bg-04",
+    "bg-05",
+    "bg-06",
+    "bg-07",
+    "bg-08",
+    "bg-09",
+    "bg-10",
+    "bg-11",
+    "bg-12",
+    "bg-13",
+    "bg-14",
+    "bg-15",
+    "bg-16",
+    "bg-17",
+    "bg-18",
+    "bg-19",
+    "bg-20",
+    "bg-21",
+    "bg-22"
+  ],
+  "playBackgroundPool": [
+    "bg-01",
+    "bg-02",
+    "bg-03",
+    "bg-04",
+    "bg-05",
+    "bg-06",
+    "bg-07",
+    "bg-08",
+    "bg-09",
+    "bg-10",
+    "bg-11",
+    "bg-12",
+    "bg-13",
+    "bg-14",
+    "bg-15",
+    "bg-16",
+    "bg-17",
+    "bg-18",
+    "bg-19",
+    "bg-20",
+    "bg-21",
+    "bg-22"
+  ],
+  "requiresRealUserDeviceTesting": true
+}

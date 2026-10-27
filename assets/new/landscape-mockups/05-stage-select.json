@@ -1,0 +1,11 @@
+{
+  "key": "05-stage-select",
+  "prompt": "Use case: ui-mockup. ONE complete LANDSCAPE iPhone game screen, 2.16:1 aspect, 1844x853 or 2532x1170. Mrs. English English learning game, Japanese language. Match original SUPERSTAR style/layout: flat royal blue panels, thin cyan edge and magenta offset, 45 degree clipped corners, pale cyan horizontal scanline headers. Full screen, NO phone frame or presentation board. Use references as UI STYLE and supplied band photo identity references. NO stamina or energy or headphone counters, NO diamonds; UNLIMITED play. Japanese primary. When header present: avatar サンタ / 推し 大森元貴 / Lv.1 / 連続1日 / 1,200 RP / menu. When nav requested: five equal bottom tabs カード / 図鑑 / ミッション / ショップ / START. Leave safe areas at both sides. No invented celebrity facts. Sample layout only. GRAMMAR selection with compact header. Cyan title 文法ステージ. Three horizontal difficulty tabs EASY NORMAL HARD, EASY selected. Center four portrait grammar covers in carousel, selected be動詞の肯定文, next be動詞の否定文, be動詞の疑問文, 冠詞と複数形. Gold star rows. Bottom left 英語ベスト8,200 / TOTAL9,020; bottom center small 3-member card team; bottom right white START button. Blue cosmic, no random album art.",
+  "refs": [
+    "reference\\IMG_0770.PNG",
+    "asset-review\\img-000.png"
+  ],
+  "source": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-20368852-e0c8-4c8c-96b1-b089a29e8808.png",
+  "orientation": "landscape",
+  "purpose": "nonbinding visual concept; docs control rules"
+}

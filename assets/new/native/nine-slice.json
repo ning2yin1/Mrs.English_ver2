@@ -1,0 +1,71 @@
+{
+  "sources": [
+    {
+      "file": "panel-blue.svg",
+      "sourcePixels": [
+        96,
+        96
+      ],
+      "slice": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "fillCenter": true,
+      "borderCssPx": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "repeat": "stretch",
+      "labelIsRuntimeText": true
+    },
+    {
+      "file": "button-white.svg",
+      "sourcePixels": [
+        96,
+        96
+      ],
+      "slice": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "fillCenter": true,
+      "borderCssPx": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "repeat": "stretch",
+      "labelIsRuntimeText": true
+    },
+    {
+      "file": "header-purple.svg",
+      "sourcePixels": [
+        96,
+        96
+      ],
+      "slice": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "fillCenter": true,
+      "borderCssPx": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "repeat": "stretch",
+      "labelIsRuntimeText": true
+    }
+  ],
+  "notesJa": "角は拡大せず中央を伸長。ヘッダー縞・文字・アイコンは別レイヤー。SVG原本は生成画像ではなく寸法が確定した幾何部品。"
+}

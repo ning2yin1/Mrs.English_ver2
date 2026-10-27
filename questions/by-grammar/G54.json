@@ -1,0 +1,2505 @@
+{
+  "grammarId": "G54",
+  "examples": [
+    {
+      "id": "G54-E01",
+      "grammarId": "G54",
+      "grammarNameJa": "現在完了・継続とfor・since",
+      "english": "I have been a fan for three years.",
+      "translationJa": "私は3年間ずっとファンです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "for",
+        "start": 18,
+        "endExclusive": 21,
+        "explanationJa": "状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+      },
+      "sentenceExplanationJa": "「I have been a fan for three years.」は「私は3年間ずっとファンです。」という意味です。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。 この文の対象部分は「for」。まとまりは I have been → a fan → for → three years. の順です。",
+      "glossary": [
+        {
+          "expression": "a fan",
+          "meaningJa": "ファンの一人",
+          "kind": "phrase"
+        },
+        {
+          "expression": "for three years",
+          "meaningJa": "3年間",
+          "kind": "phrase"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "fan",
+          "lemma": "fan",
+          "meaningJa": "ファン",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "three",
+          "lemma": "three",
+          "meaningJa": "3",
+          "kind": "word"
+        },
+        {
+          "expression": "years",
+          "lemma": "year",
+          "meaningJa": "年・1年間（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I have been a fan ___ three years.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 21,
+          "answer": "for"
+        },
+        "options": [
+          {
+            "id": "G54-E01-C3",
+            "text": "during",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「during」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E01-C1",
+            "text": "for",
+            "isCorrect": true,
+            "explanationJa": "正解。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+          },
+          {
+            "id": "G54-E01-C4",
+            "text": "until",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「until」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E01-C2",
+            "text": "since",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「since」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G54-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G54-E01-B01",
+            "text": "I have been",
+            "role": "required"
+          },
+          {
+            "id": "G54-E01-B02",
+            "text": "a fan",
+            "role": "required"
+          },
+          {
+            "id": "G54-E01-B03",
+            "text": "for",
+            "role": "required"
+          },
+          {
+            "id": "G54-E01-B04",
+            "text": "three years.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G54-E01-B01",
+          "G54-E01-B02",
+          "G54-E01-B03",
+          "G54-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E01-B01",
+            "G54-E01-B02",
+            "G54-E01-B03",
+            "G54-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G54-E01-B01",
+            "text": "I have been",
+            "role": "required"
+          },
+          {
+            "id": "G54-E01-B02",
+            "text": "a fan",
+            "role": "required"
+          },
+          {
+            "id": "G54-E01-B03",
+            "text": "for",
+            "role": "required"
+          },
+          {
+            "id": "G54-E01-B04",
+            "text": "three years.",
+            "role": "required"
+          },
+          {
+            "id": "G54-E01-D01",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E01-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E01-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E01-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G54-E01-D01",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E01-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E01-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E01-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G54-E01-B01",
+          "G54-E01-B02",
+          "G54-E01-B03",
+          "G54-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E01-B01",
+            "G54-E01-B02",
+            "G54-E01-B03",
+            "G54-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G54-E01-AUDIO",
+        "text": "I have been a fan for three years.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G54-E02",
+      "grammarId": "G54",
+      "grammarNameJa": "現在完了・継続とfor・since",
+      "english": "She has known this song since 2020.",
+      "translationJa": "彼女は2020年からこの曲を知っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "since",
+        "start": 24,
+        "endExclusive": 29,
+        "explanationJa": "状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+      },
+      "sentenceExplanationJa": "「She has known this song since 2020.」は「彼女は2020年からこの曲を知っています。」という意味です。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。 この文の対象部分は「since」。まとまりは She has known → this song → since → 2020. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "known",
+          "lemma": "know",
+          "meaningJa": "知っている（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "since",
+          "lemma": "since",
+          "meaningJa": "～以来",
+          "kind": "word"
+        },
+        {
+          "expression": "2020",
+          "meaningJa": "2020という数・年",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She has known this song ___ 2020.",
+        "blank": {
+          "start": 24,
+          "endExclusive": 29,
+          "answer": "since"
+        },
+        "options": [
+          {
+            "id": "G54-E02-C4",
+            "text": "until",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「until」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E02-C3",
+            "text": "during",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「during」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E02-C1",
+            "text": "since",
+            "isCorrect": true,
+            "explanationJa": "正解。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+          },
+          {
+            "id": "G54-E02-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G54-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G54-E02-B01",
+            "text": "She has known",
+            "role": "required"
+          },
+          {
+            "id": "G54-E02-B02",
+            "text": "this song",
+            "role": "required"
+          },
+          {
+            "id": "G54-E02-B03",
+            "text": "since",
+            "role": "required"
+          },
+          {
+            "id": "G54-E02-B04",
+            "text": "2020.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G54-E02-B01",
+          "G54-E02-B02",
+          "G54-E02-B03",
+          "G54-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E02-B01",
+            "G54-E02-B02",
+            "G54-E02-B03",
+            "G54-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G54-E02-B01",
+            "text": "She has known",
+            "role": "required"
+          },
+          {
+            "id": "G54-E02-B02",
+            "text": "this song",
+            "role": "required"
+          },
+          {
+            "id": "G54-E02-B03",
+            "text": "since",
+            "role": "required"
+          },
+          {
+            "id": "G54-E02-B04",
+            "text": "2020.",
+            "role": "required"
+          },
+          {
+            "id": "G54-E02-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E02-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E02-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E02-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G54-E02-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E02-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E02-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E02-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G54-E02-B01",
+          "G54-E02-B02",
+          "G54-E02-B03",
+          "G54-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E02-B01",
+            "G54-E02-B02",
+            "G54-E02-B03",
+            "G54-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G54-E02-AUDIO",
+        "text": "She has known this song since 2020.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G54-E03",
+      "grammarId": "G54",
+      "grammarNameJa": "現在完了・継続とfor・since",
+      "english": "We have lived here for five years.",
+      "translationJa": "私たちはここに5年間住んでいます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "for",
+        "start": 19,
+        "endExclusive": 22,
+        "explanationJa": "状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+      },
+      "sentenceExplanationJa": "「We have lived here for five years.」は「私たちはここに5年間住んでいます。」という意味です。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。 この文の対象部分は「for」。まとまりは We have lived → here → for → five years. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "lived",
+          "lemma": "live",
+          "meaningJa": "住む／生の・生配信の（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "here",
+          "lemma": "here",
+          "meaningJa": "ここに・ここで",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "five",
+          "lemma": "five",
+          "meaningJa": "5",
+          "kind": "word"
+        },
+        {
+          "expression": "years",
+          "lemma": "year",
+          "meaningJa": "年・1年間（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We have lived here ___ five years.",
+        "blank": {
+          "start": 19,
+          "endExclusive": 22,
+          "answer": "for"
+        },
+        "options": [
+          {
+            "id": "G54-E03-C1",
+            "text": "for",
+            "isCorrect": true,
+            "explanationJa": "正解。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+          },
+          {
+            "id": "G54-E03-C3",
+            "text": "during",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「during」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E03-C2",
+            "text": "since",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「since」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E03-C4",
+            "text": "until",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「until」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G54-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G54-E03-B01",
+            "text": "We have lived",
+            "role": "required"
+          },
+          {
+            "id": "G54-E03-B02",
+            "text": "here",
+            "role": "required"
+          },
+          {
+            "id": "G54-E03-B03",
+            "text": "for",
+            "role": "required"
+          },
+          {
+            "id": "G54-E03-B04",
+            "text": "five years.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G54-E03-B01",
+          "G54-E03-B02",
+          "G54-E03-B03",
+          "G54-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E03-B01",
+            "G54-E03-B02",
+            "G54-E03-B03",
+            "G54-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G54-E03-B01",
+            "text": "We have lived",
+            "role": "required"
+          },
+          {
+            "id": "G54-E03-B02",
+            "text": "here",
+            "role": "required"
+          },
+          {
+            "id": "G54-E03-B03",
+            "text": "for",
+            "role": "required"
+          },
+          {
+            "id": "G54-E03-B04",
+            "text": "five years.",
+            "role": "required"
+          },
+          {
+            "id": "G54-E03-D01",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E03-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E03-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E03-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G54-E03-D01",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E03-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E03-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E03-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G54-E03-B01",
+          "G54-E03-B02",
+          "G54-E03-B03",
+          "G54-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E03-B01",
+            "G54-E03-B02",
+            "G54-E03-B03",
+            "G54-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G54-E03-AUDIO",
+        "text": "We have lived here for five years.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G54-E04",
+      "grammarId": "G54",
+      "grammarNameJa": "現在完了・継続とfor・since",
+      "english": "He has had this guitar since his birthday.",
+      "translationJa": "彼は誕生日からこのギターを持っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "since",
+        "start": 23,
+        "endExclusive": 28,
+        "explanationJa": "状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+      },
+      "sentenceExplanationJa": "「He has had this guitar since his birthday.」は「彼は誕生日からこのギターを持っています。」という意味です。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。 この文の対象部分は「since」。まとまりは He has had → this guitar → since → his birthday. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "had",
+          "lemma": "had",
+          "meaningJa": "haveの過去形・過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "guitar",
+          "lemma": "guitar",
+          "meaningJa": "ギター",
+          "kind": "word"
+        },
+        {
+          "expression": "since",
+          "lemma": "since",
+          "meaningJa": "～以来",
+          "kind": "word"
+        },
+        {
+          "expression": "his",
+          "lemma": "his",
+          "meaningJa": "彼の・彼のもの",
+          "kind": "word"
+        },
+        {
+          "expression": "birthday",
+          "lemma": "birthday",
+          "meaningJa": "誕生日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He has had this guitar ___ his birthday.",
+        "blank": {
+          "start": 23,
+          "endExclusive": 28,
+          "answer": "since"
+        },
+        "options": [
+          {
+            "id": "G54-E04-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E04-C1",
+            "text": "since",
+            "isCorrect": true,
+            "explanationJa": "正解。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+          },
+          {
+            "id": "G54-E04-C4",
+            "text": "until",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「until」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E04-C3",
+            "text": "during",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「during」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G54-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G54-E04-B01",
+            "text": "He has had",
+            "role": "required"
+          },
+          {
+            "id": "G54-E04-B02",
+            "text": "this guitar",
+            "role": "required"
+          },
+          {
+            "id": "G54-E04-B03",
+            "text": "since",
+            "role": "required"
+          },
+          {
+            "id": "G54-E04-B04",
+            "text": "his birthday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G54-E04-B01",
+          "G54-E04-B02",
+          "G54-E04-B03",
+          "G54-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E04-B01",
+            "G54-E04-B02",
+            "G54-E04-B03",
+            "G54-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G54-E04-B01",
+            "text": "He has had",
+            "role": "required"
+          },
+          {
+            "id": "G54-E04-B02",
+            "text": "this guitar",
+            "role": "required"
+          },
+          {
+            "id": "G54-E04-B03",
+            "text": "since",
+            "role": "required"
+          },
+          {
+            "id": "G54-E04-B04",
+            "text": "his birthday.",
+            "role": "required"
+          },
+          {
+            "id": "G54-E04-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E04-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E04-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E04-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G54-E04-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E04-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E04-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E04-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G54-E04-B01",
+          "G54-E04-B02",
+          "G54-E04-B03",
+          "G54-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E04-B01",
+            "G54-E04-B02",
+            "G54-E04-B03",
+            "G54-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G54-E04-AUDIO",
+        "text": "He has had this guitar since his birthday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G54-E05",
+      "grammarId": "G54",
+      "grammarNameJa": "現在完了・継続とfor・since",
+      "english": "I have wanted this towel for a month.",
+      "translationJa": "私は1か月間このタオルが欲しいと思い続けています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "for",
+        "start": 25,
+        "endExclusive": 28,
+        "explanationJa": "状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+      },
+      "sentenceExplanationJa": "「I have wanted this towel for a month.」は「私は1か月間このタオルが欲しいと思い続けています。」という意味です。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。 この文の対象部分は「for」。まとまりは I have wanted → this towel → for → a month. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "wanted",
+          "lemma": "want",
+          "meaningJa": "欲しい・～したい（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "month",
+          "lemma": "month",
+          "meaningJa": "月・1か月",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I have wanted this towel ___ a month.",
+        "blank": {
+          "start": 25,
+          "endExclusive": 28,
+          "answer": "for"
+        },
+        "options": [
+          {
+            "id": "G54-E05-C3",
+            "text": "during",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「during」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E05-C1",
+            "text": "for",
+            "isCorrect": true,
+            "explanationJa": "正解。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+          },
+          {
+            "id": "G54-E05-C2",
+            "text": "since",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「since」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E05-C4",
+            "text": "until",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「until」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G54-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G54-E05-B01",
+            "text": "I have wanted",
+            "role": "required"
+          },
+          {
+            "id": "G54-E05-B02",
+            "text": "this towel",
+            "role": "required"
+          },
+          {
+            "id": "G54-E05-B03",
+            "text": "for",
+            "role": "required"
+          },
+          {
+            "id": "G54-E05-B04",
+            "text": "a month.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G54-E05-B01",
+          "G54-E05-B02",
+          "G54-E05-B03",
+          "G54-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E05-B01",
+            "G54-E05-B02",
+            "G54-E05-B03",
+            "G54-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G54-E05-B01",
+            "text": "I have wanted",
+            "role": "required"
+          },
+          {
+            "id": "G54-E05-B02",
+            "text": "this towel",
+            "role": "required"
+          },
+          {
+            "id": "G54-E05-B03",
+            "text": "for",
+            "role": "required"
+          },
+          {
+            "id": "G54-E05-B04",
+            "text": "a month.",
+            "role": "required"
+          },
+          {
+            "id": "G54-E05-D01",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E05-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E05-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E05-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G54-E05-D01",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E05-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E05-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E05-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G54-E05-B01",
+          "G54-E05-B02",
+          "G54-E05-B03",
+          "G54-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E05-B01",
+            "G54-E05-B02",
+            "G54-E05-B03",
+            "G54-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G54-E05-AUDIO",
+        "text": "I have wanted this towel for a month.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G54-E06",
+      "grammarId": "G54",
+      "grammarNameJa": "現在完了・継続とfor・since",
+      "english": "The shop has been open since ten this morning.",
+      "translationJa": "その店は今朝10時から開いています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "since",
+        "start": 23,
+        "endExclusive": 28,
+        "explanationJa": "状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+      },
+      "sentenceExplanationJa": "「The shop has been open since ten this morning.」は「その店は今朝10時から開いています。」という意味です。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。 この文の対象部分は「since」。まとまりは The shop has been → open → since → ten this morning. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "shop",
+          "lemma": "shop",
+          "meaningJa": "店",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "open",
+          "lemma": "open",
+          "meaningJa": "開いている・開ける",
+          "kind": "word"
+        },
+        {
+          "expression": "since",
+          "lemma": "since",
+          "meaningJa": "～以来",
+          "kind": "word"
+        },
+        {
+          "expression": "ten",
+          "lemma": "ten",
+          "meaningJa": "10・10時",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "morning",
+          "lemma": "morning",
+          "meaningJa": "朝・午前",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The shop has been open ___ ten this morning.",
+        "blank": {
+          "start": 23,
+          "endExclusive": 28,
+          "answer": "since"
+        },
+        "options": [
+          {
+            "id": "G54-E06-C4",
+            "text": "until",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「until」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E06-C3",
+            "text": "during",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「during」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E06-C1",
+            "text": "since",
+            "isCorrect": true,
+            "explanationJa": "正解。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+          },
+          {
+            "id": "G54-E06-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G54-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G54-E06-B01",
+            "text": "The shop has been",
+            "role": "required"
+          },
+          {
+            "id": "G54-E06-B02",
+            "text": "open",
+            "role": "required"
+          },
+          {
+            "id": "G54-E06-B03",
+            "text": "since",
+            "role": "required"
+          },
+          {
+            "id": "G54-E06-B04",
+            "text": "ten this morning.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G54-E06-B01",
+          "G54-E06-B02",
+          "G54-E06-B03",
+          "G54-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E06-B01",
+            "G54-E06-B02",
+            "G54-E06-B03",
+            "G54-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G54-E06-B01",
+            "text": "The shop has been",
+            "role": "required"
+          },
+          {
+            "id": "G54-E06-B02",
+            "text": "open",
+            "role": "required"
+          },
+          {
+            "id": "G54-E06-B03",
+            "text": "since",
+            "role": "required"
+          },
+          {
+            "id": "G54-E06-B04",
+            "text": "ten this morning.",
+            "role": "required"
+          },
+          {
+            "id": "G54-E06-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E06-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E06-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E06-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G54-E06-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E06-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E06-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E06-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G54-E06-B01",
+          "G54-E06-B02",
+          "G54-E06-B03",
+          "G54-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E06-B01",
+            "G54-E06-B02",
+            "G54-E06-B03",
+            "G54-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G54-E06-AUDIO",
+        "text": "The shop has been open since ten this morning.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G54-E07",
+      "grammarId": "G54",
+      "grammarNameJa": "現在完了・継続とfor・since",
+      "english": "They have been friends for ten years.",
+      "translationJa": "彼らは10年間ずっと友達です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "for",
+        "start": 23,
+        "endExclusive": 26,
+        "explanationJa": "状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+      },
+      "sentenceExplanationJa": "「They have been friends for ten years.」は「彼らは10年間ずっと友達です。」という意味です。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。 この文の対象部分は「for」。まとまりは They have been → friends → for → ten years. の順です。",
+      "glossary": [
+        {
+          "expression": "They",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "friends",
+          "lemma": "friend",
+          "meaningJa": "友達（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "ten",
+          "lemma": "ten",
+          "meaningJa": "10・10時",
+          "kind": "word"
+        },
+        {
+          "expression": "years",
+          "lemma": "year",
+          "meaningJa": "年・1年間（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "They have been friends ___ ten years.",
+        "blank": {
+          "start": 23,
+          "endExclusive": 26,
+          "answer": "for"
+        },
+        "options": [
+          {
+            "id": "G54-E07-C4",
+            "text": "until",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「until」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E07-C1",
+            "text": "for",
+            "isCorrect": true,
+            "explanationJa": "正解。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+          },
+          {
+            "id": "G54-E07-C3",
+            "text": "during",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「during」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E07-C2",
+            "text": "since",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「since」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G54-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G54-E07-B01",
+            "text": "They have been",
+            "role": "required"
+          },
+          {
+            "id": "G54-E07-B02",
+            "text": "friends",
+            "role": "required"
+          },
+          {
+            "id": "G54-E07-B03",
+            "text": "for",
+            "role": "required"
+          },
+          {
+            "id": "G54-E07-B04",
+            "text": "ten years.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G54-E07-B01",
+          "G54-E07-B02",
+          "G54-E07-B03",
+          "G54-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E07-B01",
+            "G54-E07-B02",
+            "G54-E07-B03",
+            "G54-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G54-E07-B01",
+            "text": "They have been",
+            "role": "required"
+          },
+          {
+            "id": "G54-E07-B02",
+            "text": "friends",
+            "role": "required"
+          },
+          {
+            "id": "G54-E07-B03",
+            "text": "for",
+            "role": "required"
+          },
+          {
+            "id": "G54-E07-B04",
+            "text": "ten years.",
+            "role": "required"
+          },
+          {
+            "id": "G54-E07-D01",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E07-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E07-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E07-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G54-E07-D01",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E07-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E07-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E07-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G54-E07-B01",
+          "G54-E07-B02",
+          "G54-E07-B03",
+          "G54-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E07-B01",
+            "G54-E07-B02",
+            "G54-E07-B03",
+            "G54-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G54-E07-AUDIO",
+        "text": "They have been friends for ten years.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G54-E08",
+      "grammarId": "G54",
+      "grammarNameJa": "現在完了・継続とfor・since",
+      "english": "I have liked green since I was little.",
+      "translationJa": "私は幼い頃から緑色が好きです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "since",
+        "start": 19,
+        "endExclusive": 24,
+        "explanationJa": "状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+      },
+      "sentenceExplanationJa": "「I have liked green since I was little.」は「私は幼い頃から緑色が好きです。」という意味です。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。 この文の対象部分は「since」。まとまりは I have liked → green → since → I was little. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "liked",
+          "lemma": "like",
+          "meaningJa": "好きである（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "green",
+          "lemma": "green",
+          "meaningJa": "緑・緑色の",
+          "kind": "word"
+        },
+        {
+          "expression": "since",
+          "lemma": "since",
+          "meaningJa": "～以来",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "little",
+          "lemma": "little",
+          "meaningJa": "小さな・幼い",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I have liked green ___ I was little.",
+        "blank": {
+          "start": 19,
+          "endExclusive": 24,
+          "answer": "since"
+        },
+        "options": [
+          {
+            "id": "G54-E08-C3",
+            "text": "during",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「during」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E08-C4",
+            "text": "until",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「until」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E08-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E08-C1",
+            "text": "since",
+            "isCorrect": true,
+            "explanationJa": "正解。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+          }
+        ],
+        "correctOptionId": "G54-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G54-E08-B01",
+            "text": "I have liked",
+            "role": "required"
+          },
+          {
+            "id": "G54-E08-B02",
+            "text": "green",
+            "role": "required"
+          },
+          {
+            "id": "G54-E08-B03",
+            "text": "since",
+            "role": "required"
+          },
+          {
+            "id": "G54-E08-B04",
+            "text": "I was little.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G54-E08-B01",
+          "G54-E08-B02",
+          "G54-E08-B03",
+          "G54-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E08-B01",
+            "G54-E08-B02",
+            "G54-E08-B03",
+            "G54-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G54-E08-B01",
+            "text": "I have liked",
+            "role": "required"
+          },
+          {
+            "id": "G54-E08-B02",
+            "text": "green",
+            "role": "required"
+          },
+          {
+            "id": "G54-E08-B03",
+            "text": "since",
+            "role": "required"
+          },
+          {
+            "id": "G54-E08-B04",
+            "text": "I was little.",
+            "role": "required"
+          },
+          {
+            "id": "G54-E08-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E08-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E08-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E08-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G54-E08-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E08-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E08-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E08-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G54-E08-B01",
+          "G54-E08-B02",
+          "G54-E08-B03",
+          "G54-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E08-B01",
+            "G54-E08-B02",
+            "G54-E08-B03",
+            "G54-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G54-E08-AUDIO",
+        "text": "I have liked green since I was little.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G54-E09",
+      "grammarId": "G54",
+      "grammarNameJa": "現在完了・継続とfor・since",
+      "english": "She has been busy for two weeks.",
+      "translationJa": "彼女は2週間ずっと忙しいです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "for",
+        "start": 18,
+        "endExclusive": 21,
+        "explanationJa": "状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+      },
+      "sentenceExplanationJa": "「She has been busy for two weeks.」は「彼女は2週間ずっと忙しいです。」という意味です。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。 この文の対象部分は「for」。まとまりは She has been → busy → for → two weeks. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        },
+        {
+          "expression": "been",
+          "lemma": "been",
+          "meaningJa": "beの過去分詞",
+          "kind": "word"
+        },
+        {
+          "expression": "busy",
+          "lemma": "busy",
+          "meaningJa": "忙しい",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "two",
+          "lemma": "two",
+          "meaningJa": "2",
+          "kind": "word"
+        },
+        {
+          "expression": "weeks",
+          "lemma": "week",
+          "meaningJa": "週・1週間（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She has been busy ___ two weeks.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 21,
+          "answer": "for"
+        },
+        "options": [
+          {
+            "id": "G54-E09-C4",
+            "text": "until",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「until」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E09-C1",
+            "text": "for",
+            "isCorrect": true,
+            "explanationJa": "正解。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+          },
+          {
+            "id": "G54-E09-C2",
+            "text": "since",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「since」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E09-C3",
+            "text": "during",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「for」を使います。「during」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G54-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G54-E09-B01",
+            "text": "She has been",
+            "role": "required"
+          },
+          {
+            "id": "G54-E09-B02",
+            "text": "busy",
+            "role": "required"
+          },
+          {
+            "id": "G54-E09-B03",
+            "text": "for",
+            "role": "required"
+          },
+          {
+            "id": "G54-E09-B04",
+            "text": "two weeks.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G54-E09-B01",
+          "G54-E09-B02",
+          "G54-E09-B03",
+          "G54-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E09-B01",
+            "G54-E09-B02",
+            "G54-E09-B03",
+            "G54-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G54-E09-B01",
+            "text": "She has been",
+            "role": "required"
+          },
+          {
+            "id": "G54-E09-B02",
+            "text": "busy",
+            "role": "required"
+          },
+          {
+            "id": "G54-E09-B03",
+            "text": "for",
+            "role": "required"
+          },
+          {
+            "id": "G54-E09-B04",
+            "text": "two weeks.",
+            "role": "required"
+          },
+          {
+            "id": "G54-E09-D01",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E09-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E09-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E09-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G54-E09-D01",
+            "text": "since",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E09-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E09-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          },
+          {
+            "id": "G54-E09-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「for」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G54-E09-B01",
+          "G54-E09-B02",
+          "G54-E09-B03",
+          "G54-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E09-B01",
+            "G54-E09-B02",
+            "G54-E09-B03",
+            "G54-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G54-E09-AUDIO",
+        "text": "She has been busy for two weeks.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G54-E10",
+      "grammarId": "G54",
+      "grammarNameJa": "現在完了・継続とfor・since",
+      "english": "We have known each other since last summer.",
+      "translationJa": "私たちは去年の夏から知り合いです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "since",
+        "start": 25,
+        "endExclusive": 30,
+        "explanationJa": "状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+      },
+      "sentenceExplanationJa": "「We have known each other since last summer.」は「私たちは去年の夏から知り合いです。」という意味です。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。 この文の対象部分は「since」。まとまりは We have known → each other → since → last summer. の順です。",
+      "glossary": [
+        {
+          "expression": "each other",
+          "meaningJa": "お互い",
+          "kind": "phrase"
+        },
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "known",
+          "lemma": "know",
+          "meaningJa": "知っている（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "each",
+          "lemma": "each",
+          "meaningJa": "それぞれの",
+          "kind": "word"
+        },
+        {
+          "expression": "other",
+          "lemma": "other",
+          "meaningJa": "ほかの",
+          "kind": "word"
+        },
+        {
+          "expression": "since",
+          "lemma": "since",
+          "meaningJa": "～以来",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "summer",
+          "lemma": "summer",
+          "meaningJa": "夏",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We have known each other ___ last summer.",
+        "blank": {
+          "start": 25,
+          "endExclusive": 30,
+          "answer": "since"
+        },
+        "options": [
+          {
+            "id": "G54-E10-C1",
+            "text": "since",
+            "isCorrect": true,
+            "explanationJa": "正解。状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。"
+          },
+          {
+            "id": "G54-E10-C4",
+            "text": "until",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「until」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E10-C2",
+            "text": "for",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「for」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G54-E10-C3",
+            "text": "during",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「since」を使います。「during」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G54-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G54-E10-B01",
+            "text": "We have known",
+            "role": "required"
+          },
+          {
+            "id": "G54-E10-B02",
+            "text": "each other",
+            "role": "required"
+          },
+          {
+            "id": "G54-E10-B03",
+            "text": "since",
+            "role": "required"
+          },
+          {
+            "id": "G54-E10-B04",
+            "text": "last summer.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G54-E10-B01",
+          "G54-E10-B02",
+          "G54-E10-B03",
+          "G54-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E10-B01",
+            "G54-E10-B02",
+            "G54-E10-B03",
+            "G54-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G54-E10-B01",
+            "text": "We have known",
+            "role": "required"
+          },
+          {
+            "id": "G54-E10-B02",
+            "text": "each other",
+            "role": "required"
+          },
+          {
+            "id": "G54-E10-B03",
+            "text": "since",
+            "role": "required"
+          },
+          {
+            "id": "G54-E10-B04",
+            "text": "last summer.",
+            "role": "required"
+          },
+          {
+            "id": "G54-E10-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E10-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E10-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E10-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G54-E10-D01",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E10-D02",
+            "text": "during",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E10-D03",
+            "text": "until",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          },
+          {
+            "id": "G54-E10-D05",
+            "text": "of",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「since」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G54-E10-B01",
+          "G54-E10-B02",
+          "G54-E10-B03",
+          "G54-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G54-E10-B01",
+            "G54-E10-B02",
+            "G54-E10-B03",
+            "G54-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G54-E10-AUDIO",
+        "text": "We have known each other since last summer.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

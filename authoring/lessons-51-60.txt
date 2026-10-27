@@ -1,0 +1,110 @@
+@51|受け身の過去形|3|was・were＋過去分詞で過去にされたことを表す。主語の単複に合わせる。|was~were~is~are
+This song/[was]/played/last night.|この曲は昨夜演奏されました。
+The tickets/[were]/sold/yesterday.|チケットは昨日販売されました。
+My bag/[was]/found/this morning.|私のバッグは今朝見つかりました。
+The photos/[were]/taken/after the show.|その写真は公演後に撮られました。
+The concert/[was]/canceled/last week.|コンサートは先週中止になりました。
+We/[were]/invited/to the party/yesterday.|私たちは昨日パーティーに招待されました。
+The letter/[was]/written/last Sunday.|その手紙は先週の日曜日に書かれました。
+These posters/[were]/printed/last month.|これらのポスターは先月印刷されました。
+The hall/[was]/built/ten years ago.|会場は10年前に建てられました。
+The windows/[were]/closed/before the show.|窓は公演前に閉められました。
+@52|現在完了・経験|3|have・has＋過去分詞にever・never・回数表現を添え、今までの経験を表す。過去の日時と併用しない。|have~has~am~is
+I/[have]/seen/this band/twice.|私はこのバンドを2回見たことがあります。
+She/[has]/visited/this hall/before.|彼女は以前この会場を訪れたことがあります。
+We/[have]/never missed/a concert.|私たちはコンサートを一度も見逃したことがありません。
+He/[has]/never sung/on a stage.|彼はステージで歌ったことがありません。
+I/[have]/been/to Osaka/three times.|私は大阪へ3回行ったことがあります。
+My sister/[has]/met/that singer/once.|姉はその歌手に一度会ったことがあります。
+They/[have]/played/this song/many times.|彼らはこの曲を何度も演奏したことがあります。
+I/[have]/never won/a ticket.|私はチケットの抽選に一度も当たったことがありません。
+He/[has]/tried/this app/before.|彼は以前このアプリを使ってみたことがあります。
+We/[have]/heard/that story/many times.|私たちはその話を何度も聞いたことがあります。
+@53|現在完了・完了と結果|3|have・has＋過去分詞で現在につながる完了・結果を表す。just・already・yetも確認する。|have~has~am~is
+I/[have]/just bought/a ticket.|私はちょうどチケットを買ったところです。
+She/[has]/already finished/her homework.|彼女はもう宿題を終えました。
+We/[have]/just arrived/at the hall.|私たちはちょうど会場に着いたところです。
+He/[has]/lost/his ticket.|彼はチケットをなくしてしまい、今もありません。
+I/[have]/already packed/my bag.|私はもうバッグに荷物を詰めました。
+The show/[has]/just started.|公演はちょうど始まったところです。
+They/[have]/already left/the station.|彼らはすでに駅を出発しました。
+My phone/[has]/stopped/working.|私の携帯電話は動かなくなってしまいました。
+I/[have]/not checked/the news/yet.|私はまだその知らせを確認していません。
+She/[has]/just opened/her card pack.|彼女はちょうどカードパックを開けたところです。
+@54|現在完了・継続とfor・since|3|状態が過去から今まで続くことを現在完了で表す。forは期間、sinceは開始時点。|for~since~during~until
+I have been/a fan/[for]/three years.|私は3年間ずっとファンです。
+She has known/this song/[since]/2020.|彼女は2020年からこの曲を知っています。
+We have lived/here/[for]/five years.|私たちはここに5年間住んでいます。
+He has had/this guitar/[since]/his birthday.|彼は誕生日からこのギターを持っています。
+I have wanted/this towel/[for]/a month.|私は1か月間このタオルが欲しいと思い続けています。
+The shop has been/open/[since]/ten this morning.|その店は今朝10時から開いています。
+They have been/friends/[for]/ten years.|彼らは10年間ずっと友達です。
+I have liked/green/[since]/I was little.|私は幼い頃から緑色が好きです。
+She has been/busy/[for]/two weeks.|彼女は2週間ずっと忙しいです。
+We have known/each other/[since]/last summer.|私たちは去年の夏から知り合いです。
+@55|現在完了進行形|3|have・has been＋ing形で過去から今まで続いている動作を表す。|have~has~am~is
+I/[have]/been waiting/for an hour.|私は1時間ずっと待っています。
+She/[has]/been practicing/since morning.|彼女は朝からずっと練習しています。
+We/[have]/been saving money/for three months.|私たちは3か月間ずっとお金を貯めています。
+He/[has]/been looking for/his ticket/since noon.|彼は正午からずっとチケットを探しています。
+They/[have]/been talking/about the concert/for an hour.|彼らは1時間ずっとコンサートの話をしています。
+I/[have]/been studying English/since April.|私は4月からずっと英語を勉強しています。
+My sister/[has]/been listening/to this album/all morning.|姉は午前中ずっとこのアルバムを聴いています。
+We/[have]/been standing/in this line/since eight.|私たちは8時からずっとこの列に並んでいます。
+It/[has]/been raining/since last night.|昨夜からずっと雨が降っています。
+You/[have]/been working/too hard/lately.|あなたは最近ずっと働きすぎています。
+@56|関係代名詞・主格|3|人にはwho・that、物にはwhich・thatを使い、名詞を後ろから説明する。ここでは指定された関係詞の型を使う。|AUTO
+I know/a fan/[who]/speaks English.|私は英語を話すファンを知っています。
+This is/the song/[that]/makes me smile.|これは私を笑顔にする曲です。
+She has/a friend/[who]/plays the guitar.|彼女にはギターを弾く友達がいます。
+I want/a bag/[which]/holds many towels.|私はタオルがたくさん入るバッグが欲しいです。
+The boy/[who]/is singing/is my brother.|歌っている男の子は私の弟です。
+This is/the bus/[that]/goes to the hall.|これは会場へ行くバスです。
+I met/a woman/[who]/knows this band.|私はこのバンドを知っている女性に会いました。
+The card/[which]/is on the desk/is mine.|机の上にあるカードは私のものです。
+We need/a guide/[who]/can help us.|私たちには助けてくれる案内係が必要です。
+I like/songs/[that]/tell a story.|私は物語を伝える曲が好きです。
+@57|関係代名詞・目的格と省略|3|名詞の後ろに主語＋動詞を置いて目的語の役割を説明する。目的格のthat・whichは省略できる。|AUTO
+This is/the ticket/[that]/I bought.|これは私が買ったチケットです。
+I like/the song/[which]/you chose.|私はあなたが選んだ曲が好きです。
+The fan/[that]/I met yesterday/was kind.|昨日私が会ったファンは親切でした。
+This is/the towel/[that]/my sister gave me.|これは姉が私にくれたタオルです。
+The book/[which]/I am reading/is interesting.|私が読んでいる本はおもしろいです。
+I found/the card/[that]/you wanted.|私はあなたが欲しがっていたカードを見つけました。
+The photo/[which]/we took/is beautiful.|私たちが撮った写真は美しいです。
+This is/the hall/[that]/we visited.|これは私たちが訪れた会場です。
+I remember/the words/[that]/he said.|私は彼が言った言葉を覚えています。
+The bag/[which]/she carries/is green.|彼女が持ち歩いているバッグは緑色です。
+@58|分詞の後置修飾|3|名詞の後ろでing形は「～している」、過去分詞は「～された」という説明を加える。|AUTO
+The girl/[singing]/on the stage/is my friend.|ステージで歌っている女の子は私の友達です。
+The photos/[taken]/yesterday/are on my phone.|昨日撮られた写真は私の携帯電話に入っています。
+I know/the boy/[playing]/the piano.|私はピアノを弾いている男の子を知っています。
+This is/a song/[loved]/by many fans.|これは多くのファンに愛されている曲です。
+The fans/[waiting]/outside/look excited.|外で待っているファンはわくわくしているように見えます。
+The letter/[written]/in English/is from my friend.|英語で書かれた手紙は友達からのものです。
+Look at/the cat/[sleeping]/on my towel.|私のタオルの上で寝ている猫を見てください。
+The cards/[made]/in Japan/are popular.|日本で作られたカードは人気があります。
+The man/[carrying]/the green bag/is my father.|緑のバッグを運んでいる男性は私の父です。
+The ticket/[found]/under the chair/is mine.|椅子の下で見つかったチケットは私のものです。
+@59|基本的な仮定法・I wish|3|現実と異なる願いをI wish＋過去形、仮の条件をIf＋過去形とwould・couldで表す。|AUTO
+I wish/I/[had]/a ticket.|私はチケットを持っていればいいのにと思います。
+I wish/I/[could]/play the guitar.|私はギターが弾けたらいいのにと思います。
+I/[would]/buy that towel/if I had more money.|もっとお金があれば、私はあのタオルを買うのに。
+I/[would]/sing every day/if I were a singer.|もし歌手なら、私は毎日歌うのに。
+I wish/the hall/[were]/closer.|会場がもっと近ければいいのにと思います。
+I/[could]/take a picture/if I had a camera.|カメラがあれば、私は写真を撮れるのに。
+I wish/my bag/[were]/lighter.|バッグがもっと軽ければいいのにと思います。
+I/[would]/tell you/if I knew the answer.|答えがわかれば、私はあなたに教えるのに。
+I wish/I/[had]/more free time.|もっと自由な時間があればいいのにと思います。
+I/[would]/check the ticket/if I were you.|もし私があなたなら、そのチケットを確認するでしょう。
+@60|感嘆文|3|How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。|How~What~Which~Who
+[How]/beautiful/this song is!|この曲はなんて美しいのでしょう。
+[What]/a great show/that was!|あれはなんてすばらしい公演だったのでしょう。
+[How]/fast/she can play!|彼女はなんて速く演奏できるのでしょう。
+[What]/a long line/this is!|これはなんて長い列なのでしょう。
+[How]/kind/you are!|あなたはなんて親切なのでしょう。
+[What]/an exciting day/this is!|今日はなんてわくわくする日なのでしょう。
+[How]/loud/the music is!|音楽はなんて大きな音なのでしょう。
+[What]/a lovely voice/she has!|彼女はなんてすてきな声なのでしょう。
+[How]/heavy/my bag is!|私のバッグはなんて重いのでしょう。
+[What]/beautiful photos/these are!|これらはなんて美しい写真なのでしょう。

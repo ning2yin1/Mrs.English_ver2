@@ -1,0 +1,12 @@
+{
+  "key": "09-card-detail",
+  "prompt": "Use case: ui-mockup. ONE complete LANDSCAPE iPhone game screen, 2.16:1 aspect, 1844x853 or 2532x1170. Mrs. English English learning game, Japanese language. Match original SUPERSTAR style/layout: flat royal blue panels, thin cyan edge and magenta offset, 45 degree clipped corners, pale cyan horizontal scanline headers. Full screen, NO phone frame or presentation board. Use references as UI STYLE and supplied band photo identity references. NO stamina or energy or headphone counters, NO diamonds; UNLIMITED play. Japanese primary. When header present: avatar サンタ / 推し 大森元貴 / Lv.1 / 連続1日 / 1,200 RP / menu. When nav requested: five equal bottom tabs カード / 図鑑 / ミッション / ショップ / START. Leave safe areas at both sides. No invented celebrity facts. Sample layout only. CARD DETAIL header with RP only. Left large gold S-framed supplied Motoki photo, name 大森元貴. Center Lv.1/40, カードボーナス+0.00%, next 次のLv.+1.41%, slim empty progress. Right large white/pink clipped 強化100 RP and 編成する buttons, small 成功率100%・カード消失なし. Favorite heart, lock. Bottom small 戻る. NO battle attack/hitpoint stats.",
+  "refs": [
+    "reference\\IMG_0774.PNG",
+    "asset-review\\img-085.jpg",
+    "asset-review\\img-008.png"
+  ],
+  "source": "C:\\Users\\santa\\.codex\\generated_images\\01a17849-2758-79f0-b713-bfc66649b39b\\exec-6b7404fc-16d0-499e-b3c0-66f4925c5a2b.png",
+  "orientation": "landscape",
+  "purpose": "nonbinding visual concept; docs control rules"
+}

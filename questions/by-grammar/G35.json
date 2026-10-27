@@ -1,0 +1,2473 @@
+{
+  "grammarId": "G35",
+  "examples": [
+    {
+      "id": "G35-E01",
+      "grammarId": "G35",
+      "grammarNameJa": "不定詞・目的を表す副詞的用法",
+      "english": "I got up early to buy a ticket.",
+      "translationJa": "私はチケットを買うために早起きしました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to buy",
+        "start": 15,
+        "endExclusive": 21,
+        "explanationJa": "to＋原形を「～するために」として動作の目的を付け加える。"
+      },
+      "sentenceExplanationJa": "「I got up early to buy a ticket.」は「私はチケットを買うために早起きしました。」という意味です。to＋原形を「～するために」として動作の目的を付け加える。 この文の対象部分は「to buy」。まとまりは I → got up early → to buy → a ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "got",
+          "lemma": "get",
+          "meaningJa": "得る・着く・～になる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "up",
+          "lemma": "up",
+          "meaningJa": "上に・起きて",
+          "kind": "word"
+        },
+        {
+          "expression": "early",
+          "lemma": "early",
+          "meaningJa": "早い・早く",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "buy",
+          "lemma": "buy",
+          "meaningJa": "買う",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I got up early ___ a ticket.",
+        "blank": {
+          "start": 15,
+          "endExclusive": 21,
+          "answer": "to buy"
+        },
+        "options": [
+          {
+            "id": "G35-E01-C1",
+            "text": "to buy",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋原形を「～するために」として動作の目的を付け加える。"
+          },
+          {
+            "id": "G35-E01-C2",
+            "text": "buying",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to buy」を使います。「buying」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E01-C3",
+            "text": "to buys",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to buy」を使います。「to buys」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E01-C4",
+            "text": "buy",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to buy」を使います。「buy」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G35-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G35-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G35-E01-B02",
+            "text": "got up early",
+            "role": "required"
+          },
+          {
+            "id": "G35-E01-B03",
+            "text": "to buy",
+            "role": "required"
+          },
+          {
+            "id": "G35-E01-B04",
+            "text": "a ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G35-E01-B01",
+          "G35-E01-B02",
+          "G35-E01-B03",
+          "G35-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E01-B01",
+            "G35-E01-B02",
+            "G35-E01-B03",
+            "G35-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G35-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G35-E01-B02",
+            "text": "got up early",
+            "role": "required"
+          },
+          {
+            "id": "G35-E01-B03",
+            "text": "to buy",
+            "role": "required"
+          },
+          {
+            "id": "G35-E01-B04",
+            "text": "a ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G35-E01-D01",
+            "text": "buying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to buy」と比較してください。"
+          },
+          {
+            "id": "G35-E01-D02",
+            "text": "to buys",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to buy」と比較してください。"
+          },
+          {
+            "id": "G35-E01-D03",
+            "text": "buy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to buy」と比較してください。"
+          },
+          {
+            "id": "G35-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to buy」と比較してください。"
+          },
+          {
+            "id": "G35-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to buy」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G35-E01-D01",
+            "text": "buying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to buy」と比較してください。"
+          },
+          {
+            "id": "G35-E01-D02",
+            "text": "to buys",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to buy」と比較してください。"
+          },
+          {
+            "id": "G35-E01-D03",
+            "text": "buy",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to buy」と比較してください。"
+          },
+          {
+            "id": "G35-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to buy」と比較してください。"
+          },
+          {
+            "id": "G35-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to buy」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G35-E01-B01",
+          "G35-E01-B02",
+          "G35-E01-B03",
+          "G35-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E01-B01",
+            "G35-E01-B02",
+            "G35-E01-B03",
+            "G35-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G35-E01-AUDIO",
+        "text": "I got up early to buy a ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G35-E02",
+      "grammarId": "G35",
+      "grammarNameJa": "不定詞・目的を表す副詞的用法",
+      "english": "She saved money to go to the concert.",
+      "translationJa": "彼女はコンサートに行くためにお金を貯めました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to go",
+        "start": 16,
+        "endExclusive": 21,
+        "explanationJa": "to＋原形を「～するために」として動作の目的を付け加える。"
+      },
+      "sentenceExplanationJa": "「She saved money to go to the concert.」は「彼女はコンサートに行くためにお金を貯めました。」という意味です。to＋原形を「～するために」として動作の目的を付け加える。 この文の対象部分は「to go」。まとまりは She → saved money → to go → to the concert. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "saved",
+          "lemma": "save",
+          "meaningJa": "貯める・保存する（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "money",
+          "lemma": "money",
+          "meaningJa": "お金",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "go",
+          "lemma": "go",
+          "meaningJa": "行く",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "concert",
+          "lemma": "concert",
+          "meaningJa": "コンサート",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She saved money ___ to the concert.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 21,
+          "answer": "to go"
+        },
+        "options": [
+          {
+            "id": "G35-E02-C1",
+            "text": "to go",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋原形を「～するために」として動作の目的を付け加える。"
+          },
+          {
+            "id": "G35-E02-C3",
+            "text": "to goes",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to go」を使います。「to goes」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E02-C4",
+            "text": "go",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to go」を使います。「go」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E02-C2",
+            "text": "going",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to go」を使います。「going」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G35-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G35-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G35-E02-B02",
+            "text": "saved money",
+            "role": "required"
+          },
+          {
+            "id": "G35-E02-B03",
+            "text": "to go",
+            "role": "required"
+          },
+          {
+            "id": "G35-E02-B04",
+            "text": "to the concert.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G35-E02-B01",
+          "G35-E02-B02",
+          "G35-E02-B03",
+          "G35-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E02-B01",
+            "G35-E02-B02",
+            "G35-E02-B03",
+            "G35-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G35-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G35-E02-B02",
+            "text": "saved money",
+            "role": "required"
+          },
+          {
+            "id": "G35-E02-B03",
+            "text": "to go",
+            "role": "required"
+          },
+          {
+            "id": "G35-E02-B04",
+            "text": "to the concert.",
+            "role": "required"
+          },
+          {
+            "id": "G35-E02-D01",
+            "text": "going",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to go」と比較してください。"
+          },
+          {
+            "id": "G35-E02-D02",
+            "text": "to goes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to go」と比較してください。"
+          },
+          {
+            "id": "G35-E02-D03",
+            "text": "go",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to go」と比較してください。"
+          },
+          {
+            "id": "G35-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to go」と比較してください。"
+          },
+          {
+            "id": "G35-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to go」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G35-E02-D01",
+            "text": "going",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to go」と比較してください。"
+          },
+          {
+            "id": "G35-E02-D02",
+            "text": "to goes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to go」と比較してください。"
+          },
+          {
+            "id": "G35-E02-D03",
+            "text": "go",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to go」と比較してください。"
+          },
+          {
+            "id": "G35-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to go」と比較してください。"
+          },
+          {
+            "id": "G35-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to go」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G35-E02-B01",
+          "G35-E02-B02",
+          "G35-E02-B03",
+          "G35-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E02-B01",
+            "G35-E02-B02",
+            "G35-E02-B03",
+            "G35-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G35-E02-AUDIO",
+        "text": "She saved money to go to the concert.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G35-E03",
+      "grammarId": "G35",
+      "grammarNameJa": "不定詞・目的を表す副詞的用法",
+      "english": "We met to practice the song.",
+      "translationJa": "私たちはその曲を練習するために集まりました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to practice",
+        "start": 7,
+        "endExclusive": 18,
+        "explanationJa": "to＋原形を「～するために」として動作の目的を付け加える。"
+      },
+      "sentenceExplanationJa": "「We met to practice the song.」は「私たちはその曲を練習するために集まりました。」という意味です。to＋原形を「～するために」として動作の目的を付け加える。 この文の対象部分は「to practice」。まとまりは We → met → to practice → the song. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "met",
+          "lemma": "meet",
+          "meaningJa": "会う・集まる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "practice",
+          "lemma": "practice",
+          "meaningJa": "練習する・練習",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We met ___ the song.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 18,
+          "answer": "to practice"
+        },
+        "options": [
+          {
+            "id": "G35-E03-C1",
+            "text": "to practice",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋原形を「～するために」として動作の目的を付け加える。"
+          },
+          {
+            "id": "G35-E03-C2",
+            "text": "practicing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to practice」を使います。「practicing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E03-C3",
+            "text": "to practices",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to practice」を使います。「to practices」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E03-C4",
+            "text": "practice",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to practice」を使います。「practice」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G35-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G35-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G35-E03-B02",
+            "text": "met",
+            "role": "required"
+          },
+          {
+            "id": "G35-E03-B03",
+            "text": "to practice",
+            "role": "required"
+          },
+          {
+            "id": "G35-E03-B04",
+            "text": "the song.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G35-E03-B01",
+          "G35-E03-B02",
+          "G35-E03-B03",
+          "G35-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E03-B01",
+            "G35-E03-B02",
+            "G35-E03-B03",
+            "G35-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G35-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G35-E03-B02",
+            "text": "met",
+            "role": "required"
+          },
+          {
+            "id": "G35-E03-B03",
+            "text": "to practice",
+            "role": "required"
+          },
+          {
+            "id": "G35-E03-B04",
+            "text": "the song.",
+            "role": "required"
+          },
+          {
+            "id": "G35-E03-D01",
+            "text": "practicing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G35-E03-D02",
+            "text": "to practices",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G35-E03-D03",
+            "text": "practice",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G35-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G35-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G35-E03-D01",
+            "text": "practicing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G35-E03-D02",
+            "text": "to practices",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G35-E03-D03",
+            "text": "practice",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G35-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          },
+          {
+            "id": "G35-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to practice」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G35-E03-B01",
+          "G35-E03-B02",
+          "G35-E03-B03",
+          "G35-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E03-B01",
+            "G35-E03-B02",
+            "G35-E03-B03",
+            "G35-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G35-E03-AUDIO",
+        "text": "We met to practice the song.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G35-E04",
+      "grammarId": "G35",
+      "grammarNameJa": "不定詞・目的を表す副詞的用法",
+      "english": "He opened the app to review English.",
+      "translationJa": "彼は英語を復習するためにアプリを開きました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to review",
+        "start": 18,
+        "endExclusive": 27,
+        "explanationJa": "to＋原形を「～するために」として動作の目的を付け加える。"
+      },
+      "sentenceExplanationJa": "「He opened the app to review English.」は「彼は英語を復習するためにアプリを開きました。」という意味です。to＋原形を「～するために」として動作の目的を付け加える。 この文の対象部分は「to review」。まとまりは He → opened the app → to review → English. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "opened",
+          "lemma": "open",
+          "meaningJa": "開いている・開ける（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "app",
+          "lemma": "app",
+          "meaningJa": "アプリ",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "review",
+          "lemma": "review",
+          "meaningJa": "復習する",
+          "kind": "word"
+        },
+        {
+          "expression": "English",
+          "lemma": "english",
+          "meaningJa": "英語",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He opened the app ___ English.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 27,
+          "answer": "to review"
+        },
+        "options": [
+          {
+            "id": "G35-E04-C4",
+            "text": "review",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to review」を使います。「review」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E04-C1",
+            "text": "to review",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋原形を「～するために」として動作の目的を付け加える。"
+          },
+          {
+            "id": "G35-E04-C3",
+            "text": "to reviews",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to review」を使います。「to reviews」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E04-C2",
+            "text": "reviewing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to review」を使います。「reviewing」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G35-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G35-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G35-E04-B02",
+            "text": "opened the app",
+            "role": "required"
+          },
+          {
+            "id": "G35-E04-B03",
+            "text": "to review",
+            "role": "required"
+          },
+          {
+            "id": "G35-E04-B04",
+            "text": "English.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G35-E04-B01",
+          "G35-E04-B02",
+          "G35-E04-B03",
+          "G35-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E04-B01",
+            "G35-E04-B02",
+            "G35-E04-B03",
+            "G35-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G35-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G35-E04-B02",
+            "text": "opened the app",
+            "role": "required"
+          },
+          {
+            "id": "G35-E04-B03",
+            "text": "to review",
+            "role": "required"
+          },
+          {
+            "id": "G35-E04-B04",
+            "text": "English.",
+            "role": "required"
+          },
+          {
+            "id": "G35-E04-D01",
+            "text": "reviewing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to review」と比較してください。"
+          },
+          {
+            "id": "G35-E04-D02",
+            "text": "to reviews",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to review」と比較してください。"
+          },
+          {
+            "id": "G35-E04-D03",
+            "text": "review",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to review」と比較してください。"
+          },
+          {
+            "id": "G35-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to review」と比較してください。"
+          },
+          {
+            "id": "G35-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to review」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G35-E04-D01",
+            "text": "reviewing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to review」と比較してください。"
+          },
+          {
+            "id": "G35-E04-D02",
+            "text": "to reviews",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to review」と比較してください。"
+          },
+          {
+            "id": "G35-E04-D03",
+            "text": "review",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to review」と比較してください。"
+          },
+          {
+            "id": "G35-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to review」と比較してください。"
+          },
+          {
+            "id": "G35-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to review」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G35-E04-B01",
+          "G35-E04-B02",
+          "G35-E04-B03",
+          "G35-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E04-B01",
+            "G35-E04-B02",
+            "G35-E04-B03",
+            "G35-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G35-E04-AUDIO",
+        "text": "He opened the app to review English.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G35-E05",
+      "grammarId": "G35",
+      "grammarNameJa": "不定詞・目的を表す副詞的用法",
+      "english": "I went to the shop to get a towel.",
+      "translationJa": "私はタオルを手に入れるために店へ行きました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to get",
+        "start": 19,
+        "endExclusive": 25,
+        "explanationJa": "to＋原形を「～するために」として動作の目的を付け加える。"
+      },
+      "sentenceExplanationJa": "「I went to the shop to get a towel.」は「私はタオルを手に入れるために店へ行きました。」という意味です。to＋原形を「～するために」として動作の目的を付け加える。 この文の対象部分は「to get」。まとまりは I → went to the shop → to get → a towel. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "went",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "shop",
+          "lemma": "shop",
+          "meaningJa": "店",
+          "kind": "word"
+        },
+        {
+          "expression": "get",
+          "lemma": "get",
+          "meaningJa": "得る・着く・～になる",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I went to the shop ___ a towel.",
+        "blank": {
+          "start": 19,
+          "endExclusive": 25,
+          "answer": "to get"
+        },
+        "options": [
+          {
+            "id": "G35-E05-C2",
+            "text": "getting",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to get」を使います。「getting」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E05-C3",
+            "text": "to gets",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to get」を使います。「to gets」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E05-C4",
+            "text": "get",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to get」を使います。「get」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E05-C1",
+            "text": "to get",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋原形を「～するために」として動作の目的を付け加える。"
+          }
+        ],
+        "correctOptionId": "G35-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G35-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G35-E05-B02",
+            "text": "went to the shop",
+            "role": "required"
+          },
+          {
+            "id": "G35-E05-B03",
+            "text": "to get",
+            "role": "required"
+          },
+          {
+            "id": "G35-E05-B04",
+            "text": "a towel.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G35-E05-B01",
+          "G35-E05-B02",
+          "G35-E05-B03",
+          "G35-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E05-B01",
+            "G35-E05-B02",
+            "G35-E05-B03",
+            "G35-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G35-E05-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G35-E05-B02",
+            "text": "went to the shop",
+            "role": "required"
+          },
+          {
+            "id": "G35-E05-B03",
+            "text": "to get",
+            "role": "required"
+          },
+          {
+            "id": "G35-E05-B04",
+            "text": "a towel.",
+            "role": "required"
+          },
+          {
+            "id": "G35-E05-D01",
+            "text": "getting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G35-E05-D02",
+            "text": "to gets",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G35-E05-D03",
+            "text": "get",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G35-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G35-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G35-E05-D01",
+            "text": "getting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G35-E05-D02",
+            "text": "to gets",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G35-E05-D03",
+            "text": "get",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G35-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          },
+          {
+            "id": "G35-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to get」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G35-E05-B01",
+          "G35-E05-B02",
+          "G35-E05-B03",
+          "G35-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E05-B01",
+            "G35-E05-B02",
+            "G35-E05-B03",
+            "G35-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G35-E05-AUDIO",
+        "text": "I went to the shop to get a towel.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G35-E06",
+      "grammarId": "G35",
+      "grammarNameJa": "不定詞・目的を表す副詞的用法",
+      "english": "We took a bus to reach the hall.",
+      "translationJa": "私たちは会場に着くためにバスに乗りました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to reach",
+        "start": 14,
+        "endExclusive": 22,
+        "explanationJa": "to＋原形を「～するために」として動作の目的を付け加える。"
+      },
+      "sentenceExplanationJa": "「We took a bus to reach the hall.」は「私たちは会場に着くためにバスに乗りました。」という意味です。to＋原形を「～するために」として動作の目的を付け加える。 この文の対象部分は「to reach」。まとまりは We → took a bus → to reach → the hall. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "took",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "bus",
+          "lemma": "bus",
+          "meaningJa": "バス",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "reach",
+          "lemma": "reach",
+          "meaningJa": "着く・届く",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We took a bus ___ the hall.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 22,
+          "answer": "to reach"
+        },
+        "options": [
+          {
+            "id": "G35-E06-C4",
+            "text": "reach",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to reach」を使います。「reach」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E06-C3",
+            "text": "to reaches",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to reach」を使います。「to reaches」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E06-C1",
+            "text": "to reach",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋原形を「～するために」として動作の目的を付け加える。"
+          },
+          {
+            "id": "G35-E06-C2",
+            "text": "reaching",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to reach」を使います。「reaching」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G35-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G35-E06-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G35-E06-B02",
+            "text": "took a bus",
+            "role": "required"
+          },
+          {
+            "id": "G35-E06-B03",
+            "text": "to reach",
+            "role": "required"
+          },
+          {
+            "id": "G35-E06-B04",
+            "text": "the hall.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G35-E06-B01",
+          "G35-E06-B02",
+          "G35-E06-B03",
+          "G35-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E06-B01",
+            "G35-E06-B02",
+            "G35-E06-B03",
+            "G35-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G35-E06-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G35-E06-B02",
+            "text": "took a bus",
+            "role": "required"
+          },
+          {
+            "id": "G35-E06-B03",
+            "text": "to reach",
+            "role": "required"
+          },
+          {
+            "id": "G35-E06-B04",
+            "text": "the hall.",
+            "role": "required"
+          },
+          {
+            "id": "G35-E06-D01",
+            "text": "reaching",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to reach」と比較してください。"
+          },
+          {
+            "id": "G35-E06-D02",
+            "text": "to reaches",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to reach」と比較してください。"
+          },
+          {
+            "id": "G35-E06-D03",
+            "text": "reach",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to reach」と比較してください。"
+          },
+          {
+            "id": "G35-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to reach」と比較してください。"
+          },
+          {
+            "id": "G35-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to reach」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G35-E06-D01",
+            "text": "reaching",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to reach」と比較してください。"
+          },
+          {
+            "id": "G35-E06-D02",
+            "text": "to reaches",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to reach」と比較してください。"
+          },
+          {
+            "id": "G35-E06-D03",
+            "text": "reach",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to reach」と比較してください。"
+          },
+          {
+            "id": "G35-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to reach」と比較してください。"
+          },
+          {
+            "id": "G35-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to reach」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G35-E06-B01",
+          "G35-E06-B02",
+          "G35-E06-B03",
+          "G35-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E06-B01",
+            "G35-E06-B02",
+            "G35-E06-B03",
+            "G35-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G35-E06-AUDIO",
+        "text": "We took a bus to reach the hall.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G35-E07",
+      "grammarId": "G35",
+      "grammarNameJa": "不定詞・目的を表す副詞的用法",
+      "english": "She wore glasses to see the stage.",
+      "translationJa": "彼女はステージを見るために眼鏡をかけました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to see",
+        "start": 17,
+        "endExclusive": 23,
+        "explanationJa": "to＋原形を「～するために」として動作の目的を付け加える。"
+      },
+      "sentenceExplanationJa": "「She wore glasses to see the stage.」は「彼女はステージを見るために眼鏡をかけました。」という意味です。to＋原形を「～するために」として動作の目的を付け加える。 この文の対象部分は「to see」。まとまりは She → wore glasses → to see → the stage. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "wore",
+          "lemma": "wear",
+          "meaningJa": "着る・身に付ける（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "glasses",
+          "lemma": "glasses",
+          "meaningJa": "眼鏡",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "see",
+          "lemma": "see",
+          "meaningJa": "見る・見える",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "stage",
+          "lemma": "stage",
+          "meaningJa": "ステージ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She wore glasses ___ the stage.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 23,
+          "answer": "to see"
+        },
+        "options": [
+          {
+            "id": "G35-E07-C3",
+            "text": "to sees",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to see」を使います。「to sees」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E07-C4",
+            "text": "see",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to see」を使います。「see」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E07-C2",
+            "text": "seeing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to see」を使います。「seeing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E07-C1",
+            "text": "to see",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋原形を「～するために」として動作の目的を付け加える。"
+          }
+        ],
+        "correctOptionId": "G35-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G35-E07-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G35-E07-B02",
+            "text": "wore glasses",
+            "role": "required"
+          },
+          {
+            "id": "G35-E07-B03",
+            "text": "to see",
+            "role": "required"
+          },
+          {
+            "id": "G35-E07-B04",
+            "text": "the stage.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G35-E07-B01",
+          "G35-E07-B02",
+          "G35-E07-B03",
+          "G35-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E07-B01",
+            "G35-E07-B02",
+            "G35-E07-B03",
+            "G35-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G35-E07-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G35-E07-B02",
+            "text": "wore glasses",
+            "role": "required"
+          },
+          {
+            "id": "G35-E07-B03",
+            "text": "to see",
+            "role": "required"
+          },
+          {
+            "id": "G35-E07-B04",
+            "text": "the stage.",
+            "role": "required"
+          },
+          {
+            "id": "G35-E07-D01",
+            "text": "seeing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G35-E07-D02",
+            "text": "to sees",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G35-E07-D03",
+            "text": "see",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G35-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G35-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G35-E07-D01",
+            "text": "seeing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G35-E07-D02",
+            "text": "to sees",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G35-E07-D03",
+            "text": "see",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G35-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          },
+          {
+            "id": "G35-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to see」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G35-E07-B01",
+          "G35-E07-B02",
+          "G35-E07-B03",
+          "G35-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E07-B01",
+            "G35-E07-B02",
+            "G35-E07-B03",
+            "G35-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G35-E07-AUDIO",
+        "text": "She wore glasses to see the stage.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G35-E08",
+      "grammarId": "G35",
+      "grammarNameJa": "不定詞・目的を表す副詞的用法",
+      "english": "I turned down the music to hear the announcement.",
+      "translationJa": "私はアナウンスを聞くために音楽の音量を下げました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to hear",
+        "start": 24,
+        "endExclusive": 31,
+        "explanationJa": "to＋原形を「～するために」として動作の目的を付け加える。"
+      },
+      "sentenceExplanationJa": "「I turned down the music to hear the announcement.」は「私はアナウンスを聞くために音楽の音量を下げました。」という意味です。to＋原形を「～するために」として動作の目的を付け加える。 この文の対象部分は「to hear」。まとまりは I → turned down the music → to hear → the announcement. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "turned",
+          "lemma": "turn",
+          "meaningJa": "向きを変える・音量などを変える（過去形・過去分詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "down",
+          "lemma": "down",
+          "meaningJa": "下に・音量を下げて",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "music",
+          "lemma": "music",
+          "meaningJa": "音楽・楽譜",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "hear",
+          "lemma": "hear",
+          "meaningJa": "聞こえる・聞く",
+          "kind": "word"
+        },
+        {
+          "expression": "announcement",
+          "lemma": "announcement",
+          "meaningJa": "案内放送・発表",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I turned down the music ___ the announcement.",
+        "blank": {
+          "start": 24,
+          "endExclusive": 31,
+          "answer": "to hear"
+        },
+        "options": [
+          {
+            "id": "G35-E08-C3",
+            "text": "to hears",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to hear」を使います。「to hears」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E08-C4",
+            "text": "hear",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to hear」を使います。「hear」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E08-C1",
+            "text": "to hear",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋原形を「～するために」として動作の目的を付け加える。"
+          },
+          {
+            "id": "G35-E08-C2",
+            "text": "hearing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to hear」を使います。「hearing」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G35-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G35-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G35-E08-B02",
+            "text": "turned down the music",
+            "role": "required"
+          },
+          {
+            "id": "G35-E08-B03",
+            "text": "to hear",
+            "role": "required"
+          },
+          {
+            "id": "G35-E08-B04",
+            "text": "the announcement.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G35-E08-B01",
+          "G35-E08-B02",
+          "G35-E08-B03",
+          "G35-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E08-B01",
+            "G35-E08-B02",
+            "G35-E08-B03",
+            "G35-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G35-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G35-E08-B02",
+            "text": "turned down the music",
+            "role": "required"
+          },
+          {
+            "id": "G35-E08-B03",
+            "text": "to hear",
+            "role": "required"
+          },
+          {
+            "id": "G35-E08-B04",
+            "text": "the announcement.",
+            "role": "required"
+          },
+          {
+            "id": "G35-E08-D01",
+            "text": "hearing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to hear」と比較してください。"
+          },
+          {
+            "id": "G35-E08-D02",
+            "text": "to hears",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to hear」と比較してください。"
+          },
+          {
+            "id": "G35-E08-D03",
+            "text": "hear",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to hear」と比較してください。"
+          },
+          {
+            "id": "G35-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to hear」と比較してください。"
+          },
+          {
+            "id": "G35-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to hear」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G35-E08-D01",
+            "text": "hearing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to hear」と比較してください。"
+          },
+          {
+            "id": "G35-E08-D02",
+            "text": "to hears",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to hear」と比較してください。"
+          },
+          {
+            "id": "G35-E08-D03",
+            "text": "hear",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to hear」と比較してください。"
+          },
+          {
+            "id": "G35-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to hear」と比較してください。"
+          },
+          {
+            "id": "G35-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to hear」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G35-E08-B01",
+          "G35-E08-B02",
+          "G35-E08-B03",
+          "G35-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E08-B01",
+            "G35-E08-B02",
+            "G35-E08-B03",
+            "G35-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G35-E08-AUDIO",
+        "text": "I turned down the music to hear the announcement.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G35-E09",
+      "grammarId": "G35",
+      "grammarNameJa": "不定詞・目的を表す副詞的用法",
+      "english": "He brought a pen to write a message.",
+      "translationJa": "彼はメッセージを書くためにペンを持ってきました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to write",
+        "start": 17,
+        "endExclusive": 25,
+        "explanationJa": "to＋原形を「～するために」として動作の目的を付け加える。"
+      },
+      "sentenceExplanationJa": "「He brought a pen to write a message.」は「彼はメッセージを書くためにペンを持ってきました。」という意味です。to＋原形を「～するために」として動作の目的を付け加える。 この文の対象部分は「to write」。まとまりは He → brought a pen → to write → a message. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "brought",
+          "lemma": "bring",
+          "meaningJa": "持ってくる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "pen",
+          "lemma": "pen",
+          "meaningJa": "ペン",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "write",
+          "lemma": "write",
+          "meaningJa": "書く",
+          "kind": "word"
+        },
+        {
+          "expression": "message",
+          "lemma": "message",
+          "meaningJa": "メッセージ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He brought a pen ___ a message.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 25,
+          "answer": "to write"
+        },
+        "options": [
+          {
+            "id": "G35-E09-C3",
+            "text": "to writes",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to write」を使います。「to writes」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E09-C1",
+            "text": "to write",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋原形を「～するために」として動作の目的を付け加える。"
+          },
+          {
+            "id": "G35-E09-C2",
+            "text": "writing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to write」を使います。「writing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E09-C4",
+            "text": "write",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to write」を使います。「write」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G35-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G35-E09-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G35-E09-B02",
+            "text": "brought a pen",
+            "role": "required"
+          },
+          {
+            "id": "G35-E09-B03",
+            "text": "to write",
+            "role": "required"
+          },
+          {
+            "id": "G35-E09-B04",
+            "text": "a message.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G35-E09-B01",
+          "G35-E09-B02",
+          "G35-E09-B03",
+          "G35-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E09-B01",
+            "G35-E09-B02",
+            "G35-E09-B03",
+            "G35-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G35-E09-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G35-E09-B02",
+            "text": "brought a pen",
+            "role": "required"
+          },
+          {
+            "id": "G35-E09-B03",
+            "text": "to write",
+            "role": "required"
+          },
+          {
+            "id": "G35-E09-B04",
+            "text": "a message.",
+            "role": "required"
+          },
+          {
+            "id": "G35-E09-D01",
+            "text": "writing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to write」と比較してください。"
+          },
+          {
+            "id": "G35-E09-D02",
+            "text": "to writes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to write」と比較してください。"
+          },
+          {
+            "id": "G35-E09-D03",
+            "text": "write",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to write」と比較してください。"
+          },
+          {
+            "id": "G35-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to write」と比較してください。"
+          },
+          {
+            "id": "G35-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to write」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G35-E09-D01",
+            "text": "writing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to write」と比較してください。"
+          },
+          {
+            "id": "G35-E09-D02",
+            "text": "to writes",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to write」と比較してください。"
+          },
+          {
+            "id": "G35-E09-D03",
+            "text": "write",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to write」と比較してください。"
+          },
+          {
+            "id": "G35-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to write」と比較してください。"
+          },
+          {
+            "id": "G35-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to write」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G35-E09-B01",
+          "G35-E09-B02",
+          "G35-E09-B03",
+          "G35-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E09-B01",
+            "G35-E09-B02",
+            "G35-E09-B03",
+            "G35-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G35-E09-AUDIO",
+        "text": "He brought a pen to write a message.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G35-E10",
+      "grammarId": "G35",
+      "grammarNameJa": "不定詞・目的を表す副詞的用法",
+      "english": "We stood up to wave our towels.",
+      "translationJa": "私たちはタオルを振るために立ち上がりました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "to wave",
+        "start": 12,
+        "endExclusive": 19,
+        "explanationJa": "to＋原形を「～するために」として動作の目的を付け加える。"
+      },
+      "sentenceExplanationJa": "「We stood up to wave our towels.」は「私たちはタオルを振るために立ち上がりました。」という意味です。to＋原形を「～するために」として動作の目的を付け加える。 この文の対象部分は「to wave」。まとまりは We → stood up → to wave → our towels. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "stood",
+          "lemma": "stand",
+          "meaningJa": "立つ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "up",
+          "lemma": "up",
+          "meaningJa": "上に・起きて",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "wave",
+          "lemma": "wave",
+          "meaningJa": "振る・手を振る",
+          "kind": "word"
+        },
+        {
+          "expression": "our",
+          "lemma": "our",
+          "meaningJa": "私たちの",
+          "kind": "word"
+        },
+        {
+          "expression": "towels",
+          "lemma": "towel",
+          "meaningJa": "タオル（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We stood up ___ our towels.",
+        "blank": {
+          "start": 12,
+          "endExclusive": 19,
+          "answer": "to wave"
+        },
+        "options": [
+          {
+            "id": "G35-E10-C4",
+            "text": "wave",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to wave」を使います。「wave」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E10-C1",
+            "text": "to wave",
+            "isCorrect": true,
+            "explanationJa": "正解。to＋原形を「～するために」として動作の目的を付け加える。"
+          },
+          {
+            "id": "G35-E10-C3",
+            "text": "to waves",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to wave」を使います。「to waves」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G35-E10-C2",
+            "text": "waving",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「to wave」を使います。「waving」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G35-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G35-E10-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G35-E10-B02",
+            "text": "stood up",
+            "role": "required"
+          },
+          {
+            "id": "G35-E10-B03",
+            "text": "to wave",
+            "role": "required"
+          },
+          {
+            "id": "G35-E10-B04",
+            "text": "our towels.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G35-E10-B01",
+          "G35-E10-B02",
+          "G35-E10-B03",
+          "G35-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E10-B01",
+            "G35-E10-B02",
+            "G35-E10-B03",
+            "G35-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G35-E10-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G35-E10-B02",
+            "text": "stood up",
+            "role": "required"
+          },
+          {
+            "id": "G35-E10-B03",
+            "text": "to wave",
+            "role": "required"
+          },
+          {
+            "id": "G35-E10-B04",
+            "text": "our towels.",
+            "role": "required"
+          },
+          {
+            "id": "G35-E10-D01",
+            "text": "waving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wave」と比較してください。"
+          },
+          {
+            "id": "G35-E10-D02",
+            "text": "to waves",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wave」と比較してください。"
+          },
+          {
+            "id": "G35-E10-D03",
+            "text": "wave",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wave」と比較してください。"
+          },
+          {
+            "id": "G35-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wave」と比較してください。"
+          },
+          {
+            "id": "G35-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wave」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G35-E10-D01",
+            "text": "waving",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wave」と比較してください。"
+          },
+          {
+            "id": "G35-E10-D02",
+            "text": "to waves",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wave」と比較してください。"
+          },
+          {
+            "id": "G35-E10-D03",
+            "text": "wave",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wave」と比較してください。"
+          },
+          {
+            "id": "G35-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wave」と比較してください。"
+          },
+          {
+            "id": "G35-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「to wave」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G35-E10-B01",
+          "G35-E10-B02",
+          "G35-E10-B03",
+          "G35-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G35-E10-B01",
+            "G35-E10-B02",
+            "G35-E10-B03",
+            "G35-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G35-E10-AUDIO",
+        "text": "We stood up to wave our towels.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

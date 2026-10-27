@@ -1,0 +1,2351 @@
+{
+  "grammarId": "G20",
+  "examples": [
+    {
+      "id": "G20-E01",
+      "grammarId": "G20",
+      "grammarNameJa": "数量表現・可算と不可算",
+      "english": "How many tickets do you need?",
+      "translationJa": "チケットは何枚必要ですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "many",
+        "start": 4,
+        "endExclusive": 8,
+        "explanationJa": "manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+      },
+      "sentenceExplanationJa": "「How many tickets do you need?」は「チケットは何枚必要ですか。」という意味です。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。 この文の対象部分は「many」。まとまりは How → many → tickets → do you need? の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "many",
+          "lemma": "many",
+          "meaningJa": "たくさんの（可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "tickets",
+          "lemma": "ticket",
+          "meaningJa": "チケット（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "need",
+          "lemma": "need",
+          "meaningJa": "必要とする",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "How ___ tickets do you need?",
+        "blank": {
+          "start": 4,
+          "endExclusive": 8,
+          "answer": "many"
+        },
+        "options": [
+          {
+            "id": "G20-E01-C1",
+            "text": "many",
+            "isCorrect": true,
+            "explanationJa": "正解。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+          },
+          {
+            "id": "G20-E01-C2",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「many」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E01-C4",
+            "text": "any",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「many」を使います。「any」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E01-C3",
+            "text": "some",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「many」を使います。「some」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G20-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G20-E01-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G20-E01-B02",
+            "text": "many",
+            "role": "required"
+          },
+          {
+            "id": "G20-E01-B03",
+            "text": "tickets",
+            "role": "required"
+          },
+          {
+            "id": "G20-E01-B04",
+            "text": "do you need?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G20-E01-B01",
+          "G20-E01-B02",
+          "G20-E01-B03",
+          "G20-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E01-B01",
+            "G20-E01-B02",
+            "G20-E01-B03",
+            "G20-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G20-E01-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G20-E01-B02",
+            "text": "many",
+            "role": "required"
+          },
+          {
+            "id": "G20-E01-B03",
+            "text": "tickets",
+            "role": "required"
+          },
+          {
+            "id": "G20-E01-B04",
+            "text": "do you need?",
+            "role": "required"
+          },
+          {
+            "id": "G20-E01-D01",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E01-D02",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E01-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G20-E01-D01",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E01-D02",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E01-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G20-E01-B01",
+          "G20-E01-B02",
+          "G20-E01-B03",
+          "G20-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E01-B01",
+            "G20-E01-B02",
+            "G20-E01-B03",
+            "G20-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G20-E01-AUDIO",
+        "text": "How many tickets do you need?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G20-E02",
+      "grammarId": "G20",
+      "grammarNameJa": "数量表現・可算と不可算",
+      "english": "How much money do you have?",
+      "translationJa": "お金をいくら持っていますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "much",
+        "start": 4,
+        "endExclusive": 8,
+        "explanationJa": "manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+      },
+      "sentenceExplanationJa": "「How much money do you have?」は「お金をいくら持っていますか。」という意味です。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。 この文の対象部分は「much」。まとまりは How → much → money → do you have? の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "much",
+          "lemma": "much",
+          "meaningJa": "たくさんの（不可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "money",
+          "lemma": "money",
+          "meaningJa": "お金",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "How ___ money do you have?",
+        "blank": {
+          "start": 4,
+          "endExclusive": 8,
+          "answer": "much"
+        },
+        "options": [
+          {
+            "id": "G20-E02-C3",
+            "text": "some",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「much」を使います。「some」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E02-C4",
+            "text": "any",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「much」を使います。「any」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E02-C1",
+            "text": "much",
+            "isCorrect": true,
+            "explanationJa": "正解。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+          },
+          {
+            "id": "G20-E02-C2",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「much」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G20-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G20-E02-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G20-E02-B02",
+            "text": "much",
+            "role": "required"
+          },
+          {
+            "id": "G20-E02-B03",
+            "text": "money",
+            "role": "required"
+          },
+          {
+            "id": "G20-E02-B04",
+            "text": "do you have?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G20-E02-B01",
+          "G20-E02-B02",
+          "G20-E02-B03",
+          "G20-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E02-B01",
+            "G20-E02-B02",
+            "G20-E02-B03",
+            "G20-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G20-E02-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G20-E02-B02",
+            "text": "much",
+            "role": "required"
+          },
+          {
+            "id": "G20-E02-B03",
+            "text": "money",
+            "role": "required"
+          },
+          {
+            "id": "G20-E02-B04",
+            "text": "do you have?",
+            "role": "required"
+          },
+          {
+            "id": "G20-E02-D01",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E02-D02",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E02-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G20-E02-D01",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E02-D02",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E02-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G20-E02-B01",
+          "G20-E02-B02",
+          "G20-E02-B03",
+          "G20-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E02-B01",
+            "G20-E02-B02",
+            "G20-E02-B03",
+            "G20-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G20-E02-AUDIO",
+        "text": "How much money do you have?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G20-E03",
+      "grammarId": "G20",
+      "grammarNameJa": "数量表現・可算と不可算",
+      "english": "I have some good news.",
+      "translationJa": "私にはよい知らせがいくつかあります。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "some",
+        "start": 7,
+        "endExclusive": 11,
+        "explanationJa": "manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+      },
+      "sentenceExplanationJa": "「I have some good news.」は「私にはよい知らせがいくつかあります。」という意味です。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。 この文の対象部分は「some」。まとまりは I → have → some → good news. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "some",
+          "lemma": "some",
+          "meaningJa": "いくつかの・いくらかの",
+          "kind": "word"
+        },
+        {
+          "expression": "good",
+          "lemma": "good",
+          "meaningJa": "よい",
+          "kind": "word"
+        },
+        {
+          "expression": "news",
+          "lemma": "news",
+          "meaningJa": "知らせ・ニュース",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I have ___ good news.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 11,
+          "answer": "some"
+        },
+        "options": [
+          {
+            "id": "G20-E03-C4",
+            "text": "any",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「some」を使います。「any」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E03-C3",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「some」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E03-C1",
+            "text": "some",
+            "isCorrect": true,
+            "explanationJa": "正解。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+          },
+          {
+            "id": "G20-E03-C2",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「some」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G20-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G20-E03-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G20-E03-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G20-E03-B03",
+            "text": "some",
+            "role": "required"
+          },
+          {
+            "id": "G20-E03-B04",
+            "text": "good news.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G20-E03-B01",
+          "G20-E03-B02",
+          "G20-E03-B03",
+          "G20-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E03-B01",
+            "G20-E03-B02",
+            "G20-E03-B03",
+            "G20-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G20-E03-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G20-E03-B02",
+            "text": "have",
+            "role": "required"
+          },
+          {
+            "id": "G20-E03-B03",
+            "text": "some",
+            "role": "required"
+          },
+          {
+            "id": "G20-E03-B04",
+            "text": "good news.",
+            "role": "required"
+          },
+          {
+            "id": "G20-E03-D01",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E03-D02",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E03-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G20-E03-D01",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E03-D02",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E03-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G20-E03-B01",
+          "G20-E03-B02",
+          "G20-E03-B03",
+          "G20-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E03-B01",
+            "G20-E03-B02",
+            "G20-E03-B03",
+            "G20-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G20-E03-AUDIO",
+        "text": "I have some good news.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G20-E04",
+      "grammarId": "G20",
+      "grammarNameJa": "数量表現・可算と不可算",
+      "english": "I do not have any tickets.",
+      "translationJa": "私はチケットを1枚も持っていません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "any",
+        "start": 14,
+        "endExclusive": 17,
+        "explanationJa": "manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+      },
+      "sentenceExplanationJa": "「I do not have any tickets.」は「私はチケットを1枚も持っていません。」という意味です。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。 この文の対象部分は「any」。まとまりは I → do not have → any → tickets. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "any",
+          "lemma": "any",
+          "meaningJa": "いくつかの・少しも（否定・疑問などで使用）",
+          "kind": "word"
+        },
+        {
+          "expression": "tickets",
+          "lemma": "ticket",
+          "meaningJa": "チケット（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I do not have ___ tickets.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 17,
+          "answer": "any"
+        },
+        "options": [
+          {
+            "id": "G20-E04-C4",
+            "text": "some",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「any」を使います。「some」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E04-C2",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「any」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E04-C3",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「any」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E04-C1",
+            "text": "any",
+            "isCorrect": true,
+            "explanationJa": "正解。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+          }
+        ],
+        "correctOptionId": "G20-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G20-E04-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G20-E04-B02",
+            "text": "do not have",
+            "role": "required"
+          },
+          {
+            "id": "G20-E04-B03",
+            "text": "any",
+            "role": "required"
+          },
+          {
+            "id": "G20-E04-B04",
+            "text": "tickets.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G20-E04-B01",
+          "G20-E04-B02",
+          "G20-E04-B03",
+          "G20-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E04-B01",
+            "G20-E04-B02",
+            "G20-E04-B03",
+            "G20-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G20-E04-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G20-E04-B02",
+            "text": "do not have",
+            "role": "required"
+          },
+          {
+            "id": "G20-E04-B03",
+            "text": "any",
+            "role": "required"
+          },
+          {
+            "id": "G20-E04-B04",
+            "text": "tickets.",
+            "role": "required"
+          },
+          {
+            "id": "G20-E04-D01",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E04-D02",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E04-D03",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G20-E04-D01",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E04-D02",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E04-D03",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G20-E04-B01",
+          "G20-E04-B02",
+          "G20-E04-B03",
+          "G20-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E04-B01",
+            "G20-E04-B02",
+            "G20-E04-B03",
+            "G20-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G20-E04-AUDIO",
+        "text": "I do not have any tickets.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G20-E05",
+      "grammarId": "G20",
+      "grammarNameJa": "数量表現・可算と不可算",
+      "english": "How many fans are here?",
+      "translationJa": "ここにはファンが何人いますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "many",
+        "start": 4,
+        "endExclusive": 8,
+        "explanationJa": "manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+      },
+      "sentenceExplanationJa": "「How many fans are here?」は「ここにはファンが何人いますか。」という意味です。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。 この文の対象部分は「many」。まとまりは How → many → fans → are here? の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "many",
+          "lemma": "many",
+          "meaningJa": "たくさんの（可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "fans",
+          "lemma": "fan",
+          "meaningJa": "ファン（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "here",
+          "lemma": "here",
+          "meaningJa": "ここに・ここで",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "How ___ fans are here?",
+        "blank": {
+          "start": 4,
+          "endExclusive": 8,
+          "answer": "many"
+        },
+        "options": [
+          {
+            "id": "G20-E05-C3",
+            "text": "some",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「many」を使います。「some」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E05-C1",
+            "text": "many",
+            "isCorrect": true,
+            "explanationJa": "正解。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+          },
+          {
+            "id": "G20-E05-C4",
+            "text": "any",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「many」を使います。「any」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E05-C2",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「many」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G20-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G20-E05-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G20-E05-B02",
+            "text": "many",
+            "role": "required"
+          },
+          {
+            "id": "G20-E05-B03",
+            "text": "fans",
+            "role": "required"
+          },
+          {
+            "id": "G20-E05-B04",
+            "text": "are here?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G20-E05-B01",
+          "G20-E05-B02",
+          "G20-E05-B03",
+          "G20-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E05-B01",
+            "G20-E05-B02",
+            "G20-E05-B03",
+            "G20-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G20-E05-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G20-E05-B02",
+            "text": "many",
+            "role": "required"
+          },
+          {
+            "id": "G20-E05-B03",
+            "text": "fans",
+            "role": "required"
+          },
+          {
+            "id": "G20-E05-B04",
+            "text": "are here?",
+            "role": "required"
+          },
+          {
+            "id": "G20-E05-D01",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E05-D02",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E05-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G20-E05-D01",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E05-D02",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E05-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G20-E05-B01",
+          "G20-E05-B02",
+          "G20-E05-B03",
+          "G20-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E05-B01",
+            "G20-E05-B02",
+            "G20-E05-B03",
+            "G20-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G20-E05-AUDIO",
+        "text": "How many fans are here?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G20-E06",
+      "grammarId": "G20",
+      "grammarNameJa": "数量表現・可算と不可算",
+      "english": "There is not much water left.",
+      "translationJa": "水はあまり残っていません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "much",
+        "start": 13,
+        "endExclusive": 17,
+        "explanationJa": "manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+      },
+      "sentenceExplanationJa": "「There is not much water left.」は「水はあまり残っていません。」という意味です。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。 この文の対象部分は「much」。まとまりは There is not → much → water → left. の順です。",
+      "glossary": [
+        {
+          "expression": "There",
+          "lemma": "there",
+          "meaningJa": "そこに／存在構文のthere",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "much",
+          "lemma": "much",
+          "meaningJa": "たくさんの（不可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "water",
+          "lemma": "water",
+          "meaningJa": "水",
+          "kind": "word"
+        },
+        {
+          "expression": "left",
+          "lemma": "leave",
+          "meaningJa": "出発する・～のままにしておく（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "There is not ___ water left.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 17,
+          "answer": "much"
+        },
+        "options": [
+          {
+            "id": "G20-E06-C4",
+            "text": "any",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「much」を使います。「any」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E06-C2",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「much」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E06-C1",
+            "text": "much",
+            "isCorrect": true,
+            "explanationJa": "正解。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+          },
+          {
+            "id": "G20-E06-C3",
+            "text": "some",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「much」を使います。「some」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G20-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G20-E06-B01",
+            "text": "There is not",
+            "role": "required"
+          },
+          {
+            "id": "G20-E06-B02",
+            "text": "much",
+            "role": "required"
+          },
+          {
+            "id": "G20-E06-B03",
+            "text": "water",
+            "role": "required"
+          },
+          {
+            "id": "G20-E06-B04",
+            "text": "left.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G20-E06-B01",
+          "G20-E06-B02",
+          "G20-E06-B03",
+          "G20-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E06-B01",
+            "G20-E06-B02",
+            "G20-E06-B03",
+            "G20-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G20-E06-B01",
+            "text": "There is not",
+            "role": "required"
+          },
+          {
+            "id": "G20-E06-B02",
+            "text": "much",
+            "role": "required"
+          },
+          {
+            "id": "G20-E06-B03",
+            "text": "water",
+            "role": "required"
+          },
+          {
+            "id": "G20-E06-B04",
+            "text": "left.",
+            "role": "required"
+          },
+          {
+            "id": "G20-E06-D01",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E06-D02",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E06-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G20-E06-D01",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E06-D02",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E06-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G20-E06-B01",
+          "G20-E06-B02",
+          "G20-E06-B03",
+          "G20-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E06-B01",
+            "G20-E06-B02",
+            "G20-E06-B03",
+            "G20-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G20-E06-AUDIO",
+        "text": "There is not much water left.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G20-E07",
+      "grammarId": "G20",
+      "grammarNameJa": "数量表現・可算と不可算",
+      "english": "We bought some snacks.",
+      "translationJa": "私たちはお菓子をいくつか買いました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "some",
+        "start": 10,
+        "endExclusive": 14,
+        "explanationJa": "manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+      },
+      "sentenceExplanationJa": "「We bought some snacks.」は「私たちはお菓子をいくつか買いました。」という意味です。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。 この文の対象部分は「some」。まとまりは We → bought → some → snacks. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "bought",
+          "lemma": "buy",
+          "meaningJa": "買う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "some",
+          "lemma": "some",
+          "meaningJa": "いくつかの・いくらかの",
+          "kind": "word"
+        },
+        {
+          "expression": "snacks",
+          "lemma": "snack",
+          "meaningJa": "お菓子・軽食（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We bought ___ snacks.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 14,
+          "answer": "some"
+        },
+        "options": [
+          {
+            "id": "G20-E07-C3",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「some」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E07-C1",
+            "text": "some",
+            "isCorrect": true,
+            "explanationJa": "正解。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+          },
+          {
+            "id": "G20-E07-C4",
+            "text": "any",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「some」を使います。「any」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E07-C2",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「some」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G20-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G20-E07-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G20-E07-B02",
+            "text": "bought",
+            "role": "required"
+          },
+          {
+            "id": "G20-E07-B03",
+            "text": "some",
+            "role": "required"
+          },
+          {
+            "id": "G20-E07-B04",
+            "text": "snacks.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G20-E07-B01",
+          "G20-E07-B02",
+          "G20-E07-B03",
+          "G20-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E07-B01",
+            "G20-E07-B02",
+            "G20-E07-B03",
+            "G20-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G20-E07-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G20-E07-B02",
+            "text": "bought",
+            "role": "required"
+          },
+          {
+            "id": "G20-E07-B03",
+            "text": "some",
+            "role": "required"
+          },
+          {
+            "id": "G20-E07-B04",
+            "text": "snacks.",
+            "role": "required"
+          },
+          {
+            "id": "G20-E07-D01",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E07-D02",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E07-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G20-E07-D01",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E07-D02",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E07-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          },
+          {
+            "id": "G20-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「some」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G20-E07-B01",
+          "G20-E07-B02",
+          "G20-E07-B03",
+          "G20-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E07-B01",
+            "G20-E07-B02",
+            "G20-E07-B03",
+            "G20-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G20-E07-AUDIO",
+        "text": "We bought some snacks.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G20-E08",
+      "grammarId": "G20",
+      "grammarNameJa": "数量表現・可算と不可算",
+      "english": "Do you have any questions?",
+      "translationJa": "何か質問はありますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "any",
+        "start": 12,
+        "endExclusive": 15,
+        "explanationJa": "manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+      },
+      "sentenceExplanationJa": "「Do you have any questions?」は「何か質問はありますか。」という意味です。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。 この文の対象部分は「any」。まとまりは Do you have → any → questions? の順です。",
+      "glossary": [
+        {
+          "expression": "Do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "any",
+          "lemma": "any",
+          "meaningJa": "いくつかの・少しも（否定・疑問などで使用）",
+          "kind": "word"
+        },
+        {
+          "expression": "questions",
+          "lemma": "question",
+          "meaningJa": "質問・問題（複数形など）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Do you have ___ questions?",
+        "blank": {
+          "start": 12,
+          "endExclusive": 15,
+          "answer": "any"
+        },
+        "options": [
+          {
+            "id": "G20-E08-C1",
+            "text": "any",
+            "isCorrect": true,
+            "explanationJa": "正解。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+          },
+          {
+            "id": "G20-E08-C4",
+            "text": "some",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「any」を使います。「some」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E08-C3",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「any」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E08-C2",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「any」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G20-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G20-E08-B01",
+            "text": "Do you have",
+            "role": "required"
+          },
+          {
+            "id": "G20-E08-B02",
+            "text": "any",
+            "role": "required"
+          },
+          {
+            "id": "G20-E08-B03",
+            "text": "questions?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G20-E08-B01",
+          "G20-E08-B02",
+          "G20-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E08-B01",
+            "G20-E08-B02",
+            "G20-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G20-E08-B01",
+            "text": "Do you have",
+            "role": "required"
+          },
+          {
+            "id": "G20-E08-B02",
+            "text": "any",
+            "role": "required"
+          },
+          {
+            "id": "G20-E08-B03",
+            "text": "questions?",
+            "role": "required"
+          },
+          {
+            "id": "G20-E08-D01",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E08-D02",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E08-D03",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G20-E08-D01",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E08-D02",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E08-D03",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          },
+          {
+            "id": "G20-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「any」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G20-E08-B01",
+          "G20-E08-B02",
+          "G20-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E08-B01",
+            "G20-E08-B02",
+            "G20-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G20-E08-AUDIO",
+        "text": "Do you have any questions?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G20-E09",
+      "grammarId": "G20",
+      "grammarNameJa": "数量表現・可算と不可算",
+      "english": "How much time do we have?",
+      "translationJa": "私たちにはどれくらい時間がありますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "much",
+        "start": 4,
+        "endExclusive": 8,
+        "explanationJa": "manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+      },
+      "sentenceExplanationJa": "「How much time do we have?」は「私たちにはどれくらい時間がありますか。」という意味です。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。 この文の対象部分は「much」。まとまりは How → much → time → do we have? の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "much",
+          "lemma": "much",
+          "meaningJa": "たくさんの（不可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "time",
+          "lemma": "time",
+          "meaningJa": "時間・時・回数",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "we",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "have",
+          "lemma": "have",
+          "meaningJa": "持つ・完了形の助動詞",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "How ___ time do we have?",
+        "blank": {
+          "start": 4,
+          "endExclusive": 8,
+          "answer": "much"
+        },
+        "options": [
+          {
+            "id": "G20-E09-C1",
+            "text": "much",
+            "isCorrect": true,
+            "explanationJa": "正解。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+          },
+          {
+            "id": "G20-E09-C3",
+            "text": "some",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「much」を使います。「some」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E09-C2",
+            "text": "many",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「much」を使います。「many」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E09-C4",
+            "text": "any",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「much」を使います。「any」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G20-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G20-E09-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G20-E09-B02",
+            "text": "much",
+            "role": "required"
+          },
+          {
+            "id": "G20-E09-B03",
+            "text": "time",
+            "role": "required"
+          },
+          {
+            "id": "G20-E09-B04",
+            "text": "do we have?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G20-E09-B01",
+          "G20-E09-B02",
+          "G20-E09-B03",
+          "G20-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E09-B01",
+            "G20-E09-B02",
+            "G20-E09-B03",
+            "G20-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G20-E09-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G20-E09-B02",
+            "text": "much",
+            "role": "required"
+          },
+          {
+            "id": "G20-E09-B03",
+            "text": "time",
+            "role": "required"
+          },
+          {
+            "id": "G20-E09-B04",
+            "text": "do we have?",
+            "role": "required"
+          },
+          {
+            "id": "G20-E09-D01",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E09-D02",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E09-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G20-E09-D01",
+            "text": "many",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E09-D02",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E09-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          },
+          {
+            "id": "G20-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「much」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G20-E09-B01",
+          "G20-E09-B02",
+          "G20-E09-B03",
+          "G20-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E09-B01",
+            "G20-E09-B02",
+            "G20-E09-B03",
+            "G20-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G20-E09-AUDIO",
+        "text": "How much time do we have?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G20-E10",
+      "grammarId": "G20",
+      "grammarNameJa": "数量表現・可算と不可算",
+      "english": "How many cards did you get?",
+      "translationJa": "カードは何枚手に入りましたか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "many",
+        "start": 4,
+        "endExclusive": 8,
+        "explanationJa": "manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+      },
+      "sentenceExplanationJa": "「How many cards did you get?」は「カードは何枚手に入りましたか。」という意味です。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。 この文の対象部分は「many」。まとまりは How → many → cards → did you get? の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "many",
+          "lemma": "many",
+          "meaningJa": "たくさんの（可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "cards",
+          "lemma": "card",
+          "meaningJa": "カード（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "did",
+          "lemma": "did",
+          "meaningJa": "doの過去形・過去の疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "get",
+          "lemma": "get",
+          "meaningJa": "得る・着く・～になる",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "How ___ cards did you get?",
+        "blank": {
+          "start": 4,
+          "endExclusive": 8,
+          "answer": "many"
+        },
+        "options": [
+          {
+            "id": "G20-E10-C3",
+            "text": "some",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「many」を使います。「some」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E10-C1",
+            "text": "many",
+            "isCorrect": true,
+            "explanationJa": "正解。manyは数えられる複数名詞、muchは不可算名詞に使う。someは肯定文、anyは否定・疑問でよく使う。"
+          },
+          {
+            "id": "G20-E10-C2",
+            "text": "much",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「many」を使います。「much」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G20-E10-C4",
+            "text": "any",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「many」を使います。「any」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G20-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G20-E10-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G20-E10-B02",
+            "text": "many",
+            "role": "required"
+          },
+          {
+            "id": "G20-E10-B03",
+            "text": "cards",
+            "role": "required"
+          },
+          {
+            "id": "G20-E10-B04",
+            "text": "did you get?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G20-E10-B01",
+          "G20-E10-B02",
+          "G20-E10-B03",
+          "G20-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E10-B01",
+            "G20-E10-B02",
+            "G20-E10-B03",
+            "G20-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G20-E10-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G20-E10-B02",
+            "text": "many",
+            "role": "required"
+          },
+          {
+            "id": "G20-E10-B03",
+            "text": "cards",
+            "role": "required"
+          },
+          {
+            "id": "G20-E10-B04",
+            "text": "did you get?",
+            "role": "required"
+          },
+          {
+            "id": "G20-E10-D01",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E10-D02",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E10-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G20-E10-D01",
+            "text": "much",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E10-D02",
+            "text": "some",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E10-D03",
+            "text": "any",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          },
+          {
+            "id": "G20-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「many」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G20-E10-B01",
+          "G20-E10-B02",
+          "G20-E10-B03",
+          "G20-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G20-E10-B01",
+            "G20-E10-B02",
+            "G20-E10-B03",
+            "G20-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G20-E10-AUDIO",
+        "text": "How many cards did you get?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

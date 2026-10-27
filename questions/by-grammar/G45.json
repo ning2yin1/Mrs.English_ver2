@@ -1,0 +1,2303 @@
+{
+  "grammarId": "G45",
+  "examples": [
+    {
+      "id": "G45-E01",
+      "grammarId": "G45",
+      "grammarNameJa": "間接疑問文",
+      "english": "I know where the hall is.",
+      "translationJa": "私は会場がどこにあるか知っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "the hall is",
+        "start": 13,
+        "endExclusive": 24,
+        "explanationJa": "疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+      },
+      "sentenceExplanationJa": "「I know where the hall is.」は「私は会場がどこにあるか知っています。」という意味です。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。 この文の対象部分は「the hall is」。まとまりは I know → where → the hall is. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "know",
+          "lemma": "know",
+          "meaningJa": "知っている",
+          "kind": "word"
+        },
+        {
+          "expression": "where",
+          "lemma": "where",
+          "meaningJa": "どこ",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I know where ___.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 24,
+          "answer": "the hall is"
+        },
+        "options": [
+          {
+            "id": "G45-E01-C4",
+            "text": "the hall be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「the hall is」を使います。「the hall be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E01-C3",
+            "text": "does the hall is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「the hall is」を使います。「does the hall is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E01-C1",
+            "text": "the hall is",
+            "isCorrect": true,
+            "explanationJa": "正解。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+          },
+          {
+            "id": "G45-E01-C2",
+            "text": "is the hall",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「the hall is」を使います。「is the hall」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G45-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G45-E01-B01",
+            "text": "I know",
+            "role": "required"
+          },
+          {
+            "id": "G45-E01-B02",
+            "text": "where",
+            "role": "required"
+          },
+          {
+            "id": "G45-E01-B03",
+            "text": "the hall is.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G45-E01-B01",
+          "G45-E01-B02",
+          "G45-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E01-B01",
+            "G45-E01-B02",
+            "G45-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G45-E01-B01",
+            "text": "I know",
+            "role": "required"
+          },
+          {
+            "id": "G45-E01-B02",
+            "text": "where",
+            "role": "required"
+          },
+          {
+            "id": "G45-E01-B03",
+            "text": "the hall is.",
+            "role": "required"
+          },
+          {
+            "id": "G45-E01-D01",
+            "text": "is the hall",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the hall is」と比較してください。"
+          },
+          {
+            "id": "G45-E01-D02",
+            "text": "does the hall is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the hall is」と比較してください。"
+          },
+          {
+            "id": "G45-E01-D03",
+            "text": "the hall be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the hall is」と比較してください。"
+          },
+          {
+            "id": "G45-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the hall is」と比較してください。"
+          },
+          {
+            "id": "G45-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the hall is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G45-E01-D01",
+            "text": "is the hall",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the hall is」と比較してください。"
+          },
+          {
+            "id": "G45-E01-D02",
+            "text": "does the hall is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the hall is」と比較してください。"
+          },
+          {
+            "id": "G45-E01-D03",
+            "text": "the hall be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the hall is」と比較してください。"
+          },
+          {
+            "id": "G45-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the hall is」と比較してください。"
+          },
+          {
+            "id": "G45-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the hall is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G45-E01-B01",
+          "G45-E01-B02",
+          "G45-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E01-B01",
+            "G45-E01-B02",
+            "G45-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G45-E01-AUDIO",
+        "text": "I know where the hall is.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G45-E02",
+      "grammarId": "G45",
+      "grammarNameJa": "間接疑問文",
+      "english": "Please tell me when the show starts.",
+      "translationJa": "公演がいつ始まるか教えてください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "the show starts",
+        "start": 20,
+        "endExclusive": 35,
+        "explanationJa": "疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+      },
+      "sentenceExplanationJa": "「Please tell me when the show starts.」は「公演がいつ始まるか教えてください。」という意味です。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。 この文の対象部分は「the show starts」。まとまりは Please tell me → when → the show starts. の順です。",
+      "glossary": [
+        {
+          "expression": "Please",
+          "lemma": "please",
+          "meaningJa": "どうぞ・～してください",
+          "kind": "word"
+        },
+        {
+          "expression": "tell",
+          "lemma": "tell",
+          "meaningJa": "伝える・言う",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "when",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        },
+        {
+          "expression": "starts",
+          "lemma": "start",
+          "meaningJa": "始まる・始める（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Please tell me when ___.",
+        "blank": {
+          "start": 20,
+          "endExclusive": 35,
+          "answer": "the show starts"
+        },
+        "options": [
+          {
+            "id": "G45-E02-C4",
+            "text": "is the show starts",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「the show starts」を使います。「is the show starts」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E02-C1",
+            "text": "the show starts",
+            "isCorrect": true,
+            "explanationJa": "正解。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+          },
+          {
+            "id": "G45-E02-C3",
+            "text": "the show start",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「the show starts」を使います。「the show start」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E02-C2",
+            "text": "does the show start",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「the show starts」を使います。「does the show start」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G45-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G45-E02-B01",
+            "text": "Please tell me",
+            "role": "required"
+          },
+          {
+            "id": "G45-E02-B02",
+            "text": "when",
+            "role": "required"
+          },
+          {
+            "id": "G45-E02-B03",
+            "text": "the show starts.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G45-E02-B01",
+          "G45-E02-B02",
+          "G45-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E02-B01",
+            "G45-E02-B02",
+            "G45-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G45-E02-B01",
+            "text": "Please tell me",
+            "role": "required"
+          },
+          {
+            "id": "G45-E02-B02",
+            "text": "when",
+            "role": "required"
+          },
+          {
+            "id": "G45-E02-B03",
+            "text": "the show starts.",
+            "role": "required"
+          },
+          {
+            "id": "G45-E02-D01",
+            "text": "does the show start",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the show starts」と比較してください。"
+          },
+          {
+            "id": "G45-E02-D02",
+            "text": "the show start",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the show starts」と比較してください。"
+          },
+          {
+            "id": "G45-E02-D03",
+            "text": "is the show starts",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the show starts」と比較してください。"
+          },
+          {
+            "id": "G45-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the show starts」と比較してください。"
+          },
+          {
+            "id": "G45-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the show starts」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G45-E02-D01",
+            "text": "does the show start",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the show starts」と比較してください。"
+          },
+          {
+            "id": "G45-E02-D02",
+            "text": "the show start",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the show starts」と比較してください。"
+          },
+          {
+            "id": "G45-E02-D03",
+            "text": "is the show starts",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the show starts」と比較してください。"
+          },
+          {
+            "id": "G45-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the show starts」と比較してください。"
+          },
+          {
+            "id": "G45-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「the show starts」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G45-E02-B01",
+          "G45-E02-B02",
+          "G45-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E02-B01",
+            "G45-E02-B02",
+            "G45-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G45-E02-AUDIO",
+        "text": "Please tell me when the show starts.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G45-E03",
+      "grammarId": "G45",
+      "grammarNameJa": "間接疑問文",
+      "english": "Do you know what this word means?",
+      "translationJa": "あなたはこの単語が何を意味するか知っていますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "this word means",
+        "start": 17,
+        "endExclusive": 32,
+        "explanationJa": "疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+      },
+      "sentenceExplanationJa": "「Do you know what this word means?」は「あなたはこの単語が何を意味するか知っていますか。」という意味です。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。 この文の対象部分は「this word means」。まとまりは Do you know → what → this word means? の順です。",
+      "glossary": [
+        {
+          "expression": "Do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "know",
+          "lemma": "know",
+          "meaningJa": "知っている",
+          "kind": "word"
+        },
+        {
+          "expression": "what",
+          "lemma": "what",
+          "meaningJa": "何・何という",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "word",
+          "lemma": "word",
+          "meaningJa": "単語・言葉",
+          "kind": "word"
+        },
+        {
+          "expression": "means",
+          "lemma": "mean",
+          "meaningJa": "意味する（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Do you know what ___?",
+        "blank": {
+          "start": 17,
+          "endExclusive": 32,
+          "answer": "this word means"
+        },
+        "options": [
+          {
+            "id": "G45-E03-C1",
+            "text": "this word means",
+            "isCorrect": true,
+            "explanationJa": "正解。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+          },
+          {
+            "id": "G45-E03-C4",
+            "text": "is this word means",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「this word means」を使います。「is this word means」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E03-C3",
+            "text": "this word mean",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「this word means」を使います。「this word mean」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E03-C2",
+            "text": "does this word mean",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「this word means」を使います。「does this word mean」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G45-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G45-E03-B01",
+            "text": "Do you know",
+            "role": "required"
+          },
+          {
+            "id": "G45-E03-B02",
+            "text": "what",
+            "role": "required"
+          },
+          {
+            "id": "G45-E03-B03",
+            "text": "this word means?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G45-E03-B01",
+          "G45-E03-B02",
+          "G45-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E03-B01",
+            "G45-E03-B02",
+            "G45-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G45-E03-B01",
+            "text": "Do you know",
+            "role": "required"
+          },
+          {
+            "id": "G45-E03-B02",
+            "text": "what",
+            "role": "required"
+          },
+          {
+            "id": "G45-E03-B03",
+            "text": "this word means?",
+            "role": "required"
+          },
+          {
+            "id": "G45-E03-D01",
+            "text": "does this word mean",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「this word means」と比較してください。"
+          },
+          {
+            "id": "G45-E03-D02",
+            "text": "this word mean",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「this word means」と比較してください。"
+          },
+          {
+            "id": "G45-E03-D03",
+            "text": "is this word means",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「this word means」と比較してください。"
+          },
+          {
+            "id": "G45-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「this word means」と比較してください。"
+          },
+          {
+            "id": "G45-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「this word means」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G45-E03-D01",
+            "text": "does this word mean",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「this word means」と比較してください。"
+          },
+          {
+            "id": "G45-E03-D02",
+            "text": "this word mean",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「this word means」と比較してください。"
+          },
+          {
+            "id": "G45-E03-D03",
+            "text": "is this word means",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「this word means」と比較してください。"
+          },
+          {
+            "id": "G45-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「this word means」と比較してください。"
+          },
+          {
+            "id": "G45-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「this word means」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G45-E03-B01",
+          "G45-E03-B02",
+          "G45-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E03-B01",
+            "G45-E03-B02",
+            "G45-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G45-E03-AUDIO",
+        "text": "Do you know what this word means?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G45-E04",
+      "grammarId": "G45",
+      "grammarNameJa": "間接疑問文",
+      "english": "I wonder why she is crying.",
+      "translationJa": "私は彼女がなぜ泣いているのかと思います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "she is crying",
+        "start": 13,
+        "endExclusive": 26,
+        "explanationJa": "疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+      },
+      "sentenceExplanationJa": "「I wonder why she is crying.」は「私は彼女がなぜ泣いているのかと思います。」という意味です。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。 この文の対象部分は「she is crying」。まとまりは I wonder → why → she is crying. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "wonder",
+          "lemma": "wonder",
+          "meaningJa": "～だろうかと思う",
+          "kind": "word"
+        },
+        {
+          "expression": "why",
+          "lemma": "why",
+          "meaningJa": "なぜ",
+          "kind": "word"
+        },
+        {
+          "expression": "she",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "crying",
+          "lemma": "cry",
+          "meaningJa": "泣く（ing形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I wonder why ___.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 26,
+          "answer": "she is crying"
+        },
+        "options": [
+          {
+            "id": "G45-E04-C1",
+            "text": "she is crying",
+            "isCorrect": true,
+            "explanationJa": "正解。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+          },
+          {
+            "id": "G45-E04-C4",
+            "text": "does she crying",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「she is crying」を使います。「does she crying」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E04-C2",
+            "text": "is she crying",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「she is crying」を使います。「is she crying」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E04-C3",
+            "text": "she are crying",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「she is crying」を使います。「she are crying」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G45-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G45-E04-B01",
+            "text": "I wonder",
+            "role": "required"
+          },
+          {
+            "id": "G45-E04-B02",
+            "text": "why",
+            "role": "required"
+          },
+          {
+            "id": "G45-E04-B03",
+            "text": "she is crying.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G45-E04-B01",
+          "G45-E04-B02",
+          "G45-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E04-B01",
+            "G45-E04-B02",
+            "G45-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G45-E04-B01",
+            "text": "I wonder",
+            "role": "required"
+          },
+          {
+            "id": "G45-E04-B02",
+            "text": "why",
+            "role": "required"
+          },
+          {
+            "id": "G45-E04-B03",
+            "text": "she is crying.",
+            "role": "required"
+          },
+          {
+            "id": "G45-E04-D01",
+            "text": "is she crying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「she is crying」と比較してください。"
+          },
+          {
+            "id": "G45-E04-D02",
+            "text": "she are crying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「she is crying」と比較してください。"
+          },
+          {
+            "id": "G45-E04-D03",
+            "text": "does she crying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「she is crying」と比較してください。"
+          },
+          {
+            "id": "G45-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「she is crying」と比較してください。"
+          },
+          {
+            "id": "G45-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「she is crying」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G45-E04-D01",
+            "text": "is she crying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「she is crying」と比較してください。"
+          },
+          {
+            "id": "G45-E04-D02",
+            "text": "she are crying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「she is crying」と比較してください。"
+          },
+          {
+            "id": "G45-E04-D03",
+            "text": "does she crying",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「she is crying」と比較してください。"
+          },
+          {
+            "id": "G45-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「she is crying」と比較してください。"
+          },
+          {
+            "id": "G45-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「she is crying」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G45-E04-B01",
+          "G45-E04-B02",
+          "G45-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E04-B01",
+            "G45-E04-B02",
+            "G45-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G45-E04-AUDIO",
+        "text": "I wonder why she is crying.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G45-E05",
+      "grammarId": "G45",
+      "grammarNameJa": "間接疑問文",
+      "english": "He asked me where I lived.",
+      "translationJa": "彼は私がどこに住んでいたか尋ねました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "I lived",
+        "start": 18,
+        "endExclusive": 25,
+        "explanationJa": "疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+      },
+      "sentenceExplanationJa": "「He asked me where I lived.」は「彼は私がどこに住んでいたか尋ねました。」という意味です。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。 この文の対象部分は「I lived」。まとまりは He asked me → where → I lived. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "asked",
+          "lemma": "ask",
+          "meaningJa": "尋ねる・頼む（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "where",
+          "lemma": "where",
+          "meaningJa": "どこ",
+          "kind": "word"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "lived",
+          "lemma": "live",
+          "meaningJa": "住む／生の・生配信の（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He asked me where ___.",
+        "blank": {
+          "start": 18,
+          "endExclusive": 25,
+          "answer": "I lived"
+        },
+        "options": [
+          {
+            "id": "G45-E05-C1",
+            "text": "I lived",
+            "isCorrect": true,
+            "explanationJa": "正解。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+          },
+          {
+            "id": "G45-E05-C2",
+            "text": "did I live",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「I lived」を使います。「did I live」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E05-C3",
+            "text": "I living",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「I lived」を使います。「I living」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E05-C4",
+            "text": "I lives",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「I lived」を使います。「I lives」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G45-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G45-E05-B01",
+            "text": "He asked me",
+            "role": "required"
+          },
+          {
+            "id": "G45-E05-B02",
+            "text": "where",
+            "role": "required"
+          },
+          {
+            "id": "G45-E05-B03",
+            "text": "I lived.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G45-E05-B01",
+          "G45-E05-B02",
+          "G45-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E05-B01",
+            "G45-E05-B02",
+            "G45-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G45-E05-B01",
+            "text": "He asked me",
+            "role": "required"
+          },
+          {
+            "id": "G45-E05-B02",
+            "text": "where",
+            "role": "required"
+          },
+          {
+            "id": "G45-E05-B03",
+            "text": "I lived.",
+            "role": "required"
+          },
+          {
+            "id": "G45-E05-D01",
+            "text": "did I live",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「I lived」と比較してください。"
+          },
+          {
+            "id": "G45-E05-D02",
+            "text": "I living",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「I lived」と比較してください。"
+          },
+          {
+            "id": "G45-E05-D03",
+            "text": "I lives",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「I lived」と比較してください。"
+          },
+          {
+            "id": "G45-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「I lived」と比較してください。"
+          },
+          {
+            "id": "G45-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「I lived」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G45-E05-D01",
+            "text": "did I live",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「I lived」と比較してください。"
+          },
+          {
+            "id": "G45-E05-D02",
+            "text": "I living",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「I lived」と比較してください。"
+          },
+          {
+            "id": "G45-E05-D03",
+            "text": "I lives",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「I lived」と比較してください。"
+          },
+          {
+            "id": "G45-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「I lived」と比較してください。"
+          },
+          {
+            "id": "G45-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「I lived」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G45-E05-B01",
+          "G45-E05-B02",
+          "G45-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E05-B01",
+            "G45-E05-B02",
+            "G45-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G45-E05-AUDIO",
+        "text": "He asked me where I lived.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G45-E06",
+      "grammarId": "G45",
+      "grammarNameJa": "間接疑問文",
+      "english": "I remember when we first met.",
+      "translationJa": "私は私たちが初めて会った時を覚えています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "we first met",
+        "start": 16,
+        "endExclusive": 28,
+        "explanationJa": "疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+      },
+      "sentenceExplanationJa": "「I remember when we first met.」は「私は私たちが初めて会った時を覚えています。」という意味です。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。 この文の対象部分は「we first met」。まとまりは I remember → when → we first met. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "remember",
+          "lemma": "remember",
+          "meaningJa": "覚えている",
+          "kind": "word"
+        },
+        {
+          "expression": "when",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "we",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "first",
+          "lemma": "first",
+          "meaningJa": "最初に・初めて",
+          "kind": "word"
+        },
+        {
+          "expression": "met",
+          "lemma": "meet",
+          "meaningJa": "会う・集まる（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I remember when ___.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 28,
+          "answer": "we first met"
+        },
+        "options": [
+          {
+            "id": "G45-E06-C4",
+            "text": "we first meets",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「we first met」を使います。「we first meets」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E06-C2",
+            "text": "did we first meet",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「we first met」を使います。「did we first meet」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E06-C3",
+            "text": "we first meeting",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「we first met」を使います。「we first meeting」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E06-C1",
+            "text": "we first met",
+            "isCorrect": true,
+            "explanationJa": "正解。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+          }
+        ],
+        "correctOptionId": "G45-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G45-E06-B01",
+            "text": "I remember",
+            "role": "required"
+          },
+          {
+            "id": "G45-E06-B02",
+            "text": "when",
+            "role": "required"
+          },
+          {
+            "id": "G45-E06-B03",
+            "text": "we first met.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G45-E06-B01",
+          "G45-E06-B02",
+          "G45-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E06-B01",
+            "G45-E06-B02",
+            "G45-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G45-E06-B01",
+            "text": "I remember",
+            "role": "required"
+          },
+          {
+            "id": "G45-E06-B02",
+            "text": "when",
+            "role": "required"
+          },
+          {
+            "id": "G45-E06-B03",
+            "text": "we first met.",
+            "role": "required"
+          },
+          {
+            "id": "G45-E06-D01",
+            "text": "did we first meet",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「we first met」と比較してください。"
+          },
+          {
+            "id": "G45-E06-D02",
+            "text": "we first meeting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「we first met」と比較してください。"
+          },
+          {
+            "id": "G45-E06-D03",
+            "text": "we first meets",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「we first met」と比較してください。"
+          },
+          {
+            "id": "G45-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「we first met」と比較してください。"
+          },
+          {
+            "id": "G45-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「we first met」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G45-E06-D01",
+            "text": "did we first meet",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「we first met」と比較してください。"
+          },
+          {
+            "id": "G45-E06-D02",
+            "text": "we first meeting",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「we first met」と比較してください。"
+          },
+          {
+            "id": "G45-E06-D03",
+            "text": "we first meets",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「we first met」と比較してください。"
+          },
+          {
+            "id": "G45-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「we first met」と比較してください。"
+          },
+          {
+            "id": "G45-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「we first met」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G45-E06-B01",
+          "G45-E06-B02",
+          "G45-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E06-B01",
+            "G45-E06-B02",
+            "G45-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G45-E06-AUDIO",
+        "text": "I remember when we first met.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G45-E07",
+      "grammarId": "G45",
+      "grammarNameJa": "間接疑問文",
+      "english": "Please tell me how you got the ticket.",
+      "translationJa": "どうやってチケットを手に入れたか教えてください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "you got the ticket",
+        "start": 19,
+        "endExclusive": 37,
+        "explanationJa": "疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+      },
+      "sentenceExplanationJa": "「Please tell me how you got the ticket.」は「どうやってチケットを手に入れたか教えてください。」という意味です。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。 この文の対象部分は「you got the ticket」。まとまりは Please tell me → how → you got the ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "Please",
+          "lemma": "please",
+          "meaningJa": "どうぞ・～してください",
+          "kind": "word"
+        },
+        {
+          "expression": "tell",
+          "lemma": "tell",
+          "meaningJa": "伝える・言う",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "how",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "got",
+          "lemma": "get",
+          "meaningJa": "得る・着く・～になる（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Please tell me how ___.",
+        "blank": {
+          "start": 19,
+          "endExclusive": 37,
+          "answer": "you got the ticket"
+        },
+        "options": [
+          {
+            "id": "G45-E07-C3",
+            "text": "you getting the ticket",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「you got the ticket」を使います。「you getting the ticket」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E07-C4",
+            "text": "you gets the ticket",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「you got the ticket」を使います。「you gets the ticket」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E07-C1",
+            "text": "you got the ticket",
+            "isCorrect": true,
+            "explanationJa": "正解。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+          },
+          {
+            "id": "G45-E07-C2",
+            "text": "did you get the ticket",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「you got the ticket」を使います。「did you get the ticket」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G45-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G45-E07-B01",
+            "text": "Please tell me",
+            "role": "required"
+          },
+          {
+            "id": "G45-E07-B02",
+            "text": "how",
+            "role": "required"
+          },
+          {
+            "id": "G45-E07-B03",
+            "text": "you got the ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G45-E07-B01",
+          "G45-E07-B02",
+          "G45-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E07-B01",
+            "G45-E07-B02",
+            "G45-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G45-E07-B01",
+            "text": "Please tell me",
+            "role": "required"
+          },
+          {
+            "id": "G45-E07-B02",
+            "text": "how",
+            "role": "required"
+          },
+          {
+            "id": "G45-E07-B03",
+            "text": "you got the ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G45-E07-D01",
+            "text": "did you get the ticket",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「you got the ticket」と比較してください。"
+          },
+          {
+            "id": "G45-E07-D02",
+            "text": "you getting the ticket",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「you got the ticket」と比較してください。"
+          },
+          {
+            "id": "G45-E07-D03",
+            "text": "you gets the ticket",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「you got the ticket」と比較してください。"
+          },
+          {
+            "id": "G45-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「you got the ticket」と比較してください。"
+          },
+          {
+            "id": "G45-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「you got the ticket」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G45-E07-D01",
+            "text": "did you get the ticket",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「you got the ticket」と比較してください。"
+          },
+          {
+            "id": "G45-E07-D02",
+            "text": "you getting the ticket",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「you got the ticket」と比較してください。"
+          },
+          {
+            "id": "G45-E07-D03",
+            "text": "you gets the ticket",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「you got the ticket」と比較してください。"
+          },
+          {
+            "id": "G45-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「you got the ticket」と比較してください。"
+          },
+          {
+            "id": "G45-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「you got the ticket」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G45-E07-B01",
+          "G45-E07-B02",
+          "G45-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E07-B01",
+            "G45-E07-B02",
+            "G45-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G45-E07-AUDIO",
+        "text": "Please tell me how you got the ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G45-E08",
+      "grammarId": "G45",
+      "grammarNameJa": "間接疑問文",
+      "english": "She knows which train we need.",
+      "translationJa": "彼女は私たちにどの電車が必要か知っています。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "train we need",
+        "start": 16,
+        "endExclusive": 29,
+        "explanationJa": "疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+      },
+      "sentenceExplanationJa": "「She knows which train we need.」は「彼女は私たちにどの電車が必要か知っています。」という意味です。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。 この文の対象部分は「train we need」。まとまりは She knows → which → train we need. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "knows",
+          "lemma": "know",
+          "meaningJa": "知っている（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "which",
+          "lemma": "which",
+          "meaningJa": "どちら・どの／関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "train",
+          "lemma": "train",
+          "meaningJa": "電車",
+          "kind": "word"
+        },
+        {
+          "expression": "we",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "need",
+          "lemma": "need",
+          "meaningJa": "必要とする",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She knows which ___.",
+        "blank": {
+          "start": 16,
+          "endExclusive": 29,
+          "answer": "train we need"
+        },
+        "options": [
+          {
+            "id": "G45-E08-C2",
+            "text": "train do we need",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「train we need」を使います。「train do we need」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E08-C4",
+            "text": "train are we need",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「train we need」を使います。「train are we need」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E08-C3",
+            "text": "train we needs",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「train we need」を使います。「train we needs」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E08-C1",
+            "text": "train we need",
+            "isCorrect": true,
+            "explanationJa": "正解。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+          }
+        ],
+        "correctOptionId": "G45-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G45-E08-B01",
+            "text": "She knows",
+            "role": "required"
+          },
+          {
+            "id": "G45-E08-B02",
+            "text": "which",
+            "role": "required"
+          },
+          {
+            "id": "G45-E08-B03",
+            "text": "train we need.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G45-E08-B01",
+          "G45-E08-B02",
+          "G45-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E08-B01",
+            "G45-E08-B02",
+            "G45-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G45-E08-B01",
+            "text": "She knows",
+            "role": "required"
+          },
+          {
+            "id": "G45-E08-B02",
+            "text": "which",
+            "role": "required"
+          },
+          {
+            "id": "G45-E08-B03",
+            "text": "train we need.",
+            "role": "required"
+          },
+          {
+            "id": "G45-E08-D01",
+            "text": "train do we need",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「train we need」と比較してください。"
+          },
+          {
+            "id": "G45-E08-D02",
+            "text": "train we needs",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「train we need」と比較してください。"
+          },
+          {
+            "id": "G45-E08-D03",
+            "text": "train are we need",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「train we need」と比較してください。"
+          },
+          {
+            "id": "G45-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「train we need」と比較してください。"
+          },
+          {
+            "id": "G45-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「train we need」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G45-E08-D01",
+            "text": "train do we need",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「train we need」と比較してください。"
+          },
+          {
+            "id": "G45-E08-D02",
+            "text": "train we needs",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「train we need」と比較してください。"
+          },
+          {
+            "id": "G45-E08-D03",
+            "text": "train are we need",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「train we need」と比較してください。"
+          },
+          {
+            "id": "G45-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「train we need」と比較してください。"
+          },
+          {
+            "id": "G45-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「train we need」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G45-E08-B01",
+          "G45-E08-B02",
+          "G45-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E08-B01",
+            "G45-E08-B02",
+            "G45-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G45-E08-AUDIO",
+        "text": "She knows which train we need.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G45-E09",
+      "grammarId": "G45",
+      "grammarNameJa": "間接疑問文",
+      "english": "I do not know whose bag this is.",
+      "translationJa": "私はこれが誰のバッグかわかりません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "bag this is",
+        "start": 20,
+        "endExclusive": 31,
+        "explanationJa": "疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+      },
+      "sentenceExplanationJa": "「I do not know whose bag this is.」は「私はこれが誰のバッグかわかりません。」という意味です。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。 この文の対象部分は「bag this is」。まとまりは I do not know → whose → bag this is. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "know",
+          "lemma": "know",
+          "meaningJa": "知っている",
+          "kind": "word"
+        },
+        {
+          "expression": "whose",
+          "lemma": "whose",
+          "meaningJa": "誰の・～のものの",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I do not know whose ___.",
+        "blank": {
+          "start": 20,
+          "endExclusive": 31,
+          "answer": "bag this is"
+        },
+        "options": [
+          {
+            "id": "G45-E09-C3",
+            "text": "bag this are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「bag this is」を使います。「bag this are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E09-C1",
+            "text": "bag this is",
+            "isCorrect": true,
+            "explanationJa": "正解。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+          },
+          {
+            "id": "G45-E09-C2",
+            "text": "bag is this",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「bag this is」を使います。「bag is this」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E09-C4",
+            "text": "bag does this is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「bag this is」を使います。「bag does this is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G45-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G45-E09-B01",
+            "text": "I do not know",
+            "role": "required"
+          },
+          {
+            "id": "G45-E09-B02",
+            "text": "whose",
+            "role": "required"
+          },
+          {
+            "id": "G45-E09-B03",
+            "text": "bag this is.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G45-E09-B01",
+          "G45-E09-B02",
+          "G45-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E09-B01",
+            "G45-E09-B02",
+            "G45-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G45-E09-B01",
+            "text": "I do not know",
+            "role": "required"
+          },
+          {
+            "id": "G45-E09-B02",
+            "text": "whose",
+            "role": "required"
+          },
+          {
+            "id": "G45-E09-B03",
+            "text": "bag this is.",
+            "role": "required"
+          },
+          {
+            "id": "G45-E09-D01",
+            "text": "bag is this",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bag this is」と比較してください。"
+          },
+          {
+            "id": "G45-E09-D02",
+            "text": "bag this are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bag this is」と比較してください。"
+          },
+          {
+            "id": "G45-E09-D03",
+            "text": "bag does this is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bag this is」と比較してください。"
+          },
+          {
+            "id": "G45-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bag this is」と比較してください。"
+          },
+          {
+            "id": "G45-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bag this is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G45-E09-D01",
+            "text": "bag is this",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bag this is」と比較してください。"
+          },
+          {
+            "id": "G45-E09-D02",
+            "text": "bag this are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bag this is」と比較してください。"
+          },
+          {
+            "id": "G45-E09-D03",
+            "text": "bag does this is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bag this is」と比較してください。"
+          },
+          {
+            "id": "G45-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bag this is」と比較してください。"
+          },
+          {
+            "id": "G45-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「bag this is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G45-E09-B01",
+          "G45-E09-B02",
+          "G45-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E09-B01",
+            "G45-E09-B02",
+            "G45-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G45-E09-AUDIO",
+        "text": "I do not know whose bag this is.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G45-E10",
+      "grammarId": "G45",
+      "grammarNameJa": "間接疑問文",
+      "english": "Do you know how many cards he has?",
+      "translationJa": "あなたは彼がカードを何枚持っているか知っていますか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "he has",
+        "start": 27,
+        "endExclusive": 33,
+        "explanationJa": "疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+      },
+      "sentenceExplanationJa": "「Do you know how many cards he has?」は「あなたは彼がカードを何枚持っているか知っていますか。」という意味です。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。 この文の対象部分は「he has」。まとまりは Do you know → how many cards → he has? の順です。",
+      "glossary": [
+        {
+          "expression": "Do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "know",
+          "lemma": "know",
+          "meaningJa": "知っている",
+          "kind": "word"
+        },
+        {
+          "expression": "how",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "many",
+          "lemma": "many",
+          "meaningJa": "たくさんの（可算名詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "cards",
+          "lemma": "card",
+          "meaningJa": "カード（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "he",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Do you know how many cards ___?",
+        "blank": {
+          "start": 27,
+          "endExclusive": 33,
+          "answer": "he has"
+        },
+        "options": [
+          {
+            "id": "G45-E10-C3",
+            "text": "he have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「he has」を使います。「he have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E10-C2",
+            "text": "does he have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「he has」を使います。「does he have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G45-E10-C1",
+            "text": "he has",
+            "isCorrect": true,
+            "explanationJa": "正解。疑問詞の後ろを主語＋動詞の語順にする。do・does・didを疑問文の形で残さない。"
+          },
+          {
+            "id": "G45-E10-C4",
+            "text": "is he has",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「he has」を使います。「is he has」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G45-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G45-E10-B01",
+            "text": "Do you know",
+            "role": "required"
+          },
+          {
+            "id": "G45-E10-B02",
+            "text": "how many cards",
+            "role": "required"
+          },
+          {
+            "id": "G45-E10-B03",
+            "text": "he has?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G45-E10-B01",
+          "G45-E10-B02",
+          "G45-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E10-B01",
+            "G45-E10-B02",
+            "G45-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G45-E10-B01",
+            "text": "Do you know",
+            "role": "required"
+          },
+          {
+            "id": "G45-E10-B02",
+            "text": "how many cards",
+            "role": "required"
+          },
+          {
+            "id": "G45-E10-B03",
+            "text": "he has?",
+            "role": "required"
+          },
+          {
+            "id": "G45-E10-D01",
+            "text": "does he have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「he has」と比較してください。"
+          },
+          {
+            "id": "G45-E10-D02",
+            "text": "he have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「he has」と比較してください。"
+          },
+          {
+            "id": "G45-E10-D03",
+            "text": "is he has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「he has」と比較してください。"
+          },
+          {
+            "id": "G45-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「he has」と比較してください。"
+          },
+          {
+            "id": "G45-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「he has」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G45-E10-D01",
+            "text": "does he have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「he has」と比較してください。"
+          },
+          {
+            "id": "G45-E10-D02",
+            "text": "he have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「he has」と比較してください。"
+          },
+          {
+            "id": "G45-E10-D03",
+            "text": "is he has",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「he has」と比較してください。"
+          },
+          {
+            "id": "G45-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「he has」と比較してください。"
+          },
+          {
+            "id": "G45-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「he has」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G45-E10-B01",
+          "G45-E10-B02",
+          "G45-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G45-E10-B01",
+            "G45-E10-B02",
+            "G45-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G45-E10-AUDIO",
+        "text": "Do you know how many cards he has?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

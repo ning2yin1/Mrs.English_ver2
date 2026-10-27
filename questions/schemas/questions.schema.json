@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mrs-english.local/schemas/questions.schema.json",
+  "type": "array",
+  "minItems": 1800,
+  "maxItems": 1800,
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "exampleId",
+      "grammarId",
+      "difficulty",
+      "canonicalEnglish",
+      "translationJa",
+      "answerExplanationJa",
+      "ttsId",
+      "timeBasis",
+      "baseTimeSeconds",
+      "data"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "exampleId": {
+        "type": "string"
+      },
+      "grammarId": {
+        "type": "string"
+      },
+      "difficulty": {
+        "enum": [
+          "EASY",
+          "NORMAL",
+          "HARD"
+        ]
+      },
+      "canonicalEnglish": {
+        "type": "string"
+      },
+      "translationJa": {
+        "type": "string"
+      },
+      "answerExplanationJa": {
+        "type": "string"
+      },
+      "ttsId": {
+        "type": "string"
+      },
+      "timeBasis": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "baseTimeSeconds": {
+        "enum": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "data": {
+        "type": "object"
+      }
+    },
+    "allOf": [
+      {
+        "if": {
+          "properties": {
+            "difficulty": {
+              "const": "EASY"
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "data": {
+              "$ref": "examples.schema.json#/$defs/easy"
+            }
+          }
+        }
+      },
+      {
+        "if": {
+          "properties": {
+            "difficulty": {
+              "enum": [
+                "NORMAL",
+                "HARD"
+              ]
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "data": {
+              "$ref": "examples.schema.json#/$defs/order"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

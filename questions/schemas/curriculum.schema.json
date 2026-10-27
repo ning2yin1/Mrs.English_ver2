@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "minItems": 60,
+  "maxItems": 60,
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "nameJa",
+      "sequence",
+      "suggestedGrade",
+      "learningGoalJa",
+      "difficultyBand",
+      "exampleIds"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "nameJa": {
+        "type": "string"
+      },
+      "sequence": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 60
+      },
+      "suggestedGrade": {
+        "enum": [
+          1,
+          2,
+          3
+        ]
+      },
+      "learningGoalJa": {
+        "type": "string"
+      },
+      "difficultyBand": {
+        "enum": [
+          1,
+          2,
+          3
+        ]
+      },
+      "exampleIds": {
+        "type": "array",
+        "minItems": 10,
+        "maxItems": 10,
+        "uniqueItems": true,
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

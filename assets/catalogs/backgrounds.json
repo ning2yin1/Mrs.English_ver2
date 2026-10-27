@@ -1,0 +1,156 @@
+[
+  {
+    "id": "bg-01",
+    "path": "assets/original/assets/photos/backgrounds/bg-01.jpg",
+    "labelJa": "背景 01",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-02",
+    "path": "assets/original/assets/photos/backgrounds/bg-02.jpeg",
+    "labelJa": "背景 02",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-03",
+    "path": "assets/original/assets/photos/backgrounds/bg-03.jpeg",
+    "labelJa": "背景 03",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-04",
+    "path": "assets/original/assets/photos/backgrounds/bg-04.jpg",
+    "labelJa": "背景 04",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-05",
+    "path": "assets/original/assets/photos/backgrounds/bg-05.jpg",
+    "labelJa": "背景 05",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-06",
+    "path": "assets/original/assets/photos/backgrounds/bg-06.jpeg",
+    "labelJa": "背景 06",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-07",
+    "path": "assets/original/assets/photos/backgrounds/bg-07.jpeg",
+    "labelJa": "背景 07",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-08",
+    "path": "assets/original/assets/photos/backgrounds/bg-08.jpeg",
+    "labelJa": "背景 08",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-09",
+    "path": "assets/original/assets/photos/backgrounds/bg-09.jpg",
+    "labelJa": "背景 09",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-10",
+    "path": "assets/original/assets/photos/backgrounds/bg-10.jpeg",
+    "labelJa": "背景 10",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-11",
+    "path": "assets/original/assets/photos/backgrounds/bg-11.jpg",
+    "labelJa": "背景 11",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-12",
+    "path": "assets/original/assets/photos/backgrounds/bg-12.jpeg",
+    "labelJa": "背景 12",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-13",
+    "path": "assets/original/assets/photos/backgrounds/bg-13.jpg",
+    "labelJa": "背景 13",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-14",
+    "path": "assets/original/assets/photos/backgrounds/bg-14.jpeg",
+    "labelJa": "背景 14",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-15",
+    "path": "assets/original/assets/photos/backgrounds/bg-15.jpeg",
+    "labelJa": "背景 15",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-16",
+    "path": "assets/original/assets/photos/backgrounds/bg-16.jpg",
+    "labelJa": "背景 16",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-17",
+    "path": "assets/original/assets/photos/backgrounds/bg-17.jpeg",
+    "labelJa": "背景 17",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-18",
+    "path": "assets/original/assets/photos/backgrounds/bg-18.jpeg",
+    "labelJa": "背景 18",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-19",
+    "path": "assets/original/assets/photos/backgrounds/bg-19.jpeg",
+    "labelJa": "背景 19",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-20",
+    "path": "assets/original/assets/photos/backgrounds/bg-20.jpeg",
+    "labelJa": "背景 20",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-21",
+    "path": "assets/original/assets/photos/backgrounds/bg-21.jpg",
+    "labelJa": "背景 21",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  },
+  {
+    "id": "bg-22",
+    "path": "assets/original/assets/photos/backgrounds/bg-22.jpg",
+    "labelJa": "背景 22",
+    "homeObjectPosition": "50% 50%",
+    "playObjectPosition": "50% 50%"
+  }
+]

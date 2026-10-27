@@ -1,0 +1,2515 @@
+{
+  "grammarId": "G27",
+  "examples": [
+    {
+      "id": "G27-E01",
+      "grammarId": "G27",
+      "grammarNameJa": "be going toによる未来",
+      "english": "I am going to buy a ticket tomorrow.",
+      "translationJa": "私は明日チケットを買う予定です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "am",
+        "start": 2,
+        "endExclusive": 4,
+        "explanationJa": "be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+      },
+      "sentenceExplanationJa": "「I am going to buy a ticket tomorrow.」は「私は明日チケットを買う予定です。」という意味です。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。 この文の対象部分は「am」。まとまりは I → am → going to buy → a ticket → tomorrow. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "am",
+          "lemma": "am",
+          "meaningJa": "～です・いる（Iに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "going",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "buy",
+          "lemma": "buy",
+          "meaningJa": "買う",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        },
+        {
+          "expression": "tomorrow",
+          "lemma": "tomorrow",
+          "meaningJa": "明日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ going to buy a ticket tomorrow.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 4,
+          "answer": "am"
+        },
+        "options": [
+          {
+            "id": "G27-E01-C1",
+            "text": "am",
+            "isCorrect": true,
+            "explanationJa": "正解。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+          },
+          {
+            "id": "G27-E01-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E01-C3",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E01-C2",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G27-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G27-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G27-E01-B02",
+            "text": "am",
+            "role": "required"
+          },
+          {
+            "id": "G27-E01-B03",
+            "text": "going to buy",
+            "role": "required"
+          },
+          {
+            "id": "G27-E01-B04",
+            "text": "a ticket",
+            "role": "required"
+          },
+          {
+            "id": "G27-E01-B05",
+            "text": "tomorrow.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G27-E01-B01",
+          "G27-E01-B02",
+          "G27-E01-B03",
+          "G27-E01-B04",
+          "G27-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E01-B01",
+            "G27-E01-B02",
+            "G27-E01-B03",
+            "G27-E01-B04",
+            "G27-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G27-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G27-E01-B02",
+            "text": "am",
+            "role": "required"
+          },
+          {
+            "id": "G27-E01-B03",
+            "text": "going to buy",
+            "role": "required"
+          },
+          {
+            "id": "G27-E01-B04",
+            "text": "a ticket",
+            "role": "required"
+          },
+          {
+            "id": "G27-E01-B05",
+            "text": "tomorrow.",
+            "role": "required"
+          },
+          {
+            "id": "G27-E01-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E01-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E01-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E01-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E01-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G27-E01-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E01-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E01-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E01-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E01-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G27-E01-B01",
+          "G27-E01-B02",
+          "G27-E01-B03",
+          "G27-E01-B04",
+          "G27-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E01-B01",
+            "G27-E01-B02",
+            "G27-E01-B03",
+            "G27-E01-B04",
+            "G27-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G27-E01-AUDIO",
+        "text": "I am going to buy a ticket tomorrow.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G27-E02",
+      "grammarId": "G27",
+      "grammarNameJa": "be going toによる未来",
+      "english": "She is going to join the fan club.",
+      "translationJa": "彼女はファンクラブに入る予定です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 4,
+        "endExclusive": 6,
+        "explanationJa": "be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+      },
+      "sentenceExplanationJa": "「She is going to join the fan club.」は「彼女はファンクラブに入る予定です。」という意味です。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。 この文の対象部分は「is」。まとまりは She → is → going to join → the fan club. の順です。",
+      "glossary": [
+        {
+          "expression": "fan club",
+          "meaningJa": "ファンクラブ",
+          "kind": "phrase"
+        },
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "going",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "join",
+          "lemma": "join",
+          "meaningJa": "参加する・加入する",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "fan",
+          "lemma": "fan",
+          "meaningJa": "ファン",
+          "kind": "word"
+        },
+        {
+          "expression": "club",
+          "lemma": "club",
+          "meaningJa": "クラブ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ going to join the fan club.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 6,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G27-E02-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+          },
+          {
+            "id": "G27-E02-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E02-C3",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E02-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G27-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G27-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G27-E02-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G27-E02-B03",
+            "text": "going to join",
+            "role": "required"
+          },
+          {
+            "id": "G27-E02-B04",
+            "text": "the fan club.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G27-E02-B01",
+          "G27-E02-B02",
+          "G27-E02-B03",
+          "G27-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E02-B01",
+            "G27-E02-B02",
+            "G27-E02-B03",
+            "G27-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G27-E02-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G27-E02-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G27-E02-B03",
+            "text": "going to join",
+            "role": "required"
+          },
+          {
+            "id": "G27-E02-B04",
+            "text": "the fan club.",
+            "role": "required"
+          },
+          {
+            "id": "G27-E02-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E02-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E02-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E02-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E02-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G27-E02-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E02-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E02-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E02-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E02-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G27-E02-B01",
+          "G27-E02-B02",
+          "G27-E02-B03",
+          "G27-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E02-B01",
+            "G27-E02-B02",
+            "G27-E02-B03",
+            "G27-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G27-E02-AUDIO",
+        "text": "She is going to join the fan club.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G27-E03",
+      "grammarId": "G27",
+      "grammarNameJa": "be going toによる未来",
+      "english": "We are going to meet at the station.",
+      "translationJa": "私たちは駅で会う予定です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are",
+        "start": 3,
+        "endExclusive": 6,
+        "explanationJa": "be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+      },
+      "sentenceExplanationJa": "「We are going to meet at the station.」は「私たちは駅で会う予定です。」という意味です。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。 この文の対象部分は「are」。まとまりは We → are → going to meet → at the station. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "going",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "meet",
+          "lemma": "meet",
+          "meaningJa": "会う・集まる",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "station",
+          "lemma": "station",
+          "meaningJa": "駅",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ going to meet at the station.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 6,
+          "answer": "are"
+        },
+        "options": [
+          {
+            "id": "G27-E03-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E03-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E03-C1",
+            "text": "are",
+            "isCorrect": true,
+            "explanationJa": "正解。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+          },
+          {
+            "id": "G27-E03-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G27-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G27-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G27-E03-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G27-E03-B03",
+            "text": "going to meet",
+            "role": "required"
+          },
+          {
+            "id": "G27-E03-B04",
+            "text": "at the station.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G27-E03-B01",
+          "G27-E03-B02",
+          "G27-E03-B03",
+          "G27-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E03-B01",
+            "G27-E03-B02",
+            "G27-E03-B03",
+            "G27-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G27-E03-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G27-E03-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G27-E03-B03",
+            "text": "going to meet",
+            "role": "required"
+          },
+          {
+            "id": "G27-E03-B04",
+            "text": "at the station.",
+            "role": "required"
+          },
+          {
+            "id": "G27-E03-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E03-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E03-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E03-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E03-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G27-E03-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E03-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E03-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E03-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E03-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G27-E03-B01",
+          "G27-E03-B02",
+          "G27-E03-B03",
+          "G27-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E03-B01",
+            "G27-E03-B02",
+            "G27-E03-B03",
+            "G27-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G27-E03-AUDIO",
+        "text": "We are going to meet at the station.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G27-E04",
+      "grammarId": "G27",
+      "grammarNameJa": "be going toによる未来",
+      "english": "He is going to practice after dinner.",
+      "translationJa": "彼は夕食後に練習する予定です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 3,
+        "endExclusive": 5,
+        "explanationJa": "be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+      },
+      "sentenceExplanationJa": "「He is going to practice after dinner.」は「彼は夕食後に練習する予定です。」という意味です。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。 この文の対象部分は「is」。まとまりは He → is → going to practice → after dinner. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "going",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "practice",
+          "lemma": "practice",
+          "meaningJa": "練習する・練習",
+          "kind": "word"
+        },
+        {
+          "expression": "after",
+          "lemma": "after",
+          "meaningJa": "～の後に",
+          "kind": "word"
+        },
+        {
+          "expression": "dinner",
+          "lemma": "dinner",
+          "meaningJa": "夕食",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ going to practice after dinner.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 5,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G27-E04-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E04-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E04-C3",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E04-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+          }
+        ],
+        "correctOptionId": "G27-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G27-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G27-E04-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G27-E04-B03",
+            "text": "going to practice",
+            "role": "required"
+          },
+          {
+            "id": "G27-E04-B04",
+            "text": "after dinner.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G27-E04-B01",
+          "G27-E04-B02",
+          "G27-E04-B03",
+          "G27-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E04-B01",
+            "G27-E04-B02",
+            "G27-E04-B03",
+            "G27-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G27-E04-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G27-E04-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G27-E04-B03",
+            "text": "going to practice",
+            "role": "required"
+          },
+          {
+            "id": "G27-E04-B04",
+            "text": "after dinner.",
+            "role": "required"
+          },
+          {
+            "id": "G27-E04-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E04-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E04-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E04-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E04-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G27-E04-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E04-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E04-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E04-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E04-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G27-E04-B01",
+          "G27-E04-B02",
+          "G27-E04-B03",
+          "G27-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E04-B01",
+            "G27-E04-B02",
+            "G27-E04-B03",
+            "G27-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G27-E04-AUDIO",
+        "text": "He is going to practice after dinner.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G27-E05",
+      "grammarId": "G27",
+      "grammarNameJa": "be going toによる未来",
+      "english": "They are going to watch a live stream.",
+      "translationJa": "彼らは生配信を見る予定です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are",
+        "start": 5,
+        "endExclusive": 8,
+        "explanationJa": "be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+      },
+      "sentenceExplanationJa": "「They are going to watch a live stream.」は「彼らは生配信を見る予定です。」という意味です。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。 この文の対象部分は「are」。まとまりは They → are → going to watch → a live stream. の順です。",
+      "glossary": [
+        {
+          "expression": "live stream",
+          "meaningJa": "生配信",
+          "kind": "phrase"
+        },
+        {
+          "expression": "They",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "going",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "watch",
+          "lemma": "watch",
+          "meaningJa": "見る",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "live",
+          "lemma": "live",
+          "meaningJa": "住む／生の・生配信の",
+          "kind": "word"
+        },
+        {
+          "expression": "stream",
+          "lemma": "stream",
+          "meaningJa": "配信",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "They ___ going to watch a live stream.",
+        "blank": {
+          "start": 5,
+          "endExclusive": 8,
+          "answer": "are"
+        },
+        "options": [
+          {
+            "id": "G27-E05-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E05-C1",
+            "text": "are",
+            "isCorrect": true,
+            "explanationJa": "正解。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+          },
+          {
+            "id": "G27-E05-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E05-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G27-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G27-E05-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G27-E05-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G27-E05-B03",
+            "text": "going to watch",
+            "role": "required"
+          },
+          {
+            "id": "G27-E05-B04",
+            "text": "a live stream.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G27-E05-B01",
+          "G27-E05-B02",
+          "G27-E05-B03",
+          "G27-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E05-B01",
+            "G27-E05-B02",
+            "G27-E05-B03",
+            "G27-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G27-E05-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G27-E05-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G27-E05-B03",
+            "text": "going to watch",
+            "role": "required"
+          },
+          {
+            "id": "G27-E05-B04",
+            "text": "a live stream.",
+            "role": "required"
+          },
+          {
+            "id": "G27-E05-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E05-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E05-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E05-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E05-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G27-E05-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E05-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E05-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E05-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E05-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G27-E05-B01",
+          "G27-E05-B02",
+          "G27-E05-B03",
+          "G27-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E05-B01",
+            "G27-E05-B02",
+            "G27-E05-B03",
+            "G27-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G27-E05-AUDIO",
+        "text": "They are going to watch a live stream.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G27-E06",
+      "grammarId": "G27",
+      "grammarNameJa": "be going toによる未来",
+      "english": "I am going to wear my green shirt.",
+      "translationJa": "私は緑のシャツを着る予定です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "am",
+        "start": 2,
+        "endExclusive": 4,
+        "explanationJa": "be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+      },
+      "sentenceExplanationJa": "「I am going to wear my green shirt.」は「私は緑のシャツを着る予定です。」という意味です。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。 この文の対象部分は「am」。まとまりは I → am → going to wear → my green shirt. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "am",
+          "lemma": "am",
+          "meaningJa": "～です・いる（Iに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "going",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "wear",
+          "lemma": "wear",
+          "meaningJa": "着る・身に付ける",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "green",
+          "lemma": "green",
+          "meaningJa": "緑・緑色の",
+          "kind": "word"
+        },
+        {
+          "expression": "shirt",
+          "lemma": "shirt",
+          "meaningJa": "シャツ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ going to wear my green shirt.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 4,
+          "answer": "am"
+        },
+        "options": [
+          {
+            "id": "G27-E06-C2",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E06-C3",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E06-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「am」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E06-C1",
+            "text": "am",
+            "isCorrect": true,
+            "explanationJa": "正解。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+          }
+        ],
+        "correctOptionId": "G27-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G27-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G27-E06-B02",
+            "text": "am",
+            "role": "required"
+          },
+          {
+            "id": "G27-E06-B03",
+            "text": "going to wear",
+            "role": "required"
+          },
+          {
+            "id": "G27-E06-B04",
+            "text": "my green shirt.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G27-E06-B01",
+          "G27-E06-B02",
+          "G27-E06-B03",
+          "G27-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E06-B01",
+            "G27-E06-B02",
+            "G27-E06-B03",
+            "G27-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G27-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G27-E06-B02",
+            "text": "am",
+            "role": "required"
+          },
+          {
+            "id": "G27-E06-B03",
+            "text": "going to wear",
+            "role": "required"
+          },
+          {
+            "id": "G27-E06-B04",
+            "text": "my green shirt.",
+            "role": "required"
+          },
+          {
+            "id": "G27-E06-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E06-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E06-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E06-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E06-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G27-E06-D01",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E06-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E06-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E06-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          },
+          {
+            "id": "G27-E06-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「am」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G27-E06-B01",
+          "G27-E06-B02",
+          "G27-E06-B03",
+          "G27-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E06-B01",
+            "G27-E06-B02",
+            "G27-E06-B03",
+            "G27-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G27-E06-AUDIO",
+        "text": "I am going to wear my green shirt.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G27-E07",
+      "grammarId": "G27",
+      "grammarNameJa": "be going toによる未来",
+      "english": "My sister is going to bring a camera.",
+      "translationJa": "私の姉はカメラを持ってくる予定です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 10,
+        "endExclusive": 12,
+        "explanationJa": "be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+      },
+      "sentenceExplanationJa": "「My sister is going to bring a camera.」は「私の姉はカメラを持ってくる予定です。」という意味です。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。 この文の対象部分は「is」。まとまりは My sister → is → going to bring → a camera. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "sister",
+          "lemma": "sister",
+          "meaningJa": "姉・妹",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "going",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "bring",
+          "lemma": "bring",
+          "meaningJa": "持ってくる",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "camera",
+          "lemma": "camera",
+          "meaningJa": "カメラ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My sister ___ going to bring a camera.",
+        "blank": {
+          "start": 10,
+          "endExclusive": 12,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G27-E07-C3",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E07-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E07-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E07-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+          }
+        ],
+        "correctOptionId": "G27-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G27-E07-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G27-E07-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G27-E07-B03",
+            "text": "going to bring",
+            "role": "required"
+          },
+          {
+            "id": "G27-E07-B04",
+            "text": "a camera.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G27-E07-B01",
+          "G27-E07-B02",
+          "G27-E07-B03",
+          "G27-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E07-B01",
+            "G27-E07-B02",
+            "G27-E07-B03",
+            "G27-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G27-E07-B01",
+            "text": "My sister",
+            "role": "required"
+          },
+          {
+            "id": "G27-E07-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G27-E07-B03",
+            "text": "going to bring",
+            "role": "required"
+          },
+          {
+            "id": "G27-E07-B04",
+            "text": "a camera.",
+            "role": "required"
+          },
+          {
+            "id": "G27-E07-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E07-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E07-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E07-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E07-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G27-E07-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E07-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E07-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E07-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E07-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G27-E07-B01",
+          "G27-E07-B02",
+          "G27-E07-B03",
+          "G27-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E07-B01",
+            "G27-E07-B02",
+            "G27-E07-B03",
+            "G27-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G27-E07-AUDIO",
+        "text": "My sister is going to bring a camera.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G27-E08",
+      "grammarId": "G27",
+      "grammarNameJa": "be going toによる未来",
+      "english": "We are going to leave early.",
+      "translationJa": "私たちは早めに出発する予定です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are",
+        "start": 3,
+        "endExclusive": 6,
+        "explanationJa": "be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+      },
+      "sentenceExplanationJa": "「We are going to leave early.」は「私たちは早めに出発する予定です。」という意味です。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。 この文の対象部分は「are」。まとまりは We → are → going to leave → early. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "going",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "leave",
+          "lemma": "leave",
+          "meaningJa": "出発する・～のままにしておく",
+          "kind": "word"
+        },
+        {
+          "expression": "early",
+          "lemma": "early",
+          "meaningJa": "早い・早く",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ going to leave early.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 6,
+          "answer": "are"
+        },
+        "options": [
+          {
+            "id": "G27-E08-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E08-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E08-C1",
+            "text": "are",
+            "isCorrect": true,
+            "explanationJa": "正解。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+          },
+          {
+            "id": "G27-E08-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G27-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G27-E08-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G27-E08-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G27-E08-B03",
+            "text": "going to leave",
+            "role": "required"
+          },
+          {
+            "id": "G27-E08-B04",
+            "text": "early.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G27-E08-B01",
+          "G27-E08-B02",
+          "G27-E08-B03",
+          "G27-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E08-B01",
+            "G27-E08-B02",
+            "G27-E08-B03",
+            "G27-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G27-E08-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G27-E08-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G27-E08-B03",
+            "text": "going to leave",
+            "role": "required"
+          },
+          {
+            "id": "G27-E08-B04",
+            "text": "early.",
+            "role": "required"
+          },
+          {
+            "id": "G27-E08-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E08-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E08-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E08-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E08-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G27-E08-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E08-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E08-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E08-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E08-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G27-E08-B01",
+          "G27-E08-B02",
+          "G27-E08-B03",
+          "G27-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E08-B01",
+            "G27-E08-B02",
+            "G27-E08-B03",
+            "G27-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G27-E08-AUDIO",
+        "text": "We are going to leave early.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G27-E09",
+      "grammarId": "G27",
+      "grammarNameJa": "be going toによる未来",
+      "english": "You are going to love this song.",
+      "translationJa": "あなたはこの曲をきっと気に入るでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "are",
+        "start": 4,
+        "endExclusive": 7,
+        "explanationJa": "be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+      },
+      "sentenceExplanationJa": "「You are going to love this song.」は「あなたはこの曲をきっと気に入るでしょう。」という意味です。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。 この文の対象部分は「are」。まとまりは You → are → going to love → this song. の順です。",
+      "glossary": [
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "going",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "love",
+          "lemma": "love",
+          "meaningJa": "大好きである・愛する",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You ___ going to love this song.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 7,
+          "answer": "are"
+        },
+        "options": [
+          {
+            "id": "G27-E09-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E09-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E09-C1",
+            "text": "are",
+            "isCorrect": true,
+            "explanationJa": "正解。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+          },
+          {
+            "id": "G27-E09-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「are」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G27-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G27-E09-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G27-E09-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G27-E09-B03",
+            "text": "going to love",
+            "role": "required"
+          },
+          {
+            "id": "G27-E09-B04",
+            "text": "this song.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G27-E09-B01",
+          "G27-E09-B02",
+          "G27-E09-B03",
+          "G27-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E09-B01",
+            "G27-E09-B02",
+            "G27-E09-B03",
+            "G27-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G27-E09-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G27-E09-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G27-E09-B03",
+            "text": "going to love",
+            "role": "required"
+          },
+          {
+            "id": "G27-E09-B04",
+            "text": "this song.",
+            "role": "required"
+          },
+          {
+            "id": "G27-E09-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E09-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E09-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E09-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E09-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G27-E09-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E09-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E09-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E09-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          },
+          {
+            "id": "G27-E09-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「are」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G27-E09-B01",
+          "G27-E09-B02",
+          "G27-E09-B03",
+          "G27-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E09-B01",
+            "G27-E09-B02",
+            "G27-E09-B03",
+            "G27-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G27-E09-AUDIO",
+        "text": "You are going to love this song.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G27-E10",
+      "grammarId": "G27",
+      "grammarNameJa": "be going toによる未来",
+      "english": "The shop is going to open next week.",
+      "translationJa": "その店は来週開店する予定です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "is",
+        "start": 9,
+        "endExclusive": 11,
+        "explanationJa": "be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+      },
+      "sentenceExplanationJa": "「The shop is going to open next week.」は「その店は来週開店する予定です。」という意味です。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。 この文の対象部分は「is」。まとまりは The shop → is → going to open → next week. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "shop",
+          "lemma": "shop",
+          "meaningJa": "店",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "going",
+          "lemma": "go",
+          "meaningJa": "行く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "open",
+          "lemma": "open",
+          "meaningJa": "開いている・開ける",
+          "kind": "word"
+        },
+        {
+          "expression": "next",
+          "lemma": "next",
+          "meaningJa": "次の",
+          "kind": "word"
+        },
+        {
+          "expression": "week",
+          "lemma": "week",
+          "meaningJa": "週・1週間",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The shop ___ going to open next week.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 11,
+          "answer": "is"
+        },
+        "options": [
+          {
+            "id": "G27-E10-C4",
+            "text": "be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E10-C1",
+            "text": "is",
+            "isCorrect": true,
+            "explanationJa": "正解。be going to＋原形で予定や見込みを表す。be動詞を主語に合わせる。"
+          },
+          {
+            "id": "G27-E10-C2",
+            "text": "am",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「am」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G27-E10-C3",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「is」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G27-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G27-E10-B01",
+            "text": "The shop",
+            "role": "required"
+          },
+          {
+            "id": "G27-E10-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G27-E10-B03",
+            "text": "going to open",
+            "role": "required"
+          },
+          {
+            "id": "G27-E10-B04",
+            "text": "next week.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G27-E10-B01",
+          "G27-E10-B02",
+          "G27-E10-B03",
+          "G27-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E10-B01",
+            "G27-E10-B02",
+            "G27-E10-B03",
+            "G27-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G27-E10-B01",
+            "text": "The shop",
+            "role": "required"
+          },
+          {
+            "id": "G27-E10-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G27-E10-B03",
+            "text": "going to open",
+            "role": "required"
+          },
+          {
+            "id": "G27-E10-B04",
+            "text": "next week.",
+            "role": "required"
+          },
+          {
+            "id": "G27-E10-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E10-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E10-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E10-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E10-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G27-E10-D01",
+            "text": "am",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E10-D02",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E10-D03",
+            "text": "be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E10-D04",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          },
+          {
+            "id": "G27-E10-D05",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「is」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G27-E10-B01",
+          "G27-E10-B02",
+          "G27-E10-B03",
+          "G27-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G27-E10-B01",
+            "G27-E10-B02",
+            "G27-E10-B03",
+            "G27-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G27-E10-AUDIO",
+        "text": "The shop is going to open next week.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

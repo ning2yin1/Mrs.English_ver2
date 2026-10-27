@@ -1,0 +1,2565 @@
+{
+  "grammarId": "G26",
+  "examples": [
+    {
+      "id": "G26-E01",
+      "grammarId": "G26",
+      "grammarNameJa": "過去進行形",
+      "english": "I was listening to music at eight last night.",
+      "translationJa": "私は昨夜8時に音楽を聴いていました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "was",
+        "start": 2,
+        "endExclusive": 5,
+        "explanationJa": "was・were＋ing形で過去のある時点で進行していた動作を表す。"
+      },
+      "sentenceExplanationJa": "「I was listening to music at eight last night.」は「私は昨夜8時に音楽を聴いていました。」という意味です。was・were＋ing形で過去のある時点で進行していた動作を表す。 この文の対象部分は「was」。まとまりは I → was → listening → to music → at eight last night. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "listening",
+          "lemma": "listen",
+          "meaningJa": "耳を傾けて聴く（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "music",
+          "lemma": "music",
+          "meaningJa": "音楽・楽譜",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "eight",
+          "lemma": "eight",
+          "meaningJa": "8・8時",
+          "kind": "word"
+        },
+        {
+          "expression": "last",
+          "lemma": "last",
+          "meaningJa": "最後の・この前の",
+          "kind": "word"
+        },
+        {
+          "expression": "night",
+          "lemma": "night",
+          "meaningJa": "夜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ listening to music at eight last night.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 5,
+          "answer": "was"
+        },
+        "options": [
+          {
+            "id": "G26-E01-C1",
+            "text": "was",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋ing形で過去のある時点で進行していた動作を表す。"
+          },
+          {
+            "id": "G26-E01-C2",
+            "text": "were",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「were」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E01-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E01-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G26-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G26-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G26-E01-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G26-E01-B03",
+            "text": "listening",
+            "role": "required"
+          },
+          {
+            "id": "G26-E01-B04",
+            "text": "to music",
+            "role": "required"
+          },
+          {
+            "id": "G26-E01-B05",
+            "text": "at eight last night.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G26-E01-B01",
+          "G26-E01-B02",
+          "G26-E01-B03",
+          "G26-E01-B04",
+          "G26-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E01-B01",
+            "G26-E01-B02",
+            "G26-E01-B03",
+            "G26-E01-B04",
+            "G26-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G26-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G26-E01-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G26-E01-B03",
+            "text": "listening",
+            "role": "required"
+          },
+          {
+            "id": "G26-E01-B04",
+            "text": "to music",
+            "role": "required"
+          },
+          {
+            "id": "G26-E01-B05",
+            "text": "at eight last night.",
+            "role": "required"
+          },
+          {
+            "id": "G26-E01-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E01-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E01-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E01-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E01-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G26-E01-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E01-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E01-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E01-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E01-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G26-E01-B01",
+          "G26-E01-B02",
+          "G26-E01-B03",
+          "G26-E01-B04",
+          "G26-E01-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E01-B01",
+            "G26-E01-B02",
+            "G26-E01-B03",
+            "G26-E01-B04",
+            "G26-E01-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G26-E01-AUDIO",
+        "text": "I was listening to music at eight last night.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G26-E02",
+      "grammarId": "G26",
+      "grammarNameJa": "過去進行形",
+      "english": "We were waiting at the gate then.",
+      "translationJa": "私たちはその時入場口で待っていました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "were",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "was・were＋ing形で過去のある時点で進行していた動作を表す。"
+      },
+      "sentenceExplanationJa": "「We were waiting at the gate then.」は「私たちはその時入場口で待っていました。」という意味です。was・were＋ing形で過去のある時点で進行していた動作を表す。 この文の対象部分は「were」。まとまりは We → were → waiting → at the gate → then. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "were",
+          "lemma": "were",
+          "meaningJa": "～でした・いた（複数などのbe動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "waiting",
+          "lemma": "wait",
+          "meaningJa": "待つ（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "gate",
+          "lemma": "gate",
+          "meaningJa": "門・入場口",
+          "kind": "word"
+        },
+        {
+          "expression": "then",
+          "lemma": "then",
+          "meaningJa": "その時",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ waiting at the gate then.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "were"
+        },
+        "options": [
+          {
+            "id": "G26-E02-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E02-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E02-C1",
+            "text": "were",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋ing形で過去のある時点で進行していた動作を表す。"
+          },
+          {
+            "id": "G26-E02-C2",
+            "text": "was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「was」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G26-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G26-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G26-E02-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G26-E02-B03",
+            "text": "waiting",
+            "role": "required"
+          },
+          {
+            "id": "G26-E02-B04",
+            "text": "at the gate",
+            "role": "required"
+          },
+          {
+            "id": "G26-E02-B05",
+            "text": "then.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G26-E02-B01",
+          "G26-E02-B02",
+          "G26-E02-B03",
+          "G26-E02-B04",
+          "G26-E02-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E02-B01",
+            "G26-E02-B02",
+            "G26-E02-B03",
+            "G26-E02-B04",
+            "G26-E02-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G26-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G26-E02-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G26-E02-B03",
+            "text": "waiting",
+            "role": "required"
+          },
+          {
+            "id": "G26-E02-B04",
+            "text": "at the gate",
+            "role": "required"
+          },
+          {
+            "id": "G26-E02-B05",
+            "text": "then.",
+            "role": "required"
+          },
+          {
+            "id": "G26-E02-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E02-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E02-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E02-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E02-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G26-E02-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E02-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E02-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E02-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E02-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G26-E02-B01",
+          "G26-E02-B02",
+          "G26-E02-B03",
+          "G26-E02-B04",
+          "G26-E02-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E02-B01",
+            "G26-E02-B02",
+            "G26-E02-B03",
+            "G26-E02-B04",
+            "G26-E02-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G26-E02-AUDIO",
+        "text": "We were waiting at the gate then.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G26-E03",
+      "grammarId": "G26",
+      "grammarNameJa": "過去進行形",
+      "english": "She was sleeping on the train then.",
+      "translationJa": "彼女はその時電車で眠っていました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "was",
+        "start": 4,
+        "endExclusive": 7,
+        "explanationJa": "was・were＋ing形で過去のある時点で進行していた動作を表す。"
+      },
+      "sentenceExplanationJa": "「She was sleeping on the train then.」は「彼女はその時電車で眠っていました。」という意味です。was・were＋ing形で過去のある時点で進行していた動作を表す。 この文の対象部分は「was」。まとまりは She → was → sleeping → on the train → then. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "sleeping",
+          "lemma": "sleep",
+          "meaningJa": "眠る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "on",
+          "lemma": "on",
+          "meaningJa": "～の上に・曜日や日付の～に",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "train",
+          "lemma": "train",
+          "meaningJa": "電車",
+          "kind": "word"
+        },
+        {
+          "expression": "then",
+          "lemma": "then",
+          "meaningJa": "その時",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ sleeping on the train then.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 7,
+          "answer": "was"
+        },
+        "options": [
+          {
+            "id": "G26-E03-C2",
+            "text": "were",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「were」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E03-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E03-C1",
+            "text": "was",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋ing形で過去のある時点で進行していた動作を表す。"
+          },
+          {
+            "id": "G26-E03-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G26-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G26-E03-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G26-E03-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G26-E03-B03",
+            "text": "sleeping",
+            "role": "required"
+          },
+          {
+            "id": "G26-E03-B04",
+            "text": "on the train",
+            "role": "required"
+          },
+          {
+            "id": "G26-E03-B05",
+            "text": "then.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G26-E03-B01",
+          "G26-E03-B02",
+          "G26-E03-B03",
+          "G26-E03-B04",
+          "G26-E03-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E03-B01",
+            "G26-E03-B02",
+            "G26-E03-B03",
+            "G26-E03-B04",
+            "G26-E03-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G26-E03-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G26-E03-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G26-E03-B03",
+            "text": "sleeping",
+            "role": "required"
+          },
+          {
+            "id": "G26-E03-B04",
+            "text": "on the train",
+            "role": "required"
+          },
+          {
+            "id": "G26-E03-B05",
+            "text": "then.",
+            "role": "required"
+          },
+          {
+            "id": "G26-E03-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E03-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E03-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E03-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E03-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G26-E03-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E03-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E03-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E03-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E03-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G26-E03-B01",
+          "G26-E03-B02",
+          "G26-E03-B03",
+          "G26-E03-B04",
+          "G26-E03-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E03-B01",
+            "G26-E03-B02",
+            "G26-E03-B03",
+            "G26-E03-B04",
+            "G26-E03-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G26-E03-AUDIO",
+        "text": "She was sleeping on the train then.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G26-E04",
+      "grammarId": "G26",
+      "grammarNameJa": "過去進行形",
+      "english": "They were singing when I arrived.",
+      "translationJa": "私が着いた時、彼らは歌っていました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "were",
+        "start": 5,
+        "endExclusive": 9,
+        "explanationJa": "was・were＋ing形で過去のある時点で進行していた動作を表す。"
+      },
+      "sentenceExplanationJa": "「They were singing when I arrived.」は「私が着いた時、彼らは歌っていました。」という意味です。was・were＋ing形で過去のある時点で進行していた動作を表す。 この文の対象部分は「were」。まとまりは They → were → singing → when I arrived. の順です。",
+      "glossary": [
+        {
+          "expression": "They",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "were",
+          "lemma": "were",
+          "meaningJa": "～でした・いた（複数などのbe動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "singing",
+          "lemma": "sing",
+          "meaningJa": "歌う（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "when",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "arrived",
+          "lemma": "arrive",
+          "meaningJa": "到着する（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "They ___ singing when I arrived.",
+        "blank": {
+          "start": 5,
+          "endExclusive": 9,
+          "answer": "were"
+        },
+        "options": [
+          {
+            "id": "G26-E04-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E04-C1",
+            "text": "were",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋ing形で過去のある時点で進行していた動作を表す。"
+          },
+          {
+            "id": "G26-E04-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E04-C2",
+            "text": "was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「was」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G26-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G26-E04-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G26-E04-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G26-E04-B03",
+            "text": "singing",
+            "role": "required"
+          },
+          {
+            "id": "G26-E04-B04",
+            "text": "when I arrived.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G26-E04-B01",
+          "G26-E04-B02",
+          "G26-E04-B03",
+          "G26-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E04-B01",
+            "G26-E04-B02",
+            "G26-E04-B03",
+            "G26-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G26-E04-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G26-E04-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G26-E04-B03",
+            "text": "singing",
+            "role": "required"
+          },
+          {
+            "id": "G26-E04-B04",
+            "text": "when I arrived.",
+            "role": "required"
+          },
+          {
+            "id": "G26-E04-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E04-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E04-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E04-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E04-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G26-E04-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E04-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E04-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E04-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E04-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G26-E04-B01",
+          "G26-E04-B02",
+          "G26-E04-B03",
+          "G26-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E04-B01",
+            "G26-E04-B02",
+            "G26-E04-B03",
+            "G26-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G26-E04-AUDIO",
+        "text": "They were singing when I arrived.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G26-E05",
+      "grammarId": "G26",
+      "grammarNameJa": "過去進行形",
+      "english": "He was looking for his seat then.",
+      "translationJa": "彼はその時自分の席を探していました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "was",
+        "start": 3,
+        "endExclusive": 6,
+        "explanationJa": "was・were＋ing形で過去のある時点で進行していた動作を表す。"
+      },
+      "sentenceExplanationJa": "「He was looking for his seat then.」は「彼はその時自分の席を探していました。」という意味です。was・were＋ing形で過去のある時点で進行していた動作を表す。 この文の対象部分は「was」。まとまりは He → was → looking for → his seat → then. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "looking",
+          "lemma": "look",
+          "meaningJa": "見る・～に見える（ing形）",
+          "kind": "word"
+        },
+        {
+          "expression": "for",
+          "lemma": "for",
+          "meaningJa": "～のために・～の間",
+          "kind": "word"
+        },
+        {
+          "expression": "his",
+          "lemma": "his",
+          "meaningJa": "彼の・彼のもの",
+          "kind": "word"
+        },
+        {
+          "expression": "seat",
+          "lemma": "seat",
+          "meaningJa": "席",
+          "kind": "word"
+        },
+        {
+          "expression": "then",
+          "lemma": "then",
+          "meaningJa": "その時",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ looking for his seat then.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 6,
+          "answer": "was"
+        },
+        "options": [
+          {
+            "id": "G26-E05-C1",
+            "text": "was",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋ing形で過去のある時点で進行していた動作を表す。"
+          },
+          {
+            "id": "G26-E05-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E05-C2",
+            "text": "were",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「were」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E05-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G26-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G26-E05-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G26-E05-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G26-E05-B03",
+            "text": "looking for",
+            "role": "required"
+          },
+          {
+            "id": "G26-E05-B04",
+            "text": "his seat",
+            "role": "required"
+          },
+          {
+            "id": "G26-E05-B05",
+            "text": "then.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G26-E05-B01",
+          "G26-E05-B02",
+          "G26-E05-B03",
+          "G26-E05-B04",
+          "G26-E05-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E05-B01",
+            "G26-E05-B02",
+            "G26-E05-B03",
+            "G26-E05-B04",
+            "G26-E05-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G26-E05-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G26-E05-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G26-E05-B03",
+            "text": "looking for",
+            "role": "required"
+          },
+          {
+            "id": "G26-E05-B04",
+            "text": "his seat",
+            "role": "required"
+          },
+          {
+            "id": "G26-E05-B05",
+            "text": "then.",
+            "role": "required"
+          },
+          {
+            "id": "G26-E05-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E05-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E05-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E05-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E05-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G26-E05-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E05-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E05-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E05-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E05-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G26-E05-B01",
+          "G26-E05-B02",
+          "G26-E05-B03",
+          "G26-E05-B04",
+          "G26-E05-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E05-B01",
+            "G26-E05-B02",
+            "G26-E05-B03",
+            "G26-E05-B04",
+            "G26-E05-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G26-E05-AUDIO",
+        "text": "He was looking for his seat then.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G26-E06",
+      "grammarId": "G26",
+      "grammarNameJa": "過去進行形",
+      "english": "I was saving money at that time.",
+      "translationJa": "私はその頃お金を貯めていました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "was",
+        "start": 2,
+        "endExclusive": 5,
+        "explanationJa": "was・were＋ing形で過去のある時点で進行していた動作を表す。"
+      },
+      "sentenceExplanationJa": "「I was saving money at that time.」は「私はその頃お金を貯めていました。」という意味です。was・were＋ing形で過去のある時点で進行していた動作を表す。 この文の対象部分は「was」。まとまりは I → was → saving → money → at that time. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "saving",
+          "lemma": "save",
+          "meaningJa": "貯める・保存する（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "money",
+          "lemma": "money",
+          "meaningJa": "お金",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "time",
+          "lemma": "time",
+          "meaningJa": "時間・時・回数",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ saving money at that time.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 5,
+          "answer": "was"
+        },
+        "options": [
+          {
+            "id": "G26-E06-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E06-C1",
+            "text": "was",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋ing形で過去のある時点で進行していた動作を表す。"
+          },
+          {
+            "id": "G26-E06-C2",
+            "text": "were",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「were」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E06-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G26-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G26-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G26-E06-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G26-E06-B03",
+            "text": "saving",
+            "role": "required"
+          },
+          {
+            "id": "G26-E06-B04",
+            "text": "money",
+            "role": "required"
+          },
+          {
+            "id": "G26-E06-B05",
+            "text": "at that time.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G26-E06-B01",
+          "G26-E06-B02",
+          "G26-E06-B03",
+          "G26-E06-B04",
+          "G26-E06-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E06-B01",
+            "G26-E06-B02",
+            "G26-E06-B03",
+            "G26-E06-B04",
+            "G26-E06-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G26-E06-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G26-E06-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G26-E06-B03",
+            "text": "saving",
+            "role": "required"
+          },
+          {
+            "id": "G26-E06-B04",
+            "text": "money",
+            "role": "required"
+          },
+          {
+            "id": "G26-E06-B05",
+            "text": "at that time.",
+            "role": "required"
+          },
+          {
+            "id": "G26-E06-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E06-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E06-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E06-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E06-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G26-E06-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E06-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E06-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E06-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E06-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G26-E06-B01",
+          "G26-E06-B02",
+          "G26-E06-B03",
+          "G26-E06-B04",
+          "G26-E06-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E06-B01",
+            "G26-E06-B02",
+            "G26-E06-B03",
+            "G26-E06-B04",
+            "G26-E06-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G26-E06-AUDIO",
+        "text": "I was saving money at that time.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G26-E07",
+      "grammarId": "G26",
+      "grammarNameJa": "過去進行形",
+      "english": "My friends were talking about the show then.",
+      "translationJa": "友達はその時公演について話していました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "were",
+        "start": 11,
+        "endExclusive": 15,
+        "explanationJa": "was・were＋ing形で過去のある時点で進行していた動作を表す。"
+      },
+      "sentenceExplanationJa": "「My friends were talking about the show then.」は「友達はその時公演について話していました。」という意味です。was・were＋ing形で過去のある時点で進行していた動作を表す。 この文の対象部分は「were」。まとまりは My friends → were → talking → about the show → then. の順です。",
+      "glossary": [
+        {
+          "expression": "My",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "friends",
+          "lemma": "friend",
+          "meaningJa": "友達（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "were",
+          "lemma": "were",
+          "meaningJa": "～でした・いた（複数などのbe動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "talking",
+          "lemma": "talk",
+          "meaningJa": "話す（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "about",
+          "lemma": "about",
+          "meaningJa": "～について",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        },
+        {
+          "expression": "then",
+          "lemma": "then",
+          "meaningJa": "その時",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "My friends ___ talking about the show then.",
+        "blank": {
+          "start": 11,
+          "endExclusive": 15,
+          "answer": "were"
+        },
+        "options": [
+          {
+            "id": "G26-E07-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E07-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E07-C1",
+            "text": "were",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋ing形で過去のある時点で進行していた動作を表す。"
+          },
+          {
+            "id": "G26-E07-C2",
+            "text": "was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「was」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G26-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G26-E07-B01",
+            "text": "My friends",
+            "role": "required"
+          },
+          {
+            "id": "G26-E07-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G26-E07-B03",
+            "text": "talking",
+            "role": "required"
+          },
+          {
+            "id": "G26-E07-B04",
+            "text": "about the show",
+            "role": "required"
+          },
+          {
+            "id": "G26-E07-B05",
+            "text": "then.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G26-E07-B01",
+          "G26-E07-B02",
+          "G26-E07-B03",
+          "G26-E07-B04",
+          "G26-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E07-B01",
+            "G26-E07-B02",
+            "G26-E07-B03",
+            "G26-E07-B04",
+            "G26-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G26-E07-B01",
+            "text": "My friends",
+            "role": "required"
+          },
+          {
+            "id": "G26-E07-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G26-E07-B03",
+            "text": "talking",
+            "role": "required"
+          },
+          {
+            "id": "G26-E07-B04",
+            "text": "about the show",
+            "role": "required"
+          },
+          {
+            "id": "G26-E07-B05",
+            "text": "then.",
+            "role": "required"
+          },
+          {
+            "id": "G26-E07-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E07-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E07-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E07-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E07-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G26-E07-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E07-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E07-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E07-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E07-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G26-E07-B01",
+          "G26-E07-B02",
+          "G26-E07-B03",
+          "G26-E07-B04",
+          "G26-E07-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E07-B01",
+            "G26-E07-B02",
+            "G26-E07-B03",
+            "G26-E07-B04",
+            "G26-E07-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G26-E07-AUDIO",
+        "text": "My friends were talking about the show then.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G26-E08",
+      "grammarId": "G26",
+      "grammarNameJa": "過去進行形",
+      "english": "You were taking a photo when I called.",
+      "translationJa": "私が電話した時、あなたは写真を撮っていました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "were",
+        "start": 4,
+        "endExclusive": 8,
+        "explanationJa": "was・were＋ing形で過去のある時点で進行していた動作を表す。"
+      },
+      "sentenceExplanationJa": "「You were taking a photo when I called.」は「私が電話した時、あなたは写真を撮っていました。」という意味です。was・were＋ing形で過去のある時点で進行していた動作を表す。 この文の対象部分は「were」。まとまりは You → were → taking → a photo → when I called. の順です。",
+      "glossary": [
+        {
+          "expression": "You",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "were",
+          "lemma": "were",
+          "meaningJa": "～でした・いた（複数などのbe動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "taking",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "photo",
+          "lemma": "photo",
+          "meaningJa": "写真",
+          "kind": "word"
+        },
+        {
+          "expression": "when",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "called",
+          "lemma": "call",
+          "meaningJa": "呼ぶ・電話する（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "You ___ taking a photo when I called.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 8,
+          "answer": "were"
+        },
+        "options": [
+          {
+            "id": "G26-E08-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E08-C1",
+            "text": "were",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋ing形で過去のある時点で進行していた動作を表す。"
+          },
+          {
+            "id": "G26-E08-C2",
+            "text": "was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「was」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E08-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G26-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G26-E08-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G26-E08-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G26-E08-B03",
+            "text": "taking",
+            "role": "required"
+          },
+          {
+            "id": "G26-E08-B04",
+            "text": "a photo",
+            "role": "required"
+          },
+          {
+            "id": "G26-E08-B05",
+            "text": "when I called.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G26-E08-B01",
+          "G26-E08-B02",
+          "G26-E08-B03",
+          "G26-E08-B04",
+          "G26-E08-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E08-B01",
+            "G26-E08-B02",
+            "G26-E08-B03",
+            "G26-E08-B04",
+            "G26-E08-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G26-E08-B01",
+            "text": "You",
+            "role": "required"
+          },
+          {
+            "id": "G26-E08-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G26-E08-B03",
+            "text": "taking",
+            "role": "required"
+          },
+          {
+            "id": "G26-E08-B04",
+            "text": "a photo",
+            "role": "required"
+          },
+          {
+            "id": "G26-E08-B05",
+            "text": "when I called.",
+            "role": "required"
+          },
+          {
+            "id": "G26-E08-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E08-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E08-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E08-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E08-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G26-E08-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E08-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E08-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E08-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E08-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G26-E08-B01",
+          "G26-E08-B02",
+          "G26-E08-B03",
+          "G26-E08-B04",
+          "G26-E08-B05"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E08-B01",
+            "G26-E08-B02",
+            "G26-E08-B03",
+            "G26-E08-B04",
+            "G26-E08-B05"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G26-E08-AUDIO",
+        "text": "You were taking a photo when I called.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G26-E09",
+      "grammarId": "G26",
+      "grammarNameJa": "過去進行形",
+      "english": "The rain was falling when we left.",
+      "translationJa": "私たちが出発した時、雨が降っていました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "was",
+        "start": 9,
+        "endExclusive": 12,
+        "explanationJa": "was・were＋ing形で過去のある時点で進行していた動作を表す。"
+      },
+      "sentenceExplanationJa": "「The rain was falling when we left.」は「私たちが出発した時、雨が降っていました。」という意味です。was・were＋ing形で過去のある時点で進行していた動作を表す。 この文の対象部分は「was」。まとまりは The rain → was → falling → when we left. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "rain",
+          "lemma": "rain",
+          "meaningJa": "雨・雨が降る",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "falling",
+          "lemma": "fall",
+          "meaningJa": "落ちる・雨などが降る（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "when",
+          "lemma": "when",
+          "meaningJa": "いつ・～する時",
+          "kind": "word"
+        },
+        {
+          "expression": "we",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "left",
+          "lemma": "leave",
+          "meaningJa": "出発する・～のままにしておく（活用形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The rain ___ falling when we left.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 12,
+          "answer": "was"
+        },
+        "options": [
+          {
+            "id": "G26-E09-C2",
+            "text": "were",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「were」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E09-C1",
+            "text": "was",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋ing形で過去のある時点で進行していた動作を表す。"
+          },
+          {
+            "id": "G26-E09-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E09-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「was」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G26-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G26-E09-B01",
+            "text": "The rain",
+            "role": "required"
+          },
+          {
+            "id": "G26-E09-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G26-E09-B03",
+            "text": "falling",
+            "role": "required"
+          },
+          {
+            "id": "G26-E09-B04",
+            "text": "when we left.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G26-E09-B01",
+          "G26-E09-B02",
+          "G26-E09-B03",
+          "G26-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E09-B01",
+            "G26-E09-B02",
+            "G26-E09-B03",
+            "G26-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G26-E09-B01",
+            "text": "The rain",
+            "role": "required"
+          },
+          {
+            "id": "G26-E09-B02",
+            "text": "was",
+            "role": "required"
+          },
+          {
+            "id": "G26-E09-B03",
+            "text": "falling",
+            "role": "required"
+          },
+          {
+            "id": "G26-E09-B04",
+            "text": "when we left.",
+            "role": "required"
+          },
+          {
+            "id": "G26-E09-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E09-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E09-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E09-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E09-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G26-E09-D01",
+            "text": "were",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E09-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E09-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E09-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          },
+          {
+            "id": "G26-E09-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「was」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G26-E09-B01",
+          "G26-E09-B02",
+          "G26-E09-B03",
+          "G26-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E09-B01",
+            "G26-E09-B02",
+            "G26-E09-B03",
+            "G26-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G26-E09-AUDIO",
+        "text": "The rain was falling when we left.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G26-E10",
+      "grammarId": "G26",
+      "grammarNameJa": "過去進行形",
+      "english": "We were practicing at six yesterday.",
+      "translationJa": "私たちは昨日6時に練習していました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "were",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "was・were＋ing形で過去のある時点で進行していた動作を表す。"
+      },
+      "sentenceExplanationJa": "「We were practicing at six yesterday.」は「私たちは昨日6時に練習していました。」という意味です。was・were＋ing形で過去のある時点で進行していた動作を表す。 この文の対象部分は「were」。まとまりは We → were → practicing → at six yesterday. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "were",
+          "lemma": "were",
+          "meaningJa": "～でした・いた（複数などのbe動詞の過去形）",
+          "kind": "word"
+        },
+        {
+          "expression": "practicing",
+          "lemma": "practice",
+          "meaningJa": "練習する・練習（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "six",
+          "lemma": "six",
+          "meaningJa": "6・6時",
+          "kind": "word"
+        },
+        {
+          "expression": "yesterday",
+          "lemma": "yesterday",
+          "meaningJa": "昨日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ practicing at six yesterday.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "were"
+        },
+        "options": [
+          {
+            "id": "G26-E10-C4",
+            "text": "are",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「are」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E10-C2",
+            "text": "was",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「was」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E10-C3",
+            "text": "is",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「were」を使います。「is」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G26-E10-C1",
+            "text": "were",
+            "isCorrect": true,
+            "explanationJa": "正解。was・were＋ing形で過去のある時点で進行していた動作を表す。"
+          }
+        ],
+        "correctOptionId": "G26-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G26-E10-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G26-E10-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G26-E10-B03",
+            "text": "practicing",
+            "role": "required"
+          },
+          {
+            "id": "G26-E10-B04",
+            "text": "at six yesterday.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G26-E10-B01",
+          "G26-E10-B02",
+          "G26-E10-B03",
+          "G26-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E10-B01",
+            "G26-E10-B02",
+            "G26-E10-B03",
+            "G26-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G26-E10-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G26-E10-B02",
+            "text": "were",
+            "role": "required"
+          },
+          {
+            "id": "G26-E10-B03",
+            "text": "practicing",
+            "role": "required"
+          },
+          {
+            "id": "G26-E10-B04",
+            "text": "at six yesterday.",
+            "role": "required"
+          },
+          {
+            "id": "G26-E10-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E10-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E10-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E10-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E10-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G26-E10-D01",
+            "text": "was",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E10-D02",
+            "text": "is",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E10-D03",
+            "text": "are",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E10-D04",
+            "text": "been",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          },
+          {
+            "id": "G26-E10-D05",
+            "text": "being",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「were」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G26-E10-B01",
+          "G26-E10-B02",
+          "G26-E10-B03",
+          "G26-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G26-E10-B01",
+            "G26-E10-B02",
+            "G26-E10-B03",
+            "G26-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G26-E10-AUDIO",
+        "text": "We were practicing at six yesterday.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

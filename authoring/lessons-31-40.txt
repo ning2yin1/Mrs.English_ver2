@@ -1,0 +1,110 @@
+@31|比較級|2|二つを比べるときに比較級＋thanを使う。長い形容詞はmore、不規則形はbetterなど。|AUTO
+This bag/is/[bigger]/than mine.|このバッグは私のものより大きいです。
+This ticket/is/[cheaper]/than that one.|このチケットはあれより安いです。
+My sister/is/[taller]/than me.|私の姉は私より背が高いです。
+This song/is/[longer]/than that song.|この曲はあの曲より長いです。
+Today is/[hotter]/than yesterday.|今日は昨日より暑いです。
+This seat/is/[better]/than my old seat.|この席は以前の私の席よりよいです。
+The hall/is/[farther]/than the shop.|会場は店より遠いです。
+This towel/is/[softer]/than that towel.|このタオルはあのタオルより柔らかいです。
+This book/is/[more interesting]/than that book.|この本はあの本よりおもしろいです。
+My bag/is/[heavier]/than yours.|私のバッグはあなたのものより重いです。
+@32|最上級|2|三つ以上の中で一番をthe＋最上級で表す。範囲にはin・ofなどを使う。|AUTO
+This is/the/[biggest]/hall/in our town.|これは私たちの町で一番大きな会場です。
+This is/the/[cheapest]/ticket/on this list.|これはこの一覧で一番安いチケットです。
+She is/the/[tallest]/student/in our band.|彼女は私たちのバンドで一番背の高い生徒です。
+This is/the/[longest]/song/on the album.|これはそのアルバムで一番長い曲です。
+Today is/the/[hottest]/day/of the week.|今日は今週で一番暑い日です。
+This is/the/[best]/seat/in the hall.|これは会場で一番よい席です。
+This is/the/[smallest]/bag/in the shop.|これはその店で一番小さなバッグです。
+This is/the/[most exciting]/part/of the show.|これは公演の中で一番わくわくする部分です。
+My brother/is/the/[youngest]/fan/in our family.|私の弟は家族で一番年下のファンです。
+This is/the/[most beautiful]/photo/in my collection.|これは私のコレクションで一番美しい写真です。
+@33|as ... asの原級比較|2|as＋形容詞や副詞の原級＋asで同じ程度を表す。not as ... asでそれほどではないことを示す。|AUTO
+This towel/is/as [soft] as/mine.|このタオルは私のものと同じくらい柔らかいです。
+This song/is/as [long] as/that song.|この曲はあの曲と同じくらい長いです。
+My bag/is/not as [heavy] as/yours.|私のバッグはあなたのものほど重くありません。
+She/sings/as [well] as/her sister.|彼女は姉と同じくらい上手に歌います。
+This seat/is/as [good] as/that one.|この席はあれと同じくらいよいです。
+He/runs/as [fast] as/his brother.|彼は兄と同じくらい速く走ります。
+This hall/is/not as [big] as/that hall.|この会場はあの会場ほど大きくありません。
+I/am/as [excited] as/you.|私はあなたと同じくらいわくわくしています。
+This shirt/is/as [bright] as/the lights.|このシャツは照明と同じくらい鮮やかです。
+My phone/is/not as [new] as/hers.|私の携帯電話は彼女のものほど新しくありません。
+@34|不定詞・名詞的用法|2|to＋動詞の原形を「～すること」としてwant・hopeなどの目的語にする。|AUTO
+I/want/[to sing]/this song.|私はこの曲を歌いたいです。
+She/hopes/[to get]/a ticket.|彼女はチケットを手に入れることを願っています。
+We/decided/[to leave]/early.|私たちは早めに出発することに決めました。
+He/needs/[to charge]/his phone.|彼は携帯電話を充電する必要があります。
+I/want/[to learn]/English.|私は英語を学びたいです。
+They/plan/[to practice]/tomorrow.|彼らは明日練習する予定です。
+I/hope/[to see]/the band/someday.|私はいつかそのバンドを見ることを願っています。
+She/decided/[to join]/the fan club.|彼女はファンクラブに入ることに決めました。
+We/want/[to share]/this news.|私たちはこの知らせを共有したいです。
+My brother/needs/[to study]/tonight.|私の弟は今夜勉強する必要があります。
+@35|不定詞・目的を表す副詞的用法|2|to＋原形を「～するために」として動作の目的を付け加える。|AUTO
+I/got up early/[to buy]/a ticket.|私はチケットを買うために早起きしました。
+She/saved money/[to go]/to the concert.|彼女はコンサートに行くためにお金を貯めました。
+We/met/[to practice]/the song.|私たちはその曲を練習するために集まりました。
+He/opened the app/[to review]/English.|彼は英語を復習するためにアプリを開きました。
+I/went to the shop/[to get]/a towel.|私はタオルを手に入れるために店へ行きました。
+We/took a bus/[to reach]/the hall.|私たちは会場に着くためにバスに乗りました。
+She/wore glasses/[to see]/the stage.|彼女はステージを見るために眼鏡をかけました。
+I/turned down the music/[to hear]/the announcement.|私はアナウンスを聞くために音楽の音量を下げました。
+He/brought a pen/[to write]/a message.|彼はメッセージを書くためにペンを持ってきました。
+We/stood up/[to wave]/our towels.|私たちはタオルを振るために立ち上がりました。
+@36|不定詞・形容詞的用法|2|名詞の後ろにto＋原形を置いて「～するための・～すべき」と説明する。必要な前置詞も残す。|AUTO
+I/have/a song/[to sing].|私には歌う曲があります。
+We/need/something/[to drink].|私たちは何か飲むものが必要です。
+She/has/a letter/[to write].|彼女には書く手紙があります。
+I/want/a chair/[to sit on].|私は座るための椅子が欲しいです。
+He/needs/time/[to practice].|彼は練習する時間が必要です。
+We/have/many places/[to visit].|私たちには訪れる場所がたくさんあります。
+I/have/no money/[to spend].|私には使うお金がありません。
+She/wants/a friend/[to talk with].|彼女は話をする友達が欲しいです。
+This is/a good book/[to read].|これは読むのによい本です。
+I/have/something/[to tell you].|私はあなたに伝えることがあります。
+@37|動名詞|2|動詞のing形を「～すること」として使う。enjoy・finishや前置詞の後ろで使える。|AUTO
+I/enjoy/[listening]/to music.|私は音楽を聴くことを楽しんでいます。
+She/finished/[writing]/her message.|彼女はメッセージを書き終えました。
+We/practice/[singing]/every day.|私たちは毎日歌う練習をします。
+He/is good at/[playing]/the piano.|彼はピアノを弾くのが得意です。
+Thank you/for/[helping]/me.|私を手伝ってくれてありがとう。
+I/am interested in/[learning]/English.|私は英語を学ぶことに興味があります。
+She/stopped/[talking]/during the song.|彼女は曲の間、話すのをやめました。
+We/enjoy/[watching]/music videos.|私たちはミュージックビデオを見ることを楽しみます。
+He/left without/[taking]/his bag.|彼はバッグを持たずに出発しました。
+My hobby/is/[collecting]/cards.|私の趣味はカードを集めることです。
+@38|授与動詞・SVOO|2|give・showなどの後ろに「人＋物」の順で目的語を二つ置く。to・forを使う型とは区別する。|AUTO
+She/gave/[me]/a card.|彼女は私にカードをくれました。
+I/showed/[him]/my ticket.|私は彼にチケットを見せました。
+He/sent/[us]/a photo.|彼は私たちに写真を送りました。
+We/told/[her]/the news.|私たちは彼女にその知らせを伝えました。
+My sister/bought/[me]/a towel.|私の姉は私にタオルを買ってくれました。
+Please/teach/[us]/this song.|私たちにこの曲を教えてください。
+I/made/[her]/a small gift.|私は彼女に小さなプレゼントを作りました。
+He/lent/[me]/his headphones.|彼は私にヘッドホンを貸してくれました。
+She/asked/[him]/a question.|彼女は彼に質問をしました。
+The guide/showed/[them]/the way.|案内係は彼らに道を教えました。
+@39|SVC・感覚動詞|2|look・sound・feel・becomeなどの後ろに形容詞や名詞を置き、主語の状態を説明する。|AUTO
+This song/sounds/[beautiful].|この曲は美しく聞こえます。
+You/look/[happy].|あなたはうれしそうに見えます。
+I/feel/[sleepy]/after the concert.|私はコンサート後に眠く感じます。
+The soup/tastes/[good].|そのスープはおいしい味がします。
+She/became/[famous].|彼女は有名になりました。
+This towel/feels/[soft].|このタオルは柔らかい手触りです。
+The flowers/smell/[nice].|その花はよい香りがします。
+My brother/looks/[tired].|私の兄は疲れているように見えます。
+The room/became/[quiet].|その部屋は静かになりました。
+His idea/sounds/[interesting].|彼の考えはおもしろそうに聞こえます。
+@40|SVOC・make・call・keep・let・help|2|目的語を補語で説明する型と、let・help＋人＋動詞の原形を学ぶ。make＋人＋原形も基本の形。|AUTO
+This song/makes/me/[happy].|この曲は私を幸せにします。
+We/call/this dog/[Apple].|私たちはこの犬をアップルと呼びます。
+Please/keep/your hands/[clean].|手を清潔に保ってください。
+My mother/let/me/[go]/to the concert.|母は私をコンサートに行かせてくれました。
+He/helped/me/[carry]/my bag.|彼は私がバッグを運ぶのを手伝ってくれました。
+That joke/made/us/[laugh].|その冗談で私たちは笑いました。
+Please/leave/the door/[open].|ドアを開けたままにしてください。
+The news/made/her/[sad].|その知らせは彼女を悲しませました。
+I/will keep/my ticket/[safe].|私はチケットを安全に保管します。
+The teacher/made/us/[practice]/again.|先生は私たちにもう一度練習させました。

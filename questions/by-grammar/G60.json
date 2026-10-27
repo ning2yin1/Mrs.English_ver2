@@ -1,0 +1,2218 @@
+{
+  "grammarId": "G60",
+  "examples": [
+    {
+      "id": "G60-E01",
+      "grammarId": "G60",
+      "grammarNameJa": "感嘆文",
+      "english": "How beautiful this song is!",
+      "translationJa": "この曲はなんて美しいのでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "How",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+      },
+      "sentenceExplanationJa": "「How beautiful this song is!」は「この曲はなんて美しいのでしょう。」という意味です。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。 この文の対象部分は「How」。まとまりは How → beautiful → this song is! の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "beautiful",
+          "lemma": "beautiful",
+          "meaningJa": "美しい",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ beautiful this song is!",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "How"
+        },
+        "options": [
+          {
+            "id": "G60-E01-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E01-C3",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E01-C2",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E01-C1",
+            "text": "How",
+            "isCorrect": true,
+            "explanationJa": "正解。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+          }
+        ],
+        "correctOptionId": "G60-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G60-E01-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G60-E01-B02",
+            "text": "beautiful",
+            "role": "required"
+          },
+          {
+            "id": "G60-E01-B03",
+            "text": "this song is!",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G60-E01-B01",
+          "G60-E01-B02",
+          "G60-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E01-B01",
+            "G60-E01-B02",
+            "G60-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G60-E01-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G60-E01-B02",
+            "text": "beautiful",
+            "role": "required"
+          },
+          {
+            "id": "G60-E01-B03",
+            "text": "this song is!",
+            "role": "required"
+          },
+          {
+            "id": "G60-E01-D01",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E01-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E01-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G60-E01-D01",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E01-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E01-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E01-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E01-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G60-E01-B01",
+          "G60-E01-B02",
+          "G60-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E01-B01",
+            "G60-E01-B02",
+            "G60-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G60-E01-AUDIO",
+        "text": "How beautiful this song is!",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G60-E02",
+      "grammarId": "G60",
+      "grammarNameJa": "感嘆文",
+      "english": "What a great show that was!",
+      "translationJa": "あれはなんてすばらしい公演だったのでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "What",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+      },
+      "sentenceExplanationJa": "「What a great show that was!」は「あれはなんてすばらしい公演だったのでしょう。」という意味です。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。 この文の対象部分は「What」。まとまりは What → a great show → that was! の順です。",
+      "glossary": [
+        {
+          "expression": "What",
+          "lemma": "what",
+          "meaningJa": "何・何という",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "great",
+          "lemma": "great",
+          "meaningJa": "すばらしい",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        },
+        {
+          "expression": "that",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "was",
+          "lemma": "was",
+          "meaningJa": "～でした・いた（be動詞の過去形）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ a great show that was!",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "What"
+        },
+        "options": [
+          {
+            "id": "G60-E02-C1",
+            "text": "What",
+            "isCorrect": true,
+            "explanationJa": "正解。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+          },
+          {
+            "id": "G60-E02-C3",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E02-C2",
+            "text": "How",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「How」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E02-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G60-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G60-E02-B01",
+            "text": "What",
+            "role": "required"
+          },
+          {
+            "id": "G60-E02-B02",
+            "text": "a great show",
+            "role": "required"
+          },
+          {
+            "id": "G60-E02-B03",
+            "text": "that was!",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G60-E02-B01",
+          "G60-E02-B02",
+          "G60-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E02-B01",
+            "G60-E02-B02",
+            "G60-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G60-E02-B01",
+            "text": "What",
+            "role": "required"
+          },
+          {
+            "id": "G60-E02-B02",
+            "text": "a great show",
+            "role": "required"
+          },
+          {
+            "id": "G60-E02-B03",
+            "text": "that was!",
+            "role": "required"
+          },
+          {
+            "id": "G60-E02-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E02-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E02-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G60-E02-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E02-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E02-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E02-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E02-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G60-E02-B01",
+          "G60-E02-B02",
+          "G60-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E02-B01",
+            "G60-E02-B02",
+            "G60-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G60-E02-AUDIO",
+        "text": "What a great show that was!",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G60-E03",
+      "grammarId": "G60",
+      "grammarNameJa": "感嘆文",
+      "english": "How fast she can play!",
+      "translationJa": "彼女はなんて速く演奏できるのでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "How",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+      },
+      "sentenceExplanationJa": "「How fast she can play!」は「彼女はなんて速く演奏できるのでしょう。」という意味です。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。 この文の対象部分は「How」。まとまりは How → fast → she can play! の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "fast",
+          "lemma": "fast",
+          "meaningJa": "速い・速く",
+          "kind": "word"
+        },
+        {
+          "expression": "she",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "can",
+          "lemma": "can",
+          "meaningJa": "～できる",
+          "kind": "word"
+        },
+        {
+          "expression": "play",
+          "lemma": "play",
+          "meaningJa": "演奏する・遊ぶ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ fast she can play!",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "How"
+        },
+        "options": [
+          {
+            "id": "G60-E03-C1",
+            "text": "How",
+            "isCorrect": true,
+            "explanationJa": "正解。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+          },
+          {
+            "id": "G60-E03-C2",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E03-C3",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E03-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G60-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G60-E03-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G60-E03-B02",
+            "text": "fast",
+            "role": "required"
+          },
+          {
+            "id": "G60-E03-B03",
+            "text": "she can play!",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G60-E03-B01",
+          "G60-E03-B02",
+          "G60-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E03-B01",
+            "G60-E03-B02",
+            "G60-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G60-E03-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G60-E03-B02",
+            "text": "fast",
+            "role": "required"
+          },
+          {
+            "id": "G60-E03-B03",
+            "text": "she can play!",
+            "role": "required"
+          },
+          {
+            "id": "G60-E03-D01",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E03-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E03-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G60-E03-D01",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E03-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E03-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E03-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E03-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G60-E03-B01",
+          "G60-E03-B02",
+          "G60-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E03-B01",
+            "G60-E03-B02",
+            "G60-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G60-E03-AUDIO",
+        "text": "How fast she can play!",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G60-E04",
+      "grammarId": "G60",
+      "grammarNameJa": "感嘆文",
+      "english": "What a long line this is!",
+      "translationJa": "これはなんて長い列なのでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "What",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+      },
+      "sentenceExplanationJa": "「What a long line this is!」は「これはなんて長い列なのでしょう。」という意味です。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。 この文の対象部分は「What」。まとまりは What → a long line → this is! の順です。",
+      "glossary": [
+        {
+          "expression": "a long line",
+          "meaningJa": "長い行列",
+          "kind": "phrase"
+        },
+        {
+          "expression": "What",
+          "lemma": "what",
+          "meaningJa": "何・何という",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "long",
+          "lemma": "long",
+          "meaningJa": "長い",
+          "kind": "word"
+        },
+        {
+          "expression": "line",
+          "lemma": "line",
+          "meaningJa": "列・行列",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ a long line this is!",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "What"
+        },
+        "options": [
+          {
+            "id": "G60-E04-C2",
+            "text": "How",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「How」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E04-C1",
+            "text": "What",
+            "isCorrect": true,
+            "explanationJa": "正解。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+          },
+          {
+            "id": "G60-E04-C3",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E04-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G60-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G60-E04-B01",
+            "text": "What",
+            "role": "required"
+          },
+          {
+            "id": "G60-E04-B02",
+            "text": "a long line",
+            "role": "required"
+          },
+          {
+            "id": "G60-E04-B03",
+            "text": "this is!",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G60-E04-B01",
+          "G60-E04-B02",
+          "G60-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E04-B01",
+            "G60-E04-B02",
+            "G60-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G60-E04-B01",
+            "text": "What",
+            "role": "required"
+          },
+          {
+            "id": "G60-E04-B02",
+            "text": "a long line",
+            "role": "required"
+          },
+          {
+            "id": "G60-E04-B03",
+            "text": "this is!",
+            "role": "required"
+          },
+          {
+            "id": "G60-E04-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E04-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E04-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G60-E04-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E04-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E04-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E04-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E04-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G60-E04-B01",
+          "G60-E04-B02",
+          "G60-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E04-B01",
+            "G60-E04-B02",
+            "G60-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G60-E04-AUDIO",
+        "text": "What a long line this is!",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G60-E05",
+      "grammarId": "G60",
+      "grammarNameJa": "感嘆文",
+      "english": "How kind you are!",
+      "translationJa": "あなたはなんて親切なのでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "How",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+      },
+      "sentenceExplanationJa": "「How kind you are!」は「あなたはなんて親切なのでしょう。」という意味です。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。 この文の対象部分は「How」。まとまりは How → kind → you are! の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "kind",
+          "lemma": "kind",
+          "meaningJa": "親切な",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ kind you are!",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "How"
+        },
+        "options": [
+          {
+            "id": "G60-E05-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E05-C3",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E05-C2",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E05-C1",
+            "text": "How",
+            "isCorrect": true,
+            "explanationJa": "正解。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+          }
+        ],
+        "correctOptionId": "G60-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G60-E05-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G60-E05-B02",
+            "text": "kind",
+            "role": "required"
+          },
+          {
+            "id": "G60-E05-B03",
+            "text": "you are!",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G60-E05-B01",
+          "G60-E05-B02",
+          "G60-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E05-B01",
+            "G60-E05-B02",
+            "G60-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G60-E05-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G60-E05-B02",
+            "text": "kind",
+            "role": "required"
+          },
+          {
+            "id": "G60-E05-B03",
+            "text": "you are!",
+            "role": "required"
+          },
+          {
+            "id": "G60-E05-D01",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E05-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E05-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G60-E05-D01",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E05-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E05-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E05-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E05-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G60-E05-B01",
+          "G60-E05-B02",
+          "G60-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E05-B01",
+            "G60-E05-B02",
+            "G60-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G60-E05-AUDIO",
+        "text": "How kind you are!",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G60-E06",
+      "grammarId": "G60",
+      "grammarNameJa": "感嘆文",
+      "english": "What an exciting day this is!",
+      "translationJa": "今日はなんてわくわくする日なのでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "What",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+      },
+      "sentenceExplanationJa": "「What an exciting day this is!」は「今日はなんてわくわくする日なのでしょう。」という意味です。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。 この文の対象部分は「What」。まとまりは What → an exciting day → this is! の順です。",
+      "glossary": [
+        {
+          "expression": "What",
+          "lemma": "what",
+          "meaningJa": "何・何という",
+          "kind": "word"
+        },
+        {
+          "expression": "an",
+          "lemma": "an",
+          "meaningJa": "1つの（母音で始まる音の前の不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "exciting",
+          "lemma": "exciting",
+          "meaningJa": "わくわくさせる",
+          "kind": "word"
+        },
+        {
+          "expression": "day",
+          "lemma": "day",
+          "meaningJa": "日・一日",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ an exciting day this is!",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "What"
+        },
+        "options": [
+          {
+            "id": "G60-E06-C3",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E06-C1",
+            "text": "What",
+            "isCorrect": true,
+            "explanationJa": "正解。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+          },
+          {
+            "id": "G60-E06-C2",
+            "text": "How",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「How」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E06-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G60-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G60-E06-B01",
+            "text": "What",
+            "role": "required"
+          },
+          {
+            "id": "G60-E06-B02",
+            "text": "an exciting day",
+            "role": "required"
+          },
+          {
+            "id": "G60-E06-B03",
+            "text": "this is!",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G60-E06-B01",
+          "G60-E06-B02",
+          "G60-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E06-B01",
+            "G60-E06-B02",
+            "G60-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G60-E06-B01",
+            "text": "What",
+            "role": "required"
+          },
+          {
+            "id": "G60-E06-B02",
+            "text": "an exciting day",
+            "role": "required"
+          },
+          {
+            "id": "G60-E06-B03",
+            "text": "this is!",
+            "role": "required"
+          },
+          {
+            "id": "G60-E06-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E06-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E06-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G60-E06-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E06-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E06-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E06-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E06-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G60-E06-B01",
+          "G60-E06-B02",
+          "G60-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E06-B01",
+            "G60-E06-B02",
+            "G60-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G60-E06-AUDIO",
+        "text": "What an exciting day this is!",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G60-E07",
+      "grammarId": "G60",
+      "grammarNameJa": "感嘆文",
+      "english": "How loud the music is!",
+      "translationJa": "音楽はなんて大きな音なのでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "How",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+      },
+      "sentenceExplanationJa": "「How loud the music is!」は「音楽はなんて大きな音なのでしょう。」という意味です。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。 この文の対象部分は「How」。まとまりは How → loud → the music is! の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "loud",
+          "lemma": "loud",
+          "meaningJa": "大きな音の",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "music",
+          "lemma": "music",
+          "meaningJa": "音楽・楽譜",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ loud the music is!",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "How"
+        },
+        "options": [
+          {
+            "id": "G60-E07-C3",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E07-C2",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E07-C1",
+            "text": "How",
+            "isCorrect": true,
+            "explanationJa": "正解。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+          },
+          {
+            "id": "G60-E07-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G60-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G60-E07-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G60-E07-B02",
+            "text": "loud",
+            "role": "required"
+          },
+          {
+            "id": "G60-E07-B03",
+            "text": "the music is!",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G60-E07-B01",
+          "G60-E07-B02",
+          "G60-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E07-B01",
+            "G60-E07-B02",
+            "G60-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G60-E07-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G60-E07-B02",
+            "text": "loud",
+            "role": "required"
+          },
+          {
+            "id": "G60-E07-B03",
+            "text": "the music is!",
+            "role": "required"
+          },
+          {
+            "id": "G60-E07-D01",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E07-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E07-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G60-E07-D01",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E07-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E07-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E07-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E07-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G60-E07-B01",
+          "G60-E07-B02",
+          "G60-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E07-B01",
+            "G60-E07-B02",
+            "G60-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G60-E07-AUDIO",
+        "text": "How loud the music is!",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G60-E08",
+      "grammarId": "G60",
+      "grammarNameJa": "感嘆文",
+      "english": "What a lovely voice she has!",
+      "translationJa": "彼女はなんてすてきな声なのでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "What",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+      },
+      "sentenceExplanationJa": "「What a lovely voice she has!」は「彼女はなんてすてきな声なのでしょう。」という意味です。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。 この文の対象部分は「What」。まとまりは What → a lovely voice → she has! の順です。",
+      "glossary": [
+        {
+          "expression": "What",
+          "lemma": "what",
+          "meaningJa": "何・何という",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "lovely",
+          "lemma": "lovely",
+          "meaningJa": "すてきな",
+          "kind": "word"
+        },
+        {
+          "expression": "voice",
+          "lemma": "voice",
+          "meaningJa": "声",
+          "kind": "word"
+        },
+        {
+          "expression": "she",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "has",
+          "lemma": "has",
+          "meaningJa": "haveの三人称単数現在形",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ a lovely voice she has!",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "What"
+        },
+        "options": [
+          {
+            "id": "G60-E08-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E08-C1",
+            "text": "What",
+            "isCorrect": true,
+            "explanationJa": "正解。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+          },
+          {
+            "id": "G60-E08-C2",
+            "text": "How",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「How」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E08-C3",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G60-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G60-E08-B01",
+            "text": "What",
+            "role": "required"
+          },
+          {
+            "id": "G60-E08-B02",
+            "text": "a lovely voice",
+            "role": "required"
+          },
+          {
+            "id": "G60-E08-B03",
+            "text": "she has!",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G60-E08-B01",
+          "G60-E08-B02",
+          "G60-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E08-B01",
+            "G60-E08-B02",
+            "G60-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G60-E08-B01",
+            "text": "What",
+            "role": "required"
+          },
+          {
+            "id": "G60-E08-B02",
+            "text": "a lovely voice",
+            "role": "required"
+          },
+          {
+            "id": "G60-E08-B03",
+            "text": "she has!",
+            "role": "required"
+          },
+          {
+            "id": "G60-E08-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E08-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E08-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G60-E08-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E08-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E08-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E08-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E08-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G60-E08-B01",
+          "G60-E08-B02",
+          "G60-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E08-B01",
+            "G60-E08-B02",
+            "G60-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G60-E08-AUDIO",
+        "text": "What a lovely voice she has!",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G60-E09",
+      "grammarId": "G60",
+      "grammarNameJa": "感嘆文",
+      "english": "How heavy my bag is!",
+      "translationJa": "私のバッグはなんて重いのでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "How",
+        "start": 0,
+        "endExclusive": 3,
+        "explanationJa": "How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+      },
+      "sentenceExplanationJa": "「How heavy my bag is!」は「私のバッグはなんて重いのでしょう。」という意味です。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。 この文の対象部分は「How」。まとまりは How → heavy → my bag is! の順です。",
+      "glossary": [
+        {
+          "expression": "How",
+          "lemma": "how",
+          "meaningJa": "どのように・どのくらい",
+          "kind": "word"
+        },
+        {
+          "expression": "heavy",
+          "lemma": "heavy",
+          "meaningJa": "重い",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ heavy my bag is!",
+        "blank": {
+          "start": 0,
+          "endExclusive": 3,
+          "answer": "How"
+        },
+        "options": [
+          {
+            "id": "G60-E09-C1",
+            "text": "How",
+            "isCorrect": true,
+            "explanationJa": "正解。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+          },
+          {
+            "id": "G60-E09-C3",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E09-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E09-C2",
+            "text": "What",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「How」を使います。「What」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G60-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G60-E09-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G60-E09-B02",
+            "text": "heavy",
+            "role": "required"
+          },
+          {
+            "id": "G60-E09-B03",
+            "text": "my bag is!",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G60-E09-B01",
+          "G60-E09-B02",
+          "G60-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E09-B01",
+            "G60-E09-B02",
+            "G60-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G60-E09-B01",
+            "text": "How",
+            "role": "required"
+          },
+          {
+            "id": "G60-E09-B02",
+            "text": "heavy",
+            "role": "required"
+          },
+          {
+            "id": "G60-E09-B03",
+            "text": "my bag is!",
+            "role": "required"
+          },
+          {
+            "id": "G60-E09-D01",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E09-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E09-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G60-E09-D01",
+            "text": "What",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E09-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E09-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E09-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          },
+          {
+            "id": "G60-E09-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「How」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G60-E09-B01",
+          "G60-E09-B02",
+          "G60-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E09-B01",
+            "G60-E09-B02",
+            "G60-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G60-E09-AUDIO",
+        "text": "How heavy my bag is!",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G60-E10",
+      "grammarId": "G60",
+      "grammarNameJa": "感嘆文",
+      "english": "What beautiful photos these are!",
+      "translationJa": "これらはなんて美しい写真なのでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "What",
+        "start": 0,
+        "endExclusive": 4,
+        "explanationJa": "How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+      },
+      "sentenceExplanationJa": "「What beautiful photos these are!」は「これらはなんて美しい写真なのでしょう。」という意味です。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。 この文の対象部分は「What」。まとまりは What → beautiful photos → these are! の順です。",
+      "glossary": [
+        {
+          "expression": "What",
+          "lemma": "what",
+          "meaningJa": "何・何という",
+          "kind": "word"
+        },
+        {
+          "expression": "beautiful",
+          "lemma": "beautiful",
+          "meaningJa": "美しい",
+          "kind": "word"
+        },
+        {
+          "expression": "photos",
+          "lemma": "photo",
+          "meaningJa": "写真（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "these",
+          "lemma": "these",
+          "meaningJa": "これら",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ beautiful photos these are!",
+        "blank": {
+          "start": 0,
+          "endExclusive": 4,
+          "answer": "What"
+        },
+        "options": [
+          {
+            "id": "G60-E10-C2",
+            "text": "How",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「How」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E10-C4",
+            "text": "Who",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「Who」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E10-C3",
+            "text": "Which",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「What」を使います。「Which」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G60-E10-C1",
+            "text": "What",
+            "isCorrect": true,
+            "explanationJa": "正解。How＋形容詞・副詞＋主語＋動詞、What＋a・an＋形容詞＋名詞＋主語＋動詞で感動を表す。"
+          }
+        ],
+        "correctOptionId": "G60-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G60-E10-B01",
+            "text": "What",
+            "role": "required"
+          },
+          {
+            "id": "G60-E10-B02",
+            "text": "beautiful photos",
+            "role": "required"
+          },
+          {
+            "id": "G60-E10-B03",
+            "text": "these are!",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G60-E10-B01",
+          "G60-E10-B02",
+          "G60-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E10-B01",
+            "G60-E10-B02",
+            "G60-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G60-E10-B01",
+            "text": "What",
+            "role": "required"
+          },
+          {
+            "id": "G60-E10-B02",
+            "text": "beautiful photos",
+            "role": "required"
+          },
+          {
+            "id": "G60-E10-B03",
+            "text": "these are!",
+            "role": "required"
+          },
+          {
+            "id": "G60-E10-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E10-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E10-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G60-E10-D01",
+            "text": "How",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E10-D02",
+            "text": "Which",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E10-D03",
+            "text": "Who",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E10-D04",
+            "text": "to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          },
+          {
+            "id": "G60-E10-D05",
+            "text": "for",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「What」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G60-E10-B01",
+          "G60-E10-B02",
+          "G60-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G60-E10-B01",
+            "G60-E10-B02",
+            "G60-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G60-E10-AUDIO",
+        "text": "What beautiful photos these are!",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

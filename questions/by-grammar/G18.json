@@ -1,0 +1,2187 @@
+{
+  "grammarId": "G18",
+  "examples": [
+    {
+      "id": "G18-E01",
+      "grammarId": "G18",
+      "grammarNameJa": "命令文・勧誘",
+      "english": "Please show me your ticket.",
+      "translationJa": "どうぞ私にチケットを見せてください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Please",
+        "start": 0,
+        "endExclusive": 6,
+        "explanationJa": "動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+      },
+      "sentenceExplanationJa": "「Please show me your ticket.」は「どうぞ私にチケットを見せてください。」という意味です。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。 この文の対象部分は「Please」。まとまりは Please → show me → your ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "Please",
+          "lemma": "please",
+          "meaningJa": "どうぞ・～してください",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        },
+        {
+          "expression": "me",
+          "lemma": "me",
+          "meaningJa": "私を・私に",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ show me your ticket.",
+        "blank": {
+          "start": 0,
+          "endExclusive": 6,
+          "answer": "Please"
+        },
+        "options": [
+          {
+            "id": "G18-E01-C1",
+            "text": "Please",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+          },
+          {
+            "id": "G18-E01-C2",
+            "text": "Pleases",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Please」を使います。「Pleases」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E01-C4",
+            "text": "Pleasing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Please」を使います。「Pleasing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E01-C3",
+            "text": "Pleased",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Please」を使います。「Pleased」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G18-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G18-E01-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G18-E01-B02",
+            "text": "show me",
+            "role": "required"
+          },
+          {
+            "id": "G18-E01-B03",
+            "text": "your ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G18-E01-B01",
+          "G18-E01-B02",
+          "G18-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E01-B01",
+            "G18-E01-B02",
+            "G18-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G18-E01-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G18-E01-B02",
+            "text": "show me",
+            "role": "required"
+          },
+          {
+            "id": "G18-E01-B03",
+            "text": "your ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G18-E01-D01",
+            "text": "Pleases",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E01-D02",
+            "text": "Pleased",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E01-D03",
+            "text": "Pleasing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G18-E01-D01",
+            "text": "Pleases",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E01-D02",
+            "text": "Pleased",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E01-D03",
+            "text": "Pleasing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G18-E01-B01",
+          "G18-E01-B02",
+          "G18-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E01-B01",
+            "G18-E01-B02",
+            "G18-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G18-E01-AUDIO",
+        "text": "Please show me your ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G18-E02",
+      "grammarId": "G18",
+      "grammarNameJa": "命令文・勧誘",
+      "english": "Do not run in the hall.",
+      "translationJa": "会場内を走ってはいけません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Do not",
+        "start": 0,
+        "endExclusive": 6,
+        "explanationJa": "動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+      },
+      "sentenceExplanationJa": "「Do not run in the hall.」は「会場内を走ってはいけません。」という意味です。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。 この文の対象部分は「Do not」。まとまりは Do not → run → in the hall. の順です。",
+      "glossary": [
+        {
+          "expression": "Do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "run",
+          "lemma": "run",
+          "meaningJa": "走る",
+          "kind": "word"
+        },
+        {
+          "expression": "in",
+          "lemma": "in",
+          "meaningJa": "～の中に・～に（年・月など）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ run in the hall.",
+        "blank": {
+          "start": 0,
+          "endExclusive": 6,
+          "answer": "Do not"
+        },
+        "options": [
+          {
+            "id": "G18-E02-C3",
+            "text": "Did not to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do not」を使います。「Did not to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E02-C1",
+            "text": "Do not",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+          },
+          {
+            "id": "G18-E02-C4",
+            "text": "Not to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do not」を使います。「Not to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E02-C2",
+            "text": "Does not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do not」を使います。「Does not」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G18-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G18-E02-B01",
+            "text": "Do not",
+            "role": "required"
+          },
+          {
+            "id": "G18-E02-B02",
+            "text": "run",
+            "role": "required"
+          },
+          {
+            "id": "G18-E02-B03",
+            "text": "in the hall.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G18-E02-B01",
+          "G18-E02-B02",
+          "G18-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E02-B01",
+            "G18-E02-B02",
+            "G18-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G18-E02-B01",
+            "text": "Do not",
+            "role": "required"
+          },
+          {
+            "id": "G18-E02-B02",
+            "text": "run",
+            "role": "required"
+          },
+          {
+            "id": "G18-E02-B03",
+            "text": "in the hall.",
+            "role": "required"
+          },
+          {
+            "id": "G18-E02-D01",
+            "text": "Does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E02-D02",
+            "text": "Did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E02-D03",
+            "text": "Not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G18-E02-D01",
+            "text": "Does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E02-D02",
+            "text": "Did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E02-D03",
+            "text": "Not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G18-E02-B01",
+          "G18-E02-B02",
+          "G18-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E02-B01",
+            "G18-E02-B02",
+            "G18-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G18-E02-AUDIO",
+        "text": "Do not run in the hall.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G18-E03",
+      "grammarId": "G18",
+      "grammarNameJa": "命令文・勧誘",
+      "english": "Let us sing together.",
+      "translationJa": "一緒に歌いましょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Let us",
+        "start": 0,
+        "endExclusive": 6,
+        "explanationJa": "動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+      },
+      "sentenceExplanationJa": "「Let us sing together.」は「一緒に歌いましょう。」という意味です。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。 この文の対象部分は「Let us」。まとまりは Let us → sing → together. の順です。",
+      "glossary": [
+        {
+          "expression": "Let",
+          "lemma": "let",
+          "meaningJa": "～させる・許す",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        },
+        {
+          "expression": "sing",
+          "lemma": "sing",
+          "meaningJa": "歌う",
+          "kind": "word"
+        },
+        {
+          "expression": "together",
+          "lemma": "together",
+          "meaningJa": "一緒に",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ sing together.",
+        "blank": {
+          "start": 0,
+          "endExclusive": 6,
+          "answer": "Let us"
+        },
+        "options": [
+          {
+            "id": "G18-E03-C2",
+            "text": "Lets us",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Let us」を使います。「Lets us」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E03-C4",
+            "text": "Let our",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Let us」を使います。「Let our」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E03-C1",
+            "text": "Let us",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+          },
+          {
+            "id": "G18-E03-C3",
+            "text": "Let we",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Let us」を使います。「Let we」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G18-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G18-E03-B01",
+            "text": "Let us",
+            "role": "required"
+          },
+          {
+            "id": "G18-E03-B02",
+            "text": "sing",
+            "role": "required"
+          },
+          {
+            "id": "G18-E03-B03",
+            "text": "together.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G18-E03-B01",
+          "G18-E03-B02",
+          "G18-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E03-B01",
+            "G18-E03-B02",
+            "G18-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G18-E03-B01",
+            "text": "Let us",
+            "role": "required"
+          },
+          {
+            "id": "G18-E03-B02",
+            "text": "sing",
+            "role": "required"
+          },
+          {
+            "id": "G18-E03-B03",
+            "text": "together.",
+            "role": "required"
+          },
+          {
+            "id": "G18-E03-D01",
+            "text": "Lets us",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E03-D02",
+            "text": "Let we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E03-D03",
+            "text": "Let our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G18-E03-D01",
+            "text": "Lets us",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E03-D02",
+            "text": "Let we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E03-D03",
+            "text": "Let our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G18-E03-B01",
+          "G18-E03-B02",
+          "G18-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E03-B01",
+            "G18-E03-B02",
+            "G18-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G18-E03-AUDIO",
+        "text": "Let us sing together.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G18-E04",
+      "grammarId": "G18",
+      "grammarNameJa": "命令文・勧誘",
+      "english": "Please wait here.",
+      "translationJa": "どうぞここで待ってください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Please",
+        "start": 0,
+        "endExclusive": 6,
+        "explanationJa": "動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+      },
+      "sentenceExplanationJa": "「Please wait here.」は「どうぞここで待ってください。」という意味です。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。 この文の対象部分は「Please」。まとまりは Please → wait → here. の順です。",
+      "glossary": [
+        {
+          "expression": "Please",
+          "lemma": "please",
+          "meaningJa": "どうぞ・～してください",
+          "kind": "word"
+        },
+        {
+          "expression": "wait",
+          "lemma": "wait",
+          "meaningJa": "待つ",
+          "kind": "word"
+        },
+        {
+          "expression": "here",
+          "lemma": "here",
+          "meaningJa": "ここに・ここで",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ wait here.",
+        "blank": {
+          "start": 0,
+          "endExclusive": 6,
+          "answer": "Please"
+        },
+        "options": [
+          {
+            "id": "G18-E04-C1",
+            "text": "Please",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+          },
+          {
+            "id": "G18-E04-C3",
+            "text": "Pleased",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Please」を使います。「Pleased」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E04-C4",
+            "text": "Pleasing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Please」を使います。「Pleasing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E04-C2",
+            "text": "Pleases",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Please」を使います。「Pleases」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G18-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G18-E04-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G18-E04-B02",
+            "text": "wait",
+            "role": "required"
+          },
+          {
+            "id": "G18-E04-B03",
+            "text": "here.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G18-E04-B01",
+          "G18-E04-B02",
+          "G18-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E04-B01",
+            "G18-E04-B02",
+            "G18-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G18-E04-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G18-E04-B02",
+            "text": "wait",
+            "role": "required"
+          },
+          {
+            "id": "G18-E04-B03",
+            "text": "here.",
+            "role": "required"
+          },
+          {
+            "id": "G18-E04-D01",
+            "text": "Pleases",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E04-D02",
+            "text": "Pleased",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E04-D03",
+            "text": "Pleasing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G18-E04-D01",
+            "text": "Pleases",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E04-D02",
+            "text": "Pleased",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E04-D03",
+            "text": "Pleasing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G18-E04-B01",
+          "G18-E04-B02",
+          "G18-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E04-B01",
+            "G18-E04-B02",
+            "G18-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G18-E04-AUDIO",
+        "text": "Please wait here.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G18-E05",
+      "grammarId": "G18",
+      "grammarNameJa": "命令文・勧誘",
+      "english": "Do not forget your phone.",
+      "translationJa": "携帯電話を忘れないでください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Do not",
+        "start": 0,
+        "endExclusive": 6,
+        "explanationJa": "動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+      },
+      "sentenceExplanationJa": "「Do not forget your phone.」は「携帯電話を忘れないでください。」という意味です。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。 この文の対象部分は「Do not」。まとまりは Do not → forget → your phone. の順です。",
+      "glossary": [
+        {
+          "expression": "Do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "forget",
+          "lemma": "forget",
+          "meaningJa": "忘れる",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "phone",
+          "lemma": "phone",
+          "meaningJa": "携帯電話・電話",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ forget your phone.",
+        "blank": {
+          "start": 0,
+          "endExclusive": 6,
+          "answer": "Do not"
+        },
+        "options": [
+          {
+            "id": "G18-E05-C4",
+            "text": "Not to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do not」を使います。「Not to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E05-C1",
+            "text": "Do not",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+          },
+          {
+            "id": "G18-E05-C2",
+            "text": "Does not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do not」を使います。「Does not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E05-C3",
+            "text": "Did not to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do not」を使います。「Did not to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G18-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G18-E05-B01",
+            "text": "Do not",
+            "role": "required"
+          },
+          {
+            "id": "G18-E05-B02",
+            "text": "forget",
+            "role": "required"
+          },
+          {
+            "id": "G18-E05-B03",
+            "text": "your phone.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G18-E05-B01",
+          "G18-E05-B02",
+          "G18-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E05-B01",
+            "G18-E05-B02",
+            "G18-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G18-E05-B01",
+            "text": "Do not",
+            "role": "required"
+          },
+          {
+            "id": "G18-E05-B02",
+            "text": "forget",
+            "role": "required"
+          },
+          {
+            "id": "G18-E05-B03",
+            "text": "your phone.",
+            "role": "required"
+          },
+          {
+            "id": "G18-E05-D01",
+            "text": "Does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E05-D02",
+            "text": "Did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E05-D03",
+            "text": "Not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G18-E05-D01",
+            "text": "Does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E05-D02",
+            "text": "Did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E05-D03",
+            "text": "Not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G18-E05-B01",
+          "G18-E05-B02",
+          "G18-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E05-B01",
+            "G18-E05-B02",
+            "G18-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G18-E05-AUDIO",
+        "text": "Do not forget your phone.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G18-E06",
+      "grammarId": "G18",
+      "grammarNameJa": "命令文・勧誘",
+      "english": "Let us take a photo.",
+      "translationJa": "写真を撮りましょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Let us",
+        "start": 0,
+        "endExclusive": 6,
+        "explanationJa": "動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+      },
+      "sentenceExplanationJa": "「Let us take a photo.」は「写真を撮りましょう。」という意味です。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。 この文の対象部分は「Let us」。まとまりは Let us → take → a photo. の順です。",
+      "glossary": [
+        {
+          "expression": "take a photo",
+          "meaningJa": "写真を撮る",
+          "kind": "phrase"
+        },
+        {
+          "expression": "Let",
+          "lemma": "let",
+          "meaningJa": "～させる・許す",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        },
+        {
+          "expression": "take",
+          "lemma": "take",
+          "meaningJa": "取る・持っていく・乗る",
+          "kind": "word"
+        },
+        {
+          "expression": "a",
+          "lemma": "a",
+          "meaningJa": "1つの（不定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "photo",
+          "lemma": "photo",
+          "meaningJa": "写真",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ take a photo.",
+        "blank": {
+          "start": 0,
+          "endExclusive": 6,
+          "answer": "Let us"
+        },
+        "options": [
+          {
+            "id": "G18-E06-C4",
+            "text": "Let our",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Let us」を使います。「Let our」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E06-C2",
+            "text": "Lets us",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Let us」を使います。「Lets us」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E06-C1",
+            "text": "Let us",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+          },
+          {
+            "id": "G18-E06-C3",
+            "text": "Let we",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Let us」を使います。「Let we」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G18-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G18-E06-B01",
+            "text": "Let us",
+            "role": "required"
+          },
+          {
+            "id": "G18-E06-B02",
+            "text": "take",
+            "role": "required"
+          },
+          {
+            "id": "G18-E06-B03",
+            "text": "a photo.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G18-E06-B01",
+          "G18-E06-B02",
+          "G18-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E06-B01",
+            "G18-E06-B02",
+            "G18-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G18-E06-B01",
+            "text": "Let us",
+            "role": "required"
+          },
+          {
+            "id": "G18-E06-B02",
+            "text": "take",
+            "role": "required"
+          },
+          {
+            "id": "G18-E06-B03",
+            "text": "a photo.",
+            "role": "required"
+          },
+          {
+            "id": "G18-E06-D01",
+            "text": "Lets us",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E06-D02",
+            "text": "Let we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E06-D03",
+            "text": "Let our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G18-E06-D01",
+            "text": "Lets us",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E06-D02",
+            "text": "Let we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E06-D03",
+            "text": "Let our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G18-E06-B01",
+          "G18-E06-B02",
+          "G18-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E06-B01",
+            "G18-E06-B02",
+            "G18-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G18-E06-AUDIO",
+        "text": "Let us take a photo.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G18-E07",
+      "grammarId": "G18",
+      "grammarNameJa": "命令文・勧誘",
+      "english": "Please turn down the music.",
+      "translationJa": "どうぞ音楽の音量を下げてください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Please",
+        "start": 0,
+        "endExclusive": 6,
+        "explanationJa": "動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+      },
+      "sentenceExplanationJa": "「Please turn down the music.」は「どうぞ音楽の音量を下げてください。」という意味です。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。 この文の対象部分は「Please」。まとまりは Please → turn down → the music. の順です。",
+      "glossary": [
+        {
+          "expression": "turn down",
+          "meaningJa": "音量を下げる",
+          "kind": "phrase"
+        },
+        {
+          "expression": "Please",
+          "lemma": "please",
+          "meaningJa": "どうぞ・～してください",
+          "kind": "word"
+        },
+        {
+          "expression": "turn",
+          "lemma": "turn",
+          "meaningJa": "向きを変える・音量などを変える",
+          "kind": "word"
+        },
+        {
+          "expression": "down",
+          "lemma": "down",
+          "meaningJa": "下に・音量を下げて",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "music",
+          "lemma": "music",
+          "meaningJa": "音楽・楽譜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ turn down the music.",
+        "blank": {
+          "start": 0,
+          "endExclusive": 6,
+          "answer": "Please"
+        },
+        "options": [
+          {
+            "id": "G18-E07-C3",
+            "text": "Pleased",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Please」を使います。「Pleased」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E07-C1",
+            "text": "Please",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+          },
+          {
+            "id": "G18-E07-C2",
+            "text": "Pleases",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Please」を使います。「Pleases」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E07-C4",
+            "text": "Pleasing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Please」を使います。「Pleasing」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G18-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G18-E07-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G18-E07-B02",
+            "text": "turn down",
+            "role": "required"
+          },
+          {
+            "id": "G18-E07-B03",
+            "text": "the music.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G18-E07-B01",
+          "G18-E07-B02",
+          "G18-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E07-B01",
+            "G18-E07-B02",
+            "G18-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G18-E07-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G18-E07-B02",
+            "text": "turn down",
+            "role": "required"
+          },
+          {
+            "id": "G18-E07-B03",
+            "text": "the music.",
+            "role": "required"
+          },
+          {
+            "id": "G18-E07-D01",
+            "text": "Pleases",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E07-D02",
+            "text": "Pleased",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E07-D03",
+            "text": "Pleasing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G18-E07-D01",
+            "text": "Pleases",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E07-D02",
+            "text": "Pleased",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E07-D03",
+            "text": "Pleasing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G18-E07-B01",
+          "G18-E07-B02",
+          "G18-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E07-B01",
+            "G18-E07-B02",
+            "G18-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G18-E07-AUDIO",
+        "text": "Please turn down the music.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G18-E08",
+      "grammarId": "G18",
+      "grammarNameJa": "命令文・勧誘",
+      "english": "Do not push other people.",
+      "translationJa": "ほかの人を押してはいけません。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Do not",
+        "start": 0,
+        "endExclusive": 6,
+        "explanationJa": "動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+      },
+      "sentenceExplanationJa": "「Do not push other people.」は「ほかの人を押してはいけません。」という意味です。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。 この文の対象部分は「Do not」。まとまりは Do not → push → other people. の順です。",
+      "glossary": [
+        {
+          "expression": "Do",
+          "lemma": "do",
+          "meaningJa": "する・疑問や否定の助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "not",
+          "lemma": "not",
+          "meaningJa": "～でない・～しない",
+          "kind": "word"
+        },
+        {
+          "expression": "push",
+          "lemma": "push",
+          "meaningJa": "押す",
+          "kind": "word"
+        },
+        {
+          "expression": "other",
+          "lemma": "other",
+          "meaningJa": "ほかの",
+          "kind": "word"
+        },
+        {
+          "expression": "people",
+          "lemma": "people",
+          "meaningJa": "人々",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ push other people.",
+        "blank": {
+          "start": 0,
+          "endExclusive": 6,
+          "answer": "Do not"
+        },
+        "options": [
+          {
+            "id": "G18-E08-C1",
+            "text": "Do not",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+          },
+          {
+            "id": "G18-E08-C2",
+            "text": "Does not",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do not」を使います。「Does not」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E08-C3",
+            "text": "Did not to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do not」を使います。「Did not to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E08-C4",
+            "text": "Not to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Do not」を使います。「Not to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G18-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G18-E08-B01",
+            "text": "Do not",
+            "role": "required"
+          },
+          {
+            "id": "G18-E08-B02",
+            "text": "push",
+            "role": "required"
+          },
+          {
+            "id": "G18-E08-B03",
+            "text": "other people.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G18-E08-B01",
+          "G18-E08-B02",
+          "G18-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E08-B01",
+            "G18-E08-B02",
+            "G18-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G18-E08-B01",
+            "text": "Do not",
+            "role": "required"
+          },
+          {
+            "id": "G18-E08-B02",
+            "text": "push",
+            "role": "required"
+          },
+          {
+            "id": "G18-E08-B03",
+            "text": "other people.",
+            "role": "required"
+          },
+          {
+            "id": "G18-E08-D01",
+            "text": "Does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E08-D02",
+            "text": "Did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E08-D03",
+            "text": "Not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G18-E08-D01",
+            "text": "Does not",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E08-D02",
+            "text": "Did not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E08-D03",
+            "text": "Not to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          },
+          {
+            "id": "G18-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Do not」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G18-E08-B01",
+          "G18-E08-B02",
+          "G18-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E08-B01",
+            "G18-E08-B02",
+            "G18-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G18-E08-AUDIO",
+        "text": "Do not push other people.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G18-E09",
+      "grammarId": "G18",
+      "grammarNameJa": "命令文・勧誘",
+      "english": "Let us check the map.",
+      "translationJa": "地図を確認しましょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Let us",
+        "start": 0,
+        "endExclusive": 6,
+        "explanationJa": "動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+      },
+      "sentenceExplanationJa": "「Let us check the map.」は「地図を確認しましょう。」という意味です。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。 この文の対象部分は「Let us」。まとまりは Let us → check → the map. の順です。",
+      "glossary": [
+        {
+          "expression": "Let",
+          "lemma": "let",
+          "meaningJa": "～させる・許す",
+          "kind": "word"
+        },
+        {
+          "expression": "us",
+          "lemma": "us",
+          "meaningJa": "私たちを・私たちに",
+          "kind": "word"
+        },
+        {
+          "expression": "check",
+          "lemma": "check",
+          "meaningJa": "確認する",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "map",
+          "lemma": "map",
+          "meaningJa": "地図",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ check the map.",
+        "blank": {
+          "start": 0,
+          "endExclusive": 6,
+          "answer": "Let us"
+        },
+        "options": [
+          {
+            "id": "G18-E09-C1",
+            "text": "Let us",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+          },
+          {
+            "id": "G18-E09-C3",
+            "text": "Let we",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Let us」を使います。「Let we」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E09-C2",
+            "text": "Lets us",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Let us」を使います。「Lets us」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E09-C4",
+            "text": "Let our",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Let us」を使います。「Let our」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G18-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G18-E09-B01",
+            "text": "Let us",
+            "role": "required"
+          },
+          {
+            "id": "G18-E09-B02",
+            "text": "check",
+            "role": "required"
+          },
+          {
+            "id": "G18-E09-B03",
+            "text": "the map.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G18-E09-B01",
+          "G18-E09-B02",
+          "G18-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E09-B01",
+            "G18-E09-B02",
+            "G18-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G18-E09-B01",
+            "text": "Let us",
+            "role": "required"
+          },
+          {
+            "id": "G18-E09-B02",
+            "text": "check",
+            "role": "required"
+          },
+          {
+            "id": "G18-E09-B03",
+            "text": "the map.",
+            "role": "required"
+          },
+          {
+            "id": "G18-E09-D01",
+            "text": "Lets us",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E09-D02",
+            "text": "Let we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E09-D03",
+            "text": "Let our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G18-E09-D01",
+            "text": "Lets us",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E09-D02",
+            "text": "Let we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E09-D03",
+            "text": "Let our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          },
+          {
+            "id": "G18-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Let us」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G18-E09-B01",
+          "G18-E09-B02",
+          "G18-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E09-B01",
+            "G18-E09-B02",
+            "G18-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G18-E09-AUDIO",
+        "text": "Let us check the map.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G18-E10",
+      "grammarId": "G18",
+      "grammarNameJa": "命令文・勧誘",
+      "english": "Please enjoy the show.",
+      "translationJa": "どうぞ公演を楽しんでください。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "Please",
+        "start": 0,
+        "endExclusive": 6,
+        "explanationJa": "動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+      },
+      "sentenceExplanationJa": "「Please enjoy the show.」は「どうぞ公演を楽しんでください。」という意味です。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。 この文の対象部分は「Please」。まとまりは Please → enjoy → the show. の順です。",
+      "glossary": [
+        {
+          "expression": "Please",
+          "lemma": "please",
+          "meaningJa": "どうぞ・～してください",
+          "kind": "word"
+        },
+        {
+          "expression": "enjoy",
+          "lemma": "enjoy",
+          "meaningJa": "楽しむ",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "___ enjoy the show.",
+        "blank": {
+          "start": 0,
+          "endExclusive": 6,
+          "answer": "Please"
+        },
+        "options": [
+          {
+            "id": "G18-E10-C1",
+            "text": "Please",
+            "isCorrect": true,
+            "explanationJa": "正解。動詞の原形で指示し、Do notで禁止する。Let usで一緒に行動する提案をする。"
+          },
+          {
+            "id": "G18-E10-C4",
+            "text": "Pleasing",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Please」を使います。「Pleasing」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E10-C3",
+            "text": "Pleased",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Please」を使います。「Pleased」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G18-E10-C2",
+            "text": "Pleases",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「Please」を使います。「Pleases」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G18-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G18-E10-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G18-E10-B02",
+            "text": "enjoy",
+            "role": "required"
+          },
+          {
+            "id": "G18-E10-B03",
+            "text": "the show.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G18-E10-B01",
+          "G18-E10-B02",
+          "G18-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E10-B01",
+            "G18-E10-B02",
+            "G18-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G18-E10-B01",
+            "text": "Please",
+            "role": "required"
+          },
+          {
+            "id": "G18-E10-B02",
+            "text": "enjoy",
+            "role": "required"
+          },
+          {
+            "id": "G18-E10-B03",
+            "text": "the show.",
+            "role": "required"
+          },
+          {
+            "id": "G18-E10-D01",
+            "text": "Pleases",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E10-D02",
+            "text": "Pleased",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E10-D03",
+            "text": "Pleasing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G18-E10-D01",
+            "text": "Pleases",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E10-D02",
+            "text": "Pleased",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E10-D03",
+            "text": "Pleasing",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          },
+          {
+            "id": "G18-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「Please」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G18-E10-B01",
+          "G18-E10-B02",
+          "G18-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G18-E10-B01",
+            "G18-E10-B02",
+            "G18-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G18-E10-AUDIO",
+        "text": "Please enjoy the show.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

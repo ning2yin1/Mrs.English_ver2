@@ -1,0 +1,2153 @@
+{
+  "grammarId": "G05",
+  "examples": [
+    {
+      "id": "G05-E01",
+      "grammarId": "G05",
+      "grammarNameJa": "所有格と所有代名詞",
+      "english": "This is my ticket.",
+      "translationJa": "これは私のチケットです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "my",
+        "start": 8,
+        "endExclusive": 10,
+        "explanationJa": "名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+      },
+      "sentenceExplanationJa": "「This is my ticket.」は「これは私のチケットです。」という意味です。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。 この文の対象部分は「my」。まとまりは This is → my → ticket. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "my",
+          "lemma": "my",
+          "meaningJa": "私の",
+          "kind": "word"
+        },
+        {
+          "expression": "ticket",
+          "lemma": "ticket",
+          "meaningJa": "チケット",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This is ___ ticket.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 10,
+          "answer": "my"
+        },
+        "options": [
+          {
+            "id": "G05-E01-C1",
+            "text": "my",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+          },
+          {
+            "id": "G05-E01-C3",
+            "text": "me",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「my」を使います。「me」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E01-C4",
+            "text": "mine",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「my」を使います。「mine」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E01-C2",
+            "text": "I",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「my」を使います。「I」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G05-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G05-E01-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G05-E01-B02",
+            "text": "my",
+            "role": "required"
+          },
+          {
+            "id": "G05-E01-B03",
+            "text": "ticket.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G05-E01-B01",
+          "G05-E01-B02",
+          "G05-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E01-B01",
+            "G05-E01-B02",
+            "G05-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G05-E01-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G05-E01-B02",
+            "text": "my",
+            "role": "required"
+          },
+          {
+            "id": "G05-E01-B03",
+            "text": "ticket.",
+            "role": "required"
+          },
+          {
+            "id": "G05-E01-D01",
+            "text": "I",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「my」と比較してください。"
+          },
+          {
+            "id": "G05-E01-D02",
+            "text": "me",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「my」と比較してください。"
+          },
+          {
+            "id": "G05-E01-D03",
+            "text": "mine",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「my」と比較してください。"
+          },
+          {
+            "id": "G05-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「my」と比較してください。"
+          },
+          {
+            "id": "G05-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「my」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G05-E01-D01",
+            "text": "I",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「my」と比較してください。"
+          },
+          {
+            "id": "G05-E01-D02",
+            "text": "me",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「my」と比較してください。"
+          },
+          {
+            "id": "G05-E01-D03",
+            "text": "mine",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「my」と比較してください。"
+          },
+          {
+            "id": "G05-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「my」と比較してください。"
+          },
+          {
+            "id": "G05-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「my」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G05-E01-B01",
+          "G05-E01-B02",
+          "G05-E01-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E01-B01",
+            "G05-E01-B02",
+            "G05-E01-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G05-E01-AUDIO",
+        "text": "This is my ticket.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G05-E02",
+      "grammarId": "G05",
+      "grammarNameJa": "所有格と所有代名詞",
+      "english": "That towel is mine.",
+      "translationJa": "あのタオルは私のものです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "mine",
+        "start": 14,
+        "endExclusive": 18,
+        "explanationJa": "名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+      },
+      "sentenceExplanationJa": "「That towel is mine.」は「あのタオルは私のものです。」という意味です。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。 この文の対象部分は「mine」。まとまりは That towel → is → mine. の順です。",
+      "glossary": [
+        {
+          "expression": "That",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "towel",
+          "lemma": "towel",
+          "meaningJa": "タオル",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "mine",
+          "lemma": "mine",
+          "meaningJa": "私のもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "That towel is ___.",
+        "blank": {
+          "start": 14,
+          "endExclusive": 18,
+          "answer": "mine"
+        },
+        "options": [
+          {
+            "id": "G05-E02-C4",
+            "text": "I",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「mine」を使います。「I」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E02-C1",
+            "text": "mine",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+          },
+          {
+            "id": "G05-E02-C2",
+            "text": "my",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「mine」を使います。「my」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E02-C3",
+            "text": "me",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「mine」を使います。「me」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G05-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G05-E02-B01",
+            "text": "That towel",
+            "role": "required"
+          },
+          {
+            "id": "G05-E02-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G05-E02-B03",
+            "text": "mine.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G05-E02-B01",
+          "G05-E02-B02",
+          "G05-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E02-B01",
+            "G05-E02-B02",
+            "G05-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G05-E02-B01",
+            "text": "That towel",
+            "role": "required"
+          },
+          {
+            "id": "G05-E02-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G05-E02-B03",
+            "text": "mine.",
+            "role": "required"
+          },
+          {
+            "id": "G05-E02-D01",
+            "text": "my",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「mine」と比較してください。"
+          },
+          {
+            "id": "G05-E02-D02",
+            "text": "me",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「mine」と比較してください。"
+          },
+          {
+            "id": "G05-E02-D03",
+            "text": "I",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「mine」と比較してください。"
+          },
+          {
+            "id": "G05-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「mine」と比較してください。"
+          },
+          {
+            "id": "G05-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「mine」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G05-E02-D01",
+            "text": "my",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「mine」と比較してください。"
+          },
+          {
+            "id": "G05-E02-D02",
+            "text": "me",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「mine」と比較してください。"
+          },
+          {
+            "id": "G05-E02-D03",
+            "text": "I",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「mine」と比較してください。"
+          },
+          {
+            "id": "G05-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「mine」と比較してください。"
+          },
+          {
+            "id": "G05-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「mine」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G05-E02-B01",
+          "G05-E02-B02",
+          "G05-E02-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E02-B01",
+            "G05-E02-B02",
+            "G05-E02-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G05-E02-AUDIO",
+        "text": "That towel is mine.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G05-E03",
+      "grammarId": "G05",
+      "grammarNameJa": "所有格と所有代名詞",
+      "english": "Is this your bag?",
+      "translationJa": "これはあなたのバッグですか。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "your",
+        "start": 8,
+        "endExclusive": 12,
+        "explanationJa": "名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+      },
+      "sentenceExplanationJa": "「Is this your bag?」は「これはあなたのバッグですか。」という意味です。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。 この文の対象部分は「your」。まとまりは Is this → your → bag? の順です。",
+      "glossary": [
+        {
+          "expression": "Is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "Is this ___ bag?",
+        "blank": {
+          "start": 8,
+          "endExclusive": 12,
+          "answer": "your"
+        },
+        "options": [
+          {
+            "id": "G05-E03-C3",
+            "text": "yours",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「your」を使います。「yours」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E03-C4",
+            "text": "yourself",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「your」を使います。「yourself」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E03-C1",
+            "text": "your",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+          },
+          {
+            "id": "G05-E03-C2",
+            "text": "you",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「your」を使います。「you」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G05-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G05-E03-B01",
+            "text": "Is this",
+            "role": "required"
+          },
+          {
+            "id": "G05-E03-B02",
+            "text": "your",
+            "role": "required"
+          },
+          {
+            "id": "G05-E03-B03",
+            "text": "bag?",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G05-E03-B01",
+          "G05-E03-B02",
+          "G05-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E03-B01",
+            "G05-E03-B02",
+            "G05-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G05-E03-B01",
+            "text": "Is this",
+            "role": "required"
+          },
+          {
+            "id": "G05-E03-B02",
+            "text": "your",
+            "role": "required"
+          },
+          {
+            "id": "G05-E03-B03",
+            "text": "bag?",
+            "role": "required"
+          },
+          {
+            "id": "G05-E03-D01",
+            "text": "you",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「your」と比較してください。"
+          },
+          {
+            "id": "G05-E03-D02",
+            "text": "yours",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「your」と比較してください。"
+          },
+          {
+            "id": "G05-E03-D03",
+            "text": "yourself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「your」と比較してください。"
+          },
+          {
+            "id": "G05-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「your」と比較してください。"
+          },
+          {
+            "id": "G05-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「your」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G05-E03-D01",
+            "text": "you",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「your」と比較してください。"
+          },
+          {
+            "id": "G05-E03-D02",
+            "text": "yours",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「your」と比較してください。"
+          },
+          {
+            "id": "G05-E03-D03",
+            "text": "yourself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「your」と比較してください。"
+          },
+          {
+            "id": "G05-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「your」と比較してください。"
+          },
+          {
+            "id": "G05-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「your」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G05-E03-B01",
+          "G05-E03-B02",
+          "G05-E03-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E03-B01",
+            "G05-E03-B02",
+            "G05-E03-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G05-E03-AUDIO",
+        "text": "Is this your bag?",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G05-E04",
+      "grammarId": "G05",
+      "grammarNameJa": "所有格と所有代名詞",
+      "english": "This seat is yours.",
+      "translationJa": "この席はあなたのものです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "yours",
+        "start": 13,
+        "endExclusive": 18,
+        "explanationJa": "名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+      },
+      "sentenceExplanationJa": "「This seat is yours.」は「この席はあなたのものです。」という意味です。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。 この文の対象部分は「yours」。まとまりは This seat → is → yours. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "seat",
+          "lemma": "seat",
+          "meaningJa": "席",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "yours",
+          "lemma": "yours",
+          "meaningJa": "あなたのもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This seat is ___.",
+        "blank": {
+          "start": 13,
+          "endExclusive": 18,
+          "answer": "yours"
+        },
+        "options": [
+          {
+            "id": "G05-E04-C2",
+            "text": "your",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「yours」を使います。「your」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E04-C4",
+            "text": "yourself",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「yours」を使います。「yourself」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E04-C3",
+            "text": "you",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「yours」を使います。「you」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E04-C1",
+            "text": "yours",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+          }
+        ],
+        "correctOptionId": "G05-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G05-E04-B01",
+            "text": "This seat",
+            "role": "required"
+          },
+          {
+            "id": "G05-E04-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G05-E04-B03",
+            "text": "yours.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G05-E04-B01",
+          "G05-E04-B02",
+          "G05-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E04-B01",
+            "G05-E04-B02",
+            "G05-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G05-E04-B01",
+            "text": "This seat",
+            "role": "required"
+          },
+          {
+            "id": "G05-E04-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G05-E04-B03",
+            "text": "yours.",
+            "role": "required"
+          },
+          {
+            "id": "G05-E04-D01",
+            "text": "your",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「yours」と比較してください。"
+          },
+          {
+            "id": "G05-E04-D02",
+            "text": "you",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「yours」と比較してください。"
+          },
+          {
+            "id": "G05-E04-D03",
+            "text": "yourself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「yours」と比較してください。"
+          },
+          {
+            "id": "G05-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「yours」と比較してください。"
+          },
+          {
+            "id": "G05-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「yours」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G05-E04-D01",
+            "text": "your",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「yours」と比較してください。"
+          },
+          {
+            "id": "G05-E04-D02",
+            "text": "you",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「yours」と比較してください。"
+          },
+          {
+            "id": "G05-E04-D03",
+            "text": "yourself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「yours」と比較してください。"
+          },
+          {
+            "id": "G05-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「yours」と比較してください。"
+          },
+          {
+            "id": "G05-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「yours」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G05-E04-B01",
+          "G05-E04-B02",
+          "G05-E04-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E04-B01",
+            "G05-E04-B02",
+            "G05-E04-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G05-E04-AUDIO",
+        "text": "This seat is yours.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G05-E05",
+      "grammarId": "G05",
+      "grammarNameJa": "所有格と所有代名詞",
+      "english": "I like his guitar.",
+      "translationJa": "私は彼のギターが好きです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "his",
+        "start": 7,
+        "endExclusive": 10,
+        "explanationJa": "名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+      },
+      "sentenceExplanationJa": "「I like his guitar.」は「私は彼のギターが好きです。」という意味です。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。 この文の対象部分は「his」。まとまりは I like → his → guitar. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "like",
+          "lemma": "like",
+          "meaningJa": "好きである",
+          "kind": "word"
+        },
+        {
+          "expression": "his",
+          "lemma": "his",
+          "meaningJa": "彼の・彼のもの",
+          "kind": "word"
+        },
+        {
+          "expression": "guitar",
+          "lemma": "guitar",
+          "meaningJa": "ギター",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I like ___ guitar.",
+        "blank": {
+          "start": 7,
+          "endExclusive": 10,
+          "answer": "his"
+        },
+        "options": [
+          {
+            "id": "G05-E05-C2",
+            "text": "he",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「his」を使います。「he」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E05-C1",
+            "text": "his",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+          },
+          {
+            "id": "G05-E05-C3",
+            "text": "him",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「his」を使います。「him」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E05-C4",
+            "text": "himself",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「his」を使います。「himself」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G05-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G05-E05-B01",
+            "text": "I like",
+            "role": "required"
+          },
+          {
+            "id": "G05-E05-B02",
+            "text": "his",
+            "role": "required"
+          },
+          {
+            "id": "G05-E05-B03",
+            "text": "guitar.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G05-E05-B01",
+          "G05-E05-B02",
+          "G05-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E05-B01",
+            "G05-E05-B02",
+            "G05-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G05-E05-B01",
+            "text": "I like",
+            "role": "required"
+          },
+          {
+            "id": "G05-E05-B02",
+            "text": "his",
+            "role": "required"
+          },
+          {
+            "id": "G05-E05-B03",
+            "text": "guitar.",
+            "role": "required"
+          },
+          {
+            "id": "G05-E05-D01",
+            "text": "he",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「his」と比較してください。"
+          },
+          {
+            "id": "G05-E05-D02",
+            "text": "him",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「his」と比較してください。"
+          },
+          {
+            "id": "G05-E05-D03",
+            "text": "himself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「his」と比較してください。"
+          },
+          {
+            "id": "G05-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「his」と比較してください。"
+          },
+          {
+            "id": "G05-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「his」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G05-E05-D01",
+            "text": "he",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「his」と比較してください。"
+          },
+          {
+            "id": "G05-E05-D02",
+            "text": "him",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「his」と比較してください。"
+          },
+          {
+            "id": "G05-E05-D03",
+            "text": "himself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「his」と比較してください。"
+          },
+          {
+            "id": "G05-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「his」と比較してください。"
+          },
+          {
+            "id": "G05-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「his」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G05-E05-B01",
+          "G05-E05-B02",
+          "G05-E05-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E05-B01",
+            "G05-E05-B02",
+            "G05-E05-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G05-E05-AUDIO",
+        "text": "I like his guitar.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G05-E06",
+      "grammarId": "G05",
+      "grammarNameJa": "所有格と所有代名詞",
+      "english": "We found her phone.",
+      "translationJa": "私たちは彼女の携帯電話を見つけました。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "her",
+        "start": 9,
+        "endExclusive": 12,
+        "explanationJa": "名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+      },
+      "sentenceExplanationJa": "「We found her phone.」は「私たちは彼女の携帯電話を見つけました。」という意味です。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。 この文の対象部分は「her」。まとまりは We found → her → phone. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "found",
+          "lemma": "find",
+          "meaningJa": "見つける（活用形）",
+          "kind": "word"
+        },
+        {
+          "expression": "her",
+          "lemma": "her",
+          "meaningJa": "彼女を・彼女に・彼女の",
+          "kind": "word"
+        },
+        {
+          "expression": "phone",
+          "lemma": "phone",
+          "meaningJa": "携帯電話・電話",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We found ___ phone.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 12,
+          "answer": "her"
+        },
+        "options": [
+          {
+            "id": "G05-E06-C4",
+            "text": "herself",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「her」を使います。「herself」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E06-C2",
+            "text": "she",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「her」を使います。「she」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E06-C1",
+            "text": "her",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+          },
+          {
+            "id": "G05-E06-C3",
+            "text": "hers",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「her」を使います。「hers」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G05-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G05-E06-B01",
+            "text": "We found",
+            "role": "required"
+          },
+          {
+            "id": "G05-E06-B02",
+            "text": "her",
+            "role": "required"
+          },
+          {
+            "id": "G05-E06-B03",
+            "text": "phone.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G05-E06-B01",
+          "G05-E06-B02",
+          "G05-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E06-B01",
+            "G05-E06-B02",
+            "G05-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G05-E06-B01",
+            "text": "We found",
+            "role": "required"
+          },
+          {
+            "id": "G05-E06-B02",
+            "text": "her",
+            "role": "required"
+          },
+          {
+            "id": "G05-E06-B03",
+            "text": "phone.",
+            "role": "required"
+          },
+          {
+            "id": "G05-E06-D01",
+            "text": "she",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G05-E06-D02",
+            "text": "hers",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G05-E06-D03",
+            "text": "herself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G05-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G05-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G05-E06-D01",
+            "text": "she",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G05-E06-D02",
+            "text": "hers",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G05-E06-D03",
+            "text": "herself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G05-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          },
+          {
+            "id": "G05-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「her」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G05-E06-B01",
+          "G05-E06-B02",
+          "G05-E06-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E06-B01",
+            "G05-E06-B02",
+            "G05-E06-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G05-E06-AUDIO",
+        "text": "We found her phone.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G05-E07",
+      "grammarId": "G05",
+      "grammarNameJa": "所有格と所有代名詞",
+      "english": "This is our favorite song.",
+      "translationJa": "これは私たちのお気に入りの曲です。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "our",
+        "start": 8,
+        "endExclusive": 11,
+        "explanationJa": "名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+      },
+      "sentenceExplanationJa": "「This is our favorite song.」は「これは私たちのお気に入りの曲です。」という意味です。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。 この文の対象部分は「our」。まとまりは This is → our → favorite song. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "our",
+          "lemma": "our",
+          "meaningJa": "私たちの",
+          "kind": "word"
+        },
+        {
+          "expression": "favorite",
+          "lemma": "favorite",
+          "meaningJa": "お気に入りの",
+          "kind": "word"
+        },
+        {
+          "expression": "song",
+          "lemma": "song",
+          "meaningJa": "曲・歌",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This is ___ favorite song.",
+        "blank": {
+          "start": 8,
+          "endExclusive": 11,
+          "answer": "our"
+        },
+        "options": [
+          {
+            "id": "G05-E07-C1",
+            "text": "our",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+          },
+          {
+            "id": "G05-E07-C2",
+            "text": "we",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「our」を使います。「we」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E07-C4",
+            "text": "ours",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「our」を使います。「ours」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E07-C3",
+            "text": "us",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「our」を使います。「us」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G05-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G05-E07-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G05-E07-B02",
+            "text": "our",
+            "role": "required"
+          },
+          {
+            "id": "G05-E07-B03",
+            "text": "favorite song.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G05-E07-B01",
+          "G05-E07-B02",
+          "G05-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E07-B01",
+            "G05-E07-B02",
+            "G05-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G05-E07-B01",
+            "text": "This is",
+            "role": "required"
+          },
+          {
+            "id": "G05-E07-B02",
+            "text": "our",
+            "role": "required"
+          },
+          {
+            "id": "G05-E07-B03",
+            "text": "favorite song.",
+            "role": "required"
+          },
+          {
+            "id": "G05-E07-D01",
+            "text": "we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「our」と比較してください。"
+          },
+          {
+            "id": "G05-E07-D02",
+            "text": "us",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「our」と比較してください。"
+          },
+          {
+            "id": "G05-E07-D03",
+            "text": "ours",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「our」と比較してください。"
+          },
+          {
+            "id": "G05-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「our」と比較してください。"
+          },
+          {
+            "id": "G05-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「our」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G05-E07-D01",
+            "text": "we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「our」と比較してください。"
+          },
+          {
+            "id": "G05-E07-D02",
+            "text": "us",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「our」と比較してください。"
+          },
+          {
+            "id": "G05-E07-D03",
+            "text": "ours",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「our」と比較してください。"
+          },
+          {
+            "id": "G05-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「our」と比較してください。"
+          },
+          {
+            "id": "G05-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「our」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G05-E07-B01",
+          "G05-E07-B02",
+          "G05-E07-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E07-B01",
+            "G05-E07-B02",
+            "G05-E07-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G05-E07-AUDIO",
+        "text": "This is our favorite song.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G05-E08",
+      "grammarId": "G05",
+      "grammarNameJa": "所有格と所有代名詞",
+      "english": "The front seats are theirs.",
+      "translationJa": "前の席は彼らのものです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "theirs",
+        "start": 20,
+        "endExclusive": 26,
+        "explanationJa": "名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+      },
+      "sentenceExplanationJa": "「The front seats are theirs.」は「前の席は彼らのものです。」という意味です。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。 この文の対象部分は「theirs」。まとまりは The front seats → are → theirs. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "front",
+          "lemma": "front",
+          "meaningJa": "前の・正面",
+          "kind": "word"
+        },
+        {
+          "expression": "seats",
+          "lemma": "seat",
+          "meaningJa": "席（複数形など）",
+          "kind": "word"
+        },
+        {
+          "expression": "are",
+          "lemma": "are",
+          "meaningJa": "～です・いる（複数やyouに対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "theirs",
+          "lemma": "theirs",
+          "meaningJa": "彼らのもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The front seats are ___.",
+        "blank": {
+          "start": 20,
+          "endExclusive": 26,
+          "answer": "theirs"
+        },
+        "options": [
+          {
+            "id": "G05-E08-C3",
+            "text": "they",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「theirs」を使います。「they」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E08-C4",
+            "text": "them",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「theirs」を使います。「them」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E08-C2",
+            "text": "their",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「theirs」を使います。「their」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E08-C1",
+            "text": "theirs",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+          }
+        ],
+        "correctOptionId": "G05-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G05-E08-B01",
+            "text": "The front seats",
+            "role": "required"
+          },
+          {
+            "id": "G05-E08-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G05-E08-B03",
+            "text": "theirs.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G05-E08-B01",
+          "G05-E08-B02",
+          "G05-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E08-B01",
+            "G05-E08-B02",
+            "G05-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G05-E08-B01",
+            "text": "The front seats",
+            "role": "required"
+          },
+          {
+            "id": "G05-E08-B02",
+            "text": "are",
+            "role": "required"
+          },
+          {
+            "id": "G05-E08-B03",
+            "text": "theirs.",
+            "role": "required"
+          },
+          {
+            "id": "G05-E08-D01",
+            "text": "their",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「theirs」と比較してください。"
+          },
+          {
+            "id": "G05-E08-D02",
+            "text": "they",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「theirs」と比較してください。"
+          },
+          {
+            "id": "G05-E08-D03",
+            "text": "them",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「theirs」と比較してください。"
+          },
+          {
+            "id": "G05-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「theirs」と比較してください。"
+          },
+          {
+            "id": "G05-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「theirs」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G05-E08-D01",
+            "text": "their",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「theirs」と比較してください。"
+          },
+          {
+            "id": "G05-E08-D02",
+            "text": "they",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「theirs」と比較してください。"
+          },
+          {
+            "id": "G05-E08-D03",
+            "text": "them",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「theirs」と比較してください。"
+          },
+          {
+            "id": "G05-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「theirs」と比較してください。"
+          },
+          {
+            "id": "G05-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「theirs」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G05-E08-B01",
+          "G05-E08-B02",
+          "G05-E08-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E08-B01",
+            "G05-E08-B02",
+            "G05-E08-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G05-E08-AUDIO",
+        "text": "The front seats are theirs.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G05-E09",
+      "grammarId": "G05",
+      "grammarNameJa": "所有格と所有代名詞",
+      "english": "This notebook is hers.",
+      "translationJa": "このノートは彼女のものです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "hers",
+        "start": 17,
+        "endExclusive": 21,
+        "explanationJa": "名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+      },
+      "sentenceExplanationJa": "「This notebook is hers.」は「このノートは彼女のものです。」という意味です。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。 この文の対象部分は「hers」。まとまりは This notebook → is → hers. の順です。",
+      "glossary": [
+        {
+          "expression": "This",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "notebook",
+          "lemma": "notebook",
+          "meaningJa": "ノート",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hers",
+          "lemma": "hers",
+          "meaningJa": "彼女のもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "This notebook is ___.",
+        "blank": {
+          "start": 17,
+          "endExclusive": 21,
+          "answer": "hers"
+        },
+        "options": [
+          {
+            "id": "G05-E09-C3",
+            "text": "she",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「hers」を使います。「she」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E09-C1",
+            "text": "hers",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+          },
+          {
+            "id": "G05-E09-C4",
+            "text": "herself",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「hers」を使います。「herself」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E09-C2",
+            "text": "her",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「hers」を使います。「her」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G05-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G05-E09-B01",
+            "text": "This notebook",
+            "role": "required"
+          },
+          {
+            "id": "G05-E09-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G05-E09-B03",
+            "text": "hers.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G05-E09-B01",
+          "G05-E09-B02",
+          "G05-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E09-B01",
+            "G05-E09-B02",
+            "G05-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G05-E09-B01",
+            "text": "This notebook",
+            "role": "required"
+          },
+          {
+            "id": "G05-E09-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G05-E09-B03",
+            "text": "hers.",
+            "role": "required"
+          },
+          {
+            "id": "G05-E09-D01",
+            "text": "her",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hers」と比較してください。"
+          },
+          {
+            "id": "G05-E09-D02",
+            "text": "she",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hers」と比較してください。"
+          },
+          {
+            "id": "G05-E09-D03",
+            "text": "herself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hers」と比較してください。"
+          },
+          {
+            "id": "G05-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hers」と比較してください。"
+          },
+          {
+            "id": "G05-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hers」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G05-E09-D01",
+            "text": "her",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hers」と比較してください。"
+          },
+          {
+            "id": "G05-E09-D02",
+            "text": "she",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hers」と比較してください。"
+          },
+          {
+            "id": "G05-E09-D03",
+            "text": "herself",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hers」と比較してください。"
+          },
+          {
+            "id": "G05-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hers」と比較してください。"
+          },
+          {
+            "id": "G05-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「hers」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G05-E09-B01",
+          "G05-E09-B02",
+          "G05-E09-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E09-B01",
+            "G05-E09-B02",
+            "G05-E09-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G05-E09-AUDIO",
+        "text": "This notebook is hers.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G05-E10",
+      "grammarId": "G05",
+      "grammarNameJa": "所有格と所有代名詞",
+      "english": "That little flag is ours.",
+      "translationJa": "あの小さな旗は私たちのものです。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "ours",
+        "start": 20,
+        "endExclusive": 24,
+        "explanationJa": "名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+      },
+      "sentenceExplanationJa": "「That little flag is ours.」は「あの小さな旗は私たちのものです。」という意味です。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。 この文の対象部分は「ours」。まとまりは That little flag → is → ours. の順です。",
+      "glossary": [
+        {
+          "expression": "That",
+          "lemma": "that",
+          "meaningJa": "あれ・その／接続詞・関係代名詞",
+          "kind": "word"
+        },
+        {
+          "expression": "little",
+          "lemma": "little",
+          "meaningJa": "小さな・幼い",
+          "kind": "word"
+        },
+        {
+          "expression": "flag",
+          "lemma": "flag",
+          "meaningJa": "旗",
+          "kind": "word"
+        },
+        {
+          "expression": "is",
+          "lemma": "is",
+          "meaningJa": "～です・いる（単数に対応するbe動詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "ours",
+          "lemma": "ours",
+          "meaningJa": "私たちのもの",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "That little flag is ___.",
+        "blank": {
+          "start": 20,
+          "endExclusive": 24,
+          "answer": "ours"
+        },
+        "options": [
+          {
+            "id": "G05-E10-C4",
+            "text": "us",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「ours」を使います。「us」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E10-C1",
+            "text": "ours",
+            "isCorrect": true,
+            "explanationJa": "正解。名詞の前にはmy・yourなどの所有格、単独ではmine・yoursなどの所有代名詞を使う。"
+          },
+          {
+            "id": "G05-E10-C2",
+            "text": "our",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「ours」を使います。「our」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G05-E10-C3",
+            "text": "we",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「ours」を使います。「we」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G05-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G05-E10-B01",
+            "text": "That little flag",
+            "role": "required"
+          },
+          {
+            "id": "G05-E10-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G05-E10-B03",
+            "text": "ours.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G05-E10-B01",
+          "G05-E10-B02",
+          "G05-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E10-B01",
+            "G05-E10-B02",
+            "G05-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G05-E10-B01",
+            "text": "That little flag",
+            "role": "required"
+          },
+          {
+            "id": "G05-E10-B02",
+            "text": "is",
+            "role": "required"
+          },
+          {
+            "id": "G05-E10-B03",
+            "text": "ours.",
+            "role": "required"
+          },
+          {
+            "id": "G05-E10-D01",
+            "text": "our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ours」と比較してください。"
+          },
+          {
+            "id": "G05-E10-D02",
+            "text": "we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ours」と比較してください。"
+          },
+          {
+            "id": "G05-E10-D03",
+            "text": "us",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ours」と比較してください。"
+          },
+          {
+            "id": "G05-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ours」と比較してください。"
+          },
+          {
+            "id": "G05-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ours」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G05-E10-D01",
+            "text": "our",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ours」と比較してください。"
+          },
+          {
+            "id": "G05-E10-D02",
+            "text": "we",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ours」と比較してください。"
+          },
+          {
+            "id": "G05-E10-D03",
+            "text": "us",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ours」と比較してください。"
+          },
+          {
+            "id": "G05-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ours」と比較してください。"
+          },
+          {
+            "id": "G05-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「ours」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G05-E10-B01",
+          "G05-E10-B02",
+          "G05-E10-B03"
+        ],
+        "acceptedOrders": [
+          [
+            "G05-E10-B01",
+            "G05-E10-B02",
+            "G05-E10-B03"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G05-E10-AUDIO",
+        "text": "That little flag is ours.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}

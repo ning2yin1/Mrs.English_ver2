@@ -1,0 +1,2377 @@
+{
+  "grammarId": "G28",
+  "examples": [
+    {
+      "id": "G28-E01",
+      "grammarId": "G28",
+      "grammarNameJa": "willによる未来・意志",
+      "english": "I will call you tonight.",
+      "translationJa": "私は今夜あなたに電話します。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "will",
+        "start": 2,
+        "endExclusive": 6,
+        "explanationJa": "will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+      },
+      "sentenceExplanationJa": "「I will call you tonight.」は「私は今夜あなたに電話します。」という意味です。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。 この文の対象部分は「will」。まとまりは I → will → call you → tonight. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "call",
+          "lemma": "call",
+          "meaningJa": "呼ぶ・電話する",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "tonight",
+          "lemma": "tonight",
+          "meaningJa": "今夜",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ call you tonight.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 6,
+          "answer": "will"
+        },
+        "options": [
+          {
+            "id": "G28-E01-C3",
+            "text": "will be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E01-C1",
+            "text": "will",
+            "isCorrect": true,
+            "explanationJa": "正解。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+          },
+          {
+            "id": "G28-E01-C2",
+            "text": "will to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E01-C4",
+            "text": "will have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will have」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G28-E01-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G28-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G28-E01-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E01-B03",
+            "text": "call you",
+            "role": "required"
+          },
+          {
+            "id": "G28-E01-B04",
+            "text": "tonight.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G28-E01-B01",
+          "G28-E01-B02",
+          "G28-E01-B03",
+          "G28-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E01-B01",
+            "G28-E01-B02",
+            "G28-E01-B03",
+            "G28-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G28-E01-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G28-E01-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E01-B03",
+            "text": "call you",
+            "role": "required"
+          },
+          {
+            "id": "G28-E01-B04",
+            "text": "tonight.",
+            "role": "required"
+          },
+          {
+            "id": "G28-E01-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E01-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E01-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G28-E01-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E01-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E01-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E01-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E01-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G28-E01-B01",
+          "G28-E01-B02",
+          "G28-E01-B03",
+          "G28-E01-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E01-B01",
+            "G28-E01-B02",
+            "G28-E01-B03",
+            "G28-E01-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G28-E01-AUDIO",
+        "text": "I will call you tonight.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G28-E02",
+      "grammarId": "G28",
+      "grammarNameJa": "willによる未来・意志",
+      "english": "We will see you at the hall.",
+      "translationJa": "私たちは会場であなたに会うでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "will",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+      },
+      "sentenceExplanationJa": "「We will see you at the hall.」は「私たちは会場であなたに会うでしょう。」という意味です。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。 この文の対象部分は「will」。まとまりは We → will → see you → at the hall. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "see",
+          "lemma": "see",
+          "meaningJa": "見る・見える",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "at",
+          "lemma": "at",
+          "meaningJa": "～で・～に（時刻や地点）",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "hall",
+          "lemma": "hall",
+          "meaningJa": "会場・ホール",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ see you at the hall.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "will"
+        },
+        "options": [
+          {
+            "id": "G28-E02-C2",
+            "text": "will to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E02-C4",
+            "text": "will have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E02-C1",
+            "text": "will",
+            "isCorrect": true,
+            "explanationJa": "正解。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+          },
+          {
+            "id": "G28-E02-C3",
+            "text": "will be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G28-E02-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G28-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G28-E02-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E02-B03",
+            "text": "see you",
+            "role": "required"
+          },
+          {
+            "id": "G28-E02-B04",
+            "text": "at the hall.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G28-E02-B01",
+          "G28-E02-B02",
+          "G28-E02-B03",
+          "G28-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E02-B01",
+            "G28-E02-B02",
+            "G28-E02-B03",
+            "G28-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G28-E02-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G28-E02-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E02-B03",
+            "text": "see you",
+            "role": "required"
+          },
+          {
+            "id": "G28-E02-B04",
+            "text": "at the hall.",
+            "role": "required"
+          },
+          {
+            "id": "G28-E02-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E02-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E02-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G28-E02-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E02-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E02-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E02-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E02-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G28-E02-B01",
+          "G28-E02-B02",
+          "G28-E02-B03",
+          "G28-E02-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E02-B01",
+            "G28-E02-B02",
+            "G28-E02-B03",
+            "G28-E02-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G28-E02-AUDIO",
+        "text": "We will see you at the hall.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G28-E03",
+      "grammarId": "G28",
+      "grammarNameJa": "willによる未来・意志",
+      "english": "She will be happy to hear this.",
+      "translationJa": "彼女はこれを聞いて喜ぶでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "will",
+        "start": 4,
+        "endExclusive": 8,
+        "explanationJa": "will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+      },
+      "sentenceExplanationJa": "「She will be happy to hear this.」は「彼女はこれを聞いて喜ぶでしょう。」という意味です。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。 この文の対象部分は「will」。まとまりは She → will → be happy → to hear this. の順です。",
+      "glossary": [
+        {
+          "expression": "She",
+          "lemma": "she",
+          "meaningJa": "彼女は・彼女が",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "be",
+          "lemma": "be",
+          "meaningJa": "～である・いる（原形）",
+          "kind": "word"
+        },
+        {
+          "expression": "happy",
+          "lemma": "happy",
+          "meaningJa": "うれしい・幸せな",
+          "kind": "word"
+        },
+        {
+          "expression": "to",
+          "lemma": "to",
+          "meaningJa": "～へ／不定詞のto",
+          "kind": "word"
+        },
+        {
+          "expression": "hear",
+          "lemma": "hear",
+          "meaningJa": "聞こえる・聞く",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "She ___ be happy to hear this.",
+        "blank": {
+          "start": 4,
+          "endExclusive": 8,
+          "answer": "will"
+        },
+        "options": [
+          {
+            "id": "G28-E03-C3",
+            "text": "will be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E03-C2",
+            "text": "will to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E03-C1",
+            "text": "will",
+            "isCorrect": true,
+            "explanationJa": "正解。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+          },
+          {
+            "id": "G28-E03-C4",
+            "text": "will have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will have」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G28-E03-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G28-E03-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G28-E03-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E03-B03",
+            "text": "be happy",
+            "role": "required"
+          },
+          {
+            "id": "G28-E03-B04",
+            "text": "to hear this.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G28-E03-B01",
+          "G28-E03-B02",
+          "G28-E03-B03",
+          "G28-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E03-B01",
+            "G28-E03-B02",
+            "G28-E03-B03",
+            "G28-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G28-E03-B01",
+            "text": "She",
+            "role": "required"
+          },
+          {
+            "id": "G28-E03-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E03-B03",
+            "text": "be happy",
+            "role": "required"
+          },
+          {
+            "id": "G28-E03-B04",
+            "text": "to hear this.",
+            "role": "required"
+          },
+          {
+            "id": "G28-E03-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E03-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E03-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G28-E03-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E03-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E03-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E03-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E03-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G28-E03-B01",
+          "G28-E03-B02",
+          "G28-E03-B03",
+          "G28-E03-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E03-B01",
+            "G28-E03-B02",
+            "G28-E03-B03",
+            "G28-E03-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G28-E03-AUDIO",
+        "text": "She will be happy to hear this.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G28-E04",
+      "grammarId": "G28",
+      "grammarNameJa": "willによる未来・意志",
+      "english": "I will help you with your bag.",
+      "translationJa": "私はあなたのバッグを持つのを手伝います。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "will",
+        "start": 2,
+        "endExclusive": 6,
+        "explanationJa": "will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+      },
+      "sentenceExplanationJa": "「I will help you with your bag.」は「私はあなたのバッグを持つのを手伝います。」という意味です。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。 この文の対象部分は「will」。まとまりは I → will → help you → with your bag. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "help",
+          "lemma": "help",
+          "meaningJa": "助ける・手伝う",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "with",
+          "lemma": "with",
+          "meaningJa": "～と一緒に・～で",
+          "kind": "word"
+        },
+        {
+          "expression": "your",
+          "lemma": "your",
+          "meaningJa": "あなたの",
+          "kind": "word"
+        },
+        {
+          "expression": "bag",
+          "lemma": "bag",
+          "meaningJa": "バッグ・かばん",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ help you with your bag.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 6,
+          "answer": "will"
+        },
+        "options": [
+          {
+            "id": "G28-E04-C1",
+            "text": "will",
+            "isCorrect": true,
+            "explanationJa": "正解。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+          },
+          {
+            "id": "G28-E04-C3",
+            "text": "will be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E04-C4",
+            "text": "will have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E04-C2",
+            "text": "will to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will to」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G28-E04-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G28-E04-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G28-E04-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E04-B03",
+            "text": "help you",
+            "role": "required"
+          },
+          {
+            "id": "G28-E04-B04",
+            "text": "with your bag.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G28-E04-B01",
+          "G28-E04-B02",
+          "G28-E04-B03",
+          "G28-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E04-B01",
+            "G28-E04-B02",
+            "G28-E04-B03",
+            "G28-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G28-E04-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G28-E04-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E04-B03",
+            "text": "help you",
+            "role": "required"
+          },
+          {
+            "id": "G28-E04-B04",
+            "text": "with your bag.",
+            "role": "required"
+          },
+          {
+            "id": "G28-E04-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E04-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E04-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G28-E04-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E04-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E04-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E04-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E04-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G28-E04-B01",
+          "G28-E04-B02",
+          "G28-E04-B03",
+          "G28-E04-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E04-B01",
+            "G28-E04-B02",
+            "G28-E04-B03",
+            "G28-E04-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G28-E04-AUDIO",
+        "text": "I will help you with your bag.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G28-E05",
+      "grammarId": "G28",
+      "grammarNameJa": "willによる未来・意志",
+      "english": "The show will start soon.",
+      "translationJa": "公演はもうすぐ始まるでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "will",
+        "start": 9,
+        "endExclusive": 13,
+        "explanationJa": "will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+      },
+      "sentenceExplanationJa": "「The show will start soon.」は「公演はもうすぐ始まるでしょう。」という意味です。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。 この文の対象部分は「will」。まとまりは The show → will → start → soon. の順です。",
+      "glossary": [
+        {
+          "expression": "The",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "show",
+          "lemma": "show",
+          "meaningJa": "公演・見せる",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "start",
+          "lemma": "start",
+          "meaningJa": "始まる・始める",
+          "kind": "word"
+        },
+        {
+          "expression": "soon",
+          "lemma": "soon",
+          "meaningJa": "もうすぐ",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "The show ___ start soon.",
+        "blank": {
+          "start": 9,
+          "endExclusive": 13,
+          "answer": "will"
+        },
+        "options": [
+          {
+            "id": "G28-E05-C2",
+            "text": "will to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E05-C4",
+            "text": "will have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E05-C3",
+            "text": "will be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E05-C1",
+            "text": "will",
+            "isCorrect": true,
+            "explanationJa": "正解。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+          }
+        ],
+        "correctOptionId": "G28-E05-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G28-E05-B01",
+            "text": "The show",
+            "role": "required"
+          },
+          {
+            "id": "G28-E05-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E05-B03",
+            "text": "start",
+            "role": "required"
+          },
+          {
+            "id": "G28-E05-B04",
+            "text": "soon.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G28-E05-B01",
+          "G28-E05-B02",
+          "G28-E05-B03",
+          "G28-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E05-B01",
+            "G28-E05-B02",
+            "G28-E05-B03",
+            "G28-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G28-E05-B01",
+            "text": "The show",
+            "role": "required"
+          },
+          {
+            "id": "G28-E05-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E05-B03",
+            "text": "start",
+            "role": "required"
+          },
+          {
+            "id": "G28-E05-B04",
+            "text": "soon.",
+            "role": "required"
+          },
+          {
+            "id": "G28-E05-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E05-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E05-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G28-E05-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E05-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E05-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E05-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E05-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G28-E05-B01",
+          "G28-E05-B02",
+          "G28-E05-B03",
+          "G28-E05-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E05-B01",
+            "G28-E05-B02",
+            "G28-E05-B03",
+            "G28-E05-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G28-E05-AUDIO",
+        "text": "The show will start soon.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G28-E06",
+      "grammarId": "G28",
+      "grammarNameJa": "willによる未来・意志",
+      "english": "He will send you the photo.",
+      "translationJa": "彼はあなたにその写真を送るでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "will",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+      },
+      "sentenceExplanationJa": "「He will send you the photo.」は「彼はあなたにその写真を送るでしょう。」という意味です。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。 この文の対象部分は「will」。まとまりは He → will → send you → the photo. の順です。",
+      "glossary": [
+        {
+          "expression": "He",
+          "lemma": "he",
+          "meaningJa": "彼は・彼が",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "send",
+          "lemma": "send",
+          "meaningJa": "送る",
+          "kind": "word"
+        },
+        {
+          "expression": "you",
+          "lemma": "you",
+          "meaningJa": "あなたは・あなたを",
+          "kind": "word"
+        },
+        {
+          "expression": "the",
+          "lemma": "the",
+          "meaningJa": "その（特定する定冠詞）",
+          "kind": "word"
+        },
+        {
+          "expression": "photo",
+          "lemma": "photo",
+          "meaningJa": "写真",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "He ___ send you the photo.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "will"
+        },
+        "options": [
+          {
+            "id": "G28-E06-C2",
+            "text": "will to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E06-C1",
+            "text": "will",
+            "isCorrect": true,
+            "explanationJa": "正解。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+          },
+          {
+            "id": "G28-E06-C3",
+            "text": "will be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E06-C4",
+            "text": "will have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will have」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G28-E06-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G28-E06-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G28-E06-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E06-B03",
+            "text": "send you",
+            "role": "required"
+          },
+          {
+            "id": "G28-E06-B04",
+            "text": "the photo.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G28-E06-B01",
+          "G28-E06-B02",
+          "G28-E06-B03",
+          "G28-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E06-B01",
+            "G28-E06-B02",
+            "G28-E06-B03",
+            "G28-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G28-E06-B01",
+            "text": "He",
+            "role": "required"
+          },
+          {
+            "id": "G28-E06-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E06-B03",
+            "text": "send you",
+            "role": "required"
+          },
+          {
+            "id": "G28-E06-B04",
+            "text": "the photo.",
+            "role": "required"
+          },
+          {
+            "id": "G28-E06-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E06-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E06-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G28-E06-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E06-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E06-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E06-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E06-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G28-E06-B01",
+          "G28-E06-B02",
+          "G28-E06-B03",
+          "G28-E06-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E06-B01",
+            "G28-E06-B02",
+            "G28-E06-B03",
+            "G28-E06-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G28-E06-AUDIO",
+        "text": "He will send you the photo.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G28-E07",
+      "grammarId": "G28",
+      "grammarNameJa": "willによる未来・意志",
+      "english": "They will remember this day.",
+      "translationJa": "彼らはこの日を覚えているでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "will",
+        "start": 5,
+        "endExclusive": 9,
+        "explanationJa": "will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+      },
+      "sentenceExplanationJa": "「They will remember this day.」は「彼らはこの日を覚えているでしょう。」という意味です。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。 この文の対象部分は「will」。まとまりは They → will → remember → this day. の順です。",
+      "glossary": [
+        {
+          "expression": "They",
+          "lemma": "they",
+          "meaningJa": "彼らは・それらは",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "remember",
+          "lemma": "remember",
+          "meaningJa": "覚えている",
+          "kind": "word"
+        },
+        {
+          "expression": "this",
+          "lemma": "this",
+          "meaningJa": "これ・この",
+          "kind": "word"
+        },
+        {
+          "expression": "day",
+          "lemma": "day",
+          "meaningJa": "日・一日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "They ___ remember this day.",
+        "blank": {
+          "start": 5,
+          "endExclusive": 9,
+          "answer": "will"
+        },
+        "options": [
+          {
+            "id": "G28-E07-C1",
+            "text": "will",
+            "isCorrect": true,
+            "explanationJa": "正解。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+          },
+          {
+            "id": "G28-E07-C2",
+            "text": "will to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E07-C4",
+            "text": "will have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E07-C3",
+            "text": "will be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will be」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G28-E07-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G28-E07-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G28-E07-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E07-B03",
+            "text": "remember",
+            "role": "required"
+          },
+          {
+            "id": "G28-E07-B04",
+            "text": "this day.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G28-E07-B01",
+          "G28-E07-B02",
+          "G28-E07-B03",
+          "G28-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E07-B01",
+            "G28-E07-B02",
+            "G28-E07-B03",
+            "G28-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G28-E07-B01",
+            "text": "They",
+            "role": "required"
+          },
+          {
+            "id": "G28-E07-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E07-B03",
+            "text": "remember",
+            "role": "required"
+          },
+          {
+            "id": "G28-E07-B04",
+            "text": "this day.",
+            "role": "required"
+          },
+          {
+            "id": "G28-E07-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E07-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E07-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G28-E07-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E07-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E07-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E07-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E07-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G28-E07-B01",
+          "G28-E07-B02",
+          "G28-E07-B03",
+          "G28-E07-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E07-B01",
+            "G28-E07-B02",
+            "G28-E07-B03",
+            "G28-E07-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G28-E07-AUDIO",
+        "text": "They will remember this day.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G28-E08",
+      "grammarId": "G28",
+      "grammarNameJa": "willによる未来・意志",
+      "english": "I will save more money.",
+      "translationJa": "私はもっとお金を貯めます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "will",
+        "start": 2,
+        "endExclusive": 6,
+        "explanationJa": "will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+      },
+      "sentenceExplanationJa": "「I will save more money.」は「私はもっとお金を貯めます。」という意味です。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。 この文の対象部分は「will」。まとまりは I → will → save → more money. の順です。",
+      "glossary": [
+        {
+          "expression": "I",
+          "lemma": "i",
+          "meaningJa": "私は・私が",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "save",
+          "lemma": "save",
+          "meaningJa": "貯める・保存する",
+          "kind": "word"
+        },
+        {
+          "expression": "more",
+          "lemma": "more",
+          "meaningJa": "もっと・より多くの",
+          "kind": "word"
+        },
+        {
+          "expression": "money",
+          "lemma": "money",
+          "meaningJa": "お金",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "I ___ save more money.",
+        "blank": {
+          "start": 2,
+          "endExclusive": 6,
+          "answer": "will"
+        },
+        "options": [
+          {
+            "id": "G28-E08-C4",
+            "text": "will have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E08-C3",
+            "text": "will be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E08-C2",
+            "text": "will to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E08-C1",
+            "text": "will",
+            "isCorrect": true,
+            "explanationJa": "正解。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+          }
+        ],
+        "correctOptionId": "G28-E08-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G28-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G28-E08-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E08-B03",
+            "text": "save",
+            "role": "required"
+          },
+          {
+            "id": "G28-E08-B04",
+            "text": "more money.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G28-E08-B01",
+          "G28-E08-B02",
+          "G28-E08-B03",
+          "G28-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E08-B01",
+            "G28-E08-B02",
+            "G28-E08-B03",
+            "G28-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G28-E08-B01",
+            "text": "I",
+            "role": "required"
+          },
+          {
+            "id": "G28-E08-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E08-B03",
+            "text": "save",
+            "role": "required"
+          },
+          {
+            "id": "G28-E08-B04",
+            "text": "more money.",
+            "role": "required"
+          },
+          {
+            "id": "G28-E08-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E08-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E08-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G28-E08-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E08-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E08-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E08-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E08-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G28-E08-B01",
+          "G28-E08-B02",
+          "G28-E08-B03",
+          "G28-E08-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E08-B01",
+            "G28-E08-B02",
+            "G28-E08-B03",
+            "G28-E08-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G28-E08-AUDIO",
+        "text": "I will save more money.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G28-E09",
+      "grammarId": "G28",
+      "grammarNameJa": "willによる未来・意志",
+      "english": "It will rain tomorrow.",
+      "translationJa": "明日は雨が降るでしょう。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "will",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+      },
+      "sentenceExplanationJa": "「It will rain tomorrow.」は「明日は雨が降るでしょう。」という意味です。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。 この文の対象部分は「will」。まとまりは It → will → rain → tomorrow. の順です。",
+      "glossary": [
+        {
+          "expression": "It",
+          "lemma": "it",
+          "meaningJa": "それは・それを／形式主語",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "rain",
+          "lemma": "rain",
+          "meaningJa": "雨・雨が降る",
+          "kind": "word"
+        },
+        {
+          "expression": "tomorrow",
+          "lemma": "tomorrow",
+          "meaningJa": "明日",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "It ___ rain tomorrow.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "will"
+        },
+        "options": [
+          {
+            "id": "G28-E09-C4",
+            "text": "will have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will have」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E09-C2",
+            "text": "will to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E09-C3",
+            "text": "will be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E09-C1",
+            "text": "will",
+            "isCorrect": true,
+            "explanationJa": "正解。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+          }
+        ],
+        "correctOptionId": "G28-E09-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G28-E09-B01",
+            "text": "It",
+            "role": "required"
+          },
+          {
+            "id": "G28-E09-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E09-B03",
+            "text": "rain",
+            "role": "required"
+          },
+          {
+            "id": "G28-E09-B04",
+            "text": "tomorrow.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G28-E09-B01",
+          "G28-E09-B02",
+          "G28-E09-B03",
+          "G28-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E09-B01",
+            "G28-E09-B02",
+            "G28-E09-B03",
+            "G28-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G28-E09-B01",
+            "text": "It",
+            "role": "required"
+          },
+          {
+            "id": "G28-E09-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E09-B03",
+            "text": "rain",
+            "role": "required"
+          },
+          {
+            "id": "G28-E09-B04",
+            "text": "tomorrow.",
+            "role": "required"
+          },
+          {
+            "id": "G28-E09-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E09-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E09-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G28-E09-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E09-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E09-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E09-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E09-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G28-E09-B01",
+          "G28-E09-B02",
+          "G28-E09-B03",
+          "G28-E09-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E09-B01",
+            "G28-E09-B02",
+            "G28-E09-B03",
+            "G28-E09-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G28-E09-AUDIO",
+        "text": "It will rain tomorrow.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    },
+    {
+      "id": "G28-E10",
+      "grammarId": "G28",
+      "grammarNameJa": "willによる未来・意志",
+      "english": "We will come back next year.",
+      "translationJa": "私たちは来年また来ます。",
+      "fictionalScenario": true,
+      "grammarFocus": {
+        "text": "will",
+        "start": 3,
+        "endExclusive": 7,
+        "explanationJa": "will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+      },
+      "sentenceExplanationJa": "「We will come back next year.」は「私たちは来年また来ます。」という意味です。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。 この文の対象部分は「will」。まとまりは We → will → come back → next year. の順です。",
+      "glossary": [
+        {
+          "expression": "We",
+          "lemma": "we",
+          "meaningJa": "私たちは・私たちが",
+          "kind": "word"
+        },
+        {
+          "expression": "will",
+          "lemma": "will",
+          "meaningJa": "未来や意志を表す助動詞",
+          "kind": "word"
+        },
+        {
+          "expression": "come",
+          "lemma": "come",
+          "meaningJa": "来る",
+          "kind": "word"
+        },
+        {
+          "expression": "back",
+          "lemma": "back",
+          "meaningJa": "戻って",
+          "kind": "word"
+        },
+        {
+          "expression": "next",
+          "lemma": "next",
+          "meaningJa": "次の",
+          "kind": "word"
+        },
+        {
+          "expression": "year",
+          "lemma": "year",
+          "meaningJa": "年・1年間",
+          "kind": "word"
+        }
+      ],
+      "easy": {
+        "prompt": "We ___ come back next year.",
+        "blank": {
+          "start": 3,
+          "endExclusive": 7,
+          "answer": "will"
+        },
+        "options": [
+          {
+            "id": "G28-E10-C3",
+            "text": "will be",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will be」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E10-C1",
+            "text": "will",
+            "isCorrect": true,
+            "explanationJa": "正解。will＋動詞の原形で予測や意志を表す。willの形は主語で変わらない。"
+          },
+          {
+            "id": "G28-E10-C2",
+            "text": "will to",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will to」では主語・語形・語順または意味が一致しません。"
+          },
+          {
+            "id": "G28-E10-C4",
+            "text": "will have",
+            "isCorrect": false,
+            "explanationJa": "この和訳と指定の文法では「will」を使います。「will have」では主語・語形・語順または意味が一致しません。"
+          }
+        ],
+        "correctOptionId": "G28-E10-C1"
+      },
+      "normal": {
+        "blocks": [
+          {
+            "id": "G28-E10-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G28-E10-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E10-B03",
+            "text": "come back",
+            "role": "required"
+          },
+          {
+            "id": "G28-E10-B04",
+            "text": "next year.",
+            "role": "required"
+          }
+        ],
+        "correctOrder": [
+          "G28-E10-B01",
+          "G28-E10-B02",
+          "G28-E10-B03",
+          "G28-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E10-B01",
+            "G28-E10-B02",
+            "G28-E10-B03",
+            "G28-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。"
+      },
+      "hard": {
+        "blocks": [
+          {
+            "id": "G28-E10-B01",
+            "text": "We",
+            "role": "required"
+          },
+          {
+            "id": "G28-E10-B02",
+            "text": "will",
+            "role": "required"
+          },
+          {
+            "id": "G28-E10-B03",
+            "text": "come back",
+            "role": "required"
+          },
+          {
+            "id": "G28-E10-B04",
+            "text": "next year.",
+            "role": "required"
+          },
+          {
+            "id": "G28-E10-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E10-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E10-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "distractorBlocks": [
+          {
+            "id": "G28-E10-D01",
+            "text": "will to",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E10-D02",
+            "text": "will be",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E10-D03",
+            "text": "will have",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E10-D04",
+            "text": "does",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          },
+          {
+            "id": "G28-E10-D05",
+            "text": "did",
+            "role": "distractor",
+            "reasonJa": "指定された和訳・学習文法と基本語順に一致しない形です。正解部分「will」と比較してください。"
+          }
+        ],
+        "correctOrder": [
+          "G28-E10-B01",
+          "G28-E10-B02",
+          "G28-E10-B03",
+          "G28-E10-B04"
+        ],
+        "acceptedOrders": [
+          [
+            "G28-E10-B01",
+            "G28-E10-B02",
+            "G28-E10-B03",
+            "G28-E10-B04"
+          ]
+        ],
+        "instructionJa": "主語から始まる基本語順で並べてください。疑問文・命令文・感嘆文は学習した型にし、時・場所の語句は指定の末尾順に置きます。関係詞や接続詞は表示されたブロックを使います。 不要なブロックは残してください。"
+      },
+      "audio": {
+        "id": "G28-E10-AUDIO",
+        "text": "We will come back next year.",
+        "lang": "en-US",
+        "rate": 0.9,
+        "pitch": 1.0,
+        "preRecordedPath": null
+      },
+      "review": {
+        "editorialScope": "和訳と指定文法を基準に執筆・見直し。並び替えは提示された句ブロックと基本語順を指定する課題。自由英作文の正誤判定ではない。"
+      }
+    }
+  ]
+}
